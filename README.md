@@ -17,6 +17,24 @@ fresh data over the Internet. You can import it like so:
 import tokens from 'rainbow-token-list/output/rainbow-token-list.json';
 ```
 
+### Library interface
+```ts
+/**
+ * @module src/lib/build.ts
+ * 
+ * Parses various pieces of data (contract lists, local property overrides, data
+ * sources, etc.) and returns the Token List.
+ */
+async function build(): Token[] {}
+/**
+ * @module src/lib/write.ts
+ * 
+ * Calls `build()` and writes the Token List to disk at
+ * output/rainbow-token-list.json.
+ */
+async function write(): void {}
+```
+
 ### Notes
 
 - If you get a `zlib: unexpected end of file` error when building, run `yarn clean`.
