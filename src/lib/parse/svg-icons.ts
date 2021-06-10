@@ -1,9 +1,15 @@
+/**
+ * @fileoverview
+ * This file uses fs.readdir in a pure JS Git context, so it relies on
+ * graceful-fs to prevent EMFILE errors in serverless environments.
+ */
+
 import getSVGColors from 'get-svg-colors';
 import compact from 'lodash/compact';
 import unionBy from 'lodash/unionBy';
 import makeColorMoreChill from 'make-color-more-chill';
 
-import { promises as fs } from 'fs';
+import { promises as fs } from 'graceful-fs';
 import { tmpdir } from 'os';
 import { resolve } from 'path';
 import { parseJsonFile } from './parser';

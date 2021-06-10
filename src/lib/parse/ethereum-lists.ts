@@ -1,8 +1,14 @@
+/**
+ * @fileoverview
+ * This file uses fs.readdir in a pure JS Git context, so it relies on
+ * graceful-fs to prevent EMFILE errors in serverless environments.
+ */
+
 import filter from 'lodash/filter';
 import matchesProperty from 'lodash/matchesProperty';
 import partition from 'lodash/partition';
 
-import { promises as fs } from 'fs';
+import { promises as fs } from 'graceful-fs';
 import { resolve } from 'path';
 
 import {
