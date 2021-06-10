@@ -24,6 +24,9 @@ import tokens from 'rainbow-token-list/output/rainbow-token-list.json';
  * 
  * Parses various pieces of data (contract lists, local property overrides, data
  * sources, etc.) and returns the Token List.
+ * 
+ * The parser, and therefore also this function, rely on Git. We use
+ * isometric-git to avoid needing the Git binary.
  */
 async function build(): Token[] {}
 /**

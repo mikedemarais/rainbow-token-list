@@ -26,21 +26,25 @@ function normalizeList(list: any[]) {
 }
 
 export async function build(): Promise<Token[]> {
-  const p1 = parseContractMap();
-  const p2 = parseEthereumLists();
-  const p3 = parseOverrideFile();
-  const p4 = parseSVGIconTokenFiles();
-  const p5 = parseTokenLists();
-
+  /**
+   * Concurrently parse all of the data we need for the Token List build
+   * process.
+   */
   const [
     contractMapTokens,
     [uniqueEthereumListTokens, duplicateEthereumListTokens],
     rainbowOverrides,
     svgIcons,
     tokenListTokens,
-  ] = await Promise.all([p1, p2, p3, p4, p5]);
-  const { coingecko, ...preferredTokenLists } = tokenListTokens;
+  ] = await Promise.all([
+    parseContractMap(),
+    parseEthereumLists(),
+    parseOverrideFile(),
+    parseSVGIconTokenFiles(),
+    parseTokenLists(),
+  ]);
 
+  const { coingecko, ...preferredTokenLists } = tokenListTokens;
   const sources = {
     default: [
       duplicateEthereumListTokens,
