@@ -62,16 +62,15 @@ export function resolveDeprecations(tokens: Token[]): Token[] {
 export async function parseEthereumListsTokenFiles(): Promise<Token[]> {
   const tempDir = resolve(tmpdir(), ETHEREUM_LISTS_REPO);
   const files = await fs.readdir(tempDir);
-  
-  const tokenPromises = files.map(
-    async (file) => {
-      const jsonFile = resolve(tempDir, file);
-      const tokenData = await parseJsonFile<RawEthereumListsToken>(jsonFile);
-      return validateTokenData(tokenData);
-    }
-  );
 
-  return await Promise.all(tokenPromises);
+  const tokenPromises: Promise<Token>[] = files.map(async file => {
+    const jsonFile = resolve(tempDir, file);
+    const tokenData = await parseJsonFile<RawEthereumListsToken>(jsonFile);
+    return validateTokenData(tokenData);
+  });
+
+  const tokens: Token[] = await Promise.all(tokenPromises);
+  return tokens;
 }
 
 /**

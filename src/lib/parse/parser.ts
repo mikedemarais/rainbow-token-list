@@ -1,4 +1,4 @@
-import { promises as fs } from 'fs';
+import { promises as fs } from 'graceful-fs';
 import isPlainObject from 'lodash/isPlainObject';
 import isString from 'lodash/isString';
 import mapValues from 'lodash/mapValues';

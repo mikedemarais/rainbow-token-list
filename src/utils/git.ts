@@ -4,7 +4,6 @@ import git from 'isomorphic-git';
 import path from 'path';
 
 import { tmpdir } from 'os';
-import { existsSync } from 'fs';
 
 // import degit from 'degit';
 
@@ -20,7 +19,7 @@ export const fetchRepository = async (repoUrl: string) => {
   const url = `https://github.com/${ghRepo}`;
   console.log({ url, repoUrl, ghRepo });
 
-  if (existsSync(tempGitDir)) {
+  if (fs.existsSync(tempGitDir)) {
     console.log(`${tempGitDir} already exists. Deleting.`);
     fs.rmdirSync(tempGitDir, { recursive: true });
   }

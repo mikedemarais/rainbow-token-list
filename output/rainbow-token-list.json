@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-10T08:29:01.171Z",
+  "timestamp": "2021-06-10T22:19:14.316Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -958,13 +958,6 @@
       "decimals": 4,
       "name": "AfroDex Labs Token",
       "symbol": "AFDLT"
-    },
-    {
-      "address": "0x68E8A20128e1902C02f533a02eD0cFd8396E3Fbc",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Aries Financial",
-      "symbol": "AFI"
     },
     {
       "address": "0xEe9E5eFF401ee921b138490d00CA8D1F13f67A72",
@@ -2027,7 +2020,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "APWine",
-      "symbol": "APW"
+      "symbol": "APW",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x95a4492F028aa1fd432Ea71146b433E7B4446611",
@@ -5714,6 +5710,13 @@
       }
     },
     {
+      "address": "0x77a2Bf0bDa9775Fb3524a6720dD3b16bd455e2C2",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "SafeBreastInu",
+      "symbol": "BREAST"
+    },
+    {
       "address": "0x4639cd8cd52EC1CF2E496a606ce28D8AfB1C792F",
       "chainId": 1,
       "decimals": 18,
@@ -7066,7 +7069,10 @@
       "chainId": 1,
       "decimals": 9,
       "name": "Cavapoo",
-      "symbol": "CAVA"
+      "symbol": "CAVA",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x24eA9c1cfD77A8DB3fB707F967309cF013CC1078",
@@ -9779,7 +9785,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Dirham",
-      "symbol": "DAH"
+      "symbol": "DAH",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
@@ -10904,7 +10913,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Dirham Crypto",
-      "symbol": "DHS"
+      "symbol": "DHS",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xca1207647Ff814039530D7d35df0e1Dd2e91Fa84",
@@ -11004,7 +11016,10 @@
       "chainId": 1,
       "decimals": 2,
       "name": "Direwolf",
-      "symbol": "DIREWOLF"
+      "symbol": "DIREWOLF",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x4faB740779C73aA3945a5CF6025bF1b0e7F6349C",
@@ -13145,7 +13160,10 @@
       "chainId": 1,
       "decimals": 9,
       "name": "AstroElon",
-      "symbol": "ELONONE"
+      "symbol": "ELONONE",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x380291A9A8593B39f123cF39cc1cc47463330b1F",
@@ -14920,17 +14938,17 @@
       "symbol": "FF1"
     },
     {
-      "address": "0x22f098F08c4eda4bE4ad6B4ba59866F3E98CEF92",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Force For Fast",
-      "symbol": "FFF"
-    },
-    {
       "address": "0xaBAfA52D3d5A2c18A4C1Ae24480D22B831fC0413",
       "chainId": 1,
       "decimals": 18,
       "name": "Future Of Finance F",
+      "symbol": "FFF"
+    },
+    {
+      "address": "0x22f098F08c4eda4bE4ad6B4ba59866F3E98CEF92",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Force For Fast",
       "symbol": "FFF"
     },
     {
@@ -17701,7 +17719,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Huobi BTC",
-      "symbol": "HBTC"
+      "symbol": "HBTC",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x88D39566DAe88dC838652d9898F0AA6a8fF2819A",
@@ -17970,8 +17991,11 @@
       "address": "0x9AFb950948c2370975fb91a441F36FDC02737cD4",
       "chainId": 1,
       "decimals": 18,
-      "name": "Huobi Fil",
-      "symbol": "HFIL"
+      "name": "Huobi FIL",
+      "symbol": "HFIL",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x1BC9F31c327Ce04b6fA9D56FD84c14Cc0B0A4f47",
@@ -18312,6 +18336,13 @@
       "decimals": 18,
       "name": "Hydro Protocol",
       "symbol": "HOT"
+    },
+    {
+      "address": "0x4297394c20800E8a38A619A243E9BbE7681Ff24E",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Hot Cross",
+      "symbol": "HOTCROSS"
     },
     {
       "address": "0x19810559dF63f19cfE88923313250550eDADB743",
@@ -19460,6 +19491,13 @@
       }
     },
     {
+      "address": "0xFAc3f6391C86004289A186Ae0198180fCB4D49Ab",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Alpha Impact",
+      "symbol": "IMPACT"
+    },
+    {
       "address": "0x3c4030839708a20fd2fb379cf11810dde4888d93",
       "chainId": 1,
       "decimals": 18,
@@ -19764,7 +19802,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Charged Particles",
-      "symbol": "IONX"
+      "symbol": "IONX",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xf6923F7d96fc22c4b8010a865e41cF7edfB6379C",
@@ -21931,7 +21972,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Less Network",
-      "symbol": "LESS"
+      "symbol": "LESS",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xFA3118B34522580c35Ae27F6cf52da1dBb756288",
@@ -23127,7 +23171,10 @@
       "chainId": 1,
       "decimals": 9,
       "name": "Benchmark Protocol",
-      "symbol": "MARK"
+      "symbol": "MARK",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xEDD8DA5C20EB014E550008DF3304213ddE5e29F0",
@@ -24162,17 +24209,17 @@
       "symbol": "MMSFT"
     },
     {
-      "address": "0xBac7A1798350cdf2Dbfe0c210C2C9861223f4B31",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Moneynet",
-      "symbol": "MNC"
-    },
-    {
       "address": "0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf",
       "chainId": 1,
       "decimals": 18,
       "name": "MainCoin",
+      "symbol": "MNC"
+    },
+    {
+      "address": "0xBac7A1798350cdf2Dbfe0c210C2C9861223f4B31",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Moneynet",
       "symbol": "MNC"
     },
     {
@@ -25109,7 +25156,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "NFTify",
-      "symbol": "N1"
+      "symbol": "N1",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x32C868F6318D6334B2250F323D914Bc2239E4EeE",
@@ -25219,13 +25269,6 @@
       "decimals": 18,
       "name": "Narwhale",
       "symbol": "NAWA"
-    },
-    {
-      "address": "0x7723A1D7B939e0a49959363BF057cA57C7215e75",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Naz coin",
-      "symbol": "NAZ"
     },
     {
       "address": "0x17f8aFB63DfcDcC90ebE6e84F060Cc306A98257D",
@@ -25489,6 +25532,13 @@
       "decimals": 6,
       "name": "APENFT",
       "symbol": "NFT"
+    },
+    {
+      "address": "0x1847e59d9C2f30c7fE0347BA3E53DA1ae8A7F0E8",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "NFTA",
+      "symbol": "NFTA"
     },
     {
       "address": "0xBf6Ff49FfD3d104302Ef0AB0F10f5a84324c091c",
@@ -27865,7 +27915,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Phuture",
-      "symbol": "PHTR"
+      "symbol": "PHTR",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x1864cE27E9F7517047933CaAE530674e8C70b8A7",
@@ -28986,13 +29039,6 @@
       "symbol": "PTC"
     },
     {
-      "address": "0x51Bb9c623226CE781F4A54FC8F4A530a47142b6B",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Peet DeFi",
-      "symbol": "PTE"
-    },
-    {
       "address": "0x02Eca910CB3A7D43eBC7e8028652ed5C6b70259B",
       "chainId": 1,
       "decimals": 18,
@@ -29631,7 +29677,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Radicle",
-      "symbol": "RAD"
+      "symbol": "RAD",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xE5a3229CCb22b6484594973A03a3851dCd948756",
@@ -32335,7 +32384,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Shiba Inu",
-      "symbol": "SHIB"
+      "symbol": "SHIB",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xa4Cf2aFD3B165975afFFBf7e487CDd40C894Ab6B",
@@ -32876,6 +32928,13 @@
       "symbol": "SMARTCREDIT"
     },
     {
+      "address": "0x8fa025E8342EaD1037d2954b95333FF2Bf57162b",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "ShibaMax",
+      "symbol": "SMAX"
+    },
+    {
       "address": "0x7e8539D1E5cB91d63E46B8e188403b3f262a949B",
       "chainId": 1,
       "decimals": 18,
@@ -32887,7 +32946,10 @@
       "chainId": 1,
       "decimals": 8,
       "name": "SafeMoon Inu",
-      "symbol": "SMI"
+      "symbol": "SMI",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x84965DCa28c4Eb9dE61d80f80e811eA12BE1c819",
@@ -34094,6 +34156,13 @@
       "symbol": "STORM"
     },
     {
+      "address": "0x08c32b0726C5684024ea6e141C50aDe9690bBdcc",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Stratos",
+      "symbol": "STOS"
+    },
+    {
       "address": "0xecd570bBf74761b960Fa04Cc10fe2c4e86FfDA36",
       "chainId": 1,
       "decimals": 8,
@@ -34514,6 +34583,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x8CB924583681cbFE487A62140a994A49F833c244",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Swapp",
+      "symbol": "SWAPP"
     },
     {
       "address": "0xc0F1728d9513EFC316D0E93A0758c992f88b0809",
@@ -36821,6 +36897,13 @@
       "decimals": 18,
       "name": "Universal Dollar",
       "symbol": "U8D"
+    },
+    {
+      "address": "0xcC7d3706EA82cdb4Ec7D2a3eaC0e487E17Ab975A",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Unicly Bored Ape Ya",
+      "symbol": "UAPE"
     },
     {
       "address": "0x44440bD68b5E4B1E0cb810669097e9573175601b",
@@ -41023,7 +41106,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Warp Finance",
-      "symbol": "WARP"
+      "symbol": "WARP",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x0c572544a4Ee47904d54aaA6A970AF96B6f00E1b",
