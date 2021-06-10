@@ -1,4 +1,4 @@
-import fs from 'fs';
+import fs from 'graceful-fs';
 import http from 'isomorphic-git/http/node';
 import git from 'isomorphic-git';
 import path from 'path';
