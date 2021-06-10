@@ -6,7 +6,6 @@ import { promises as fs } from 'fs';
 import { resolve } from 'path';
 
 import {
-  ETHEREUM_LISTS_OUTPUT_PATH,
   ETHEREUM_LISTS_REPO,
   RawEthereumListsToken,
   Token,
@@ -14,6 +13,7 @@ import {
 
 import { fetchRepository } from '../../utils/git';
 import { parseJsonFile, validateTokenData } from './parser';
+import { tmpdir } from 'os';
 
 /**
  * Partition tokens array into two categories: unique vs duplicates, according to
@@ -54,10 +54,11 @@ export function resolveDeprecations(tokens: Token[]): Token[] {
  * @return {Token[]}
  */
 export async function parseEthereumListsTokenFiles(): Promise<Token[]> {
-  const files = await fs.readdir(ETHEREUM_LISTS_OUTPUT_PATH);
+  const tempDir = resolve(tmpdir(), ETHEREUM_LISTS_REPO);
+  const files = await fs.readdir(tempDir);
 
   return files.reduce<Promise<Token[]>>(async (tokens, file) => {
-    const jsonFile = resolve(ETHEREUM_LISTS_OUTPUT_PATH, file);
+    const jsonFile = resolve(tempDir, file);
     const tokenData = await parseJsonFile<RawEthereumListsToken>(jsonFile);
     const token = validateTokenData(tokenData);
 
@@ -72,7 +73,7 @@ export async function parseEthereumListsTokenFiles(): Promise<Token[]> {
  * @return {Token[][]}
  */
 export default async function parseEthereumLists(): Promise<Token[][]> {
-  await fetchRepository(ETHEREUM_LISTS_REPO, ETHEREUM_LISTS_OUTPUT_PATH);
+  await fetchRepository(ETHEREUM_LISTS_REPO);
   return parseEthereumListsTokenFiles()
     .then(resolveDeprecations)
     .then(partitionByUniqueness);

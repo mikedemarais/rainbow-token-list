@@ -1,24 +1,20 @@
-import { resolve } from 'path';
-import { tmpdir } from 'os';
+/**
+ * @fileoverview
+ *
+ * Customizing the subdirectory structure and so on was incompatible with
+ * isomorphic git and was dropped.
+ */
+
 import * as z from 'zod';
 
 export const CONTRACT_MAP_REPO = 'metamask/eth-contract-metadata';
-export const CONTRACT_MAP_OUTPUT_PATH = resolve(
-  tmpdir(),
-  'eth-contract-metadata'
-);
-
-// note the specific subdirectory here. we only want the 'eth' directory 🧠️
 export const ETHEREUM_LISTS_REPO = 'ethereum-lists/tokens/tokens/eth';
-export const ETHEREUM_LISTS_OUTPUT_PATH = resolve(
-  tmpdir(),
-  'ethereum-lists/tokens'
-);
 
 export const TokenListItemSchema = z
   .string()
   .url()
   .nonempty();
+
 export type TokenListItem = z.infer<typeof TokenListItemSchema>;
 export const TokenListTypeSchema = z.record(TokenListItemSchema);
 export type TokenListType = z.infer<typeof TokenListTypeSchema>;

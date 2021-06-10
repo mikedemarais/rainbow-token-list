@@ -1,9 +1,9 @@
 import isEmpty from 'lodash/isEmpty';
 import pick from 'lodash/pick';
+import { tmpdir } from 'os';
 import { resolve } from 'path';
 import {
   CONTRACT_MAP_REPO,
-  CONTRACT_MAP_OUTPUT_PATH,
   RawContractMapToken,
   RawContractMapTokenSchema,
   Token,
@@ -16,10 +16,10 @@ type RawContractMap = { [address: string]: RawContractMapToken };
 
 export default async function parseContractMap(): Promise<Token[]> {
   // fetch the latest commit from `eth-contract-metadata` repo and save it to disk
-  await fetchRepository(CONTRACT_MAP_REPO, CONTRACT_MAP_OUTPUT_PATH);
+  await fetchRepository(CONTRACT_MAP_REPO);
 
   // load contract map JSON file from directory
-  const jsonFile = resolve(CONTRACT_MAP_OUTPUT_PATH, 'contract-map.json');
+  const jsonFile = resolve(tmpdir(), CONTRACT_MAP_REPO, 'contract-map.json');
   const contractMap = await parseJsonFile<RawContractMap>(jsonFile);
 
   return (

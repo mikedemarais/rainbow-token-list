@@ -16,27 +16,25 @@ export type SvgToken = {
   symbol: string;
 };
 
-const SVG_ORIGINALS_REPO = 'spothq/cryptocurrency-icons';
-const SVG_ORIGINALS_OUTPUT_PATH = resolve(tmpdir(), SVG_ORIGINALS_REPO);
-
-const SVG_OVERRIDES_REPO = 'mikedemarais/react-coin-icon/assets/overrides';
-const SVG_OVERRIDES_OUTPUT_PATH = resolve(tmpdir(), SVG_OVERRIDES_REPO);
+export const SVG_ORIGINALS_REPO = 'spothq/cryptocurrency-icons';
+export const SVG_OVERRIDES_REPO =
+  'mikedemarais/react-coin-icon/assets/overrides';
 
 async function parseOriginalSVGIcons() {
   // fetch the latest commit from `spothq/cryptocurrency-icons` repo and save it to disk
-  await fetchRepository(SVG_ORIGINALS_REPO, SVG_ORIGINALS_OUTPUT_PATH);
+  await fetchRepository(SVG_ORIGINALS_REPO);
   // load svg manifest JSON file from directory
-  const jsonFile = resolve(SVG_ORIGINALS_OUTPUT_PATH, 'manifest.json');
+  const jsonFile = resolve(tmpdir(), SVG_ORIGINALS_REPO, 'manifest.json');
   return parseJsonFile<SvgToken[]>(jsonFile);
 }
 
 async function parseOverrideSVGIcons() {
   // fetch the latest commit from `mikedemarais/react-coin-icons` repo and save it to disk
-  await fetchRepository(SVG_OVERRIDES_REPO, SVG_OVERRIDES_OUTPUT_PATH);
-  const files = await fs.readdir(SVG_OVERRIDES_OUTPUT_PATH);
+  await fetchRepository(SVG_OVERRIDES_REPO);
+  const files = await fs.readdir(resolve(tmpdir(), SVG_OVERRIDES_REPO));
 
   return files.reduce<Promise<any[]>>(async (svgTokens, file) => {
-    const svgPath = resolve(SVG_OVERRIDES_OUTPUT_PATH, file);
+    const svgPath = resolve(tmpdir(), SVG_OVERRIDES_REPO, file);
     const svg = await fs.readFile(svgPath, 'utf8');
 
     // Attempt to get SVG's "color" by reading it's first "fill"

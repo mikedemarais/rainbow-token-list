@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-10T01:46:02.152Z",
+  "timestamp": "2021-06-10T07:59:22.985Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -7231,17 +7231,17 @@
       "symbol": "CBUCKS"
     },
     {
-      "address": "0xb7fbFf4Ce5200215c690cc95855e5d6C5236Ee9f",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "CCSwap",
-      "symbol": "CC"
-    },
-    {
       "address": "0x9e547061A345015869D26C7B6Ee4aB5b63424441",
       "chainId": 1,
       "decimals": 18,
       "name": "Cryptocart",
+      "symbol": "CC"
+    },
+    {
+      "address": "0xb7fbFf4Ce5200215c690cc95855e5d6C5236Ee9f",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "CCSwap",
       "symbol": "CC"
     },
     {
@@ -15090,7 +15090,7 @@
       "symbol": "FLC"
     },
     {
-      "address": "0x7788D759F21F53533051A9AE657fA05A1E068fc6",
+      "address": "0x40897C872214303b6F479a37E549eE1516B264A2",
       "chainId": 1,
       "decimals": 18,
       "name": "FLETA",
@@ -22341,6 +22341,13 @@
       "symbol": "LIT"
     },
     {
+      "address": "0xf8A4A419c2d7140e49eF952a7e7Ae1Bd4A8b6B9C",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Lith Token",
+      "symbol": "LITH"
+    },
+    {
       "address": "0x24A77c1F17C547105E14813e517be06b0040aa76",
       "chainId": 1,
       "decimals": 18,
@@ -27201,6 +27208,13 @@
       "symbol": "PAL"
     },
     {
+      "address": "0x7f0f118D083d5175aB9D2d34C4C8Fa4F43c3f47b",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "PAMP CC",
+      "symbol": "PAMP"
+    },
+    {
       "address": "0xF0FAC7104aAC544e4a7CE1A55ADF2B5a25c65bD1",
       "chainId": 1,
       "decimals": 18,
@@ -27209,13 +27223,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0x7f0f118D083d5175aB9D2d34C4C8Fa4F43c3f47b",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "PAMP CC",
-      "symbol": "PAMP"
     },
     {
       "address": "0xD56daC73A4d6766464b38ec6D91eB45Ce7457c44",
@@ -44040,6 +44047,13 @@
       "decimals": 18,
       "name": "yTUSD",
       "symbol": "YTUSD"
+    },
+    {
+      "address": "0x8aE005C97Aa6853478C7f373b1D0F72AA92880A7",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Yuang Coin",
+      "symbol": "YUANG"
     },
     {
       "address": "0x4c10BD19688B906665fBd53415f279F34b44ECE7",
