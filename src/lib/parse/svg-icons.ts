@@ -1,14 +1,20 @@
-import { promises as fs } from 'fs';
 import getSVGColors from 'get-svg-colors';
 import compact from 'lodash/compact';
 import unionBy from 'lodash/unionBy';
 import makeColorMoreChill from 'make-color-more-chill';
+
+import { promises as fs } from 'fs';
 import { tmpdir } from 'os';
 import { resolve } from 'path';
-import { fetchRepository } from './git';
 import { parseJsonFile } from './parser';
 
-export type SvgToken = { color: string; name?: string; symbol: string };
+import { fetchRepository } from '../../utils/git';
+
+export type SvgToken = {
+  color: string;
+  name?: string;
+  symbol: string;
+};
 
 const SVG_ORIGINALS_REPO = 'spothq/cryptocurrency-icons';
 const SVG_ORIGINALS_OUTPUT_PATH = resolve(tmpdir(), SVG_ORIGINALS_REPO);

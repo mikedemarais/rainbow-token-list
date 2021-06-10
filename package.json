@@ -13,8 +13,9 @@
     "node": ">=10"
   },
   "scripts": {
+    "clean": "rm -rf ~/.degit && npm cache clean --force && yarn cache clean --force && yarn",
     "start": "tsdx watch",
-    "build": "tsdx build && node dist",
+    "build": "tsdx build && node scripts/build.mjs",
     "test": "tsdx test",
     "lint": "tsdx lint src --fix",
     "prepare": "tsdx build",
@@ -60,6 +61,7 @@
   "dependencies": {
     "@ethersproject/address": "^5.0.5",
     "@uniswap/token-lists": "rainbow-me/token-lists#40babff279b578e5585d274e1c7c93f35c56ed73",
+    "commander": "^7.2.0",
     "degit": "^2.8.0",
     "get-svg-colors": "^1.5.1",
     "lodash": "^4.17.20",

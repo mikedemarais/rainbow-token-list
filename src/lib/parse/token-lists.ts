@@ -1,7 +1,15 @@
 import fetch from 'node-fetch';
 import * as z from 'zod';
-import { TOKEN_LISTS, TokenListEnum, TokenListEnumSchema } from './constants';
-import { reduceArrayToObject } from './utils';
+
+import {
+  TOKEN_LISTS,
+  TokenListEnum,
+  TokenListEnumSchema,
+} from '../../constants';
+
+export function reduceArrayToObject(array: any[]) {
+  return array.reduce((item, culm) => Object.assign(culm, item), {});
+}
 
 export const TokenListStore = z.object({
   tags: z

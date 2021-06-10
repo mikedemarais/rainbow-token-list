@@ -12,7 +12,8 @@ import {
   Token,
   TokenSchema,
   TokenDeprecationSchema,
-} from './constants';
+} from '../../constants';
+import { formattedError, isError } from '../../utils/isError';
 
 /**
  * Reads and parses a JSON file. Throws an error if the file could not be read or if the JSON is invalid.
@@ -26,7 +27,7 @@ export const parseJsonFile = async <T>(file: string): Promise<T> => {
     const json = await fs.readFile(file, 'utf8');
     return JSON.parse(json);
   } catch (error) {
-    throw new Error(`Failed to parse file ${file}: ${error.message}`);
+    throw new Error(`Failed to parse file ${file}: ${formattedError(error)}`);
   }
 };
 
@@ -76,11 +77,15 @@ export const createOutputFolder = async (path: string): Promise<void> => {
   try {
     await fs.access(path);
   } catch (error) {
-    if (error.code !== 'ENOENT') {
-      throw new Error(`Failed to create output folder: ${error.message}`);
-    }
+    if (isError(error)) {
+      if (error.code !== 'ENOENT') {
+        throw new Error(
+          `Failed to create output folder: ${formattedError(error)}`
+        );
+      }
 
-    mkdirp.sync(path);
+      mkdirp.sync(path);
+    }
   }
 };
 

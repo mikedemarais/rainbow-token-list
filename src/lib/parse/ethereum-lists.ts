@@ -1,15 +1,18 @@
-import { promises as fs } from 'fs';
 import filter from 'lodash/filter';
 import matchesProperty from 'lodash/matchesProperty';
 import partition from 'lodash/partition';
+
+import { promises as fs } from 'fs';
 import { resolve } from 'path';
+
 import {
   ETHEREUM_LISTS_OUTPUT_PATH,
   ETHEREUM_LISTS_REPO,
   RawEthereumListsToken,
   Token,
-} from './constants';
-import { fetchRepository } from './git';
+} from '../../constants';
+
+import { fetchRepository } from '../../utils/git';
 import { parseJsonFile, validateTokenData } from './parser';
 
 /**

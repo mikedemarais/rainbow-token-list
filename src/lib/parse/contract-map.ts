@@ -7,8 +7,8 @@ import {
   RawContractMapToken,
   RawContractMapTokenSchema,
   Token,
-} from './constants';
-import { fetchRepository } from './git';
+} from '../../constants';
+import { fetchRepository } from '../../utils/git';
 import { parseJsonFile, validateTokenData } from './parser';
 
 // the JSON file exported by `eth-contract-metadata` is keyed by token contract address
