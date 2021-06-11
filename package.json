@@ -15,18 +15,18 @@
   "scripts": {
     "clean": "rm -rf ~/.degit && npm cache clean --force && yarn cache clean --force && yarn",
     "start": "tsdx watch",
-    "build": "tsdx build && yarn write",
+    "prebuild": "yarn lint",
+    "build": "tsdx build",
     "write": "node scripts/write.mjs",
     "test": "tsdx test",
     "lint": "tsdx lint src --fix",
-    "prepare": "tsdx build",
     "size": "size-limit",
     "analyze": "size-limit --why"
   },
   "peerDependencies": {},
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint"
+      "pre-commit": "yarn build"
     }
   },
   "prettier": {
