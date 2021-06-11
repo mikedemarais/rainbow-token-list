@@ -8,9 +8,6 @@ import filter from 'lodash/filter';
 import matchesProperty from 'lodash/matchesProperty';
 import partition from 'lodash/partition';
 
-import { resolve } from 'path';
-import { tmpdir } from 'os';
-
 import { parseJsonFile, validateTokenData } from './parser';
 import { RawEthereumListsToken } from '../../constants';
 import { ETHEREUM_LISTS_REPO, Token } from '../../constants';
@@ -55,14 +52,15 @@ export function resolveDeprecations(tokens: Token[]): Token[] {
  *
  * @return {Token[]}
  */
-export async function parseEthereumListsTokenFiles(): Promise<Token[]> {
-  const dir = resolve(tmpdir(), ETHEREUM_LISTS_REPO);
+export async function parseEthereumListsTokenFiles(
+  extractedAt: string
+): Promise<Token[]> {
   const fileMap = async (file: string) => {
     const tokenData = await parseJsonFile<RawEthereumListsToken>(file);
     return validateTokenData(tokenData);
   };
 
-  const results: Token[] = await mapDir({ dir, fileMap });
+  const results: Token[] = await mapDir({ dir: extractedAt, fileMap });
   return results;
 }
 
@@ -73,9 +71,9 @@ export async function parseEthereumListsTokenFiles(): Promise<Token[]> {
  * @return {Token[][]}
  */
 export default async function parseEthereumLists(): Promise<Token[][]> {
-  await fetchRepository(ETHEREUM_LISTS_REPO);
+  const extractedAt = await fetchRepository(ETHEREUM_LISTS_REPO);
 
-  const tokenLists: Token[][] = await parseEthereumListsTokenFiles()
+  const tokenLists: Token[][] = await parseEthereumListsTokenFiles(extractedAt)
     .then(resolveDeprecations)
     .then(partitionByUniqueness);
 

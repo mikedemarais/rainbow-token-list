@@ -1,6 +1,6 @@
+import pLimit from 'p-limit';
 import { promises as fs } from 'graceful-fs';
 import { resolve } from 'path';
-import pLimit from 'p-limit';
 
 export type FileMap<T = any> = (file: string) => Promise<T>;
 
