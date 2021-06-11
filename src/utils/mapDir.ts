@@ -2,7 +2,7 @@ import { promises as fs } from 'graceful-fs';
 import { resolve } from 'path';
 import pLimit from 'p-limit';
 
-type FileMap<T> = (file: string) => Promise<T>;
+export type FileMap<T = any> = (file: string) => Promise<T>;
 
 interface MapDirArgs<T> {
   dir: string;

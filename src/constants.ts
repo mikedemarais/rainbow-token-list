@@ -7,6 +7,8 @@
 
 import * as z from 'zod';
 
+export const PRODUCTION = process.env.NODE_ENV === 'production';
+
 export const CONTRACT_MAP_REPO = 'metamask/eth-contract-metadata';
 export const ETHEREUM_LISTS_REPO = 'ethereum-lists/tokens/tokens/eth';
 

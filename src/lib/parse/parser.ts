@@ -3,7 +3,7 @@ import isString from 'lodash/isString';
 import mapValues from 'lodash/mapValues';
 import pick from 'lodash/pick';
 import mkdirp from 'mkdirp';
-import { accessSync, readFileSync, writeFileSync } from 'graceful-fs';
+import { promises as fs } from 'graceful-fs';
 import { resolve } from 'path';
 import {
   RawEthereumListsToken,
@@ -24,7 +24,7 @@ import { formattedError, isError } from '../../utils/isError';
  */
 export const parseJsonFile = async <T>(file: string): Promise<T> => {
   try {
-    const json = readFileSync(file, 'utf8');
+    const json = await fs.readFile(file, 'utf8');
     return JSON.parse(json);
   } catch (error) {
     throw new Error(`Failed to parse file ${file}: ${formattedError(error)}`);
@@ -75,7 +75,7 @@ export const sortTokens = (tokens: Token[]): Token[] => {
  */
 export const createOutputFolder = async (path: string): Promise<void> => {
   try {
-    await accessSync(path);
+    await fs.access(path);
   } catch (error) {
     if (isError(error)) {
       if (error.code !== 'ENOENT') {
@@ -120,5 +120,5 @@ export const writeToDisk = async (
 ): Promise<void> => {
   await createOutputFolder(path);
   const json = JSON.stringify(tokens, null, 2);
-  return writeFileSync(resolve(path, name), json, 'utf8');
+  return fs.writeFile(resolve(path, name), json, 'utf8');
 };
