@@ -15,7 +15,5 @@ jobs:
         with:
           node-version: '14.x'
       - run: yarn
-      - name: Run script
-        run: yarn write
-        env:
-          SECRET_TEST_MESSAGE: ${{ secrets.SECRET_TEST_MESSAGE }}
+      - name: Update Token List
+        run: yarn write && git stage --all && git commit -m "Update Token List"
