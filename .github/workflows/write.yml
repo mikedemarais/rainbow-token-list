@@ -16,4 +16,9 @@ jobs:
           node-version: '14.x'
       - run: yarn
       - name: Update Token List
-        run: yarn write && git stage --all && git commit -m "Update Token List"
+        run: yarn write
+      - name: Commit updated Token List
+        run: "git config --global user.name '${GITHUB_ACTOR}' && \
+              git config --global user.email '${GITHUB_ACTOR}@users.noreply.github.com' && \
+              git add -A && git commit -m 'Updated Token List' && \
+              git push -u origin HEAD"
