@@ -11,7 +11,7 @@ import partition from 'lodash/partition';
 import { parseJsonFile, validateTokenData } from './parser';
 import { RawEthereumListsToken } from '../../constants';
 import { ETHEREUM_LISTS_REPO, Token } from '../../constants';
-import { fetchRepository } from '../../utils/git';
+import { fetchRepository } from '../../utils/fetch-repository';
 import { mapDir } from '../../utils/mapDir';
 
 /**

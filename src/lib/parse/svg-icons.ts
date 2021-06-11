@@ -12,7 +12,7 @@ import makeColorMoreChill from 'make-color-more-chill';
 import { resolve } from 'path';
 import { parseJsonFile } from './parser';
 
-import { fetchRepository } from '../../utils/git';
+import { fetchRepository } from '../../utils/fetch-repository';
 import { promises as fs } from 'graceful-fs';
 import { FileMap, mapDir } from '../../utils/mapDir';
 
