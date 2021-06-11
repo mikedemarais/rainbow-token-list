@@ -35,7 +35,6 @@ async function parseOriginalSVGIcons() {
 }
 
 async function parseOverrideSVGIcons() {
-  // fetch the latest commit from `mikedemarais/react-coin-icons` repo and save it to disk
   await fetchRepository(SVG_OVERRIDES_REPO);
   const files = readdirSync(resolve(tmpdir(), SVG_OVERRIDES_REPO));
 
