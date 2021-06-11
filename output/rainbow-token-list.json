@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-10T22:19:14.316Z",
+  "timestamp": "2021-06-11T01:00:57.001Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -2059,6 +2059,13 @@
       "decimals": 18,
       "name": "Ara Token",
       "symbol": "ARA"
+    },
+    {
+      "address": "0x387c291Bc3274389054E82CE81Dd318a0113caf5",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "AirRaid Lottery Tok",
+      "symbol": "ARAID"
     },
     {
       "address": "0x30680AC0a8A993088223925265fD7a76bEb87E7F",
@@ -14938,17 +14945,17 @@
       "symbol": "FF1"
     },
     {
-      "address": "0xaBAfA52D3d5A2c18A4C1Ae24480D22B831fC0413",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Future Of Finance F",
-      "symbol": "FFF"
-    },
-    {
       "address": "0x22f098F08c4eda4bE4ad6B4ba59866F3E98CEF92",
       "chainId": 1,
       "decimals": 18,
       "name": "Force For Fast",
+      "symbol": "FFF"
+    },
+    {
+      "address": "0xaBAfA52D3d5A2c18A4C1Ae24480D22B831fC0413",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Future Of Finance F",
       "symbol": "FFF"
     },
     {

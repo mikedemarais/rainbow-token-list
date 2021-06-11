@@ -9,7 +9,7 @@ import compact from 'lodash/compact';
 import unionBy from 'lodash/unionBy';
 import makeColorMoreChill from 'make-color-more-chill';
 
-import { promises as fs } from 'graceful-fs';
+import { readdirSync, readFileSync } from 'graceful-fs';
 import { tmpdir } from 'os';
 import { resolve } from 'path';
 import { parseJsonFile } from './parser';
@@ -37,11 +37,11 @@ async function parseOriginalSVGIcons() {
 async function parseOverrideSVGIcons() {
   // fetch the latest commit from `mikedemarais/react-coin-icons` repo and save it to disk
   await fetchRepository(SVG_OVERRIDES_REPO);
-  const files = await fs.readdir(resolve(tmpdir(), SVG_OVERRIDES_REPO));
+  const files = readdirSync(resolve(tmpdir(), SVG_OVERRIDES_REPO));
 
   return files.reduce<Promise<any[]>>(async (svgTokens, file) => {
     const svgPath = resolve(tmpdir(), SVG_OVERRIDES_REPO, file);
-    const svg = await fs.readFile(svgPath, 'utf8');
+    const svg = readFileSync(svgPath, 'utf8');
 
     // Attempt to get SVG's "color" by reading it's first "fill"
     // value (which is usually the icon's background).
