@@ -14,11 +14,12 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '14.x'
+      - uses: c-hive/gha-yarn-cache@v1
       - run: yarn
       - name: Update Token List
         run: yarn write
       - name: Commit updated Token List
-        run: "git config --global user.name '${GITHUB_ACTOR}' && \
-              git config --global user.email '${GITHUB_ACTOR}@users.noreply.github.com' && \
+        run: "git config --global user.name '${{github.actor}}}' && \
+              git config --global user.email '${github.actor}@users.noreply.github.com' && \
               git add -A && git commit -m 'Updated Token List' && \
               git push -u origin HEAD"
