@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-12T20:20:44.236Z",
+  "timestamp": "2021-06-12T21:19:08.246Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -7118,7 +7118,7 @@
       "address": "0x26DB5439F651CAF491A87d48799dA81F191bDB6b",
       "chainId": 1,
       "decimals": 8,
-      "name": "Casino Betting Coin",
+      "name": "CBC network",
       "symbol": "CBC"
     },
     {
@@ -26811,17 +26811,17 @@
       "symbol": "OPEN"
     },
     {
-      "address": "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "OPEN Governance Tok",
-      "symbol": "OPEN"
-    },
-    {
       "address": "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
       "chainId": 1,
       "decimals": 8,
       "name": "Open Platform",
+      "symbol": "OPEN"
+    },
+    {
+      "address": "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "OPEN Governance Tok",
       "symbol": "OPEN"
     },
     {
@@ -31818,13 +31818,6 @@
       "decimals": 18,
       "name": "LP sCurve",
       "symbol": "SCURVE"
-    },
-    {
-      "address": "0x282417b21236Ac01a3A3d7ba304eD8d284f48b4D",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Super CoinView Toke",
-      "symbol": "SCV"
     },
     {
       "address": "0x993864E43Caa7F7F12953AD6fEb1d1Ca635B875F",
