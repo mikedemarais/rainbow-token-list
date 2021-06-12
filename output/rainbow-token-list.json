@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-12T19:18:47.971Z",
+  "timestamp": "2021-06-12T20:20:44.236Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -9127,17 +9127,17 @@
       "symbol": "CSCJ"
     },
     {
-      "address": "0x2620638EDA99F9e7E902Ea24a285456EE9438861",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Crust Shadow",
-      "symbol": "CSM"
-    },
-    {
       "address": "0xD8698a985B89650d0A70f99AD2909bD0c0b4b51c",
       "chainId": 1,
       "decimals": 18,
       "name": "Consentium",
+      "symbol": "CSM"
+    },
+    {
+      "address": "0x2620638EDA99F9e7E902Ea24a285456EE9438861",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Crust Shadow",
       "symbol": "CSM"
     },
     {
@@ -11956,17 +11956,17 @@
       "symbol": "DSCVR"
     },
     {
-      "address": "0xBD2F0Cd039E0BFcf88901C98c0bFAc5ab27566e3",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Dynamic Set Dollar",
-      "symbol": "DSD"
-    },
-    {
       "address": "0x1e3a2446C729D34373B87FD2C9CBb39A93198658",
       "chainId": 1,
       "decimals": 18,
       "name": "DeFi Nation Signals",
+      "symbol": "DSD"
+    },
+    {
+      "address": "0xBD2F0Cd039E0BFcf88901C98c0bFAc5ab27566e3",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Dynamic Set Dollar",
       "symbol": "DSD"
     },
     {
@@ -16296,17 +16296,17 @@
       "symbol": "GC"
     },
     {
-      "address": "0x720c2c93F5f9A6b82226e84095558B10F399b0FA",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Gric Coin",
-      "symbol": "GC"
-    },
-    {
       "address": "0x486A72811ae65C4C814Ba929d6da35497d21296f",
       "chainId": 1,
       "decimals": 18,
       "name": "Galaxy Wallet",
+      "symbol": "GC"
+    },
+    {
+      "address": "0x720c2c93F5f9A6b82226e84095558B10F399b0FA",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Gric Coin",
       "symbol": "GC"
     },
     {
@@ -33786,17 +33786,17 @@
       "symbol": "SSWIM"
     },
     {
-      "address": "0xa7DE087329BFcda5639247F96140f9DAbe3DeED1",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Statera",
-      "symbol": "STA"
-    },
-    {
       "address": "0xD7d05bDa4bf5876bA1254b3Eaaf8b47D2F5676eb",
       "chainId": 1,
       "decimals": 18,
       "name": "STABLE ASSET",
+      "symbol": "STA"
+    },
+    {
+      "address": "0xa7DE087329BFcda5639247F96140f9DAbe3DeED1",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Statera",
       "symbol": "STA"
     },
     {
@@ -43973,17 +43973,17 @@
       "symbol": "YLD"
     },
     {
-      "address": "0x7F927f984177323c4ac49E6b1d398E40cd1A78F6",
-      "chainId": 1,
-      "decimals": 2,
-      "name": "Yield Coin",
-      "symbol": "YLD"
-    },
-    {
       "address": "0xF94b5C5651c888d928439aB6514B93944eEE6F48",
       "chainId": 1,
       "decimals": 18,
       "name": "YIELD App",
+      "symbol": "YLD"
+    },
+    {
+      "address": "0x7F927f984177323c4ac49E6b1d398E40cd1A78F6",
+      "chainId": 1,
+      "decimals": 2,
+      "name": "Yield Coin",
       "symbol": "YLD"
     },
     {
