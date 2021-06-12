@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-12T08:22:02.409Z",
+  "timestamp": "2021-06-12T09:20:47.685Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -317,17 +317,17 @@
       "symbol": "A5T"
     },
     {
-      "address": "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "Abulaba",
-      "symbol": "AAA"
-    },
-    {
       "address": "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
       "chainId": 1,
       "decimals": 10,
       "name": "AAAchain",
+      "symbol": "AAA"
+    },
+    {
+      "address": "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Abulaba",
       "symbol": "AAA"
     },
     {
@@ -6882,13 +6882,6 @@
       "symbol": "CANDYBOX"
     },
     {
-      "address": "0xEDA6eFE5556e134Ef52f2F858aa1e81c84CDA84b",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Capital finance",
-      "symbol": "CAP"
-    },
-    {
       "address": "0x43044f861ec040DB59A7e324c40507adDb673142",
       "chainId": 1,
       "decimals": 18,
@@ -6897,6 +6890,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0xEDA6eFE5556e134Ef52f2F858aa1e81c84CDA84b",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Capital finance",
+      "symbol": "CAP"
     },
     {
       "address": "0x04F2E7221fdb1B52A68169B25793E51478fF0329",
@@ -7251,17 +7251,17 @@
       "symbol": "CBUCKS"
     },
     {
-      "address": "0xb7fbFf4Ce5200215c690cc95855e5d6C5236Ee9f",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "CCSwap",
-      "symbol": "CC"
-    },
-    {
       "address": "0x9e547061A345015869D26C7B6Ee4aB5b63424441",
       "chainId": 1,
       "decimals": 18,
       "name": "Cryptocart",
+      "symbol": "CC"
+    },
+    {
+      "address": "0xb7fbFf4Ce5200215c690cc95855e5d6C5236Ee9f",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "CCSwap",
       "symbol": "CC"
     },
     {
@@ -9127,17 +9127,17 @@
       "symbol": "CSCJ"
     },
     {
-      "address": "0xD8698a985B89650d0A70f99AD2909bD0c0b4b51c",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Consentium",
-      "symbol": "CSM"
-    },
-    {
       "address": "0x2620638EDA99F9e7E902Ea24a285456EE9438861",
       "chainId": 1,
       "decimals": 18,
       "name": "Crust Shadow",
+      "symbol": "CSM"
+    },
+    {
+      "address": "0xD8698a985B89650d0A70f99AD2909bD0c0b4b51c",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Consentium",
       "symbol": "CSM"
     },
     {
@@ -11956,17 +11956,17 @@
       "symbol": "DSCVR"
     },
     {
-      "address": "0x1e3a2446C729D34373B87FD2C9CBb39A93198658",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "DeFi Nation Signals",
-      "symbol": "DSD"
-    },
-    {
       "address": "0xBD2F0Cd039E0BFcf88901C98c0bFAc5ab27566e3",
       "chainId": 1,
       "decimals": 18,
       "name": "Dynamic Set Dollar",
+      "symbol": "DSD"
+    },
+    {
+      "address": "0x1e3a2446C729D34373B87FD2C9CBb39A93198658",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "DeFi Nation Signals",
       "symbol": "DSD"
     },
     {
@@ -12557,7 +12557,7 @@
       "address": "0x3B7f247f21BF3A07088C2D3423F64233d4B069F7",
       "chainId": 1,
       "decimals": 2,
-      "name": "DYNAMITE Token",
+      "name": "Dynamite Token",
       "symbol": "DYNMT"
     },
     {
@@ -16296,17 +16296,17 @@
       "symbol": "GC"
     },
     {
-      "address": "0x486A72811ae65C4C814Ba929d6da35497d21296f",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Galaxy Wallet",
-      "symbol": "GC"
-    },
-    {
       "address": "0x720c2c93F5f9A6b82226e84095558B10F399b0FA",
       "chainId": 1,
       "decimals": 18,
       "name": "Gric Coin",
+      "symbol": "GC"
+    },
+    {
+      "address": "0x486A72811ae65C4C814Ba929d6da35497d21296f",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Galaxy Wallet",
       "symbol": "GC"
     },
     {
@@ -26939,17 +26939,17 @@
       }
     },
     {
-      "address": "0x324AF2D5353f2dD138E234b359d30d67C64b1b20",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Oracle System",
-      "symbol": "ORC"
-    },
-    {
       "address": "0x662b67d00A13FAf93254714DD601F5Ed49Ef2F51",
       "chainId": 1,
       "decimals": 18,
       "name": "Orbit Chain",
+      "symbol": "ORC"
+    },
+    {
+      "address": "0x324AF2D5353f2dD138E234b359d30d67C64b1b20",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Oracle System",
       "symbol": "ORC"
     },
     {
@@ -31943,17 +31943,17 @@
       "symbol": "SEC"
     },
     {
-      "address": "0x30cF203b48edaA42c3B4918E955fED26Cd012A3F",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "MetaGame",
-      "symbol": "SEED"
-    },
-    {
       "address": "0xC969e16e63fF31ad4BCAc3095C616644e6912d79",
       "chainId": 1,
       "decimals": 18,
       "name": "Seed Venture",
+      "symbol": "SEED"
+    },
+    {
+      "address": "0x30cF203b48edaA42c3B4918E955fED26Cd012A3F",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "MetaGame",
       "symbol": "SEED"
     },
     {
