@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-12T22:19:36.326Z",
+  "timestamp": "2021-06-12T23:20:25.159Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -11340,6 +11340,13 @@
       }
     },
     {
+      "address": "0x5f6c5C2fB289dB2228d159C69621215e354218d7",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Demodyfi",
+      "symbol": "DMOD"
+    },
+    {
       "address": "0xF29992D7b589A0A6bD2de7Be29a97A6EB73EaF85",
       "chainId": 1,
       "decimals": 18,
@@ -14958,17 +14965,17 @@
       "symbol": "FF1"
     },
     {
-      "address": "0xaBAfA52D3d5A2c18A4C1Ae24480D22B831fC0413",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Future Of Finance F",
-      "symbol": "FFF"
-    },
-    {
       "address": "0x22f098F08c4eda4bE4ad6B4ba59866F3E98CEF92",
       "chainId": 1,
       "decimals": 18,
       "name": "Force For Fast",
+      "symbol": "FFF"
+    },
+    {
+      "address": "0xaBAfA52D3d5A2c18A4C1Ae24480D22B831fC0413",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Future Of Finance F",
       "symbol": "FFF"
     },
     {
@@ -36558,17 +36565,17 @@
       "symbol": "TRT"
     },
     {
-      "address": "0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "TrustToken",
-      "symbol": "TRU"
-    },
-    {
       "address": "0xf65B5C5104c4faFD4b709d9D60a185eAE063276c",
       "chainId": 1,
       "decimals": 18,
       "name": "Truebit Protocol",
+      "symbol": "TRU"
+    },
+    {
+      "address": "0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "TrustToken",
       "symbol": "TRU"
     },
     {
