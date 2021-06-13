@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-13T15:23:27.885Z",
+  "timestamp": "2021-06-13T16:33:19.511Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -1334,6 +1334,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Alchemix ETH",
+      "symbol": "ALETH"
     },
     {
       "address": "0x8BA6DcC667d3FF64C1A2123cE72FF5F0199E5315",
@@ -3913,6 +3920,13 @@
       "symbol": "BCNT"
     },
     {
+      "address": "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "BlockchainPoland",
+      "symbol": "BCP"
+    },
+    {
       "address": "0xE4f726Adc8e89C6a6017F01eadA77865dB22dA14",
       "chainId": 1,
       "decimals": 18,
@@ -3921,13 +3935,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "BlockchainPoland",
-      "symbol": "BCP"
     },
     {
       "address": "0xd26fb114401Ec86887CD09F62eccd95fCf20B571",
@@ -26897,17 +26904,17 @@
       }
     },
     {
-      "address": "0x662b67d00A13FAf93254714DD601F5Ed49Ef2F51",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Orbit Chain",
-      "symbol": "ORC"
-    },
-    {
       "address": "0x324AF2D5353f2dD138E234b359d30d67C64b1b20",
       "chainId": 1,
       "decimals": 18,
       "name": "Oracle System",
+      "symbol": "ORC"
+    },
+    {
+      "address": "0x662b67d00A13FAf93254714DD601F5Ed49Ef2F51",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Orbit Chain",
       "symbol": "ORC"
     },
     {
