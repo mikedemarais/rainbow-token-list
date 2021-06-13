@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-13T13:29:32.492Z",
+  "timestamp": "2021-06-13T14:18:11.637Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -7235,6 +7235,13 @@
       "decimals": 18,
       "name": "CryBet",
       "symbol": "CBT"
+    },
+    {
+      "address": "0xcEf46305D096fa876Dd23048bf80F9345282e3fc",
+      "chainId": 1,
+      "decimals": 0,
+      "name": "Banque Universal",
+      "symbol": "CBU"
     },
     {
       "address": "0x0d2BB9D68dD4451A09ec94C05E20Bd395022bd8e",
@@ -26769,17 +26776,17 @@
       "symbol": "OPEN"
     },
     {
-      "address": "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "Open Platform",
-      "symbol": "OPEN"
-    },
-    {
       "address": "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
       "chainId": 1,
       "decimals": 18,
       "name": "OPEN Governance Tok",
+      "symbol": "OPEN"
+    },
+    {
+      "address": "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Open Platform",
       "symbol": "OPEN"
     },
     {
