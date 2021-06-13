@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-13T09:20:49.133Z",
+  "timestamp": "2021-06-13T10:22:36.837Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -7136,13 +7136,6 @@
       "symbol": "CBET"
     },
     {
-      "address": "0x280DAACbD812725BAf46E273B84426B1E10aB410",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "CBEX Token",
-      "symbol": "CBEX"
-    },
-    {
       "address": "0x05C3617cBf1304b9260AA61ec960F115D67beCEA",
       "chainId": 1,
       "decimals": 18,
@@ -10078,13 +10071,6 @@
       "decimals": 18,
       "name": "DBX",
       "symbol": "DBX"
-    },
-    {
-      "address": "0x7c82a76DB0166b0e153A66B1A4c331970B2b0EE2",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Dobuy",
-      "symbol": "DBY"
     },
     {
       "address": "0x386Faa4703a34a7Fdb19Bec2e14Fd427C9638416",
@@ -15398,13 +15384,6 @@
       "symbol": "FNTB"
     },
     {
-      "address": "0x5515950F7bF8D6aCDF4aE98c33bf996BD0eD6F6f",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "FinanceX token",
-      "symbol": "FNX"
-    },
-    {
       "address": "0xeF9Cd7882c067686691B6fF49e650b43AFBBCC6B",
       "chainId": 1,
       "decimals": 18,
@@ -15413,6 +15392,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x5515950F7bF8D6aCDF4aE98c33bf996BD0eD6F6f",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "FinanceX token",
+      "symbol": "FNX"
     },
     {
       "address": "0x05919A3915462abbDf2Cd3C5b42213cc8f596102",
@@ -16896,13 +16882,6 @@
       "symbol": "GNBT"
     },
     {
-      "address": "0x5da3E93faB0580bD7a532A741aC5F886376EFF46",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "Gneiss",
-      "symbol": "GNEISS"
-    },
-    {
       "address": "0xF1a355cc5953a5C04130F221b6CCAd13c3f82990",
       "chainId": 1,
       "decimals": 18,
@@ -17959,13 +17938,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0xf0998FAeBc12188172310403814E0399f7AF3F73",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "HavEtherToken",
-      "symbol": "HET"
     },
     {
       "address": "0xF41fD65F30b4b4ceF3dbEA800468100B2eB19Aae",
@@ -22365,13 +22337,6 @@
       "decimals": 18,
       "name": "CoinLion",
       "symbol": "LION"
-    },
-    {
-      "address": "0xc67d5cfb933c4A1c6d2CA4CbdAE2ed9f017eE9e5",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "LIPCHAIN",
-      "symbol": "LIPS"
     },
     {
       "address": "0x72CA0501427BB8f089c1c4F767cb17d017e803a9",
@@ -31649,17 +31614,17 @@
       "symbol": "SCAT"
     },
     {
-      "address": "0x74FD51a98a4A1ECBeF8Cc43be801cce630E260Bd",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "SiaCashCoin",
-      "symbol": "SCC"
-    },
-    {
       "address": "0x355a458d555151D3B27F94227960Ade1504E526a",
       "chainId": 1,
       "decimals": 18,
       "name": "StockChain",
+      "symbol": "SCC"
+    },
+    {
+      "address": "0x74FD51a98a4A1ECBeF8Cc43be801cce630E260Bd",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "SiaCashCoin",
       "symbol": "SCC"
     },
     {
@@ -37804,17 +37769,17 @@
       "symbol": "uniFAME"
     },
     {
-      "address": "0x0eF3b2024ae079e6dBC2b37435cE30d2731F0101",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "UNIFI DeFi",
-      "symbol": "UNIFI"
-    },
-    {
       "address": "0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5",
       "chainId": 1,
       "decimals": 18,
       "name": "Covenants",
+      "symbol": "UNIFI"
+    },
+    {
+      "address": "0x0eF3b2024ae079e6dBC2b37435cE30d2731F0101",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "UNIFI DeFi",
       "symbol": "UNIFI"
     },
     {
