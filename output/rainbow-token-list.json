@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-13T17:32:17.848Z",
+  "timestamp": "2021-06-13T18:26:16.464Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -965,6 +965,16 @@
       "decimals": 8,
       "name": "Asian Fintech",
       "symbol": "AFIN"
+    },
+    {
+      "address": "0xE46F290Cd59195a83e757891430d8D517d16b334",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "AltaFin",
+      "symbol": "AFN",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x08130635368AA28b217a4dfb68E1bF8dC525621C",
