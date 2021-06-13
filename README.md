@@ -4,14 +4,15 @@ This tool compiles a list of ERC20 tokens from various sources.
 
 ### Use
 
-Generate output at `output/rainbow-token-list.json` via:
+Load the updated Token List and overwrite it at `output/rainbow-token-list.json`
+with:
 
 ```shell
-yarn build
+yarn write
 ```
 
-This library comes bundled with a default list in case you are unable to load
-fresh data over the Internet. You can import it like so:
+This package comes bundled with a copy in case you are unable to load fresh data
+over the Internet. You can import it like so:
 
 ```ts
 import tokens from 'rainbow-token-list/output/rainbow-token-list.json';
