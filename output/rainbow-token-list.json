@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-14T15:23:59.380Z",
+  "timestamp": "2021-06-14T16:36:10.361Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -13543,6 +13543,13 @@
       "symbol": "EPS"
     },
     {
+      "address": "0x051cF5178f60e9DEf5d5a39b2a988a9f914107cB",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Epstein Token",
+      "symbol": "EPSTEIN"
+    },
+    {
       "address": "0x35BAA72038F127f9f8C8f9B491049f64f377914d",
       "chainId": 1,
       "decimals": 4,
@@ -14961,17 +14968,17 @@
       "symbol": "FF1"
     },
     {
-      "address": "0xaBAfA52D3d5A2c18A4C1Ae24480D22B831fC0413",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Future Of Finance F",
-      "symbol": "FFF"
-    },
-    {
       "address": "0x22f098F08c4eda4bE4ad6B4ba59866F3E98CEF92",
       "chainId": 1,
       "decimals": 18,
       "name": "Force For Fast",
+      "symbol": "FFF"
+    },
+    {
+      "address": "0xaBAfA52D3d5A2c18A4C1Ae24480D22B831fC0413",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Future Of Finance F",
       "symbol": "FFF"
     },
     {
