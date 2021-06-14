@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-14T09:21:55.454Z",
+  "timestamp": "2021-06-14T10:23:09.166Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -2119,7 +2119,7 @@
       "address": "0x62A6738d887F47e297676FaB05b902709B106C64",
       "chainId": 1,
       "decimals": 18,
-      "name": "ARCA",
+      "name": "ArCoin",
       "symbol": "ARCA"
     },
     {
