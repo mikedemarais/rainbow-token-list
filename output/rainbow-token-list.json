@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-14T05:22:27.080Z",
+  "timestamp": "2021-06-14T06:26:02.278Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -8400,17 +8400,17 @@
       "symbol": "COM"
     },
     {
-      "address": "0x7d36cCe46DD2B0D28dde12A859C2ACe4a21E3678",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Combine finance",
-      "symbol": "COMB"
-    },
-    {
       "address": "0x7C81542ED859A2061538FEE22B6544a235B9557D",
       "chainId": 1,
       "decimals": 18,
       "name": "Combo",
+      "symbol": "COMB"
+    },
+    {
+      "address": "0x7d36cCe46DD2B0D28dde12A859C2ACe4a21E3678",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Combine finance",
       "symbol": "COMB"
     },
     {
@@ -22363,13 +22363,6 @@
       "symbol": "LIQUID"
     },
     {
-      "address": "0xb59490aB09A0f526Cc7305822aC65f2Ab12f9723",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Litentry",
-      "symbol": "LIT"
-    },
-    {
       "address": "0x763Fa6806e1acf68130D2D0f0df754C93cC546B2",
       "chainId": 1,
       "decimals": 18,
@@ -22378,6 +22371,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0xb59490aB09A0f526Cc7305822aC65f2Ab12f9723",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Litentry",
+      "symbol": "LIT"
     },
     {
       "address": "0xf8A4A419c2d7140e49eF952a7e7Ae1Bd4A8b6B9C",
