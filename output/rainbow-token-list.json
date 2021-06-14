@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-14T17:33:50.457Z",
+  "timestamp": "2021-06-14T18:24:36.182Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -26803,17 +26803,17 @@
       "symbol": "OPEN"
     },
     {
-      "address": "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "Open Platform",
-      "symbol": "OPEN"
-    },
-    {
       "address": "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
       "chainId": 1,
       "decimals": 18,
       "name": "OPEN Governance Tok",
+      "symbol": "OPEN"
+    },
+    {
+      "address": "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Open Platform",
       "symbol": "OPEN"
     },
     {
@@ -36742,6 +36742,13 @@
       "symbol": "TTM"
     },
     {
+      "address": "0x9F599410D207f3D2828a8712e5e543AC2E040382",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Tapcoin",
+      "symbol": "TTT"
+    },
+    {
       "address": "0x2494a68C1484376fEf880b4c24D91f049d29B02A",
       "chainId": 1,
       "decimals": 18,
@@ -36750,13 +36757,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0x9F599410D207f3D2828a8712e5e543AC2E040382",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Tapcoin",
-      "symbol": "TTT"
     },
     {
       "address": "0x9CDa8A60dd5AfA156c95Bd974428d91a0812e054",
@@ -41583,13 +41583,6 @@
       "decimals": 18,
       "name": "Wifi Coin",
       "symbol": "WIFI"
-    },
-    {
-      "address": "0xb7e77aEbBe0687d2EfF24Cc90c41A3b6eA74bdAB",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Project WITH",
-      "symbol": "WIKEN"
     },
     {
       "address": "0x66BaD545596fb17a0B4ebDC003a85dEF10E8F6Ae",
