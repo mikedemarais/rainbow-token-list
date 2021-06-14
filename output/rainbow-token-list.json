@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-14T08:22:44.769Z",
+  "timestamp": "2021-06-14T09:21:55.454Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -12731,17 +12731,17 @@
       "symbol": "EC2"
     },
     {
-      "address": "0x906710835d1ae85275eb770F06873340cA54274b",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "Ethereum Cash Token",
-      "symbol": "ECASH"
-    },
-    {
       "address": "0x5D21eF5f25a985380B65c8e943A0082fEDa0Db84",
       "chainId": 1,
       "decimals": 18,
       "name": "Ethereum Cash",
+      "symbol": "ECASH"
+    },
+    {
+      "address": "0x906710835d1ae85275eb770F06873340cA54274b",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Ethereum Cash Token",
       "symbol": "ECASH"
     },
     {
@@ -15394,6 +15394,13 @@
       "symbol": "FNTB"
     },
     {
+      "address": "0x5515950F7bF8D6aCDF4aE98c33bf996BD0eD6F6f",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "FinanceX token",
+      "symbol": "FNX"
+    },
+    {
       "address": "0xeF9Cd7882c067686691B6fF49e650b43AFBBCC6B",
       "chainId": 1,
       "decimals": 18,
@@ -15402,13 +15409,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0x5515950F7bF8D6aCDF4aE98c33bf996BD0eD6F6f",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "FinanceX token",
-      "symbol": "FNX"
     },
     {
       "address": "0x05919A3915462abbDf2Cd3C5b42213cc8f596102",
@@ -28490,6 +28490,13 @@
       "symbol": "POK"
     },
     {
+      "address": "0xc17fbe1d709dDf6C0B6665Dd0591046815AC7554",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Polars Governance T",
+      "symbol": "POL"
+    },
+    {
       "address": "0xc691bc298a304d591Ad9b352c7A8D216dE9f2CED",
       "chainId": 1,
       "decimals": 18,
@@ -34375,6 +34382,13 @@
       "decimals": 8,
       "name": "SUN",
       "symbol": "SUN"
+    },
+    {
+      "address": "0xbDbf245c690d54b67C6e610A28486A2C6dE08bE6",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Sunder Goverance To",
+      "symbol": "SUNDER"
     },
     {
       "address": "0x30635297E450b930f8693297eBa160D9e6c8eBcf",
