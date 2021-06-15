@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-15T10:22:49.911Z",
+  "timestamp": "2021-06-15T11:17:14.891Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -9736,6 +9736,16 @@
       }
     },
     {
+      "address": "0x41c84c0e2EE0b740Cf0d31F63f3B6F627DC6b393",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Yearn Wrapped Ether",
+      "symbol": "cyWETH",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x0223fc70574214F65813fE336D870Ac47E147fAe",
       "chainId": 1,
       "decimals": 18,
@@ -9799,6 +9809,13 @@
       "decimals": 18,
       "name": "Dacsee",
       "symbol": "DACS"
+    },
+    {
+      "address": "0xEfaB7248D36585e2340E5d25F8a8D243E6e3193F",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Dacxi",
+      "symbol": "DACXI"
     },
     {
       "address": "0x5B322514FF727253292637D9054301600c2C81e8",
@@ -12771,6 +12788,16 @@
       "decimals": 2,
       "name": "CellETF",
       "symbol": "ECELL"
+    },
+    {
+      "address": "0xA1f82E14bc09A1b42710dF1A8a999B62f294e592",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Wrapped CFX",
+      "symbol": "eCFX",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x171706B7D113c68f2cc68a6CE63b1dbDcdF7B233",
@@ -24053,8 +24080,11 @@
       "address": "0x09a3EcAFa817268f77BE1283176B946C4ff2E608",
       "chainId": 1,
       "decimals": 18,
-      "name": "Mirror Protocol",
-      "symbol": "MIR"
+      "name": "Wrapped MIR Token",
+      "symbol": "MIR",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x0168703872fa06741Ecaa9Dff7803168e83f7aE0",
@@ -30075,13 +30105,6 @@
       "symbol": "REAL"
     },
     {
-      "address": "0x22C8ECF727C23422f47093b562EC53c139805301",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "RealToken16200 Full",
-      "symbol": "REALTOKEN-16200-FUL"
-    },
-    {
       "address": "0x1fc5EF0337AEA85C5f9198853a6E3A579a7A6987",
       "chainId": 1,
       "decimals": 18,
@@ -30538,13 +30561,6 @@
       "decimals": 18,
       "name": "Rhea Protocol",
       "symbol": "RHEA"
-    },
-    {
-      "address": "0x47C0aD2aE6c0Ed4bcf7bc5b380D7205E89436e84",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "rHegic",
-      "symbol": "RHEGIC"
     },
     {
       "address": "0xAd7Ca17e23f13982796D27d1E6406366Def6eE5f",
@@ -32483,6 +32499,13 @@
       "decimals": 9,
       "name": "Shiba Cosmos",
       "symbol": "SHIBCO"
+    },
+    {
+      "address": "0x2dFAc6327Dce9F88E31fF46de13049eca5a7DfcB",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Shiberus Inu",
+      "symbol": "SHIBERUS"
     },
     {
       "address": "0x841FB148863454A3b3570f515414759BE9091465",
@@ -41275,7 +41298,10 @@
       "chainId": 1,
       "decimals": 8,
       "name": "Wrapped BIND",
-      "symbol": "WBIND"
+      "symbol": "wBIND",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xbaA2C10EA6409B58870B5C773C0Ff429AF7C6F20",
@@ -41374,8 +41400,11 @@
       "address": "0xa0afAA285Ce85974c3C881256cB7F225e3A1178a",
       "chainId": 1,
       "decimals": 18,
-      "name": "Wrapped CrescoFin",
-      "symbol": "WCRES"
+      "name": "Wrapped CRES",
+      "symbol": "wCRES",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x6a0A97E47d15aAd1D132a1Ac79a480E3F2079063",
@@ -41416,7 +41445,10 @@
       "chainId": 1,
       "decimals": 8,
       "name": "Wrapped DGLD",
-      "symbol": "WDGLD"
+      "symbol": "wDGLD",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xD61B60Ccbdaf09c2e036c72734Adb3270ed27192",
@@ -41843,7 +41875,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Wrapped Origin Axie",
-      "symbol": "WOA"
+      "symbol": "WOA",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xF9D9702D031407F425a4412682fDc56b07d05262",
@@ -42152,6 +42187,16 @@
       "symbol": "WUSD"
     },
     {
+      "address": "0xd4e7A6E7f9aA5909036338a3C4cD57319d613190",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Wrapped Universa",
+      "symbol": "WUTN",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x25C7b64A93Eb1261E130eC21a3e9918CaA38b611",
       "chainId": 1,
       "decimals": 18,
@@ -42236,6 +42281,16 @@
       "decimals": 6,
       "name": "Wrapped Tezos",
       "symbol": "WXTZ"
+    },
+    {
+      "address": "0x5eb191d30665EAB255b25Ce797052878dDD3BB6F",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Wrapped Zcoin",
+      "symbol": "wXZC",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xd8950fDeaa10304B7A7Fd03a2FC66BC39f3c711a",
@@ -42863,6 +42918,16 @@
       "decimals": 18,
       "name": "3X Long Stellar Tok",
       "symbol": "XLMBULL"
+    },
+    {
+      "address": "0xf88506B0F1d30056B9e5580668D5875b9cd30F23",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Wrapped Tokenlon",
+      "symbol": "xLON",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x6c862f803fF42A97D4A483AB761256ad8c90f4F8",
