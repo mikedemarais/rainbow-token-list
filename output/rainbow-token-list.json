@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-15T15:23:59.617Z",
+  "timestamp": "2021-06-15T16:36:31.905Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -317,17 +317,17 @@
       "symbol": "A5T"
     },
     {
-      "address": "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
-      "chainId": 1,
-      "decimals": 10,
-      "name": "AAAchain",
-      "symbol": "AAA"
-    },
-    {
       "address": "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
       "chainId": 1,
       "decimals": 8,
       "name": "Abulaba",
+      "symbol": "AAA"
+    },
+    {
+      "address": "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
+      "chainId": 1,
+      "decimals": 10,
+      "name": "AAAchain",
       "symbol": "AAA"
     },
     {
@@ -10330,6 +10330,13 @@
       "symbol": "DEC"
     },
     {
+      "address": "0x58379bF685ea2e251AE63d3eE26269c7c3848A17",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Distributed Energy",
+      "symbol": "DEC"
+    },
+    {
       "address": "0x30f271C9E86D2B7d00a6376Cd96A1cFBD5F0b9b3",
       "chainId": 1,
       "decimals": 18,
@@ -10338,13 +10345,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0x58379bF685ea2e251AE63d3eE26269c7c3848A17",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "Distributed Energy",
-      "symbol": "DEC"
     },
     {
       "address": "0x6CbEDEc4F1ac9D874987D2769596544E0d9161ab",
@@ -27743,6 +27743,13 @@
       "decimals": 18,
       "name": "Polkadex",
       "symbol": "PDEX"
+    },
+    {
+      "address": "0xB16e967ff83DE3F1e9FCeAfbc2C28c1c5c56eF91",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Polkadog",
+      "symbol": "PDOG"
     },
     {
       "address": "0x630d98424eFe0Ea27fB1b3Ab7741907DFFEaAd78",
