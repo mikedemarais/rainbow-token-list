@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-15T18:26:57.465Z",
+  "timestamp": "2021-06-15T19:18:30.552Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -22442,6 +22442,13 @@
       "symbol": "LIQUID"
     },
     {
+      "address": "0xb59490aB09A0f526Cc7305822aC65f2Ab12f9723",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Litentry",
+      "symbol": "LIT"
+    },
+    {
       "address": "0x763Fa6806e1acf68130D2D0f0df754C93cC546B2",
       "chainId": 1,
       "decimals": 18,
@@ -22450,13 +22457,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0xb59490aB09A0f526Cc7305822aC65f2Ab12f9723",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Litentry",
-      "symbol": "LIT"
     },
     {
       "address": "0xf8A4A419c2d7140e49eF952a7e7Ae1Bd4A8b6B9C",
@@ -28190,6 +28190,13 @@
       "symbol": "PIXIE"
     },
     {
+      "address": "0xAd4c6Ad1F02Def1710a2d06C875A31D4868bD70A",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Pixel Inu",
+      "symbol": "PIXU"
+    },
+    {
       "address": "0x61bc1F530AC6193D73aF1e1A6A14CB44b9C3f915",
       "chainId": 1,
       "decimals": 18,
@@ -33867,17 +33874,17 @@
       "symbol": "SSWIM"
     },
     {
-      "address": "0xD7d05bDa4bf5876bA1254b3Eaaf8b47D2F5676eb",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "STABLE ASSET",
-      "symbol": "STA"
-    },
-    {
       "address": "0xa7DE087329BFcda5639247F96140f9DAbe3DeED1",
       "chainId": 1,
       "decimals": 18,
       "name": "Statera",
+      "symbol": "STA"
+    },
+    {
+      "address": "0xD7d05bDa4bf5876bA1254b3Eaaf8b47D2F5676eb",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "STABLE ASSET",
       "symbol": "STA"
     },
     {
