@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-15T12:31:24.149Z",
+  "timestamp": "2021-06-15T13:29:59.497Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -1121,6 +1121,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0xdA1E53E088023Fe4D1DC5a418581748f52CBd1b8",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Aidi Inu",
+      "symbol": "AIDI"
     },
     {
       "address": "0x584B44853680ee34a0F337B712a8f66d816dF151",
@@ -10323,13 +10330,6 @@
       "symbol": "DEC"
     },
     {
-      "address": "0x58379bF685ea2e251AE63d3eE26269c7c3848A17",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "Distributed Energy",
-      "symbol": "DEC"
-    },
-    {
       "address": "0x30f271C9E86D2B7d00a6376Cd96A1cFBD5F0b9b3",
       "chainId": 1,
       "decimals": 18,
@@ -10338,6 +10338,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x58379bF685ea2e251AE63d3eE26269c7c3848A17",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Distributed Energy",
+      "symbol": "DEC"
     },
     {
       "address": "0x6CbEDEc4F1ac9D874987D2769596544E0d9161ab",
@@ -26989,17 +26996,17 @@
       }
     },
     {
-      "address": "0x324AF2D5353f2dD138E234b359d30d67C64b1b20",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Oracle System",
-      "symbol": "ORC"
-    },
-    {
       "address": "0x662b67d00A13FAf93254714DD601F5Ed49Ef2F51",
       "chainId": 1,
       "decimals": 18,
       "name": "Orbit Chain",
+      "symbol": "ORC"
+    },
+    {
+      "address": "0x324AF2D5353f2dD138E234b359d30d67C64b1b20",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Oracle System",
       "symbol": "ORC"
     },
     {
@@ -36406,17 +36413,17 @@
       "symbol": "TRAT"
     },
     {
-      "address": "0x901F8679a6EF435d533732f5eA49bb82d568BE99",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Trebit Network",
-      "symbol": "TRB"
-    },
-    {
       "address": "0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0",
       "chainId": 1,
       "decimals": 18,
       "name": "Tellor",
+      "symbol": "TRB"
+    },
+    {
+      "address": "0x901F8679a6EF435d533732f5eA49bb82d568BE99",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Trebit Network",
       "symbol": "TRB"
     },
     {
