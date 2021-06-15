@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-15T06:26:02.414Z",
+  "timestamp": "2021-06-15T07:22:32.682Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -15415,13 +15415,6 @@
       "symbol": "FNTB"
     },
     {
-      "address": "0x5515950F7bF8D6aCDF4aE98c33bf996BD0eD6F6f",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "FinanceX token",
-      "symbol": "FNX"
-    },
-    {
       "address": "0xeF9Cd7882c067686691B6fF49e650b43AFBBCC6B",
       "chainId": 1,
       "decimals": 18,
@@ -15430,6 +15423,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x5515950F7bF8D6aCDF4aE98c33bf996BD0eD6F6f",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "FinanceX token",
+      "symbol": "FNX"
     },
     {
       "address": "0x05919A3915462abbDf2Cd3C5b42213cc8f596102",
@@ -32862,6 +32862,13 @@
       "symbol": "SLC"
     },
     {
+      "address": "0x1ef6A7e2c966fb7C5403EFEFdE38338b1a95a084",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "ShieldEX",
+      "symbol": "SLD"
+    },
+    {
       "address": "0x0AeE8703D34DD9aE107386d3eFF22AE75Dd616D1",
       "chainId": 1,
       "decimals": 18,
@@ -41438,6 +41445,13 @@
       "decimals": 8,
       "name": "WEBN token",
       "symbol": "WEBN"
+    },
+    {
+      "address": "0xcC1a8BD438BebC4b2a885a34475BB974f2124317",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Whole Earth Coin",
+      "symbol": "WEC"
     },
     {
       "address": "0x1b06B43f3b0bBAd73784d858c782e029F3F5Af14",
