@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-15T01:06:09.543Z",
+  "timestamp": "2021-06-15T02:42:05.454Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -9030,13 +9030,6 @@
       }
     },
     {
-      "address": "0x1505c95a707348C2bCc75698BE258891387f008B",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "Uncle Scrooge Finan",
-      "symbol": "CROOGE"
-    },
-    {
       "address": "0x08389495D7456E1951ddF7c3a1314A4bfb646d8B",
       "chainId": 1,
       "decimals": 18,
@@ -14194,17 +14187,17 @@
       "symbol": "ETR"
     },
     {
-      "address": "0x1212b68d8555Cf0B08f3371b926b3E1148B520F1",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Efficient Transacti",
-      "symbol": "ETT"
-    },
-    {
       "address": "0x952B65D976E8669c4cE92a17CcE5B2586912Adb5",
       "chainId": 1,
       "decimals": 18,
       "name": "Etrade",
+      "symbol": "ETT"
+    },
+    {
+      "address": "0x1212b68d8555Cf0B08f3371b926b3E1148B520F1",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Efficient Transacti",
       "symbol": "ETT"
     },
     {
@@ -28257,17 +28250,17 @@
       "symbol": "PLF"
     },
     {
-      "address": "0x85ca6710D0F1D511d130f6935eDDA88ACBD921bD",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Pledgecamp",
-      "symbol": "PLG"
-    },
-    {
       "address": "0xBa069Ee53b8B531F3AB117c92ca09A204C9E6285",
       "chainId": 1,
       "decimals": 18,
       "name": "Plug",
+      "symbol": "PLG"
+    },
+    {
+      "address": "0x85ca6710D0F1D511d130f6935eDDA88ACBD921bD",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Pledgecamp",
       "symbol": "PLG"
     },
     {
@@ -36564,17 +36557,17 @@
       "symbol": "TRT"
     },
     {
-      "address": "0xf65B5C5104c4faFD4b709d9D60a185eAE063276c",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Truebit Protocol",
-      "symbol": "TRU"
-    },
-    {
       "address": "0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784",
       "chainId": 1,
       "decimals": 8,
       "name": "TrustToken",
+      "symbol": "TRU"
+    },
+    {
+      "address": "0xf65B5C5104c4faFD4b709d9D60a185eAE063276c",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Truebit Protocol",
       "symbol": "TRU"
     },
     {
