@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-15T08:23:17.409Z",
+  "timestamp": "2021-06-15T09:21:34.545Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -939,17 +939,17 @@
       "symbol": "AFA"
     },
     {
-      "address": "0xF576ff0d7e4C1e8F27DbD50321E95E36a965985F",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Apiary Fund Coin",
-      "symbol": "AFC"
-    },
-    {
       "address": "0x14dfFD4F515d4c43493C6c512c78fbC59a8aF254",
       "chainId": 1,
       "decimals": 18,
       "name": "Anti Fraud Chain",
+      "symbol": "AFC"
+    },
+    {
+      "address": "0xF576ff0d7e4C1e8F27DbD50321E95E36a965985F",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Apiary Fund Coin",
       "symbol": "AFC"
     },
     {
@@ -1096,6 +1096,13 @@
       "chainId": 1,
       "decimals": 18,
       "name": "POLY AI",
+      "symbol": "AI"
+    },
+    {
+      "address": "0xc91B523A59ACC63A64f61fc7bBfB4bfc82DD25f2",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Multiverse",
       "symbol": "AI"
     },
     {
@@ -29389,6 +29396,13 @@
       "symbol": "PYLNT"
     },
     {
+      "address": "0xD8924385CD46e6AF6F377871C732BDe2F8e9dD18",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Pylon Network",
+      "symbol": "PYLNT"
+    },
+    {
       "address": "0xD7B7d3C0bdA57723Fb54ab95Fd8F9EA033AF37f2",
       "chainId": 1,
       "decimals": 18,
@@ -29713,7 +29727,7 @@
       "address": "0x13572851103bEd49FF743AF4C4BB5ace88B22E2F",
       "chainId": 1,
       "decimals": 9,
-      "name": "R3FI Finance",
+      "name": "Recharge Finance",
       "symbol": "R3FI"
     },
     {
@@ -36956,17 +36970,17 @@
       "symbol": "U8D"
     },
     {
-      "address": "0x822808104E173cB4B21549d8E921Cae9E4F655E9",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "Uni Ape",
-      "symbol": "UAPE"
-    },
-    {
       "address": "0xcC7d3706EA82cdb4Ec7D2a3eaC0e487E17Ab975A",
       "chainId": 1,
       "decimals": 18,
       "name": "Unicly Bored Ape Ya",
+      "symbol": "UAPE"
+    },
+    {
+      "address": "0x822808104E173cB4B21549d8E921Cae9E4F655E9",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Uni Ape",
       "symbol": "UAPE"
     },
     {
