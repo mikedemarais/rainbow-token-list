@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-15T04:26:46.223Z",
+  "timestamp": "2021-06-15T05:22:15.937Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -15415,13 +15415,6 @@
       "symbol": "FNTB"
     },
     {
-      "address": "0x5515950F7bF8D6aCDF4aE98c33bf996BD0eD6F6f",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "FinanceX token",
-      "symbol": "FNX"
-    },
-    {
       "address": "0xeF9Cd7882c067686691B6fF49e650b43AFBBCC6B",
       "chainId": 1,
       "decimals": 18,
@@ -15430,6 +15423,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x5515950F7bF8D6aCDF4aE98c33bf996BD0eD6F6f",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "FinanceX token",
+      "symbol": "FNX"
     },
     {
       "address": "0x05919A3915462abbDf2Cd3C5b42213cc8f596102",
@@ -26059,6 +26059,13 @@
       "symbol": "NTO"
     },
     {
+      "address": "0xcfB152E5b93fc2C9906d4ff41fC8407DFa5e8851",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "NTON",
+      "symbol": "NTON"
+    },
+    {
       "address": "0xeCcf15A4B5976a1365BAeD5297058B4cA42777C0",
       "chainId": 1,
       "decimals": 18,
@@ -26938,17 +26945,17 @@
       }
     },
     {
-      "address": "0x662b67d00A13FAf93254714DD601F5Ed49Ef2F51",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Orbit Chain",
-      "symbol": "ORC"
-    },
-    {
       "address": "0x324AF2D5353f2dD138E234b359d30d67C64b1b20",
       "chainId": 1,
       "decimals": 18,
       "name": "Oracle System",
+      "symbol": "ORC"
+    },
+    {
+      "address": "0x662b67d00A13FAf93254714DD601F5Ed49Ef2F51",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Orbit Chain",
       "symbol": "ORC"
     },
     {
@@ -32848,6 +32855,13 @@
       "symbol": "SLC"
     },
     {
+      "address": "0x1ef6A7e2c966fb7C5403EFEFdE38338b1a95a084",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "ShieldEX",
+      "symbol": "SLD"
+    },
+    {
       "address": "0x0AeE8703D34DD9aE107386d3eFF22AE75Dd616D1",
       "chainId": 1,
       "decimals": 18,
@@ -34473,7 +34487,7 @@
       "symbol": "SUR"
     },
     {
-      "address": "0xb5a4ac5b04E777230bA3381195EfF6a60c3934F2",
+      "address": "0xcb86c6A22CB56B6cf40CaFEDb06BA0DF188a416E",
       "chainId": 1,
       "decimals": 18,
       "name": "inSure DeFi",
@@ -36933,6 +36947,13 @@
       "decimals": 18,
       "name": "Universal Dollar",
       "symbol": "U8D"
+    },
+    {
+      "address": "0x822808104E173cB4B21549d8E921Cae9E4F655E9",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Uni Ape",
+      "symbol": "UAPE"
     },
     {
       "address": "0xcC7d3706EA82cdb4Ec7D2a3eaC0e487E17Ab975A",
@@ -41417,6 +41438,13 @@
       "decimals": 8,
       "name": "WEBN token",
       "symbol": "WEBN"
+    },
+    {
+      "address": "0xcC1a8BD438BebC4b2a885a34475BB974f2124317",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Whole Earth Coin",
+      "symbol": "WEC"
     },
     {
       "address": "0x1b06B43f3b0bBAd73784d858c782e029F3F5Af14",
