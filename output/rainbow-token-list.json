@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-16T17:36:03.434Z",
+  "timestamp": "2021-06-16T18:25:45.357Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -4825,7 +4825,10 @@
       "chainId": 1,
       "decimals": 9,
       "name": "King Arthur",
-      "symbol": "BKING"
+      "symbol": "BKING",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x0D6F6a130C3046713cBA425f41a65C17205dF6B5",
@@ -9999,7 +10002,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "dAppstore",
-      "symbol": "DAPPX"
+      "symbol": "DAPPX",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x3108ccFd96816F9E663baA0E8c5951D229E8C6da",
@@ -15649,7 +15655,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Star Foxx",
-      "symbol": "FOXX"
+      "symbol": "FOXX",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x084Da5a9C0e3f086532b98d8568432349b89d9DF",
@@ -21313,7 +21322,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Koji",
-      "symbol": "KOJI"
+      "symbol": "KOJI",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x7BD6a4E7DB3A34c485A8DD02b30B6565e3bbC633",
@@ -26893,7 +26905,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Opacity",
-      "symbol": "OPCT"
+      "symbol": "OPCT",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x69c4BB240cF05D51eeab6985Bab35527d04a8C64",
@@ -34770,7 +34785,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Swapp",
-      "symbol": "SWAPP"
+      "symbol": "SWAPP",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xc0F1728d9513EFC316D0E93A0758c992f88b0809",
@@ -40090,7 +40108,7 @@
       "address": "0xa47c8bf37f92aBed4A126BDA807A7b7498661acD",
       "chainId": 1,
       "decimals": 18,
-      "name": "Wrapped UST Token",
+      "name": "Wrapped UST",
       "symbol": "UST",
       "extensions": {
         "isVerified": true
@@ -41442,7 +41460,7 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Wrapped Celo",
-      "symbol": "wCELO",
+      "symbol": "WCELO",
       "extensions": {
         "isVerified": true
       }
@@ -44444,6 +44462,16 @@
       "decimals": 6,
       "name": "yUSDC  BUSD pool",
       "symbol": "YUSDC"
+    },
+    {
+      "address": "0xB8C3B7A2A618C552C23B1E4701109a9E756Bab67",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "1INCH yVault",
+      "symbol": "yv1INCH",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x9d409a0A012CFbA9B15F6D4B36Ac57A46966Ab9a",
