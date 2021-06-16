@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-16T01:02:34.964Z",
+  "timestamp": "2021-06-16T02:38:29.538Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -31408,6 +31408,13 @@
       }
     },
     {
+      "address": "0x8B3192f5eEBD8579568A2Ed41E6FEB402f93f73F",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Saitama Inu",
+      "symbol": "SAITAMA"
+    },
+    {
       "address": "0xFa14Fa6958401314851A17d6C5360cA29f74B57B",
       "chainId": 1,
       "decimals": 18,
@@ -33881,17 +33888,17 @@
       "symbol": "SSWIM"
     },
     {
-      "address": "0xD7d05bDa4bf5876bA1254b3Eaaf8b47D2F5676eb",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "STABLE ASSET",
-      "symbol": "STA"
-    },
-    {
       "address": "0xa7DE087329BFcda5639247F96140f9DAbe3DeED1",
       "chainId": 1,
       "decimals": 18,
       "name": "Statera",
+      "symbol": "STA"
+    },
+    {
+      "address": "0xD7d05bDa4bf5876bA1254b3Eaaf8b47D2F5676eb",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "STABLE ASSET",
       "symbol": "STA"
     },
     {
@@ -44877,6 +44884,13 @@
       "decimals": 9,
       "name": "Zoracles",
       "symbol": "ZORA"
+    },
+    {
+      "address": "0x825cd4201f8A2bBB1A69668EAc4E5Fa71283273D",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Zort",
+      "symbol": "ZORT"
     },
     {
       "address": "0xEfFeA57067E02999fDCd0Bb45c0f1071a29472D9",
