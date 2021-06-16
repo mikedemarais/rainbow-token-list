@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-16T10:23:08.831Z",
+  "timestamp": "2021-06-16T11:17:09.022Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -11524,13 +11524,6 @@
       "symbol": "DOGDEFI"
     },
     {
-      "address": "0xF1d32952E2fbB1a91e620b0FD7fBC8a8879A47f3",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "3X Short Dogecoin T",
-      "symbol": "DOGEBEAR"
-    },
-    {
       "address": "0x7AA6b33fB7F395DDBca7b7A33264A3c799Fa626f",
       "chainId": 1,
       "decimals": 18,
@@ -17659,6 +17652,13 @@
       "decimals": 18,
       "name": "Hachiko Inu",
       "symbol": "HACHIKO"
+    },
+    {
+      "address": "0x05Fb86775Fd5c16290f1E838F5caaa7342bD9a63",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Hacken Token",
+      "symbol": "HAI"
     },
     {
       "address": "0x93a7174dafd31d13400cD9fa01f4e5B5BAa00D39",
@@ -30265,13 +30265,6 @@
       "symbol": "REHAB"
     },
     {
-      "address": "0x61bFC979EA8160Ede9b862798B7833a97baFa02a",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "RELEASE",
-      "symbol": "REL"
-    },
-    {
       "address": "0xb6c4267C4877BB0D6b1685Cfd85b0FBe82F105ec",
       "chainId": 1,
       "decimals": 18,
@@ -30280,6 +30273,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x61bFC979EA8160Ede9b862798B7833a97baFa02a",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RELEASE",
+      "symbol": "REL"
     },
     {
       "address": "0x0E58ED58E150dba5fd8e5D4A49F54C7e1E880124",
