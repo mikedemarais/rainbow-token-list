@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-16T06:26:12.290Z",
+  "timestamp": "2021-06-16T07:22:45.779Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -20853,6 +20853,13 @@
       "symbol": "KATANA"
     },
     {
+      "address": "0x17a4Ae8B1ea75d51AB0F2875B80452F7e34c272a",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Kawakami Inu",
+      "symbol": "KAWA"
+    },
+    {
       "address": "0xd67b1Db49801b6F4c96a01a4F7964233150dc58b",
       "chainId": 1,
       "decimals": 7,
@@ -23741,6 +23748,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x42dbBd5ae373FEA2FC320F62d44C058522Bb3758",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Memecoin",
+      "symbol": "MEM"
     },
     {
       "address": "0xD5525D397898e5502075Ea5E830d8914f6F0affe",
@@ -32569,6 +32583,13 @@
       "decimals": 18,
       "name": "Shih Tzu",
       "symbol": "SHIH"
+    },
+    {
+      "address": "0xa1ab427451F19dF7445a22dEa7073800Ea3b687f",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Shinigami Inu",
+      "symbol": "SHINU"
     },
     {
       "address": "0xe25b0BBA01Dc5630312B6A21927E578061A13f55",
@@ -43762,17 +43783,17 @@
       "symbol": "YFIA"
     },
     {
-      "address": "0x47632dA9227E322EDa59F9e7691eAcC6430Ac87C",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "YFI Business",
-      "symbol": "YFIB"
-    },
-    {
       "address": "0x03829f5675F3b51D0F8C2A74417a757625aCF22f",
       "chainId": 1,
       "decimals": 18,
       "name": "YFIBALANCER FINANCE",
+      "symbol": "YFIB"
+    },
+    {
+      "address": "0x47632dA9227E322EDa59F9e7691eAcC6430Ac87C",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "YFI Business",
       "symbol": "YFIB"
     },
     {
