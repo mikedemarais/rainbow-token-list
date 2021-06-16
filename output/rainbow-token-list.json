@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-16T13:31:00.919Z",
+  "timestamp": "2021-06-16T14:19:05.952Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -9172,17 +9172,17 @@
       }
     },
     {
-      "address": "0xD8698a985B89650d0A70f99AD2909bD0c0b4b51c",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Consentium",
-      "symbol": "CSM"
-    },
-    {
       "address": "0x2620638EDA99F9e7E902Ea24a285456EE9438861",
       "chainId": 1,
       "decimals": 18,
       "name": "Crust Shadow",
+      "symbol": "CSM"
+    },
+    {
+      "address": "0xD8698a985B89650d0A70f99AD2909bD0c0b4b51c",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Consentium",
       "symbol": "CSM"
     },
     {
@@ -36493,17 +36493,17 @@
       "symbol": "TRAT"
     },
     {
-      "address": "0x901F8679a6EF435d533732f5eA49bb82d568BE99",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Trebit Network",
-      "symbol": "TRB"
-    },
-    {
       "address": "0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0",
       "chainId": 1,
       "decimals": 18,
       "name": "Tellor",
+      "symbol": "TRB"
+    },
+    {
+      "address": "0x901F8679a6EF435d533732f5eA49bb82d568BE99",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Trebit Network",
       "symbol": "TRB"
     },
     {
