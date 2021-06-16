@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-16T03:24:49.009Z",
+  "timestamp": "2021-06-16T04:26:45.820Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -22449,13 +22449,6 @@
       "symbol": "LIQUID"
     },
     {
-      "address": "0xb59490aB09A0f526Cc7305822aC65f2Ab12f9723",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Litentry",
-      "symbol": "LIT"
-    },
-    {
       "address": "0x763Fa6806e1acf68130D2D0f0df754C93cC546B2",
       "chainId": 1,
       "decimals": 18,
@@ -22464,6 +22457,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0xb59490aB09A0f526Cc7305822aC65f2Ab12f9723",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Litentry",
+      "symbol": "LIT"
     },
     {
       "address": "0xf8A4A419c2d7140e49eF952a7e7Ae1Bd4A8b6B9C",
@@ -29904,13 +29904,6 @@
       }
     },
     {
-      "address": "0x714599f7604144a3fE1737c440a70fc0fD6503ea",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Raku Coin",
-      "symbol": "RAKUC"
-    },
-    {
       "address": "0xac6fE9aA6b996D15f23E2E9a384fE64607bba7d5",
       "chainId": 1,
       "decimals": 9,
@@ -31718,13 +31711,6 @@
       "decimals": 18,
       "name": "Sports Betting Mark",
       "symbol": "SBX"
-    },
-    {
-      "address": "0x4791143576C375919d086C35D989Feff61d2C390",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Scaleswap Token",
-      "symbol": "SCA"
     },
     {
       "address": "0x78fE18e41f436e1981a3a60D1557c8a7a9370461",
