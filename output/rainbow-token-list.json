@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-16T09:21:37.427Z",
+  "timestamp": "2021-06-16T10:23:08.831Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -11056,6 +11056,13 @@
       "symbol": "DILI"
     },
     {
+      "address": "0xbb1EE07d6c7BAeB702949904080eb61f5D5e7732",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Dogey Inu",
+      "symbol": "DINU"
+    },
+    {
       "address": "0xc719d010B63E5bbF2C0551872CD5316ED26AcD83",
       "chainId": 1,
       "decimals": 18,
@@ -13643,7 +13650,7 @@
       "address": "0x46e9fE43470fafd690100C86037f9E566E24D480",
       "chainId": 1,
       "decimals": 18,
-      "name": "EQUOS Origin",
+      "name": "EQO",
       "symbol": "EQO"
     },
     {
@@ -15421,17 +15428,17 @@
       "symbol": "FND"
     },
     {
-      "address": "0x06404399e748CD83F25AB163711F9F4D61cfd0e6",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "FunKeyPay",
-      "symbol": "FNK"
-    },
-    {
       "address": "0xB5FE099475d3030DDe498c3BB6F3854F762A48Ad",
       "chainId": 1,
       "decimals": 18,
       "name": "Fnk com",
+      "symbol": "FNK"
+    },
+    {
+      "address": "0x06404399e748CD83F25AB163711F9F4D61cfd0e6",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "FunKeyPay",
       "symbol": "FNK"
     },
     {
@@ -22463,13 +22470,6 @@
       "symbol": "LIQUID"
     },
     {
-      "address": "0xb59490aB09A0f526Cc7305822aC65f2Ab12f9723",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Litentry",
-      "symbol": "LIT"
-    },
-    {
       "address": "0x763Fa6806e1acf68130D2D0f0df754C93cC546B2",
       "chainId": 1,
       "decimals": 18,
@@ -22478,6 +22478,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0xb59490aB09A0f526Cc7305822aC65f2Ab12f9723",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Litentry",
+      "symbol": "LIT"
     },
     {
       "address": "0xf8A4A419c2d7140e49eF952a7e7Ae1Bd4A8b6B9C",
@@ -26569,13 +26576,6 @@
       "symbol": "OIKOS"
     },
     {
-      "address": "0x0275E1001e293C46CFe158B3702AADe0B99f88a5",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Oiler",
-      "symbol": "OIL"
-    },
-    {
       "address": "0xaE6eb6F6c0A1694968b9f78a4316319C27B0964b",
       "chainId": 1,
       "decimals": 18,
@@ -26587,6 +26587,13 @@
       "chainId": 1,
       "decimals": 8,
       "name": "OILage",
+      "symbol": "OIL"
+    },
+    {
+      "address": "0x0275E1001e293C46CFe158B3702AADe0B99f88a5",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Oiler",
       "symbol": "OIL"
     },
     {
@@ -27024,17 +27031,17 @@
       }
     },
     {
-      "address": "0x662b67d00A13FAf93254714DD601F5Ed49Ef2F51",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Orbit Chain",
-      "symbol": "ORC"
-    },
-    {
       "address": "0x324AF2D5353f2dD138E234b359d30d67C64b1b20",
       "chainId": 1,
       "decimals": 18,
       "name": "Oracle System",
+      "symbol": "ORC"
+    },
+    {
+      "address": "0x662b67d00A13FAf93254714DD601F5Ed49Ef2F51",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Orbit Chain",
       "symbol": "ORC"
     },
     {
@@ -33930,17 +33937,17 @@
       "symbol": "SSWIM"
     },
     {
-      "address": "0xa7DE087329BFcda5639247F96140f9DAbe3DeED1",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Statera",
-      "symbol": "STA"
-    },
-    {
       "address": "0xD7d05bDa4bf5876bA1254b3Eaaf8b47D2F5676eb",
       "chainId": 1,
       "decimals": 18,
       "name": "STABLE ASSET",
+      "symbol": "STA"
+    },
+    {
+      "address": "0xa7DE087329BFcda5639247F96140f9DAbe3DeED1",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Statera",
       "symbol": "STA"
     },
     {
