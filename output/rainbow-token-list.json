@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-16T12:31:53.317Z",
+  "timestamp": "2021-06-16T13:31:00.919Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -30265,13 +30265,6 @@
       "symbol": "REHAB"
     },
     {
-      "address": "0x61bFC979EA8160Ede9b862798B7833a97baFa02a",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "RELEASE",
-      "symbol": "REL"
-    },
-    {
       "address": "0xb6c4267C4877BB0D6b1685Cfd85b0FBe82F105ec",
       "chainId": 1,
       "decimals": 18,
@@ -30280,6 +30273,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x61bFC979EA8160Ede9b862798B7833a97baFa02a",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RELEASE",
+      "symbol": "REL"
     },
     {
       "address": "0x0E58ED58E150dba5fd8e5D4A49F54C7e1E880124",
