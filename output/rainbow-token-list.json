@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-16T07:22:45.779Z",
+  "timestamp": "2021-06-16T08:22:37.738Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -27024,17 +27024,17 @@
       }
     },
     {
-      "address": "0x324AF2D5353f2dD138E234b359d30d67C64b1b20",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Oracle System",
-      "symbol": "ORC"
-    },
-    {
       "address": "0x662b67d00A13FAf93254714DD601F5Ed49Ef2F51",
       "chainId": 1,
       "decimals": 18,
       "name": "Orbit Chain",
+      "symbol": "ORC"
+    },
+    {
+      "address": "0x324AF2D5353f2dD138E234b359d30d67C64b1b20",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Oracle System",
       "symbol": "ORC"
     },
     {
