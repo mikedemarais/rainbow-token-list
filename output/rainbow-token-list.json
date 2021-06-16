@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-15T23:21:00.409Z",
+  "timestamp": "2021-06-16T01:02:34.964Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -1881,6 +1881,13 @@
       "decimals": 18,
       "name": "FireAnts",
       "symbol": "ANTS"
+    },
+    {
+      "address": "0x3D382228C54736d831FAC2748F4734D9177c7332",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aniverse",
+      "symbol": "ANV"
     },
     {
       "address": "0x7DbDD9DaFdC4c1c03D67925a4f85daA398aF32B0",
@@ -22442,13 +22449,6 @@
       "symbol": "LIQUID"
     },
     {
-      "address": "0xb59490aB09A0f526Cc7305822aC65f2Ab12f9723",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Litentry",
-      "symbol": "LIT"
-    },
-    {
       "address": "0x763Fa6806e1acf68130D2D0f0df754C93cC546B2",
       "chainId": 1,
       "decimals": 18,
@@ -22457,6 +22457,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0xb59490aB09A0f526Cc7305822aC65f2Ab12f9723",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Litentry",
+      "symbol": "LIT"
     },
     {
       "address": "0xf8A4A419c2d7140e49eF952a7e7Ae1Bd4A8b6B9C",
@@ -26996,17 +27003,17 @@
       }
     },
     {
-      "address": "0x662b67d00A13FAf93254714DD601F5Ed49Ef2F51",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Orbit Chain",
-      "symbol": "ORC"
-    },
-    {
       "address": "0x324AF2D5353f2dD138E234b359d30d67C64b1b20",
       "chainId": 1,
       "decimals": 18,
       "name": "Oracle System",
+      "symbol": "ORC"
+    },
+    {
+      "address": "0x662b67d00A13FAf93254714DD601F5Ed49Ef2F51",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Orbit Chain",
       "symbol": "ORC"
     },
     {
@@ -33874,17 +33881,17 @@
       "symbol": "SSWIM"
     },
     {
-      "address": "0xa7DE087329BFcda5639247F96140f9DAbe3DeED1",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Statera",
-      "symbol": "STA"
-    },
-    {
       "address": "0xD7d05bDa4bf5876bA1254b3Eaaf8b47D2F5676eb",
       "chainId": 1,
       "decimals": 18,
       "name": "STABLE ASSET",
+      "symbol": "STA"
+    },
+    {
+      "address": "0xa7DE087329BFcda5639247F96140f9DAbe3DeED1",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Statera",
       "symbol": "STA"
     },
     {
@@ -36430,17 +36437,17 @@
       "symbol": "TRAT"
     },
     {
-      "address": "0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Tellor",
-      "symbol": "TRB"
-    },
-    {
       "address": "0x901F8679a6EF435d533732f5eA49bb82d568BE99",
       "chainId": 1,
       "decimals": 18,
       "name": "Trebit Network",
+      "symbol": "TRB"
+    },
+    {
+      "address": "0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Tellor",
       "symbol": "TRB"
     },
     {
@@ -37017,17 +37024,17 @@
       "symbol": "U8D"
     },
     {
-      "address": "0xcC7d3706EA82cdb4Ec7D2a3eaC0e487E17Ab975A",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Unicly Bored Ape Ya",
-      "symbol": "UAPE"
-    },
-    {
       "address": "0x822808104E173cB4B21549d8E921Cae9E4F655E9",
       "chainId": 1,
       "decimals": 9,
       "name": "Uni Ape",
+      "symbol": "UAPE"
+    },
+    {
+      "address": "0xcC7d3706EA82cdb4Ec7D2a3eaC0e487E17Ab975A",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Unicly Bored Ape Ya",
       "symbol": "UAPE"
     },
     {
