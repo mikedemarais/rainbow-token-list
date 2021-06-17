@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-17T07:23:09.402Z",
+  "timestamp": "2021-06-17T08:22:51.856Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -18210,6 +18210,13 @@
       }
     },
     {
+      "address": "0x74b1Af114274335598da72f5C6ed7b954a016EeD",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "HitBTC Token",
+      "symbol": "HIT"
+    },
+    {
       "address": "0x7995ab36bB307Afa6A683C24a25d90Dc1Ea83566",
       "chainId": 1,
       "decimals": 6,
@@ -28221,6 +28228,13 @@
       "decimals": 18,
       "name": "Polkainsure Finance",
       "symbol": "PIS"
+    },
+    {
+      "address": "0x315dc1b524de57AE8e809A2e97699dbc895B8a21",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Pist Trust",
+      "symbol": "PIST"
     },
     {
       "address": "0x0fF161071e627A0E6de138105C73970F86ca7922",
