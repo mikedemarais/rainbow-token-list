@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-17T11:15:41.563Z",
+  "timestamp": "2021-06-17T12:31:35.482Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -15441,17 +15441,17 @@
       "symbol": "FND"
     },
     {
-      "address": "0x06404399e748CD83F25AB163711F9F4D61cfd0e6",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "FunKeyPay",
-      "symbol": "FNK"
-    },
-    {
       "address": "0xB5FE099475d3030DDe498c3BB6F3854F762A48Ad",
       "chainId": 1,
       "decimals": 18,
       "name": "Fnk com",
+      "symbol": "FNK"
+    },
+    {
+      "address": "0x06404399e748CD83F25AB163711F9F4D61cfd0e6",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "FunKeyPay",
       "symbol": "FNK"
     },
     {
@@ -21259,13 +21259,6 @@
       "decimals": 7,
       "name": "Ether Clown",
       "symbol": "KLOWN"
-    },
-    {
-      "address": "0xeD79E6dd91324F6Af138f01967BD24233d642a24",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "King Maker Coin",
-      "symbol": "KMC"
     },
     {
       "address": "0xe8D17542dfe79Ff4FBd4b850f2d39DC69c4489a2",
@@ -27785,13 +27778,6 @@
       "symbol": "PCNT"
     },
     {
-      "address": "0x6a03f33a50F8c011f22e9d1Af379B7EC85FCE392",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Precharge",
-      "symbol": "PCPIE"
-    },
-    {
       "address": "0xbc16da9df0A22f01A16BC0620a27e7D6d6488550",
       "chainId": 1,
       "decimals": 18,
@@ -29939,6 +29925,13 @@
       "chainId": 1,
       "decimals": 18,
       "name": "RAI Finance",
+      "symbol": "RAI"
+    },
+    {
+      "address": "0x4c9BBFc1FbD93dFB509E718400978fbEedf590E9",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Rai Token",
       "symbol": "RAI"
     },
     {
@@ -32580,13 +32573,6 @@
       "symbol": "SHD"
     },
     {
-      "address": "0x232FB065D9d24c34708eeDbF03724f2e95ABE768",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Sheesha Finance",
-      "symbol": "SHEESHA"
-    },
-    {
       "address": "0x22Ef3753e3658e81D5A0d0889ce078178Fe66595",
       "chainId": 1,
       "decimals": 18,
@@ -32656,17 +32642,17 @@
       "symbol": "SHIH"
     },
     {
-      "address": "0xa1ab427451F19dF7445a22dEa7073800Ea3b687f",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "Shinigami Inu",
-      "symbol": "SHINU"
-    },
-    {
       "address": "0x71BEFF5533dd4c0a47B739dA50C56A2dd28633fa",
       "chainId": 1,
       "decimals": 18,
       "name": "Sheltie Inu",
+      "symbol": "SHINU"
+    },
+    {
+      "address": "0xa1ab427451F19dF7445a22dEa7073800Ea3b687f",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Shinigami Inu",
       "symbol": "SHINU"
     },
     {
@@ -35866,6 +35852,13 @@
       "decimals": 18,
       "name": "THUG",
       "symbol": "THUG"
+    },
+    {
+      "address": "0x43a89815F33747eDBeCC588d6BB7E1c10dDa5599",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Thunder",
+      "symbol": "THUN"
     },
     {
       "address": "0xA98ED1fD277EaD2c00D143Cbe1465F59E65A0066",
