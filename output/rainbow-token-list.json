@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-17T05:22:14.275Z",
+  "timestamp": "2021-06-17T06:26:35.481Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -9182,17 +9182,17 @@
       }
     },
     {
-      "address": "0x2620638EDA99F9e7E902Ea24a285456EE9438861",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Crust Shadow",
-      "symbol": "CSM"
-    },
-    {
       "address": "0xD8698a985B89650d0A70f99AD2909bD0c0b4b51c",
       "chainId": 1,
       "decimals": 18,
       "name": "Consentium",
+      "symbol": "CSM"
+    },
+    {
+      "address": "0x2620638EDA99F9e7E902Ea24a285456EE9438861",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Crust Shadow",
       "symbol": "CSM"
     },
     {
@@ -16977,6 +16977,13 @@
       "symbol": "GNBT"
     },
     {
+      "address": "0x639ae8F3EEd18690bF451229d14953a5A5627b72",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Nimbus Governance T",
+      "symbol": "GNBU"
+    },
+    {
       "address": "0xF1a355cc5953a5C04130F221b6CCAd13c3f82990",
       "chainId": 1,
       "decimals": 18,
@@ -19818,6 +19825,13 @@
       "decimals": 9,
       "name": "INTEXCOIN",
       "symbol": "INTX"
+    },
+    {
+      "address": "0xF32aa187d5Bc16A2C02A6aFb7Df1459d0D107574",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Hachiko Inu Token",
+      "symbol": "INU"
     },
     {
       "address": "0xEcE83617Db208Ad255Ad4f45Daf81E25137535bb",
@@ -33966,17 +33980,17 @@
       "symbol": "SSWIM"
     },
     {
-      "address": "0xa7DE087329BFcda5639247F96140f9DAbe3DeED1",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Statera",
-      "symbol": "STA"
-    },
-    {
       "address": "0xD7d05bDa4bf5876bA1254b3Eaaf8b47D2F5676eb",
       "chainId": 1,
       "decimals": 18,
       "name": "STABLE ASSET",
+      "symbol": "STA"
+    },
+    {
+      "address": "0xa7DE087329BFcda5639247F96140f9DAbe3DeED1",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Statera",
       "symbol": "STA"
     },
     {
@@ -35903,6 +35917,13 @@
       "symbol": "TIME"
     },
     {
+      "address": "0x485d17A6f1B8780392d53D64751824253011A260",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "chrono tech",
+      "symbol": "TIME"
+    },
+    {
       "address": "0xA54C67bd320Da4F9725a6f585b7635a0c09B122e",
       "chainId": 1,
       "decimals": 6,
@@ -35911,13 +35932,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0x485d17A6f1B8780392d53D64751824253011A260",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "chrono tech",
-      "symbol": "TIME"
     },
     {
       "address": "0xd1B183f425F7E6A0C83aB1cd84cFDE2d84Ba049d",
@@ -36933,13 +36947,6 @@
       "symbol": "TTM"
     },
     {
-      "address": "0x9F599410D207f3D2828a8712e5e543AC2E040382",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Tapcoin",
-      "symbol": "TTT"
-    },
-    {
       "address": "0x2494a68C1484376fEf880b4c24D91f049d29B02A",
       "chainId": 1,
       "decimals": 18,
@@ -36948,6 +36955,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x9F599410D207f3D2828a8712e5e543AC2E040382",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Tapcoin",
+      "symbol": "TTT"
     },
     {
       "address": "0x9CDa8A60dd5AfA156c95Bd974428d91a0812e054",
