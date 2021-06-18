@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-18T05:21:50.200Z",
+  "timestamp": "2021-06-18T06:26:00.040Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -10364,6 +10364,13 @@
       "symbol": "DEC"
     },
     {
+      "address": "0x58379bF685ea2e251AE63d3eE26269c7c3848A17",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Distributed Energy",
+      "symbol": "DEC"
+    },
+    {
       "address": "0x30f271C9E86D2B7d00a6376Cd96A1cFBD5F0b9b3",
       "chainId": 1,
       "decimals": 18,
@@ -10372,13 +10379,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0x58379bF685ea2e251AE63d3eE26269c7c3848A17",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "Distributed Energy",
-      "symbol": "DEC"
     },
     {
       "address": "0x6CbEDEc4F1ac9D874987D2769596544E0d9161ab",
@@ -18362,6 +18362,13 @@
       "decimals": 18,
       "name": "Hunimal Token",
       "symbol": "HNI"
+    },
+    {
+      "address": "0xA771b49064Da011DF051052848477f18DbA1d2Ac",
+      "chainId": 1,
+      "decimals": 6,
+      "name": "Handshake",
+      "symbol": "HNS"
     },
     {
       "address": "0x9C9Fe3bD60b22A9735908B9589011E78F2025C11",
