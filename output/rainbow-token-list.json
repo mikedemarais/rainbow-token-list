@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-18T13:30:28.274Z",
+  "timestamp": "2021-06-18T14:18:57.331Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -3157,7 +3157,7 @@
       "symbol": "AWS"
     },
     {
-      "address": "0x1EFdfC6146cAd8909817284AE99325EF1cAF623e",
+      "address": "0xA51Fc71422a30FA7FFa605B360c3B283501b5bf6",
       "chainId": 1,
       "decimals": 18,
       "name": "AurusDeFi",
@@ -18245,17 +18245,17 @@
       }
     },
     {
-      "address": "0x74b1Af114274335598da72f5C6ed7b954a016EeD",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "HitBTC Token",
-      "symbol": "HIT"
-    },
-    {
       "address": "0x7995ab36bB307Afa6A683C24a25d90Dc1Ea83566",
       "chainId": 1,
       "decimals": 6,
       "name": "HitChain",
+      "symbol": "HIT"
+    },
+    {
+      "address": "0x74b1Af114274335598da72f5C6ed7b954a016EeD",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "HitBTC Token",
       "symbol": "HIT"
     },
     {
@@ -32687,17 +32687,17 @@
       "symbol": "SHIH"
     },
     {
-      "address": "0xa1ab427451F19dF7445a22dEa7073800Ea3b687f",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "Shinigami Inu",
-      "symbol": "SHINU"
-    },
-    {
       "address": "0x71BEFF5533dd4c0a47B739dA50C56A2dd28633fa",
       "chainId": 1,
       "decimals": 18,
       "name": "Sheltie Inu",
+      "symbol": "SHINU"
+    },
+    {
+      "address": "0xa1ab427451F19dF7445a22dEa7073800Ea3b687f",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Shinigami Inu",
       "symbol": "SHINU"
     },
     {
@@ -37206,17 +37206,17 @@
       "symbol": "U8D"
     },
     {
-      "address": "0x822808104E173cB4B21549d8E921Cae9E4F655E9",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "Uni Ape",
-      "symbol": "UAPE"
-    },
-    {
       "address": "0xcC7d3706EA82cdb4Ec7D2a3eaC0e487E17Ab975A",
       "chainId": 1,
       "decimals": 18,
       "name": "Unicly Bored Ape Ya",
+      "symbol": "UAPE"
+    },
+    {
+      "address": "0x822808104E173cB4B21549d8E921Cae9E4F655E9",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Uni Ape",
       "symbol": "UAPE"
     },
     {
