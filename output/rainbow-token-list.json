@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-18T07:22:39.841Z",
+  "timestamp": "2021-06-18T08:23:16.656Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -5561,6 +5561,13 @@
       "decimals": 18,
       "name": "BORA",
       "symbol": "BORA"
+    },
+    {
+      "address": "0xBC19712FEB3a26080eBf6f2F7849b417FdD792CA",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "BoringDAO",
+      "symbol": "BORING"
     },
     {
       "address": "0xC477D038d5420C6A9e0b031712f61c5120090de9",
@@ -12038,17 +12045,17 @@
       "symbol": "DSCVR"
     },
     {
-      "address": "0x1e3a2446C729D34373B87FD2C9CBb39A93198658",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "DeFi Nation Signals",
-      "symbol": "DSD"
-    },
-    {
       "address": "0xBD2F0Cd039E0BFcf88901C98c0bFAc5ab27566e3",
       "chainId": 1,
       "decimals": 18,
       "name": "Dynamic Set Dollar",
+      "symbol": "DSD"
+    },
+    {
+      "address": "0x1e3a2446C729D34373B87FD2C9CBb39A93198658",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "DeFi Nation Signals",
       "symbol": "DSD"
     },
     {
@@ -12942,17 +12949,17 @@
       "symbol": "ECTE"
     },
     {
-      "address": "0xd3CDc4e75750DC1e59F8342200742B6B29490e70",
-      "chainId": 1,
-      "decimals": 3,
-      "name": "Decurian",
-      "symbol": "ECU"
-    },
-    {
       "address": "0x8fc9b6354E839AB1c8B31F4afa53607092B8C2e5",
       "chainId": 1,
       "decimals": 18,
       "name": "ECOSC",
+      "symbol": "ECU"
+    },
+    {
+      "address": "0xd3CDc4e75750DC1e59F8342200742B6B29490e70",
+      "chainId": 1,
+      "decimals": 3,
+      "name": "Decurian",
       "symbol": "ECU"
     },
     {
@@ -18238,17 +18245,17 @@
       }
     },
     {
-      "address": "0x7995ab36bB307Afa6A683C24a25d90Dc1Ea83566",
-      "chainId": 1,
-      "decimals": 6,
-      "name": "HitChain",
-      "symbol": "HIT"
-    },
-    {
       "address": "0x74b1Af114274335598da72f5C6ed7b954a016EeD",
       "chainId": 1,
       "decimals": 18,
       "name": "HitBTC Token",
+      "symbol": "HIT"
+    },
+    {
+      "address": "0x7995ab36bB307Afa6A683C24a25d90Dc1Ea83566",
+      "chainId": 1,
+      "decimals": 6,
+      "name": "HitChain",
       "symbol": "HIT"
     },
     {
@@ -34991,6 +34998,13 @@
       }
     },
     {
+      "address": "0xB4371dA53140417CBb3362055374B10D97e420bB",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Switcheo",
+      "symbol": "SWTH"
+    },
+    {
       "address": "0x77C6E4a580c0dCE4E5c7a17d0bc077188a83A059",
       "chainId": 1,
       "decimals": 18,
@@ -35876,13 +35890,6 @@
       "decimals": 18,
       "name": "Thrive",
       "symbol": "THRT"
-    },
-    {
-      "address": "0xD0Df51CeC800D1F8045722377f6faceba8d15A4d",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "The Hash Speed",
-      "symbol": "THS"
     },
     {
       "address": "0xfe7B915A0bAA0E79f85c5553266513F7C1c03Ed0",
