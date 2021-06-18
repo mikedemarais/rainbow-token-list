@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-18T11:17:24.554Z",
+  "timestamp": "2021-06-18T12:31:49.289Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -31692,17 +31692,17 @@
       }
     },
     {
-      "address": "0xc9F1016d336ef77AeE75Fc11Ad64C5Ecf9121332",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "SoMee Advertising T",
-      "symbol": "SAT"
-    },
-    {
       "address": "0x1F0F468Ee03A6D99CD8A09dd071494a83Dc1c0e5",
       "chainId": 1,
       "decimals": 4,
       "name": "SmartX",
+      "symbol": "SAT"
+    },
+    {
+      "address": "0xc9F1016d336ef77AeE75Fc11Ad64C5Ecf9121332",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "SoMee Advertising T",
       "symbol": "SAT"
     },
     {
@@ -32687,17 +32687,17 @@
       "symbol": "SHIH"
     },
     {
-      "address": "0x71BEFF5533dd4c0a47B739dA50C56A2dd28633fa",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Sheltie Inu",
-      "symbol": "SHINU"
-    },
-    {
       "address": "0xa1ab427451F19dF7445a22dEa7073800Ea3b687f",
       "chainId": 1,
       "decimals": 9,
       "name": "Shinigami Inu",
+      "symbol": "SHINU"
+    },
+    {
+      "address": "0x71BEFF5533dd4c0a47B739dA50C56A2dd28633fa",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Sheltie Inu",
       "symbol": "SHINU"
     },
     {
@@ -37027,6 +37027,13 @@
       "symbol": "TTM"
     },
     {
+      "address": "0x9F599410D207f3D2828a8712e5e543AC2E040382",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Tapcoin",
+      "symbol": "TTT"
+    },
+    {
       "address": "0x2494a68C1484376fEf880b4c24D91f049d29B02A",
       "chainId": 1,
       "decimals": 18,
@@ -37035,13 +37042,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0x9F599410D207f3D2828a8712e5e543AC2E040382",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Tapcoin",
-      "symbol": "TTT"
     },
     {
       "address": "0x9CDa8A60dd5AfA156c95Bd974428d91a0812e054",
