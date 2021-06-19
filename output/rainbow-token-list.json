@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-19T12:30:21.848Z",
+  "timestamp": "2021-06-19T13:28:47.608Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -18231,17 +18231,17 @@
       }
     },
     {
-      "address": "0x7995ab36bB307Afa6A683C24a25d90Dc1Ea83566",
-      "chainId": 1,
-      "decimals": 6,
-      "name": "HitChain",
-      "symbol": "HIT"
-    },
-    {
       "address": "0x74b1Af114274335598da72f5C6ed7b954a016EeD",
       "chainId": 1,
       "decimals": 18,
       "name": "HitBTC Token",
+      "symbol": "HIT"
+    },
+    {
+      "address": "0x7995ab36bB307Afa6A683C24a25d90Dc1Ea83566",
+      "chainId": 1,
+      "decimals": 6,
+      "name": "HitChain",
       "symbol": "HIT"
     },
     {
