@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-19T05:21:18.905Z",
+  "timestamp": "2021-06-19T06:26:04.261Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -13761,7 +13761,7 @@
       "address": "0x5218E472cFCFE0b64A064F055B43b4cdC9EfD3A6",
       "chainId": 1,
       "decimals": 18,
-      "name": "UnFederalReserve",
+      "name": "unFederalReserve",
       "symbol": "ERSDL"
     },
     {
@@ -27820,6 +27820,13 @@
       "symbol": "PCNT"
     },
     {
+      "address": "0x2925C2a312A4934Fd695fAb72b1E425Cc41978f2",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Precharge",
+      "symbol": "PCPI"
+    },
+    {
       "address": "0xbc16da9df0A22f01A16BC0620a27e7D6d6488550",
       "chainId": 1,
       "decimals": 18,
@@ -34825,6 +34832,13 @@
       "decimals": 18,
       "name": "Surge Token",
       "symbol": "SVG"
+    },
+    {
+      "address": "0x7ca62545a380e7d71F8F5CFa14B9211002075930",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "GivingToServices SV",
+      "symbol": "SVS"
     },
     {
       "address": "0xc434b27736A6882D33094d34792999702860a13C",
