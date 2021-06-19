@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-19T08:22:06.718Z",
+  "timestamp": "2021-06-19T09:21:17.222Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -28601,7 +28601,7 @@
       "address": "0x1796ae0b0fa4862485106a0de9b654eFE301D0b2",
       "chainId": 1,
       "decimals": 18,
-      "name": "Polkamon",
+      "name": "Polychain Monsters",
       "symbol": "PMON"
     },
     {
@@ -32694,17 +32694,17 @@
       "symbol": "SHIH"
     },
     {
-      "address": "0x71BEFF5533dd4c0a47B739dA50C56A2dd28633fa",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Sheltie Inu",
-      "symbol": "SHINU"
-    },
-    {
       "address": "0xa1ab427451F19dF7445a22dEa7073800Ea3b687f",
       "chainId": 1,
       "decimals": 9,
       "name": "Shinigami Inu",
+      "symbol": "SHINU"
+    },
+    {
+      "address": "0x71BEFF5533dd4c0a47B739dA50C56A2dd28633fa",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Sheltie Inu",
       "symbol": "SHINU"
     },
     {
@@ -34495,17 +34495,17 @@
       "symbol": "STR"
     },
     {
-      "address": "0x84Bb947fcEdba6B9C7DCEad42dF07e113bb03007",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Stater",
-      "symbol": "STR"
-    },
-    {
       "address": "0x426567F78e74577f8a6233B635970eb729631e05",
       "chainId": 1,
       "decimals": 18,
       "name": "Staker Token",
+      "symbol": "STR"
+    },
+    {
+      "address": "0x84Bb947fcEdba6B9C7DCEad42dF07e113bb03007",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Stater",
       "symbol": "STR"
     },
     {
