@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-20T17:30:54.248Z",
+  "timestamp": "2021-06-20T18:23:53.559Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -20188,8 +20188,11 @@
       "address": "0x1681bcB589b3cFCF0c0616B0cE9b19b240643dc1",
       "chainId": 1,
       "decimals": 9,
-      "name": "Island Coin",
-      "symbol": "ISLE"
+      "name": "Island",
+      "symbol": "ISLE",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x3db1678170418D1014012f855E2DdA492f35C289",
