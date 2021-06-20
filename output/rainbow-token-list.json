@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-20T14:17:54.832Z",
+  "timestamp": "2021-06-20T15:23:25.893Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -5525,6 +5525,13 @@
       "symbol": "BOOM"
     },
     {
+      "address": "0x82b89e0F9C0695639EB88659D0c306dBC242AF96",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "BoomBaby io",
+      "symbol": "BOOMB"
+    },
+    {
       "address": "0x3e780920601D61cEdb860fe9c4a90c9EA6A35E78",
       "chainId": 1,
       "decimals": 18,
@@ -5905,6 +5912,13 @@
       "symbol": "BSBT"
     },
     {
+      "address": "0xcfAD57a67689809CdA997f655802a119838c9ceC",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Benscoin",
+      "symbol": "BSC"
+    },
+    {
       "address": "0xe541504417670FB76b612B41B4392d967a1956c7",
       "chainId": 1,
       "decimals": 18,
@@ -5913,13 +5927,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0xcfAD57a67689809CdA997f655802a119838c9ceC",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "Benscoin",
-      "symbol": "BSC"
     },
     {
       "address": "0x003e0af2916e598Fa5eA5Cb2Da4EDfdA9aEd9Fde",
