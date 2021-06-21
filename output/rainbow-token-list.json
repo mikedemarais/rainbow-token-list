@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-21T02:39:18.748Z",
+  "timestamp": "2021-06-21T03:24:03.919Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -24167,6 +24167,13 @@
       "decimals": 18,
       "name": "Spaceswap MILK2",
       "symbol": "MILK2"
+    },
+    {
+      "address": "0x90B831fa3Bebf58E9744A14D638E25B4eE06f9Bc",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "MIMO Parallel Gover",
+      "symbol": "MIMO"
     },
     {
       "address": "0x5D64D850c8368008aFB39224E92aD0DcEFf3CF38",
