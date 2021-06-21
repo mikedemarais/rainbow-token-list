@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-21T17:32:31.993Z",
+  "timestamp": "2021-06-21T18:24:39.756Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -4908,7 +4908,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Blank",
-      "symbol": "BLANK"
+      "symbol": "BLANK",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x326caf6980d4e9161Cfb3c55f195B3D825c266D4",
@@ -10876,7 +10879,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "DFX Finance",
-      "symbol": "DFX"
+      "symbol": "DFX",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xf1f5De69C9C8D9BE8a7B01773Cc1166D4Ec6Ede2",
@@ -18501,7 +18507,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "HOPR",
-      "symbol": "HOPR"
+      "symbol": "HOPR",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x43A96962254855F16b925556f9e97BE436A43448",
@@ -31139,6 +31148,16 @@
       "decimals": 18,
       "name": "Rope",
       "symbol": "ROPE"
+    },
+    {
+      "address": "0x17d1823bD5E96e76e822ab42B61d348302E072d5",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "ROSA",
+      "symbol": "ROSA",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xD04785C4d8195e4A54d9dEc3a9043872875ae9E2",
