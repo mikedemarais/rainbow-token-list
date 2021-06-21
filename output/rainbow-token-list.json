@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-21T06:26:41.845Z",
+  "timestamp": "2021-06-21T07:43:29.467Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -1090,6 +1090,13 @@
       "decimals": 18,
       "name": "AmericanHorror Fina",
       "symbol": "AHF"
+    },
+    {
+      "address": "0xB125CcEb9C6e349217d09B069a8d88DBEAcF06E5",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Animal House",
+      "symbol": "AHOUSE"
     },
     {
       "address": "0x5121E348e897dAEf1Eef23959Ab290e5557CF274",
@@ -16747,6 +16754,13 @@
       "symbol": "GHD"
     },
     {
+      "address": "0x3bb86d867A9F3adDF994cdaDb210Fa82F0D4157A",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Ghoul Token",
+      "symbol": "GHOUL"
+    },
+    {
       "address": "0x3F382DbD960E3a9bbCeaE22651E88158d2791550",
       "chainId": 1,
       "decimals": 18,
@@ -25151,6 +25165,13 @@
       "decimals": 18,
       "name": "Must",
       "symbol": "MUST"
+    },
+    {
+      "address": "0x8Ee04E1e9400d4e2091Ff3A46509E246E2F34542",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Musubi",
+      "symbol": "MUSUBI"
     },
     {
       "address": "0xA49d7499271aE71cd8aB9Ac515e6694C755d400c",
