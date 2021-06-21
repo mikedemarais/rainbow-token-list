@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-21T07:43:29.467Z",
+  "timestamp": "2021-06-21T08:28:50.093Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -10613,13 +10613,6 @@
       "symbol": "DERI"
     },
     {
-      "address": "0x95bA34760ac3D7fBE98ee8b2AB33b4F1a6D18878",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "DeCash",
-      "symbol": "DESH"
-    },
-    {
       "address": "0x5A80b50A0420A2507e33508A93E0Aa037fc90636",
       "chainId": 1,
       "decimals": 18,
@@ -11626,6 +11619,13 @@
       "decimals": 18,
       "name": "Dogira",
       "symbol": "DOGIRA"
+    },
+    {
+      "address": "0xE7a7ef72466167fF78e08ad76b12CA0C13C496E1",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "DogStonks Pro",
+      "symbol": "DOGPRO"
     },
     {
       "address": "0x9c405acf8688AfB61B3197421cDeeC1A266c6839",
