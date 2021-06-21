@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-21T15:23:50.328Z",
+  "timestamp": "2021-06-21T16:33:29.821Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -6390,13 +6390,6 @@
       "symbol": "BTR"
     },
     {
-      "address": "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Bitrue Coin",
-      "symbol": "BTR"
-    },
-    {
       "address": "0xcce63fD31e9053c110c74CEbc37C8e358A6AA5bD",
       "chainId": 1,
       "decimals": 4,
@@ -6405,6 +6398,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Bitrue Coin",
+      "symbol": "BTR"
     },
     {
       "address": "0x388Fd8A5145D6EF85aAE14D494F93Df9D1c7c00C",
@@ -6815,6 +6815,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x19062190B1925b5b6689D7073fDfC8c2976EF8Cb",
+      "chainId": 1,
+      "decimals": 16,
+      "name": "Swarm",
+      "symbol": "BZZ"
     },
     {
       "address": "0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB",
@@ -17161,13 +17168,6 @@
       "symbol": "GOLD"
     },
     {
-      "address": "0xDFC628A33C18e856Cd1c59583cB5aCe8dB706F14",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "Projekt Gold",
-      "symbol": "GOLD"
-    },
-    {
       "address": "0x670f9D9a26D3D42030794ff035d35a67AA092ead",
       "chainId": 1,
       "decimals": 8,
@@ -17198,6 +17198,13 @@
         "color": "#f1b32b",
         "isVerified": true
       }
+    },
+    {
+      "address": "0xDFC628A33C18e856Cd1c59583cB5aCe8dB706F14",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Projekt Gold",
+      "symbol": "GOLD"
     },
     {
       "address": "0xcfE4F03C3AFbB9857b29fC706180Bf0044900D59",
@@ -24903,6 +24910,13 @@
       }
     },
     {
+      "address": "0x9Af5A20AaC8D83230ba68542Ba29d132d50cbe08",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Marsan Exchange Token",
+      "symbol": "MRS"
+    },
+    {
       "address": "0x1254E59712e6e727dC71E0E3121Ae952b2c4c3b6",
       "chainId": 1,
       "decimals": 18,
@@ -26866,13 +26880,6 @@
       "symbol": "OMT"
     },
     {
-      "address": "0x4E30910845f0cb4F66781B35c832Eafc09774022",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Mars Token",
-      "symbol": "OMT"
-    },
-    {
       "address": "0xB5DBC6D3cf380079dF3b27135664b6BCF45D1869",
       "chainId": 1,
       "decimals": 8,
@@ -27396,13 +27403,6 @@
       "symbol": "OVR"
     },
     {
-      "address": "0x2a7f709eE001069771ceB6D42e85035f7D18E736",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "OWL Token",
-      "symbol": "OWL"
-    },
-    {
       "address": "0x1A5F9352Af8aF974bFC03399e3767DF6370d82e4",
       "chainId": 1,
       "decimals": 18,
@@ -27411,6 +27411,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x2a7f709eE001069771ceB6D42e85035f7D18E736",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "OWL Token",
+      "symbol": "OWL"
     },
     {
       "address": "0x170b275CEd089FffAEBFe927F445a350ED9160DC",
@@ -28209,13 +28216,6 @@
       }
     },
     {
-      "address": "0x1864cE27E9F7517047933CaAE530674e8C70b8A7",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Pibble",
-      "symbol": "PIB"
-    },
-    {
       "address": "0x1BaFfbc23f2246040cCE12F7a140C38c5DC73e46",
       "chainId": 1,
       "decimals": 18,
@@ -28224,6 +28224,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x1864cE27E9F7517047933CaAE530674e8C70b8A7",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Pibble",
+      "symbol": "PIB"
     },
     {
       "address": "0x1eCe1739DAE08253aE582C404511B37355B42C84",
@@ -34448,6 +34455,13 @@
       "symbol": "STONK"
     },
     {
+      "address": "0x35b55c25731E9b05B1d8480ba39463d52C9D0211",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Stonk Swap",
+      "symbol": "STONK"
+    },
+    {
       "address": "0xb4058411967D5046f3510943103805be61f0600E",
       "chainId": 1,
       "decimals": 18,
@@ -34456,13 +34470,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0x35b55c25731E9b05B1d8480ba39463d52C9D0211",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Stonk Swap",
-      "symbol": "STONK"
     },
     {
       "address": "0x8c3eE4F778E282B59D42d693A97b80b1ed80f4Ee",
@@ -36685,17 +36692,17 @@
       "symbol": "TRAT"
     },
     {
-      "address": "0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Tellor",
-      "symbol": "TRB"
-    },
-    {
       "address": "0x901F8679a6EF435d533732f5eA49bb82d568BE99",
       "chainId": 1,
       "decimals": 18,
       "name": "Trebit Network",
+      "symbol": "TRB"
+    },
+    {
+      "address": "0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Tellor",
       "symbol": "TRB"
     },
     {
