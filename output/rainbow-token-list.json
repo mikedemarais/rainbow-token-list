@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-21T09:21:38.711Z",
+  "timestamp": "2021-06-21T10:23:13.681Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -5557,6 +5557,13 @@
       "chainId": 1,
       "decimals": 18,
       "name": "BOOTY",
+      "symbol": "BOOTY"
+    },
+    {
+      "address": "0xd9B48548DE7710519221207D70E40aa24D7d1985",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "CandyBooty",
       "symbol": "BOOTY"
     },
     {
@@ -13651,6 +13658,13 @@
       "decimals": 18,
       "name": "EpiK Protocol",
       "symbol": "EPK"
+    },
+    {
+      "address": "0x57b3140F522a3eF2F98C046F78e0D03075908591",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Ethereum Platinum",
+      "symbol": "EPLAT"
     },
     {
       "address": "0x02e3083a51E8632E571fBd6A62aC396C10c653Ba",
@@ -22576,13 +22590,6 @@
       "symbol": "LIQUID"
     },
     {
-      "address": "0xb59490aB09A0f526Cc7305822aC65f2Ab12f9723",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Litentry",
-      "symbol": "LIT"
-    },
-    {
       "address": "0x763Fa6806e1acf68130D2D0f0df754C93cC546B2",
       "chainId": 1,
       "decimals": 18,
@@ -22591,6 +22598,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0xb59490aB09A0f526Cc7305822aC65f2Ab12f9723",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Litentry",
+      "symbol": "LIT"
     },
     {
       "address": "0xf8A4A419c2d7140e49eF952a7e7Ae1Bd4A8b6B9C",
@@ -38147,17 +38161,17 @@
       "symbol": "uniFAME"
     },
     {
-      "address": "0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Covenants",
-      "symbol": "UNIFI"
-    },
-    {
       "address": "0x0eF3b2024ae079e6dBC2b37435cE30d2731F0101",
       "chainId": 1,
       "decimals": 18,
       "name": "UNIFI DeFi",
+      "symbol": "UNIFI"
+    },
+    {
+      "address": "0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Covenants",
       "symbol": "UNIFI"
     },
     {
