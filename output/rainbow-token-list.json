@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-22T00:59:52.177Z",
+  "timestamp": "2021-06-22T02:05:43.701Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -575,17 +575,17 @@
       "symbol": "ACE"
     },
     {
-      "address": "0xeC5483804e637D45cDe22Fa0869656B64b5AB1ab",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Acent",
-      "symbol": "ACE"
-    },
-    {
       "address": "0xe17e41ACD4caa3CeC048837bfd1918b3c4141767",
       "chainId": 1,
       "decimals": 6,
       "name": "Ace Entertainment",
+      "symbol": "ACE"
+    },
+    {
+      "address": "0xeC5483804e637D45cDe22Fa0869656B64b5AB1ab",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Acent",
       "symbol": "ACE"
     },
     {
@@ -3965,14 +3965,18 @@
       "symbol": "BCNT"
     },
     {
-      "address": "0xE4f726Adc8e89C6a6017F01eadA77865dB22dA14",
+      "address": "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
       "chainId": 1,
       "decimals": 18,
-      "name": "PieDAO Balanced Crypto Pie",
-      "symbol": "BCP",
-      "extensions": {
-        "isVerified": true
-      }
+      "name": "BlockchainPoland",
+      "symbol": "BCP"
+    },
+    {
+      "address": "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "BitcashPay",
+      "symbol": "BCP"
     },
     {
       "address": "0xd26fb114401Ec86887CD09F62eccd95fCf20B571",
@@ -3985,18 +3989,14 @@
       }
     },
     {
-      "address": "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "BitcashPay",
-      "symbol": "BCP"
-    },
-    {
-      "address": "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
+      "address": "0xE4f726Adc8e89C6a6017F01eadA77865dB22dA14",
       "chainId": 1,
       "decimals": 18,
-      "name": "BlockchainPoland",
-      "symbol": "BCP"
+      "name": "PieDAO Balanced Crypto Pie",
+      "symbol": "BCP",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x1c4481750daa5Ff521A2a7490d9981eD46465Dbd",
@@ -22989,17 +22989,17 @@
       "symbol": "LSS"
     },
     {
-      "address": "0x4de2573e27E648607B50e1Cfff921A33E4A34405",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Lendroid Support To",
-      "symbol": "LST"
-    },
-    {
       "address": "0x681Ecc5a0bFD18c308A1138fF607F818baC5E417",
       "chainId": 1,
       "decimals": 18,
       "name": "Luckstar",
+      "symbol": "LST"
+    },
+    {
+      "address": "0x4de2573e27E648607B50e1Cfff921A33E4A34405",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Lendroid Support To",
       "symbol": "LST"
     },
     {
@@ -33969,6 +33969,13 @@
       "symbol": "SPUP"
     },
     {
+      "address": "0xe516D78d784C77D479977BE58905B3f2b1111126",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Bitspawn",
+      "symbol": "SPWN"
+    },
+    {
       "address": "0x05aAaA829Afa407D83315cDED1d45EB16025910c",
       "chainId": 1,
       "decimals": 18,
@@ -35356,13 +35363,6 @@
       "symbol": "TAC"
     },
     {
-      "address": "0x41C028a4C1F461eBFC3af91619b240004ebAD216",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "TacoToken",
-      "symbol": "TACO"
-    },
-    {
       "address": "0x00D1793D7C3aAE506257Ba985b34C76AaF642557",
       "chainId": 1,
       "decimals": 18,
@@ -35371,6 +35371,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x41C028a4C1F461eBFC3af91619b240004ebAD216",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "TacoToken",
+      "symbol": "TACO"
     },
     {
       "address": "0x9f7229aF0c4b9740e207Ea283b9094983f78ba04",
@@ -36711,17 +36718,17 @@
       "symbol": "TRAT"
     },
     {
-      "address": "0x901F8679a6EF435d533732f5eA49bb82d568BE99",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Trebit Network",
-      "symbol": "TRB"
-    },
-    {
       "address": "0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0",
       "chainId": 1,
       "decimals": 18,
       "name": "Tellor",
+      "symbol": "TRB"
+    },
+    {
+      "address": "0x901F8679a6EF435d533732f5eA49bb82d568BE99",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Trebit Network",
       "symbol": "TRB"
     },
     {
@@ -36934,17 +36941,17 @@
       "symbol": "TRT"
     },
     {
-      "address": "0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "TrustToken",
-      "symbol": "TRU"
-    },
-    {
       "address": "0xf65B5C5104c4faFD4b709d9D60a185eAE063276c",
       "chainId": 1,
       "decimals": 18,
       "name": "Truebit Protocol",
+      "symbol": "TRU"
+    },
+    {
+      "address": "0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "TrustToken",
       "symbol": "TRU"
     },
     {
@@ -38180,17 +38187,17 @@
       "symbol": "uniFAME"
     },
     {
-      "address": "0x0eF3b2024ae079e6dBC2b37435cE30d2731F0101",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "UNIFI DeFi",
-      "symbol": "UNIFI"
-    },
-    {
       "address": "0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5",
       "chainId": 1,
       "decimals": 18,
       "name": "Covenants",
+      "symbol": "UNIFI"
+    },
+    {
+      "address": "0x0eF3b2024ae079e6dBC2b37435cE30d2731F0101",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "UNIFI DeFi",
       "symbol": "UNIFI"
     },
     {
