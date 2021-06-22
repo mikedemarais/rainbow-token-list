@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-22T15:23:43.963Z",
+  "timestamp": "2021-06-22T16:33:05.888Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -8585,6 +8585,13 @@
       "decimals": 18,
       "name": "CoomCoin",
       "symbol": "COOM"
+    },
+    {
+      "address": "0x689CF5f8DD09BBB4417514C88909bb64ebA2547D",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Coop Network",
+      "symbol": "COOP"
     },
     {
       "address": "0x14dFa5CfAaFe89d81d7bf3df4E11eaedA0416618",
