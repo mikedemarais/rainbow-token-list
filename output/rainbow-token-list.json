@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-22T03:22:16.599Z",
+  "timestamp": "2021-06-22T05:20:56.340Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -3972,13 +3972,6 @@
       "symbol": "BCP"
     },
     {
-      "address": "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "BitcashPay",
-      "symbol": "BCP"
-    },
-    {
       "address": "0xd26fb114401Ec86887CD09F62eccd95fCf20B571",
       "chainId": 1,
       "decimals": 8,
@@ -3997,6 +3990,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "BitcashPay",
+      "symbol": "BCP"
     },
     {
       "address": "0x1c4481750daa5Ff521A2a7490d9981eD46465Dbd",
@@ -15196,6 +15196,13 @@
       "symbol": "FIN"
     },
     {
+      "address": "0x48A3D9510f7c2aa61A285cCb4eAa5Ba072692468",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Football Inu",
+      "symbol": "FINU"
+    },
+    {
       "address": "0xF921ae2DAC5fa128DC0F6168Bf153ea0943d2D43",
       "chainId": 1,
       "decimals": 8,
@@ -23319,7 +23326,7 @@
       "address": "0x75387e1287Dd85482aB66102DA9f6577E027f609",
       "chainId": 1,
       "decimals": 18,
-      "name": "MindsyncAI",
+      "name": "Mindsync",
       "symbol": "MAI"
     },
     {
@@ -26886,6 +26893,13 @@
       "chainId": 1,
       "decimals": 18,
       "name": "OTCMAKER Token",
+      "symbol": "OMT"
+    },
+    {
+      "address": "0x4E30910845f0cb4F66781B35c832Eafc09774022",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Mars Token",
       "symbol": "OMT"
     },
     {
@@ -37505,17 +37519,17 @@
       "symbol": "UCOS"
     },
     {
-      "address": "0x6d1DC3928604b00180Bb570BdAe94b9698d33b79",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "UnitedCrowd",
-      "symbol": "UCT"
-    },
-    {
       "address": "0x3c4bEa627039F0B7e7d21E34bB9C9FE962977518",
       "chainId": 1,
       "decimals": 18,
       "name": "Ubique Chain of Thi",
+      "symbol": "UCT"
+    },
+    {
+      "address": "0x6d1DC3928604b00180Bb570BdAe94b9698d33b79",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "UnitedCrowd",
       "symbol": "UCT"
     },
     {
