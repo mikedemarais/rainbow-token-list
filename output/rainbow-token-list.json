@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-22T17:32:25.720Z",
+  "timestamp": "2021-06-22T18:24:19.968Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -30433,7 +30433,10 @@
       "chainId": 1,
       "decimals": 9,
       "name": "RedPanda Earth",
-      "symbol": "REDPANDA"
+      "symbol": "REDPANDA",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xFE3E6a25e6b192A42a44ecDDCd13796471735ACf",
