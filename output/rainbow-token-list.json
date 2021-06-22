@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-22T14:19:14.742Z",
+  "timestamp": "2021-06-22T15:23:43.963Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -27490,6 +27490,13 @@
         "color": "#5f45ba",
         "isVerified": true
       }
+    },
+    {
+      "address": "0x33C8517e8b1BEEFd4A5275Ab72AcF39cd18331A3",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "OxyDev",
+      "symbol": "OYT"
     },
     {
       "address": "0xABE9b2e4bbD5A8C718752c41254Ed81aaE7d98BF",
