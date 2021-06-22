@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-22T06:26:03.447Z",
+  "timestamp": "2021-06-22T07:21:44.162Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -33697,6 +33697,13 @@
       "decimals": 18,
       "name": "Solarite",
       "symbol": "SOLARITE"
+    },
+    {
+      "address": "0x5011D48D4265b6fB8228600a111b2fAa1fDA3139",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "SolidDefi",
+      "symbol": "SOLID"
     },
     {
       "address": "0x446C9033E7516D820cc9a2ce2d0B7328b579406F",
