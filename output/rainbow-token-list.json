@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-22T16:33:05.888Z",
+  "timestamp": "2021-06-22T17:32:25.720Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -13907,7 +13907,7 @@
       "symbol": "ESPI"
     },
     {
-      "address": "0x7495d89d347aE9DDc95942938B58E933aB3bF7D1",
+      "address": "0x29C56E7CB9C840d2b2371b17e28BaB44AD3c3ead",
       "chainId": 1,
       "decimals": 18,
       "name": "EsportsPro",
@@ -30361,6 +30361,13 @@
       "decimals": 18,
       "name": "Real Coin",
       "symbol": "REAL"
+    },
+    {
+      "address": "0xFe17C3C0B6F38cF3bD8bA872bEE7a18Ab16b43fB",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   15777",
+      "symbol": "REALTOKEN-S-15777-A"
     },
     {
       "address": "0x1fc5EF0337AEA85C5f9198853a6E3A579a7A6987",
