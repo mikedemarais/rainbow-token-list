@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-23T10:23:00.468Z",
+  "timestamp": "2021-06-23T11:17:16.492Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -12107,17 +12107,17 @@
       "symbol": "DSCVR"
     },
     {
-      "address": "0x1e3a2446C729D34373B87FD2C9CBb39A93198658",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "DeFi Nation Signals",
-      "symbol": "DSD"
-    },
-    {
       "address": "0xBD2F0Cd039E0BFcf88901C98c0bFAc5ab27566e3",
       "chainId": 1,
       "decimals": 18,
       "name": "Dynamic Set Dollar",
+      "symbol": "DSD"
+    },
+    {
+      "address": "0x1e3a2446C729D34373B87FD2C9CBb39A93198658",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "DeFi Nation Signals",
       "symbol": "DSD"
     },
     {
