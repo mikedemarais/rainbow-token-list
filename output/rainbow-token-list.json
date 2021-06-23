@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-23T08:21:26.690Z",
+  "timestamp": "2021-06-23T09:19:43.092Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -16406,6 +16406,13 @@
       "decimals": 18,
       "name": "Golden Bridge Coin",
       "symbol": "GBC"
+    },
+    {
+      "address": "0xCB67bE5c54eab9462967eE3C03C35bfFfeB801cD",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Galactic Blue Index",
+      "symbol": "GBI"
     },
     {
       "address": "0x3e522D144814BD6149C1F3e0c6cD19d0941372AC",
