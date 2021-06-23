@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-23T14:17:02.601Z",
+  "timestamp": "2021-06-23T15:21:52.725Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -44939,6 +44939,13 @@
       "decimals": 8,
       "name": "Zloadr",
       "symbol": "ZDR"
+    },
+    {
+      "address": "0x78a8c84b4c23563bE4518e7045016D3170130823",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "3X Short Zcash Toke",
+      "symbol": "ZECBEAR"
     },
     {
       "address": "0xD437d88153daEF4784CAcd2084b1d8Cc2D3312B8",
