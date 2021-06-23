@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-23T16:25:58.136Z",
+  "timestamp": "2021-06-23T18:23:12.694Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -2740,6 +2740,13 @@
       "decimals": 18,
       "name": "Attention Token",
       "symbol": "ATTN"
+    },
+    {
+      "address": "0x44e2deC86B9F0e0266E9AA66e10323A2bd69CF9A",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Attrace",
+      "symbol": "ATTR"
     },
     {
       "address": "0x485B627f43E378417125b49Ed95CAc28b78339C4",
@@ -30391,11 +30398,46 @@
       "symbol": "REAL"
     },
     {
+      "address": "0xb5DD2b6E0A0422e069E1D2CC3Ed16533488a05e3",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   12866",
+      "symbol": "REALTOKEN-S-12866-L"
+    },
+    {
+      "address": "0x9528a7402C0Fe85B817aa6E106EAFa03A02924c4",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   14231",
+      "symbol": "REALTOKEN-S-14231-S"
+    },
+    {
+      "address": "0xdA47bD33e8f5d17Bb81b8752784bfb46C1c44B2A",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   15350",
+      "symbol": "REALTOKEN-S-15350-G"
+    },
+    {
+      "address": "0x4d0dA4E75d40Bd7D9C4f7A292BF883BcDf38c45D",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   15373",
+      "symbol": "REALTOKEN-S-15373-P"
+    },
+    {
       "address": "0xFe17C3C0B6F38cF3bD8bA872bEE7a18Ab16b43fB",
       "chainId": 1,
       "decimals": 18,
       "name": "RealT Token   15777",
       "symbol": "REALTOKEN-S-15777-A"
+    },
+    {
+      "address": "0x92d31E19F88597F368825ba16410f263a844527A",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   8181",
+      "symbol": "REALTOKEN-S-8181-BL"
     },
     {
       "address": "0x1fc5EF0337AEA85C5f9198853a6E3A579a7A6987",
