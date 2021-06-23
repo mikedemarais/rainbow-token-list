@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-23T09:19:43.092Z",
+  "timestamp": "2021-06-23T10:23:00.468Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -13124,6 +13124,13 @@
       "symbol": "EER"
     },
     {
+      "address": "0x656C00e1BcD96f256F224AD9112FF426Ef053733",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Efinity",
+      "symbol": "EFI"
+    },
+    {
       "address": "0x6653C0d21507573Cc39EAD1E609D74d5E0cA16e2",
       "chainId": 1,
       "decimals": 18,
@@ -19794,13 +19801,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0xb688A7B1472e2427c338b975D77E12389eCF2558",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "INBOX TOKEN",
-      "symbol": "INBOX"
     },
     {
       "address": "0xf8e386EDa857484f5a12e4B5DAa9984E06E73705",
@@ -28192,13 +28192,6 @@
       "decimals": 18,
       "name": "PGF500",
       "symbol": "PGF7T"
-    },
-    {
-      "address": "0x089A6D83282Fb8988A656189F1E7A73FA6C1caC2",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Prospectors Gold",
-      "symbol": "PGL"
     },
     {
       "address": "0xC949fC82A15964FB5B97e5cf8f9ffed139086821",
@@ -42171,13 +42164,6 @@
       "decimals": 2,
       "name": "Wixlar",
       "symbol": "WIX"
-    },
-    {
-      "address": "0x2F9b6779c37DF5707249eEb3734BbfC94763fBE2",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "CrowdWiz",
-      "symbol": "WIZ"
     },
     {
       "address": "0x7a82C573B378CEEa29772aFB93891f0d0afA93b7",
