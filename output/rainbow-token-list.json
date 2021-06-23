@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-23T02:30:16.751Z",
+  "timestamp": "2021-06-23T03:20:53.053Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -5698,17 +5698,17 @@
       "symbol": "BPP"
     },
     {
-      "address": "0x197E6bCa6BC2f488ec760a6Ce46B1399cd2954b0",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "BitCloud Pro",
-      "symbol": "BPRO"
-    },
-    {
       "address": "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
       "chainId": 1,
       "decimals": 18,
       "name": "B Protocol",
+      "symbol": "BPRO"
+    },
+    {
+      "address": "0x197E6bCa6BC2f488ec760a6Ce46B1399cd2954b0",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "BitCloud Pro",
       "symbol": "BPRO"
     },
     {
@@ -8952,6 +8952,13 @@
       "decimals": 18,
       "name": "COPYTRACK",
       "symbol": "CPY"
+    },
+    {
+      "address": "0xD417144312DbF50465b1C641d016962017Ef6240",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Covalent",
+      "symbol": "CQT"
     },
     {
       "address": "0x0D9a10a0466B7E9AD693e24993f5105bfDb240e3",
@@ -14519,6 +14526,13 @@
       "symbol": "EVEO"
     },
     {
+      "address": "0x3f9078B8fBCb1C4e03B41fa9e5a0532A28848dB7",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "EverApe",
+      "symbol": "EVERAPE"
+    },
+    {
       "address": "0xA26C4caaaEa8b88ef49Bf8c380488f66C2d807Ae",
       "chainId": 1,
       "decimals": 18,
@@ -15529,6 +15543,13 @@
       "decimals": 18,
       "name": "Fundum",
       "symbol": "FND"
+    },
+    {
+      "address": "0x00873432f09143556CC156D3cf971E4C8f68DacE",
+      "chainId": 1,
+      "decimals": 0,
+      "name": "FND Ottho Heldrings",
+      "symbol": "FND1066XT31D"
     },
     {
       "address": "0xB5FE099475d3030DDe498c3BB6F3854F762A48Ad",
@@ -21120,6 +21141,13 @@
       "decimals": 18,
       "name": "KelVPN",
       "symbol": "KEL"
+    },
+    {
+      "address": "0x672D7b3333d0F069a28b73A268bC6eAeC65F2E1a",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Kelpie Inu",
+      "symbol": "KELPIE"
     },
     {
       "address": "0x6A7Ef4998eB9d0f706238756949F311a59E05745",
@@ -38232,17 +38260,17 @@
       "symbol": "uniFAME"
     },
     {
-      "address": "0x0eF3b2024ae079e6dBC2b37435cE30d2731F0101",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "UNIFI DeFi",
-      "symbol": "UNIFI"
-    },
-    {
       "address": "0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5",
       "chainId": 1,
       "decimals": 18,
       "name": "Covenants",
+      "symbol": "UNIFI"
+    },
+    {
+      "address": "0x0eF3b2024ae079e6dBC2b37435cE30d2731F0101",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "UNIFI DeFi",
       "symbol": "UNIFI"
     },
     {
@@ -44918,6 +44946,13 @@
       "decimals": 8,
       "name": "Zloadr",
       "symbol": "ZDR"
+    },
+    {
+      "address": "0xD437d88153daEF4784CAcd2084b1d8Cc2D3312B8",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "3X Long Zcash Token",
+      "symbol": "ZECBULL"
     },
     {
       "address": "0x2eDf094dB69d6Dcd487f1B3dB9febE2eeC0dd4c5",
