@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-24T12:31:51.784Z",
+  "timestamp": "2021-06-24T13:25:29.309Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -30461,6 +30461,13 @@
       "symbol": "REALTOKEN-S-15777-A"
     },
     {
+      "address": "0x24293ab20159cfc0f3D7C8727CD827fbA63d4F64",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   19333",
+      "symbol": "REALTOKEN-S-19333-M"
+    },
+    {
       "address": "0x92d31E19F88597F368825ba16410f263a844527A",
       "chainId": 1,
       "decimals": 18,
@@ -35520,6 +35527,13 @@
       "symbol": "TAC"
     },
     {
+      "address": "0x41C028a4C1F461eBFC3af91619b240004ebAD216",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "TacoToken",
+      "symbol": "TACO"
+    },
+    {
       "address": "0x00D1793D7C3aAE506257Ba985b34C76AaF642557",
       "chainId": 1,
       "decimals": 18,
@@ -35528,13 +35542,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0x41C028a4C1F461eBFC3af91619b240004ebAD216",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "TacoToken",
-      "symbol": "TACO"
     },
     {
       "address": "0x9f7229aF0c4b9740e207Ea283b9094983f78ba04",
