@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-24T01:03:54.804Z",
+  "timestamp": "2021-06-24T02:29:12.943Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -17823,6 +17823,13 @@
       "symbol": "HAK"
     },
     {
+      "address": "0xD85AD783cc94bd04196a13DC042A3054a9B52210",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "TribeOne",
+      "symbol": "HAKA"
+    },
+    {
       "address": "0x0E29e5AbbB5FD88e28b2d355774e73BD47dE3bcd",
       "chainId": 1,
       "decimals": 18,
@@ -30743,6 +30750,13 @@
       "symbol": "RETH"
     },
     {
+      "address": "0x20BC832ca081b91433ff6c17f85701B6e92486c5",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "rETH2",
+      "symbol": "RETH2"
+    },
+    {
       "address": "0x2ef52Ed7De8c5ce03a4eF0efbe9B7450F2D7Edc9",
       "chainId": 1,
       "decimals": 6,
@@ -32541,6 +32555,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0xFe2e637202056d30016725477c5da089Ab0A043A",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "sETH2",
+      "symbol": "SETH2"
     },
     {
       "address": "0x04E0Af0af1b7f0023c6B12af5a94Df59B0e8cF59",
