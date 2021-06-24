@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-24T03:23:23.894Z",
+  "timestamp": "2021-06-24T04:26:56.035Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -17821,6 +17821,13 @@
       "decimals": 18,
       "name": "Shaka",
       "symbol": "HAK"
+    },
+    {
+      "address": "0xD85AD783cc94bd04196a13DC042A3054a9B52210",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "TribeOne",
+      "symbol": "HAKA"
     },
     {
       "address": "0x0E29e5AbbB5FD88e28b2d355774e73BD47dE3bcd",
