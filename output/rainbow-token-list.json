@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-24T08:22:43.227Z",
+  "timestamp": "2021-06-24T09:22:08.666Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -27602,6 +27602,13 @@
       "decimals": 18,
       "name": "PactSwap",
       "symbol": "PACT"
+    },
+    {
+      "address": "0x5067006F830224960Fb419D7f25a3a53e9919BB0",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "SmartPad",
+      "symbol": "PAD"
     },
     {
       "address": "0xB9bb08AB7E9Fa0A1356bd4A39eC0ca267E03b0b3",
