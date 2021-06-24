@@ -20,7 +20,7 @@ type OverrideFile = { [address: string]: OverrideToken };
 export default async function parseOverrideFile(): Promise<OverrideFile> {
   // load svg manifest JSON file from directory
   return mapKeys(overrides, (...args) => {
-    if (args[1] === 'ETH') return args[1];
+    if (args[1] === 'eth') return args[1];
     return getAddress(args[1]);
   });
 }

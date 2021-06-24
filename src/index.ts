@@ -4,8 +4,6 @@
  * Library imports and exports.
  */
 import * as Types from './constants';
-import { build } from './lib/build';
-import { write } from './lib/write';
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 /**
@@ -13,6 +11,8 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
  */
 export { Types };
 /**
- * Export all methods we want to make publicly available.
+ * Expose as much of the library as possible to consumers.
  */
-export { build, write };
+export * from './lib/build';
+export * from './lib/write';
+export * from './lib/parse';

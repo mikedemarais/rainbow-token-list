@@ -1411,13 +1411,13 @@ function _parseEthereumLists() {
   return _parseEthereumLists.apply(this, arguments);
 }
 
-var ETH = {
+var eth = {
 	color: "#29292E",
 	isCurated: true,
 	name: "Ethereum"
 };
 var overrides = {
-	ETH: ETH,
+	eth: eth,
 	"0xaa6e8127831c9de45ae56bb1b0d4d4da6e5665bd": {
 	color: "#29292E",
 	isCurated: true,
@@ -2196,7 +2196,7 @@ function _parseOverrideFile() {
         switch (_context.prev = _context.next) {
           case 0:
             return _context.abrupt("return", mapKeys(overrides, function () {
-              if ((arguments.length <= 1 ? undefined : arguments[1]) === 'ETH') return arguments.length <= 1 ? undefined : arguments[1];
+              if ((arguments.length <= 1 ? undefined : arguments[1]) === 'eth') return arguments.length <= 1 ? undefined : arguments[1];
               return address.getAddress(arguments.length <= 1 ? undefined : arguments[1]);
             }));
 
@@ -2408,6 +2408,11 @@ function reduceArrayToObject(array) {
     return Object.assign(culm, item);
   }, {});
 }
+var TokenListStore = /*#__PURE__*/z.object({
+  tags: /*#__PURE__*/z.any().array().optional(),
+  tokens: /*#__PURE__*/z.any().array().optional()
+});
+var TokenListStoreRecord = /*#__PURE__*/z.record(TokenListStore);
 
 var omitTokenWithTag = function omitTokenWithTag(tokens, tag) {
   return tokens.filter(function (_ref) {
@@ -2713,7 +2718,21 @@ function _write() {
  */
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
+exports.SVG_ORIGINALS_REPO = SVG_ORIGINALS_REPO;
+exports.SVG_OVERRIDES_REPO = SVG_OVERRIDES_REPO;
+exports.TokenListStore = TokenListStore;
+exports.TokenListStoreRecord = TokenListStoreRecord;
 exports.Types = constants;
 exports.build = build;
+exports.createOutputFolder = createOutputFolder;
+exports.deeplyTrimAllTokenStrings = deeplyTrimAllTokenStrings;
+exports.parseEthereumListsTokenFiles = parseEthereumListsTokenFiles;
+exports.parseJsonFile = parseJsonFile;
+exports.partitionByUniqueness = partitionByUniqueness;
+exports.reduceArrayToObject = reduceArrayToObject;
+exports.resolveDeprecations = resolveDeprecations;
+exports.sortTokens = sortTokens;
+exports.validateTokenData = validateTokenData;
 exports.write = write;
+exports.writeToDisk = writeToDisk;
 //# sourceMappingURL=rainbow-token-list-test.cjs.development.js.map

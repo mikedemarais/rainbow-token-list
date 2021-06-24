@@ -1,4 +1,4 @@
-import { string, record, enum as enum$1, object, boolean, number, union } from 'zod';
+import { string, record, enum as enum$1, object, boolean, number, union, any } from 'zod';
 import { filter as filter$1, matchesProperty as matchesProperty$1, merge, uniq, compact as compact$1, pick as pick$1, some, find, keyBy, toLower } from 'lodash-es';
 import filter from 'lodash-es/filter';
 import matchesProperty from 'lodash-es/matchesProperty';
@@ -1405,13 +1405,13 @@ function _parseEthereumLists() {
   return _parseEthereumLists.apply(this, arguments);
 }
 
-var ETH = {
+var eth = {
 	color: "#29292E",
 	isCurated: true,
 	name: "Ethereum"
 };
 var overrides = {
-	ETH: ETH,
+	eth: eth,
 	"0xaa6e8127831c9de45ae56bb1b0d4d4da6e5665bd": {
 	color: "#29292E",
 	isCurated: true,
@@ -2190,7 +2190,7 @@ function _parseOverrideFile() {
         switch (_context.prev = _context.next) {
           case 0:
             return _context.abrupt("return", mapKeys(overrides, function () {
-              if ((arguments.length <= 1 ? undefined : arguments[1]) === 'ETH') return arguments.length <= 1 ? undefined : arguments[1];
+              if ((arguments.length <= 1 ? undefined : arguments[1]) === 'eth') return arguments.length <= 1 ? undefined : arguments[1];
               return getAddress(arguments.length <= 1 ? undefined : arguments[1]);
             }));
 
@@ -2402,6 +2402,11 @@ function reduceArrayToObject(array) {
     return Object.assign(culm, item);
   }, {});
 }
+var TokenListStore = /*#__PURE__*/object({
+  tags: /*#__PURE__*/any().array().optional(),
+  tokens: /*#__PURE__*/any().array().optional()
+});
+var TokenListStoreRecord = /*#__PURE__*/record(TokenListStore);
 
 var omitTokenWithTag = function omitTokenWithTag(tokens, tag) {
   return tokens.filter(function (_ref) {
@@ -2707,5 +2712,5 @@ function _write() {
  */
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
-export { constants as Types, build, write };
+export { SVG_ORIGINALS_REPO, SVG_OVERRIDES_REPO, TokenListStore, TokenListStoreRecord, constants as Types, build, createOutputFolder, deeplyTrimAllTokenStrings, parseEthereumListsTokenFiles, parseJsonFile, partitionByUniqueness, reduceArrayToObject, resolveDeprecations, sortTokens, validateTokenData, write, writeToDisk };
 //# sourceMappingURL=rainbow-token-list-test.esm.js.map
