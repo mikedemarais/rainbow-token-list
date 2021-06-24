@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-24T04:26:56.035Z",
+  "timestamp": "2021-06-24T06:26:31.021Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -27420,6 +27420,20 @@
       }
     },
     {
+      "address": "0x8fcb1783bF4b71A51F702aF0c266729C4592204a",
+      "chainId": 1,
+      "decimals": 6,
+      "name": "OT Aave Interest Be",
+      "symbol": "OT-AUSDC-29DEC2022"
+    },
+    {
+      "address": "0x3D4e7F52efaFb9E0C70179B688FC3965a75BCfEa",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "OT Compound Dai",
+      "symbol": "OT-CDAI-29DEC2022"
+    },
+    {
       "address": "0xA86a0Da9D05d0771955DF05B44Ca120661aF16DE",
       "chainId": 1,
       "decimals": 18,
@@ -38077,6 +38091,13 @@
       "symbol": "UMX"
     },
     {
+      "address": "0xD837eCa6C91c67D98461A411BA2f00bdA9960a9D",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "unFederal AAVE",
+      "symbol": "unAAVE"
+    },
+    {
       "address": "0xf29e46887FFAE92f1ff87DfE39713875Da541373",
       "chainId": 1,
       "decimals": 18,
@@ -38107,6 +38128,13 @@
       }
     },
     {
+      "address": "0x2dbA05B51eF5A7DE3E7c3327201CA2F8a25C2414",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "unFederal DAI",
+      "symbol": "unDAI"
+    },
+    {
       "address": "0xd03B6ae96CaE26b743A6207DceE7Cbe60a425c70",
       "chainId": 1,
       "decimals": 18,
@@ -38119,6 +38147,20 @@
       "decimals": 18,
       "name": "UniDexGas",
       "symbol": "UNDG"
+    },
+    {
+      "address": "0xE4cC5A22B39fFB0A56d67F94f9300db20D786a5F",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "unFederal eRSDL",
+      "symbol": "uneRSDL"
+    },
+    {
+      "address": "0xFaCecE87e14B50eafc85C44C01702F5f485CA460",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "unFederal ETH",
+      "symbol": "unETH"
     },
     {
       "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
@@ -39904,6 +39946,13 @@
       "symbol": "UNL"
     },
     {
+      "address": "0x031002d15B0D0Cd7c9129d6F644446368deaE391",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "unFederal LINK",
+      "symbol": "unLINK"
+    },
+    {
       "address": "0x226f7b842E0F0120b7E194D05432b3fd14773a9D",
       "chainId": 1,
       "decimals": 18,
@@ -39923,6 +39972,34 @@
       "decimals": 18,
       "name": "UnoSwap",
       "symbol": "UNOS"
+    },
+    {
+      "address": "0x6b576972de33BebDe3A703BfF52a091e79f8c87A",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "unFederal USDC",
+      "symbol": "unUSDC"
+    },
+    {
+      "address": "0x6e2aA5bB90ac37D9006685AFc651ef067E1c7b44",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "unFederal USDT",
+      "symbol": "unUSDT"
+    },
+    {
+      "address": "0x5D446FC8DBd10EBAcfE9A427aB5402586af98cD4",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "unFederal WBTC",
+      "symbol": "unWBTC"
+    },
+    {
+      "address": "0x9e29Ce9cD25F4141dF6BB85b27Ef6933a16A5824",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "unFederal YFI",
+      "symbol": "unYFI"
     },
     {
       "address": "0xE4AE84448DB5CFE1DaF1e6fb172b469c161CB85F",
@@ -41079,6 +41156,13 @@
       "decimals": 18,
       "name": "Vice Industry Token",
       "symbol": "VIT"
+    },
+    {
+      "address": "0x81f8f0bb1cB2A06649E51913A151F0E7Ef6FA321",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "VitaDAO",
+      "symbol": "VITA"
     },
     {
       "address": "0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016",
