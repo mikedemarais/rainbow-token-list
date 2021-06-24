@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-24T20:17:03.442Z",
+  "timestamp": "2021-06-24T21:20:05.236Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -30426,6 +30426,13 @@
       "symbol": "REAL"
     },
     {
+      "address": "0xB5D30c28F87acf675Ed5B9f343E5ffF39eC9942C",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token  10024",
+      "symbol": "REALTOKEN-S-10024-1"
+    },
+    {
       "address": "0xD5d1adf54Fbf73a00b197DdCfDAD7cc27D93002f",
       "chainId": 1,
       "decimals": 18,
@@ -30699,6 +30706,13 @@
       "symbol": "REALTOKEN-S-19311-K"
     },
     {
+      "address": "0x34eD9e71449529E034d0326cfBB3b5ccDCa00CBC",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   19317",
+      "symbol": "REALTOKEN-S-19317-G"
+    },
+    {
       "address": "0x24293ab20159cfc0f3D7C8727CD827fbA63d4F64",
       "chainId": 1,
       "decimals": 18,
@@ -30753,6 +30767,13 @@
       "decimals": 18,
       "name": "RealT Token   5601",
       "symbol": "REALTOKEN-S-5601-SW"
+    },
+    {
+      "address": "0xA29ae272bC89e5f315B2793925f700045F845d82",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   581 5",
+      "symbol": "REALTOKEN-S-581-587"
     },
     {
       "address": "0x92d31E19F88597F368825ba16410f263a844527A",
