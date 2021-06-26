@@ -60,6 +60,6 @@ export async function write() {
       keywords: ['rainbow'],
       tokens,
     },
-    'rainbow-token-list.json'
+    resolve(process.cwd(), 'rainbow-token-list.json')
   );
 }

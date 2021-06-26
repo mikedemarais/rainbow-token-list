@@ -43,7 +43,9 @@ export async function build(): Promise<Token[]> {
     parseSVGIconTokenFiles(),
     parseTokenLists(),
     parseEthereumLists(),
-  ]);
+  ]).catch(e => {
+    throw new Error(`Could not load all token resources: ${e}`);
+  });
   // const rainbowOverrides = await parseOverrides();
   // const contractMapTokens = await parseContractMap();
   // const svgIcons = await parseSVGIconTokenFiles();
