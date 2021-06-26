@@ -18,7 +18,7 @@
     "start": "tsdx watch",
     "prebuild": "yarn lint",
     "build": "tsdx build",
-    "write": "node scripts/write.mjs",
+    "write": "yarn build && node scripts/write.mjs",
     "test": "tsdx test",
     "lint": "tsdx lint src --fix",
     "size": "size-limit",
@@ -27,7 +27,7 @@
   "peerDependencies": {},
   "husky": {
     "hooks": {
-      "pre-commit": "yarn build"
+      "pre-commit": "yarn write && git stage --all"
     }
   },
   "prettier": {
