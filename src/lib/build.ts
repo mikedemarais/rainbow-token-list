@@ -11,9 +11,9 @@ import {
   uniq,
 } from 'lodash';
 
+import parseContractMap from './parse/contract-map';
 import parseEthereumLists from './parse/ethereum-lists';
 import parseOverrides from './parse/overrides';
-import parseContractMap from './parse/contract-map';
 import parseSVGIconTokenFiles from './parse/svg-icons';
 import parseTokenLists from './parse/token-lists';
 
@@ -27,17 +27,31 @@ function normalizeList(list: any[]) {
 
 export async function build(): Promise<Token[]> {
   /**
-   * Parse all of the data we need for the Token List build process. Do not run
-   * concurrently to avoid EMFILE errors in serverless environments.
+   * Parse all of the data we need for the Token List build process. Run
+   * concurrently, since we do not need to execute in a serverless environment,
+   * but disable this if that changes.
    */
-  const rainbowOverrides = await parseOverrides();
-  const contractMapTokens = await parseContractMap();
-  const svgIcons = await parseSVGIconTokenFiles();
-  const tokenListTokens = await parseTokenLists();
   const [
-    uniqueEthereumListTokens,
-    duplicateEthereumListTokens,
-  ] = await parseEthereumLists();
+    rainbowOverrides,
+    contractMapTokens,
+    svgIcons,
+    tokenListTokens,
+    [uniqueEthereumListTokens, duplicateEthereumListTokens],
+  ] = await Promise.all([
+    parseOverrides(),
+    parseContractMap(),
+    parseSVGIconTokenFiles(),
+    parseTokenLists(),
+    parseEthereumLists(),
+  ]);
+  // const rainbowOverrides = await parseOverrides();
+  // const contractMapTokens = await parseContractMap();
+  // const svgIcons = await parseSVGIconTokenFiles();
+  // const tokenListTokens = await parseTokenLists();
+  // const [
+  //   uniqueEthereumListTokens,
+  //   duplicateEthereumListTokens,
+  // ] = await parseEthereumLists();
 
   const { coingecko, ...preferredTokenLists } = tokenListTokens;
   const sources = {
