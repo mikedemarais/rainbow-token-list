@@ -26,11 +26,6 @@
     "install-husky": "husky install"
   },
   "peerDependencies": {},
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn write && git stage --all"
-    }
-  },
   "prettier": {
     "printWidth": 80,
     "semi": true,
