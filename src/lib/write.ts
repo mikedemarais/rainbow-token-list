@@ -10,7 +10,7 @@ import { build } from './build';
  * @param {string} location The output file or folder.
  * @return {Promise<void>}
  */
- export const createOutputFolder = async (location: string): Promise<void> => {
+export const createOutputFolder = async (location: string): Promise<void> => {
   const path = dirname(location);
   try {
     await fs.access(path);
@@ -35,7 +35,7 @@ import { build } from './build';
  *
  * @return {Promise<void>}
  */
- export const writeToDisk = async (
+export const writeToDisk = async (
   tokens: any,
   location: string
 ): Promise<void> => {

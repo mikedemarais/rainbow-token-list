@@ -83,4 +83,3 @@ function mapValuesDeep(v: any, callback: any): any {
 export const deeplyTrimAllTokenStrings = (token: Token): Token => {
   return mapValuesDeep(token, (v: any) => (isString(v) ? v.trim() : v));
 };
-
