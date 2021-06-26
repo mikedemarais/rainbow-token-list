@@ -1,13 +1,14 @@
 {
   "name": "rainbow-token-list-test",
   "author": "Michael Demarais",
-  "version": "1.31.0",
+  "version": "1.32.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
-    "src"
+    "src",
+    "rainbow-token-list.json"
   ],
   "engines": {
     "node": ">=10"
