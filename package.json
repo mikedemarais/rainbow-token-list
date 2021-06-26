@@ -23,7 +23,7 @@
     "start": "tsdx watch",
     "prebuild": "yarn lint",
     "build": "tsdx build --format esm",
-    "write": "yarn build && node scripts/write.mjs",
+    "write": "yarn build && node scripts/write.js",
     "test": "echo 'No tests yet'",
     "lint": "tsdx lint src --fix",
     "size": "size-limit",
