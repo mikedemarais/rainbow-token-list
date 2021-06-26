@@ -16,6 +16,8 @@ jobs:
           node-version: '14.x'
       - uses: c-hive/gha-yarn-cache@v1
       - run: yarn
+      - name: Install Husky
+        run: yarn install-husky
       - name: Update Token List and commit
         run: "git config --global user.name '${{github.actor}}' && \
               git config --global user.email '${{github.actor}}@users.noreply.github.com' && \

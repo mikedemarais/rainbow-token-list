@@ -22,7 +22,8 @@
     "test": "tsdx test",
     "lint": "tsdx lint src --fix",
     "size": "size-limit",
-    "analyze": "size-limit --why"
+    "analyze": "size-limit --why",
+    "install-husky": "husky install"
   },
   "peerDependencies": {},
   "husky": {
