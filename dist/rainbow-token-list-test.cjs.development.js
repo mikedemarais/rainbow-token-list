@@ -1188,6 +1188,7 @@ function _mapDir() {
   return _mapDir.apply(this, arguments);
 }
 
+var _excluded = ["deprecation"];
 /**
  * Partition tokens array into two categories: unique vs duplicates, according to
  * their token symbol
@@ -1218,7 +1219,7 @@ var partitionByUniqueness = function partitionByUniqueness(tokens) {
 function resolveDeprecations(tokens) {
   return tokens.map(function (_ref) {
     var deprecation = _ref.deprecation,
-        token = _objectWithoutPropertiesLoose(_ref, ["deprecation"]);
+        token = _objectWithoutPropertiesLoose(_ref, _excluded);
 
     return !(deprecation != null && deprecation.new_address) ? token : tokens.find(matchesProperty('address', deprecation.new_address)) || token;
   });
@@ -2441,6 +2442,8 @@ function _parseTokenLists() {
   return _parseTokenLists.apply(this, arguments);
 }
 
+var _excluded$1 = ["coingecko"];
+
 function normalizeList(list) {
   return lodash.keyBy(list, function (_ref) {
     var address$1 = _ref.address;
@@ -2560,7 +2563,7 @@ function _build() {
             _yield$parseEthereumL = _context.sent;
             uniqueEthereumListTokens = _yield$parseEthereumL[0];
             duplicateEthereumListTokens = _yield$parseEthereumL[1];
-            coingecko = tokenListTokens.coingecko, preferredTokenLists = _objectWithoutPropertiesLoose(tokenListTokens, ["coingecko"]);
+            coingecko = tokenListTokens.coingecko, preferredTokenLists = _objectWithoutPropertiesLoose(tokenListTokens, _excluded$1);
             sources = {
               "default": [duplicateEthereumListTokens, uniqueEthereumListTokens, contractMapTokens, coingecko.tokens.flat()].map(normalizeList),
               preferred: [Object.values(preferredTokenLists).map(function (_ref2) {

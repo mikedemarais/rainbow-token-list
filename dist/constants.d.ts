@@ -31,7 +31,7 @@ export declare const SocialSchema: z.ZodObject<{
     telegram: z.ZodOptional<z.ZodString>;
     twitter: z.ZodOptional<z.ZodString>;
     youtube: z.ZodOptional<z.ZodString>;
-}, "passthrough", z.ZodTypeAny, {
+}, "strip", z.ZodTypeAny, {
     blog?: string | undefined;
     chat?: string | undefined;
     discord?: string | undefined;
@@ -66,7 +66,7 @@ export declare const SocialSchema: z.ZodObject<{
 }>;
 export declare const TokenDeprecationSchema: z.ZodObject<{
     new_address: z.ZodOptional<z.ZodString>;
-}, "passthrough", z.ZodTypeAny, {
+}, "strip", z.ZodTypeAny, {
     new_address?: string | undefined;
 }, {
     new_address?: string | undefined;
@@ -76,7 +76,7 @@ export declare const TokenExtensionsSchema: z.ZodObject<{
     isRainbowCurated: z.ZodOptional<z.ZodBoolean>;
     isVerified: z.ZodOptional<z.ZodBoolean>;
     shadowColor: z.ZodOptional<z.ZodString>;
-}, "passthrough", z.ZodTypeAny, {
+}, "strip", z.ZodTypeAny, {
     color?: string | undefined;
     isRainbowCurated?: boolean | undefined;
     isVerified?: boolean | undefined;
@@ -94,7 +94,7 @@ export declare const TokenSchema: z.ZodObject<{
     decimals: z.ZodNumber;
     deprecation: z.ZodOptional<z.ZodObject<{
         new_address: z.ZodOptional<z.ZodString>;
-    }, "passthrough", z.ZodTypeAny, {
+    }, "strip", z.ZodTypeAny, {
         new_address?: string | undefined;
     }, {
         new_address?: string | undefined;
@@ -104,7 +104,7 @@ export declare const TokenSchema: z.ZodObject<{
         isRainbowCurated: z.ZodOptional<z.ZodBoolean>;
         isVerified: z.ZodOptional<z.ZodBoolean>;
         shadowColor: z.ZodOptional<z.ZodString>;
-    }, "passthrough", z.ZodTypeAny, {
+    }, "strip", z.ZodTypeAny, {
         color?: string | undefined;
         isRainbowCurated?: boolean | undefined;
         isVerified?: boolean | undefined;
@@ -132,7 +132,7 @@ export declare const TokenSchema: z.ZodObject<{
         telegram: z.ZodOptional<z.ZodString>;
         twitter: z.ZodOptional<z.ZodString>;
         youtube: z.ZodOptional<z.ZodString>;
-    }, "passthrough", z.ZodTypeAny, {
+    }, "strip", z.ZodTypeAny, {
         blog?: string | undefined;
         chat?: string | undefined;
         discord?: string | undefined;
@@ -167,7 +167,7 @@ export declare const TokenSchema: z.ZodObject<{
     }>>;
     symbol: z.ZodString;
     website: z.ZodOptional<z.ZodString>;
-}, "passthrough", z.ZodTypeAny, {
+}, "strip", z.ZodTypeAny, {
     deprecation?: {
         new_address?: string | undefined;
     } | undefined;
@@ -242,7 +242,7 @@ export declare const RawContractMapTokenSchema: z.ZodObject<{
     decimals: z.ZodUnion<[z.ZodString, z.ZodNumber]>;
     name: z.ZodString;
     symbol: z.ZodString;
-}, "passthrough", z.ZodTypeAny, {
+}, "strip", z.ZodTypeAny, {
     symbol: string;
     address: string;
     decimals: string | number;
@@ -261,7 +261,7 @@ export declare const RawEthereumListsTokenSchema: z.ZodObject<{
     decimals: z.ZodOptional<z.ZodUnion<[z.ZodString, z.ZodNumber]>>;
     deprecation: z.ZodOptional<z.ZodObject<{
         new_address: z.ZodOptional<z.ZodString>;
-    }, "passthrough", z.ZodTypeAny, {
+    }, "strip", z.ZodTypeAny, {
         new_address?: string | undefined;
     }, {
         new_address?: string | undefined;
@@ -283,7 +283,7 @@ export declare const RawEthereumListsTokenSchema: z.ZodObject<{
         telegram: z.ZodOptional<z.ZodString>;
         twitter: z.ZodOptional<z.ZodString>;
         youtube: z.ZodOptional<z.ZodString>;
-    }, "passthrough", z.ZodTypeAny, {
+    }, "strip", z.ZodTypeAny, {
         blog?: string | undefined;
         chat?: string | undefined;
         discord?: string | undefined;
@@ -318,7 +318,7 @@ export declare const RawEthereumListsTokenSchema: z.ZodObject<{
     }>>;
     symbol: z.ZodOptional<z.ZodString>;
     website: z.ZodOptional<z.ZodString>;
-}, "passthrough", z.ZodTypeAny, {
+}, "strip", z.ZodTypeAny, {
     symbol?: string | undefined;
     address?: string | undefined;
     decimals?: string | number | undefined;

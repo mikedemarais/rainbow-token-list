@@ -5,3 +5,4 @@ node_modules
 yalc.lock
 
 .vercel
+dist
