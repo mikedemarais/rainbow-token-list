@@ -21,5 +21,5 @@ jobs:
       - name: Update Token List and commit
         run: "git config --global user.name '${{github.actor}}' && \
               git config --global user.email '${{github.actor}}@users.noreply.github.com' && \
-              git commit -a -m 'Updated Token List' && \
+              (git commit -a -m 'Updated Token List' || true) && \
               git push -u origin HEAD"
