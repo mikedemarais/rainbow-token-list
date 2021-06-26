@@ -15,7 +15,7 @@ This package comes bundled with a copy in case you are unable to load fresh data
 over the Internet. You can import it like so:
 
 ```ts
-import tokens from 'rainbow-token-list/output/rainbow-token-list.json';
+import tokens from 'rainbow-token-list/rainbow-token-list.json';
 ```
 
 ### Library interface
