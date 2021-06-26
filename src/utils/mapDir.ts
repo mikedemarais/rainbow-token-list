@@ -1,5 +1,5 @@
 import pLimit from 'p-limit';
-import { promises as fs } from 'graceful-fs';
+import fs from 'graceful-fs';
 import { resolve } from 'path';
 
 export type FileMap<T = any> = (file: string) => Promise<T>;
@@ -19,7 +19,7 @@ export async function mapDir<T>({ dir, fileMap, limit = 10 }: MapDirArgs<T>) {
    * Resolve dir and load files.
    */
   dir = resolve(dir);
-  const files = await fs.readdir(dir);
+  const files = await fs.promises.readdir(dir);
 
   const resultPromises: (() => Promise<T>)[] = files.map(file => async () =>
     await fileMap(resolve(dir, file))

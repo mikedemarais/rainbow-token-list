@@ -1,6 +1,4 @@
-import isEmpty from 'lodash/isEmpty';
-import pick from 'lodash/pick';
-// import { tmpdir } from 'os';
+import { isEmpty, pick } from 'lodash';
 import { resolve } from 'path';
 import {
   CONTRACT_MAP_REPO,

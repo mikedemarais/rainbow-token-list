@@ -4,9 +4,7 @@
  * graceful-fs to prevent EMFILE errors in serverless environments.
  */
 
-import filter from 'lodash/filter';
-import matchesProperty from 'lodash/matchesProperty';
-import partition from 'lodash/partition';
+import { filter, matchesProperty, partition } from 'lodash';
 
 import { parseJsonFile, validateTokenData } from './parser';
 import { RawEthereumListsToken } from '../../constants';

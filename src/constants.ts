@@ -1,16 +1,19 @@
-/**
- * @fileoverview
- *
- * Customizing the subdirectory structure and so on was incompatible with
- * isomorphic git and was dropped.
- */
-
-import * as z from 'zod';
+import { z } from 'zod';
 
 export const PRODUCTION = process.env.NODE_ENV === 'production';
 
 export const CONTRACT_MAP_REPO = 'metamask/eth-contract-metadata';
+
 export const ETHEREUM_LISTS_REPO = 'ethereum-lists/tokens/tokens/eth';
+
+//
+// Related to Token List and Token Overrides.
+//
+export const REMOTE_TOKEN_LIST_ENDPOINT =
+  'https://raw.githubusercontent.com/ctjlewis/rainbow-token-list/service-compatibility/package.json';
+
+export const REMOTE_TOKEN_OVERRIDES_ENDPOINT =
+  'https://raw.githubusercontent.com/ctjlewis/rainbow-overrides/master/rainbow-overrides.json';
 
 export const TokenListItemSchema = z
   .string()

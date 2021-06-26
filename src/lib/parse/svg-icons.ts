@@ -4,17 +4,16 @@
  * graceful-fs to prevent EMFILE errors in serverless environments.
  */
 
-import compact from 'lodash/compact';
-import unionBy from 'lodash/unionBy';
+import { compact, unionBy } from 'lodash';
 import getSVGColors from 'get-svg-colors';
-import makeColorMoreChill from 'make-color-more-chill';
 
 import { resolve } from 'path';
 import { parseJsonFile } from './parser';
 
 import { fetchRepository } from '../../utils/fetch-repository';
-import { promises as fs } from 'graceful-fs';
+import fs from 'graceful-fs';
 import { FileMap, mapDir } from '../../utils/mapDir';
+import makeColorMoreChill from 'make-color-more-chill-test';
 
 export type SvgToken = {
   color: string;
@@ -37,7 +36,7 @@ async function parseOriginalSVGIcons() {
 async function parseOverrideSVGIcons() {
   const extractedAt = await fetchRepository(SVG_OVERRIDES_REPO);
   const fileMap: FileMap = async file => {
-    const svg = await fs.readFile(file, 'utf8');
+    const svg = await fs.promises.readFile(file, 'utf8');
 
     // Attempt to get SVG's "color" by reading it's first "fill"
     // value (which is usually the icon's background).

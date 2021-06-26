@@ -1,5 +1,5 @@
 import fetch from 'node-fetch';
-import * as z from 'zod';
+import { z } from 'zod';
 
 import {
   TOKEN_LISTS,

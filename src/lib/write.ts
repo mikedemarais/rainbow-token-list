@@ -1,5 +1,5 @@
 import mkdirp from 'mkdirp';
-import { promises as fs } from 'graceful-fs';
+import fs from 'graceful-fs';
 import { dirname, resolve } from 'path';
 import { formattedError, isError } from '../utils/isError';
 import { build } from './build';
@@ -13,7 +13,7 @@ import { build } from './build';
 export const createOutputFolder = async (location: string): Promise<void> => {
   const path = dirname(location);
   try {
-    await fs.access(path);
+    await fs.promises.access(path);
   } catch (error) {
     if (isError(error)) {
       if (error.code !== 'ENOENT') {
@@ -42,7 +42,7 @@ export const writeToDisk = async (
   const json = JSON.stringify(tokens, null, 2);
   const outputLocation = resolve(location);
   await createOutputFolder(outputLocation);
-  return fs.writeFile(outputLocation, json, 'utf8');
+  return fs.promises.writeFile(outputLocation, json, 'utf8');
 };
 
 export async function write() {

@@ -12,7 +12,7 @@ import {
 } from 'lodash';
 
 import parseEthereumLists from './parse/ethereum-lists';
-import parseOverrideFile from './parse/overrides';
+import parseOverrides from './parse/overrides';
 import parseContractMap from './parse/contract-map';
 import parseSVGIconTokenFiles from './parse/svg-icons';
 import parseTokenLists from './parse/token-lists';
@@ -30,7 +30,7 @@ export async function build(): Promise<Token[]> {
    * Parse all of the data we need for the Token List build process. Do not run
    * concurrently to avoid EMFILE errors in serverless environments.
    */
-  const rainbowOverrides = await parseOverrideFile();
+  const rainbowOverrides = await parseOverrides();
   const contractMapTokens = await parseContractMap();
   const svgIcons = await parseSVGIconTokenFiles();
   const tokenListTokens = await parseTokenLists();

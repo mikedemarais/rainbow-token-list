@@ -1,8 +1,5 @@
-import isPlainObject from 'lodash/isPlainObject';
-import isString from 'lodash/isString';
-import mapValues from 'lodash/mapValues';
-import pick from 'lodash/pick';
-import { promises as fs } from 'graceful-fs';
+import fs from 'graceful-fs';
+import { isPlainObject, isString, mapValues, pick } from 'lodash';
 import {
   RawEthereumListsToken,
   RawEthereumListsTokenSchema,
@@ -23,7 +20,7 @@ import { formattedError } from '../../utils/isError';
  */
 export const parseJsonFile = async <T>(file: string): Promise<T> => {
   try {
-    const json = await fs.readFile(file, 'utf8');
+    const json = await fs.promises.readFile(file, 'utf8');
     return JSON.parse(json);
   } catch (error) {
     throw new Error(`Failed to parse file ${file}: ${formattedError(error)}`);

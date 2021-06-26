@@ -2,6 +2,7 @@ name: Write updated Token List
 
 on:
   push: {}
+  workflow_dispatch: {}
   schedule:
     - cron: "0 * * * *"
 
