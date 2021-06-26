@@ -39,6 +39,10 @@ async function build(): Token[] {}
 async function write(): void {}
 ```
 
+### Development
+First, set up the Husky hooks with `yarn install-husky`. To push a new version
+of the Token List manually, just run `git commit`.
+
 ### Notes
 
 - If you get a `zlib: unexpected end of file` error when building, run `yarn clean`.
