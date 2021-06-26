@@ -2,9 +2,7 @@ import isPlainObject from 'lodash/isPlainObject';
 import isString from 'lodash/isString';
 import mapValues from 'lodash/mapValues';
 import pick from 'lodash/pick';
-import mkdirp from 'mkdirp';
 import { promises as fs } from 'graceful-fs';
-import { resolve } from 'path';
 import {
   RawEthereumListsToken,
   RawEthereumListsTokenSchema,
@@ -13,10 +11,11 @@ import {
   TokenSchema,
   TokenDeprecationSchema,
 } from '../../constants';
-import { formattedError, isError } from '../../utils/isError';
+import { formattedError } from '../../utils/isError';
 
 /**
- * Reads and parses a JSON file. Throws an error if the file could not be read or if the JSON is invalid.
+ * Reads and parses a JSON file. Throws an error if the file could not be read
+ * or if the JSON is invalid.
  *
  * @param {string} file
  * @return {Promise<T>}
@@ -32,8 +31,9 @@ export const parseJsonFile = async <T>(file: string): Promise<T> => {
 };
 
 /**
- * Validate raw token data, by checking if the required values are set and if the decimals are larger than or equal to
- * zero. This will strip any unknown fields and rename the 'decimals' field to 'decimal' for compatibility.
+ * Validate raw token data, by checking if the required values are set and if
+ * the decimals are larger than or equal to zero. This will strip any unknown
+ * fields and rename the 'decimals' field to 'decimal' for compatibility.
  *
  * @param {RawEthereumListsToken} token
  * @return {boolean}
@@ -67,28 +67,6 @@ export const sortTokens = (tokens: Token[]): Token[] => {
   return tokens.sort((a, b) => a.symbol.localeCompare(b.symbol));
 };
 
-/**
- * Creates the output folder if it does not exist yet.
- *
- * @param {string} path
- * @return {Promise<void>}
- */
-export const createOutputFolder = async (path: string): Promise<void> => {
-  try {
-    await fs.access(path);
-  } catch (error) {
-    if (isError(error)) {
-      if (error.code !== 'ENOENT') {
-        throw new Error(
-          `Failed to create output folder: ${formattedError(error)}`
-        );
-      }
-
-      mkdirp.sync(path);
-    }
-  }
-};
-
 function mapValuesDeep(v: any, callback: any): any {
   return isPlainObject(v)
     ? mapValues(v, v => mapValuesDeep(v, callback))
@@ -96,7 +74,8 @@ function mapValuesDeep(v: any, callback: any): any {
 }
 
 /**
- * Recursively loop through an token's values and `trim()` any values which are strings.
+ * Recursively loop through an token's values and `trim()` any values which are
+ * strings.
  *
  * @param {Token} token
  * @return {Token}
@@ -105,20 +84,3 @@ export const deeplyTrimAllTokenStrings = (token: Token): Token => {
   return mapValuesDeep(token, (v: any) => (isString(v) ? v.trim() : v));
 };
 
-/**
- * Write the Rainbow Token List JSON file to disk.
- *
- * @param {Token[]} tokens
- * @param {string} path
- * @param {string} name
- * @return {Promise<void>}
- */
-export const writeToDisk = async (
-  tokens: any,
-  path: string,
-  name: string
-): Promise<void> => {
-  await createOutputFolder(path);
-  const json = JSON.stringify(tokens, null, 2);
-  return fs.writeFile(resolve(path, name), json, 'utf8');
-};

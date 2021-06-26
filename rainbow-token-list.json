@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-24T22:20:38.313Z",
+  "timestamp": "2021-06-26T16:10:50.101Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -1660,13 +1660,6 @@
       "decimals": 18,
       "name": "AMMYI Coin",
       "symbol": "AMI"
-    },
-    {
-      "address": "0x2E68dfB3f50Ea302c88F8dB74096D57565D9970a",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Amino Network",
-      "symbol": "AMIO"
     },
     {
       "address": "0x949bEd886c739f1A3273629b3320db0C5024c719",
@@ -4894,6 +4887,13 @@
       "symbol": "BKRx"
     },
     {
+      "address": "0x9d62526f5Ce701950c30F2cACa70Edf70f9fbf0F",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Blocktanium",
+      "symbol": "BKT"
+    },
+    {
       "address": "0x45245bc59219eeaAF6cD3f382e078A461FF9De7B",
       "chainId": 1,
       "decimals": 18,
@@ -4926,13 +4926,6 @@
       "decimals": 18,
       "name": "BullionsChain",
       "symbol": "BLC"
-    },
-    {
-      "address": "0x3F2d8861e8Ca9A7649d211dbaA3f3d998C6a254a",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Bullers Coin",
-      "symbol": "BLCC"
     },
     {
       "address": "0x6d2C508fc4a588A41713Ff59212F85489291d244",
@@ -10984,13 +10977,6 @@
       "symbol": "DGN"
     },
     {
-      "address": "0xEe87b220d9b0e762f0643C501fADeFd6d9cc5B7E",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Dragon Network",
-      "symbol": "DGNN"
-    },
-    {
       "address": "0x927159670C50042109d7C0f4aEd0Cee89452433E",
       "chainId": 1,
       "decimals": 18,
@@ -11847,6 +11833,13 @@
       "decimals": 18,
       "name": "Diamond Platform To",
       "symbol": "DPT"
+    },
+    {
+      "address": "0xEec2bE5c91ae7f8a338e1e5f3b5DE49d07AfdC81",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Dopex",
+      "symbol": "DPX"
     },
     {
       "address": "0x6C2adC2073994fb2CCC5032cC2906Fa221e9B391",
@@ -15779,6 +15772,13 @@
       }
     },
     {
+      "address": "0xAf91E8aFbe87642dC628786188a54B78580A4d76",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Fund Of Yours",
+      "symbol": "FOY"
+    },
+    {
       "address": "0x084Da5a9C0e3f086532b98d8568432349b89d9DF",
       "chainId": 1,
       "decimals": 18,
@@ -17266,6 +17266,13 @@
       "chainId": 1,
       "decimals": 9,
       "name": "Projekt Gold",
+      "symbol": "GOLD"
+    },
+    {
+      "address": "0xf1b8762a7fa8C244e36F7234EDF40cFaE24394e3",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "GoldFarm",
       "symbol": "GOLD"
     },
     {
@@ -26057,13 +26064,6 @@
       "symbol": "NLD"
     },
     {
-      "address": "0xA30C7cDac7d8505F32Bb0930Ed82B9Ba5777b5F3",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "NUCLUM",
-      "symbol": "NLM"
-    },
-    {
       "address": "0xCeE4019Fd41ECDc8bae9EFDd20510f4b6FAA6197",
       "chainId": 1,
       "decimals": 18,
@@ -29778,15 +29778,8 @@
       "address": "0xAAA7A10a8ee237ea61E8AC46C50A8Db8bCC1baaa",
       "chainId": 1,
       "decimals": 18,
-      "name": "QANX Token",
-      "symbol": "QANX"
-    },
-    {
-      "address": "0x63120ccd7b415743e8753AfD167F5AD4A1732C43",
-      "chainId": 1,
-      "decimals": 18,
       "name": "QANplatform",
-      "symbol": "QARK"
+      "symbol": "QANX"
     },
     {
       "address": "0x618E75Ac90b12c6049Ba3b27f5d5F8651b0037F6",
@@ -29835,13 +29828,6 @@
       "decimals": 18,
       "name": "QUEENBEE",
       "symbol": "QBZ"
-    },
-    {
-      "address": "0x4A16BAf414b8e637Ed12019faD5Dd705735DB2e0",
-      "chainId": 1,
-      "decimals": 2,
-      "name": "QCAD",
-      "symbol": "QCAD"
     },
     {
       "address": "0x687BfC3E73f6af55F0CccA8450114D107E781a0e",
@@ -30388,6 +30374,13 @@
       }
     },
     {
+      "address": "0x0ff5A8451A839f5F0BB3562689D9A44089738D11",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Dopex Rebate Token",
+      "symbol": "RDPX"
+    },
+    {
       "address": "0x3C9Ca73d5309d38c6F2C21b78b9aE1f4b2441188",
       "chainId": 1,
       "decimals": 4,
@@ -30426,11 +30419,53 @@
       "symbol": "REAL"
     },
     {
+      "address": "0x1Eb16EC378f0Ce8f81449120629F52ba28961d47",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   1000",
+      "symbol": "REALTOKEN-S-1000-FL"
+    },
+    {
       "address": "0xB5D30c28F87acf675Ed5B9f343E5ffF39eC9942C",
       "chainId": 1,
       "decimals": 18,
       "name": "RealT Token  10024",
       "symbol": "REALTOKEN-S-10024-1"
+    },
+    {
+      "address": "0x92161385C9dE8798ad5fB01c0bE99fFcbC84dFD8",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   10084",
+      "symbol": "REALTOKEN-S-10084-G"
+    },
+    {
+      "address": "0x8626B38267e4FC0D8C92E0bB86F97Acab3f6AA05",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   10604",
+      "symbol": "REALTOKEN-S-10604-S"
+    },
+    {
+      "address": "0xD1c15CEbfDcd16F00D91666bf64C8b66CbF5e9b5",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   10612",
+      "symbol": "REALTOKEN-S-10612-S"
+    },
+    {
+      "address": "0xE5Ce63AC9a08c1EB160889151cD84855F16C94d2",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   10616",
+      "symbol": "REALTOKEN-S-10616-M"
+    },
+    {
+      "address": "0x06D0e5Aee443093aC5635B709C8a01342E59Df19",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   10617",
+      "symbol": "REALTOKEN-S-10617-H"
     },
     {
       "address": "0xD5d1adf54Fbf73a00b197DdCfDAD7cc27D93002f",
@@ -30452,6 +30487,13 @@
       "decimals": 18,
       "name": "RealT Token   10700",
       "symbol": "REALTOKEN-S-10700-W"
+    },
+    {
+      "address": "0x42B387CDf0951A0e08336D35651544c47cD05C95",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   10974",
+      "symbol": "REALTOKEN-S-10974-W"
     },
     {
       "address": "0xD5Fc0C4C4C5ff316e1E91494d963Ff1D52Ba25fF",
@@ -30489,6 +30531,34 @@
       "symbol": "REALTOKEN-S-11653-N"
     },
     {
+      "address": "0xDd833D0eEF6d5d7Cec781b03c19f3B425F3039Df",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   11957",
+      "symbol": "REALTOKEN-S-11957-O"
+    },
+    {
+      "address": "0xEe2f2212a64Ec3f6BC0F7580e10c53CB38B57508",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   12334",
+      "symbol": "REALTOKEN-S-12334-L"
+    },
+    {
+      "address": "0x9D918eE39a356bE8eF99734599c7e70160dB4Db6",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   12405",
+      "symbol": "REALTOKEN-S-12405-S"
+    },
+    {
+      "address": "0x969d42ad7008e6651E1Fd52742153F8743225D98",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   12409",
+      "symbol": "REALTOKEN-S-12409-W"
+    },
+    {
       "address": "0x94Fa7F8cb8453AD57cd133363b3012044647078C",
       "chainId": 1,
       "decimals": 18,
@@ -30510,11 +30580,46 @@
       "symbol": "REALTOKEN-S-13045-W"
     },
     {
+      "address": "0x9F923653A19537b5a1b003854A1920fe67a8ffEB",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   13114",
+      "symbol": "REALTOKEN-S-13114-G"
+    },
+    {
+      "address": "0x08Ad1F3a48Be1D23C723a6cC8486b247F5dE935a",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   13116",
+      "symbol": "REALTOKEN-S-13116-K"
+    },
+    {
+      "address": "0x804f6bAa10615C85E4B4a5Bc4eFe516d9f7a4365",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   13606",
+      "symbol": "REALTOKEN-S-13606-W"
+    },
+    {
       "address": "0x6F442Da588232DC57Bf0096E8dE48D6961D5CC83",
       "chainId": 1,
       "decimals": 18,
       "name": "RealT Token   13895",
       "symbol": "REALTOKEN-S-13895-S"
+    },
+    {
+      "address": "0x4E98493920b16Dd6642e9D48497c8d0A49150f6F",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token  13991",
+      "symbol": "REALTOKEN-S-13991-W"
+    },
+    {
+      "address": "0xe887DC4fcb5240c0c080AEAb8870421d3ebd0B28",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   14066",
+      "symbol": "REALTOKEN-S-14066-S"
     },
     {
       "address": "0x315699f1BA88383CFF2F2f30FcaD187aDb2E4D72",
@@ -30580,6 +30685,13 @@
       "symbol": "REALTOKEN-S-15039-W"
     },
     {
+      "address": "0x9FEF44FC4C571010BCCD5b63e1Cdc807D3b347bF",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token  15095",
+      "symbol": "REALTOKEN-S-15095-H"
+    },
+    {
       "address": "0xdA47bD33e8f5d17Bb81b8752784bfb46C1c44B2A",
       "chainId": 1,
       "decimals": 18,
@@ -30599,6 +30711,13 @@
       "decimals": 18,
       "name": "RealT Token   1542",
       "symbol": "REALTOKEN-S-1542-SR"
+    },
+    {
+      "address": "0xa81F77E8988b28fB74243B907acE3c83353Dc80a",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   15634",
+      "symbol": "REALTOKEN-S-15634-L"
     },
     {
       "address": "0x8D1090dF790FFAFdACCda03015c05dF3b4cC9c21",
@@ -30622,6 +30741,20 @@
       "symbol": "REALTOKEN-S-15777-A"
     },
     {
+      "address": "0xF23B80216a10E6f0c0D3b5AD5C9349e9425cAd40",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   15778",
+      "symbol": "REALTOKEN-S-15778-M"
+    },
+    {
+      "address": "0x7f940B5509a22e81D29167581bdEea3Fa5a0abEE",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   15784",
+      "symbol": "REALTOKEN-S-15784-M"
+    },
+    {
       "address": "0xB3D3C1bBcEf737204AADb4fA6D90e974bc262197",
       "chainId": 1,
       "decimals": 18,
@@ -30634,6 +30767,20 @@
       "decimals": 18,
       "name": "RealT Token   15860",
       "symbol": "REALTOKEN-S-15860-H"
+    },
+    {
+      "address": "0xF4657AB08681214Bcb1893aa8E9C7613459250ec",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   1617",
+      "symbol": "REALTOKEN-S-1617-SA"
+    },
+    {
+      "address": "0x021Bb23a45e9FC824260435e670fC383b7b8cbbB",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   16200",
+      "symbol": "REALTOKEN-S-16200-F"
     },
     {
       "address": "0x1FdB4015fD5E031C5641752C1e03B973ad5eA168",
@@ -30657,6 +30804,41 @@
       "symbol": "REALTOKEN-S-17813-B"
     },
     {
+      "address": "0x8fcB39A25e639C8fbD28E8a018227D6570E02352",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   1815",
+      "symbol": "REALTOKEN-S-1815-SA"
+    },
+    {
+      "address": "0x9856C5CA15A4Ac9C65AAC090c38a9f39EB3b5eeC",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   18273",
+      "symbol": "REALTOKEN-S-18273-M"
+    },
+    {
+      "address": "0x21f1aF3e751317a2F7De7Df31D5d092E6A907Bde",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   18276",
+      "symbol": "REALTOKEN-S-18276-A"
+    },
+    {
+      "address": "0x46F8A600337dec5CaB03aa9b8F67f1D5B788ce28",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   18433",
+      "symbol": "REALTOKEN-S-18433-F"
+    },
+    {
+      "address": "0x9A99f283e1F6c3b7F24901995624Ef7b78E94471",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token  18466",
+      "symbol": "REALTOKEN-S-18466-F"
+    },
+    {
       "address": "0x75f06B482adbFb04b877D8ee683E2FCDf18AD153",
       "chainId": 1,
       "decimals": 18,
@@ -30671,11 +30853,32 @@
       "symbol": "REALTOKEN-S-18776-S"
     },
     {
+      "address": "0x9Eb90Ec3FAafC22092C9b91559FdDde538042093",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   18900",
+      "symbol": "REALTOKEN-S-18900-M"
+    },
+    {
       "address": "0xaD91999F534F4075B00bA4231C018e57bdeBb342",
       "chainId": 1,
       "decimals": 18,
       "name": "RealT Token   18983",
       "symbol": "REALTOKEN-S-18983-A"
+    },
+    {
+      "address": "0x280e9ed3B20c580a2f4219657bB9332D80Bc01f1",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   19020",
+      "symbol": "REALTOKEN-S-19020-R"
+    },
+    {
+      "address": "0x33722EA778dF197f1b7B1Cf0b124d7A962181d65",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   19136",
+      "symbol": "REALTOKEN-S-19136-T"
     },
     {
       "address": "0x4Cc53Ee5ef306a95d407321d4B4acc30814C04ee",
@@ -30697,6 +30900,13 @@
       "decimals": 18,
       "name": "RealT Token   19201",
       "symbol": "REALTOKEN-S-19201-W"
+    },
+    {
+      "address": "0xC731EcA970979Cd2Da2a1094A808F49894070D35",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   19218",
+      "symbol": "REALTOKEN-S-19218-H"
     },
     {
       "address": "0x8a9F904B4EaD6a97F3aB304d0D2196f5c602c807",
@@ -30727,11 +30937,39 @@
       "symbol": "REALTOKEN-S-19596-G"
     },
     {
+      "address": "0x311FC485f1FeA0c8Cc9b5c783E79f4313DDFa720",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   19996",
+      "symbol": "REALTOKEN-S-19996-J"
+    },
+    {
+      "address": "0xEeDc2F5F4D1226759B1AcF9EfA23a99661De6663",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   20200",
+      "symbol": "REALTOKEN-S-20200-L"
+    },
+    {
+      "address": "0xF18CfFB528eca0ea31D1d6b28BC80d2eca34D14D",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   25097",
+      "symbol": "REALTOKEN-S-25097-A"
+    },
+    {
       "address": "0xce111a198eB04F388AceB78c40ceD6daF1b0514a",
       "chainId": 1,
       "decimals": 18,
       "name": "RealT Token   272 N",
       "symbol": "REALTOKEN-S-272-NE-"
+    },
+    {
+      "address": "0x400B5716B0c23B6f1f0f2A5fDb038949962B803E",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   3432",
+      "symbol": "REALTOKEN-S-3432-HA"
     },
     {
       "address": "0xE255cAF8893382465368b8e1cd4Ef8436ACf0ADE",
@@ -30748,6 +30986,13 @@
       "symbol": "REALTOKEN-S-4061-GR"
     },
     {
+      "address": "0xA68b7779504b0AE372ddCC109f8786DB9B91e93e",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   4340",
+      "symbol": "REALTOKEN-S-4340-EA"
+    },
+    {
       "address": "0x96700Ffae33c651bC329c3f3fbFE56e1f291f117",
       "chainId": 1,
       "decimals": 18,
@@ -30760,6 +31005,13 @@
       "decimals": 18,
       "name": "RealT Token   4680",
       "symbol": "REALTOKEN-S-4680-BU"
+    },
+    {
+      "address": "0xE7B6dE709fFC3BD237c2f2c800E1002F97A760F3",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   4852",
+      "symbol": "REALTOKEN-S-4852-48"
     },
     {
       "address": "0xa137D82197Ea4cdfd5f008A91Ba816b8324F59E1",
@@ -30776,11 +31028,81 @@
       "symbol": "REALTOKEN-S-581-587"
     },
     {
+      "address": "0x6Db6d540F5614e6BaB7475Af3F430F46a0B083e2",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   5942",
+      "symbol": "REALTOKEN-S-5942-AU"
+    },
+    {
+      "address": "0xD08d2b199E9E5df407427d4085877d1fDFf3b1d6",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   6923",
+      "symbol": "REALTOKEN-S-6923-GR"
+    },
+    {
       "address": "0x92d31E19F88597F368825ba16410f263a844527A",
       "chainId": 1,
       "decimals": 18,
       "name": "RealT Token   8181",
       "symbol": "REALTOKEN-S-8181-BL"
+    },
+    {
+      "address": "0x741857c07b100c9C0C1272D95845dDdc4f1b67cB",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   8342",
+      "symbol": "REALTOKEN-S-8342-SC"
+    },
+    {
+      "address": "0x76dbEb740ecd1F3b052a9AFA302ABc7EB4Fb5390",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   9133",
+      "symbol": "REALTOKEN-S-9133-DE"
+    },
+    {
+      "address": "0x3C56D5E887D8fA7AE1Ba65BF7eCCC25eC09EAF18",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   9165",
+      "symbol": "REALTOKEN-S-9165-KE"
+    },
+    {
+      "address": "0xa69D7d4DdF397f3D1E7EbAf108555d1107b3B117",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   9166",
+      "symbol": "REALTOKEN-S-9166-DE"
+    },
+    {
+      "address": "0x806690B7a093d2Cf6419a515ABEdb7f28595bc5E",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   9169",
+      "symbol": "REALTOKEN-S-9169-BO"
+    },
+    {
+      "address": "0x67a83B28F6dd8C07301495eE2C6f83b73FD21092",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   9309",
+      "symbol": "REALTOKEN-S-9309-CO"
+    },
+    {
+      "address": "0x23684569c0636C9aEa246551879d457D0a0E6F58",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   9336",
+      "symbol": "REALTOKEN-S-9336-PA"
+    },
+    {
+      "address": "0x750FA12Ae51d1515c893C1aaABE2C135937a2c8B",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   9465",
+      "symbol": "REALTOKEN-S-9465-BE"
     },
     {
       "address": "0x1E001730A23c7EBaFF35BC8bc90DA5a9b20804A4",
@@ -30802,6 +31124,13 @@
       "decimals": 18,
       "name": "RealT Token   9920",
       "symbol": "REALTOKEN-S-9920-BI"
+    },
+    {
+      "address": "0x57eaDD2A542cFE9F00A37F55dF4D5062f857C0E8",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RealT Token   9943",
+      "symbol": "REALTOKEN-S-9943-MA"
     },
     {
       "address": "0x1fc5EF0337AEA85C5f9198853a6E3A579a7A6987",
@@ -33652,13 +33981,6 @@
       "symbol": "SLC"
     },
     {
-      "address": "0xbD2eBE1DDF549E6E9079FaA6182bcc33C21F13A3",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Support Listing Coi",
-      "symbol": "SLC"
-    },
-    {
       "address": "0x1ef6A7e2c966fb7C5403EFEFdE38338b1a95a084",
       "chainId": 1,
       "decimals": 18,
@@ -34629,6 +34951,13 @@
       "decimals": 9,
       "name": "Shiba Swim",
       "symbol": "SSWIM"
+    },
+    {
+      "address": "0x06874F973Dc3c96dc22A10eF0D0609F877f335EA",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Defi STOA",
+      "symbol": "STA"
     },
     {
       "address": "0xD7d05bDa4bf5876bA1254b3Eaaf8b47D2F5676eb",
@@ -37038,13 +37367,6 @@
       "chainId": 1,
       "decimals": 18,
       "name": "TOP Network",
-      "symbol": "TOP"
-    },
-    {
-      "address": "0xED6aAd9650815D1647480CaA1133043800d31533",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "TokenSwap",
       "symbol": "TOP"
     },
     {
@@ -41285,6 +41607,13 @@
       "symbol": "VESTA"
     },
     {
+      "address": "0xc3D088842DcF02C13699F936BB83DFBBc6f721Ab",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Voucher ETH",
+      "symbol": "VETH"
+    },
+    {
       "address": "0x4Ba6dDd7b89ed838FEd25d208D4f644106E34279",
       "chainId": 1,
       "decimals": 18,
@@ -41293,13 +41622,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0xc3D088842DcF02C13699F936BB83DFBBc6f721Ab",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Voucher ETH",
-      "symbol": "VETH"
     },
     {
       "address": "0x898BAD2774EB97cF6b94605677F43b41871410B1",
@@ -42160,13 +42482,6 @@
       "decimals": 7,
       "name": "WeBetCrypto",
       "symbol": "WBA"
-    },
-    {
-      "address": "0x6A6d430573D3F070AEAb97b3A189d698eA130454",
-      "chainId": 1,
-      "decimals": 7,
-      "name": "Wrapped Bitcoin Dia",
-      "symbol": "WBCD"
     },
     {
       "address": "0x15334DCb171e8b65D6650321581dcA83bE870115",

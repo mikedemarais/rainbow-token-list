@@ -13,11 +13,10 @@ var isPlainObject = _interopDefault(require('lodash/isPlainObject'));
 var isString = _interopDefault(require('lodash/isString'));
 var mapValues = _interopDefault(require('lodash/mapValues'));
 var pick = _interopDefault(require('lodash/pick'));
-var mkdirp = _interopDefault(require('mkdirp'));
 var gracefulFs = require('graceful-fs');
-var path = require('path');
 var degit = _interopDefault(require('degit'));
 var os = require('os');
+var path = require('path');
 var pLimit = _interopDefault(require('p-limit'));
 var address = require('@ethersproject/address');
 var mapKeys = _interopDefault(require('lodash/mapKeys'));
@@ -27,6 +26,7 @@ var unionBy = _interopDefault(require('lodash/unionBy'));
 var getSVGColors = _interopDefault(require('get-svg-colors'));
 var makeColorMoreChill = _interopDefault(require('make-color-more-chill'));
 var fetch = _interopDefault(require('node-fetch'));
+var mkdirp = _interopDefault(require('mkdirp'));
 
 /**
  * @fileoverview
@@ -958,7 +958,8 @@ var formattedError = function formattedError(error) {
 };
 
 /**
- * Reads and parses a JSON file. Throws an error if the file could not be read or if the JSON is invalid.
+ * Reads and parses a JSON file. Throws an error if the file could not be read
+ * or if the JSON is invalid.
  *
  * @param {string} file
  * @return {Promise<T>}
@@ -998,8 +999,9 @@ var parseJsonFile = /*#__PURE__*/function () {
   };
 }();
 /**
- * Validate raw token data, by checking if the required values are set and if the decimals are larger than or equal to
- * zero. This will strip any unknown fields and rename the 'decimals' field to 'decimal' for compatibility.
+ * Validate raw token data, by checking if the required values are set and if
+ * the decimals are larger than or equal to zero. This will strip any unknown
+ * fields and rename the 'decimals' field to 'decimal' for compatibility.
  *
  * @param {RawEthereumListsToken} token
  * @return {boolean}
@@ -1029,58 +1031,6 @@ var sortTokens = function sortTokens(tokens) {
     return a.symbol.localeCompare(b.symbol);
   });
 };
-/**
- * Creates the output folder if it does not exist yet.
- *
- * @param {string} path
- * @return {Promise<void>}
- */
-
-var createOutputFolder = /*#__PURE__*/function () {
-  var _ref2 = /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/runtime_1.mark(function _callee2(path) {
-    return runtime_1.wrap(function _callee2$(_context2) {
-      while (1) {
-        switch (_context2.prev = _context2.next) {
-          case 0:
-            _context2.prev = 0;
-            _context2.next = 3;
-            return gracefulFs.promises.access(path);
-
-          case 3:
-            _context2.next = 11;
-            break;
-
-          case 5:
-            _context2.prev = 5;
-            _context2.t0 = _context2["catch"](0);
-
-            if (!isError(_context2.t0)) {
-              _context2.next = 11;
-              break;
-            }
-
-            if (!(_context2.t0.code !== 'ENOENT')) {
-              _context2.next = 10;
-              break;
-            }
-
-            throw new Error("Failed to create output folder: " + formattedError(_context2.t0));
-
-          case 10:
-            mkdirp.sync(path);
-
-          case 11:
-          case "end":
-            return _context2.stop();
-        }
-      }
-    }, _callee2, null, [[0, 5]]);
-  }));
-
-  return function createOutputFolder(_x2) {
-    return _ref2.apply(this, arguments);
-  };
-}();
 
 function mapValuesDeep(v, callback) {
   return isPlainObject(v) ? mapValues(v, function (v) {
@@ -1088,7 +1038,8 @@ function mapValuesDeep(v, callback) {
   }) : callback(v);
 }
 /**
- * Recursively loop through an token's values and `trim()` any values which are strings.
+ * Recursively loop through an token's values and `trim()` any values which are
+ * strings.
  *
  * @param {Token} token
  * @return {Token}
@@ -1100,41 +1051,6 @@ var deeplyTrimAllTokenStrings = function deeplyTrimAllTokenStrings(token) {
     return isString(v) ? v.trim() : v;
   });
 };
-/**
- * Write the Rainbow Token List JSON file to disk.
- *
- * @param {Token[]} tokens
- * @param {string} path
- * @param {string} name
- * @return {Promise<void>}
- */
-
-var writeToDisk = /*#__PURE__*/function () {
-  var _ref3 = /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/runtime_1.mark(function _callee3(tokens, path$1, name) {
-    var json;
-    return runtime_1.wrap(function _callee3$(_context3) {
-      while (1) {
-        switch (_context3.prev = _context3.next) {
-          case 0:
-            _context3.next = 2;
-            return createOutputFolder(path$1);
-
-          case 2:
-            json = JSON.stringify(tokens, null, 2);
-            return _context3.abrupt("return", gracefulFs.promises.writeFile(path.resolve(path$1, name), json, 'utf8'));
-
-          case 4:
-          case "end":
-            return _context3.stop();
-        }
-      }
-    }, _callee3);
-  }));
-
-  return function writeToDisk(_x3, _x4, _x5) {
-    return _ref3.apply(this, arguments);
-  };
-}();
 
 /**
  * Fetch a Git repository and store it in tmpdir.
@@ -2673,23 +2589,113 @@ function _build() {
   return _build.apply(this, arguments);
 }
 
+/**
+ * Recursively creates the output folder(s) if they do not exist yet.
+ *
+ * @param {string} location The output file or folder.
+ * @return {Promise<void>}
+ */
+
+var createOutputFolder = /*#__PURE__*/function () {
+  var _ref = /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/runtime_1.mark(function _callee(location) {
+    var path$1;
+    return runtime_1.wrap(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            path$1 = path.dirname(location);
+            _context.prev = 1;
+            _context.next = 4;
+            return gracefulFs.promises.access(path$1);
+
+          case 4:
+            _context.next = 12;
+            break;
+
+          case 6:
+            _context.prev = 6;
+            _context.t0 = _context["catch"](1);
+
+            if (!isError(_context.t0)) {
+              _context.next = 12;
+              break;
+            }
+
+            if (!(_context.t0.code !== 'ENOENT')) {
+              _context.next = 11;
+              break;
+            }
+
+            throw new Error("Failed to create output folder: " + formattedError(_context.t0));
+
+          case 11:
+            mkdirp.sync(path$1);
+
+          case 12:
+          case "end":
+            return _context.stop();
+        }
+      }
+    }, _callee, null, [[1, 6]]);
+  }));
+
+  return function createOutputFolder(_x) {
+    return _ref.apply(this, arguments);
+  };
+}();
+/**
+ * Write the Rainbow Token List JSON file to process.cwd().
+ *
+ * @param {Token[]} tokens The tokens to write.
+ * @param {string} location The path to the output file.
+ *
+ * @return {Promise<void>}
+ */
+
+var writeToDisk = /*#__PURE__*/function () {
+  var _ref2 = /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/runtime_1.mark(function _callee2(tokens, location) {
+    var json, outputLocation;
+    return runtime_1.wrap(function _callee2$(_context2) {
+      while (1) {
+        switch (_context2.prev = _context2.next) {
+          case 0:
+            json = JSON.stringify(tokens, null, 2);
+            outputLocation = path.resolve(location);
+            _context2.next = 4;
+            return createOutputFolder(outputLocation);
+
+          case 4:
+            return _context2.abrupt("return", gracefulFs.promises.writeFile(outputLocation, json, 'utf8'));
+
+          case 5:
+          case "end":
+            return _context2.stop();
+        }
+      }
+    }, _callee2);
+  }));
+
+  return function writeToDisk(_x2, _x3) {
+    return _ref2.apply(this, arguments);
+  };
+}();
 function write() {
   return _write.apply(this, arguments);
 }
 
 function _write() {
-  _write = _asyncToGenerator( /*#__PURE__*/runtime_1.mark(function _callee() {
+  _write = _asyncToGenerator( /*#__PURE__*/runtime_1.mark(function _callee3() {
     var tokens;
-    return runtime_1.wrap(function _callee$(_context) {
+    return runtime_1.wrap(function _callee3$(_context3) {
       while (1) {
-        switch (_context.prev = _context.next) {
+        switch (_context3.prev = _context3.next) {
           case 0:
-            _context.next = 2;
+            _context3.next = 2;
             return build();
 
           case 2:
-            tokens = _context.sent;
-            _context.next = 5;
+            tokens = _context3.sent;
+            _context3.next = 5;
             return writeToDisk({
               name: 'Rainbow Token List',
               timestamp: new Date().toISOString(),
@@ -2701,20 +2707,22 @@ function _write() {
               },
               keywords: ['rainbow'],
               tokens: tokens
-            }, path.resolve(process.cwd(), './output'), 'rainbow-token-list.json');
+            }, 'rainbow-token-list.json');
 
           case 5:
           case "end":
-            return _context.stop();
+            return _context3.stop();
         }
       }
-    }, _callee);
+    }, _callee3);
   }));
   return _write.apply(this, arguments);
 }
 
 /**
- * Library imports and exports.
+ * Disable certificate validation.
+ *
+ * @see https://nodejs.org/api/cli.html#cli_node_tls_reject_unauthorized_value
  */
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
