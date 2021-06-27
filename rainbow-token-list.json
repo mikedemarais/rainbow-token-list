@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-27T10:22:23.850Z",
+  "timestamp": "2021-06-27T11:16:34.751Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -2564,17 +2564,17 @@
       "symbol": "ASY"
     },
     {
-      "address": "0xbf8fB919A8bbF28e590852AeF2D284494eBC0657",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "ABCC Token",
-      "symbol": "AT"
-    },
-    {
       "address": "0xE54B3458C47E44C37a267E7C633AFEF88287C294",
       "chainId": 1,
       "decimals": 5,
       "name": "Artfinity Token",
+      "symbol": "AT"
+    },
+    {
+      "address": "0xbf8fB919A8bbF28e590852AeF2D284494eBC0657",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "ABCC Token",
       "symbol": "AT"
     },
     {
@@ -5114,17 +5114,17 @@
       "symbol": "BMI"
     },
     {
-      "address": "0x5913D0F34615923552ee913DBe809F9F348e706E",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "BMJ Master Nodes",
-      "symbol": "BMJ"
-    },
-    {
       "address": "0x25ce333B325F02C9720Da526A01b5F5be889b4e3",
       "chainId": 1,
       "decimals": 18,
       "name": "BMJ Coin",
+      "symbol": "BMJ"
+    },
+    {
+      "address": "0x5913D0F34615923552ee913DBe809F9F348e706E",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "BMJ Master Nodes",
       "symbol": "BMJ"
     },
     {
@@ -7006,17 +7006,17 @@
       "symbol": "CAPP"
     },
     {
-      "address": "0x11613b1f840bb5A40F8866d857e24DA126B79D73",
-      "chainId": 1,
-      "decimals": 2,
-      "name": "Cappasity",
-      "symbol": "CAPP"
-    },
-    {
       "address": "0x2E9C861713A8CbD4aCA72a832F347b9520EDBB90",
       "chainId": 1,
       "decimals": 18,
       "name": "Crypto Application",
+      "symbol": "CAPP"
+    },
+    {
+      "address": "0x11613b1f840bb5A40F8866d857e24DA126B79D73",
+      "chainId": 1,
+      "decimals": 2,
+      "name": "Cappasity",
       "symbol": "CAPP"
     },
     {
@@ -11155,17 +11155,17 @@
       }
     },
     {
-      "address": "0x786448439d9401e0a8427aCf7Ca66A5114eb2368",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "Dipper",
-      "symbol": "DIP"
-    },
-    {
       "address": "0xd1517663883e2Acc154178Fb194E80e8bBc29730",
       "chainId": 1,
       "decimals": 18,
       "name": "Deipool",
+      "symbol": "DIP"
+    },
+    {
+      "address": "0x786448439d9401e0a8427aCf7Ca66A5114eb2368",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Dipper",
       "symbol": "DIP"
     },
     {
@@ -15119,13 +15119,6 @@
       "symbol": "FETISH"
     },
     {
-      "address": "0x002f2264AEec71041Ae5739ecf0a2C80c5EA30FA",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "ForesterX",
-      "symbol": "FEX"
-    },
-    {
       "address": "0x1C1C14A6B5074905Ce5d367B0A7E098b58EbFD47",
       "chainId": 1,
       "decimals": 8,
@@ -18950,17 +18943,17 @@
       "symbol": "HYN"
     },
     {
-      "address": "0x4ff7c227e1e7bD59351de8635381C379750A8040",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Hype",
-      "symbol": "HYPE"
-    },
-    {
       "address": "0x610c67be018A5C5bdC70ACd8DC19688A11421073",
       "chainId": 1,
       "decimals": 18,
       "name": "Hype Finance",
+      "symbol": "HYPE"
+    },
+    {
+      "address": "0x4ff7c227e1e7bD59351de8635381C379750A8040",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Hype",
       "symbol": "HYPE"
     },
     {
@@ -22415,17 +22408,17 @@
       "symbol": "LHCOIN"
     },
     {
-      "address": "0x3FD2E747CEA0E8A78f1827ea2FfD3334628A600b",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Banklife",
-      "symbol": "LIB"
-    },
-    {
       "address": "0x0bf6261297198D91D4FA460242C69232146A5703",
       "chainId": 1,
       "decimals": 18,
       "name": "Libera",
+      "symbol": "LIB"
+    },
+    {
+      "address": "0x3FD2E747CEA0E8A78f1827ea2FfD3334628A600b",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Banklife",
       "symbol": "LIB"
     },
     {
@@ -24520,17 +24513,17 @@
       "symbol": "MMSFT"
     },
     {
-      "address": "0xBac7A1798350cdf2Dbfe0c210C2C9861223f4B31",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Moneynet",
-      "symbol": "MNC"
-    },
-    {
       "address": "0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf",
       "chainId": 1,
       "decimals": 18,
       "name": "MainCoin",
+      "symbol": "MNC"
+    },
+    {
+      "address": "0xBac7A1798350cdf2Dbfe0c210C2C9861223f4B31",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Moneynet",
       "symbol": "MNC"
     },
     {
@@ -33711,6 +33704,13 @@
       }
     },
     {
+      "address": "0x236d53148F83706C3d670064809577385f923a75",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Siberian Husky",
+      "symbol": "SHUSKY"
+    },
+    {
       "address": "0xD23Ac27148aF6A2f339BD82D0e3CFF380b5093de",
       "chainId": 1,
       "decimals": 18,
@@ -36171,17 +36171,17 @@
       "symbol": "TAAS"
     },
     {
-      "address": "0xca694eb79eF355eA0999485d211E68F39aE98493",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "Traceability Chain",
-      "symbol": "TAC"
-    },
-    {
       "address": "0xDeeB6091A5ADc78fA0332BEE5A38a8908b6b566e",
       "chainId": 1,
       "decimals": 18,
       "name": "Taekwondo Access Cr",
+      "symbol": "TAC"
+    },
+    {
+      "address": "0xca694eb79eF355eA0999485d211E68F39aE98493",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Traceability Chain",
       "symbol": "TAC"
     },
     {
@@ -37391,17 +37391,17 @@
       "symbol": "TOPC"
     },
     {
-      "address": "0x9ea20fBFAA44efBc60C6728fCdBA17f01b7E04FE",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "Torex",
-      "symbol": "TOR"
-    },
-    {
       "address": "0x4f5f2EEA4ED3485E5e23a39704d5fD9d0A423886",
       "chainId": 1,
       "decimals": 18,
       "name": "Torchain",
+      "symbol": "TOR"
+    },
+    {
+      "address": "0x9ea20fBFAA44efBc60C6728fCdBA17f01b7E04FE",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Torex",
       "symbol": "TOR"
     },
     {
@@ -38120,17 +38120,17 @@
       "symbol": "U8D"
     },
     {
-      "address": "0x822808104E173cB4B21549d8E921Cae9E4F655E9",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "Uni Ape",
-      "symbol": "UAPE"
-    },
-    {
       "address": "0xcC7d3706EA82cdb4Ec7D2a3eaC0e487E17Ab975A",
       "chainId": 1,
       "decimals": 18,
       "name": "Unicly Bored Ape Ya",
+      "symbol": "UAPE"
+    },
+    {
+      "address": "0x822808104E173cB4B21549d8E921Cae9E4F655E9",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Uni Ape",
       "symbol": "UAPE"
     },
     {
@@ -38272,6 +38272,13 @@
       "symbol": "UCBI"
     },
     {
+      "address": "0x5fb99A3593d7088e44377a1bEb27739Bd928F269",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Unicly Chris McCann",
+      "symbol": "UCM"
+    },
+    {
       "address": "0x722f97A435278B7383a1e3c47F41773bebF3232C",
       "chainId": 1,
       "decimals": 18,
@@ -38280,13 +38287,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0x5fb99A3593d7088e44377a1bEb27739Bd928F269",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Unicly Chris McCann",
-      "symbol": "UCM"
     },
     {
       "address": "0xAAf37055188Feee4869dE63464937e683d61b2a1",
