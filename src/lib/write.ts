@@ -42,6 +42,7 @@ export const writeToDisk = async (
   const json = JSON.stringify(tokens, null, 2);
   const outputLocation = resolve(location);
   await createOutputFolder(outputLocation);
+  console.log('Writing to', outputLocation);
   return fs.promises.writeFile(outputLocation, json, 'utf8');
 };
 
