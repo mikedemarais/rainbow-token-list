@@ -5835,10 +5835,10 @@ magic-string@^0.25.2, magic-string@^0.25.7:
   dependencies:
     sourcemap-codec "^1.4.4"
 
-make-color-more-chill-test@^0.2.4:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/make-color-more-chill-test/-/make-color-more-chill-test-0.2.4.tgz#c9c12c4703b5430378de788cc7f2044a83746f55"
-  integrity sha512-uG8TuGOE6jeZpdSid41Gj+Hfvs/o4hWeMJjog5EL/ySEtgf7B9edU575j4flwWR051u9Om8udpPB1qoO6YWSUQ==
+make-color-more-chill-test@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/make-color-more-chill-test/-/make-color-more-chill-test-0.2.6.tgz#9ee1ad35a0b65c6e765d447ee84110fd4c1c740f"
+  integrity sha512-6iCQtDx5vFF66e8iTyD6DP4F9OLM2q0BSTKO1h4fd1ezcVf1Rw7IAj/wsH6rln/W1ZJon12Yfml2YVi9O+WcSg==
   dependencies:
     chroma-js "^2.1.0"
     zod "3.1.0"
@@ -7146,10 +7146,10 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-rainbow-overrides@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/rainbow-overrides/-/rainbow-overrides-1.4.0.tgz#b1b18ca5d9660d3de0ad9f522dd03e9619a6eb6a"
-  integrity sha512-IUFHvnptKnrUqqTIme66V/rzi/rCPE8C8gIs4KBde2V0j0pxmQlrcR8XaLtOP4+R5tk6/UKiuoUjaKo7RgKnLg==
+rainbow-overrides@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/rainbow-overrides/-/rainbow-overrides-1.5.0.tgz#74552a4eb677f21fcca660faa408184b739e5e19"
+  integrity sha512-DjKVi1Kf88DESOZiuYqCHRBWpRwgFwrr+XSfYR0V1E0nVn4FW/n81rhdUHLqRcoSxIogGtNSZAl1zeMNSCm3YA==
   dependencies:
     glob "^7.1.7"
     rainbow-token-list-test "^1.31.0"

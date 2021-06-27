@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-27T00:44:22.339Z",
+  "timestamp": "2021-06-27T01:21:28.709Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -9959,10 +9959,10 @@
       "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
       "chainId": 1,
       "decimals": 18,
-      "name": "[TEST-12] Dai",
+      "name": "[TEST-12345] Dai",
       "symbol": "DAI",
       "extensions": {
-        "color": "#000",
+        "color": "#042069",
         "isRainbowCurated": true,
         "isVerified": true
       }
