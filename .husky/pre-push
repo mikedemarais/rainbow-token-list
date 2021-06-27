@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-yarn write && git add --all && git stage --all
+yarn write && git add --all && git stage --all && git commit -m 'updated'
