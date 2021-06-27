@@ -1,9 +1,10 @@
 {
   "name": "rainbow-token-list-test",
   "author": "Michael Demarais",
-  "version": "1.32.1",
+  "version": "1.33.0",
   "license": "MIT",
   "type": "module",
+  "main": "dist/index.js",
   "module": "dist/rainbow-token-list.esm.js",
   "typings": "dist/index.d.ts",
   "exports": {
@@ -22,7 +23,7 @@
     "clean": "rm -rf ~/.degit && npm cache clean --force && yarn cache clean --force && yarn",
     "start": "tsdx watch",
     "prebuild": "yarn lint",
-    "build": "tsdx build --format esm",
+    "build": "tsdx build",
     "write": "yarn build && node scripts/write.js",
     "test": "echo 'No tests yet'",
     "lint": "tsdx lint src --fix",
