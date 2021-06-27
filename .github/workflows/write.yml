@@ -25,5 +25,5 @@ jobs:
       - name: Commit updated Token List
         run: "git add --all && \
               git stage --all && \
-              git commit -m 'Automatic update' && \
+              git commit -m 'auto: refresh Token List from sources, overrides' && \
               git push -u origin HEAD"
