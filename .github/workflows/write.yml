@@ -17,8 +17,6 @@ jobs:
           node-version: '14.x'
       - uses: c-hive/gha-yarn-cache@v1
       - run: yarn
-      - name: Install Husky
-        run: yarn install-husky
       - name: Update Token List
         run: yarn write
       - name: Configure Git
