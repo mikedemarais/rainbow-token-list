@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-27T16:31:48.215Z",
+  "timestamp": "2021-06-27T17:24:08.038Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -3418,6 +3418,13 @@
       "decimals": 18,
       "name": "Baby Token",
       "symbol": "BABY"
+    },
+    {
+      "address": "0xdF35988d795d90711e785B488Bb2127692e6f956",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "BabyFloki",
+      "symbol": "BABYFLOKI"
     },
     {
       "address": "0x062e3Be6a7C56A395b1881A0cD69A4923Ade4fa2",
@@ -12107,17 +12114,17 @@
       "symbol": "DSCVR"
     },
     {
-      "address": "0xBD2F0Cd039E0BFcf88901C98c0bFAc5ab27566e3",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Dynamic Set Dollar",
-      "symbol": "DSD"
-    },
-    {
       "address": "0x1e3a2446C729D34373B87FD2C9CBb39A93198658",
       "chainId": 1,
       "decimals": 18,
       "name": "DeFi Nation Signals",
+      "symbol": "DSD"
+    },
+    {
+      "address": "0xBD2F0Cd039E0BFcf88901C98c0bFAc5ab27566e3",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Dynamic Set Dollar",
       "symbol": "DSD"
     },
     {
@@ -24513,17 +24520,17 @@
       "symbol": "MMSFT"
     },
     {
-      "address": "0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "MainCoin",
-      "symbol": "MNC"
-    },
-    {
       "address": "0xBac7A1798350cdf2Dbfe0c210C2C9861223f4B31",
       "chainId": 1,
       "decimals": 18,
       "name": "Moneynet",
+      "symbol": "MNC"
+    },
+    {
+      "address": "0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "MainCoin",
       "symbol": "MNC"
     },
     {
@@ -32452,17 +32459,17 @@
       "symbol": "SAKE"
     },
     {
-      "address": "0xC28a4162E3Cc1838bAd6dFAEc83D57A0D62c80F3",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "AnySale",
-      "symbol": "SALE"
-    },
-    {
       "address": "0xF063fE1aB7a291c5d06a86e14730b00BF24cB589",
       "chainId": 1,
       "decimals": 18,
       "name": "DxSale Network",
+      "symbol": "SALE"
+    },
+    {
+      "address": "0xC28a4162E3Cc1838bAd6dFAEc83D57A0D62c80F3",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "AnySale",
       "symbol": "SALE"
     },
     {
