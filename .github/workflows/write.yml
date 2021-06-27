@@ -19,8 +19,13 @@ jobs:
       - run: yarn
       - name: Install Husky
         run: yarn install-husky
-      - name: Update Token List and commit
+      - name: Update Token List
+        run: yarn write
+      - name: Configure Git
         run: "git config --global user.name '${{github.actor}}' && \
-              git config --global user.email '${{github.actor}}@users.noreply.github.com' && \
-              (git commit -a -m 'Updated Token List' || true) && \
+              git config --global user.email '${{github.actor}}@users.noreply.github.com'"
+      - name: Commit updated Token List
+        run: "git add --all && \
+              git stage --all && \
+              git commit -m 'Automatic update' && \
               git push -u origin HEAD"
