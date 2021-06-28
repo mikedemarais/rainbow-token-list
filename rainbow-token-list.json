@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-28T01:04:11.471Z",
+  "timestamp": "2021-06-28T02:34:02.745Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -12114,17 +12114,17 @@
       "symbol": "DSCVR"
     },
     {
-      "address": "0x1e3a2446C729D34373B87FD2C9CBb39A93198658",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "DeFi Nation Signals",
-      "symbol": "DSD"
-    },
-    {
       "address": "0xBD2F0Cd039E0BFcf88901C98c0bFAc5ab27566e3",
       "chainId": 1,
       "decimals": 18,
       "name": "Dynamic Set Dollar",
+      "symbol": "DSD"
+    },
+    {
+      "address": "0x1e3a2446C729D34373B87FD2C9CBb39A93198658",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "DeFi Nation Signals",
       "symbol": "DSD"
     },
     {
@@ -19517,6 +19517,13 @@
       "symbol": "IETH"
     },
     {
+      "address": "0x3A707d56D538e85B783E8CE12B346e7fB6511F90",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Inverse Ethereum Vo",
+      "symbol": "IETHV"
+    },
+    {
       "address": "0x1571eD0bed4D987fe2b498DdBaE7DFA19519F651",
       "chainId": 1,
       "decimals": 18,
@@ -20352,6 +20359,13 @@
       "decimals": 18,
       "name": "ITEN",
       "symbol": "ITEN"
+    },
+    {
+      "address": "0xF88b137cfa667065955ABD17525e89EDCF4D6426",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "iTrust Governance T",
+      "symbol": "ITG"
     },
     {
       "address": "0x122A86b5DFF2D085AfB49600b4cd7375D0d94A5f",
