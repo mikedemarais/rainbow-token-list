@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-28T17:51:24.776Z",
+  "timestamp": "2021-06-28T18:33:48.588Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -1134,7 +1134,10 @@
       "chainId": 1,
       "decimals": 9,
       "name": "Aidi Inu",
-      "symbol": "AIDI"
+      "symbol": "AIDI",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x584B44853680ee34a0F337B712a8f66d816dF151",
@@ -9124,11 +9127,24 @@
       }
     },
     {
+      "address": "0xD06527D5e56A3495252A528C4987003b712860eE",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Cream Ether",
+      "symbol": "crETH",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xcBc1065255cBc3aB41a6868c22d1f1C573AB89fd",
       "chainId": 1,
       "decimals": 18,
       "name": "Cream ETH 2",
-      "symbol": "CRETH2"
+      "symbol": "CRETH2",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xf49CDD50aD408d387d611F88A647179C3de3492b",
@@ -9926,7 +9942,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Dacxi",
-      "symbol": "DACXI"
+      "symbol": "DACXI",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x5B322514FF727253292637D9054301600c2C81e8",
@@ -11141,8 +11160,11 @@
       "address": "0xbb1EE07d6c7BAeB702949904080eb61f5D5e7732",
       "chainId": 1,
       "decimals": 18,
-      "name": "Dogey Inu",
-      "symbol": "DINU"
+      "name": "Dogey-Inu",
+      "symbol": "DINU",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xc719d010B63E5bbF2C0551872CD5316ED26AcD83",
@@ -12107,17 +12129,17 @@
       "symbol": "DSCVR"
     },
     {
-      "address": "0x1e3a2446C729D34373B87FD2C9CBb39A93198658",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "DeFi Nation Signals",
-      "symbol": "DSD"
-    },
-    {
       "address": "0xBD2F0Cd039E0BFcf88901C98c0bFAc5ab27566e3",
       "chainId": 1,
       "decimals": 18,
       "name": "Dynamic Set Dollar",
+      "symbol": "DSD"
+    },
+    {
+      "address": "0x1e3a2446C729D34373B87FD2C9CBb39A93198658",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "DeFi Nation Signals",
       "symbol": "DSD"
     },
     {
@@ -19994,7 +20016,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Instadapp",
-      "symbol": "INST"
+      "symbol": "INST",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xc72fe8e3Dd5BeF0F9f31f259399F301272eF2a2D",
@@ -23122,6 +23147,13 @@
       "symbol": "LST"
     },
     {
+      "address": "0x6b9F1F092E0B10015a4391A80cD3E6B6cefD1728",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "LuckySevenToken",
+      "symbol": "LST"
+    },
+    {
       "address": "0x4de2573e27E648607B50e1Cfff921A33E4A34405",
       "chainId": 1,
       "decimals": 18,
@@ -23133,13 +23165,6 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Libartysharetoken",
-      "symbol": "LST"
-    },
-    {
-      "address": "0x6b9F1F092E0B10015a4391A80cD3E6B6cefD1728",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "LuckySevenToken",
       "symbol": "LST"
     },
     {
@@ -24659,8 +24684,11 @@
       "address": "0x156B36ec68FdBF84a925230BA96cb1Ca4c4bdE45",
       "chainId": 1,
       "decimals": 18,
-      "name": "Wrapped MNT Token",
-      "symbol": "MNT"
+      "name": "Wrapped MNT",
+      "symbol": "MNT",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x83cee9e086A77e492eE0bB93C2B0437aD6fdECCc",
@@ -25560,7 +25588,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Nabox",
-      "symbol": "NABOX"
+      "symbol": "NABOX",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x8d80de8A78198396329dfA769aD54d24bF90E7aa",
@@ -27162,7 +27193,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Onooks",
-      "symbol": "OOKS"
+      "symbol": "OOKS",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xDb05EA0877A2622883941b939f0bb11d1ac7c400",
@@ -28098,7 +28132,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Polkadog",
-      "symbol": "PDOG"
+      "symbol": "PDOG",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x630d98424eFe0Ea27fB1b3Ab7741907DFFEaAd78",
@@ -28498,7 +28535,10 @@
       "chainId": 1,
       "decimals": 9,
       "name": "Pist Trust",
-      "symbol": "PIST"
+      "symbol": "PIST",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x0fF161071e627A0E6de138105C73970F86ca7922",
@@ -33647,7 +33687,10 @@
       "chainId": 1,
       "decimals": 9,
       "name": "Shiberus Inu",
-      "symbol": "SHIBERUS"
+      "symbol": "SHIBERUS",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x841FB148863454A3b3570f515414759BE9091465",
@@ -33661,7 +33704,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Sheltie Inu",
-      "symbol": "SHINU"
+      "symbol": "SHINU",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xa1ab427451F19dF7445a22dEa7073800Ea3b687f",
@@ -35202,6 +35248,16 @@
       "decimals": 18,
       "name": "CoinStarter",
       "symbol": "STC"
+    },
+    {
+      "address": "0xf8d325872acbAed090056B4E0bf104B1C735F439",
+      "chainId": 1,
+      "decimals": 0,
+      "name": "STC",
+      "symbol": "STC",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xeED9e4F2450035D6426276a8aA2084966EE3b1bb",
@@ -36901,7 +36957,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Thunder",
-      "symbol": "THUN"
+      "symbol": "THUN",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xf08c68bD5f4194d994FD70726746Bf529eE5a617",
@@ -38204,7 +38263,7 @@
       "symbol": "U8D"
     },
     {
-      "address": "0xcC7d3706EA82cdb4Ec7D2a3eaC0e487E17Ab975A",
+      "address": "0x17e347aad89B30b96557BCBfBff8a14e75CC88a1",
       "chainId": 1,
       "decimals": 18,
       "name": "Unicly Bored Ape Ya",
@@ -42809,7 +42868,7 @@
       "address": "0x6e1A19F235bE7ED8E3369eF73b196C07257494DE",
       "chainId": 1,
       "decimals": 18,
-      "name": "Wrapped FIL",
+      "name": "Wrapped Filecoin",
       "symbol": "WFIL",
       "extensions": {
         "isVerified": true
@@ -45663,6 +45722,26 @@
       "decimals": 18,
       "name": "YVS Finance",
       "symbol": "YVS"
+    },
+    {
+      "address": "0xa9fE4601811213c340e850ea305481afF02f5b28",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "WETH yVault",
+      "symbol": "yvWETH",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xE14d13d8B3b85aF791b2AADD661cDBd5E6097Db1",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "YFI yVault",
+      "symbol": "yvYFI",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xaF20b44C1C651D1d29cFB916eE2A0630B828Eb7A",
