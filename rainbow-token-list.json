@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-28T05:17:58.570Z",
+  "timestamp": "2021-06-28T06:27:07.143Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -15758,7 +15758,7 @@
       "address": "0xF6eA0E60cee427B90aA36f327eE61d1d4CABC49F",
       "chainId": 1,
       "decimals": 18,
-      "name": "Unique Photo",
+      "name": "UniqueOne Photo",
       "symbol": "FOTO"
     },
     {
