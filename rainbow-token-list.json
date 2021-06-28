@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-28T03:23:56.231Z",
+  "timestamp": "2021-06-28T04:26:59.392Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -6260,6 +6260,13 @@
       "symbol": "BTCUI"
     },
     {
+      "address": "0x51B0bcBEFf204B39Ce792D1E16767Fe6F7631970",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Bitcoin Volatility",
+      "symbol": "BTCV"
+    },
+    {
       "address": "0x9388F54FA978Aa9e24395a8b69033304ECcea4df",
       "chainId": 1,
       "decimals": 4,
@@ -12114,17 +12121,17 @@
       "symbol": "DSCVR"
     },
     {
-      "address": "0xBD2F0Cd039E0BFcf88901C98c0bFAc5ab27566e3",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Dynamic Set Dollar",
-      "symbol": "DSD"
-    },
-    {
       "address": "0x1e3a2446C729D34373B87FD2C9CBb39A93198658",
       "chainId": 1,
       "decimals": 18,
       "name": "DeFi Nation Signals",
+      "symbol": "DSD"
+    },
+    {
+      "address": "0xBD2F0Cd039E0BFcf88901C98c0bFAc5ab27566e3",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Dynamic Set Dollar",
       "symbol": "DSD"
     },
     {
@@ -14307,6 +14314,13 @@
       "symbol": "ETHV"
     },
     {
+      "address": "0xC53342fd7575f572b0fF4569e31941A5B821aC76",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Ethereum Volatility",
+      "symbol": "ETHV"
+    },
+    {
       "address": "0xEeEeeeeEe2aF8D0e1940679860398308e0eF24d6",
       "chainId": 1,
       "decimals": 18,
@@ -14465,6 +14479,13 @@
       "decimals": 18,
       "name": "Ether-Backed USD Nomins (erc20)",
       "symbol": "eUSD"
+    },
+    {
+      "address": "0xd6cAF5Bd23CF057f5FcCCE295Dcc50C01C198707",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Evanesco Network",
+      "symbol": "EVA"
     },
     {
       "address": "0x70126bd012e39038792366C9115BB64407D5cBe1",
@@ -19103,6 +19124,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x2590F1fD14Ef8Bb0A46C7A889c4CBc146510f9C3",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Inverse Bitcoin Vol",
+      "symbol": "IBTCV"
     },
     {
       "address": "0x627e2Ee3dbDA546e168eaAFF25A2C5212E4A95a0",
