@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-28T09:22:59.567Z",
+  "timestamp": "2021-06-28T10:23:20.246Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -4159,17 +4159,17 @@
       }
     },
     {
-      "address": "0x4Efe8665e564bF454cCF5C90Ee16817F7485d5Cf",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "BlackDragon Token",
-      "symbol": "BDT"
-    },
-    {
       "address": "0x7BCe667EF12023dc5f8577D015a2F09d99a5ef58",
       "chainId": 1,
       "decimals": 18,
       "name": "Block Duelers",
+      "symbol": "BDT"
+    },
+    {
+      "address": "0x4Efe8665e564bF454cCF5C90Ee16817F7485d5Cf",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "BlackDragon Token",
       "symbol": "BDT"
     },
     {
@@ -4243,13 +4243,6 @@
     },
     {
       "address": "0xB91C2a2b953D72f3EF890490669a0A41B0ADD5f7",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "Belifex",
-      "symbol": "BEFX"
-    },
-    {
-      "address": "0xFBcECb002177e530695B8976638fBd18d2038C3C",
       "chainId": 1,
       "decimals": 8,
       "name": "Belifex",
@@ -10200,13 +10193,6 @@
       "symbol": "DAY"
     },
     {
-      "address": "0xe26668cC7Ce5239304B5af8F54B4bd57D11084D2",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "DAY",
-      "symbol": "DAY"
-    },
-    {
       "address": "0x9b68bFaE21DF5A510931A262CECf63f41338F264",
       "chainId": 1,
       "decimals": 18,
@@ -15418,6 +15404,13 @@
       "symbol": "FLOAT"
     },
     {
+      "address": "0xb1F4b66104353eC63D8d59D3da42C0b4Fb06E7f3",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Floki Inu",
+      "symbol": "FLOKI"
+    },
+    {
       "address": "0x049399a6B048D52971F7D122aE21A1532722285F",
       "chainId": 1,
       "decimals": 18,
@@ -15704,6 +15697,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x81AFa8ACa19d5693883B0B1e10ae1Ccaf2F42781",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "ForeverUp",
+      "symbol": "FOREVERUP"
     },
     {
       "address": "0xa4E9584DAa093Cb1205E17bA737c3fd015748087",
@@ -18433,6 +18433,13 @@
       "symbol": "HLC"
     },
     {
+      "address": "0xD520ddbdf81323F4B9a0Ea0AdBb692eBEf6cE280",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Holdefi",
+      "symbol": "HLD"
+    },
+    {
       "address": "0x308564DC5217c39386F5eaE96545159e1D396661",
       "chainId": 1,
       "decimals": 18,
@@ -18542,6 +18549,13 @@
       "chainId": 1,
       "decimals": 18,
       "name": "HODLCoin",
+      "symbol": "HODL"
+    },
+    {
+      "address": "0xE2a083397521968Eb05585932750634bED4b7D56",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "HODL",
       "symbol": "HODL"
     },
     {
@@ -32895,7 +32909,7 @@
       "address": "0xfDC4a3FC36df16a78edCAf1B837d3ACAaeDB2CB4",
       "chainId": 1,
       "decimals": 18,
-      "name": "Scifi Finance",
+      "name": "SCIFI Index",
       "symbol": "SCIFI"
     },
     {
