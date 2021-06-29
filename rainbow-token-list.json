@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-29T15:22:10.571Z",
+  "timestamp": "2021-06-29T16:32:14.993Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -23161,13 +23161,6 @@
       "symbol": "LST"
     },
     {
-      "address": "0x681Ecc5a0bFD18c308A1138fF607F818baC5E417",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Luckstar",
-      "symbol": "LST"
-    },
-    {
       "address": "0x4de2573e27E648607B50e1Cfff921A33E4A34405",
       "chainId": 1,
       "decimals": 18,
@@ -23179,6 +23172,13 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Libartysharetoken",
+      "symbol": "LST"
+    },
+    {
+      "address": "0x681Ecc5a0bFD18c308A1138fF607F818baC5E417",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Luckstar",
       "symbol": "LST"
     },
     {
@@ -23686,17 +23686,17 @@
       "symbol": "MAYP"
     },
     {
-      "address": "0x8D8129963291740dDDd917ab01af18c7aed4BA58",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "MineBee",
-      "symbol": "MB"
-    },
-    {
       "address": "0x7aB1fc79F319718690e9c883BaC910f8E289ce8f",
       "chainId": 1,
       "decimals": 18,
       "name": "Microchain",
+      "symbol": "MB"
+    },
+    {
+      "address": "0x8D8129963291740dDDd917ab01af18c7aed4BA58",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "MineBee",
       "symbol": "MB"
     },
     {
@@ -24362,6 +24362,13 @@
       "decimals": 18,
       "name": "Spaceswap MILK2",
       "symbol": "MILK2"
+    },
+    {
+      "address": "0x99D8a9C45b2ecA8864373A26D1459e3Dff1e17F3",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Magic Internet Mone",
+      "symbol": "MIM"
     },
     {
       "address": "0x90B831fa3Bebf58E9744A14D638E25B4eE06f9Bc",
@@ -32657,17 +32664,17 @@
       "symbol": "SANSHU"
     },
     {
-      "address": "0x91F529E972D6Cf43d36ABFa91C1118122FF7F16C",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Sapchain",
-      "symbol": "SAP"
-    },
-    {
       "address": "0xa12a00E73E4E7174AcC50A1c073e36Aa0c9cb305",
       "chainId": 1,
       "decimals": 4,
       "name": "Swaap Stablecoin",
+      "symbol": "SAP"
+    },
+    {
+      "address": "0x91F529E972D6Cf43d36ABFa91C1118122FF7F16C",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Sapchain",
       "symbol": "SAP"
     },
     {
