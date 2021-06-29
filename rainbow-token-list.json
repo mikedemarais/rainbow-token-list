@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-29T08:22:56.289Z",
+  "timestamp": "2021-06-29T09:23:13.389Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -2434,6 +2434,13 @@
       "decimals": 8,
       "name": "Asac Coin",
       "symbol": "ASAC"
+    },
+    {
+      "address": "0x3B73c1B2ea59835cbfcADade5462b6aB630D9890",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Chainswap",
+      "symbol": "ASAP"
     },
     {
       "address": "0xcca0c9c383076649604eE31b20248BC04FdF61cA",
@@ -28180,6 +28187,13 @@
       "symbol": "PEECH"
     },
     {
+      "address": "0xe1030B48b2033314979143766d7dC1F40ef8CE11",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "The People s Coin",
+      "symbol": "PEEPS"
+    },
+    {
       "address": "0x5Dd115EB39A0FC5DA9022e4bbB8e8679cA066A74",
       "chainId": 1,
       "decimals": 18,
@@ -37445,13 +37459,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0x3B73c1B2ea59835cbfcADade5462b6aB630D9890",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Chainswap",
-      "symbol": "TOKEN"
     },
     {
       "address": "0xa0F0546Eb5E3eE7e8cfC5DA12e5949F3AE622675",
