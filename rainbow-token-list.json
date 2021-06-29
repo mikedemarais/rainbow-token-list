@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-29T11:16:59.982Z",
+  "timestamp": "2021-06-29T12:32:34.552Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -4474,13 +4474,6 @@
       "decimals": 18,
       "name": "Bitget DeFi Token",
       "symbol": "BFT"
-    },
-    {
-      "address": "0x25901F2a5A4bb0aaAbe2CDb24E0E15A0d49B015d",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Bitfex",
-      "symbol": "BFX"
     },
     {
       "address": "0xD34c9281585866A9fb2af0931adb1fA35ed44039",
@@ -25703,13 +25696,6 @@
       "symbol": "NAVI"
     },
     {
-      "address": "0xc15A399c4eA7815fE36857C9E290EE452A5D6B21",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "BoatPilot",
-      "symbol": "NAVY"
-    },
-    {
       "address": "0x7D529a5b3c41126760A0fA3c1a9652d8A7A07793",
       "chainId": 1,
       "decimals": 18,
@@ -26579,13 +26565,6 @@
       "decimals": 18,
       "name": "Neeva Defi",
       "symbol": "NVA"
-    },
-    {
-      "address": "0x99963EE76C886fc43D5063428fF8F926E8A50985",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "INVIZION",
-      "symbol": "NVZN"
     },
     {
       "address": "0x45e42D659D9f9466cD5DF622506033145a9b89Bc",
@@ -39208,17 +39187,17 @@
       "symbol": "uniFAME"
     },
     {
-      "address": "0x0eF3b2024ae079e6dBC2b37435cE30d2731F0101",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "UNIFI DeFi",
-      "symbol": "UNIFI"
-    },
-    {
       "address": "0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5",
       "chainId": 1,
       "decimals": 18,
       "name": "Covenants",
+      "symbol": "UNIFI"
+    },
+    {
+      "address": "0x0eF3b2024ae079e6dBC2b37435cE30d2731F0101",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "UNIFI DeFi",
       "symbol": "UNIFI"
     },
     {
