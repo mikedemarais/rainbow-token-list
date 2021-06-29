@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-29T14:18:48.119Z",
+  "timestamp": "2021-06-29T15:22:10.571Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -13047,17 +13047,17 @@
       "symbol": "ECTE"
     },
     {
-      "address": "0xd3CDc4e75750DC1e59F8342200742B6B29490e70",
-      "chainId": 1,
-      "decimals": 3,
-      "name": "Decurian",
-      "symbol": "ECU"
-    },
-    {
       "address": "0x8fc9b6354E839AB1c8B31F4afa53607092B8C2e5",
       "chainId": 1,
       "decimals": 18,
       "name": "ECOSC",
+      "symbol": "ECU"
+    },
+    {
+      "address": "0xd3CDc4e75750DC1e59F8342200742B6B29490e70",
+      "chainId": 1,
+      "decimals": 3,
+      "name": "Decurian",
       "symbol": "ECU"
     },
     {
@@ -42249,6 +42249,13 @@
       "decimals": 18,
       "name": "Vrenelium",
       "symbol": "VRE"
+    },
+    {
+      "address": "0x3E6a17E1913b2f49Ceb6803E46094066ff5f9c78",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "VaporRISE",
+      "symbol": "VRISE"
     },
     {
       "address": "0x10BC518c32fbAE5e38Ecb50A612160571bD81e44",
