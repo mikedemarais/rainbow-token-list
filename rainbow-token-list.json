@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-29T17:26:40.464Z",
+  "timestamp": "2021-06-29T18:25:31.715Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -16651,6 +16651,16 @@
       "decimals": 18,
       "name": "Global DeFi",
       "symbol": "GDEFI"
+    },
+    {
+      "address": "0x6AA493050427c7AF81D38F19Fd6b4f5DD3a75E3B",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "GoldenDog",
+      "symbol": "GDOG",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x874D4C9B980f1a13dD44CBcDB912e24Ef0671eD0",
@@ -45956,6 +45966,16 @@
       "decimals": 18,
       "name": "3X Long Zcash Token",
       "symbol": "ZECBULL"
+    },
+    {
+      "address": "0xFbC4f3f645C4003a2E4F4e9b51077d2DaA9a9341",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "ZEDXION",
+      "symbol": "ZEDXION",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x2eDf094dB69d6Dcd487f1B3dB9febE2eeC0dd4c5",
