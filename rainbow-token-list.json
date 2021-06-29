@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-29T02:03:26.838Z",
+  "timestamp": "2021-06-29T03:24:08.365Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -2368,6 +2368,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x4fd0B42D14Ad7fFd18D2d1D7ea6B4B45F3d56463",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Goya Giant Token",
+      "symbol": "ARTG"
     },
     {
       "address": "0x0E3cC2c4FB9252d17d07C67135E48536071735D9",
@@ -31908,6 +31915,13 @@
       "decimals": 18,
       "name": "Rentible",
       "symbol": "RNB"
+    },
+    {
+      "address": "0xE94B97b6b43639E238c851A7e693F50033EfD75C",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Rainbow Token",
+      "symbol": "RNBW"
     },
     {
       "address": "0x0996bFb5D057faa237640E2506BE7B4f9C46de0B",
