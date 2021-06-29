@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-29T04:26:46.977Z",
+  "timestamp": "2021-06-29T05:18:16.991Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -31831,17 +31831,17 @@
       "symbol": "RLD"
     },
     {
-      "address": "0x0E3EF895c59E7Db27214AB5bbf56347cE115A3f4",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Relayer Network",
-      "symbol": "RLR"
-    },
-    {
       "address": "0x5b3F693EfD5710106eb2Eac839368364aCB5a70f",
       "chainId": 1,
       "decimals": 18,
       "name": "Relayer Network  OL",
+      "symbol": "RLR"
+    },
+    {
+      "address": "0x0E3EF895c59E7Db27214AB5bbf56347cE115A3f4",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Relayer Network",
       "symbol": "RLR"
     },
     {
@@ -45431,6 +45431,13 @@
       "decimals": 18,
       "name": "YIELD App",
       "symbol": "YLD"
+    },
+    {
+      "address": "0x88cb253d4C8caB8CDF7948A9251Db85a13669E23",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Yieldly",
+      "symbol": "YLDY"
     },
     {
       "address": "0x062f90480551379791FBe2ED74C1fe69821b30d3",
