@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-30T13:25:44.692Z",
+  "timestamp": "2021-06-30T15:24:24.499Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -2595,17 +2595,17 @@
       "symbol": "ASY"
     },
     {
-      "address": "0xE54B3458C47E44C37a267E7C633AFEF88287C294",
-      "chainId": 1,
-      "decimals": 5,
-      "name": "Artfinity Token",
-      "symbol": "AT"
-    },
-    {
       "address": "0xbf8fB919A8bbF28e590852AeF2D284494eBC0657",
       "chainId": 1,
       "decimals": 18,
       "name": "ABCC Token",
+      "symbol": "AT"
+    },
+    {
+      "address": "0xE54B3458C47E44C37a267E7C633AFEF88287C294",
+      "chainId": 1,
+      "decimals": 5,
+      "name": "Artfinity Token",
       "symbol": "AT"
     },
     {
