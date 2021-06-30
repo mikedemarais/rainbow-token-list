@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-30T18:25:48.213Z",
+  "timestamp": "2021-06-30T19:16:17.771Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -1304,7 +1304,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "AllianceBlock",
-      "symbol": "ALBT"
+      "symbol": "ALBT",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x95D82bA91256DB995C80BEd690D0A779191aF62b",
