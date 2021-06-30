@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-30T16:33:06.820Z",
+  "timestamp": "2021-06-30T17:27:40.664Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -38336,17 +38336,17 @@
       "symbol": "U8D"
     },
     {
-      "address": "0x822808104E173cB4B21549d8E921Cae9E4F655E9",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "Uni Ape",
-      "symbol": "UAPE"
-    },
-    {
       "address": "0x17e347aad89B30b96557BCBfBff8a14e75CC88a1",
       "chainId": 1,
       "decimals": 18,
       "name": "Unicly Bored Ape Ya",
+      "symbol": "UAPE"
+    },
+    {
+      "address": "0x822808104E173cB4B21549d8E921Cae9E4F655E9",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Uni Ape",
       "symbol": "UAPE"
     },
     {
@@ -39246,17 +39246,17 @@
       "symbol": "uniFAME"
     },
     {
-      "address": "0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Covenants",
-      "symbol": "UNIFI"
-    },
-    {
       "address": "0x0eF3b2024ae079e6dBC2b37435cE30d2731F0101",
       "chainId": 1,
       "decimals": 18,
       "name": "UNIFI DeFi",
+      "symbol": "UNIFI"
+    },
+    {
+      "address": "0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Covenants",
       "symbol": "UNIFI"
     },
     {
