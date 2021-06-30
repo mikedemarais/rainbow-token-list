@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-30T07:18:44.620Z",
+  "timestamp": "2021-06-30T08:23:02.929Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -8445,6 +8445,13 @@
       "symbol": "COFI"
     },
     {
+      "address": "0xC382e04099A435439725BB40647e2B32dC136806",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Cogecoin",
+      "symbol": "COGE"
+    },
+    {
       "address": "0x0C91B015AbA6f7B4738dcD36E7410138b29ADC29",
       "chainId": 1,
       "decimals": 8,
@@ -12157,17 +12164,17 @@
       "symbol": "DSCVR"
     },
     {
-      "address": "0xBD2F0Cd039E0BFcf88901C98c0bFAc5ab27566e3",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Dynamic Set Dollar",
-      "symbol": "DSD"
-    },
-    {
       "address": "0x1e3a2446C729D34373B87FD2C9CBb39A93198658",
       "chainId": 1,
       "decimals": 18,
       "name": "DeFi Nation Signals",
+      "symbol": "DSD"
+    },
+    {
+      "address": "0xBD2F0Cd039E0BFcf88901C98c0bFAc5ab27566e3",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Dynamic Set Dollar",
       "symbol": "DSD"
     },
     {
@@ -19921,6 +19928,13 @@
       "decimals": 18,
       "name": "Impermax",
       "symbol": "IMX"
+    },
+    {
+      "address": "0xcA75C43f8c9AfD356c585ce7AA4490B48A95C466",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Inari",
+      "symbol": "INARI"
     },
     {
       "address": "0x17Aa18A4B64A55aBEd7FA543F2Ba4E91f2dcE482",
@@ -36135,7 +36149,7 @@
       "address": "0x99fE3B1391503A1bC1788051347A1324bff41452",
       "chainId": 1,
       "decimals": 18,
-      "name": "SportX",
+      "name": "SX Network",
       "symbol": "SX"
     },
     {
