@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-30T04:26:44.131Z",
+  "timestamp": "2021-06-30T05:17:55.786Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -479,6 +479,13 @@
       "chainId": 1,
       "decimals": 18,
       "name": "ABPT Crypto",
+      "symbol": "ABPT"
+    },
+    {
+      "address": "0x41A08648C3766F9F9d85598fF102a08f4ef84F84",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave Balancer Pool",
       "symbol": "ABPT"
     },
     {
@@ -5131,17 +5138,17 @@
       "symbol": "BMI"
     },
     {
-      "address": "0x25ce333B325F02C9720Da526A01b5F5be889b4e3",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "BMJ Coin",
-      "symbol": "BMJ"
-    },
-    {
       "address": "0x5913D0F34615923552ee913DBe809F9F348e706E",
       "chainId": 1,
       "decimals": 18,
       "name": "BMJ Master Nodes",
+      "symbol": "BMJ"
+    },
+    {
+      "address": "0x25ce333B325F02C9720Da526A01b5F5be889b4e3",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "BMJ Coin",
       "symbol": "BMJ"
     },
     {
@@ -14329,17 +14336,17 @@
       "symbol": "ETHUSDADL4"
     },
     {
-      "address": "0x058349297672B6cC7cCb6E59A679c5ADd74a6898",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Ethereum Vault",
-      "symbol": "ETHV"
-    },
-    {
       "address": "0xC53342fd7575f572b0fF4569e31941A5B821aC76",
       "chainId": 1,
       "decimals": 18,
       "name": "Ethereum Volatility",
+      "symbol": "ETHV"
+    },
+    {
+      "address": "0x058349297672B6cC7cCb6E59A679c5ADd74a6898",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Ethereum Vault",
       "symbol": "ETHV"
     },
     {
@@ -15836,17 +15843,17 @@
       "symbol": "FOY"
     },
     {
-      "address": "0x084Da5a9C0e3f086532b98d8568432349b89d9DF",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "FUUPAY",
-      "symbol": "FPT"
-    },
-    {
       "address": "0x9d5e6b92Ba3f75589943372DF82DbD3A8A802e80",
       "chainId": 1,
       "decimals": 18,
       "name": "FINPLE",
+      "symbol": "FPT"
+    },
+    {
+      "address": "0x084Da5a9C0e3f086532b98d8568432349b89d9DF",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "FUUPAY",
       "symbol": "FPT"
     },
     {
@@ -23171,17 +23178,17 @@
       "symbol": "LST"
     },
     {
-      "address": "0x4de2573e27E648607B50e1Cfff921A33E4A34405",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Lendroid Support To",
-      "symbol": "LST"
-    },
-    {
       "address": "0x355376d6471E09A4FfCA8790F50DA625630c5270",
       "chainId": 1,
       "decimals": 18,
       "name": "Libartysharetoken",
+      "symbol": "LST"
+    },
+    {
+      "address": "0x4de2573e27E648607B50e1Cfff921A33E4A34405",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Lendroid Support To",
       "symbol": "LST"
     },
     {
@@ -35354,6 +35361,13 @@
       "decimals": 18,
       "name": "STK",
       "symbol": "STK"
+    },
+    {
+      "address": "0xa1116930326D21fB917d5A27F1E9943A9595fb47",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Staked Aave Balance",
+      "symbol": "STKABPT"
     },
     {
       "address": "0x89DcFF5Fd892f2bfc8B75dBA12804B651f769579",
