@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-30T12:32:30.634Z",
+  "timestamp": "2021-06-30T13:25:44.692Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -7389,17 +7389,17 @@
       "symbol": "CBUCKS"
     },
     {
-      "address": "0x15c9DD08Fb16331B9749a8d7d16BCd71c985f190",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "CC",
-      "symbol": "CC"
-    },
-    {
       "address": "0xb7fbFf4Ce5200215c690cc95855e5d6C5236Ee9f",
       "chainId": 1,
       "decimals": 18,
       "name": "CCSwap",
+      "symbol": "CC"
+    },
+    {
+      "address": "0x15c9DD08Fb16331B9749a8d7d16BCd71c985f190",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "CC",
       "symbol": "CC"
     },
     {
@@ -23206,17 +23206,17 @@
       "symbol": "LST"
     },
     {
-      "address": "0x355376d6471E09A4FfCA8790F50DA625630c5270",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Libartysharetoken",
-      "symbol": "LST"
-    },
-    {
       "address": "0x4de2573e27E648607B50e1Cfff921A33E4A34405",
       "chainId": 1,
       "decimals": 18,
       "name": "Lendroid Support To",
+      "symbol": "LST"
+    },
+    {
+      "address": "0x355376d6471E09A4FfCA8790F50DA625630c5270",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Libartysharetoken",
       "symbol": "LST"
     },
     {
@@ -25760,6 +25760,13 @@
       "decimals": 18,
       "name": "Niobium Coin",
       "symbol": "NBC"
+    },
+    {
+      "address": "0x9275e8386A5BDdA160c0e621e9A6067b8fd88ea2",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Nobunaga",
+      "symbol": "NBNG"
     },
     {
       "address": "0xEB58343b36C7528F23CAAe63a150240241310049",
@@ -28346,17 +28353,17 @@
       "symbol": "PFB"
     },
     {
-      "address": "0x7B69D465c0F9FB22AffAE56aa86149973e9B0966",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Protocol Finance",
-      "symbol": "PFI"
-    },
-    {
       "address": "0x989ac4c1fC5aB2B8c86924c6253aAF1Ee68E9ce9",
       "chainId": 1,
       "decimals": 18,
       "name": "Prime Finance",
+      "symbol": "PFI"
+    },
+    {
+      "address": "0x7B69D465c0F9FB22AffAE56aa86149973e9B0966",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Protocol Finance",
       "symbol": "PFI"
     },
     {
@@ -38329,17 +38336,17 @@
       "symbol": "U8D"
     },
     {
-      "address": "0x17e347aad89B30b96557BCBfBff8a14e75CC88a1",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Unicly Bored Ape Ya",
-      "symbol": "UAPE"
-    },
-    {
       "address": "0x822808104E173cB4B21549d8E921Cae9E4F655E9",
       "chainId": 1,
       "decimals": 9,
       "name": "Uni Ape",
+      "symbol": "UAPE"
+    },
+    {
+      "address": "0x17e347aad89B30b96557BCBfBff8a14e75CC88a1",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Unicly Bored Ape Ya",
       "symbol": "UAPE"
     },
     {
