@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-06-30T09:23:11.273Z",
+  "timestamp": "2021-06-30T10:23:23.936Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -168,6 +168,13 @@
       "decimals": 18,
       "name": "2Based Finance",
       "symbol": "2BASED"
+    },
+    {
+      "address": "0x2C9C19cE3b15ae77C6d80aEc3C1194Cfd6F7F3fA",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "2crazyNFT",
+      "symbol": "2CRZ"
     },
     {
       "address": "0x9fC0583220eB44fAeE9e2dc1E63F39204DDD9090",
@@ -5490,13 +5497,6 @@
       "symbol": "BON"
     },
     {
-      "address": "0x5Dc02Ea99285E17656b8350722694c35154DB1E8",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "Bonded Finance",
-      "symbol": "BOND"
-    },
-    {
       "address": "0x0391D2021f89DC339F60Fff84546EA23E337750f",
       "chainId": 1,
       "decimals": 18,
@@ -5505,6 +5505,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x5Dc02Ea99285E17656b8350722694c35154DB1E8",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Bonded Finance",
+      "symbol": "BOND"
     },
     {
       "address": "0xD2dDa223b2617cB616c1580db421e4cFAe6a8a85",
@@ -13068,17 +13075,17 @@
       "symbol": "ECTE"
     },
     {
-      "address": "0x8fc9b6354E839AB1c8B31F4afa53607092B8C2e5",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "ECOSC",
-      "symbol": "ECU"
-    },
-    {
       "address": "0xd3CDc4e75750DC1e59F8342200742B6B29490e70",
       "chainId": 1,
       "decimals": 3,
       "name": "Decurian",
+      "symbol": "ECU"
+    },
+    {
+      "address": "0x8fc9b6354E839AB1c8B31F4afa53607092B8C2e5",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "ECOSC",
       "symbol": "ECU"
     },
     {
@@ -24343,13 +24350,6 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Mindexcoin",
-      "symbol": "MIC"
-    },
-    {
-      "address": "0xEEd0c8d2DA6d243329a6F4A8C2aC61A59ecBFa02",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Mithril Cash",
       "symbol": "MIC"
     },
     {
