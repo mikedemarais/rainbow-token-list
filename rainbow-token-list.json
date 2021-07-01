@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-01T13:24:40.567Z",
+  "timestamp": "2021-07-01T14:18:34.474Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -4013,6 +4013,16 @@
       "symbol": "BCNT"
     },
     {
+      "address": "0xE4f726Adc8e89C6a6017F01eadA77865dB22dA14",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "PieDAO Balanced Crypto Pie",
+      "symbol": "BCP",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
       "chainId": 1,
       "decimals": 18,
@@ -4024,16 +4034,6 @@
       "chainId": 1,
       "decimals": 8,
       "name": "Bitcoin Platinums",
-      "symbol": "BCP",
-      "extensions": {
-        "isVerified": true
-      }
-    },
-    {
-      "address": "0xE4f726Adc8e89C6a6017F01eadA77865dB22dA14",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "PieDAO Balanced Crypto Pie",
       "symbol": "BCP",
       "extensions": {
         "isVerified": true
@@ -4200,17 +4200,17 @@
       }
     },
     {
-      "address": "0x7BCe667EF12023dc5f8577D015a2F09d99a5ef58",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Block Duelers",
-      "symbol": "BDT"
-    },
-    {
       "address": "0x4Efe8665e564bF454cCF5C90Ee16817F7485d5Cf",
       "chainId": 1,
       "decimals": 18,
       "name": "BlackDragon Token",
+      "symbol": "BDT"
+    },
+    {
+      "address": "0x7BCe667EF12023dc5f8577D015a2F09d99a5ef58",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Block Duelers",
       "symbol": "BDT"
     },
     {
@@ -7295,6 +7295,13 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Cobak Token",
+      "symbol": "CBK"
+    },
+    {
+      "address": "0x87761e886399EF8e1624cb0DB3230B075a322c88",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Crossing the Yellow",
       "symbol": "CBK"
     },
     {
@@ -12998,17 +13005,17 @@
       "symbol": "ECN"
     },
     {
-      "address": "0x191557728e4d8CAa4Ac94f86af842148c0FA8F7E",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "Ormeus Ecosystem",
-      "symbol": "ECO"
-    },
-    {
       "address": "0xC242Eb8e4E27EAE6a2A728A41201152F19595C83",
       "chainId": 1,
       "decimals": 18,
       "name": "EcoFi",
+      "symbol": "ECO"
+    },
+    {
+      "address": "0x191557728e4d8CAa4Ac94f86af842148c0FA8F7E",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Ormeus Ecosystem",
       "symbol": "ECO"
     },
     {
@@ -17321,6 +17328,13 @@
       "symbol": "GOLD"
     },
     {
+      "address": "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "GOLD",
+      "symbol": "GOLD"
+    },
+    {
       "address": "0x670f9D9a26D3D42030794ff035d35a67AA092ead",
       "chainId": 1,
       "decimals": 8,
@@ -17332,13 +17346,6 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Golden Token",
-      "symbol": "GOLD"
-    },
-    {
-      "address": "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "GOLD",
       "symbol": "GOLD"
     },
     {
@@ -21900,7 +21907,7 @@
       "symbol": "KUKY"
     },
     {
-      "address": "0xb525Ecee288B99216CD481C56b6EFbdbE9bF90b5",
+      "address": "0x48C276e8d03813224bb1e55F953adB6d02FD3E02",
       "chainId": 1,
       "decimals": 18,
       "name": "Kuma Inu",
@@ -22551,17 +22558,17 @@
       "symbol": "LHCOIN"
     },
     {
-      "address": "0x0bf6261297198D91D4FA460242C69232146A5703",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Libera",
-      "symbol": "LIB"
-    },
-    {
       "address": "0x3FD2E747CEA0E8A78f1827ea2FfD3334628A600b",
       "chainId": 1,
       "decimals": 18,
       "name": "Banklife",
+      "symbol": "LIB"
+    },
+    {
+      "address": "0x0bf6261297198D91D4FA460242C69232146A5703",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Libera",
       "symbol": "LIB"
     },
     {
@@ -27392,17 +27399,17 @@
       }
     },
     {
-      "address": "0x662b67d00A13FAf93254714DD601F5Ed49Ef2F51",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Orbit Chain",
-      "symbol": "ORC"
-    },
-    {
       "address": "0x324AF2D5353f2dD138E234b359d30d67C64b1b20",
       "chainId": 1,
       "decimals": 18,
       "name": "Oracle System",
+      "symbol": "ORC"
+    },
+    {
+      "address": "0x662b67d00A13FAf93254714DD601F5Ed49Ef2F51",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Orbit Chain",
       "symbol": "ORC"
     },
     {
@@ -30287,17 +30294,17 @@
       }
     },
     {
-      "address": "0x4c9BBFc1FbD93dFB509E718400978fbEedf590E9",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Rai Token",
-      "symbol": "RAI"
-    },
-    {
       "address": "0xf30547ff2Df1F1CBE5C8DD758B3dd098C856e38f",
       "chainId": 1,
       "decimals": 18,
       "name": "RAI Finance",
+      "symbol": "RAI"
+    },
+    {
+      "address": "0x4c9BBFc1FbD93dFB509E718400978fbEedf590E9",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Rai Token",
       "symbol": "RAI"
     },
     {
@@ -43237,6 +43244,13 @@
       "decimals": 3,
       "name": "Wrapped LEO",
       "symbol": "WLEO"
+    },
+    {
+      "address": "0x0b63128C40737B13647552e0C926bCFEccC35f93",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "wLitiCapital",
+      "symbol": "WLITI"
     },
     {
       "address": "0xB7BC7B0A32455F7e7A924f832ca4F0a0ac3b6B88",
