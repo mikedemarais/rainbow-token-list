@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-01T12:33:00.779Z",
+  "timestamp": "2021-07-01T13:24:40.567Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -12167,17 +12167,17 @@
       "symbol": "DSCVR"
     },
     {
-      "address": "0x1e3a2446C729D34373B87FD2C9CBb39A93198658",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "DeFi Nation Signals",
-      "symbol": "DSD"
-    },
-    {
       "address": "0xBD2F0Cd039E0BFcf88901C98c0bFAc5ab27566e3",
       "chainId": 1,
       "decimals": 18,
       "name": "Dynamic Set Dollar",
+      "symbol": "DSD"
+    },
+    {
+      "address": "0x1e3a2446C729D34373B87FD2C9CBb39A93198658",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "DeFi Nation Signals",
       "symbol": "DSD"
     },
     {
@@ -12998,17 +12998,17 @@
       "symbol": "ECN"
     },
     {
-      "address": "0xC242Eb8e4E27EAE6a2A728A41201152F19595C83",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "EcoFi",
-      "symbol": "ECO"
-    },
-    {
       "address": "0x191557728e4d8CAa4Ac94f86af842148c0FA8F7E",
       "chainId": 1,
       "decimals": 8,
       "name": "Ormeus Ecosystem",
+      "symbol": "ECO"
+    },
+    {
+      "address": "0xC242Eb8e4E27EAE6a2A728A41201152F19595C83",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "EcoFi",
       "symbol": "ECO"
     },
     {
@@ -21416,7 +21416,7 @@
       "address": "0x824a50dF33AC1B41Afc52f4194E2e8356C17C3aC",
       "chainId": 1,
       "decimals": 10,
-      "name": "KickToken",
+      "name": "Kick",
       "symbol": "KICK"
     },
     {
@@ -32771,17 +32771,17 @@
       "symbol": "SAT"
     },
     {
-      "address": "0xc9F1016d336ef77AeE75Fc11Ad64C5Ecf9121332",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "SoMee Advertising T",
-      "symbol": "SAT"
-    },
-    {
       "address": "0xc56b13ebbCFfa67cFb7979b900b736b3fb480D78",
       "chainId": 1,
       "decimals": 8,
       "name": "Social Activity Tok",
+      "symbol": "SAT"
+    },
+    {
+      "address": "0xc9F1016d336ef77AeE75Fc11Ad64C5Ecf9121332",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "SoMee Advertising T",
       "symbol": "SAT"
     },
     {
@@ -34308,6 +34308,13 @@
       "decimals": 9,
       "name": "ShibaMax",
       "symbol": "SMAX"
+    },
+    {
+      "address": "0x53Bd789F2cDb846b227d8ffc7B46eD4263231FDf",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "SimbCoin Swap",
+      "symbol": "SMBSWAP"
     },
     {
       "address": "0x7e8539D1E5cB91d63E46B8e188403b3f262a949B",
@@ -37339,17 +37346,17 @@
       "symbol": "TLX"
     },
     {
-      "address": "0x1c153BADb7e54AbcdCB65f0A09fCd6f10dE36aA3",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "TMC",
-      "symbol": "TMC"
-    },
-    {
       "address": "0xe13559cf6eDf84bD04bf679e251f285000B9305E",
       "chainId": 1,
       "decimals": 18,
       "name": "TMC NiftyGotchi",
+      "symbol": "TMC"
+    },
+    {
+      "address": "0x1c153BADb7e54AbcdCB65f0A09fCd6f10dE36aA3",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "TMC",
       "symbol": "TMC"
     },
     {
