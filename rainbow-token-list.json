@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-01T08:22:47.767Z",
+  "timestamp": "2021-07-01T09:22:29.525Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -6434,6 +6434,13 @@
       "symbol": "BTR"
     },
     {
+      "address": "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Bitrue Coin",
+      "symbol": "BTR"
+    },
+    {
       "address": "0xcce63fD31e9053c110c74CEbc37C8e358A6AA5bD",
       "chainId": 1,
       "decimals": 4,
@@ -6442,13 +6449,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Bitrue Coin",
-      "symbol": "BTR"
     },
     {
       "address": "0x388Fd8A5145D6EF85aAE14D494F93Df9D1c7c00C",
@@ -7047,17 +7047,17 @@
       "symbol": "CAPP"
     },
     {
-      "address": "0x2E9C861713A8CbD4aCA72a832F347b9520EDBB90",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Crypto Application",
-      "symbol": "CAPP"
-    },
-    {
       "address": "0x11613b1f840bb5A40F8866d857e24DA126B79D73",
       "chainId": 1,
       "decimals": 2,
       "name": "Cappasity",
+      "symbol": "CAPP"
+    },
+    {
+      "address": "0x2E9C861713A8CbD4aCA72a832F347b9520EDBB90",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Crypto Application",
       "symbol": "CAPP"
     },
     {
@@ -14360,17 +14360,17 @@
       "symbol": "ETHUSDADL4"
     },
     {
-      "address": "0xC53342fd7575f572b0fF4569e31941A5B821aC76",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Ethereum Volatility",
-      "symbol": "ETHV"
-    },
-    {
       "address": "0x058349297672B6cC7cCb6E59A679c5ADd74a6898",
       "chainId": 1,
       "decimals": 18,
       "name": "Ethereum Vault",
+      "symbol": "ETHV"
+    },
+    {
+      "address": "0xC53342fd7575f572b0fF4569e31941A5B821aC76",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Ethereum Volatility",
       "symbol": "ETHV"
     },
     {
@@ -16756,17 +16756,17 @@
       "symbol": "GEM"
     },
     {
-      "address": "0x30B1eFB052205E6CA3c4888C3C50C5b339cc0602",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Cargo Gems",
-      "symbol": "GEM"
-    },
-    {
       "address": "0x90f62B96a62801488b151fF3c65eaC5Fae21a962",
       "chainId": 1,
       "decimals": 18,
       "name": "GemSwap",
+      "symbol": "GEM"
+    },
+    {
+      "address": "0x30B1eFB052205E6CA3c4888C3C50C5b339cc0602",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Cargo Gems",
       "symbol": "GEM"
     },
     {
@@ -21423,6 +21423,13 @@
       "address": "0xC12D1c73eE7DC3615BA4e37E4ABFdbDDFA38907E",
       "chainId": 1,
       "decimals": 8,
+      "name": "KickToken",
+      "symbol": "KICK"
+    },
+    {
+      "address": "0x824a50dF33AC1B41Afc52f4194E2e8356C17C3aC",
+      "chainId": 1,
+      "decimals": 10,
       "name": "KickToken",
       "symbol": "KICK"
     },
@@ -30294,17 +30301,17 @@
       }
     },
     {
-      "address": "0xf30547ff2Df1F1CBE5C8DD758B3dd098C856e38f",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "RAI Finance",
-      "symbol": "RAI"
-    },
-    {
       "address": "0x4c9BBFc1FbD93dFB509E718400978fbEedf590E9",
       "chainId": 1,
       "decimals": 18,
       "name": "Rai Token",
+      "symbol": "RAI"
+    },
+    {
+      "address": "0xf30547ff2Df1F1CBE5C8DD758B3dd098C856e38f",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "RAI Finance",
       "symbol": "RAI"
     },
     {
@@ -32778,13 +32785,6 @@
       }
     },
     {
-      "address": "0x1F0F468Ee03A6D99CD8A09dd071494a83Dc1c0e5",
-      "chainId": 1,
-      "decimals": 4,
-      "name": "SmartX",
-      "symbol": "SAT"
-    },
-    {
       "address": "0xc9F1016d336ef77AeE75Fc11Ad64C5Ecf9121332",
       "chainId": 1,
       "decimals": 18,
@@ -32796,6 +32796,13 @@
       "chainId": 1,
       "decimals": 8,
       "name": "Social Activity Tok",
+      "symbol": "SAT"
+    },
+    {
+      "address": "0x1F0F468Ee03A6D99CD8A09dd071494a83Dc1c0e5",
+      "chainId": 1,
+      "decimals": 4,
+      "name": "SmartX",
       "symbol": "SAT"
     },
     {
@@ -36408,13 +36415,6 @@
       "symbol": "TAC"
     },
     {
-      "address": "0x41C028a4C1F461eBFC3af91619b240004ebAD216",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "TacoToken",
-      "symbol": "TACO"
-    },
-    {
       "address": "0x00D1793D7C3aAE506257Ba985b34C76AaF642557",
       "chainId": 1,
       "decimals": 18,
@@ -36423,6 +36423,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x41C028a4C1F461eBFC3af91619b240004ebAD216",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "TacoToken",
+      "symbol": "TACO"
     },
     {
       "address": "0x9f7229aF0c4b9740e207Ea283b9094983f78ba04",
@@ -38546,17 +38553,17 @@
       "symbol": "UCOS"
     },
     {
-      "address": "0x3c4bEa627039F0B7e7d21E34bB9C9FE962977518",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Ubique Chain of Thi",
-      "symbol": "UCT"
-    },
-    {
       "address": "0x6d1DC3928604b00180Bb570BdAe94b9698d33b79",
       "chainId": 1,
       "decimals": 18,
       "name": "UnitedCrowd",
+      "symbol": "UCT"
+    },
+    {
+      "address": "0x3c4bEa627039F0B7e7d21E34bB9C9FE962977518",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Ubique Chain of Thi",
       "symbol": "UCT"
     },
     {
@@ -39059,6 +39066,13 @@
       "decimals": 8,
       "name": "unFederal ETH",
       "symbol": "unETH"
+    },
+    {
+      "address": "0x441761326490cACF7aF299725B6292597EE822c2",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Unifi Protocol DAO",
+      "symbol": "UNFI"
     },
     {
       "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
@@ -45380,6 +45394,13 @@
       "symbol": "YFST"
     },
     {
+      "address": "0x9cD39dA8f25ec50cF2Ee260e464aC23EA23F6bb0",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Toshify finance",
+      "symbol": "YFT"
+    },
+    {
       "address": "0x26B3038a7Fc10b36c426846a9086Ef87328dA702",
       "chainId": 1,
       "decimals": 18,
@@ -45388,13 +45409,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0x9cD39dA8f25ec50cF2Ee260e464aC23EA23F6bb0",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Toshify finance",
-      "symbol": "YFT"
     },
     {
       "address": "0x94F31aC896c9823D81cf9C2C93feCEeD4923218f",
