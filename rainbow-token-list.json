@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-01T22:20:28.591Z",
+  "timestamp": "2021-07-01T23:21:13.573Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -5725,17 +5725,17 @@
       "symbol": "BPP"
     },
     {
-      "address": "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "B Protocol",
-      "symbol": "BPRO"
-    },
-    {
       "address": "0x197E6bCa6BC2f488ec760a6Ce46B1399cd2954b0",
       "chainId": 1,
       "decimals": 8,
       "name": "BitCloud Pro",
+      "symbol": "BPRO"
+    },
+    {
+      "address": "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "B Protocol",
       "symbol": "BPRO"
     },
     {
@@ -10876,6 +10876,13 @@
       "symbol": "DFGL"
     },
     {
+      "address": "0xA9536B9c75A9E0faE3B56a96AC8EdF76AbC91978",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Amun DeFi Index",
+      "symbol": "DFI"
+    },
+    {
       "address": "0xeE3b9B531F4C564c70e14B7b3BB7D516f33513ff",
       "chainId": 1,
       "decimals": 18,
@@ -11590,6 +11597,13 @@
       "decimals": 18,
       "name": "Demeter Chain",
       "symbol": "DMTC"
+    },
+    {
+      "address": "0x1660F10B4D610cF482194356eCe8eFD65B15bA83",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Amun DeFi Momentum",
+      "symbol": "DMX"
     },
     {
       "address": "0xf058501585023d040eA9493134ED72C083553eED",
@@ -12484,17 +12498,17 @@
       }
     },
     {
-      "address": "0x0f4c00139602AB502Bc7c1c0e71D6CB72A9FB0e7",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "dHEDGE Top Index",
-      "symbol": "DTOP"
-    },
-    {
       "address": "0x54Ad74EdeAB48e09ccC43eE324f2603071dAD72b",
       "chainId": 1,
       "decimals": 18,
       "name": "DTOP Token",
+      "symbol": "DTOP"
+    },
+    {
+      "address": "0x0f4c00139602AB502Bc7c1c0e71D6CB72A9FB0e7",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "dHEDGE Top Index",
       "symbol": "DTOP"
     },
     {
@@ -15312,17 +15326,17 @@
       "symbol": "FINU"
     },
     {
-      "address": "0xF921ae2DAC5fa128DC0F6168Bf153ea0943d2D43",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "Fire Protocol",
-      "symbol": "FIRE"
-    },
-    {
       "address": "0x3F8A2f7bcD70e7F7Bdd3FbB079c11d073588DEA2",
       "chainId": 1,
       "decimals": 18,
       "name": "FIRE",
+      "symbol": "FIRE"
+    },
+    {
+      "address": "0xF921ae2DAC5fa128DC0F6168Bf153ea0943d2D43",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Fire Protocol",
       "symbol": "FIRE"
     },
     {
@@ -22816,13 +22830,6 @@
       "symbol": "LIQUID"
     },
     {
-      "address": "0xb59490aB09A0f526Cc7305822aC65f2Ab12f9723",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Litentry",
-      "symbol": "LIT"
-    },
-    {
       "address": "0x763Fa6806e1acf68130D2D0f0df754C93cC546B2",
       "chainId": 1,
       "decimals": 18,
@@ -22831,6 +22838,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0xb59490aB09A0f526Cc7305822aC65f2Ab12f9723",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Litentry",
+      "symbol": "LIT"
     },
     {
       "address": "0xf8A4A419c2d7140e49eF952a7e7Ae1Bd4A8b6B9C",
@@ -28499,6 +28513,13 @@
       }
     },
     {
+      "address": "0x1864cE27E9F7517047933CaAE530674e8C70b8A7",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Pibble",
+      "symbol": "PIB"
+    },
+    {
       "address": "0x1BaFfbc23f2246040cCE12F7a140C38c5DC73e46",
       "chainId": 1,
       "decimals": 18,
@@ -28507,13 +28528,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0x1864cE27E9F7517047933CaAE530674e8C70b8A7",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Pibble",
-      "symbol": "PIB"
     },
     {
       "address": "0x1eCe1739DAE08253aE582C404511B37355B42C84",
@@ -32659,17 +32673,17 @@
       "symbol": "SAKE"
     },
     {
-      "address": "0xC28a4162E3Cc1838bAd6dFAEc83D57A0D62c80F3",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "AnySale",
-      "symbol": "SALE"
-    },
-    {
       "address": "0xF063fE1aB7a291c5d06a86e14730b00BF24cB589",
       "chainId": 1,
       "decimals": 18,
       "name": "DxSale Network",
+      "symbol": "SALE"
+    },
+    {
+      "address": "0xC28a4162E3Cc1838bAd6dFAEc83D57A0D62c80F3",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "AnySale",
       "symbol": "SALE"
     },
     {
@@ -38360,17 +38374,17 @@
       "symbol": "U8D"
     },
     {
-      "address": "0x17e347aad89B30b96557BCBfBff8a14e75CC88a1",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Unicly Bored Ape Ya",
-      "symbol": "UAPE"
-    },
-    {
       "address": "0x822808104E173cB4B21549d8E921Cae9E4F655E9",
       "chainId": 1,
       "decimals": 9,
       "name": "Uni Ape",
+      "symbol": "UAPE"
+    },
+    {
+      "address": "0x17e347aad89B30b96557BCBfBff8a14e75CC88a1",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Unicly Bored Ape Ya",
       "symbol": "UAPE"
     },
     {
