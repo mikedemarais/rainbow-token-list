@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-01T18:27:16.255Z",
+  "timestamp": "2021-07-01T19:19:40.988Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -21252,7 +21252,11 @@
       "chainId": 1,
       "decimals": 6,
       "name": "KuCoin Token",
-      "symbol": "KCS"
+      "symbol": "KCS",
+      "extensions": {
+        "color": "#0093dd",
+        "isVerified": true
+      }
     },
     {
       "address": "0x95E40E065AFB3059dcabe4aaf404c1F92756603a",
@@ -27864,7 +27868,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Parallel",
-      "symbol": "PAR"
+      "symbol": "PAR",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x1BeEF31946fbbb40B877a72E4ae04a8D1A5Cee06",
