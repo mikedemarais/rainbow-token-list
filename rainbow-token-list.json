@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-01T11:17:01.432Z",
+  "timestamp": "2021-07-01T12:33:00.779Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -5435,13 +5435,6 @@
       "decimals": 18,
       "name": "Boboo Token",
       "symbol": "BOBT"
-    },
-    {
-      "address": "0xc39835d32428728cbDe6903f84c76750976C0323",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "BTC On Chain Beta P",
-      "symbol": "BOCBP"
     },
     {
       "address": "0x27C743954bCe1Bfaef8bcbD685527531001D88D7",
@@ -20438,13 +20431,6 @@
       "symbol": "ISP"
     },
     {
-      "address": "0x3db1678170418D1014012f855E2DdA492f35C289",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "ISHOP PLUS",
-      "symbol": "ISP"
-    },
-    {
       "address": "0xB16d3Ed603D62b125c6bd45519EDa40829549489",
       "chainId": 1,
       "decimals": 18,
@@ -22812,6 +22798,13 @@
       "symbol": "LIQUID"
     },
     {
+      "address": "0xb59490aB09A0f526Cc7305822aC65f2Ab12f9723",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Litentry",
+      "symbol": "LIT"
+    },
+    {
       "address": "0x763Fa6806e1acf68130D2D0f0df754C93cC546B2",
       "chainId": 1,
       "decimals": 18,
@@ -22820,13 +22813,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0xb59490aB09A0f526Cc7305822aC65f2Ab12f9723",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Litentry",
-      "symbol": "LIT"
     },
     {
       "address": "0xf8A4A419c2d7140e49eF952a7e7Ae1Bd4A8b6B9C",
@@ -31914,13 +31900,6 @@
       "symbol": "RLR"
     },
     {
-      "address": "0x0E3EF895c59E7Db27214AB5bbf56347cE115A3f4",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Relayer Network",
-      "symbol": "RLR"
-    },
-    {
       "address": "0xcCeD5B8288086BE8c38E23567e684C3740be4D48",
       "chainId": 1,
       "decimals": 10,
@@ -32785,6 +32764,13 @@
       }
     },
     {
+      "address": "0x1F0F468Ee03A6D99CD8A09dd071494a83Dc1c0e5",
+      "chainId": 1,
+      "decimals": 4,
+      "name": "SmartX",
+      "symbol": "SAT"
+    },
+    {
       "address": "0xc9F1016d336ef77AeE75Fc11Ad64C5Ecf9121332",
       "chainId": 1,
       "decimals": 18,
@@ -32796,13 +32782,6 @@
       "chainId": 1,
       "decimals": 8,
       "name": "Social Activity Tok",
-      "symbol": "SAT"
-    },
-    {
-      "address": "0x1F0F468Ee03A6D99CD8A09dd071494a83Dc1c0e5",
-      "chainId": 1,
-      "decimals": 4,
-      "name": "SmartX",
       "symbol": "SAT"
     },
     {
