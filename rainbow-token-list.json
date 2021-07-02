@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-01T23:21:13.573Z",
+  "timestamp": "2021-07-02T01:02:58.920Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -12195,17 +12195,17 @@
       "symbol": "DSCVR"
     },
     {
-      "address": "0xBD2F0Cd039E0BFcf88901C98c0bFAc5ab27566e3",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Dynamic Set Dollar",
-      "symbol": "DSD"
-    },
-    {
       "address": "0x1e3a2446C729D34373B87FD2C9CBb39A93198658",
       "chainId": 1,
       "decimals": 18,
       "name": "DeFi Nation Signals",
+      "symbol": "DSD"
+    },
+    {
+      "address": "0xBD2F0Cd039E0BFcf88901C98c0bFAc5ab27566e3",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Dynamic Set Dollar",
       "symbol": "DSD"
     },
     {
@@ -23234,13 +23234,6 @@
       "symbol": "LST"
     },
     {
-      "address": "0x355376d6471E09A4FfCA8790F50DA625630c5270",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Libartysharetoken",
-      "symbol": "LST"
-    },
-    {
       "address": "0x681Ecc5a0bFD18c308A1138fF607F818baC5E417",
       "chainId": 1,
       "decimals": 18,
@@ -23252,6 +23245,13 @@
       "chainId": 1,
       "decimals": 18,
       "name": "LuckySevenToken",
+      "symbol": "LST"
+    },
+    {
+      "address": "0x355376d6471E09A4FfCA8790F50DA625630c5270",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Libartysharetoken",
       "symbol": "LST"
     },
     {
@@ -32281,6 +32281,13 @@
       "symbol": "RRC"
     },
     {
+      "address": "0x1306C7d95E59CfCDFF7AE3C13Db7F56AcC543815",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Rapidly Reusable Ro",
+      "symbol": "RRR"
+    },
+    {
       "address": "0xea8b224eDD3e342DEb514C4176c2E72Bcce6fFF9",
       "chainId": 1,
       "decimals": 18,
@@ -35286,6 +35293,13 @@
       "decimals": 18,
       "name": "Starbase",
       "symbol": "STAR"
+    },
+    {
+      "address": "0x8E6cd950Ad6ba651F6DD608Dc70e5886B1AA6B24",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "StarLink",
+      "symbol": "STARL"
     },
     {
       "address": "0xc55c2175E90A46602fD42e931f62B3Acc1A013Ca",
