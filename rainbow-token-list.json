@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-02T10:22:32.188Z",
+  "timestamp": "2021-07-02T11:17:03.686Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -34034,6 +34034,13 @@
       "decimals": 18,
       "name": "SINOC",
       "symbol": "SINOC"
+    },
+    {
+      "address": "0xE8d1eFD0c95011298E9A30143A0182c06b45ff5D",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "SION",
+      "symbol": "SION"
     },
     {
       "address": "0x4B1cE9C42A381CB2d74ffeF20103e502e2fc619C",
