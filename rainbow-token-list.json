@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-02T06:22:07.715Z",
+  "timestamp": "2021-07-02T07:21:22.819Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -6659,6 +6659,13 @@
       }
     },
     {
+      "address": "0x1e950AF2F6f8505c09F0Ca42c4b38F10979cb22E",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "BurnX 2 0",
+      "symbol": "BURNX20"
+    },
+    {
       "address": "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
       "chainId": 1,
       "decimals": 18,
@@ -7016,6 +7023,13 @@
       "symbol": "CANDYBOX"
     },
     {
+      "address": "0xEDA6eFE5556e134Ef52f2F858aa1e81c84CDA84b",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Capital finance",
+      "symbol": "CAP"
+    },
+    {
       "address": "0x43044f861ec040DB59A7e324c40507adDb673142",
       "chainId": 1,
       "decimals": 18,
@@ -7024,13 +7038,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0xEDA6eFE5556e134Ef52f2F858aa1e81c84CDA84b",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Capital finance",
-      "symbol": "CAP"
     },
     {
       "address": "0x04F2E7221fdb1B52A68169B25793E51478fF0329",
@@ -27355,6 +27362,13 @@
       }
     },
     {
+      "address": "0x7D25d9f10Cd224EcCe0Bc824A2eC800Db81C01d7",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "ETHOPT",
+      "symbol": "OPT"
+    },
+    {
       "address": "0x4FE5851C9af07df9e5AD8217aFAE1ea72737Ebda",
       "chainId": 1,
       "decimals": 18,
@@ -27363,13 +27377,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0x7D25d9f10Cd224EcCe0Bc824A2eC800Db81C01d7",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "ETHOPT",
-      "symbol": "OPT"
     },
     {
       "address": "0x832904863978b94802123106e6eB491BDF0Df928",
@@ -45244,17 +45251,17 @@
       }
     },
     {
-      "address": "0x649eBF73043Ffcc70A59855ecd8a568FD996415a",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "YFIII",
-      "symbol": "YFIII"
-    },
-    {
       "address": "0x4be40bc9681D0A7C24A99b4c92F85B9053Fc2A45",
       "chainId": 1,
       "decimals": 18,
       "name": "Dify Finance",
+      "symbol": "YFIII"
+    },
+    {
+      "address": "0x649eBF73043Ffcc70A59855ecd8a568FD996415a",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "YFIII",
       "symbol": "YFIII"
     },
     {
