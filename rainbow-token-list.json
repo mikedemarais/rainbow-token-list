@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-02T07:21:22.819Z",
+  "timestamp": "2021-07-02T08:23:28.490Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -4013,6 +4013,13 @@
       "symbol": "BCNT"
     },
     {
+      "address": "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "BlockchainPoland",
+      "symbol": "BCP"
+    },
+    {
       "address": "0xE4f726Adc8e89C6a6017F01eadA77865dB22dA14",
       "chainId": 1,
       "decimals": 18,
@@ -4021,13 +4028,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "BlockchainPoland",
-      "symbol": "BCP"
     },
     {
       "address": "0xd26fb114401Ec86887CD09F62eccd95fCf20B571",
@@ -28520,13 +28520,6 @@
       }
     },
     {
-      "address": "0x1864cE27E9F7517047933CaAE530674e8C70b8A7",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Pibble",
-      "symbol": "PIB"
-    },
-    {
       "address": "0x1BaFfbc23f2246040cCE12F7a140C38c5DC73e46",
       "chainId": 1,
       "decimals": 18,
@@ -28535,6 +28528,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x1864cE27E9F7517047933CaAE530674e8C70b8A7",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Pibble",
+      "symbol": "PIB"
     },
     {
       "address": "0x1eCe1739DAE08253aE582C404511B37355B42C84",
@@ -44756,17 +44756,17 @@
       "symbol": "XT"
     },
     {
-      "address": "0xBFf0E42EEC4223fBd12260F47f3348D29876db42",
-      "chainId": 1,
-      "decimals": 6,
-      "name": "Xtake",
-      "symbol": "XTK"
-    },
-    {
       "address": "0x7F3EDcdD180Dbe4819Bd98FeE8929b5cEdB3AdEB",
       "chainId": 1,
       "decimals": 18,
       "name": "xToken",
+      "symbol": "XTK"
+    },
+    {
+      "address": "0xBFf0E42EEC4223fBd12260F47f3348D29876db42",
+      "chainId": 1,
+      "decimals": 6,
+      "name": "Xtake",
       "symbol": "XTK"
     },
     {
