@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-03T15:23:07.051Z",
+  "timestamp": "2021-07-03T16:31:08.495Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -6427,6 +6427,13 @@
       "symbol": "BTR"
     },
     {
+      "address": "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Bitrue Coin",
+      "symbol": "BTR"
+    },
+    {
       "address": "0xcce63fD31e9053c110c74CEbc37C8e358A6AA5bD",
       "chainId": 1,
       "decimals": 4,
@@ -6435,13 +6442,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Bitrue Coin",
-      "symbol": "BTR"
     },
     {
       "address": "0x388Fd8A5145D6EF85aAE14D494F93Df9D1c7c00C",
@@ -10960,6 +10960,13 @@
       "symbol": "DFT"
     },
     {
+      "address": "0xf1f5De69C9C8D9BE8a7B01773Cc1166D4Ec6Ede2",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Definitex",
+      "symbol": "DFX"
+    },
+    {
       "address": "0x888888435FDe8e7d4c54cAb67f206e4199454c60",
       "chainId": 1,
       "decimals": 18,
@@ -10968,13 +10975,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0xf1f5De69C9C8D9BE8a7B01773Cc1166D4Ec6Ede2",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Definitex",
-      "symbol": "DFX"
     },
     {
       "address": "0x7CCC863EcE2E15bC45ac0565D410da7A3340aD98",
@@ -13026,17 +13026,17 @@
       "symbol": "ECN"
     },
     {
-      "address": "0xC242Eb8e4E27EAE6a2A728A41201152F19595C83",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "EcoFi",
-      "symbol": "ECO"
-    },
-    {
       "address": "0x191557728e4d8CAa4Ac94f86af842148c0FA8F7E",
       "chainId": 1,
       "decimals": 8,
       "name": "Ormeus Ecosystem",
+      "symbol": "ECO"
+    },
+    {
+      "address": "0xC242Eb8e4E27EAE6a2A728A41201152F19595C83",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "EcoFi",
       "symbol": "ECO"
     },
     {
@@ -23234,17 +23234,17 @@
       "symbol": "LST"
     },
     {
-      "address": "0x681Ecc5a0bFD18c308A1138fF607F818baC5E417",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Luckstar",
-      "symbol": "LST"
-    },
-    {
       "address": "0x6b9F1F092E0B10015a4391A80cD3E6B6cefD1728",
       "chainId": 1,
       "decimals": 18,
       "name": "LuckySevenToken",
+      "symbol": "LST"
+    },
+    {
+      "address": "0x681Ecc5a0bFD18c308A1138fF607F818baC5E417",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Luckstar",
       "symbol": "LST"
     },
     {
@@ -30334,6 +30334,13 @@
       "decimals": 18,
       "name": "Rai Token",
       "symbol": "RAI"
+    },
+    {
+      "address": "0xe76C6c83af64e4C60245D8C7dE953DF673a7A33D",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Railgun",
+      "symbol": "RAIL"
     },
     {
       "address": "0x61cDb66e56FAD942a7b5cE3F419FfE9375E31075",
