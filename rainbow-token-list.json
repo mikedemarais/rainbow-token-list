@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-03T19:15:34.658Z",
+  "timestamp": "2021-07-03T20:19:46.941Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -6427,13 +6427,6 @@
       "symbol": "BTR"
     },
     {
-      "address": "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Bitrue Coin",
-      "symbol": "BTR"
-    },
-    {
       "address": "0xcce63fD31e9053c110c74CEbc37C8e358A6AA5bD",
       "chainId": 1,
       "decimals": 4,
@@ -6442,6 +6435,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Bitrue Coin",
+      "symbol": "BTR"
     },
     {
       "address": "0x388Fd8A5145D6EF85aAE14D494F93Df9D1c7c00C",
@@ -10813,6 +10813,13 @@
       "decimals": 18,
       "name": "Dexmex",
       "symbol": "DEXM"
+    },
+    {
+      "address": "0xfB7B4564402E5500dB5bB6d63Ae671302777C75a",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "DexTools",
+      "symbol": "DEXT"
     },
     {
       "address": "0x26CE25148832C04f3d7F26F32478a9fe55197166",
@@ -23759,17 +23766,17 @@
       "symbol": "MAYP"
     },
     {
-      "address": "0x8D8129963291740dDDd917ab01af18c7aed4BA58",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "MineBee",
-      "symbol": "MB"
-    },
-    {
       "address": "0x7aB1fc79F319718690e9c883BaC910f8E289ce8f",
       "chainId": 1,
       "decimals": 18,
       "name": "Microchain",
+      "symbol": "MB"
+    },
+    {
+      "address": "0x8D8129963291740dDDd917ab01af18c7aed4BA58",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "MineBee",
       "symbol": "MB"
     },
     {
