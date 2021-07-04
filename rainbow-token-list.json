@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-04T17:23:10.765Z",
+  "timestamp": "2021-07-04T18:24:47.474Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -28594,7 +28594,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Pika",
-      "symbol": "PIKA"
+      "symbol": "PIKA",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xc1f976B91217E240885536aF8b63bc8b5269a9BE",
@@ -42784,7 +42787,10 @@
       "chainId": 1,
       "decimals": 8,
       "name": "WAXE",
-      "symbol": "WAXE"
+      "symbol": "WAXE",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x217f96737b39f9b9211767cb6aeF5DbAe2Fe9402",
