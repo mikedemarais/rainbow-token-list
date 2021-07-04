@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-04T07:18:30.494Z",
+  "timestamp": "2021-07-04T08:21:44.645Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -2541,6 +2541,13 @@
         "color": "#0061ff",
         "isVerified": true
       }
+    },
+    {
+      "address": "0x0f8C793DbC30A185138d5Da00f106290B26E36C5",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Ape Stax",
+      "symbol": "ASTAX"
     },
     {
       "address": "0x7B22938ca841aA392C93dBB7f4c42178E3d65E88",
@@ -34272,6 +34279,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "ShibaLink",
+      "symbol": "SLINK"
     },
     {
       "address": "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
