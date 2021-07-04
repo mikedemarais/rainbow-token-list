@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-04T11:16:11.057Z",
+  "timestamp": "2021-07-04T12:30:31.315Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -23780,13 +23780,6 @@
       "symbol": "MB"
     },
     {
-      "address": "0x7aB1fc79F319718690e9c883BaC910f8E289ce8f",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Microchain",
-      "symbol": "MB"
-    },
-    {
       "address": "0x56aA298a19C93c6801FDde870fA63EF75Cc0aF72",
       "chainId": 1,
       "decimals": 18,
@@ -26135,13 +26128,6 @@
       "decimals": 6,
       "name": "e Money",
       "symbol": "NGM"
-    },
-    {
-      "address": "0x1EbD8d3Ca115451b9B6BbaA7Ee2F7B0F96E49fD8",
-      "chainId": 1,
-      "decimals": 5,
-      "name": "ngot",
-      "symbol": "NGOT"
     },
     {
       "address": "0x62947ff43626eA26427Be5aE4c7dD03b4f1cA872",
@@ -37995,13 +37981,6 @@
       "decimals": 18,
       "name": "TriumphX",
       "symbol": "TRIX"
-    },
-    {
-      "address": "0xbfFe4FDCD397e7942Fd7c9F99255e0AA34E4B3FB",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "Tranium",
-      "symbol": "TRM"
     },
     {
       "address": "0x70968FEAF13299d0dBf78f66860bAb9DbE3856bc",
