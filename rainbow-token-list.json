@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-04T14:17:42.071Z",
+  "timestamp": "2021-07-04T15:23:44.959Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -24667,6 +24667,13 @@
       "symbol": "MLT"
     },
     {
+      "address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Million",
+      "symbol": "MM"
+    },
+    {
       "address": "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
       "chainId": 1,
       "decimals": 18,
@@ -28520,6 +28527,13 @@
       }
     },
     {
+      "address": "0x1864cE27E9F7517047933CaAE530674e8C70b8A7",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Pibble",
+      "symbol": "PIB"
+    },
+    {
       "address": "0x1BaFfbc23f2246040cCE12F7a140C38c5DC73e46",
       "chainId": 1,
       "decimals": 18,
@@ -28528,13 +28542,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0x1864cE27E9F7517047933CaAE530674e8C70b8A7",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Pibble",
-      "symbol": "PIB"
     },
     {
       "address": "0x1eCe1739DAE08253aE582C404511B37355B42C84",
