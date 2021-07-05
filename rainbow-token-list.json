@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-05T07:19:06.996Z",
+  "timestamp": "2021-07-05T08:23:37.582Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -14947,6 +14947,13 @@
       "symbol": "F1C"
     },
     {
+      "address": "0x38A94e92A19E970c144DEd0B2DD47278CA11CC1F",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Falcon Nine",
+      "symbol": "F9"
+    },
+    {
       "address": "0x0a1D2fF7156a48131553CF381F220bbedB4eFa37",
       "chainId": 1,
       "decimals": 18,
@@ -24667,17 +24674,17 @@
       "symbol": "MLT"
     },
     {
-      "address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Million",
-      "symbol": "MM"
-    },
-    {
       "address": "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
       "chainId": 1,
       "decimals": 18,
       "name": "MM Token",
+      "symbol": "MM"
+    },
+    {
+      "address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Million",
       "symbol": "MM"
     },
     {
@@ -28240,6 +28247,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x1BE66C15731788BaE659B4bdD40d4AA9B3bbca94",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "PolkaDoge",
+      "symbol": "PDOGE"
     },
     {
       "address": "0x630d98424eFe0Ea27fB1b3Ab7741907DFFEaAd78",
