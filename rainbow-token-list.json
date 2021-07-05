@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-05T12:31:50.114Z",
+  "timestamp": "2021-07-05T13:24:04.991Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -14712,6 +14712,13 @@
       "symbol": "EVO"
     },
     {
+      "address": "0xefBd6D7deF37ffae990503EcdB1291B2f7E38788",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "EVO",
+      "symbol": "EVO"
+    },
+    {
       "address": "0x3137619705b5fc22a3048989F983905e456b59Ab",
       "chainId": 1,
       "decimals": 8,
@@ -24674,17 +24681,17 @@
       "symbol": "MLT"
     },
     {
-      "address": "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "MM Token",
-      "symbol": "MM"
-    },
-    {
       "address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
       "chainId": 1,
       "decimals": 18,
       "name": "Million",
+      "symbol": "MM"
+    },
+    {
+      "address": "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "MM Token",
       "symbol": "MM"
     },
     {
@@ -38323,7 +38330,7 @@
       "address": "0xf3AFDC2525568Ffe743801C8C54bdeA1704c9adb",
       "chainId": 1,
       "decimals": 18,
-      "name": "Turtle Token",
+      "name": "Turtle",
       "symbol": "TURTLE"
     },
     {
