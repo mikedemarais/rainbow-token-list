@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-05T17:24:50.639Z",
+  "timestamp": "2021-07-05T18:25:21.728Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -24688,17 +24688,17 @@
       "symbol": "MLT"
     },
     {
-      "address": "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "MM Token",
-      "symbol": "MM"
-    },
-    {
       "address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
       "chainId": 1,
       "decimals": 18,
       "name": "Million",
+      "symbol": "MM"
+    },
+    {
+      "address": "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "MM Token",
       "symbol": "MM"
     },
     {
@@ -35396,17 +35396,17 @@
       "symbol": "STB"
     },
     {
-      "address": "0xc48B1aC1417dB27C4e2C2ed3DAE5a3D2fBB07DC5",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "StarBlock",
-      "symbol": "STB"
-    },
-    {
       "address": "0x3154da898943Fc7151bc77F16E43C0C47b5E452d",
       "chainId": 1,
       "decimals": 18,
       "name": "STB Chain",
+      "symbol": "STB"
+    },
+    {
+      "address": "0xc48B1aC1417dB27C4e2C2ed3DAE5a3D2fBB07DC5",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "StarBlock",
       "symbol": "STB"
     },
     {
