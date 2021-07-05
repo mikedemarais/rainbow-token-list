@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-05T15:24:03.347Z",
+  "timestamp": "2021-07-05T16:32:05.821Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -22361,6 +22361,13 @@
       "symbol": "LED"
     },
     {
+      "address": "0x041A36b015486941Ce8d5f2C7ff2E88f97390640",
+      "chainId": 1,
+      "decimals": 4,
+      "name": "Ledgis",
+      "symbol": "LED"
+    },
+    {
       "address": "0x5b26C5D0772E5bbaC8b3182AE9a13f9BB2D03765",
       "chainId": 1,
       "decimals": 8,
@@ -24681,17 +24688,17 @@
       "symbol": "MLT"
     },
     {
-      "address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Million",
-      "symbol": "MM"
-    },
-    {
       "address": "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
       "chainId": 1,
       "decimals": 18,
       "name": "MM Token",
+      "symbol": "MM"
+    },
+    {
+      "address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Million",
       "symbol": "MM"
     },
     {
