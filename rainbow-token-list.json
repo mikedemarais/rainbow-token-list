@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-05T10:22:45.522Z",
+  "timestamp": "2021-07-05T11:16:33.350Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -231,13 +231,6 @@
       "decimals": 8,
       "name": "TrillionToken",
       "symbol": "3LT"
-    },
-    {
-      "address": "0x96Cf107E446A6e528FfD045F4eb6dFf3CDB6A666",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "3XT",
-      "symbol": "3XT"
     },
     {
       "address": "0xFF44b5719f0B77A9951636fc5e69d3a1fc9E7d73",
@@ -6081,6 +6074,13 @@
       "symbol": "BST"
     },
     {
+      "address": "0x0B4680e848f842b86E4Df38D9FA0d9f9419F37EC",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Beshare Token",
+      "symbol": "BST"
+    },
+    {
       "address": "0xDf0041891BdA1f911C4243f328F7Cf61b37F965b",
       "chainId": 1,
       "decimals": 18,
@@ -8219,13 +8219,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0xb2c19bA4D5246D4c587a62F0dfE9f78083568455",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "CMDX",
-      "symbol": "CMDX"
     },
     {
       "address": "0x5fd1fFA1d817e2BC1E594081A9f883A8707e959c",
