@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-05T18:25:21.728Z",
+  "timestamp": "2021-07-05T19:15:58.858Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -4939,7 +4939,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Blocktanium",
-      "symbol": "BKT"
+      "symbol": "BKT",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x45245bc59219eeaAF6cD3f382e078A461FF9De7B",
@@ -5608,7 +5611,11 @@
       "chainId": 1,
       "decimals": 9,
       "name": "CandyBooty",
-      "symbol": "BOOTY"
+      "symbol": "BOOTY",
+      "extensions": {
+        "color": "#00b4f4",
+        "isVerified": true
+      }
     },
     {
       "address": "0x7F1E2C7d6A69bf34824D72C53B4550E895C0D8C2",
@@ -6744,6 +6751,16 @@
       "decimals": 18,
       "name": "Bitwings",
       "symbol": "BWN"
+    },
+    {
+      "address": "0xFF0a024B66739357c4ED231fB3DBC0c8C22749F5",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Binance Wrapped WRX",
+      "symbol": "BWRX",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xcA3Ea3061d638E02113aA960340c98343b5aCd62",
@@ -9286,6 +9303,26 @@
       "symbol": "CRU"
     },
     {
+      "address": "0x44fbeBd2F576670a6C33f6Fc0B00aA8c5753b322",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Cream USD Coin",
+      "symbol": "crUSDC",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x797AAB1ce7c01eB727ab980762bA88e7133d2157",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Cream USDT",
+      "symbol": "crUSDT",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xD533a949740bb3306d119CC777fa900bA034cd52",
       "chainId": 1,
       "decimals": 18,
@@ -9310,6 +9347,16 @@
       "decimals": 18,
       "name": "Crowny Token",
       "symbol": "CRWNY"
+    },
+    {
+      "address": "0xCbaE0A83f4f9926997c8339545fb8eE32eDc6b76",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Cream YFI",
+      "symbol": "crYFI",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x1062FDf250B44697216D07e41Df93824519F47aa",
@@ -11941,7 +11988,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Dopex",
-      "symbol": "DPX"
+      "symbol": "DPX",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x6C2adC2073994fb2CCC5032cC2906Fa221e9B391",
@@ -15920,7 +15970,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Fund Of Yours",
-      "symbol": "FOY"
+      "symbol": "FOY",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x9d5e6b92Ba3f75589943372DF82DbD3A8A802e80",
@@ -18521,7 +18574,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "HitBTC Token",
-      "symbol": "HIT"
+      "symbol": "HIT",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xc761D1ccb38a94703675d2cDb15F7F1B3dcFF7B7",
@@ -25470,7 +25526,10 @@
       "chainId": 1,
       "decimals": 9,
       "name": "Musubi",
-      "symbol": "MUSUBI"
+      "symbol": "MUSUBI",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xA49d7499271aE71cd8aB9Ac515e6694C755d400c",
@@ -30377,8 +30436,11 @@
       "address": "0x4c9BBFc1FbD93dFB509E718400978fbEedf590E9",
       "chainId": 1,
       "decimals": 18,
-      "name": "Rai Token",
-      "symbol": "RAI"
+      "name": "Rai",
+      "symbol": "RAI",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xe76C6c83af64e4C60245D8C7dE953DF673a7A33D",
@@ -42175,7 +42237,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "VitaDAO",
-      "symbol": "VITA"
+      "symbol": "VITA",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016",
