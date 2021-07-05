@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-05T04:26:34.319Z",
+  "timestamp": "2021-07-05T05:18:01.499Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -2565,6 +2565,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0xD3D1615A2CdD71e209A3EFb6a91Fb9323bffd71D",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "AstroLion",
+      "symbol": "ASTROLION"
     },
     {
       "address": "0x6C5024Cd4F8A59110119C56f8933403A539555EB",
@@ -5947,13 +5954,6 @@
       "decimals": 18,
       "name": "Breezecoin",
       "symbol": "BRZE"
-    },
-    {
-      "address": "0xAeaf14ce56b052DFC2A2Eb0654136EcF87821fbF",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "blocsport one",
-      "symbol": "BS1"
     },
     {
       "address": "0xDe8607CCad60814C8d9cD6f5CE8E9031e4675c8F",
@@ -24667,17 +24667,17 @@
       "symbol": "MLT"
     },
     {
-      "address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Million",
-      "symbol": "MM"
-    },
-    {
       "address": "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
       "chainId": 1,
       "decimals": 18,
       "name": "MM Token",
+      "symbol": "MM"
+    },
+    {
+      "address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Million",
       "symbol": "MM"
     },
     {
@@ -24702,17 +24702,17 @@
       "symbol": "MMSFT"
     },
     {
-      "address": "0xBac7A1798350cdf2Dbfe0c210C2C9861223f4B31",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Moneynet",
-      "symbol": "MNC"
-    },
-    {
       "address": "0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf",
       "chainId": 1,
       "decimals": 18,
       "name": "MainCoin",
+      "symbol": "MNC"
+    },
+    {
+      "address": "0xBac7A1798350cdf2Dbfe0c210C2C9861223f4B31",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Moneynet",
       "symbol": "MNC"
     },
     {
