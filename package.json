@@ -1,7 +1,7 @@
 {
   "name": "rainbow-token-list-test",
   "author": "Michael Demarais",
-  "version": "1.39.0",
+  "version": "1.40.0",
   "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
@@ -78,7 +78,7 @@
     "lodash-es": "^4.17.21",
     "logger": "^0.0.1",
     "make-color-more-chill": "^0.2.1",
-    "make-color-more-chill-test": "^0.2.6",
+    "make-color-more-chill-test": "^0.3.0",
     "mkdirp": "^1.0.4",
     "node-fetch": "^2.6.1",
     "p-limit": "^3.1.0",
