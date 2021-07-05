@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-05T09:23:21.342Z",
+  "timestamp": "2021-07-05T10:22:45.522Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -9875,6 +9875,13 @@
       "decimals": 18,
       "name": "Cycle",
       "symbol": "CYCLE"
+    },
+    {
+      "address": "0x3b58c52C03ca5Eb619EBa171091c86C34d603e5f",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Cyclub",
+      "symbol": "CYCLUB"
     },
     {
       "address": "0xdB33d49b5a41A97D296B7242a96ebd8AC77B3Bb8",
@@ -23961,13 +23968,6 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Musiconomi",
-      "symbol": "MCI"
-    },
-    {
-      "address": "0x3b58c52C03ca5Eb619EBa171091c86C34d603e5f",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "MCI Coin",
       "symbol": "MCI"
     },
     {
@@ -38325,6 +38325,13 @@
       "decimals": 18,
       "name": "Turex",
       "symbol": "TUR"
+    },
+    {
+      "address": "0xf3AFDC2525568Ffe743801C8C54bdeA1704c9adb",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Turtle Token",
+      "symbol": "TURTLE"
     },
     {
       "address": "0x0000000000085d4780B73119b644AE5ecd22b376",
