@@ -18,14 +18,14 @@
   },
   "scripts": {
     "clean": "rm -rf ~/.degit && npm cache clean --force && yarn cache clean --force && yarn",
-    "start": "tsdx-esm watch",
+    "start": "tsdx watch",
     "prebuild": "yarn lint",
-    "build": "tsdx-esm build",
+    "build": "tsdx build",
     "write": "yarn build && node scripts/write.mjs",
     "postwrite": "yarn build",
     "prepare": "yarn write",
     "test": "echo 'No tests yet'",
-    "lint": "tsdx-esm lint src --fix",
+    "lint": "tsdx lint src --fix",
     "size": "size-limit",
     "analyze": "size-limit --why",
     "install-husky": "husky install"
@@ -81,7 +81,6 @@
     "rainbow-overrides": "ctjlewis/rainbow-overrides",
     "request": "^2.88.2",
     "simple-git": "^2.40.0",
-    "tsdx-esm": "^0.14.4",
     "zod": "3.1.0"
   }
 }
