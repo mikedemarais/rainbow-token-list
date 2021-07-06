@@ -19,4 +19,4 @@ export * from './constants';
 export * from './lib/build';
 export * from './lib/load';
 export * from './lib/write';
-// export * from './lib/parse';
+export * from './lib/parse';
