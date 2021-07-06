@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-06T14:19:32.940Z",
+  "timestamp": "2021-07-06T15:25:09.528Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -18113,9 +18113,9 @@
       }
     },
     {
-      "address": "0x173b1E935e653d0098AE692A37177ff132834595",
+      "address": "0x52928C95C4C7e934E0EfcfAB08853A0E4558861d",
       "chainId": 1,
-      "decimals": 1,
+      "decimals": 18,
       "name": "Hara Token",
       "symbol": "HART"
     },
@@ -22434,7 +22434,7 @@
       "address": "0x27C70Cd1946795B66be9d954418546998b546634",
       "chainId": 1,
       "decimals": 18,
-      "name": "Leash",
+      "name": "Doge Killer",
       "symbol": "LEASH"
     },
     {
@@ -36606,6 +36606,13 @@
       "symbol": "SZO"
     },
     {
+      "address": "0xBe5D345d05dD62828ed61519eF9F7aF76F092248",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Ticket2Lambo",
+      "symbol": "T2L"
+    },
+    {
       "address": "0xE7775A6e9Bcf904eb39DA2b68c5efb4F9360e08C",
       "chainId": 1,
       "decimals": 6,
@@ -36780,13 +36787,6 @@
       "decimals": 8,
       "name": "TBC2",
       "symbol": "TBC2"
-    },
-    {
-      "address": "0x2Ecb95eB932DfBBb71545f4D23CA303700aC855F",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "TBCC Wallet",
-      "symbol": "TBCC"
     },
     {
       "address": "0x391612E67b0252E0d1e1460501b41545931fAEF9",
