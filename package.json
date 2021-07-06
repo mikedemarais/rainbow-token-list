@@ -1,16 +1,14 @@
 {
   "name": "rainbow-token-list-test",
   "author": "Michael Demarais",
-  "version": "1.41.3",
+  "version": "1.41.6",
   "license": "MIT",
-  "type": "module",
-  "main": "dist/index.js",
-  "module": "dist/rainbow-token-list-test.esm.js",
   "typings": "dist/index.d.ts",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
   "exports": {
-    ".": "./dist/rainbow-token-list-test.esm.js",
-    "./package.json": "./package.json",
-    "./offline-token-list": "./rainbow-token-list.json"
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.cjs"
   },
   "files": [
     "dist",
@@ -22,14 +20,14 @@
   },
   "scripts": {
     "clean": "rm -rf ~/.degit && npm cache clean --force && yarn cache clean --force && yarn",
-    "start": "tsdx watch",
+    "start": "tsdx-esm watch",
     "prebuild": "yarn lint",
-    "build": "tsdx build",
-    "write": "yarn build && node scripts/write.js",
+    "build": "tsdx-esm build",
+    "write": "yarn build && node scripts/write.mjs",
     "postwrite": "yarn build",
     "prepare": "yarn write",
     "test": "echo 'No tests yet'",
-    "lint": "tsdx lint src --fix",
+    "lint": "tsdx-esm lint src --fix",
     "size": "size-limit",
     "analyze": "size-limit --why",
     "install-husky": "husky install"
@@ -86,6 +84,7 @@
     "rainbow-overrides": "^1.9.0",
     "request": "^2.88.2",
     "simple-git": "^2.40.0",
+    "tsdx-esm": "^0.14.4",
     "zod": "3.1.0"
   }
 }
