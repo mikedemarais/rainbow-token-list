@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-06T10:24:01.369Z",
+  "timestamp": "2021-07-06T11:18:18.077Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -6088,17 +6088,17 @@
       "symbol": "BST"
     },
     {
-      "address": "0x0B4680e848f842b86E4Df38D9FA0d9f9419F37EC",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Beshare Token",
-      "symbol": "BST"
-    },
-    {
       "address": "0xDf0041891BdA1f911C4243f328F7Cf61b37F965b",
       "chainId": 1,
       "decimals": 18,
       "name": "BOOSTO",
+      "symbol": "BST"
+    },
+    {
+      "address": "0x0B4680e848f842b86E4Df38D9FA0d9f9419F37EC",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Beshare Token",
       "symbol": "BST"
     },
     {
@@ -17451,17 +17451,17 @@
       "symbol": "GOLD"
     },
     {
-      "address": "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "GOLD",
-      "symbol": "GOLD"
-    },
-    {
       "address": "0x34D6A0F5C2f5D0082141fE73d93B9dd00ca7CE11",
       "chainId": 1,
       "decimals": 18,
       "name": "Golden Token",
+      "symbol": "GOLD"
+    },
+    {
+      "address": "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "GOLD",
       "symbol": "GOLD"
     },
     {
@@ -46288,27 +46288,6 @@
       "decimals": 18,
       "name": "Zenfuse",
       "symbol": "ZEFU"
-    },
-    {
-      "address": "0xCF55a7F92d5e0C6683dEbBC1fc20c0a6e056Df13",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Zelda Elastic Cash",
-      "symbol": "ZELDAELASTICCASH"
-    },
-    {
-      "address": "0x654EEBaC62240E6C56bAB5f6AdF7cfA74A894510",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Zelda Spring Nuts C",
-      "symbol": "ZELDASPRINGNUTSCASH"
-    },
-    {
-      "address": "0xb3F83A3be59e71876659c5CEcc6a3c4D690D258e",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Zelda Summer Nuts C",
-      "symbol": "ZELDASUMMERNUTSCASH"
     },
     {
       "address": "0xE5B826Ca2Ca02F09c1725e9bd98d9a8874C30532",
