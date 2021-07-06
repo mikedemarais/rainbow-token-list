@@ -9,7 +9,7 @@ import { getAddress } from '@ethersproject/address';
 import { OFFLINE_TOKEN_OVERRIDES, defaultOverrides } from 'rainbow-overrides';
 import nodeFetch from 'node-fetch';
 import getSVGColors from 'get-svg-colors';
-import makeColorMoreChill from 'make-color-more-chill-test';
+import makeColorMoreChill from 'make-color-more-chill';
 import mkdirp from 'mkdirp';
 
 var PRODUCTION = process.env.NODE_ENV === 'production';
@@ -1344,7 +1344,7 @@ function _parseEthereumLists() {
 }
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-06T21:59:33.610Z";
+var timestamp = "2021-07-06T22:02:56.941Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,

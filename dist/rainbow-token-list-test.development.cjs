@@ -15,7 +15,7 @@ var address = require('@ethersproject/address');
 var rainbowOverrides = require('rainbow-overrides');
 var nodeFetch = _interopDefault(require('node-fetch'));
 var getSVGColors = _interopDefault(require('get-svg-colors'));
-var makeColorMoreChill = _interopDefault(require('make-color-more-chill-test'));
+var makeColorMoreChill = _interopDefault(require('make-color-more-chill'));
 var mkdirp = _interopDefault(require('mkdirp'));
 
 var PRODUCTION = "development" === 'production';
@@ -1350,7 +1350,7 @@ function _parseEthereumLists() {
 }
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-06T21:59:33.610Z";
+var timestamp = "2021-07-06T22:02:56.941Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,

@@ -13,7 +13,7 @@ import { parseJsonFile } from './parser';
 import { fetchRepository } from '../../utils/fetch-repository';
 import fs from 'graceful-fs';
 import { FileMap, mapDir } from '../../utils/mapDir';
-import makeColorMoreChill from 'make-color-more-chill-test';
+import makeColorMoreChill from 'make-color-more-chill';
 
 export type SvgToken = {
   color: string;
