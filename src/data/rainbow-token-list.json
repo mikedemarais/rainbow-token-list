@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-06T05:19:15.629Z",
+  "timestamp": "2021-07-06T06:27:09.898Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -1825,6 +1825,13 @@
       "decimals": 8,
       "name": "Anchor",
       "symbol": "ANCT"
+    },
+    {
+      "address": "0x3fa1216ca613497D038EF0Ef680B4A6B3F7B5f7D",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Androttweiler Token",
+      "symbol": "ANDROTTWEILER"
     },
     {
       "address": "0x130914E1B240a7F4c5D460B7d3a2Fd3846b576fa",
@@ -17437,17 +17444,17 @@
       "symbol": "GOLD"
     },
     {
-      "address": "0x34D6A0F5C2f5D0082141fE73d93B9dd00ca7CE11",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Golden Token",
-      "symbol": "GOLD"
-    },
-    {
       "address": "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
       "chainId": 1,
       "decimals": 8,
       "name": "GOLD",
+      "symbol": "GOLD"
+    },
+    {
+      "address": "0x34D6A0F5C2f5D0082141fE73d93B9dd00ca7CE11",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Golden Token",
       "symbol": "GOLD"
     },
     {
@@ -24779,17 +24786,17 @@
       "symbol": "MMSFT"
     },
     {
-      "address": "0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "MainCoin",
-      "symbol": "MNC"
-    },
-    {
       "address": "0xBac7A1798350cdf2Dbfe0c210C2C9861223f4B31",
       "chainId": 1,
       "decimals": 18,
       "name": "Moneynet",
+      "symbol": "MNC"
+    },
+    {
+      "address": "0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "MainCoin",
       "symbol": "MNC"
     },
     {
@@ -41472,13 +41479,6 @@
       "symbol": "USDX"
     },
     {
-      "address": "0xd9485499499d66B175Cf5ED54c0a19f1a6Bcb61A",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Usechain",
-      "symbol": "USE"
-    },
-    {
       "address": "0x147E3d644d53ADadD18a28201b91e2B98aEB7f94",
       "chainId": 1,
       "decimals": 18,
@@ -41487,6 +41487,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0xd9485499499d66B175Cf5ED54c0a19f1a6Bcb61A",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Usechain",
+      "symbol": "USE"
     },
     {
       "address": "0x29B9723A3D88fe4a0B78134FD209433443A36b23",
