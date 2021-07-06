@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-06T09:22:57.069Z",
+  "timestamp": "2021-07-06T10:24:01.369Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -20252,6 +20252,13 @@
       "symbol": "INTX"
     },
     {
+      "address": "0x00F29171D7bCDC464a0758cF3217fE83173772b9",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "INU Token",
+      "symbol": "INU"
+    },
+    {
       "address": "0xF32aa187d5Bc16A2C02A6aFb7Df1459d0D107574",
       "chainId": 1,
       "decimals": 18,
@@ -26998,6 +27005,13 @@
       "symbol": "ODIN"
     },
     {
+      "address": "0x9c306A78b1a904e83115c05Ac67c1Ef07C653651",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "BoringDAO DOGE",
+      "symbol": "ODOGE"
+    },
+    {
       "address": "0xc0A25a24CcE412E2Fb407c08E3785437FEE9Ad1d",
       "chainId": 1,
       "decimals": 18,
@@ -27169,6 +27183,13 @@
       "decimals": 18,
       "name": "OneLedger",
       "symbol": "OLT"
+    },
+    {
+      "address": "0x07C44B5Ac257C2255AA0933112c3b75A6BFf3Cb1",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "BoringDAO LTC",
+      "symbol": "OLTC"
     },
     {
       "address": "0x6595b8fD9C920C81500dCa94e53Cdc712513Fb1f",
