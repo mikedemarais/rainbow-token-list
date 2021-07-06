@@ -17,5 +17,5 @@
 /**
  * Build and write to local directory.
  */
-import { write } from '../dist/rainbow-token-list-test.esm.js'
+import { write } from '../dist/index.mjs'
 await write();
