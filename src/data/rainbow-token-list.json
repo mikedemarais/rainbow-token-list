@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-06T12:33:11.819Z",
+  "timestamp": "2021-07-06T13:25:52.360Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -12061,6 +12061,13 @@
       "decimals": 18,
       "name": "Ally Direct",
       "symbol": "DRCT"
+    },
+    {
+      "address": "0x1977bE49C33dFacF6590C16ca9a9CfA0463f663c",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "DoRen",
+      "symbol": "DRE"
     },
     {
       "address": "0x82f4dED9Cec9B5750FBFf5C2185AEe35AfC16587",
