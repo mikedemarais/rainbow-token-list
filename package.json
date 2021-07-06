@@ -8,7 +8,7 @@
   "module": "dist/rainbow-token-list.esm.js",
   "typings": "dist/index.d.ts",
   "exports": {
-    ".": "./dist/rainbow-token-list.esm.js",
+    ".": "./dist/rainbow-token-list-test.esm.js",
     "./package.json": "./package.json",
     "./offline-token-list": "./rainbow-token-list.json"
   },
