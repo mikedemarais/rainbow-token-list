@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-05T23:37:21.856Z",
+  "timestamp": "2021-07-06T17:20:25.355Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -1825,6 +1825,13 @@
       "decimals": 8,
       "name": "Anchor",
       "symbol": "ANCT"
+    },
+    {
+      "address": "0x3fa1216ca613497D038EF0Ef680B4A6B3F7B5f7D",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Androttweiler Token",
+      "symbol": "ANDROTTWEILER"
     },
     {
       "address": "0x130914E1B240a7F4c5D460B7d3a2Fd3846b576fa",
@@ -6081,17 +6088,17 @@
       "symbol": "BST"
     },
     {
-      "address": "0x0B4680e848f842b86E4Df38D9FA0d9f9419F37EC",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Beshare Token",
-      "symbol": "BST"
-    },
-    {
       "address": "0xDf0041891BdA1f911C4243f328F7Cf61b37F965b",
       "chainId": 1,
       "decimals": 18,
       "name": "BOOSTO",
+      "symbol": "BST"
+    },
+    {
+      "address": "0x0B4680e848f842b86E4Df38D9FA0d9f9419F37EC",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Beshare Token",
       "symbol": "BST"
     },
     {
@@ -11861,6 +11868,13 @@
       }
     },
     {
+      "address": "0x7D48FBe0A877bB1f511fcf9B57F12420C75841e9",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "DOOR",
+      "symbol": "DOOR"
+    },
+    {
       "address": "0x6bB61215298F296C55b19Ad842D3Df69021DA2ef",
       "chainId": 1,
       "decimals": 18,
@@ -12047,6 +12061,13 @@
       "decimals": 18,
       "name": "Ally Direct",
       "symbol": "DRCT"
+    },
+    {
+      "address": "0x1977bE49C33dFacF6590C16ca9a9CfA0463f663c",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "DoRen",
+      "symbol": "DRE"
     },
     {
       "address": "0x82f4dED9Cec9B5750FBFf5C2185AEe35AfC16587",
@@ -18092,9 +18113,9 @@
       }
     },
     {
-      "address": "0x173b1E935e653d0098AE692A37177ff132834595",
+      "address": "0x52928C95C4C7e934E0EfcfAB08853A0E4558861d",
       "chainId": 1,
-      "decimals": 1,
+      "decimals": 18,
       "name": "Hara Token",
       "symbol": "HART"
     },
@@ -20236,6 +20257,13 @@
       "decimals": 9,
       "name": "INTEXCOIN",
       "symbol": "INTX"
+    },
+    {
+      "address": "0x00F29171D7bCDC464a0758cF3217fE83173772b9",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "INU Token",
+      "symbol": "INU"
     },
     {
       "address": "0xF32aa187d5Bc16A2C02A6aFb7Df1459d0D107574",
@@ -22406,7 +22434,7 @@
       "address": "0x27C70Cd1946795B66be9d954418546998b546634",
       "chainId": 1,
       "decimals": 18,
-      "name": "Leash",
+      "name": "Doge Killer",
       "symbol": "LEASH"
     },
     {
@@ -24601,6 +24629,13 @@
       "symbol": "MIS"
     },
     {
+      "address": "0x976091738973b520A514ea206AcDD008A09649De",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Mishka Token",
+      "symbol": "MISHKA"
+    },
+    {
       "address": "0xe653967F0beb6E313c6350F20bca9A5f4C636eeD",
       "chainId": 1,
       "decimals": 18,
@@ -24744,17 +24779,17 @@
       "symbol": "MLT"
     },
     {
-      "address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Million",
-      "symbol": "MM"
-    },
-    {
       "address": "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
       "chainId": 1,
       "decimals": 18,
       "name": "MM Token",
+      "symbol": "MM"
+    },
+    {
+      "address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Million",
       "symbol": "MM"
     },
     {
@@ -24779,17 +24814,17 @@
       "symbol": "MMSFT"
     },
     {
-      "address": "0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "MainCoin",
-      "symbol": "MNC"
-    },
-    {
       "address": "0xBac7A1798350cdf2Dbfe0c210C2C9861223f4B31",
       "chainId": 1,
       "decimals": 18,
       "name": "Moneynet",
+      "symbol": "MNC"
+    },
+    {
+      "address": "0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "MainCoin",
       "symbol": "MNC"
     },
     {
@@ -26977,6 +27012,13 @@
       "symbol": "ODIN"
     },
     {
+      "address": "0x9c306A78b1a904e83115c05Ac67c1Ef07C653651",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "BoringDAO DOGE",
+      "symbol": "ODOGE"
+    },
+    {
       "address": "0xc0A25a24CcE412E2Fb407c08E3785437FEE9Ad1d",
       "chainId": 1,
       "decimals": 18,
@@ -27148,6 +27190,13 @@
       "decimals": 18,
       "name": "OneLedger",
       "symbol": "OLT"
+    },
+    {
+      "address": "0x07C44B5Ac257C2255AA0933112c3b75A6BFf3Cb1",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "BoringDAO LTC",
+      "symbol": "OLTC"
     },
     {
       "address": "0x6595b8fD9C920C81500dCa94e53Cdc712513Fb1f",
@@ -33092,17 +33141,17 @@
       "symbol": "SCAT"
     },
     {
-      "address": "0x74FD51a98a4A1ECBeF8Cc43be801cce630E260Bd",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "SiaCashCoin",
-      "symbol": "SCC"
-    },
-    {
       "address": "0x86696431D6ACA9bae5CE6536ECF5D437F2e6Dba2",
       "chainId": 1,
       "decimals": 18,
       "name": "SoftChain",
+      "symbol": "SCC"
+    },
+    {
+      "address": "0x74FD51a98a4A1ECBeF8Cc43be801cce630E260Bd",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "SiaCashCoin",
       "symbol": "SCC"
     },
     {
@@ -36557,6 +36606,13 @@
       "symbol": "SZO"
     },
     {
+      "address": "0xBe5D345d05dD62828ed61519eF9F7aF76F092248",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Ticket2Lambo",
+      "symbol": "T2L"
+    },
+    {
       "address": "0xE7775A6e9Bcf904eb39DA2b68c5efb4F9360e08C",
       "chainId": 1,
       "decimals": 6,
@@ -36731,13 +36787,6 @@
       "decimals": 8,
       "name": "TBC2",
       "symbol": "TBC2"
-    },
-    {
-      "address": "0x2Ecb95eB932DfBBb71545f4D23CA303700aC855F",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "TBCC Wallet",
-      "symbol": "TBCC"
     },
     {
       "address": "0x391612E67b0252E0d1e1460501b41545931fAEF9",
@@ -41472,13 +41521,6 @@
       "symbol": "USDX"
     },
     {
-      "address": "0xd9485499499d66B175Cf5ED54c0a19f1a6Bcb61A",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Usechain",
-      "symbol": "USE"
-    },
-    {
       "address": "0x147E3d644d53ADadD18a28201b91e2B98aEB7f94",
       "chainId": 1,
       "decimals": 18,
@@ -41487,6 +41529,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0xd9485499499d66B175Cf5ED54c0a19f1a6Bcb61A",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Usechain",
+      "symbol": "USE"
     },
     {
       "address": "0x29B9723A3D88fe4a0B78134FD209433443A36b23",
@@ -46246,27 +46295,6 @@
       "decimals": 18,
       "name": "Zenfuse",
       "symbol": "ZEFU"
-    },
-    {
-      "address": "0xCF55a7F92d5e0C6683dEbBC1fc20c0a6e056Df13",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Zelda Elastic Cash",
-      "symbol": "ZELDAELASTICCASH"
-    },
-    {
-      "address": "0x654EEBaC62240E6C56bAB5f6AdF7cfA74A894510",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Zelda Spring Nuts C",
-      "symbol": "ZELDASPRINGNUTSCASH"
-    },
-    {
-      "address": "0xb3F83A3be59e71876659c5CEcc6a3c4D690D258e",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Zelda Summer Nuts C",
-      "symbol": "ZELDASUMMERNUTSCASH"
     },
     {
       "address": "0xE5B826Ca2Ca02F09c1725e9bd98d9a8874C30532",
