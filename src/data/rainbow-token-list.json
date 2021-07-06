@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-06T18:26:14.117Z",
+  "timestamp": "2021-07-06T19:16:57.742Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -6088,17 +6088,17 @@
       "symbol": "BST"
     },
     {
-      "address": "0xDf0041891BdA1f911C4243f328F7Cf61b37F965b",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "BOOSTO",
-      "symbol": "BST"
-    },
-    {
       "address": "0x0B4680e848f842b86E4Df38D9FA0d9f9419F37EC",
       "chainId": 1,
       "decimals": 18,
       "name": "Beshare Token",
+      "symbol": "BST"
+    },
+    {
+      "address": "0xDf0041891BdA1f911C4243f328F7Cf61b37F965b",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "BOOSTO",
       "symbol": "BST"
     },
     {
