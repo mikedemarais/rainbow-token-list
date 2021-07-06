@@ -1,11 +1,11 @@
 {
   "name": "rainbow-token-list-test",
   "author": "Michael Demarais",
-  "version": "1.41.1",
+  "version": "1.41.2",
   "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
-  "module": "dist/rainbow-token-list.esm.js",
+  "module": "dist/rainbow-token-list-test.esm.js",
   "typings": "dist/index.d.ts",
   "exports": {
     ".": "./dist/rainbow-token-list-test.esm.js",
