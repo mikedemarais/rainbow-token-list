@@ -1,5 +1,4 @@
-import { map, toLower } from 'lodash';
-import nodeFetch from 'node-fetch';
+import { map, toLower } from 'lodash-es';
 
 import OFFLINE_TOKEN_METADATA from '../data/rainbow-token-list.json';
 import { OFFLINE_TOKEN_OVERRIDES } from 'rainbow-overrides';
@@ -8,10 +7,9 @@ import {
   REMOTE_TOKEN_LIST_ENDPOINT,
   REMOTE_TOKEN_OVERRIDES_ENDPOINT,
 } from '../constants';
+import fetch from 'node-fetch';
 
 type TokenMetadata = typeof OFFLINE_TOKEN_METADATA;
-
-// logger.log(OFFLINE_TOKEN_METADATA);
 
 /**
  * Get the raw Token List data.
@@ -20,11 +18,7 @@ type TokenMetadata = typeof OFFLINE_TOKEN_METADATA;
  * @param offlineData The data to fallback to in case of network failure.
  * @returns The Token List dataset.
  */
-export const loadFromEndpoint = async <T>(
-  endpoint: string,
-  fetch: Function = nodeFetch,
-  offlineData: T
-) => {
+export const loadFromEndpoint = async <T>(endpoint: string, offlineData: T) => {
   console.log('Making request to', endpoint);
   try {
     const result = await fetch(endpoint);
@@ -42,12 +36,12 @@ export const loadFromEndpoint = async <T>(
  * @param offlineData The data to fallback to in case of network failure.
  * @returns The full Token List.
  */
-export const loadTokenList = async (fetch: Function = nodeFetch) => {
+export const loadTokenList = async () => {
   const tokenData = await loadFromEndpoint(
     REMOTE_TOKEN_LIST_ENDPOINT,
-    fetch,
     OFFLINE_TOKEN_METADATA
   );
+
   const tokens = await tokenListFromData(tokenData);
   return tokens;
 };
@@ -56,14 +50,12 @@ export const loadTokenList = async (fetch: Function = nodeFetch) => {
  * Load the Token Overrides List.
  * @returns All token overrides.
  */
-export const loadTokenOverrides = async (
-  fetch: Function = nodeFetch
-): Promise<any> => {
+export const loadTokenOverrides = async (): Promise<any> => {
   const overrides = loadFromEndpoint(
     REMOTE_TOKEN_OVERRIDES_ENDPOINT,
-    fetch,
     OFFLINE_TOKEN_OVERRIDES
   );
+
   return overrides;
 };
 
@@ -77,6 +69,7 @@ export const tokenListFromData = async (tokenData: TokenMetadata) => {
   const loadedTokens = map(tokenData.tokens, token => {
     const { address: rawAddress, decimals, name, symbol, extensions } = token;
     const address = toLower(rawAddress);
+
     return {
       address,
       decimals,

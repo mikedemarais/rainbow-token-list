@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-06T23:34:38.096Z",
+  "timestamp": "2021-07-07T19:27:16.146Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -4587,13 +4587,6 @@
       "symbol": "BHSC"
     },
     {
-      "address": "0xa7d10fF962edA41F3b037e3AF1D8B4037EbA4b86",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "BitherCash",
-      "symbol": "BICAS"
-    },
-    {
       "address": "0x25e1474170c4c0aA64fa98123bdc8dB49D7802fa",
       "chainId": 1,
       "decimals": 18,
@@ -5539,6 +5532,13 @@
       "decimals": 18,
       "name": "Bondly",
       "symbol": "BONDLY"
+    },
+    {
+      "address": "0x9813037ee2218799597d83D4a5B6F3b6778218d9",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Bone ShibaSwap",
+      "symbol": "BONE"
     },
     {
       "address": "0x5C84bc60a796534bfeC3439Af0E6dB616A966335",
@@ -9096,6 +9096,16 @@
       "symbol": "CRB"
     },
     {
+      "address": "0xcE4Fe9b4b8Ff61949DCfeB7e03bc9FAca59D2Eb3",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Cream Balancer",
+      "symbol": "crBAL",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xCdeee767beD58c5325f68500115d4B722b3724EE",
       "chainId": 1,
       "decimals": 18,
@@ -11700,13 +11710,6 @@
       "decimals": 18,
       "name": "Danat Coin",
       "symbol": "DNC"
-    },
-    {
-      "address": "0x17c090F9a17E4e5a8cEb23bbe7E7e28E3C4Ca196",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "BitDNS",
-      "symbol": "DNS"
     },
     {
       "address": "0x0AbdAce70D3790235af448C88547603b945604ea",
@@ -17458,17 +17461,17 @@
       "symbol": "GOLD"
     },
     {
-      "address": "0x34D6A0F5C2f5D0082141fE73d93B9dd00ca7CE11",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Golden Token",
-      "symbol": "GOLD"
-    },
-    {
       "address": "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
       "chainId": 1,
       "decimals": 8,
       "name": "GOLD",
+      "symbol": "GOLD"
+    },
+    {
+      "address": "0x34D6A0F5C2f5D0082141fE73d93B9dd00ca7CE11",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Golden Token",
       "symbol": "GOLD"
     },
     {
@@ -24779,17 +24782,17 @@
       "symbol": "MLT"
     },
     {
-      "address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Million",
-      "symbol": "MM"
-    },
-    {
       "address": "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
       "chainId": 1,
       "decimals": 18,
       "name": "MM Token",
+      "symbol": "MM"
+    },
+    {
+      "address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Million",
       "symbol": "MM"
     },
     {
@@ -24814,17 +24817,17 @@
       "symbol": "MMSFT"
     },
     {
-      "address": "0xBac7A1798350cdf2Dbfe0c210C2C9861223f4B31",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Moneynet",
-      "symbol": "MNC"
-    },
-    {
       "address": "0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf",
       "chainId": 1,
       "decimals": 18,
       "name": "MainCoin",
+      "symbol": "MNC"
+    },
+    {
+      "address": "0xBac7A1798350cdf2Dbfe0c210C2C9861223f4B31",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Moneynet",
       "symbol": "MNC"
     },
     {
@@ -25017,6 +25020,13 @@
       "decimals": 18,
       "name": "Mochi Market",
       "symbol": "MOMA"
+    },
+    {
+      "address": "0x865bB9A28041259b4baDAFD37799A288aAbbfC8c",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Moma Protocol",
+      "symbol": "MOMAT"
     },
     {
       "address": "0x275f5Ad03be0Fa221B4C6649B8AeE09a42D9412A",
@@ -26119,13 +26129,6 @@
       "decimals": 18,
       "name": "Newtonium",
       "symbol": "NEWTON"
-    },
-    {
-      "address": "0xa7be196d92629620154291e4b90c056517489904",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "NexFin",
-      "symbol": "NEX"
     },
     {
       "address": "0xE2dc070524A6e305ddB64d8513DC444B6a1ec845",
@@ -27446,17 +27449,17 @@
       "symbol": "OPEN"
     },
     {
-      "address": "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "Open Platform",
-      "symbol": "OPEN"
-    },
-    {
       "address": "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
       "chainId": 1,
       "decimals": 18,
       "name": "OPEN Governance Tok",
+      "symbol": "OPEN"
+    },
+    {
+      "address": "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Open Platform",
       "symbol": "OPEN"
     },
     {
@@ -28982,17 +28985,17 @@
       "symbol": "PLF"
     },
     {
-      "address": "0xBa069Ee53b8B531F3AB117c92ca09A204C9E6285",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Plug",
-      "symbol": "PLG"
-    },
-    {
       "address": "0x85ca6710D0F1D511d130f6935eDDA88ACBD921bD",
       "chainId": 1,
       "decimals": 18,
       "name": "Pledgecamp",
+      "symbol": "PLG"
+    },
+    {
+      "address": "0xBa069Ee53b8B531F3AB117c92ca09A204C9E6285",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Plug",
       "symbol": "PLG"
     },
     {
@@ -29331,6 +29334,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0xDa4c27a9fbdDe1f5F3aF0398396be4644dCEC715",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Ponzu Inu",
+      "symbol": "PONZU"
     },
     {
       "address": "0x779B7b713C86e3E6774f5040D9cCC2D43ad375F8",
@@ -34416,13 +34426,6 @@
       }
     },
     {
-      "address": "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "ShibaLink",
-      "symbol": "SLINK"
-    },
-    {
       "address": "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
       "chainId": 1,
       "decimals": 9,
@@ -34431,6 +34434,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "ShibaLink",
+      "symbol": "SLINK"
     },
     {
       "address": "0xCC8Fa225D80b9c7D42F96e9570156c65D6cAAa25",
@@ -46132,6 +46142,13 @@
       }
     },
     {
+      "address": "0xEfFeA57067E02999fDCd0Bb45c0f1071a29472D9",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Zantepay",
+      "symbol": "ZANTEPAY"
+    },
+    {
       "address": "0x6781a0F84c7E9e846DCb84A9a5bd49333067b104",
       "chainId": 1,
       "decimals": 18,
@@ -46570,13 +46587,6 @@
       "decimals": 18,
       "name": "Zort",
       "symbol": "ZORT"
-    },
-    {
-      "address": "0xEfFeA57067E02999fDCd0Bb45c0f1071a29472D9",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Zantepay",
-      "symbol": "ZPAY"
     },
     {
       "address": "0xb5b8F5616Fe42d5ceCA3e87F3FddbDd8F496d760",

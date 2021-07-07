@@ -164,8 +164,15 @@ export declare const TokenSchema: z.ZodObject<{
     symbol: z.ZodString;
     website: z.ZodOptional<z.ZodString>;
 }, "strip", z.ZodTypeAny, {
+    chainId?: number | undefined;
     deprecation?: {
         new_address?: string | undefined;
+    } | undefined;
+    extensions?: {
+        color?: string | undefined;
+        isRainbowCurated?: boolean | undefined;
+        isVerified?: boolean | undefined;
+        shadowColor?: string | undefined;
     } | undefined;
     social?: {
         blog?: string | undefined;
@@ -185,20 +192,20 @@ export declare const TokenSchema: z.ZodObject<{
         youtube?: string | undefined;
     } | undefined;
     website?: string | undefined;
-    chainId?: number | undefined;
-    extensions?: {
-        color?: string | undefined;
-        isRainbowCurated?: boolean | undefined;
-        isVerified?: boolean | undefined;
-        shadowColor?: string | undefined;
-    } | undefined;
     symbol: string;
     address: string;
     decimals: number;
     name: string;
 }, {
+    chainId?: number | undefined;
     deprecation?: {
         new_address?: string | undefined;
+    } | undefined;
+    extensions?: {
+        color?: string | undefined;
+        isRainbowCurated?: boolean | undefined;
+        isVerified?: boolean | undefined;
+        shadowColor?: string | undefined;
     } | undefined;
     social?: {
         blog?: string | undefined;
@@ -218,13 +225,6 @@ export declare const TokenSchema: z.ZodObject<{
         youtube?: string | undefined;
     } | undefined;
     website?: string | undefined;
-    chainId?: number | undefined;
-    extensions?: {
-        color?: string | undefined;
-        isRainbowCurated?: boolean | undefined;
-        isVerified?: boolean | undefined;
-        shadowColor?: string | undefined;
-    } | undefined;
     symbol: string;
     address: string;
     decimals: number;
@@ -318,10 +318,10 @@ export declare const RawEthereumListsTokenSchema: z.ZodObject<{
     symbol?: string | undefined;
     address?: string | undefined;
     decimals?: string | number | undefined;
-    name?: string | undefined;
     deprecation?: {
         new_address?: string | undefined;
     } | undefined;
+    name?: string | undefined;
     social?: {
         blog?: string | undefined;
         chat?: string | undefined;
@@ -344,10 +344,10 @@ export declare const RawEthereumListsTokenSchema: z.ZodObject<{
     symbol?: string | undefined;
     address?: string | undefined;
     decimals?: string | number | undefined;
-    name?: string | undefined;
     deprecation?: {
         new_address?: string | undefined;
     } | undefined;
+    name?: string | undefined;
     social?: {
         blog?: string | undefined;
         chat?: string | undefined;

@@ -1,5 +1,5 @@
 import fs from 'graceful-fs';
-import { isPlainObject, isString, mapValues, pick } from 'lodash';
+import { isPlainObject, isString, mapValues, pick } from 'lodash-es';
 import {
   RawEthereumListsToken,
   RawEthereumListsTokenSchema,

@@ -7,14 +7,14 @@ declare type TokenMetadata = typeof OFFLINE_TOKEN_METADATA;
  * @param offlineData The data to fallback to in case of network failure.
  * @returns The Token List dataset.
  */
-export declare const loadFromEndpoint: <T>(endpoint: string, fetch: Function | undefined, offlineData: T) => Promise<any>;
+export declare const loadFromEndpoint: <T>(endpoint: string, offlineData: T) => Promise<any>;
 /**
  * Load the full Token List, including any manual tokens.
  *
  * @param offlineData The data to fallback to in case of network failure.
  * @returns The full Token List.
  */
-export declare const loadTokenList: (fetch?: Function) => Promise<({
+export declare const loadTokenList: () => Promise<({
     address: string;
     decimals: number;
     name: string;
@@ -105,7 +105,7 @@ export declare const loadTokenList: (fetch?: Function) => Promise<({
  * Load the Token Overrides List.
  * @returns All token overrides.
  */
-export declare const loadTokenOverrides: (fetch?: Function) => Promise<any>;
+export declare const loadTokenOverrides: () => Promise<any>;
 /**
  * Get the Token List from raw metadata.
  *

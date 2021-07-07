@@ -1,10 +1,5 @@
 import { getAddress } from '@ethersproject/address';
-import { mapKeys } from 'lodash';
-
-/**
- * Inject the overrides locally from this project, rather than from process.cwd.
- */
-import { defaultOverrides } from 'rainbow-overrides';
+import { mapKeys } from 'lodash-es';
 import { loadTokenOverrides } from '../load';
 
 export type OverrideToken = {
@@ -19,7 +14,7 @@ export type OverrideToken = {
 type OverrideFile = { [address: string]: OverrideToken };
 
 export default async function parseOverrides(): Promise<OverrideFile> {
-  const overrides = await loadTokenOverrides(defaultOverrides);
+  const overrides = await loadTokenOverrides();
   // load svg manifest JSON file from directory
   return mapKeys(overrides, (...args) => {
     if (args[1] === 'eth') return args[1];
