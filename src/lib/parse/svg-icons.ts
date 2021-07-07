@@ -4,7 +4,7 @@
  * graceful-fs to prevent EMFILE errors in serverless environments.
  */
 
-import { compact, unionBy } from 'lodash-es';
+import { compact, unionBy } from 'lodash';
 import getSVGColors from 'get-svg-colors';
 
 import { resolve } from 'path';

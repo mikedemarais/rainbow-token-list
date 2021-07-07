@@ -1,4 +1,4 @@
-import { isEmpty, pick } from 'lodash-es';
+import { isEmpty, pick } from 'lodash';
 import { resolve } from 'path';
 import {
   CONTRACT_MAP_REPO,

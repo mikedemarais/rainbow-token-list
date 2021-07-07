@@ -1,5 +1,5 @@
 import { getAddress } from '@ethersproject/address';
-import { mapKeys } from 'lodash-es';
+import { mapKeys } from 'lodash';
 import { loadTokenOverrides } from '../load';
 
 export type OverrideToken = {

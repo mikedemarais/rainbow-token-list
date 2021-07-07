@@ -3,25 +3,60 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var zod = require('zod');
-var lodashEs = require('lodash-es');
+var compact = require('lodash/compact');
+var filter = require('lodash/filter');
+var find = require('lodash/find');
+var keyBy = require('lodash/keyBy');
+var matchesProperty = require('lodash/matchesProperty');
+var merge = require('lodash/merge');
+var pick = require('lodash/pick');
+var some = require('lodash/some');
+var toLower = require('lodash/toLower');
+var uniq = require('lodash/uniq');
+var isEmpty = require('lodash/isEmpty');
 var path = require('path');
 var degit = require('degit');
 var os = require('os');
 var fs = require('graceful-fs');
+var isPlainObject = require('lodash/isPlainObject');
+var isString = require('lodash/isString');
+var mapValues = require('lodash/mapValues');
+var partition = require('lodash/partition');
 var pLimit = require('p-limit');
 var address = require('@ethersproject/address');
+var mapKeys = require('lodash/mapKeys');
+var map = require('lodash/map');
 var rainbowOverrides = require('rainbow-overrides');
 var fetch = require('node-fetch');
+var unionBy = require('lodash/unionBy');
 var getSVGColors = require('get-svg-colors');
 var makeColorMoreChill = require('make-color-more-chill');
 var mkdirp = require('mkdirp');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
+var compact__default = /*#__PURE__*/_interopDefaultLegacy(compact);
+var filter__default = /*#__PURE__*/_interopDefaultLegacy(filter);
+var find__default = /*#__PURE__*/_interopDefaultLegacy(find);
+var keyBy__default = /*#__PURE__*/_interopDefaultLegacy(keyBy);
+var matchesProperty__default = /*#__PURE__*/_interopDefaultLegacy(matchesProperty);
+var merge__default = /*#__PURE__*/_interopDefaultLegacy(merge);
+var pick__default = /*#__PURE__*/_interopDefaultLegacy(pick);
+var some__default = /*#__PURE__*/_interopDefaultLegacy(some);
+var toLower__default = /*#__PURE__*/_interopDefaultLegacy(toLower);
+var uniq__default = /*#__PURE__*/_interopDefaultLegacy(uniq);
+var isEmpty__default = /*#__PURE__*/_interopDefaultLegacy(isEmpty);
 var degit__default = /*#__PURE__*/_interopDefaultLegacy(degit);
 var fs__default = /*#__PURE__*/_interopDefaultLegacy(fs);
+var isPlainObject__default = /*#__PURE__*/_interopDefaultLegacy(isPlainObject);
+var isString__default = /*#__PURE__*/_interopDefaultLegacy(isString);
+var mapValues__default = /*#__PURE__*/_interopDefaultLegacy(mapValues);
+var partition__default = /*#__PURE__*/_interopDefaultLegacy(partition);
 var pLimit__default = /*#__PURE__*/_interopDefaultLegacy(pLimit);
+var mapKeys__default = /*#__PURE__*/_interopDefaultLegacy(mapKeys);
+var map__default = /*#__PURE__*/_interopDefaultLegacy(map);
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
+var unionBy__default = /*#__PURE__*/_interopDefaultLegacy(unionBy);
 var getSVGColors__default = /*#__PURE__*/_interopDefaultLegacy(getSVGColors);
 var makeColorMoreChill__default = /*#__PURE__*/_interopDefaultLegacy(makeColorMoreChill);
 var mkdirp__default = /*#__PURE__*/_interopDefaultLegacy(mkdirp);
@@ -179,9 +214,9 @@ const parseJsonFile = async (file) => {
  */
 const validateTokenData = (token) => {
     const normalizedTokenData = {
-        ...lodashEs.pick(token, Object.keys(RawEthereumListsTokenSchema.shape)),
-        deprecation: lodashEs.pick(token.deprecation, Object.keys(TokenDeprecationSchema.shape)),
-        social: lodashEs.pick(token.social, Object.keys(SocialSchema.shape)),
+        ...pick__default['default'](token, Object.keys(RawEthereumListsTokenSchema.shape)),
+        deprecation: pick__default['default'](token.deprecation, Object.keys(TokenDeprecationSchema.shape)),
+        social: pick__default['default'](token.social, Object.keys(SocialSchema.shape)),
     };
     const validToken = TokenSchema.parse(normalizedTokenData);
     const validSocial = SocialSchema.parse(normalizedTokenData.social);
@@ -200,8 +235,8 @@ const sortTokens = (tokens) => {
     return tokens.sort((a, b) => a.symbol.localeCompare(b.symbol));
 };
 function mapValuesDeep(v, callback) {
-    return lodashEs.isPlainObject(v)
-        ? lodashEs.mapValues(v, v => mapValuesDeep(v, callback))
+    return isPlainObject__default['default'](v)
+        ? mapValues__default['default'](v, v => mapValuesDeep(v, callback))
         : callback(v);
 }
 /**
@@ -212,7 +247,7 @@ function mapValuesDeep(v, callback) {
  * @return {Token}
  */
 const deeplyTrimAllTokenStrings = (token) => {
-    return mapValuesDeep(token, (v) => (lodashEs.isString(v) ? v.trim() : v));
+    return mapValuesDeep(token, (v) => (isString__default['default'](v) ? v.trim() : v));
 };
 
 async function parseContractMap() {
@@ -227,10 +262,10 @@ async function parseContractMap() {
         address,
     }))
         // remove any unknown/undesirable keys from each token object.
-        .map(token => lodashEs.pick(token, Object.keys(RawContractMapTokenSchema.shape)))
+        .map(token => pick__default['default'](token, Object.keys(RawContractMapTokenSchema.shape)))
         // remove any tokens from the array if they contain null values for the
         // keys that we care about.
-        .filter(token => Object.values(token).some(lodashEs.isEmpty))
+        .filter(token => Object.values(token).some(isEmpty__default['default']))
         .map(validateTokenData));
 }
 
@@ -262,8 +297,8 @@ async function mapDir({ dir, fileMap, limit = 10 }) {
  * @return {Token[][]}
  */
 const partitionByUniqueness = (tokens) => {
-    const [uniqueTokens, duplicateTokens] = lodashEs.partition(tokens, token => {
-        const dups = lodashEs.filter(tokens, ['symbol', token.symbol]);
+    const [uniqueTokens, duplicateTokens] = partition__default['default'](tokens, token => {
+        const dups = filter__default['default'](tokens, ['symbol', token.symbol]);
         return dups.length === 1;
     });
     return [uniqueTokens, duplicateTokens];
@@ -280,7 +315,7 @@ function resolveDeprecations(tokens) {
     return tokens.map(({ deprecation, ...token }) => {
         return !deprecation?.new_address
             ? token
-            : tokens.find(lodashEs.matchesProperty('address', deprecation.new_address)) ||
+            : tokens.find(matchesProperty__default['default']('address', deprecation.new_address)) ||
                 token;
     });
 }
@@ -47082,9 +47117,9 @@ const loadTokenOverrides = async () => {
  * @returns The Token List.
  */
 const tokenListFromData = async (tokenData) => {
-    const loadedTokens = lodashEs.map(tokenData.tokens, token => {
+    const loadedTokens = map__default['default'](tokenData.tokens, token => {
         const { address: rawAddress, decimals, name, symbol, extensions } = token;
-        const address = lodashEs.toLower(rawAddress);
+        const address = toLower__default['default'](rawAddress);
         return {
             address,
             decimals,
@@ -47100,7 +47135,7 @@ const tokenListFromData = async (tokenData) => {
 async function parseOverrides() {
     const overrides = await loadTokenOverrides();
     // load svg manifest JSON file from directory
-    return lodashEs.mapKeys(overrides, (...args) => {
+    return mapKeys__default['default'](overrides, (...args) => {
         if (args[1] === 'eth')
             return args[1];
         return address.getAddress(args[1]);
@@ -47144,12 +47179,12 @@ async function parseOverrideSVGIcons() {
         dir: extractedAt,
         fileMap,
     });
-    return lodashEs.compact(results);
+    return compact__default['default'](results);
 }
 async function parseSVGIconTokenFiles() {
     const originals = await parseOriginalSVGIcons();
     const overrides = await parseOverrideSVGIcons();
-    return lodashEs.unionBy(originals, overrides, 'symbol');
+    return unionBy__default['default'](originals, overrides, 'symbol');
 }
 
 function reduceArrayToObject(array) {
@@ -47195,7 +47230,7 @@ async function parseTokenLists() {
 }
 
 function normalizeList(list) {
-    return lodashEs.keyBy(list, ({ address: address$1 }) => address.getAddress(address$1));
+    return keyBy__default['default'](list, ({ address: address$1 }) => address.getAddress(address$1));
 }
 async function build() {
     /**
@@ -47234,41 +47269,41 @@ async function build() {
                 .flat(),
         ].map(normalizeList),
     };
-    const defaultSources = lodashEs.merge({}, ...sources.default);
-    const allKnownTokenAddresses = lodashEs.uniq(lodashEs.compact([
+    const defaultSources = merge__default['default']({}, ...sources.default);
+    const allKnownTokenAddresses = uniq__default['default'](compact__default['default']([
         ...sources.default.map(Object.keys).flat(),
         ...sources.preferred.map(Object.keys).flat(),
     ]).map(address.getAddress));
     function resolveTokenInfo(tokenAddress) {
         function matchToken({ address }) {
-            return lodashEs.toLower(address) === lodashEs.toLower(tokenAddress);
+            return toLower__default['default'](address) === toLower__default['default'](tokenAddress);
         }
-        const lists = lodashEs.pick(tokenListTokens, Object.keys(tokenListTokens).filter((list) => lodashEs.some(tokenListTokens[list].tokens, matchToken)));
+        const lists = pick__default['default'](tokenListTokens, Object.keys(tokenListTokens).filter((list) => some__default['default'](tokenListTokens[list].tokens, matchToken)));
         if (Object.keys(lists).length === 1) {
-            return lodashEs.find(lists[Object.keys(lists)[0]].tokens, matchToken);
+            return find__default['default'](lists[Object.keys(lists)[0]].tokens, matchToken);
         }
         else if (Object.keys(lists).length > 1) {
             const listNames = Object.keys(lists);
             if (listNames.includes(TokenListEnumSchema.enum.synthetix)) {
-                return lodashEs.find(lists.synthetix.tokens, matchToken);
+                return find__default['default'](lists.synthetix.tokens, matchToken);
             }
             else if (listNames.includes(TokenListEnumSchema.enum.aave)) {
-                return lodashEs.find(lists.aave.tokens, matchToken);
+                return find__default['default'](lists.aave.tokens, matchToken);
             }
             else if (listNames.includes(TokenListEnumSchema.enum.roll)) {
-                return lodashEs.find(lists.roll.tokens, matchToken);
+                return find__default['default'](lists.roll.tokens, matchToken);
             }
             else if (listNames.includes(TokenListEnumSchema.enum.dharma)) {
-                return lodashEs.find(lists.dharma.tokens, matchToken);
+                return find__default['default'](lists.dharma.tokens, matchToken);
             }
             else if (listNames.includes(TokenListEnumSchema.enum.kleros)) {
-                return lodashEs.find(lists.kleros.tokens, matchToken);
+                return find__default['default'](lists.kleros.tokens, matchToken);
             }
             else if (listNames.includes(TokenListEnumSchema.enum.wrapped)) {
-                return lodashEs.find(lists.wrapped.tokens, matchToken);
+                return find__default['default'](lists.wrapped.tokens, matchToken);
             }
             else if (listNames.includes(TokenListEnumSchema.enum.coingecko)) {
-                return lodashEs.find(lists.coingecko.tokens, matchToken);
+                return find__default['default'](lists.coingecko.tokens, matchToken);
             }
         }
         return defaultSources[tokenAddress];
@@ -47300,15 +47335,15 @@ async function build() {
                 decimals,
                 name: overrideToken?.name || name,
                 symbol: overrideToken?.symbol || symbol,
-                ...(lodashEs.compact(Object.values(extensions)).length
+                ...(compact__default['default'](Object.values(extensions)).length
                     ? { extensions }
                     : undefined),
             });
         });
     }
     const tokens = await sortTokens(buildTokenList());
-    console.log('# of "isRainbowCurated" tokens: ', lodashEs.filter(tokens, lodashEs.matchesProperty('extensions.isRainbowCurated', true)).length);
-    console.log('# of "isVerified" tokens: ', lodashEs.filter(tokens, lodashEs.matchesProperty('extensions.isVerified', true)).length);
+    console.log('# of "isRainbowCurated" tokens: ', filter__default['default'](tokens, matchesProperty__default['default']('extensions.isRainbowCurated', true)).length);
+    console.log('# of "isVerified" tokens: ', filter__default['default'](tokens, matchesProperty__default['default']('extensions.isVerified', true)).length);
     return tokens;
 }
 

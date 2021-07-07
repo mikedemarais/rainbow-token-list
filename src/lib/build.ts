@@ -9,7 +9,7 @@ import {
   some,
   toLower,
   uniq,
-} from 'lodash-es';
+} from 'lodash';
 
 import parseContractMap from './parse/contract-map';
 import parseEthereumLists from './parse/ethereum-lists';

@@ -1,4 +1,4 @@
-import { map, toLower } from 'lodash-es';
+import { map, toLower } from 'lodash';
 
 import OFFLINE_TOKEN_METADATA from '../data/rainbow-token-list.json';
 import { OFFLINE_TOKEN_OVERRIDES } from 'rainbow-overrides';
