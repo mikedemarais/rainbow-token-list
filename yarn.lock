@@ -7158,7 +7158,7 @@ queue-microtask@^1.2.2:
 
 rainbow-overrides@ctjlewis/rainbow-overrides:
   version "1.11.0"
-  resolved "https://codeload.github.com/ctjlewis/rainbow-overrides/tar.gz/34b6f0c7a269b34bc0d909052219c885abfd27d8"
+  resolved "https://codeload.github.com/ctjlewis/rainbow-overrides/tar.gz/6907ceb76448c39f42bc4d3a4ea70d361cd6e5ed"
   dependencies:
     glob "^7.1.7"
     typescript "^4.3.4"
