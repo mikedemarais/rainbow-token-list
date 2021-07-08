@@ -3,188 +3,990 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var zod = require('zod');
-var compact = require('lodash/compact');
-var filter = require('lodash/filter');
-var find = require('lodash/find');
-var keyBy = require('lodash/keyBy');
-var matchesProperty = require('lodash/matchesProperty');
-var merge = require('lodash/merge');
-var pick = require('lodash/pick');
-var some = require('lodash/some');
-var toLower = require('lodash/toLower');
-var uniq = require('lodash/uniq');
-var isEmpty = require('lodash/isEmpty');
+var lodash = require('lodash');
 var path = require('path');
 var degit = require('degit');
 var os = require('os');
 var fs = require('graceful-fs');
-var isPlainObject = require('lodash/isPlainObject');
-var isString = require('lodash/isString');
-var mapValues = require('lodash/mapValues');
-var partition = require('lodash/partition');
 var pLimit = require('p-limit');
 var address = require('@ethersproject/address');
-var mapKeys = require('lodash/mapKeys');
-var map = require('lodash/map');
 var rainbowOverrides = require('rainbow-overrides');
 var fetch = require('node-fetch');
-var unionBy = require('lodash/unionBy');
 var getSVGColors = require('get-svg-colors');
 var makeColorMoreChill = require('make-color-more-chill');
 var mkdirp = require('mkdirp');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
-var compact__default = /*#__PURE__*/_interopDefaultLegacy(compact);
-var filter__default = /*#__PURE__*/_interopDefaultLegacy(filter);
-var find__default = /*#__PURE__*/_interopDefaultLegacy(find);
-var keyBy__default = /*#__PURE__*/_interopDefaultLegacy(keyBy);
-var matchesProperty__default = /*#__PURE__*/_interopDefaultLegacy(matchesProperty);
-var merge__default = /*#__PURE__*/_interopDefaultLegacy(merge);
-var pick__default = /*#__PURE__*/_interopDefaultLegacy(pick);
-var some__default = /*#__PURE__*/_interopDefaultLegacy(some);
-var toLower__default = /*#__PURE__*/_interopDefaultLegacy(toLower);
-var uniq__default = /*#__PURE__*/_interopDefaultLegacy(uniq);
-var isEmpty__default = /*#__PURE__*/_interopDefaultLegacy(isEmpty);
 var degit__default = /*#__PURE__*/_interopDefaultLegacy(degit);
 var fs__default = /*#__PURE__*/_interopDefaultLegacy(fs);
-var isPlainObject__default = /*#__PURE__*/_interopDefaultLegacy(isPlainObject);
-var isString__default = /*#__PURE__*/_interopDefaultLegacy(isString);
-var mapValues__default = /*#__PURE__*/_interopDefaultLegacy(mapValues);
-var partition__default = /*#__PURE__*/_interopDefaultLegacy(partition);
 var pLimit__default = /*#__PURE__*/_interopDefaultLegacy(pLimit);
-var mapKeys__default = /*#__PURE__*/_interopDefaultLegacy(mapKeys);
-var map__default = /*#__PURE__*/_interopDefaultLegacy(map);
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
-var unionBy__default = /*#__PURE__*/_interopDefaultLegacy(unionBy);
 var getSVGColors__default = /*#__PURE__*/_interopDefaultLegacy(getSVGColors);
 var makeColorMoreChill__default = /*#__PURE__*/_interopDefaultLegacy(makeColorMoreChill);
 var mkdirp__default = /*#__PURE__*/_interopDefaultLegacy(mkdirp);
 
-const PRODUCTION = "development" === 'production';
-const CONTRACT_MAP_REPO = 'metamask/eth-contract-metadata';
-const ETHEREUM_LISTS_REPO = 'ethereum-lists/tokens/tokens/eth';
-//
+var PRODUCTION = "development" === 'production';
+var CONTRACT_MAP_REPO = 'metamask/eth-contract-metadata';
+var ETHEREUM_LISTS_REPO = 'ethereum-lists/tokens/tokens/eth'; //
 // Related to Token List and Token Overrides.
 //
-const REMOTE_TOKEN_LIST_ENDPOINT = 'https://raw.githubusercontent.com/ctjlewis/rainbow-token-list/service-compatibility/src/data/rainbow-token-list.json';
-const REMOTE_TOKEN_OVERRIDES_ENDPOINT = 'https://raw.githubusercontent.com/ctjlewis/rainbow-overrides/master/src/data/rainbow-overrides.json';
-const TokenListItemSchema = zod.z
-    .string()
-    .url()
-    .nonempty();
-const TokenListTypeSchema = zod.z.record(TokenListItemSchema);
-const TOKEN_LISTS = {
-    aave: 'https://tokenlist.aave.eth.link',
-    coingecko: 'https://tokens.coingecko.com/uniswap/all.json',
-    dharma: 'https://tokenlist.dharma.eth.link',
-    kleros: 'http://t2crtokens.eth.link',
-    roll: 'https://app.tryroll.com/tokens.json',
-    synthetix: 'https://synths.snx.eth.link',
-    wrapped: 'http://wrapped.tokensoft.eth.link',
+
+var REMOTE_TOKEN_LIST_ENDPOINT = 'https://raw.githubusercontent.com/ctjlewis/rainbow-token-list/service-compatibility/src/data/rainbow-token-list.json';
+var REMOTE_TOKEN_OVERRIDES_ENDPOINT = 'https://raw.githubusercontent.com/ctjlewis/rainbow-overrides/master/src/data/rainbow-overrides.json';
+var TokenListItemSchema = /*#__PURE__*/zod.z.string().url().nonempty();
+var TokenListTypeSchema = /*#__PURE__*/zod.z.record(TokenListItemSchema);
+var TOKEN_LISTS = {
+  aave: 'https://tokenlist.aave.eth.link',
+  coingecko: 'https://tokens.coingecko.com/uniswap/all.json',
+  dharma: 'https://tokenlist.dharma.eth.link',
+  kleros: 'http://t2crtokens.eth.link',
+  roll: 'https://app.tryroll.com/tokens.json',
+  synthetix: 'https://synths.snx.eth.link',
+  wrapped: 'http://wrapped.tokensoft.eth.link'
 };
-const TokenListEnumSchema = zod.z.enum([
-    'aave',
-    'coingecko',
-    'dharma',
-    'kleros',
-    'roll',
-    'synthetix',
-    'wrapped',
-]);
-const SocialSchema = zod.z.object({
-    blog: zod.z.string().optional(),
-    chat: zod.z.string().optional(),
-    discord: zod.z.string().optional(),
-    facebook: zod.z.string().optional(),
-    forum: zod.z.string().optional(),
-    github: zod.z.string().optional(),
-    gitter: zod.z.string().optional(),
-    instagram: zod.z.string().optional(),
-    linkedin: zod.z.string().optional(),
-    medium: zod.z.string().optional(),
-    reddit: zod.z.string().optional(),
-    slack: zod.z.string().optional(),
-    telegram: zod.z.string().optional(),
-    twitter: zod.z.string().optional(),
-    youtube: zod.z.string().optional(),
+var TokenListEnumSchema = /*#__PURE__*/zod.z["enum"](['aave', 'coingecko', 'dharma', 'kleros', 'roll', 'synthetix', 'wrapped']);
+var SocialSchema = /*#__PURE__*/zod.z.object({
+  blog: /*#__PURE__*/zod.z.string().optional(),
+  chat: /*#__PURE__*/zod.z.string().optional(),
+  discord: /*#__PURE__*/zod.z.string().optional(),
+  facebook: /*#__PURE__*/zod.z.string().optional(),
+  forum: /*#__PURE__*/zod.z.string().optional(),
+  github: /*#__PURE__*/zod.z.string().optional(),
+  gitter: /*#__PURE__*/zod.z.string().optional(),
+  instagram: /*#__PURE__*/zod.z.string().optional(),
+  linkedin: /*#__PURE__*/zod.z.string().optional(),
+  medium: /*#__PURE__*/zod.z.string().optional(),
+  reddit: /*#__PURE__*/zod.z.string().optional(),
+  slack: /*#__PURE__*/zod.z.string().optional(),
+  telegram: /*#__PURE__*/zod.z.string().optional(),
+  twitter: /*#__PURE__*/zod.z.string().optional(),
+  youtube: /*#__PURE__*/zod.z.string().optional()
 });
-const TokenDeprecationSchema = zod.z.object({
-    new_address: zod.z.string().optional(),
+var TokenDeprecationSchema = /*#__PURE__*/zod.z.object({
+  new_address: /*#__PURE__*/zod.z.string().optional()
 });
-const TokenExtensionsSchema = zod.z.object({
-    color: zod.z.string().optional(),
-    isRainbowCurated: zod.z.boolean().optional(),
-    isVerified: zod.z.boolean().optional(),
-    shadowColor: zod.z.string().optional(),
+var TokenExtensionsSchema = /*#__PURE__*/zod.z.object({
+  color: /*#__PURE__*/zod.z.string().optional(),
+  isRainbowCurated: /*#__PURE__*/zod.z["boolean"]().optional(),
+  isVerified: /*#__PURE__*/zod.z["boolean"]().optional(),
+  shadowColor: /*#__PURE__*/zod.z.string().optional()
 });
-const TokenSchema = zod.z.object({
-    address: zod.z.string().regex(/^0x[a-fA-F0-9]{40}$/),
-    chainId: zod.z.number().optional(),
-    decimals: zod.z.number().min(0),
-    deprecation: TokenDeprecationSchema.optional(),
-    extensions: TokenExtensionsSchema.optional(),
-    name: zod.z.string(),
-    social: SocialSchema.optional(),
-    symbol: zod.z.string(),
-    website: zod.z.string().optional(),
+var TokenSchema = /*#__PURE__*/zod.z.object({
+  address: /*#__PURE__*/zod.z.string().regex(/^0x[a-fA-F0-9]{40}$/),
+  chainId: /*#__PURE__*/zod.z.number().optional(),
+  decimals: /*#__PURE__*/zod.z.number().min(0),
+  deprecation: /*#__PURE__*/TokenDeprecationSchema.optional(),
+  extensions: /*#__PURE__*/TokenExtensionsSchema.optional(),
+  name: /*#__PURE__*/zod.z.string(),
+  social: /*#__PURE__*/SocialSchema.optional(),
+  symbol: /*#__PURE__*/zod.z.string(),
+  website: /*#__PURE__*/zod.z.string().optional()
 });
 /**
  * Raw token data that is loaded from the JSON files.
  */
-const RawContractMapTokenSchema = zod.z.object({
-    address: zod.z.string(),
-    decimals: zod.z.union([zod.z.string(), zod.z.number()]),
-    name: zod.z.string(),
-    symbol: zod.z.string(),
+
+var RawContractMapTokenSchema = /*#__PURE__*/zod.z.object({
+  address: /*#__PURE__*/zod.z.string(),
+  decimals: /*#__PURE__*/zod.z.union([/*#__PURE__*/zod.z.string(), /*#__PURE__*/zod.z.number()]),
+  name: /*#__PURE__*/zod.z.string(),
+  symbol: /*#__PURE__*/zod.z.string()
 });
 /**
  * Raw token data that is loaded from the JSON files.
  */
-const RawEthereumListsTokenSchema = zod.z.object({
-    address: zod.z.string().optional(),
-    decimals: zod.z.union([zod.z.string(), zod.z.number()]).optional(),
-    deprecation: TokenDeprecationSchema.optional(),
-    name: zod.z.string().optional(),
-    social: SocialSchema.optional(),
-    symbol: zod.z.string().optional(),
-    website: zod.z.string().optional(),
+
+var RawEthereumListsTokenSchema = /*#__PURE__*/zod.z.object({
+  address: /*#__PURE__*/zod.z.string().optional(),
+  decimals: /*#__PURE__*/zod.z.union([zod.z.string(), zod.z.number()]).optional(),
+  deprecation: /*#__PURE__*/TokenDeprecationSchema.optional(),
+  name: /*#__PURE__*/zod.z.string().optional(),
+  social: /*#__PURE__*/SocialSchema.optional(),
+  symbol: /*#__PURE__*/zod.z.string().optional(),
+  website: /*#__PURE__*/zod.z.string().optional()
 });
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+  try {
+    var info = gen[key](arg);
+    var value = info.value;
+  } catch (error) {
+    reject(error);
+    return;
+  }
+
+  if (info.done) {
+    resolve(value);
+  } else {
+    Promise.resolve(value).then(_next, _throw);
+  }
+}
+
+function _asyncToGenerator(fn) {
+  return function () {
+    var self = this,
+        args = arguments;
+    return new Promise(function (resolve, reject) {
+      var gen = fn.apply(self, args);
+
+      function _next(value) {
+        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+      }
+
+      function _throw(err) {
+        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+      }
+
+      _next(undefined);
+    });
+  };
+}
+
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+
+var runtime = {exports: {}};
+
+/**
+ * Copyright (c) 2014-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+(function (module) {
+var runtime = (function (exports) {
+
+  var Op = Object.prototype;
+  var hasOwn = Op.hasOwnProperty;
+  var undefined$1; // More compressible than void 0.
+  var $Symbol = typeof Symbol === "function" ? Symbol : {};
+  var iteratorSymbol = $Symbol.iterator || "@@iterator";
+  var asyncIteratorSymbol = $Symbol.asyncIterator || "@@asyncIterator";
+  var toStringTagSymbol = $Symbol.toStringTag || "@@toStringTag";
+
+  function define(obj, key, value) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+    return obj[key];
+  }
+  try {
+    // IE 8 has a broken Object.defineProperty that only works on DOM objects.
+    define({}, "");
+  } catch (err) {
+    define = function(obj, key, value) {
+      return obj[key] = value;
+    };
+  }
+
+  function wrap(innerFn, outerFn, self, tryLocsList) {
+    // If outerFn provided and outerFn.prototype is a Generator, then outerFn.prototype instanceof Generator.
+    var protoGenerator = outerFn && outerFn.prototype instanceof Generator ? outerFn : Generator;
+    var generator = Object.create(protoGenerator.prototype);
+    var context = new Context(tryLocsList || []);
+
+    // The ._invoke method unifies the implementations of the .next,
+    // .throw, and .return methods.
+    generator._invoke = makeInvokeMethod(innerFn, self, context);
+
+    return generator;
+  }
+  exports.wrap = wrap;
+
+  // Try/catch helper to minimize deoptimizations. Returns a completion
+  // record like context.tryEntries[i].completion. This interface could
+  // have been (and was previously) designed to take a closure to be
+  // invoked without arguments, but in all the cases we care about we
+  // already have an existing method we want to call, so there's no need
+  // to create a new function object. We can even get away with assuming
+  // the method takes exactly one argument, since that happens to be true
+  // in every case, so we don't have to touch the arguments object. The
+  // only additional allocation required is the completion record, which
+  // has a stable shape and so hopefully should be cheap to allocate.
+  function tryCatch(fn, obj, arg) {
+    try {
+      return { type: "normal", arg: fn.call(obj, arg) };
+    } catch (err) {
+      return { type: "throw", arg: err };
+    }
+  }
+
+  var GenStateSuspendedStart = "suspendedStart";
+  var GenStateSuspendedYield = "suspendedYield";
+  var GenStateExecuting = "executing";
+  var GenStateCompleted = "completed";
+
+  // Returning this object from the innerFn has the same effect as
+  // breaking out of the dispatch switch statement.
+  var ContinueSentinel = {};
+
+  // Dummy constructor functions that we use as the .constructor and
+  // .constructor.prototype properties for functions that return Generator
+  // objects. For full spec compliance, you may wish to configure your
+  // minifier not to mangle the names of these two functions.
+  function Generator() {}
+  function GeneratorFunction() {}
+  function GeneratorFunctionPrototype() {}
+
+  // This is a polyfill for %IteratorPrototype% for environments that
+  // don't natively support it.
+  var IteratorPrototype = {};
+  IteratorPrototype[iteratorSymbol] = function () {
+    return this;
+  };
+
+  var getProto = Object.getPrototypeOf;
+  var NativeIteratorPrototype = getProto && getProto(getProto(values([])));
+  if (NativeIteratorPrototype &&
+      NativeIteratorPrototype !== Op &&
+      hasOwn.call(NativeIteratorPrototype, iteratorSymbol)) {
+    // This environment has a native %IteratorPrototype%; use it instead
+    // of the polyfill.
+    IteratorPrototype = NativeIteratorPrototype;
+  }
+
+  var Gp = GeneratorFunctionPrototype.prototype =
+    Generator.prototype = Object.create(IteratorPrototype);
+  GeneratorFunction.prototype = Gp.constructor = GeneratorFunctionPrototype;
+  GeneratorFunctionPrototype.constructor = GeneratorFunction;
+  GeneratorFunction.displayName = define(
+    GeneratorFunctionPrototype,
+    toStringTagSymbol,
+    "GeneratorFunction"
+  );
+
+  // Helper for defining the .next, .throw, and .return methods of the
+  // Iterator interface in terms of a single ._invoke method.
+  function defineIteratorMethods(prototype) {
+    ["next", "throw", "return"].forEach(function(method) {
+      define(prototype, method, function(arg) {
+        return this._invoke(method, arg);
+      });
+    });
+  }
+
+  exports.isGeneratorFunction = function(genFun) {
+    var ctor = typeof genFun === "function" && genFun.constructor;
+    return ctor
+      ? ctor === GeneratorFunction ||
+        // For the native GeneratorFunction constructor, the best we can
+        // do is to check its .name property.
+        (ctor.displayName || ctor.name) === "GeneratorFunction"
+      : false;
+  };
+
+  exports.mark = function(genFun) {
+    if (Object.setPrototypeOf) {
+      Object.setPrototypeOf(genFun, GeneratorFunctionPrototype);
+    } else {
+      genFun.__proto__ = GeneratorFunctionPrototype;
+      define(genFun, toStringTagSymbol, "GeneratorFunction");
+    }
+    genFun.prototype = Object.create(Gp);
+    return genFun;
+  };
+
+  // Within the body of any async function, `await x` is transformed to
+  // `yield regeneratorRuntime.awrap(x)`, so that the runtime can test
+  // `hasOwn.call(value, "__await")` to determine if the yielded value is
+  // meant to be awaited.
+  exports.awrap = function(arg) {
+    return { __await: arg };
+  };
+
+  function AsyncIterator(generator, PromiseImpl) {
+    function invoke(method, arg, resolve, reject) {
+      var record = tryCatch(generator[method], generator, arg);
+      if (record.type === "throw") {
+        reject(record.arg);
+      } else {
+        var result = record.arg;
+        var value = result.value;
+        if (value &&
+            typeof value === "object" &&
+            hasOwn.call(value, "__await")) {
+          return PromiseImpl.resolve(value.__await).then(function(value) {
+            invoke("next", value, resolve, reject);
+          }, function(err) {
+            invoke("throw", err, resolve, reject);
+          });
+        }
+
+        return PromiseImpl.resolve(value).then(function(unwrapped) {
+          // When a yielded Promise is resolved, its final value becomes
+          // the .value of the Promise<{value,done}> result for the
+          // current iteration.
+          result.value = unwrapped;
+          resolve(result);
+        }, function(error) {
+          // If a rejected Promise was yielded, throw the rejection back
+          // into the async generator function so it can be handled there.
+          return invoke("throw", error, resolve, reject);
+        });
+      }
+    }
+
+    var previousPromise;
+
+    function enqueue(method, arg) {
+      function callInvokeWithMethodAndArg() {
+        return new PromiseImpl(function(resolve, reject) {
+          invoke(method, arg, resolve, reject);
+        });
+      }
+
+      return previousPromise =
+        // If enqueue has been called before, then we want to wait until
+        // all previous Promises have been resolved before calling invoke,
+        // so that results are always delivered in the correct order. If
+        // enqueue has not been called before, then it is important to
+        // call invoke immediately, without waiting on a callback to fire,
+        // so that the async generator function has the opportunity to do
+        // any necessary setup in a predictable way. This predictability
+        // is why the Promise constructor synchronously invokes its
+        // executor callback, and why async functions synchronously
+        // execute code before the first await. Since we implement simple
+        // async functions in terms of async generators, it is especially
+        // important to get this right, even though it requires care.
+        previousPromise ? previousPromise.then(
+          callInvokeWithMethodAndArg,
+          // Avoid propagating failures to Promises returned by later
+          // invocations of the iterator.
+          callInvokeWithMethodAndArg
+        ) : callInvokeWithMethodAndArg();
+    }
+
+    // Define the unified helper method that is used to implement .next,
+    // .throw, and .return (see defineIteratorMethods).
+    this._invoke = enqueue;
+  }
+
+  defineIteratorMethods(AsyncIterator.prototype);
+  AsyncIterator.prototype[asyncIteratorSymbol] = function () {
+    return this;
+  };
+  exports.AsyncIterator = AsyncIterator;
+
+  // Note that simple async functions are implemented on top of
+  // AsyncIterator objects; they just return a Promise for the value of
+  // the final result produced by the iterator.
+  exports.async = function(innerFn, outerFn, self, tryLocsList, PromiseImpl) {
+    if (PromiseImpl === void 0) PromiseImpl = Promise;
+
+    var iter = new AsyncIterator(
+      wrap(innerFn, outerFn, self, tryLocsList),
+      PromiseImpl
+    );
+
+    return exports.isGeneratorFunction(outerFn)
+      ? iter // If outerFn is a generator, return the full iterator.
+      : iter.next().then(function(result) {
+          return result.done ? result.value : iter.next();
+        });
+  };
+
+  function makeInvokeMethod(innerFn, self, context) {
+    var state = GenStateSuspendedStart;
+
+    return function invoke(method, arg) {
+      if (state === GenStateExecuting) {
+        throw new Error("Generator is already running");
+      }
+
+      if (state === GenStateCompleted) {
+        if (method === "throw") {
+          throw arg;
+        }
+
+        // Be forgiving, per 25.3.3.3.3 of the spec:
+        // https://people.mozilla.org/~jorendorff/es6-draft.html#sec-generatorresume
+        return doneResult();
+      }
+
+      context.method = method;
+      context.arg = arg;
+
+      while (true) {
+        var delegate = context.delegate;
+        if (delegate) {
+          var delegateResult = maybeInvokeDelegate(delegate, context);
+          if (delegateResult) {
+            if (delegateResult === ContinueSentinel) continue;
+            return delegateResult;
+          }
+        }
+
+        if (context.method === "next") {
+          // Setting context._sent for legacy support of Babel's
+          // function.sent implementation.
+          context.sent = context._sent = context.arg;
+
+        } else if (context.method === "throw") {
+          if (state === GenStateSuspendedStart) {
+            state = GenStateCompleted;
+            throw context.arg;
+          }
+
+          context.dispatchException(context.arg);
+
+        } else if (context.method === "return") {
+          context.abrupt("return", context.arg);
+        }
+
+        state = GenStateExecuting;
+
+        var record = tryCatch(innerFn, self, context);
+        if (record.type === "normal") {
+          // If an exception is thrown from innerFn, we leave state ===
+          // GenStateExecuting and loop back for another invocation.
+          state = context.done
+            ? GenStateCompleted
+            : GenStateSuspendedYield;
+
+          if (record.arg === ContinueSentinel) {
+            continue;
+          }
+
+          return {
+            value: record.arg,
+            done: context.done
+          };
+
+        } else if (record.type === "throw") {
+          state = GenStateCompleted;
+          // Dispatch the exception by looping back around to the
+          // context.dispatchException(context.arg) call above.
+          context.method = "throw";
+          context.arg = record.arg;
+        }
+      }
+    };
+  }
+
+  // Call delegate.iterator[context.method](context.arg) and handle the
+  // result, either by returning a { value, done } result from the
+  // delegate iterator, or by modifying context.method and context.arg,
+  // setting context.delegate to null, and returning the ContinueSentinel.
+  function maybeInvokeDelegate(delegate, context) {
+    var method = delegate.iterator[context.method];
+    if (method === undefined$1) {
+      // A .throw or .return when the delegate iterator has no .throw
+      // method always terminates the yield* loop.
+      context.delegate = null;
+
+      if (context.method === "throw") {
+        // Note: ["return"] must be used for ES3 parsing compatibility.
+        if (delegate.iterator["return"]) {
+          // If the delegate iterator has a return method, give it a
+          // chance to clean up.
+          context.method = "return";
+          context.arg = undefined$1;
+          maybeInvokeDelegate(delegate, context);
+
+          if (context.method === "throw") {
+            // If maybeInvokeDelegate(context) changed context.method from
+            // "return" to "throw", let that override the TypeError below.
+            return ContinueSentinel;
+          }
+        }
+
+        context.method = "throw";
+        context.arg = new TypeError(
+          "The iterator does not provide a 'throw' method");
+      }
+
+      return ContinueSentinel;
+    }
+
+    var record = tryCatch(method, delegate.iterator, context.arg);
+
+    if (record.type === "throw") {
+      context.method = "throw";
+      context.arg = record.arg;
+      context.delegate = null;
+      return ContinueSentinel;
+    }
+
+    var info = record.arg;
+
+    if (! info) {
+      context.method = "throw";
+      context.arg = new TypeError("iterator result is not an object");
+      context.delegate = null;
+      return ContinueSentinel;
+    }
+
+    if (info.done) {
+      // Assign the result of the finished delegate to the temporary
+      // variable specified by delegate.resultName (see delegateYield).
+      context[delegate.resultName] = info.value;
+
+      // Resume execution at the desired location (see delegateYield).
+      context.next = delegate.nextLoc;
+
+      // If context.method was "throw" but the delegate handled the
+      // exception, let the outer generator proceed normally. If
+      // context.method was "next", forget context.arg since it has been
+      // "consumed" by the delegate iterator. If context.method was
+      // "return", allow the original .return call to continue in the
+      // outer generator.
+      if (context.method !== "return") {
+        context.method = "next";
+        context.arg = undefined$1;
+      }
+
+    } else {
+      // Re-yield the result returned by the delegate method.
+      return info;
+    }
+
+    // The delegate iterator is finished, so forget it and continue with
+    // the outer generator.
+    context.delegate = null;
+    return ContinueSentinel;
+  }
+
+  // Define Generator.prototype.{next,throw,return} in terms of the
+  // unified ._invoke helper method.
+  defineIteratorMethods(Gp);
+
+  define(Gp, toStringTagSymbol, "Generator");
+
+  // A Generator should always return itself as the iterator object when the
+  // @@iterator function is called on it. Some browsers' implementations of the
+  // iterator prototype chain incorrectly implement this, causing the Generator
+  // object to not be returned from this call. This ensures that doesn't happen.
+  // See https://github.com/facebook/regenerator/issues/274 for more details.
+  Gp[iteratorSymbol] = function() {
+    return this;
+  };
+
+  Gp.toString = function() {
+    return "[object Generator]";
+  };
+
+  function pushTryEntry(locs) {
+    var entry = { tryLoc: locs[0] };
+
+    if (1 in locs) {
+      entry.catchLoc = locs[1];
+    }
+
+    if (2 in locs) {
+      entry.finallyLoc = locs[2];
+      entry.afterLoc = locs[3];
+    }
+
+    this.tryEntries.push(entry);
+  }
+
+  function resetTryEntry(entry) {
+    var record = entry.completion || {};
+    record.type = "normal";
+    delete record.arg;
+    entry.completion = record;
+  }
+
+  function Context(tryLocsList) {
+    // The root entry object (effectively a try statement without a catch
+    // or a finally block) gives us a place to store values thrown from
+    // locations where there is no enclosing try statement.
+    this.tryEntries = [{ tryLoc: "root" }];
+    tryLocsList.forEach(pushTryEntry, this);
+    this.reset(true);
+  }
+
+  exports.keys = function(object) {
+    var keys = [];
+    for (var key in object) {
+      keys.push(key);
+    }
+    keys.reverse();
+
+    // Rather than returning an object with a next method, we keep
+    // things simple and return the next function itself.
+    return function next() {
+      while (keys.length) {
+        var key = keys.pop();
+        if (key in object) {
+          next.value = key;
+          next.done = false;
+          return next;
+        }
+      }
+
+      // To avoid creating an additional object, we just hang the .value
+      // and .done properties off the next function object itself. This
+      // also ensures that the minifier will not anonymize the function.
+      next.done = true;
+      return next;
+    };
+  };
+
+  function values(iterable) {
+    if (iterable) {
+      var iteratorMethod = iterable[iteratorSymbol];
+      if (iteratorMethod) {
+        return iteratorMethod.call(iterable);
+      }
+
+      if (typeof iterable.next === "function") {
+        return iterable;
+      }
+
+      if (!isNaN(iterable.length)) {
+        var i = -1, next = function next() {
+          while (++i < iterable.length) {
+            if (hasOwn.call(iterable, i)) {
+              next.value = iterable[i];
+              next.done = false;
+              return next;
+            }
+          }
+
+          next.value = undefined$1;
+          next.done = true;
+
+          return next;
+        };
+
+        return next.next = next;
+      }
+    }
+
+    // Return an iterator with no values.
+    return { next: doneResult };
+  }
+  exports.values = values;
+
+  function doneResult() {
+    return { value: undefined$1, done: true };
+  }
+
+  Context.prototype = {
+    constructor: Context,
+
+    reset: function(skipTempReset) {
+      this.prev = 0;
+      this.next = 0;
+      // Resetting context._sent for legacy support of Babel's
+      // function.sent implementation.
+      this.sent = this._sent = undefined$1;
+      this.done = false;
+      this.delegate = null;
+
+      this.method = "next";
+      this.arg = undefined$1;
+
+      this.tryEntries.forEach(resetTryEntry);
+
+      if (!skipTempReset) {
+        for (var name in this) {
+          // Not sure about the optimal order of these conditions:
+          if (name.charAt(0) === "t" &&
+              hasOwn.call(this, name) &&
+              !isNaN(+name.slice(1))) {
+            this[name] = undefined$1;
+          }
+        }
+      }
+    },
+
+    stop: function() {
+      this.done = true;
+
+      var rootEntry = this.tryEntries[0];
+      var rootRecord = rootEntry.completion;
+      if (rootRecord.type === "throw") {
+        throw rootRecord.arg;
+      }
+
+      return this.rval;
+    },
+
+    dispatchException: function(exception) {
+      if (this.done) {
+        throw exception;
+      }
+
+      var context = this;
+      function handle(loc, caught) {
+        record.type = "throw";
+        record.arg = exception;
+        context.next = loc;
+
+        if (caught) {
+          // If the dispatched exception was caught by a catch block,
+          // then let that catch block handle the exception normally.
+          context.method = "next";
+          context.arg = undefined$1;
+        }
+
+        return !! caught;
+      }
+
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        var record = entry.completion;
+
+        if (entry.tryLoc === "root") {
+          // Exception thrown outside of any try block that could handle
+          // it, so set the completion value of the entire function to
+          // throw the exception.
+          return handle("end");
+        }
+
+        if (entry.tryLoc <= this.prev) {
+          var hasCatch = hasOwn.call(entry, "catchLoc");
+          var hasFinally = hasOwn.call(entry, "finallyLoc");
+
+          if (hasCatch && hasFinally) {
+            if (this.prev < entry.catchLoc) {
+              return handle(entry.catchLoc, true);
+            } else if (this.prev < entry.finallyLoc) {
+              return handle(entry.finallyLoc);
+            }
+
+          } else if (hasCatch) {
+            if (this.prev < entry.catchLoc) {
+              return handle(entry.catchLoc, true);
+            }
+
+          } else if (hasFinally) {
+            if (this.prev < entry.finallyLoc) {
+              return handle(entry.finallyLoc);
+            }
+
+          } else {
+            throw new Error("try statement without catch or finally");
+          }
+        }
+      }
+    },
+
+    abrupt: function(type, arg) {
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        if (entry.tryLoc <= this.prev &&
+            hasOwn.call(entry, "finallyLoc") &&
+            this.prev < entry.finallyLoc) {
+          var finallyEntry = entry;
+          break;
+        }
+      }
+
+      if (finallyEntry &&
+          (type === "break" ||
+           type === "continue") &&
+          finallyEntry.tryLoc <= arg &&
+          arg <= finallyEntry.finallyLoc) {
+        // Ignore the finally entry if control is not jumping to a
+        // location outside the try/catch block.
+        finallyEntry = null;
+      }
+
+      var record = finallyEntry ? finallyEntry.completion : {};
+      record.type = type;
+      record.arg = arg;
+
+      if (finallyEntry) {
+        this.method = "next";
+        this.next = finallyEntry.finallyLoc;
+        return ContinueSentinel;
+      }
+
+      return this.complete(record);
+    },
+
+    complete: function(record, afterLoc) {
+      if (record.type === "throw") {
+        throw record.arg;
+      }
+
+      if (record.type === "break" ||
+          record.type === "continue") {
+        this.next = record.arg;
+      } else if (record.type === "return") {
+        this.rval = this.arg = record.arg;
+        this.method = "return";
+        this.next = "end";
+      } else if (record.type === "normal" && afterLoc) {
+        this.next = afterLoc;
+      }
+
+      return ContinueSentinel;
+    },
+
+    finish: function(finallyLoc) {
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        if (entry.finallyLoc === finallyLoc) {
+          this.complete(entry.completion, entry.afterLoc);
+          resetTryEntry(entry);
+          return ContinueSentinel;
+        }
+      }
+    },
+
+    "catch": function(tryLoc) {
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        if (entry.tryLoc === tryLoc) {
+          var record = entry.completion;
+          if (record.type === "throw") {
+            var thrown = record.arg;
+            resetTryEntry(entry);
+          }
+          return thrown;
+        }
+      }
+
+      // The context.catch method must only be called with a location
+      // argument that corresponds to a known catch block.
+      throw new Error("illegal catch attempt");
+    },
+
+    delegateYield: function(iterable, resultName, nextLoc) {
+      this.delegate = {
+        iterator: values(iterable),
+        resultName: resultName,
+        nextLoc: nextLoc
+      };
+
+      if (this.method === "next") {
+        // Deliberately forget the last sent value so that we don't
+        // accidentally pass it on to the delegate.
+        this.arg = undefined$1;
+      }
+
+      return ContinueSentinel;
+    }
+  };
+
+  // Regardless of whether this script is executing as a CommonJS module
+  // or not, return the runtime object so that we can declare the variable
+  // regeneratorRuntime in the outer scope, which allows this module to be
+  // injected easily by `bin/regenerator --include-runtime script.js`.
+  return exports;
+
+}(
+  // If this script is executing as a CommonJS module, use module.exports
+  // as the regeneratorRuntime namespace. Otherwise create a new empty
+  // object. Either way, the resulting object will be used to initialize
+  // the regeneratorRuntime variable at the top of this file.
+  module.exports 
+));
+
+try {
+  regeneratorRuntime = runtime;
+} catch (accidentalStrictMode) {
+  // This module should not be running in strict mode, so the above
+  // assignment should always work unless something is misconfigured. Just
+  // in case runtime.js accidentally runs in strict mode, we can escape
+  // strict mode using a global Function call. This could conceivably fail
+  // if a Content Security Policy forbids using Function, but in that case
+  // the proper solution is to fix the accidental strict mode problem. If
+  // you've misconfigured your bundler to force strict mode and applied a
+  // CSP to forbid Function, and you're not willing to fix either of those
+  // problems, please detail your unique predicament in a GitHub issue.
+  Function("r", "regeneratorRuntime = r")(runtime);
+}
+}(runtime));
+
+var _regeneratorRuntime = runtime.exports;
 
 /**
  * Fetch a Git repository and store it in tmpdir.
  *
  * @return {Promise<void>}
  */
-const fetchRepository = async (repoUrl) => {
-    const tmp = os.tmpdir();
-    const emitter = degit__default['default'](repoUrl, {
-        // cache can cause problems, so disable
-        cache: false,
-        // overwrite existing files
-        force: true,
-        // use verbose mode when developing
-        verbose: !PRODUCTION,
-    });
-    {
-        emitter.on('info', info => console.log(info.message));
-    }
-    const userRepo = repoUrl
-        .split('/')
-        .slice(0, 2)
-        .join('/');
-    const extractedAt = path.resolve(tmp, userRepo);
-    console.log(`Fetching ${repoUrl}`);
-    await emitter.clone(extractedAt);
-    console.log('Success.');
-    return extractedAt;
-};
 
-const isError = (error) => {
-    return (typeof error.message !== 'undefined' && typeof error.code !== 'undefined');
+var fetchRepository = /*#__PURE__*/function () {
+  var _ref = /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee(repoUrl) {
+    var tmp, emitter, userRepo, extractedAt;
+    return _regeneratorRuntime.wrap(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            tmp = os.tmpdir();
+            emitter = degit__default['default'](repoUrl, {
+              // cache can cause problems, so disable
+              cache: false,
+              // overwrite existing files
+              force: true,
+              // use verbose mode when developing
+              verbose: !PRODUCTION
+            });
+
+            {
+              emitter.on('info', function (info) {
+                return console.log(info.message);
+              });
+            }
+
+            userRepo = repoUrl.split('/').slice(0, 2).join('/');
+            extractedAt = path.resolve(tmp, userRepo);
+            console.log("Fetching " + repoUrl);
+            _context.next = 8;
+            return emitter.clone(extractedAt);
+
+          case 8:
+            console.log('Success.');
+            return _context.abrupt("return", extractedAt);
+
+          case 10:
+          case "end":
+            return _context.stop();
+        }
+      }
+    }, _callee);
+  }));
+
+  return function fetchRepository(_x) {
+    return _ref.apply(this, arguments);
+  };
+}();
+
+var isError = function isError(error) {
+  return typeof error.message !== 'undefined' && typeof error.code !== 'undefined';
 };
-const formattedError = (error) => {
-    return isError(error) ? error.message : error;
+var formattedError = function formattedError(error) {
+  return isError(error) ? error.message : error;
 };
 
 /**
@@ -195,15 +997,39 @@ const formattedError = (error) => {
  * @return {Promise<T>}
  * @template T
  */
-const parseJsonFile = async (file) => {
-    try {
-        const json = await fs__default['default'].promises.readFile(file, 'utf8');
-        return JSON.parse(json);
-    }
-    catch (error) {
-        throw new Error(`Failed to parse file ${file}: ${formattedError(error)}`);
-    }
-};
+
+var parseJsonFile = /*#__PURE__*/function () {
+  var _ref = /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee(file) {
+    var json;
+    return _regeneratorRuntime.wrap(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            _context.prev = 0;
+            _context.next = 3;
+            return fs__default['default'].promises.readFile(file, 'utf8');
+
+          case 3:
+            json = _context.sent;
+            return _context.abrupt("return", JSON.parse(json));
+
+          case 7:
+            _context.prev = 7;
+            _context.t0 = _context["catch"](0);
+            throw new Error("Failed to parse file " + file + ": " + formattedError(_context.t0));
+
+          case 10:
+          case "end":
+            return _context.stop();
+        }
+      }
+    }, _callee, null, [[0, 7]]);
+  }));
+
+  return function parseJsonFile(_x) {
+    return _ref.apply(this, arguments);
+  };
+}();
 /**
  * Validate raw token data, by checking if the required values are set and if
  * the decimals are larger than or equal to zero. This will strip any unknown
@@ -212,18 +1038,18 @@ const parseJsonFile = async (file) => {
  * @param {RawEthereumListsToken} token
  * @return {boolean}
  */
-const validateTokenData = (token) => {
-    const normalizedTokenData = {
-        ...pick__default['default'](token, Object.keys(RawEthereumListsTokenSchema.shape)),
-        deprecation: pick__default['default'](token.deprecation, Object.keys(TokenDeprecationSchema.shape)),
-        social: pick__default['default'](token.social, Object.keys(SocialSchema.shape)),
-    };
-    const validToken = TokenSchema.parse(normalizedTokenData);
-    const validSocial = SocialSchema.parse(normalizedTokenData.social);
-    return {
-        ...validToken,
-        social: validSocial,
-    };
+
+var validateTokenData = function validateTokenData(token) {
+  var normalizedTokenData = _extends({}, lodash.pick(token, Object.keys(RawEthereumListsTokenSchema.shape)), {
+    deprecation: lodash.pick(token.deprecation, Object.keys(TokenDeprecationSchema.shape)),
+    social: lodash.pick(token.social, Object.keys(SocialSchema.shape))
+  });
+
+  var validToken = TokenSchema.parse(normalizedTokenData);
+  var validSocial = SocialSchema.parse(normalizedTokenData.social);
+  return _extends({}, validToken, {
+    social: validSocial
+  });
 };
 /**
  * Sort tokens alphabetically by symbol.
@@ -231,13 +1057,17 @@ const validateTokenData = (token) => {
  * @param {Token[]} tokens
  * @return {Token[]}
  */
-const sortTokens = (tokens) => {
-    return tokens.sort((a, b) => a.symbol.localeCompare(b.symbol));
+
+var sortTokens = function sortTokens(tokens) {
+  return tokens.sort(function (a, b) {
+    return a.symbol.localeCompare(b.symbol);
+  });
 };
+
 function mapValuesDeep(v, callback) {
-    return isPlainObject__default['default'](v)
-        ? mapValues__default['default'](v, v => mapValuesDeep(v, callback))
-        : callback(v);
+  return lodash.isPlainObject(v) ? lodash.mapValues(v, function (v) {
+    return mapValuesDeep(v, callback);
+  }) : callback(v);
 }
 /**
  * Recursively loop through an token's values and `trim()` any values which are
@@ -246,49 +1076,148 @@ function mapValuesDeep(v, callback) {
  * @param {Token} token
  * @return {Token}
  */
-const deeplyTrimAllTokenStrings = (token) => {
-    return mapValuesDeep(token, (v) => (isString__default['default'](v) ? v.trim() : v));
+
+
+var deeplyTrimAllTokenStrings = function deeplyTrimAllTokenStrings(token) {
+  return mapValuesDeep(token, function (v) {
+    return lodash.isString(v) ? v.trim() : v;
+  });
 };
 
-async function parseContractMap() {
-    // fetch the latest commit from `eth-contract-metadata` repo and save it to disk
-    const extractedAt = await fetchRepository(CONTRACT_MAP_REPO);
-    // load contract map JSON file from directory
-    const jsonFile = path.resolve(extractedAt, 'contract-map.json');
-    const contractMap = await parseJsonFile(jsonFile);
-    return (Object.keys(contractMap)
-        .map((address) => ({
-        ...contractMap[address],
-        address,
-    }))
-        // remove any unknown/undesirable keys from each token object.
-        .map(token => pick__default['default'](token, Object.keys(RawContractMapTokenSchema.shape)))
-        // remove any tokens from the array if they contain null values for the
-        // keys that we care about.
-        .filter(token => Object.values(token).some(isEmpty__default['default']))
-        .map(validateTokenData));
+function parseContractMap() {
+  return _parseContractMap.apply(this, arguments);
 }
 
-async function mapDir({ dir, fileMap, limit = 10 }) {
-    /**
-     * Run in a pool to prevent EMFILE errors in serverless context.
-     */
-    const pool = pLimit__default['default'](limit);
-    /**
-     * Resolve dir and load files.
-     */
-    dir = path.resolve(dir);
-    const files = await fs__default['default'].promises.readdir(dir);
-    const resultPromises = files.map(file => async () => await fileMap(path.resolve(dir, file)));
-    const results = await Promise.all(resultPromises.map(resultPromise => pool(async () => await resultPromise())));
-    return results;
+function _parseContractMap() {
+  _parseContractMap = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee() {
+    var extractedAt, jsonFile, contractMap;
+    return _regeneratorRuntime.wrap(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            _context.next = 2;
+            return fetchRepository(CONTRACT_MAP_REPO);
+
+          case 2:
+            extractedAt = _context.sent;
+            // load contract map JSON file from directory
+            jsonFile = path.resolve(extractedAt, 'contract-map.json');
+            _context.next = 6;
+            return parseJsonFile(jsonFile);
+
+          case 6:
+            contractMap = _context.sent;
+            return _context.abrupt("return", Object.keys(contractMap).map(function (address) {
+              return _extends({}, contractMap[address], {
+                address: address
+              });
+            }) // remove any unknown/undesirable keys from each token object.
+            . // remove any unknown/undesirable keys from each token object.
+            map(function (token) {
+              return lodash.pick(token, Object.keys(RawContractMapTokenSchema.shape));
+            }) // remove any tokens from the array if they contain null values for the
+            // keys that we care about.
+            . // remove any tokens from the array if they contain null values for the
+            // keys that we care about.
+            filter(function (token) {
+              return Object.values(token).some(lodash.isEmpty);
+            }).map(validateTokenData));
+
+          case 8:
+          case "end":
+            return _context.stop();
+        }
+      }
+    }, _callee);
+  }));
+  return _parseContractMap.apply(this, arguments);
 }
 
-/**
- * @fileoverview
- * This file uses fs.readdir in a pure JS Git context, so it relies on
- * graceful-fs to prevent EMFILE errors in serverless environments.
- */
+function mapDir(_x) {
+  return _mapDir.apply(this, arguments);
+}
+
+function _mapDir() {
+  _mapDir = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee3(_ref) {
+    var dir, fileMap, _ref$limit, limit, pool, files, resultPromises, results;
+
+    return _regeneratorRuntime.wrap(function _callee3$(_context3) {
+      while (1) {
+        switch (_context3.prev = _context3.next) {
+          case 0:
+            dir = _ref.dir, fileMap = _ref.fileMap, _ref$limit = _ref.limit, limit = _ref$limit === void 0 ? 10 : _ref$limit;
+
+            /**
+             * Run in a pool to prevent EMFILE errors in serverless context.
+             */
+            pool = pLimit__default['default'](limit);
+            /**
+             * Resolve dir and load files.
+             */
+
+            dir = path.resolve(dir);
+            _context3.next = 5;
+            return fs__default['default'].promises.readdir(dir);
+
+          case 5:
+            files = _context3.sent;
+            resultPromises = files.map(function (file) {
+              return /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee() {
+                return _regeneratorRuntime.wrap(function _callee$(_context) {
+                  while (1) {
+                    switch (_context.prev = _context.next) {
+                      case 0:
+                        _context.next = 2;
+                        return fileMap(path.resolve(dir, file));
+
+                      case 2:
+                        return _context.abrupt("return", _context.sent);
+
+                      case 3:
+                      case "end":
+                        return _context.stop();
+                    }
+                  }
+                }, _callee);
+              }));
+            });
+            _context3.next = 9;
+            return Promise.all(resultPromises.map(function (resultPromise) {
+              return pool( /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee2() {
+                return _regeneratorRuntime.wrap(function _callee2$(_context2) {
+                  while (1) {
+                    switch (_context2.prev = _context2.next) {
+                      case 0:
+                        _context2.next = 2;
+                        return resultPromise();
+
+                      case 2:
+                        return _context2.abrupt("return", _context2.sent);
+
+                      case 3:
+                      case "end":
+                        return _context2.stop();
+                    }
+                  }
+                }, _callee2);
+              })));
+            }));
+
+          case 9:
+            results = _context3.sent;
+            return _context3.abrupt("return", results);
+
+          case 11:
+          case "end":
+            return _context3.stop();
+        }
+      }
+    }, _callee3);
+  }));
+  return _mapDir.apply(this, arguments);
+}
+
+var _excluded$1 = ["deprecation"];
 /**
  * Partition tokens array into two categories: unique vs duplicates, according to
  * their token symbol
@@ -296,12 +1225,16 @@ async function mapDir({ dir, fileMap, limit = 10 }) {
  * @param {Token[]} tokens
  * @return {Token[][]}
  */
-const partitionByUniqueness = (tokens) => {
-    const [uniqueTokens, duplicateTokens] = partition__default['default'](tokens, token => {
-        const dups = filter__default['default'](tokens, ['symbol', token.symbol]);
-        return dups.length === 1;
-    });
-    return [uniqueTokens, duplicateTokens];
+
+var partitionByUniqueness = function partitionByUniqueness(tokens) {
+  var _partition = lodash.partition(tokens, function (token) {
+    var dups = lodash.filter(tokens, ['symbol', token.symbol]);
+    return dups.length === 1;
+  }),
+      uniqueTokens = _partition[0],
+      duplicateTokens = _partition[1];
+
+  return [uniqueTokens, duplicateTokens];
 };
 /**
  * Finds deprecated tokens and replaces them with the data
@@ -311,13 +1244,14 @@ const partitionByUniqueness = (tokens) => {
  *
  * @return {Token[]}
  */
+
 function resolveDeprecations(tokens) {
-    return tokens.map(({ deprecation, ...token }) => {
-        return !deprecation?.new_address
-            ? token
-            : tokens.find(matchesProperty__default['default']('address', deprecation.new_address)) ||
-                token;
-    });
+  return tokens.map(function (_ref) {
+    var deprecation = _ref.deprecation,
+        token = _objectWithoutPropertiesLoose(_ref, _excluded$1);
+
+    return !(deprecation != null && deprecation.new_address) ? token : tokens.find(lodash.matchesProperty('address', deprecation.new_address)) || token;
+  });
 }
 /**
  * Load the token JSON files from directory, and then validate them
@@ -325,13 +1259,9 @@ function resolveDeprecations(tokens) {
  *
  * @return {Token[]}
  */
-async function parseEthereumListsTokenFiles(extractedAt) {
-    const fileMap = async (file) => {
-        const tokenData = await parseJsonFile(file);
-        return validateTokenData(tokenData);
-    };
-    const results = await mapDir({ dir: extractedAt, fileMap });
-    return results;
+
+function parseEthereumListsTokenFiles(_x) {
+  return _parseEthereumListsTokenFiles.apply(this, arguments);
 }
 /**
  * Fetch the latest commit from `ethereum-lists/tokens` repo and parse
@@ -339,12 +1269,92 @@ async function parseEthereumListsTokenFiles(extractedAt) {
  *
  * @return {Token[][]}
  */
-async function parseEthereumLists() {
-    const extractedAt = await fetchRepository(ETHEREUM_LISTS_REPO);
-    const tokenLists = await parseEthereumListsTokenFiles(extractedAt)
-        .then(resolveDeprecations)
-        .then(partitionByUniqueness);
-    return tokenLists;
+
+function _parseEthereumListsTokenFiles() {
+  _parseEthereumListsTokenFiles = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee2(extractedAt) {
+    var fileMap, results;
+    return _regeneratorRuntime.wrap(function _callee2$(_context2) {
+      while (1) {
+        switch (_context2.prev = _context2.next) {
+          case 0:
+            fileMap = /*#__PURE__*/function () {
+              var _ref2 = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee(file) {
+                var tokenData;
+                return _regeneratorRuntime.wrap(function _callee$(_context) {
+                  while (1) {
+                    switch (_context.prev = _context.next) {
+                      case 0:
+                        _context.next = 2;
+                        return parseJsonFile(file);
+
+                      case 2:
+                        tokenData = _context.sent;
+                        return _context.abrupt("return", validateTokenData(tokenData));
+
+                      case 4:
+                      case "end":
+                        return _context.stop();
+                    }
+                  }
+                }, _callee);
+              }));
+
+              return function fileMap(_x2) {
+                return _ref2.apply(this, arguments);
+              };
+            }();
+
+            _context2.next = 3;
+            return mapDir({
+              dir: extractedAt,
+              fileMap: fileMap
+            });
+
+          case 3:
+            results = _context2.sent;
+            return _context2.abrupt("return", results);
+
+          case 5:
+          case "end":
+            return _context2.stop();
+        }
+      }
+    }, _callee2);
+  }));
+  return _parseEthereumListsTokenFiles.apply(this, arguments);
+}
+
+function parseEthereumLists() {
+  return _parseEthereumLists.apply(this, arguments);
+}
+
+function _parseEthereumLists() {
+  _parseEthereumLists = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee3() {
+    var extractedAt, tokenLists;
+    return _regeneratorRuntime.wrap(function _callee3$(_context3) {
+      while (1) {
+        switch (_context3.prev = _context3.next) {
+          case 0:
+            _context3.next = 2;
+            return fetchRepository(ETHEREUM_LISTS_REPO);
+
+          case 2:
+            extractedAt = _context3.sent;
+            _context3.next = 5;
+            return parseEthereumListsTokenFiles(extractedAt).then(resolveDeprecations).then(partitionByUniqueness);
+
+          case 5:
+            tokenLists = _context3.sent;
+            return _context3.abrupt("return", tokenLists);
+
+          case 7:
+          case "end":
+            return _context3.stop();
+        }
+      }
+    }, _callee3);
+  }));
+  return _parseEthereumLists.apply(this, arguments);
 }
 
 var name = "Rainbow Token List";
@@ -47079,272 +48089,595 @@ var OFFLINE_TOKEN_METADATA = {
  * @param offlineData The data to fallback to in case of network failure.
  * @returns The Token List dataset.
  */
-const loadFromEndpoint = async (endpoint, offlineData) => {
-    console.log('Making request to', endpoint);
-    try {
-        const result = await fetch__default['default'](endpoint);
-        console.log('REQUEST SUCCEEDED.');
-        return await result.json();
-    }
-    catch (e) {
-        console.log('REQUEST FAILED.', e);
-        return offlineData;
-    }
-};
+
+var loadFromEndpoint = /*#__PURE__*/function () {
+  var _ref = /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee(endpoint, offlineData) {
+    var result;
+    return _regeneratorRuntime.wrap(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            console.log('Making request to', endpoint);
+            _context.prev = 1;
+            _context.next = 4;
+            return fetch__default['default'](endpoint);
+
+          case 4:
+            result = _context.sent;
+            console.log('REQUEST SUCCEEDED.');
+            _context.next = 8;
+            return result.json();
+
+          case 8:
+            return _context.abrupt("return", _context.sent);
+
+          case 11:
+            _context.prev = 11;
+            _context.t0 = _context["catch"](1);
+            console.log('REQUEST FAILED.', _context.t0);
+            return _context.abrupt("return", offlineData);
+
+          case 15:
+          case "end":
+            return _context.stop();
+        }
+      }
+    }, _callee, null, [[1, 11]]);
+  }));
+
+  return function loadFromEndpoint(_x, _x2) {
+    return _ref.apply(this, arguments);
+  };
+}();
 /**
  * Load the full Token List, including any manual tokens.
  *
  * @param offlineData The data to fallback to in case of network failure.
  * @returns The full Token List.
  */
-const loadTokenList = async () => {
-    const tokenData = await loadFromEndpoint(REMOTE_TOKEN_LIST_ENDPOINT, OFFLINE_TOKEN_METADATA);
-    const tokens = await tokenListFromData(tokenData);
-    return tokens;
-};
+
+var loadTokenList = /*#__PURE__*/function () {
+  var _ref2 = /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee2() {
+    var tokenData, tokens;
+    return _regeneratorRuntime.wrap(function _callee2$(_context2) {
+      while (1) {
+        switch (_context2.prev = _context2.next) {
+          case 0:
+            _context2.next = 2;
+            return loadFromEndpoint(REMOTE_TOKEN_LIST_ENDPOINT, OFFLINE_TOKEN_METADATA);
+
+          case 2:
+            tokenData = _context2.sent;
+            _context2.next = 5;
+            return tokenListFromData(tokenData);
+
+          case 5:
+            tokens = _context2.sent;
+            return _context2.abrupt("return", tokens);
+
+          case 7:
+          case "end":
+            return _context2.stop();
+        }
+      }
+    }, _callee2);
+  }));
+
+  return function loadTokenList() {
+    return _ref2.apply(this, arguments);
+  };
+}();
 /**
  * Load the Token Overrides List.
  * @returns All token overrides.
  */
-const loadTokenOverrides = async () => {
-    const overrides = loadFromEndpoint(REMOTE_TOKEN_OVERRIDES_ENDPOINT, rainbowOverrides.OFFLINE_TOKEN_OVERRIDES);
-    return overrides;
-};
+
+var loadTokenOverrides = /*#__PURE__*/function () {
+  var _ref3 = /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee3() {
+    var overrides;
+    return _regeneratorRuntime.wrap(function _callee3$(_context3) {
+      while (1) {
+        switch (_context3.prev = _context3.next) {
+          case 0:
+            overrides = loadFromEndpoint(REMOTE_TOKEN_OVERRIDES_ENDPOINT, rainbowOverrides.OFFLINE_TOKEN_OVERRIDES);
+            return _context3.abrupt("return", overrides);
+
+          case 2:
+          case "end":
+            return _context3.stop();
+        }
+      }
+    }, _callee3);
+  }));
+
+  return function loadTokenOverrides() {
+    return _ref3.apply(this, arguments);
+  };
+}();
 /**
  * Get the Token List from raw metadata.
  *
  * @param tokenData The raw Token List data to process.
  * @returns The Token List.
  */
-const tokenListFromData = async (tokenData) => {
-    const loadedTokens = map__default['default'](tokenData.tokens, token => {
-        const { address: rawAddress, decimals, name, symbol, extensions } = token;
-        const address = toLower__default['default'](rawAddress);
-        return {
-            address,
-            decimals,
-            name,
-            symbol,
-            uniqueId: address,
-            ...extensions,
-        };
-    });
-    return loadedTokens;
-};
 
-async function parseOverrides() {
-    const overrides = await loadTokenOverrides();
-    // load svg manifest JSON file from directory
-    return mapKeys__default['default'](overrides, (...args) => {
-        if (args[1] === 'eth')
-            return args[1];
-        return address.getAddress(args[1]);
-    });
+var tokenListFromData = /*#__PURE__*/function () {
+  var _ref4 = /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee4(tokenData) {
+    var loadedTokens;
+    return _regeneratorRuntime.wrap(function _callee4$(_context4) {
+      while (1) {
+        switch (_context4.prev = _context4.next) {
+          case 0:
+            loadedTokens = lodash.map(tokenData.tokens, function (token) {
+              var rawAddress = token.address,
+                  decimals = token.decimals,
+                  name = token.name,
+                  symbol = token.symbol,
+                  extensions = token.extensions;
+              var address = lodash.toLower(rawAddress);
+              return _extends({
+                address: address,
+                decimals: decimals,
+                name: name,
+                symbol: symbol,
+                uniqueId: address
+              }, extensions);
+            });
+            return _context4.abrupt("return", loadedTokens);
+
+          case 2:
+          case "end":
+            return _context4.stop();
+        }
+      }
+    }, _callee4);
+  }));
+
+  return function tokenListFromData(_x3) {
+    return _ref4.apply(this, arguments);
+  };
+}();
+
+function parseOverrides() {
+  return _parseOverrides.apply(this, arguments);
 }
 
-/**
- * @fileoverview
- * This file uses fs.readdir in a pure JS Git context, so it relies on
- * graceful-fs to prevent EMFILE errors in serverless environments.
- */
-const SVG_ORIGINALS_REPO = 'spothq/cryptocurrency-icons';
-const SVG_OVERRIDES_REPO = 'mikedemarais/react-coin-icon/assets/overrides';
-async function parseOriginalSVGIcons() {
-    // fetch the latest commit from `spothq/cryptocurrency-icons` repo and save it to disk
-    const extractedAt = await fetchRepository(SVG_ORIGINALS_REPO);
-    // load svg manifest JSON file from directory
-    const jsonFile = path.resolve(extractedAt, 'manifest.json');
-    return parseJsonFile(jsonFile);
-}
-async function parseOverrideSVGIcons() {
-    const extractedAt = await fetchRepository(SVG_OVERRIDES_REPO);
-    const fileMap = async (file) => {
-        const svg = await fs__default['default'].promises.readFile(file, 'utf8');
-        // Attempt to get SVG's "color" by reading it's first "fill"
-        // value (which is usually the icon's background).
-        const fillColor = getSVGColors__default['default'](svg).fills[0];
-        let svgToken = undefined;
-        if (fillColor) {
-            svgToken = {
-                symbol: file.split('.')[0].toUpperCase(),
-                color: makeColorMoreChill__default['default'](fillColor.hex().toLowerCase()),
-            };
+function _parseOverrides() {
+  _parseOverrides = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee() {
+    var overrides;
+    return _regeneratorRuntime.wrap(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            _context.next = 2;
+            return loadTokenOverrides();
+
+          case 2:
+            overrides = _context.sent;
+            return _context.abrupt("return", lodash.mapKeys(overrides, function () {
+              if ((arguments.length <= 1 ? undefined : arguments[1]) === 'eth') return arguments.length <= 1 ? undefined : arguments[1];
+              return address.getAddress(arguments.length <= 1 ? undefined : arguments[1]);
+            }));
+
+          case 4:
+          case "end":
+            return _context.stop();
         }
-        else {
-            console.error(`Couldn't derive color from the "rainbow override" SVG file: \`${file}\``);
-        }
-        return svgToken;
-    };
-    const results = await mapDir({
-        dir: extractedAt,
-        fileMap,
-    });
-    return compact__default['default'](results);
+      }
+    }, _callee);
+  }));
+  return _parseOverrides.apply(this, arguments);
 }
-async function parseSVGIconTokenFiles() {
-    const originals = await parseOriginalSVGIcons();
-    const overrides = await parseOverrideSVGIcons();
-    return unionBy__default['default'](originals, overrides, 'symbol');
+
+var SVG_ORIGINALS_REPO = 'spothq/cryptocurrency-icons';
+var SVG_OVERRIDES_REPO = 'mikedemarais/react-coin-icon/assets/overrides';
+
+function parseOriginalSVGIcons() {
+  return _parseOriginalSVGIcons.apply(this, arguments);
+}
+
+function _parseOriginalSVGIcons() {
+  _parseOriginalSVGIcons = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee() {
+    var extractedAt, jsonFile;
+    return _regeneratorRuntime.wrap(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            _context.next = 2;
+            return fetchRepository(SVG_ORIGINALS_REPO);
+
+          case 2:
+            extractedAt = _context.sent;
+            // load svg manifest JSON file from directory
+            jsonFile = path.resolve(extractedAt, 'manifest.json');
+            return _context.abrupt("return", parseJsonFile(jsonFile));
+
+          case 5:
+          case "end":
+            return _context.stop();
+        }
+      }
+    }, _callee);
+  }));
+  return _parseOriginalSVGIcons.apply(this, arguments);
+}
+
+function parseOverrideSVGIcons() {
+  return _parseOverrideSVGIcons.apply(this, arguments);
+}
+
+function _parseOverrideSVGIcons() {
+  _parseOverrideSVGIcons = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee3() {
+    var extractedAt, fileMap, results;
+    return _regeneratorRuntime.wrap(function _callee3$(_context3) {
+      while (1) {
+        switch (_context3.prev = _context3.next) {
+          case 0:
+            _context3.next = 2;
+            return fetchRepository(SVG_OVERRIDES_REPO);
+
+          case 2:
+            extractedAt = _context3.sent;
+
+            fileMap = /*#__PURE__*/function () {
+              var _ref = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee2(file) {
+                var svg, fillColor, svgToken;
+                return _regeneratorRuntime.wrap(function _callee2$(_context2) {
+                  while (1) {
+                    switch (_context2.prev = _context2.next) {
+                      case 0:
+                        _context2.next = 2;
+                        return fs__default['default'].promises.readFile(file, 'utf8');
+
+                      case 2:
+                        svg = _context2.sent;
+                        // Attempt to get SVG's "color" by reading it's first "fill"
+                        // value (which is usually the icon's background).
+                        fillColor = getSVGColors__default['default'](svg).fills[0];
+                        svgToken = undefined;
+
+                        if (fillColor) {
+                          svgToken = {
+                            symbol: file.split('.')[0].toUpperCase(),
+                            color: makeColorMoreChill__default['default'](fillColor.hex().toLowerCase())
+                          };
+                        } else {
+                          console.error("Couldn't derive color from the \"rainbow override\" SVG file: `" + file + "`");
+                        }
+
+                        return _context2.abrupt("return", svgToken);
+
+                      case 7:
+                      case "end":
+                        return _context2.stop();
+                    }
+                  }
+                }, _callee2);
+              }));
+
+              return function fileMap(_x) {
+                return _ref.apply(this, arguments);
+              };
+            }();
+
+            _context3.next = 6;
+            return mapDir({
+              dir: extractedAt,
+              fileMap: fileMap
+            });
+
+          case 6:
+            results = _context3.sent;
+            return _context3.abrupt("return", lodash.compact(results));
+
+          case 8:
+          case "end":
+            return _context3.stop();
+        }
+      }
+    }, _callee3);
+  }));
+  return _parseOverrideSVGIcons.apply(this, arguments);
+}
+
+function parseSVGIconTokenFiles() {
+  return _parseSVGIconTokenFiles.apply(this, arguments);
+}
+
+function _parseSVGIconTokenFiles() {
+  _parseSVGIconTokenFiles = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee4() {
+    var originals, overrides;
+    return _regeneratorRuntime.wrap(function _callee4$(_context4) {
+      while (1) {
+        switch (_context4.prev = _context4.next) {
+          case 0:
+            _context4.next = 2;
+            return parseOriginalSVGIcons();
+
+          case 2:
+            originals = _context4.sent;
+            _context4.next = 5;
+            return parseOverrideSVGIcons();
+
+          case 5:
+            overrides = _context4.sent;
+            return _context4.abrupt("return", lodash.unionBy(originals, overrides, 'symbol'));
+
+          case 7:
+          case "end":
+            return _context4.stop();
+        }
+      }
+    }, _callee4);
+  }));
+  return _parseSVGIconTokenFiles.apply(this, arguments);
 }
 
 function reduceArrayToObject(array) {
-    return array.reduce((item, culm) => Object.assign(culm, item), {});
+  return array.reduce(function (item, culm) {
+    return Object.assign(culm, item);
+  }, {});
 }
-const TokenListStore = zod.z.object({
-    tags: zod.z
-        .any()
-        .array()
-        .optional(),
-    tokens: zod.z
-        .any()
-        .array()
-        .optional(),
+var TokenListStore = /*#__PURE__*/zod.z.object({
+  tags: /*#__PURE__*/zod.z.any().array().optional(),
+  tokens: /*#__PURE__*/zod.z.any().array().optional()
 });
-const TokenListStoreRecord = zod.z.record(TokenListStore);
-const omitTokenWithTag = (tokens, tag) => tokens.filter(({ tags = [] }) => !tags.includes(tag));
-const pickTokenWithTag = (tokens, tag) => tokens.filter(({ tags = [] }) => tags.includes(tag));
-const { aave, roll } = TokenListEnumSchema.enum;
-async function parseTokenLists() {
-    const listsArray = await Promise.all(TokenListEnumSchema.options.map(async (list) => {
-        return new Promise(async (resolve, reject) => 
-        // fetch the TokenList from remote uri
-        fetch__default['default'](TOKEN_LISTS[list])
-            .then(res => res.json())
-            .then(({ tags, tokens }) => resolve({ [list]: { tags, tokens } }))
-            .catch(reject));
-    }));
-    return reduceArrayToObject(listsArray.map((list) => {
-        const listName = Object.keys(list)[0];
-        const newList = { ...list };
-        if (listName === roll) {
-            newList[roll].tokens = omitTokenWithTag(newList[roll].tokens, 'bases');
-        }
-        if (listName === aave) {
-            newList[aave].tokens = [
-                ...pickTokenWithTag(newList[aave].tokens, 'atokenv1'),
-                ...pickTokenWithTag(newList[aave].tokens, 'atokenv2'),
-            ];
-        }
-        return newList;
-    }));
+var TokenListStoreRecord = /*#__PURE__*/zod.z.record(TokenListStore);
+
+var omitTokenWithTag = function omitTokenWithTag(tokens, tag) {
+  return tokens.filter(function (_ref) {
+    var _ref$tags = _ref.tags,
+        tags = _ref$tags === void 0 ? [] : _ref$tags;
+    return !tags.includes(tag);
+  });
+};
+
+var pickTokenWithTag = function pickTokenWithTag(tokens, tag) {
+  return tokens.filter(function (_ref2) {
+    var _ref2$tags = _ref2.tags,
+        tags = _ref2$tags === void 0 ? [] : _ref2$tags;
+    return tags.includes(tag);
+  });
+};
+
+var _TokenListEnumSchema$ = TokenListEnumSchema["enum"],
+    aave = _TokenListEnumSchema$.aave,
+    roll = _TokenListEnumSchema$.roll;
+function parseTokenLists() {
+  return _parseTokenLists.apply(this, arguments);
 }
 
-function normalizeList(list) {
-    return keyBy__default['default'](list, ({ address: address$1 }) => address.getAddress(address$1));
+function _parseTokenLists() {
+  _parseTokenLists = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee3() {
+    var listsArray;
+    return _regeneratorRuntime.wrap(function _callee3$(_context3) {
+      while (1) {
+        switch (_context3.prev = _context3.next) {
+          case 0:
+            _context3.next = 2;
+            return Promise.all(TokenListEnumSchema.options.map( /*#__PURE__*/function () {
+              var _ref3 = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee2(list) {
+                return _regeneratorRuntime.wrap(function _callee2$(_context2) {
+                  while (1) {
+                    switch (_context2.prev = _context2.next) {
+                      case 0:
+                        return _context2.abrupt("return", new Promise( /*#__PURE__*/function () {
+                          var _ref4 = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee(resolve, reject) {
+                            return _regeneratorRuntime.wrap(function _callee$(_context) {
+                              while (1) {
+                                switch (_context.prev = _context.next) {
+                                  case 0:
+                                    return _context.abrupt("return", // fetch the TokenList from remote uri
+                                    fetch__default['default'](TOKEN_LISTS[list]).then(function (res) {
+                                      return res.json();
+                                    }).then(function (_ref5) {
+                                      var _resolve;
+
+                                      var tags = _ref5.tags,
+                                          tokens = _ref5.tokens;
+                                      return resolve((_resolve = {}, _resolve[list] = {
+                                        tags: tags,
+                                        tokens: tokens
+                                      }, _resolve));
+                                    })["catch"](reject));
+
+                                  case 1:
+                                  case "end":
+                                    return _context.stop();
+                                }
+                              }
+                            }, _callee);
+                          }));
+
+                          return function (_x2, _x3) {
+                            return _ref4.apply(this, arguments);
+                          };
+                        }()));
+
+                      case 1:
+                      case "end":
+                        return _context2.stop();
+                    }
+                  }
+                }, _callee2);
+              }));
+
+              return function (_x) {
+                return _ref3.apply(this, arguments);
+              };
+            }()));
+
+          case 2:
+            listsArray = _context3.sent;
+            return _context3.abrupt("return", reduceArrayToObject(listsArray.map(function (list) {
+              var listName = Object.keys(list)[0];
+
+              var newList = _extends({}, list);
+
+              if (listName === roll) {
+                newList[roll].tokens = omitTokenWithTag(newList[roll].tokens, 'bases');
+              }
+
+              if (listName === aave) {
+                newList[aave].tokens = [].concat(pickTokenWithTag(newList[aave].tokens, 'atokenv1'), pickTokenWithTag(newList[aave].tokens, 'atokenv2'));
+              }
+
+              return newList;
+            })));
+
+          case 4:
+          case "end":
+            return _context3.stop();
+        }
+      }
+    }, _callee3);
+  }));
+  return _parseTokenLists.apply(this, arguments);
 }
-async function build() {
-    /**
-     * Parse all of the data we need for the Token List build process. Run
-     * concurrently, since we do not need to execute in a serverless environment,
-     * but disable this if that changes.
-     */
-    const [rainbowOverrides, contractMapTokens, svgIcons, tokenListTokens, [uniqueEthereumListTokens, duplicateEthereumListTokens],] = await Promise.all([
-        parseOverrides(),
-        parseContractMap(),
-        parseSVGIconTokenFiles(),
-        parseTokenLists(),
-        parseEthereumLists(),
-    ]).catch(e => {
-        throw new Error(`Could not load all token resources: ${e}`);
-    });
-    // const rainbowOverrides = await parseOverrides();
-    // const contractMapTokens = await parseContractMap();
-    // const svgIcons = await parseSVGIconTokenFiles();
-    // const tokenListTokens = await parseTokenLists();
-    // const [
-    //   uniqueEthereumListTokens,
-    //   duplicateEthereumListTokens,
-    // ] = await parseEthereumLists();
-    const { coingecko, ...preferredTokenLists } = tokenListTokens;
-    const sources = {
-        default: [
-            duplicateEthereumListTokens,
-            uniqueEthereumListTokens,
-            contractMapTokens,
-            coingecko.tokens.flat(),
-        ].map(normalizeList),
-        preferred: [
-            Object.values(preferredTokenLists)
-                .map(({ tokens }) => tokens)
-                .flat(),
-        ].map(normalizeList),
-    };
-    const defaultSources = merge__default['default']({}, ...sources.default);
-    const allKnownTokenAddresses = uniq__default['default'](compact__default['default']([
-        ...sources.default.map(Object.keys).flat(),
-        ...sources.preferred.map(Object.keys).flat(),
-    ]).map(address.getAddress));
-    function resolveTokenInfo(tokenAddress) {
-        function matchToken({ address }) {
-            return toLower__default['default'](address) === toLower__default['default'](tokenAddress);
-        }
-        const lists = pick__default['default'](tokenListTokens, Object.keys(tokenListTokens).filter((list) => some__default['default'](tokenListTokens[list].tokens, matchToken)));
-        if (Object.keys(lists).length === 1) {
-            return find__default['default'](lists[Object.keys(lists)[0]].tokens, matchToken);
-        }
-        else if (Object.keys(lists).length > 1) {
-            const listNames = Object.keys(lists);
-            if (listNames.includes(TokenListEnumSchema.enum.synthetix)) {
-                return find__default['default'](lists.synthetix.tokens, matchToken);
-            }
-            else if (listNames.includes(TokenListEnumSchema.enum.aave)) {
-                return find__default['default'](lists.aave.tokens, matchToken);
-            }
-            else if (listNames.includes(TokenListEnumSchema.enum.roll)) {
-                return find__default['default'](lists.roll.tokens, matchToken);
-            }
-            else if (listNames.includes(TokenListEnumSchema.enum.dharma)) {
-                return find__default['default'](lists.dharma.tokens, matchToken);
-            }
-            else if (listNames.includes(TokenListEnumSchema.enum.kleros)) {
-                return find__default['default'](lists.kleros.tokens, matchToken);
-            }
-            else if (listNames.includes(TokenListEnumSchema.enum.wrapped)) {
-                return find__default['default'](lists.wrapped.tokens, matchToken);
-            }
-            else if (listNames.includes(TokenListEnumSchema.enum.coingecko)) {
-                return find__default['default'](lists.coingecko.tokens, matchToken);
-            }
-        }
-        return defaultSources[tokenAddress];
-    }
-    function buildTokenList() {
-        return allKnownTokenAddresses.map((tokenAddress) => {
-            const token = resolveTokenInfo(tokenAddress);
-            const overrideToken = rainbowOverrides[tokenAddress];
-            let { chainId = 1, color, decimals, name, shadowColor, symbol } = token;
-            const isVerified = sources.preferred
-                .map(Object.keys)
-                .flat()
-                .includes(tokenAddress);
-            if (isVerified) {
-                const logoData = svgIcons.find(item => item.symbol === symbol);
-                color = logoData?.color;
-            }
-            const extensions = {
-                color: overrideToken?.color || color,
-                isRainbowCurated: overrideToken?.isCurated ? true : undefined,
-                isVerified: isVerified || overrideToken?.isCurated
-                    ? true
-                    : !!overrideToken?.isVerified || undefined,
-                shadowColor: overrideToken?.shadowColor || shadowColor,
+
+var _excluded = ["coingecko"];
+
+function normalizeList(list) {
+  return lodash.keyBy(list, function (_ref) {
+    var address$1 = _ref.address;
+    return address.getAddress(address$1);
+  });
+}
+
+function build() {
+  return _build.apply(this, arguments);
+}
+
+function _build() {
+  _build = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee() {
+    var _yield$Promise$all$ca, rainbowOverrides, contractMapTokens, svgIcons, tokenListTokens, _yield$Promise$all$ca2, uniqueEthereumListTokens, duplicateEthereumListTokens, coingecko, preferredTokenLists, sources, defaultSources, allKnownTokenAddresses, resolveTokenInfo, buildTokenList, tokens;
+
+    return _regeneratorRuntime.wrap(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            buildTokenList = function _buildTokenList() {
+              return allKnownTokenAddresses.map(function (tokenAddress) {
+                var token = resolveTokenInfo(tokenAddress);
+                var overrideToken = rainbowOverrides[tokenAddress];
+                var _token$chainId = token.chainId,
+                    chainId = _token$chainId === void 0 ? 1 : _token$chainId,
+                    color = token.color,
+                    decimals = token.decimals,
+                    name = token.name,
+                    shadowColor = token.shadowColor,
+                    symbol = token.symbol;
+                var isVerified = sources.preferred.map(Object.keys).flat().includes(tokenAddress);
+
+                if (isVerified) {
+                  var logoData = svgIcons.find(function (item) {
+                    return item.symbol === symbol;
+                  });
+                  color = logoData == null ? void 0 : logoData.color;
+                }
+
+                var extensions = {
+                  color: (overrideToken == null ? void 0 : overrideToken.color) || color,
+                  isRainbowCurated: overrideToken != null && overrideToken.isCurated ? true : undefined,
+                  isVerified: isVerified || overrideToken != null && overrideToken.isCurated ? true : !!(overrideToken != null && overrideToken.isVerified) || undefined,
+                  shadowColor: (overrideToken == null ? void 0 : overrideToken.shadowColor) || shadowColor
+                };
+                return deeplyTrimAllTokenStrings(_extends({
+                  address: tokenAddress,
+                  chainId: chainId,
+                  decimals: decimals,
+                  name: (overrideToken == null ? void 0 : overrideToken.name) || name,
+                  symbol: (overrideToken == null ? void 0 : overrideToken.symbol) || symbol
+                }, lodash.compact(Object.values(extensions)).length ? {
+                  extensions: extensions
+                } : undefined));
+              });
             };
-            return deeplyTrimAllTokenStrings({
-                address: tokenAddress,
-                chainId,
-                decimals,
-                name: overrideToken?.name || name,
-                symbol: overrideToken?.symbol || symbol,
-                ...(compact__default['default'](Object.values(extensions)).length
-                    ? { extensions }
-                    : undefined),
+
+            resolveTokenInfo = function _resolveTokenInfo(tokenAddress) {
+              function matchToken(_ref3) {
+                var address = _ref3.address;
+                return lodash.toLower(address) === lodash.toLower(tokenAddress);
+              }
+
+              var lists = lodash.pick(tokenListTokens, Object.keys(tokenListTokens).filter(function (list) {
+                return lodash.some(tokenListTokens[list].tokens, matchToken);
+              }));
+
+              if (Object.keys(lists).length === 1) {
+                return lodash.find(lists[Object.keys(lists)[0]].tokens, matchToken);
+              } else if (Object.keys(lists).length > 1) {
+                var listNames = Object.keys(lists);
+
+                if (listNames.includes(TokenListEnumSchema["enum"].synthetix)) {
+                  return lodash.find(lists.synthetix.tokens, matchToken);
+                } else if (listNames.includes(TokenListEnumSchema["enum"].aave)) {
+                  return lodash.find(lists.aave.tokens, matchToken);
+                } else if (listNames.includes(TokenListEnumSchema["enum"].roll)) {
+                  return lodash.find(lists.roll.tokens, matchToken);
+                } else if (listNames.includes(TokenListEnumSchema["enum"].dharma)) {
+                  return lodash.find(lists.dharma.tokens, matchToken);
+                } else if (listNames.includes(TokenListEnumSchema["enum"].kleros)) {
+                  return lodash.find(lists.kleros.tokens, matchToken);
+                } else if (listNames.includes(TokenListEnumSchema["enum"].wrapped)) {
+                  return lodash.find(lists.wrapped.tokens, matchToken);
+                } else if (listNames.includes(TokenListEnumSchema["enum"].coingecko)) {
+                  return lodash.find(lists.coingecko.tokens, matchToken);
+                }
+              }
+
+              return defaultSources[tokenAddress];
+            };
+
+            _context.next = 4;
+            return Promise.all([parseOverrides(), parseContractMap(), parseSVGIconTokenFiles(), parseTokenLists(), parseEthereumLists()])["catch"](function (e) {
+              throw new Error("Could not load all token resources: " + e);
             });
-        });
-    }
-    const tokens = await sortTokens(buildTokenList());
-    console.log('# of "isRainbowCurated" tokens: ', filter__default['default'](tokens, matchesProperty__default['default']('extensions.isRainbowCurated', true)).length);
-    console.log('# of "isVerified" tokens: ', filter__default['default'](tokens, matchesProperty__default['default']('extensions.isVerified', true)).length);
-    return tokens;
+
+          case 4:
+            _yield$Promise$all$ca = _context.sent;
+            rainbowOverrides = _yield$Promise$all$ca[0];
+            contractMapTokens = _yield$Promise$all$ca[1];
+            svgIcons = _yield$Promise$all$ca[2];
+            tokenListTokens = _yield$Promise$all$ca[3];
+            _yield$Promise$all$ca2 = _yield$Promise$all$ca[4];
+            uniqueEthereumListTokens = _yield$Promise$all$ca2[0];
+            duplicateEthereumListTokens = _yield$Promise$all$ca2[1];
+            // const rainbowOverrides = await parseOverrides();
+            // const contractMapTokens = await parseContractMap();
+            // const svgIcons = await parseSVGIconTokenFiles();
+            // const tokenListTokens = await parseTokenLists();
+            // const [
+            //   uniqueEthereumListTokens,
+            //   duplicateEthereumListTokens,
+            // ] = await parseEthereumLists();
+            coingecko = tokenListTokens.coingecko, preferredTokenLists = _objectWithoutPropertiesLoose(tokenListTokens, _excluded);
+            sources = {
+              "default": [duplicateEthereumListTokens, uniqueEthereumListTokens, contractMapTokens, coingecko.tokens.flat()].map(normalizeList),
+              preferred: [Object.values(preferredTokenLists).map(function (_ref2) {
+                var tokens = _ref2.tokens;
+                return tokens;
+              }).flat()].map(normalizeList)
+            };
+            defaultSources = lodash.merge.apply(void 0, [{}].concat(sources["default"]));
+            allKnownTokenAddresses = lodash.uniq(lodash.compact([].concat(sources["default"].map(Object.keys).flat(), sources.preferred.map(Object.keys).flat())).map(address.getAddress));
+            _context.next = 18;
+            return sortTokens(buildTokenList());
+
+          case 18:
+            tokens = _context.sent;
+            console.log('# of "isRainbowCurated" tokens: ', lodash.filter(tokens, lodash.matchesProperty('extensions.isRainbowCurated', true)).length);
+            console.log('# of "isVerified" tokens: ', lodash.filter(tokens, lodash.matchesProperty('extensions.isVerified', true)).length);
+            return _context.abrupt("return", tokens);
+
+          case 22:
+          case "end":
+            return _context.stop();
+        }
+      }
+    }, _callee);
+  }));
+  return _build.apply(this, arguments);
 }
 
 /**
@@ -47353,20 +48686,54 @@ async function build() {
  * @param {string} location The output file or folder.
  * @return {Promise<void>}
  */
-const createOutputFolder = async (location) => {
-    const path$1 = path.dirname(location);
-    try {
-        await fs__default['default'].promises.access(path$1);
-    }
-    catch (error) {
-        if (isError(error)) {
-            if (error.code !== 'ENOENT') {
-                throw new Error(`Failed to create output folder: ${formattedError(error)}`);
+
+var createOutputFolder = /*#__PURE__*/function () {
+  var _ref = /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee(location) {
+    var path$1;
+    return _regeneratorRuntime.wrap(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            path$1 = path.dirname(location);
+            _context.prev = 1;
+            _context.next = 4;
+            return fs__default['default'].promises.access(path$1);
+
+          case 4:
+            _context.next = 12;
+            break;
+
+          case 6:
+            _context.prev = 6;
+            _context.t0 = _context["catch"](1);
+
+            if (!isError(_context.t0)) {
+              _context.next = 12;
+              break;
             }
+
+            if (!(_context.t0.code !== 'ENOENT')) {
+              _context.next = 11;
+              break;
+            }
+
+            throw new Error("Failed to create output folder: " + formattedError(_context.t0));
+
+          case 11:
             mkdirp__default['default'].sync(path$1);
+
+          case 12:
+          case "end":
+            return _context.stop();
         }
-    }
-};
+      }
+    }, _callee, null, [[1, 6]]);
+  }));
+
+  return function createOutputFolder(_x) {
+    return _ref.apply(this, arguments);
+  };
+}();
 /**
  * Write the Rainbow Token List JSON file to process.cwd().
  *
@@ -47375,27 +48742,73 @@ const createOutputFolder = async (location) => {
  *
  * @return {Promise<void>}
  */
-const writeToDisk = async (tokens, location) => {
-    const json = JSON.stringify(tokens, null, 2);
-    const outputLocation = path.resolve(location);
-    await createOutputFolder(outputLocation);
-    console.log('Writing to', outputLocation);
-    return fs__default['default'].promises.writeFile(outputLocation, json, 'utf8');
-};
-async function write() {
-    const tokens = await build();
-    await writeToDisk({
-        name: 'Rainbow Token List',
-        timestamp: new Date().toISOString(),
-        logoURI: 'https://avatars0.githubusercontent.com/u/48327834?s=200&v=4',
-        version: {
-            major: 1,
-            minor: 2,
-            patch: 1,
-        },
-        keywords: ['rainbow'],
-        tokens,
-    }, path.resolve(process.cwd(), 'src/data/rainbow-token-list.json'));
+
+var writeToDisk = /*#__PURE__*/function () {
+  var _ref2 = /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee2(tokens, location) {
+    var json, outputLocation;
+    return _regeneratorRuntime.wrap(function _callee2$(_context2) {
+      while (1) {
+        switch (_context2.prev = _context2.next) {
+          case 0:
+            json = JSON.stringify(tokens, null, 2);
+            outputLocation = path.resolve(location);
+            _context2.next = 4;
+            return createOutputFolder(outputLocation);
+
+          case 4:
+            console.log('Writing to', outputLocation);
+            return _context2.abrupt("return", fs__default['default'].promises.writeFile(outputLocation, json, 'utf8'));
+
+          case 6:
+          case "end":
+            return _context2.stop();
+        }
+      }
+    }, _callee2);
+  }));
+
+  return function writeToDisk(_x2, _x3) {
+    return _ref2.apply(this, arguments);
+  };
+}();
+function write() {
+  return _write.apply(this, arguments);
+}
+
+function _write() {
+  _write = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee3() {
+    var tokens;
+    return _regeneratorRuntime.wrap(function _callee3$(_context3) {
+      while (1) {
+        switch (_context3.prev = _context3.next) {
+          case 0:
+            _context3.next = 2;
+            return build();
+
+          case 2:
+            tokens = _context3.sent;
+            _context3.next = 5;
+            return writeToDisk({
+              name: 'Rainbow Token List',
+              timestamp: new Date().toISOString(),
+              logoURI: 'https://avatars0.githubusercontent.com/u/48327834?s=200&v=4',
+              version: {
+                major: 1,
+                minor: 2,
+                patch: 1
+              },
+              keywords: ['rainbow'],
+              tokens: tokens
+            }, path.resolve(process.cwd(), 'src/data/rainbow-token-list.json'));
+
+          case 5:
+          case "end":
+            return _context3.stop();
+        }
+      }
+    }, _callee3);
+  }));
+  return _write.apply(this, arguments);
 }
 
 /**
@@ -47403,6 +48816,7 @@ async function write() {
  *
  * @see https://nodejs.org/api/cli.html#cli_node_tls_reject_unauthorized_value
  */
+
 /**
  * Library imports and exports.
  */
