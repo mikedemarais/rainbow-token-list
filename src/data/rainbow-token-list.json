@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-07T19:27:16.146Z",
+  "timestamp": "2021-07-08T22:24:00.357Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -87,13 +87,6 @@
       "decimals": 18,
       "name": "Block 18",
       "symbol": "18C"
-    },
-    {
-      "address": "0x208bbb6bCEA22ef2011789331405347394EbAa51",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "1AI",
-      "symbol": "1AI"
     },
     {
       "address": "0x111111111117dC0aa78b770fA6A738034120C302",
@@ -2550,6 +2543,13 @@
       }
     },
     {
+      "address": "0xf2ddae89449b7D26309a5D54614B1FC99C608AF5",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "ASTA",
+      "symbol": "ASTA"
+    },
+    {
       "address": "0x0f8C793DbC30A185138d5Da00f106290B26E36C5",
       "chainId": 1,
       "decimals": 9,
@@ -3851,6 +3851,13 @@
       "decimals": 18,
       "name": "Banyan Network",
       "symbol": "BBN"
+    },
+    {
+      "address": "0xBc0d84FA6260E065F330d51621d682d2630F4Aa2",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "BeatBind",
+      "symbol": "BBND"
     },
     {
       "address": "0x84F7c44B6Fed1080f647E354D552595be2Cc602F",
@@ -6088,17 +6095,17 @@
       "symbol": "BST"
     },
     {
-      "address": "0x0B4680e848f842b86E4Df38D9FA0d9f9419F37EC",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Beshare Token",
-      "symbol": "BST"
-    },
-    {
       "address": "0xDf0041891BdA1f911C4243f328F7Cf61b37F965b",
       "chainId": 1,
       "decimals": 18,
       "name": "BOOSTO",
+      "symbol": "BST"
+    },
+    {
+      "address": "0x0B4680e848f842b86E4Df38D9FA0d9f9419F37EC",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Beshare Token",
       "symbol": "BST"
     },
     {
@@ -7748,6 +7755,13 @@
       "symbol": "CFC"
     },
     {
+      "address": "0xc221b7E65FfC80DE234bbB6667aBDd46593D34F0",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Centrifuge",
+      "symbol": "CFG"
+    },
+    {
       "address": "0x12FEF5e57bF45873Cd9B62E9DBd7BFb99e32D73e",
       "chainId": 1,
       "decimals": 18,
@@ -8608,7 +8622,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Furucombo",
-      "symbol": "COMBO"
+      "symbol": "COMBO",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xA5e99ad202bDd71D3518306Cf4dD163261981af1",
@@ -15601,7 +15618,7 @@
       "symbol": "FLOAT"
     },
     {
-      "address": "0xb1F4b66104353eC63D8d59D3da42C0b4Fb06E7f3",
+      "address": "0x2de72aDa48BDF7Bac276256D3F016fE058490C34",
       "chainId": 1,
       "decimals": 9,
       "name": "Floki Inu",
@@ -27449,17 +27466,17 @@
       "symbol": "OPEN"
     },
     {
-      "address": "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "OPEN Governance Tok",
-      "symbol": "OPEN"
-    },
-    {
       "address": "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
       "chainId": 1,
       "decimals": 8,
       "name": "Open Platform",
+      "symbol": "OPEN"
+    },
+    {
+      "address": "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "OPEN Governance Tok",
       "symbol": "OPEN"
     },
     {
@@ -28985,17 +29002,17 @@
       "symbol": "PLF"
     },
     {
-      "address": "0x85ca6710D0F1D511d130f6935eDDA88ACBD921bD",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Pledgecamp",
-      "symbol": "PLG"
-    },
-    {
       "address": "0xBa069Ee53b8B531F3AB117c92ca09A204C9E6285",
       "chainId": 1,
       "decimals": 18,
       "name": "Plug",
+      "symbol": "PLG"
+    },
+    {
+      "address": "0x85ca6710D0F1D511d130f6935eDDA88ACBD921bD",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Pledgecamp",
       "symbol": "PLG"
     },
     {
@@ -29728,7 +29745,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Portion",
-      "symbol": "PRT"
+      "symbol": "PRT",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x6D10E0194400A04600881057787Eb9E9c063dcA0",
@@ -43488,13 +43508,6 @@
       "symbol": "WLITI"
     },
     {
-      "address": "0xB7BC7B0A32455F7e7A924f832ca4F0a0ac3b6B88",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Warlord Token",
-      "symbol": "WLT"
-    },
-    {
       "address": "0x53c4871322Bb47e7A24136fce291a6dcC832a294",
       "chainId": 1,
       "decimals": 18,
@@ -43665,6 +43678,13 @@
       "decimals": 18,
       "name": "WorldPeaceCoin",
       "symbol": "WPC"
+    },
+    {
+      "address": "0xd075e95423C5c4BA1E122CaE0f4CdFA19b82881b",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "OPES Finance",
+      "symbol": "WPE"
     },
     {
       "address": "0x1955d744F9435522Be508D1Ba60E3c12D0690B6A",
@@ -45627,13 +45647,6 @@
       "decimals": 18,
       "name": "Yfscience",
       "symbol": "YFSI"
-    },
-    {
-      "address": "0x32A18B15985A290604dd9b2ebC39A1035b1a6B9C",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "YFST Protocol",
-      "symbol": "YFST"
     },
     {
       "address": "0x9cD39dA8f25ec50cF2Ee260e464aC23EA23F6bb0",
