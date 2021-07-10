@@ -10,10 +10,7 @@ exports.ETHEREUM_LISTS_REPO = 'ethereum-lists/tokens/tokens/eth';
 //
 exports.REMOTE_TOKEN_LIST_ENDPOINT = 'https://raw.githubusercontent.com/ctjlewis/rainbow-token-list/service-compatibility/src/data/rainbow-token-list.json';
 exports.REMOTE_TOKEN_OVERRIDES_ENDPOINT = 'https://raw.githubusercontent.com/ctjlewis/rainbow-overrides/master/src/data/rainbow-overrides.json';
-exports.TokenListItemSchema = zod_1.z
-    .string()
-    .url()
-    .nonempty();
+exports.TokenListItemSchema = zod_1.z.string().url().nonempty();
 exports.TokenListTypeSchema = zod_1.z.record(exports.TokenListItemSchema);
 exports.TOKEN_LISTS = {
     aave: 'https://tokenlist.aave.eth.link',

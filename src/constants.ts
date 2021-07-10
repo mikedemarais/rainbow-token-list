@@ -15,10 +15,7 @@ export const REMOTE_TOKEN_LIST_ENDPOINT =
 export const REMOTE_TOKEN_OVERRIDES_ENDPOINT =
   'https://raw.githubusercontent.com/ctjlewis/rainbow-overrides/master/src/data/rainbow-overrides.json';
 
-export const TokenListItemSchema = z
-  .string()
-  .url()
-  .nonempty();
+export const TokenListItemSchema = z.string().url().nonempty();
 
 export type TokenListItem = z.infer<typeof TokenListItemSchema>;
 export const TokenListTypeSchema = z.record(TokenListItemSchema);

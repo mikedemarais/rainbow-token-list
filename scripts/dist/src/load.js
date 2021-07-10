@@ -55,7 +55,7 @@ exports.loadTokenOverrides = loadTokenOverrides;
  * @returns The Token List.
  */
 const tokenListFromData = async (tokenData) => {
-    const loadedTokens = lodash_1.map(tokenData.tokens, token => {
+    const loadedTokens = lodash_1.map(tokenData.tokens, (token) => {
         const { address: rawAddress, decimals, name, symbol, extensions } = token;
         const address = lodash_1.toLower(rawAddress);
         return {

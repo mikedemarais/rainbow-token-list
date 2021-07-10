@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-08T22:24:00.357Z",
+  "timestamp": "2021-07-10T17:36:19.207Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -3257,6 +3257,13 @@
       "symbol": "AXIAV3"
     },
     {
+      "address": "0xF0c5831EC3Da15f3696B4DAd8B21c7Ce2f007f28",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "AXIS Token",
+      "symbol": "AXIS"
+    },
+    {
       "address": "0xecC0F1F860a82aB3b442382D93853C02d6384389",
       "chainId": 1,
       "decimals": 18,
@@ -3275,7 +3282,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Axion",
-      "symbol": "AXN"
+      "symbol": "AXN",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x7D85e23014F84E6E21d5663aCD8751bEF3562352",
@@ -12780,7 +12790,7 @@
       "address": "0xDDdddd4301A082e62E84e43F474f044423921918",
       "chainId": 1,
       "decimals": 18,
-      "name": "DeversiFi",
+      "name": "DVF",
       "symbol": "DVF"
     },
     {
@@ -17478,17 +17488,17 @@
       "symbol": "GOLD"
     },
     {
-      "address": "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "GOLD",
-      "symbol": "GOLD"
-    },
-    {
       "address": "0x34D6A0F5C2f5D0082141fE73d93B9dd00ca7CE11",
       "chainId": 1,
       "decimals": 18,
       "name": "Golden Token",
+      "symbol": "GOLD"
+    },
+    {
+      "address": "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "GOLD",
       "symbol": "GOLD"
     },
     {
@@ -21352,13 +21362,6 @@
       "symbol": "KAWA"
     },
     {
-      "address": "0xd67b1Db49801b6F4c96a01a4F7964233150dc58b",
-      "chainId": 1,
-      "decimals": 7,
-      "name": "Karatgold Coin",
-      "symbol": "KBC"
-    },
-    {
       "address": "0xA8c2af8c403704a31F32F0aa70a43e63aFcd54d0",
       "chainId": 1,
       "decimals": 18,
@@ -22661,13 +22664,6 @@
       "decimals": 18,
       "name": "LG",
       "symbol": "LG"
-    },
-    {
-      "address": "0x5881dA4527BCdC44a100F8bA2efC4039243D2C07",
-      "chainId": 1,
-      "decimals": 1,
-      "name": "Pride",
-      "symbol": "LGBTQ"
     },
     {
       "address": "0x2bc8B955F6a0Ed5a9D4146DED61aEC0bB74EcF67",
@@ -25089,13 +25085,6 @@
       "decimals": 18,
       "name": "dotmoovs",
       "symbol": "MOOV"
-    },
-    {
-      "address": "0xae746520FfDB15d0505e32f1d6e9a2b4ab866572",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "MorCrypto Coin",
-      "symbol": "MOR"
     },
     {
       "address": "0xb64cD4F56043F8d80691433e395d08B1bEBDADF0",
@@ -37257,6 +37246,13 @@
       }
     },
     {
+      "address": "0x2E95Cea14dd384429EB3c4331B776c4CFBB6FCD9",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Throne",
+      "symbol": "THN"
+    },
+    {
       "address": "0x9F58702Ef19ebEB76363884362439a8691E3f033",
       "chainId": 1,
       "decimals": 4,
@@ -43683,7 +43679,7 @@
       "address": "0xd075e95423C5c4BA1E122CaE0f4CdFA19b82881b",
       "chainId": 1,
       "decimals": 18,
-      "name": "OPES Finance",
+      "name": "OPES  Wrapped PE",
       "symbol": "WPE"
     },
     {

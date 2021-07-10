@@ -66,7 +66,7 @@ export const loadTokenOverrides = async (): Promise<any> => {
  * @returns The Token List.
  */
 export const tokenListFromData = async (tokenData: TokenMetadata) => {
-  const loadedTokens = map(tokenData.tokens, token => {
+  const loadedTokens = map(tokenData.tokens, (token) => {
     const { address: rawAddress, decimals, name, symbol, extensions } = token;
     const address = toLower(rawAddress);
 
