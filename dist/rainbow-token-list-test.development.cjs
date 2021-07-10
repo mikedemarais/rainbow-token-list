@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-10T18:25:33.383Z";
+var timestamp = "2021-07-10T19:16:30.719Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4856,11 +4856,7 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "Bibox Token",
-		symbol: "BIX",
-		extensions: {
-			color: "#000000",
-			isVerified: true
-		}
+		symbol: "BIX"
 	},
 	{
 		address: "0x009c43B42AEFAC590C719E971020575974122803",
@@ -13881,6 +13877,16 @@ var tokens = [
 		symbol: "EPAN"
 	},
 	{
+		address: "0x7fc2a3a998E8a80dA7F2962C5A8803b641711e6c",
+		chainId: 1,
+		decimals: 9,
+		name: "Paralism-EPARA",
+		symbol: "EPARA",
+		extensions: {
+			isVerified: true
+		}
+	},
+	{
 		address: "0x2b5cA2F9510cf1e3595Ff219f24D75D4244585EA",
 		chainId: 1,
 		decimals: 18,
@@ -21371,7 +21377,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "Kawakami Inu",
-		symbol: "KAWA"
+		symbol: "KAWA",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0xA8c2af8c403704a31F32F0aa70a43e63aFcd54d0",
@@ -21644,8 +21653,11 @@ var tokens = [
 		address: "0xCbfef8fdd706cde6F208460f2Bf39Aa9c785F05D",
 		chainId: 1,
 		decimals: 18,
-		name: "Kine Protocol",
-		symbol: "KINE"
+		name: "KINE",
+		symbol: "KINE",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0xd2057d71fE3F5b0dc1E3e7722940E1908Fc72078",
