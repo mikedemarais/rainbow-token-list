@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-11T12:31:44.120Z",
+  "timestamp": "2021-07-11T13:22:50.876Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -8541,17 +8541,17 @@
       "symbol": "COIN"
     },
     {
-      "address": "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Coin",
-      "symbol": "COIN"
-    },
-    {
       "address": "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
       "chainId": 1,
       "decimals": 18,
       "name": "Coin Artist",
+      "symbol": "COIN"
+    },
+    {
+      "address": "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Coin",
       "symbol": "COIN"
     },
     {
@@ -44449,6 +44449,13 @@
       "chainId": 1,
       "decimals": 18,
       "name": "XGT",
+      "symbol": "XGT"
+    },
+    {
+      "address": "0xf1738912ae7439475712520797583ac784ea9033",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Xion Global Token",
       "symbol": "XGT"
     },
     {
