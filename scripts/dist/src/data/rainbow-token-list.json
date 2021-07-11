@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-07-11T10:23:37.114Z",
+    "timestamp": "2021-07-11T11:17:53.044Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -3108,13 +3108,6 @@
             "decimals": 9,
             "name": "AUTZ Token",
             "symbol": "AUTZ"
-        },
-        {
-            "address": "0x423f3da166470030A86Fa76280b2D688FCe1F722",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Aquila Protocol",
-            "symbol": "AUX"
         },
         {
             "address": "0xeD247980396B10169BB1d36f6e278eD16700a60f",
@@ -12900,7 +12893,7 @@
             "address": "0xffF3ada5A2555a2B59BfF4F44DFad90146CcE8CB",
             "chainId": 1,
             "decimals": 18,
-            "name": "DEXTER",
+            "name": "DEXTER Token",
             "symbol": "DXR"
         },
         {
@@ -14104,13 +14097,6 @@
             "decimals": 18,
             "name": "Empty Set Dollar",
             "symbol": "ESD"
-        },
-        {
-            "address": "0x5cf9242493bE1411b93d064CA2e468961BBb5924",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Empty Set Gold",
-            "symbol": "ESG"
         },
         {
             "address": "0xD6a55C63865AffD67E2FB9f284F87b7a9E5FF3bD",
@@ -29614,6 +29600,13 @@
             "symbol": "PROB"
         },
         {
+            "address": "0x282D0AD1FA03DFBDB88243B958e77349c73737D1",
+            "chainId": 1,
+            "decimals": 9,
+            "name": "Protector Roge",
+            "symbol": "PROGE"
+        },
+        {
             "address": "0xfc82bb4ba86045Af6F327323a46E80412b91b27d",
             "chainId": 1,
             "decimals": 18,
@@ -42391,13 +42384,6 @@
             "decimals": 8,
             "name": "Voltium",
             "symbol": "VLTM"
-        },
-        {
-            "address": "0x8D6b0fcDc476dAC3529F6F8caDa214612892b347",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Vallix",
-            "symbol": "VLX"
         },
         {
             "address": "0xd811250b7fE83150cBB3d70a892fCE6189fB3e08",
