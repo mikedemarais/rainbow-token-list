@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-07-11T06:27:20.211Z",
+    "timestamp": "2021-07-11T07:19:19.344Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -310,17 +310,17 @@
             "symbol": "A5T"
         },
         {
-            "address": "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
-            "chainId": 1,
-            "decimals": 10,
-            "name": "AAAchain",
-            "symbol": "AAA"
-        },
-        {
             "address": "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
             "chainId": 1,
             "decimals": 8,
             "name": "Abulaba",
+            "symbol": "AAA"
+        },
+        {
+            "address": "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
+            "chainId": 1,
+            "decimals": 10,
+            "name": "AAAchain",
             "symbol": "AAA"
         },
         {
@@ -4068,13 +4068,6 @@
             }
         },
         {
-            "address": "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
-            "chainId": 1,
-            "decimals": 8,
-            "name": "BitcashPay",
-            "symbol": "BCP"
-        },
-        {
             "address": "0xd26fb114401Ec86887CD09F62eccd95fCf20B571",
             "chainId": 1,
             "decimals": 8,
@@ -4083,6 +4076,13 @@
             "extensions": {
                 "isVerified": true
             }
+        },
+        {
+            "address": "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
+            "chainId": 1,
+            "decimals": 8,
+            "name": "BitcashPay",
+            "symbol": "BCP"
         },
         {
             "address": "0x1c4481750daa5Ff521A2a7490d9981eD46465Dbd",
@@ -8548,17 +8548,17 @@
             "symbol": "COIN"
         },
         {
-            "address": "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Coin Artist",
-            "symbol": "COIN"
-        },
-        {
             "address": "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
             "chainId": 1,
             "decimals": 18,
             "name": "Coin",
+            "symbol": "COIN"
+        },
+        {
+            "address": "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Coin Artist",
             "symbol": "COIN"
         },
         {
@@ -14589,17 +14589,17 @@
             "symbol": "ETR"
         },
         {
-            "address": "0x952B65D976E8669c4cE92a17CcE5B2586912Adb5",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Etrade",
-            "symbol": "ETT"
-        },
-        {
             "address": "0x1212b68d8555Cf0B08f3371b926b3E1148B520F1",
             "chainId": 1,
             "decimals": 18,
             "name": "Efficient Transacti",
+            "symbol": "ETT"
+        },
+        {
+            "address": "0x952B65D976E8669c4cE92a17CcE5B2586912Adb5",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Etrade",
             "symbol": "ETT"
         },
         {
@@ -19238,17 +19238,17 @@
             "symbol": "HYN"
         },
         {
-            "address": "0x610c67be018A5C5bdC70ACd8DC19688A11421073",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Hype Finance",
-            "symbol": "HYPE"
-        },
-        {
             "address": "0x4ff7c227e1e7bD59351de8635381C379750A8040",
             "chainId": 1,
             "decimals": 18,
             "name": "Hype",
+            "symbol": "HYPE"
+        },
+        {
+            "address": "0x610c67be018A5C5bdC70ACd8DC19688A11421073",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Hype Finance",
             "symbol": "HYPE"
         },
         {
@@ -24849,17 +24849,17 @@
             "symbol": "MMSFT"
         },
         {
-            "address": "0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "MainCoin",
-            "symbol": "MNC"
-        },
-        {
             "address": "0xBac7A1798350cdf2Dbfe0c210C2C9861223f4B31",
             "chainId": 1,
             "decimals": 18,
             "name": "Moneynet",
+            "symbol": "MNC"
+        },
+        {
+            "address": "0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "MainCoin",
             "symbol": "MNC"
         },
         {
@@ -33193,17 +33193,17 @@
             "symbol": "SCC"
         },
         {
-            "address": "0x355a458d555151D3B27F94227960Ade1504E526a",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "StockChain",
-            "symbol": "SCC"
-        },
-        {
             "address": "0x4a9f00dE5d8A244944313faEe23849FF725E680D",
             "chainId": 1,
             "decimals": 18,
             "name": "Science Chain",
+            "symbol": "SCC"
+        },
+        {
+            "address": "0x355a458d555151D3B27F94227960Ade1504E526a",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "StockChain",
             "symbol": "SCC"
         },
         {
@@ -45664,13 +45664,6 @@
             "symbol": "YFSI"
         },
         {
-            "address": "0x9cD39dA8f25ec50cF2Ee260e464aC23EA23F6bb0",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Toshify finance",
-            "symbol": "YFT"
-        },
-        {
             "address": "0x26B3038a7Fc10b36c426846a9086Ef87328dA702",
             "chainId": 1,
             "decimals": 18,
@@ -45679,6 +45672,13 @@
             "extensions": {
                 "isVerified": true
             }
+        },
+        {
+            "address": "0x9cD39dA8f25ec50cF2Ee260e464aC23EA23F6bb0",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Toshify finance",
+            "symbol": "YFT"
         },
         {
             "address": "0x94F31aC896c9823D81cf9C2C93feCEeD4923218f",
