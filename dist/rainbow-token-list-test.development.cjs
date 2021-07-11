@@ -2,20 +2,17 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var map = require('lodash/map');
-var toLower = require('lodash/toLower');
+var lodash = require('lodash');
 var rainbowOverrides = require('rainbow-overrides');
 var zod = require('zod');
 var fetch = require('node-fetch');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
-var map__default = /*#__PURE__*/_interopDefaultLegacy(map);
-var toLower__default = /*#__PURE__*/_interopDefaultLegacy(toLower);
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-11T19:08:59.601Z";
+var timestamp = "2021-07-11T19:17:23.120Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -8525,7 +8522,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "Cogecoin",
-		symbol: "COGE"
+		symbol: "COGE",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x0C91B015AbA6f7B4738dcD36E7410138b29ADC29",
@@ -9163,6 +9163,26 @@ var tokens = [
 		decimals: 8,
 		name: "CR Coin",
 		symbol: "CRC"
+	},
+	{
+		address: "0x19D1666f543D42ef17F66E376944A22aEa1a8E46",
+		chainId: 1,
+		decimals: 8,
+		name: "Cream Compound",
+		symbol: "crCOMP",
+		extensions: {
+			isVerified: true
+		}
+	},
+	{
+		address: "0x892B14321a4FCba80669aE30Bd0cd99a7ECF6aC0",
+		chainId: 1,
+		decimals: 8,
+		name: "Cream Cream",
+		symbol: "crCREAM",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0xcAaa93712BDAc37f736C323C93D4D5fDEFCc31CC",
@@ -15934,7 +15954,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 9,
 		name: "ForeverUp",
-		symbol: "FOREVERUP"
+		symbol: "FOREVERUP",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0xa4E9584DAa093Cb1205E17bA737c3fd015748087",
@@ -18684,7 +18707,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "Holdefi",
-		symbol: "HLD"
+		symbol: "HLD",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x308564DC5217c39386F5eaE96545159e1D396661",
@@ -20114,7 +20140,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 9,
 		name: "Inari",
-		symbol: "INARI"
+		symbol: "INARI",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x17Aa18A4B64A55aBEd7FA543F2Ba4E91f2dcE482",
@@ -25952,7 +25981,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "Nobunaga",
-		symbol: "NBNG"
+		symbol: "NBNG",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0xEB58343b36C7528F23CAAe63a150240241310049",
@@ -27621,7 +27653,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "The Red Order",
-		symbol: "ORDR"
+		symbol: "ORDR",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0xd2Fa8f92Ea72AbB35dBD6DECa57173d22db2BA49",
@@ -34137,7 +34172,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 9,
 		name: "Siberian Husky",
-		symbol: "SHUSKY"
+		symbol: "SHUSKY",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0xD23Ac27148aF6A2f339BD82D0e3CFF380b5093de",
@@ -46092,6 +46130,16 @@ var tokens = [
 		symbol: "YVBOOST"
 	},
 	{
+		address: "0x19D3364A399d251E894aC732651be8B0E4e85001",
+		chainId: 1,
+		decimals: 18,
+		name: "DAI yVault",
+		symbol: "yvDAI",
+		extensions: {
+			isVerified: true
+		}
+	},
+	{
 		address: "0xc5bDdf9843308380375a611c18B50Fb9341f502A",
 		chainId: 1,
 		decimals: 18,
@@ -46104,6 +46152,36 @@ var tokens = [
 		decimals: 18,
 		name: "YVS Finance",
 		symbol: "YVS"
+	},
+	{
+		address: "0x5f18C75AbDAe578b483E5F43f12a39cF75b973a9",
+		chainId: 1,
+		decimals: 6,
+		name: "USDC yVault",
+		symbol: "yvUSDC",
+		extensions: {
+			isVerified: true
+		}
+	},
+	{
+		address: "0x7Da96a3891Add058AdA2E826306D812C638D87a7",
+		chainId: 1,
+		decimals: 6,
+		name: "USDT yVault",
+		symbol: "yvUSDT",
+		extensions: {
+			isVerified: true
+		}
+	},
+	{
+		address: "0xcB550A6D4C8e3517A939BC79d0c7093eb7cF56B5",
+		chainId: 1,
+		decimals: 8,
+		name: "WBTC yVault",
+		symbol: "yvWBTC",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0xa9fE4601811213c340e850ea305481afF02f5b28",
@@ -46867,9 +46945,9 @@ const loadTokenOverrides = async () => {
  * @returns The Token List.
  */
 const tokenListFromData = async (tokenData) => {
-    const loadedTokens = map__default['default'](tokenData.tokens, (token) => {
+    const loadedTokens = lodash.map(tokenData.tokens, (token) => {
         const { address: rawAddress, decimals, name, symbol, extensions } = token;
-        const address = toLower__default['default'](rawAddress);
+        const address = lodash.toLower(rawAddress);
         return {
             address,
             decimals,
