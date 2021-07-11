@@ -15,7 +15,7 @@ var toLower__default = /*#__PURE__*/_interopDefaultLegacy(toLower);
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-11T19:27:25.425Z";
+var timestamp = "2021-07-11T20:19:34.959Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
