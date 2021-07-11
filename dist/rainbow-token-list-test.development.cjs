@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-11T19:17:23.120Z";
+var timestamp = "2021-07-11T19:27:25.425Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -10159,7 +10159,7 @@ var tokens = [
 		address: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
 		chainId: 1,
 		decimals: 18,
-		name: "[TEST-12345] Dai",
+		name: "[TEST-123] Dai",
 		symbol: "DAI",
 		extensions: {
 			color: "#042069",
