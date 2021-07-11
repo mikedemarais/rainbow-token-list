@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-11T08:22:40.464Z";
+var timestamp = "2021-07-11T09:23:11.399Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -15990,13 +15990,6 @@ var tokens = [
 		symbol: "FOTA"
 	},
 	{
-		address: "0xD9A1FE8b4d6De4F41c8A1b6AD3B6457916e546b4",
-		chainId: 1,
-		decimals: 18,
-		name: "Forte Coin",
-		symbol: "FOTC"
-	},
-	{
 		address: "0xF6eA0E60cee427B90aA36f327eE61d1d4CABC49F",
 		chainId: 1,
 		decimals: 18,
@@ -24826,17 +24819,17 @@ var tokens = [
 		symbol: "MLT"
 	},
 	{
-		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
-		chainId: 1,
-		decimals: 18,
-		name: "MM Token",
-		symbol: "MM"
-	},
-	{
 		address: "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
 		chainId: 1,
 		decimals: 18,
 		name: "Million",
+		symbol: "MM"
+	},
+	{
+		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
+		chainId: 1,
+		decimals: 18,
+		name: "MM Token",
 		symbol: "MM"
 	},
 	{
@@ -29066,13 +29059,6 @@ var tokens = [
 		decimals: 18,
 		name: "PoolTogether Sai",
 		symbol: "PLSAI"
-	},
-	{
-		address: "0x22314B3d1375548C969eaAE65e43203b51f9e9E9",
-		chainId: 1,
-		decimals: 2,
-		name: "Philosafe Token",
-		symbol: "PLST"
 	},
 	{
 		address: "0x9fBFed658919A896B5Dc7b00456Ce22D780f9B65",
