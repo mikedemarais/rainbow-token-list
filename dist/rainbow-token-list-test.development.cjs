@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-11T13:22:50.876Z";
+var timestamp = "2021-07-11T14:18:58.294Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -8553,17 +8553,17 @@ var tokens = [
 		symbol: "COIN"
 	},
 	{
-		address: "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
-		chainId: 1,
-		decimals: 18,
-		name: "Coin Artist",
-		symbol: "COIN"
-	},
-	{
 		address: "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
 		chainId: 1,
 		decimals: 18,
 		name: "Coin",
+		symbol: "COIN"
+	},
+	{
+		address: "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
+		chainId: 1,
+		decimals: 18,
+		name: "Coin Artist",
 		symbol: "COIN"
 	},
 	{
@@ -44461,13 +44461,6 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "XGT",
-		symbol: "XGT"
-	},
-	{
-		address: "0xf1738912ae7439475712520797583ac784ea9033",
-		chainId: 1,
-		decimals: 18,
-		name: "Xion Global Token",
 		symbol: "XGT"
 	},
 	{
