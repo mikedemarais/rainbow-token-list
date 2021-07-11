@@ -2,20 +2,17 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var map = require('lodash/map');
-var toLower = require('lodash/toLower');
+var lodash = require('lodash');
 var rainbowOverrides = require('rainbow-overrides');
 var zod = require('zod');
 var fetch = require('node-fetch');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
-var map__default = /*#__PURE__*/_interopDefaultLegacy(map);
-var toLower__default = /*#__PURE__*/_interopDefaultLegacy(toLower);
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-11T20:19:34.959Z";
+var timestamp = "2021-07-11T20:23:33.335Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -46955,9 +46952,9 @@ const loadTokenOverrides = async () => {
  * @returns The Token List.
  */
 const tokenListFromData = async (tokenData) => {
-    const loadedTokens = map__default['default'](tokenData.tokens, (token) => {
+    const loadedTokens = lodash.map(tokenData.tokens, (token) => {
         const { address: rawAddress, decimals, name, symbol, extensions } = token;
-        const address = toLower__default['default'](rawAddress);
+        const address = lodash.toLower(rawAddress);
         return {
             address,
             decimals,
