@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-10T23:20:59.365Z";
+var timestamp = "2021-07-11T01:10:19.450Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4250,17 +4250,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x7BCe667EF12023dc5f8577D015a2F09d99a5ef58",
-		chainId: 1,
-		decimals: 18,
-		name: "Block Duelers",
-		symbol: "BDT"
-	},
-	{
 		address: "0x4Efe8665e564bF454cCF5C90Ee16817F7485d5Cf",
 		chainId: 1,
 		decimals: 18,
 		name: "BlackDragon Token",
+		symbol: "BDT"
+	},
+	{
+		address: "0x7BCe667EF12023dc5f8577D015a2F09d99a5ef58",
+		chainId: 1,
+		decimals: 18,
+		name: "Block Duelers",
 		symbol: "BDT"
 	},
 	{
@@ -17663,6 +17663,13 @@ var tokens = [
 		symbol: "GREED"
 	},
 	{
+		address: "0x9b2D81A1AE36E8e66A0875053429816f0B6b829E",
+		chainId: 1,
+		decimals: 9,
+		name: "Grey Token",
+		symbol: "GREY"
+	},
+	{
 		address: "0x4FbB350052Bca5417566f188eB2EBCE5b19BC964",
 		chainId: 1,
 		decimals: 18,
@@ -27479,17 +27486,17 @@ var tokens = [
 		symbol: "OPEN"
 	},
 	{
-		address: "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
-		chainId: 1,
-		decimals: 8,
-		name: "Open Platform",
-		symbol: "OPEN"
-	},
-	{
 		address: "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
 		chainId: 1,
 		decimals: 18,
 		name: "OPEN Governance Tok",
+		symbol: "OPEN"
+	},
+	{
+		address: "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
+		chainId: 1,
+		decimals: 8,
+		name: "Open Platform",
 		symbol: "OPEN"
 	},
 	{
