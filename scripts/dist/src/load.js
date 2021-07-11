@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.tokenListFromData = exports.loadTokenOverrides = exports.loadTokenList = exports.loadFromEndpoint = void 0;
+exports.tokenListFromData = exports.loadTokenOverrides = exports.loadTokenList = exports.loadTokenMetadata = exports.loadFromEndpoint = void 0;
 const tslib_1 = require("tslib");
 const lodash_1 = require("lodash");
 const rainbow_token_list_json_1 = tslib_1.__importDefault(require("./data/rainbow-token-list.json"));
@@ -28,15 +28,23 @@ const loadFromEndpoint = async (endpoint, offlineData) => {
 };
 exports.loadFromEndpoint = loadFromEndpoint;
 /**
+ * Load the raw Token List endpoint, including timestamp and other metadata.
+ *
+ * @returns The raw data from the JSON endpoint.
+ */
+const loadTokenMetadata = async () => {
+    return await exports.loadFromEndpoint(constants_1.REMOTE_TOKEN_LIST_ENDPOINT, rainbow_token_list_json_1.default);
+};
+exports.loadTokenMetadata = loadTokenMetadata;
+/**
  * Load the full Token List, including any manual tokens.
  *
  * @param offlineData The data to fallback to in case of network failure.
  * @returns The full Token List.
  */
 const loadTokenList = async () => {
-    const tokenData = await exports.loadFromEndpoint(constants_1.REMOTE_TOKEN_LIST_ENDPOINT, rainbow_token_list_json_1.default);
-    const tokens = await exports.tokenListFromData(tokenData);
-    return tokens;
+    const tokenData = await exports.loadTokenMetadata();
+    return await exports.tokenListFromData(tokenData);
 };
 exports.loadTokenList = loadTokenList;
 /**

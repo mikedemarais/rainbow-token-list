@@ -2,13 +2,16 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var lodash = require('lodash');
+var map = require('lodash/map');
+var toLower = require('lodash/toLower');
 var rainbowOverrides = require('rainbow-overrides');
 var zod = require('zod');
 var fetch = require('node-fetch');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
+var map__default = /*#__PURE__*/_interopDefaultLegacy(map);
+var toLower__default = /*#__PURE__*/_interopDefaultLegacy(toLower);
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
@@ -46920,15 +46923,22 @@ const loadFromEndpoint = async (endpoint, offlineData) => {
     }
 };
 /**
+ * Load the raw Token List endpoint, including timestamp and other metadata.
+ *
+ * @returns The raw data from the JSON endpoint.
+ */
+const loadTokenMetadata = async () => {
+    return await loadFromEndpoint(REMOTE_TOKEN_LIST_ENDPOINT, OFFLINE_TOKEN_METADATA);
+};
+/**
  * Load the full Token List, including any manual tokens.
  *
  * @param offlineData The data to fallback to in case of network failure.
  * @returns The full Token List.
  */
 const loadTokenList = async () => {
-    const tokenData = await loadFromEndpoint(REMOTE_TOKEN_LIST_ENDPOINT, OFFLINE_TOKEN_METADATA);
-    const tokens = await tokenListFromData(tokenData);
-    return tokens;
+    const tokenData = await loadTokenMetadata();
+    return await tokenListFromData(tokenData);
 };
 /**
  * Load the Token Overrides List.
@@ -46945,9 +46955,9 @@ const loadTokenOverrides = async () => {
  * @returns The Token List.
  */
 const tokenListFromData = async (tokenData) => {
-    const loadedTokens = lodash.map(tokenData.tokens, (token) => {
+    const loadedTokens = map__default['default'](tokenData.tokens, (token) => {
         const { address: rawAddress, decimals, name, symbol, extensions } = token;
-        const address = lodash.toLower(rawAddress);
+        const address = toLower__default['default'](rawAddress);
         return {
             address,
             decimals,
@@ -46972,6 +46982,7 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
 exports.loadFromEndpoint = loadFromEndpoint;
 exports.loadTokenList = loadTokenList;
+exports.loadTokenMetadata = loadTokenMetadata;
 exports.loadTokenOverrides = loadTokenOverrides;
 exports.tokenListFromData = tokenListFromData;
 //# sourceMappingURL=rainbow-token-list-test.development.cjs.map

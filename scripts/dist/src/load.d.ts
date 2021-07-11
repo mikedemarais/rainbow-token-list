@@ -9,6 +9,12 @@ declare type TokenMetadata = typeof OFFLINE_TOKEN_METADATA;
  */
 export declare const loadFromEndpoint: <T>(endpoint: string, offlineData: T) => Promise<any>;
 /**
+ * Load the raw Token List endpoint, including timestamp and other metadata.
+ *
+ * @returns The raw data from the JSON endpoint.
+ */
+export declare const loadTokenMetadata: () => Promise<any>;
+/**
  * Load the full Token List, including any manual tokens.
  *
  * @param offlineData The data to fallback to in case of network failure.

@@ -31,19 +31,26 @@ export const loadFromEndpoint = async <T>(endpoint: string, offlineData: T) => {
 };
 
 /**
+ * Load the raw Token List endpoint, including timestamp and other metadata.
+ *
+ * @returns The raw data from the JSON endpoint.
+ */
+export const loadTokenMetadata = async () => {
+  return await loadFromEndpoint(
+    REMOTE_TOKEN_LIST_ENDPOINT,
+    OFFLINE_TOKEN_METADATA
+  );
+};
+
+/**
  * Load the full Token List, including any manual tokens.
  *
  * @param offlineData The data to fallback to in case of network failure.
  * @returns The full Token List.
  */
 export const loadTokenList = async () => {
-  const tokenData = await loadFromEndpoint(
-    REMOTE_TOKEN_LIST_ENDPOINT,
-    OFFLINE_TOKEN_METADATA
-  );
-
-  const tokens = await tokenListFromData(tokenData);
-  return tokens;
+  const tokenData = await loadTokenMetadata();
+  return await tokenListFromData(tokenData);
 };
 
 /**
