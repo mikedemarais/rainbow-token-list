@@ -27,7 +27,6 @@
     "postbuild": "tsc -p scripts/tsconfig.json",
     "write": "yarn build && node scripts/write.js",
     "postwrite": "yarn build",
-    "prepare": "yarn write",
     "test": "tsdx test",
     "posttest": "node test/import.mjs && node test/require.cjs",
     "lint": "tsdx lint src --fix",
