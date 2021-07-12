@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-12T03:23:43.467Z";
+var timestamp = "2021-07-12T04:27:23.288Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4536,17 +4536,17 @@ var tokens = [
 		symbol: "BFT"
 	},
 	{
-		address: "0xD34c9281585866A9fb2af0931adb1fA35ed44039",
-		chainId: 1,
-		decimals: 8,
-		name: "Be Gaming Coin",
-		symbol: "BGC"
-	},
-	{
 		address: "0xD043F70FF0634167Db1149b15E5668f5Be52D72C",
 		chainId: 1,
 		decimals: 18,
 		name: "BigCash",
+		symbol: "BGC"
+	},
+	{
+		address: "0xD34c9281585866A9fb2af0931adb1fA35ed44039",
+		chainId: 1,
+		decimals: 8,
+		name: "Be Gaming Coin",
 		symbol: "BGC"
 	},
 	{
@@ -17511,17 +17511,17 @@ var tokens = [
 		symbol: "GOLD"
 	},
 	{
-		address: "0x34D6A0F5C2f5D0082141fE73d93B9dd00ca7CE11",
-		chainId: 1,
-		decimals: 18,
-		name: "Golden Token",
-		symbol: "GOLD"
-	},
-	{
 		address: "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
 		chainId: 1,
 		decimals: 8,
 		name: "GOLD",
+		symbol: "GOLD"
+	},
+	{
+		address: "0x34D6A0F5C2f5D0082141fE73d93B9dd00ca7CE11",
+		chainId: 1,
+		decimals: 18,
+		name: "Golden Token",
 		symbol: "GOLD"
 	},
 	{
@@ -17723,6 +17723,13 @@ var tokens = [
 		decimals: 8,
 		name: "Growchain",
 		symbol: "GROW"
+	},
+	{
+		address: "0x64B986211c0CC675143F895C437b79c3cadf364A",
+		chainId: 1,
+		decimals: 8,
+		name: "Grapefruit Coin",
+		symbol: "GRPFT"
 	},
 	{
 		address: "0x15E4132DcD932E8990E794d1300011A472819cBD",
@@ -22708,6 +22715,13 @@ var tokens = [
 		symbol: "LG"
 	},
 	{
+		address: "0x7Cb97A776A49E272BaccAd31396405a94f3Fb3f8",
+		chainId: 1,
+		decimals: 18,
+		name: "Pride",
+		symbol: "LGBTQ"
+	},
+	{
 		address: "0x2bc8B955F6a0Ed5a9D4146DED61aEC0bB74EcF67",
 		chainId: 1,
 		decimals: 18,
@@ -27500,17 +27514,17 @@ var tokens = [
 		symbol: "OPEN"
 	},
 	{
-		address: "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
-		chainId: 1,
-		decimals: 18,
-		name: "OPEN Governance Tok",
-		symbol: "OPEN"
-	},
-	{
 		address: "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
 		chainId: 1,
 		decimals: 8,
 		name: "Open Platform",
+		symbol: "OPEN"
+	},
+	{
+		address: "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
+		chainId: 1,
+		decimals: 18,
+		name: "OPEN Governance Tok",
 		symbol: "OPEN"
 	},
 	{
@@ -33036,17 +33050,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0xc9F1016d336ef77AeE75Fc11Ad64C5Ecf9121332",
-		chainId: 1,
-		decimals: 18,
-		name: "SoMee Advertising T",
-		symbol: "SAT"
-	},
-	{
 		address: "0xc56b13ebbCFfa67cFb7979b900b736b3fb480D78",
 		chainId: 1,
 		decimals: 8,
 		name: "Social Activity Tok",
+		symbol: "SAT"
+	},
+	{
+		address: "0xc9F1016d336ef77AeE75Fc11Ad64C5Ecf9121332",
+		chainId: 1,
+		decimals: 18,
+		name: "SoMee Advertising T",
 		symbol: "SAT"
 	},
 	{
