@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-12T09:22:26.364Z",
+  "timestamp": "2021-07-12T11:17:08.414Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -3233,6 +3233,13 @@
       "symbol": "AXA"
     },
     {
+      "address": "0x37c430c2b5f9Ff85e534873C715871818Ab1623E",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "AXIA Coin",
+      "symbol": "AXC"
+    },
+    {
       "address": "0x73EE6D7e6b203125aDd89320E9F343d65ec7c39a",
       "chainId": 1,
       "decimals": 18,
@@ -3476,6 +3483,13 @@
       "decimals": 18,
       "name": "Baby Token",
       "symbol": "BABY"
+    },
+    {
+      "address": "0xdfb4a81727aa961b6ee830720843104fAE0FDFf9",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "BabyElon",
+      "symbol": "BABYELON"
     },
     {
       "address": "0xdF35988d795d90711e785B488Bb2127692e6f956",
@@ -8544,17 +8558,17 @@
       "symbol": "COIN"
     },
     {
-      "address": "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Coin Artist",
-      "symbol": "COIN"
-    },
-    {
       "address": "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
       "chainId": 1,
       "decimals": 18,
       "name": "Coin",
+      "symbol": "COIN"
+    },
+    {
+      "address": "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Coin Artist",
       "symbol": "COIN"
     },
     {
@@ -22146,13 +22160,6 @@
       "symbol": "KWATT"
     },
     {
-      "address": "0xB8DdC930c2bAB6c71610A2BE639036E829F9C10b",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "KwhCoin",
-      "symbol": "KWH"
-    },
-    {
       "address": "0x286C0936c7Eaf6651099Ab5DAb9ee5A6cB5d229D",
       "chainId": 1,
       "decimals": 18,
@@ -22694,13 +22701,6 @@
       "decimals": 18,
       "name": "LG",
       "symbol": "LG"
-    },
-    {
-      "address": "0x7Cb97A776A49E272BaccAd31396405a94f3Fb3f8",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Pride",
-      "symbol": "LGBTQ"
     },
     {
       "address": "0x2bc8B955F6a0Ed5a9D4146DED61aEC0bB74EcF67",
@@ -26266,6 +26266,13 @@
       "symbol": "NFTS"
     },
     {
+      "address": "0x269616D549D7e8Eaa82DFb17028d0B212D11232A",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Punk Vault",
+      "symbol": "NFTX"
+    },
+    {
       "address": "0x87d73E916D7057945c9BcD8cdd94e42A6F47f776",
       "chainId": 1,
       "decimals": 18,
@@ -26931,6 +26938,13 @@
       "decimals": 18,
       "name": "OAX",
       "symbol": "OAX"
+    },
+    {
+      "address": "0x43E577338d6C07bc92a06C8CA4B781470515dFA8",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Oblichain",
+      "symbol": "OBC"
     },
     {
       "address": "0x3678d8CC9Eb08875A3720f34c1C8d1e1B31F5A11",
@@ -31677,6 +31691,13 @@
       "decimals": 18,
       "name": "NFT Rehab",
       "symbol": "REHAB"
+    },
+    {
+      "address": "0x011864D37035439E078d64630777Ec518138aF05",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Zerogoki",
+      "symbol": "REI"
     },
     {
       "address": "0x61bFC979EA8160Ede9b862798B7833a97baFa02a",
