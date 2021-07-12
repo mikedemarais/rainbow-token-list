@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-12T11:17:08.414Z";
+var timestamp = "2021-07-12T12:32:34.856Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -26276,13 +26276,6 @@ var tokens = [
 		decimals: 18,
 		name: "NFT Stars",
 		symbol: "NFTS"
-	},
-	{
-		address: "0x269616D549D7e8Eaa82DFb17028d0B212D11232A",
-		chainId: 1,
-		decimals: 18,
-		name: "Punk Vault",
-		symbol: "NFTX"
 	},
 	{
 		address: "0x87d73E916D7057945c9BcD8cdd94e42A6F47f776",
