@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-13T14:18:23.729Z",
+  "timestamp": "2021-07-13T15:25:04.402Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -25049,17 +25049,17 @@
       "symbol": "MLT"
     },
     {
-      "address": "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "MM Token",
-      "symbol": "MM"
-    },
-    {
       "address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
       "chainId": 1,
       "decimals": 18,
       "name": "Million",
+      "symbol": "MM"
+    },
+    {
+      "address": "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "MM Token",
       "symbol": "MM"
     },
     {
@@ -32613,17 +32613,17 @@
       "symbol": "ROCK2PAY"
     },
     {
-      "address": "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Social Rocket",
-      "symbol": "ROCKS"
-    },
-    {
       "address": "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
       "chainId": 1,
       "decimals": 18,
       "name": "Rocki",
+      "symbol": "ROCKS"
+    },
+    {
+      "address": "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Social Rocket",
       "symbol": "ROCKS"
     },
     {
@@ -47091,17 +47091,17 @@
       "symbol": "ZUM"
     },
     {
-      "address": "0xbf0f3cCB8fA385A287106FbA22e6BB722F94d686",
-      "chainId": 1,
-      "decimals": 6,
-      "name": "Zytara Dollar",
-      "symbol": "ZUSD"
-    },
-    {
       "address": "0x76417E660DF3E5c90C0361674C192da152A806E4",
       "chainId": 1,
       "decimals": 18,
       "name": "Zerogoki USD",
+      "symbol": "ZUSD"
+    },
+    {
+      "address": "0xbf0f3cCB8fA385A287106FbA22e6BB722F94d686",
+      "chainId": 1,
+      "decimals": 6,
+      "name": "Zytara Dollar",
       "symbol": "ZUSD"
     },
     {
