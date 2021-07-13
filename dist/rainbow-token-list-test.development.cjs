@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-13T07:18:41.061Z";
+var timestamp = "2021-07-13T08:23:01.255Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -10470,6 +10470,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0x9F8eef61b1Ad834B44C089DBF33eb854746a6bf9",
+		chainId: 1,
+		decimals: 9,
+		name: "SpaceDawgs",
+		symbol: "DAWGS"
+	},
+	{
 		address: "0x580c8520dEDA0a441522AEAe0f9F7A5f29629aFa",
 		chainId: 1,
 		decimals: 18,
@@ -11178,6 +11185,13 @@ var tokens = [
 		decimals: 18,
 		name: "DeFini",
 		symbol: "DFNI"
+	},
+	{
+		address: "0x1Ee01654665303A5Dd2744e30b576941880e3A73",
+		chainId: 1,
+		decimals: 18,
+		name: "DFNORM Vault  NFTX",
+		symbol: "DFNORM"
 	},
 	{
 		address: "0x1640BD2898Eee4C36F369836a067deA8725ac0Cc",
@@ -21494,6 +21508,13 @@ var tokens = [
 		decimals: 8,
 		name: "BitKAM",
 		symbol: "KAM"
+	},
+	{
+		address: "0xb2C62E0A1F5837356e399359eCc34fcC49A02093",
+		chainId: 1,
+		decimals: 18,
+		name: "KAMAX Vault  NFTX",
+		symbol: "KAMAX"
 	},
 	{
 		address: "0x1410434b0346f5bE678d0FB554E5c7ab620f8f4a",
@@ -38226,6 +38247,13 @@ var tokens = [
 		decimals: 6,
 		name: "TopChain",
 		symbol: "TOPC"
+	},
+	{
+		address: "0xc57bAa24F72037C21f9c0d345BB6F19f47407447",
+		chainId: 1,
+		decimals: 18,
+		name: "TOPDOG Vault  NFTX",
+		symbol: "TOPDOG"
 	},
 	{
 		address: "0x4f5f2EEA4ED3485E5e23a39704d5fD9d0A423886",
