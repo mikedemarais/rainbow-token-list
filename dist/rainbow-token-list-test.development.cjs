@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-13T05:18:14.720Z";
+var timestamp = "2021-07-13T06:26:45.656Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -3594,6 +3594,13 @@ var tokens = [
 		symbol: "BAK"
 	},
 	{
+		address: "0xe632e1EA781df32c60AB11052958744CBfBc439A",
+		chainId: 1,
+		decimals: 18,
+		name: "BAKC Vault  NFTX",
+		symbol: "BAKC"
+	},
+	{
 		address: "0x8379f52d09b9998eCbA731288EE4fE532fD91C0B",
 		chainId: 1,
 		decimals: 18,
@@ -4292,6 +4299,13 @@ var tokens = [
 		symbol: "BDT"
 	},
 	{
+		address: "0xcD9b72f6E971026ea8609D2918C7BD02e1653945",
+		chainId: 1,
+		decimals: 18,
+		name: "BEAM Vault  NFTX",
+		symbol: "BEAM"
+	},
+	{
 		address: "0x016ee7373248a80BDe1fD6bAA001311d233b3CFa",
 		chainId: 1,
 		decimals: 18,
@@ -4576,6 +4590,13 @@ var tokens = [
 		decimals: 18,
 		name: "Bitget DeFi Token",
 		symbol: "BFT"
+	},
+	{
+		address: "0xc3B5284B2c0cfa1871a6ac63B6d6ee43c08BDC79",
+		chainId: 1,
+		decimals: 18,
+		name: "BGAN Vault  NFTX",
+		symbol: "BGAN"
 	},
 	{
 		address: "0xD34c9281585866A9fb2af0931adb1fA35ed44039",
@@ -5623,6 +5644,13 @@ var tokens = [
 		decimals: 18,
 		name: "BONK Token",
 		symbol: "BONK"
+	},
+	{
+		address: "0xf0fE1A87aBf12099b77352BdCc10F5A87067b290",
+		chainId: 1,
+		decimals: 18,
+		name: "BONSAI Vault  NFTX",
+		symbol: "BONSAI"
 	},
 	{
 		address: "0xa9C44135B3a87E0688c41CF8C27939A22dD437c9",
@@ -7225,6 +7253,13 @@ var tokens = [
 		symbol: "CARD"
 	},
 	{
+		address: "0xD6F7dB7dB116170ecb1c3b35F12c1E693bA70586",
+		chainId: 1,
+		decimals: 18,
+		name: "CARD Vault  NFTX",
+		symbol: "CARD"
+	},
+	{
 		address: "0x3d6F0DEa3AC3C607B3998e6Ce14b6350721752d9",
 		chainId: 1,
 		decimals: 18,
@@ -8403,6 +8438,13 @@ var tokens = [
 		symbol: "CNG"
 	},
 	{
+		address: "0x6443E507F53b526042d0054867A60a4C0409Cb4B",
+		chainId: 1,
+		decimals: 18,
+		name: "Chainlink NFT Vault",
+		symbol: "CNHPD"
+	},
+	{
 		address: "0x00A55375002f3cDa400383F479e7Cd57Bad029A9",
 		chainId: 1,
 		decimals: 18,
@@ -8641,6 +8683,13 @@ var tokens = [
 		decimals: 18,
 		name: "Collateral Pay",
 		symbol: "COLL"
+	},
+	{
+		address: "0xb3B4431F812A74BdfC148d6bDdfAdEcdC63FC083",
+		chainId: 1,
+		decimals: 18,
+		name: "COLLECTIVE Vault  N",
+		symbol: "COLLECTIVE"
 	},
 	{
 		address: "0xC92276872CD1907d2e00B58A81a9bbd275B0a4ba",
@@ -10421,6 +10470,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0x9F8eef61b1Ad834B44C089DBF33eb854746a6bf9",
+		chainId: 1,
+		decimals: 9,
+		name: "SpaceDawgs",
+		symbol: "DAWGS"
+	},
+	{
 		address: "0x580c8520dEDA0a441522AEAe0f9F7A5f29629aFa",
 		chainId: 1,
 		decimals: 18,
@@ -11129,6 +11185,13 @@ var tokens = [
 		decimals: 18,
 		name: "DeFini",
 		symbol: "DFNI"
+	},
+	{
+		address: "0x1Ee01654665303A5Dd2744e30b576941880e3A73",
+		chainId: 1,
+		decimals: 18,
+		name: "DFNORM Vault  NFTX",
+		symbol: "DFNORM"
 	},
 	{
 		address: "0x1640BD2898Eee4C36F369836a067deA8725ac0Cc",
@@ -13813,6 +13876,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xFDE98A3Bf5C7F6336aE4ce1b43148aEab7b7c89A",
+		chainId: 1,
+		decimals: 18,
+		name: "ENERGY Vault  NFTX",
+		symbol: "ENERGY"
 	},
 	{
 		address: "0xf0Ee6b27b759C9893Ce4f094b49ad28fd15A23e4",
@@ -17359,6 +17429,13 @@ var tokens = [
 		symbol: "GLY"
 	},
 	{
+		address: "0xD70240Dd62F4ea9a6A2416e0073D72139489d2AA",
+		chainId: 1,
+		decimals: 18,
+		name: "GLYPH Vault  NFTX",
+		symbol: "GLYPH"
+	},
+	{
 		address: "0xB13dE094Cc5CEe6C4cC0A3737bf0290166D9Ca5D",
 		chainId: 1,
 		decimals: 18,
@@ -18461,6 +18538,13 @@ var tokens = [
 		decimals: 18,
 		name: "HEdpAY",
 		symbol: "Hdp.ф"
+	},
+	{
+		address: "0x42B4dF7e402A71EAE743c6C5410CE3BBb63aEf22",
+		chainId: 1,
+		decimals: 18,
+		name: "HDPUNK Vault  NFTX",
+		symbol: "HDPUNK"
 	},
 	{
 		address: "0xcAFE27178308351a12ffFffDeb161d9d730DA082",
@@ -21426,6 +21510,13 @@ var tokens = [
 		symbol: "KAM"
 	},
 	{
+		address: "0xb2C62E0A1F5837356e399359eCc34fcC49A02093",
+		chainId: 1,
+		decimals: 18,
+		name: "KAMAX Vault  NFTX",
+		symbol: "KAMAX"
+	},
+	{
 		address: "0x1410434b0346f5bE678d0FB554E5c7ab620f8f4a",
 		chainId: 1,
 		decimals: 18,
@@ -21994,6 +22085,13 @@ var tokens = [
 		decimals: 9,
 		name: "Kong Defi",
 		symbol: "KONG"
+	},
+	{
+		address: "0x5A235C0b4cB8d0e80a5c3bF4d2faD5c32E440884",
+		chainId: 1,
+		decimals: 18,
+		name: "KONGZ Vault  NFTX",
+		symbol: "KONGZ"
 	},
 	{
 		address: "0x850aAB69f0e0171A9a49dB8BE3E71351c8247Df4",
@@ -23876,6 +23974,13 @@ var tokens = [
 		symbol: "MANDI"
 	},
 	{
+		address: "0xc716cf01532999E5dF45E1BD09743128c5932821",
+		chainId: 1,
+		decimals: 18,
+		name: "MANEKI Vault  NFTX",
+		symbol: "MANEKI"
+	},
+	{
 		address: "0xAB7aaf9e485a3bc885985184ABE9FC6Aba727bD6",
 		chainId: 1,
 		decimals: 18,
@@ -24458,6 +24563,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "Metadium",
+		symbol: "META"
+	},
+	{
+		address: "0x2F5C3dD519E8a502c48c9FC104Eee64fDFF05F03",
+		chainId: 1,
+		decimals: 18,
+		name: "META Vault  NFTX",
 		symbol: "META"
 	},
 	{
@@ -25220,6 +25332,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0x98968f0747E0A261532cAcC0BE296375F5c08398",
+		chainId: 1,
+		decimals: 18,
+		name: "MOONCAT Vault  NFTX",
+		symbol: "MOONCAT"
+	},
+	{
 		address: "0x1ad606ADDe97c0C28bD6ac85554176bC55783c01",
 		chainId: 1,
 		decimals: 18,
@@ -25277,6 +25396,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xCc3F1441e84f124A65Bc9798A69A5C4cEbC20dFF",
+		chainId: 1,
+		decimals: 18,
+		name: "MORPH Vault  NFTX",
+		symbol: "MORPH"
 	},
 	{
 		address: "0x970b596EA3cb9864397f799902f0a579cDc3377B",
@@ -28259,6 +28385,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0xEA6C27d11cCB9306154F87d47dc1405c37242081",
+		chainId: 1,
+		decimals: 18,
+		name: "PASTA Vault  NFTX",
+		symbol: "PASTA"
+	},
+	{
 		address: "0xE54f9E6Ab80ebc28515aF8b8233c1aeE6506a15E",
 		chainId: 1,
 		decimals: 18,
@@ -28844,6 +28977,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xB39185e33E8c28e0BB3DbBCe24DA5dEA6379Ae91",
+		chainId: 1,
+		decimals: 18,
+		name: "PHUNK Vault  NFTX",
+		symbol: "PHUNK"
 	},
 	{
 		address: "0x1864cE27E9F7517047933CaAE530674e8C70b8A7",
@@ -30145,6 +30285,13 @@ var tokens = [
 		decimals: 18,
 		name: "Pupper",
 		symbol: "PUP"
+	},
+	{
+		address: "0xd53998C536fc8B59b38aa0b49DBd8170d5Ebf4c2",
+		chainId: 1,
+		decimals: 18,
+		name: "PUPS Vault  NFTX",
+		symbol: "PUPS"
 	},
 	{
 		address: "0xe25ff6Eb959BCE67975778e46A47750C243B6B99",
@@ -32230,6 +32377,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0x13edcC775f8895961B81Db5C0205889B3Afb3A16",
+		chainId: 1,
+		decimals: 18,
+		name: "RINGER Vault  NFTX",
+		symbol: "RINGER"
+	},
+	{
 		address: "0x7F86C782EC802ac402e0369d2E6d500256F7abC5",
 		chainId: 1,
 		decimals: 18,
@@ -33260,6 +33414,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x63Aa9d05C025279F8E963ba784f1254814c1e12b",
+		chainId: 1,
+		decimals: 18,
+		name: "SBLAND Vault  NFTX",
+		symbol: "SBLAND"
 	},
 	{
 		address: "0xE5787927410b659cc4eA2441cDaa361f9D7b250C",
@@ -35097,6 +35258,13 @@ var tokens = [
 		symbol: "SODA"
 	},
 	{
+		address: "0xc443930Ecd59e55e42Efe976B8a4bA0658f5c50a",
+		chainId: 1,
+		decimals: 18,
+		name: "SODIUM Vault  NFTX",
+		symbol: "SODIUM"
+	},
+	{
 		address: "0xAEA5E11E22E447fA9837738A0cd2848857748ADF",
 		chainId: 1,
 		decimals: 18,
@@ -35417,6 +35585,13 @@ var tokens = [
 		decimals: 8,
 		name: "SPECTRUM",
 		symbol: "SPT"
+	},
+	{
+		address: "0x97Aa8e14db0bc073cC7e2d42AC715427717d6042",
+		chainId: 1,
+		decimals: 18,
+		name: "SPUNK Vault  NFTX",
+		symbol: "SPUNK"
 	},
 	{
 		address: "0xEf7bCE1BE2Ba032131326910a6c11e716daeDBFf",
@@ -38074,6 +38249,13 @@ var tokens = [
 		symbol: "TOPC"
 	},
 	{
+		address: "0xc57bAa24F72037C21f9c0d345BB6F19f47407447",
+		chainId: 1,
+		decimals: 18,
+		name: "TOPDOG Vault  NFTX",
+		symbol: "TOPDOG"
+	},
+	{
 		address: "0x4f5f2EEA4ED3485E5e23a39704d5fD9d0A423886",
 		chainId: 1,
 		decimals: 18,
@@ -38124,6 +38306,13 @@ var tokens = [
 		decimals: 18,
 		name: "Toshimon",
 		symbol: "TOSHI"
+	},
+	{
+		address: "0x1b9Aa0b63e0F025CD544E4d350ed81429b43b724",
+		chainId: 1,
+		decimals: 18,
+		name: "TOSHIMON Vault  NFT",
+		symbol: "TOSHIMON"
 	},
 	{
 		address: "0x6FF1BFa14A57594a5874B37ff6AC5efbD9F9599A",
@@ -43700,6 +43889,13 @@ var tokens = [
 		decimals: 18,
 		name: "Wiz Coin",
 		symbol: "WIZ1"
+	},
+	{
+		address: "0x87931E7AD81914e7898d07c68F145fC0A553D8Fb",
+		chainId: 1,
+		decimals: 18,
+		name: "WIZARD Vault  NFTX",
+		symbol: "WIZARD"
 	},
 	{
 		address: "0x73A9fb46e228628f8f9BB9004eCa4f4F529D3998",
