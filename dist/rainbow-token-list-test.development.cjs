@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-13T10:22:54.592Z";
+var timestamp = "2021-07-13T11:17:15.975Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -2294,13 +2294,6 @@ var tokens = [
 		decimals: 18,
 		name: "ArGo Token",
 		symbol: "ARGO"
-	},
-	{
-		address: "0x29917c3B1c2B4779a7B61f08d98B3Da0fCf3b6A4",
-		chainId: 1,
-		decimals: 18,
-		name: "ArgenPeso",
-		symbol: "ARGP"
 	},
 	{
 		address: "0xeDF6568618A00C6F0908Bf7758A16F76B6E04aF9",
@@ -23827,13 +23820,6 @@ var tokens = [
 		symbol: "LXC"
 	},
 	{
-		address: "0x61C320935dA31552B0d0De515DDEe964267c4764",
-		chainId: 1,
-		decimals: 8,
-		name: "Luxurium",
-		symbol: "LXMT"
-	},
-	{
 		address: "0xBC46D9961A3932f7D6b64abfdeC80C1816C4B835",
 		chainId: 1,
 		decimals: 18,
@@ -38497,13 +38483,6 @@ var tokens = [
 		decimals: 0,
 		name: "Trident Group",
 		symbol: "TRDT"
-	},
-	{
-		address: "0xC6D603A9Df53D1542552058c382bf115AACE70C7",
-		chainId: 1,
-		decimals: 8,
-		name: "Tourist Review Toke",
-		symbol: "TRET"
 	},
 	{
 		address: "0xc299004a310303D1C0005Cb14c70ccC02863924d",
