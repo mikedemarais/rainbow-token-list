@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-13T03:23:54.845Z";
+var timestamp = "2021-07-13T04:26:33.310Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -3136,6 +3136,13 @@ var tokens = [
 		symbol: "AVAL"
 	},
 	{
+		address: "0xdcDc1c1cC33AA817CbDBe8F5E2390BF7cc43dc4B",
+		chainId: 1,
+		decimals: 18,
+		name: "AVASTR Vault  NFTX",
+		symbol: "AVASTR"
+	},
+	{
 		address: "0x94d916873B22C9C1b53695f1c002F78537B9b3b2",
 		chainId: 1,
 		decimals: 18,
@@ -3783,6 +3790,13 @@ var tokens = [
 		decimals: 18,
 		name: "BoxAxis",
 		symbol: "BAXS"
+	},
+	{
+		address: "0xEA47B64e1BFCCb773A0420247C0aa0a3C1D2E5C5",
+		chainId: 1,
+		decimals: 18,
+		name: "BAYC Vault  NFTX",
+		symbol: "BAYC"
 	},
 	{
 		address: "0xB020eD54651831878E5C967e0953A900786178f9",
@@ -8716,6 +8730,13 @@ var tokens = [
 		decimals: 18,
 		name: "Cook",
 		symbol: "COOK"
+	},
+	{
+		address: "0x114f1388fAB456c4bA31B1850b244Eedcd024136",
+		chainId: 1,
+		decimals: 18,
+		name: "COOL Vault  NFTX",
+		symbol: "COOL"
 	},
 	{
 		address: "0x2f3e054D233c93C59140c0905227c7C607c70cbb",
@@ -26292,13 +26313,6 @@ var tokens = [
 		symbol: "NFTS"
 	},
 	{
-		address: "0x269616D549D7e8Eaa82DFb17028d0B212D11232A",
-		chainId: 1,
-		decimals: 18,
-		name: "Punk Vault",
-		symbol: "NFTX"
-	},
-	{
 		address: "0x87d73E916D7057945c9BcD8cdd94e42A6F47f776",
 		chainId: 1,
 		decimals: 18,
@@ -30011,6 +30025,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "Punk",
+		symbol: "PUNK"
+	},
+	{
+		address: "0x269616D549D7e8Eaa82DFb17028d0B212D11232A",
+		chainId: 1,
+		decimals: 18,
+		name: "Punk Vault  NFTX",
 		symbol: "PUNK"
 	},
 	{
