@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-13T16:33:23.627Z";
+var timestamp = "2021-07-13T17:26:00.736Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -25061,17 +25061,17 @@ var tokens = [
 		symbol: "MLT"
 	},
 	{
-		address: "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
-		chainId: 1,
-		decimals: 18,
-		name: "Million",
-		symbol: "MM"
-	},
-	{
 		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
 		chainId: 1,
 		decimals: 18,
 		name: "MM Token",
+		symbol: "MM"
+	},
+	{
+		address: "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
+		chainId: 1,
+		decimals: 18,
+		name: "Million",
 		symbol: "MM"
 	},
 	{
