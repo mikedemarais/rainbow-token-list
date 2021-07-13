@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-13T09:22:17.809Z";
+var timestamp = "2021-07-13T10:22:54.592Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4599,17 +4599,17 @@ var tokens = [
 		symbol: "BGAN"
 	},
 	{
-		address: "0xD34c9281585866A9fb2af0931adb1fA35ed44039",
-		chainId: 1,
-		decimals: 8,
-		name: "Be Gaming Coin",
-		symbol: "BGC"
-	},
-	{
 		address: "0xD043F70FF0634167Db1149b15E5668f5Be52D72C",
 		chainId: 1,
 		decimals: 18,
 		name: "BigCash",
+		symbol: "BGC"
+	},
+	{
+		address: "0xD34c9281585866A9fb2af0931adb1fA35ed44039",
+		chainId: 1,
+		decimals: 8,
+		name: "Be Gaming Coin",
 		symbol: "BGC"
 	},
 	{
@@ -21197,6 +21197,13 @@ var tokens = [
 		symbol: "JDC"
 	},
 	{
+		address: "0xA10A210C27C86f8C63825096E34f671fD61041b1",
+		chainId: 1,
+		decimals: 9,
+		name: "Jeff in Space",
+		symbol: "JEFF"
+	},
+	{
 		address: "0x939A7A577D93ad29B64C1595B1284ce660A479B9",
 		chainId: 1,
 		decimals: 18,
@@ -24566,17 +24573,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x2F5C3dD519E8a502c48c9FC104Eee64fDFF05F03",
-		chainId: 1,
-		decimals: 18,
-		name: "META Vault  NFTX",
-		symbol: "META"
-	},
-	{
 		address: "0xDE2F7766C8BF14CA67193128535E5c7454f8387C",
 		chainId: 1,
 		decimals: 18,
 		name: "Metadium",
+		symbol: "META"
+	},
+	{
+		address: "0x2F5C3dD519E8a502c48c9FC104Eee64fDFF05F03",
+		chainId: 1,
+		decimals: 18,
+		name: "META Vault  NFTX",
 		symbol: "META"
 	},
 	{
@@ -25068,17 +25075,17 @@ var tokens = [
 		symbol: "MLT"
 	},
 	{
-		address: "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
-		chainId: 1,
-		decimals: 18,
-		name: "Million",
-		symbol: "MM"
-	},
-	{
 		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
 		chainId: 1,
 		decimals: 18,
 		name: "MM Token",
+		symbol: "MM"
+	},
+	{
+		address: "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
+		chainId: 1,
+		decimals: 18,
+		name: "Million",
 		symbol: "MM"
 	},
 	{
@@ -43552,13 +43559,6 @@ var tokens = [
 		decimals: 18,
 		name: "WaterDrop",
 		symbol: "WDP"
-	},
-	{
-		address: "0x78b6174Cc8A3848251704B8A5CEd7f86e5d8Ddf1",
-		chainId: 1,
-		decimals: 8,
-		name: "Wider Coin",
-		symbol: "WDR"
 	},
 	{
 		address: "0xD110bB8a24B100c37aF7310416E685af807C1F10",
