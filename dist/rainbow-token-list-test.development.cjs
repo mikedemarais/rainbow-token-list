@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-13T01:05:38.946Z";
+var timestamp = "2021-07-13T03:23:54.845Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -8606,6 +8606,13 @@ var tokens = [
 		decimals: 18,
 		name: "Collateral Pay",
 		symbol: "COLL"
+	},
+	{
+		address: "0xC92276872CD1907d2e00B58A81a9bbd275B0a4ba",
+		chainId: 1,
+		decimals: 18,
+		name: "Collateral Pay Gove",
+		symbol: "COLLG"
 	},
 	{
 		address: "0x3867EF780a3AFCF1201EF4F2acc6A46e3bd1eb88",
@@ -27535,17 +27542,17 @@ var tokens = [
 		symbol: "OPEN"
 	},
 	{
-		address: "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
-		chainId: 1,
-		decimals: 8,
-		name: "Open Platform",
-		symbol: "OPEN"
-	},
-	{
 		address: "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
 		chainId: 1,
 		decimals: 18,
 		name: "OPEN Governance Tok",
+		symbol: "OPEN"
+	},
+	{
+		address: "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
+		chainId: 1,
+		decimals: 8,
+		name: "Open Platform",
 		symbol: "OPEN"
 	},
 	{
@@ -37962,17 +37969,17 @@ var tokens = [
 		symbol: "TOPC"
 	},
 	{
-		address: "0x9ea20fBFAA44efBc60C6728fCdBA17f01b7E04FE",
-		chainId: 1,
-		decimals: 8,
-		name: "Torex",
-		symbol: "TOR"
-	},
-	{
 		address: "0x4f5f2EEA4ED3485E5e23a39704d5fD9d0A423886",
 		chainId: 1,
 		decimals: 18,
 		name: "Torchain",
+		symbol: "TOR"
+	},
+	{
+		address: "0x9ea20fBFAA44efBc60C6728fCdBA17f01b7E04FE",
+		chainId: 1,
+		decimals: 8,
+		name: "Torex",
 		symbol: "TOR"
 	},
 	{
@@ -46793,6 +46800,13 @@ var tokens = [
 		decimals: 8,
 		name: "ZUM TOKEN",
 		symbol: "ZUM"
+	},
+	{
+		address: "0x76417E660DF3E5c90C0361674C192da152A806E4",
+		chainId: 1,
+		decimals: 18,
+		name: "Zerogoki USD",
+		symbol: "ZUSD"
 	},
 	{
 		address: "0xbf0f3cCB8fA385A287106FbA22e6BB722F94d686",
