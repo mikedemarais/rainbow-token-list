@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-13T04:26:33.310Z";
+var timestamp = "2021-07-13T05:18:14.720Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -1532,6 +1532,13 @@ var tokens = [
 		decimals: 18,
 		name: "Alpaca City",
 		symbol: "ALPA"
+	},
+	{
+		address: "0x413f6A89DdB823974F24F2E3cD3B4f467D3BBB38",
+		chainId: 1,
+		decimals: 18,
+		name: "ALPACA Vault  NFTX",
+		symbol: "ALPACA"
 	},
 	{
 		address: "0xa1faa113cbE53436Df28FF0aEe54275c13B40975",
@@ -4406,6 +4413,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0xe944f2B46FCfc9D0E887bBeaad95268D9416d0fD",
+		chainId: 1,
+		decimals: 18,
+		name: "BERRY Vault  NFTX",
+		symbol: "BERRY"
+	},
+	{
 		address: "0x1B073382E63411E3BcfFE90aC1B9A43feFa1Ec6F",
 		chainId: 1,
 		decimals: 8,
@@ -4564,17 +4578,17 @@ var tokens = [
 		symbol: "BFT"
 	},
 	{
-		address: "0xD043F70FF0634167Db1149b15E5668f5Be52D72C",
-		chainId: 1,
-		decimals: 18,
-		name: "BigCash",
-		symbol: "BGC"
-	},
-	{
 		address: "0xD34c9281585866A9fb2af0931adb1fA35ed44039",
 		chainId: 1,
 		decimals: 8,
 		name: "Be Gaming Coin",
+		symbol: "BGC"
+	},
+	{
+		address: "0xD043F70FF0634167Db1149b15E5668f5Be52D72C",
+		chainId: 1,
+		decimals: 18,
+		name: "BigCash",
 		symbol: "BGC"
 	},
 	{
@@ -6690,6 +6704,13 @@ var tokens = [
 		decimals: 18,
 		name: "Bundles",
 		symbol: "BUND"
+	},
+	{
+		address: "0x33e70C9EFABDf151f5c674A4ADDC104874980c3f",
+		chainId: 1,
+		decimals: 18,
+		name: "BUNNY Vault  NFTX",
+		symbol: "BUNNY"
 	},
 	{
 		address: "0x755eb14D2fefF2939EB3026f5CaD9D03775b9fF4",
@@ -15145,6 +15166,13 @@ var tokens = [
 		symbol: "FACE"
 	},
 	{
+		address: "0xcd46d92C46be1DbbD5CcC497e95611ABE9D507Bc",
+		chainId: 1,
+		decimals: 18,
+		name: "FACE Vault  NFTX",
+		symbol: "FACE"
+	},
+	{
 		address: "0x23aEfF664c1B2bbA98422a0399586e96cc8a1C92",
 		chainId: 1,
 		decimals: 18,
@@ -19328,6 +19356,13 @@ var tokens = [
 		symbol: "HYPEBET"
 	},
 	{
+		address: "0xeb5a8eEFDAE23a815072BF28de8114a825C27876",
+		chainId: 1,
+		decimals: 18,
+		name: "HYPER Vault  NFTX",
+		symbol: "HYPER"
+	},
+	{
 		address: "0xd794DD1CAda4cf79C9EebaAb8327a1B0507ef7d4",
 		chainId: 1,
 		decimals: 18,
@@ -21772,6 +21807,13 @@ var tokens = [
 		symbol: "KIT"
 	},
 	{
+		address: "0x9b9fB226E98C4e90DB2830C9aefa9cfcBE3b000a",
+		chainId: 1,
+		decimals: 18,
+		name: "KITTY Vault  NFTX",
+		symbol: "KITTY"
+	},
+	{
 		address: "0x2BF91c18Cd4AE9C2f2858ef9FE518180F7B5096D",
 		chainId: 1,
 		decimals: 8,
@@ -23914,6 +23956,13 @@ var tokens = [
 		symbol: "MASH"
 	},
 	{
+		address: "0xC7a8B45E184138114E6085C82936A8Db93DD156a",
+		chainId: 1,
+		decimals: 18,
+		name: "MASK Vault  NFTX",
+		symbol: "MASK"
+	},
+	{
 		address: "0x69af81e73A73B40adF4f3d4223Cd9b1ECE623074",
 		chainId: 1,
 		decimals: 18,
@@ -24319,6 +24368,13 @@ var tokens = [
 		symbol: "MEE"
 	},
 	{
+		address: "0x641927E970222B10b2E8CDBC96b1B4F427316f16",
+		chainId: 1,
+		decimals: 18,
+		name: "MEEB Vault  NFTX",
+		symbol: "MEEB"
+	},
+	{
 		address: "0x3218A02F8F8B5c3894ce30EB255F10Bcba13E654",
 		chainId: 1,
 		decimals: 18,
@@ -24696,6 +24752,13 @@ var tokens = [
 		decimals: 18,
 		name: "Minty Art",
 		symbol: "MINTY"
+	},
+	{
+		address: "0xcDa16f62A8d3127EA0aebfacB221C1CC41b8e488",
+		chainId: 1,
+		decimals: 18,
+		name: "MINUTE Vault  NFTX",
+		symbol: "MINUTE"
 	},
 	{
 		address: "0xae353DaEed8DCc7a9a12027F7e070c0A50B7b6A4",
@@ -28221,6 +28284,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "PATH",
+		symbol: "PATH"
+	},
+	{
+		address: "0x478e677C0bD24c848bD591Cc5273383DD5F30e4a",
+		chainId: 1,
+		decimals: 18,
+		name: "PATH Vault  NFTX",
 		symbol: "PATH"
 	},
 	{
@@ -34046,6 +34116,13 @@ var tokens = [
 		symbol: "SHENG"
 	},
 	{
+		address: "0x8c9d0e9d27fB15a96Cd8Ad714929502F4f1995Bf",
+		chainId: 1,
+		decimals: 18,
+		name: "SHUFFLE",
+		symbol: "SHFL"
+	},
+	{
 		address: "0xb17C88bDA07D28B3838E0c1dE6a30eAfBCF52D85",
 		chainId: 1,
 		decimals: 18,
@@ -35375,6 +35452,13 @@ var tokens = [
 		decimals: 6,
 		name: "SWAPCOINZ",
 		symbol: "SPZ"
+	},
+	{
+		address: "0x8d137e3337eb1B58A222Fef2B2Cc7C423903d9cf",
+		chainId: 1,
+		decimals: 18,
+		name: "SQGL Vault  NFTX",
+		symbol: "SQGL"
 	},
 	{
 		address: "0x16587cF43F044aBa0165ffA00AcF412631194e4b",
@@ -42967,6 +43051,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0xE7F4c89032A2488D327323548AB0459676269331",
+		chainId: 1,
+		decimals: 18,
+		name: "WAIFU Vault  NFTX",
+		symbol: "WAIFU"
+	},
+	{
 		address: "0x9f6513ED2b0DE89218E97DB4A5115ba04Be449f1",
 		chainId: 1,
 		decimals: 18,
@@ -45037,6 +45128,13 @@ var tokens = [
 		symbol: "XSGD"
 	},
 	{
+		address: "0x1Cf0f3AaBE4D12106B27Ab44df5473974279C524",
+		chainId: 1,
+		decimals: 18,
+		name: "xSNXa",
+		symbol: "XSNXA"
+	},
+	{
 		address: "0x22c421BA4717EDaF6b6BDA424207A7335e8f0e52",
 		chainId: 1,
 		decimals: 18,
@@ -46823,17 +46921,17 @@ var tokens = [
 		symbol: "ZUM"
 	},
 	{
-		address: "0x76417E660DF3E5c90C0361674C192da152A806E4",
-		chainId: 1,
-		decimals: 18,
-		name: "Zerogoki USD",
-		symbol: "ZUSD"
-	},
-	{
 		address: "0xbf0f3cCB8fA385A287106FbA22e6BB722F94d686",
 		chainId: 1,
 		decimals: 6,
 		name: "Zytara Dollar",
+		symbol: "ZUSD"
+	},
+	{
+		address: "0x76417E660DF3E5c90C0361674C192da152A806E4",
+		chainId: 1,
+		decimals: 18,
+		name: "Zerogoki USD",
 		symbol: "ZUSD"
 	},
 	{
