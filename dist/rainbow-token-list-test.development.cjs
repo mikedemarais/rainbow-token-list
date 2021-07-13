@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-13T08:23:01.255Z";
+var timestamp = "2021-07-13T09:22:17.809Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -8647,17 +8647,17 @@ var tokens = [
 		symbol: "COIN"
 	},
 	{
-		address: "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
-		chainId: 1,
-		decimals: 18,
-		name: "Coin",
-		symbol: "COIN"
-	},
-	{
 		address: "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
 		chainId: 1,
 		decimals: 18,
 		name: "Coin Artist",
+		symbol: "COIN"
+	},
+	{
+		address: "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
+		chainId: 1,
+		decimals: 18,
+		name: "Coin",
 		symbol: "COIN"
 	},
 	{
@@ -17623,6 +17623,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0x7f509465C38B66BDeCEC2CfDc842e11809CC8357",
+		chainId: 1,
+		decimals: 18,
+		name: "GODL",
+		symbol: "GODL"
+	},
+	{
 		address: "0x488E0369f9BC5C40C002eA7c1fe4fd01A198801c",
 		chainId: 1,
 		decimals: 18,
@@ -17658,17 +17665,17 @@ var tokens = [
 		symbol: "GOLD"
 	},
 	{
-		address: "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
-		chainId: 1,
-		decimals: 8,
-		name: "GOLD",
-		symbol: "GOLD"
-	},
-	{
 		address: "0x34D6A0F5C2f5D0082141fE73d93B9dd00ca7CE11",
 		chainId: 1,
 		decimals: 18,
 		name: "Golden Token",
+		symbol: "GOLD"
+	},
+	{
+		address: "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
+		chainId: 1,
+		decimals: 8,
+		name: "GOLD",
 		symbol: "GOLD"
 	},
 	{
@@ -24559,17 +24566,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0xDE2F7766C8BF14CA67193128535E5c7454f8387C",
-		chainId: 1,
-		decimals: 18,
-		name: "Metadium",
-		symbol: "META"
-	},
-	{
 		address: "0x2F5C3dD519E8a502c48c9FC104Eee64fDFF05F03",
 		chainId: 1,
 		decimals: 18,
 		name: "META Vault  NFTX",
+		symbol: "META"
+	},
+	{
+		address: "0xDE2F7766C8BF14CA67193128535E5c7454f8387C",
+		chainId: 1,
+		decimals: 18,
+		name: "Metadium",
 		symbol: "META"
 	},
 	{
@@ -27745,17 +27752,17 @@ var tokens = [
 		symbol: "OPEN"
 	},
 	{
-		address: "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
-		chainId: 1,
-		decimals: 18,
-		name: "OPEN Governance Tok",
-		symbol: "OPEN"
-	},
-	{
 		address: "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
 		chainId: 1,
 		decimals: 8,
 		name: "Open Platform",
+		symbol: "OPEN"
+	},
+	{
+		address: "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
+		chainId: 1,
+		decimals: 18,
+		name: "OPEN Governance Tok",
 		symbol: "OPEN"
 	},
 	{
@@ -33330,17 +33337,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0xc56b13ebbCFfa67cFb7979b900b736b3fb480D78",
-		chainId: 1,
-		decimals: 8,
-		name: "Social Activity Tok",
-		symbol: "SAT"
-	},
-	{
 		address: "0xc9F1016d336ef77AeE75Fc11Ad64C5Ecf9121332",
 		chainId: 1,
 		decimals: 18,
 		name: "SoMee Advertising T",
+		symbol: "SAT"
+	},
+	{
+		address: "0xc56b13ebbCFfa67cFb7979b900b736b3fb480D78",
+		chainId: 1,
+		decimals: 8,
+		name: "Social Activity Tok",
 		symbol: "SAT"
 	},
 	{
@@ -37512,11 +37519,11 @@ var tokens = [
 		symbol: "TESLF"
 	},
 	{
-		address: "0x79cdFa04e3c4EB58C4f49DAE78b322E5b0D38788",
+		address: "0x4057Db5bD9f67A566aA10E5587b1a964afFc6a16",
 		chainId: 1,
 		decimals: 18,
 		name: "Truefeedback Token",
-		symbol: "TFB"
+		symbol: "TFBX"
 	},
 	{
 		address: "0x8694EE05B45c9fE1058CE532de8dbCf1d84A4154",
