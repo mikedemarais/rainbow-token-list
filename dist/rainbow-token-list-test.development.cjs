@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-14T09:22:24.170Z";
+var timestamp = "2021-07-14T10:23:18.140Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -18346,6 +18346,13 @@ var tokens = [
 		decimals: 18,
 		name: "Hara Token",
 		symbol: "HART"
+	},
+	{
+		address: "0xEB1112Ac78D537853150E2a07E8b765E29d3F019",
+		chainId: 1,
+		decimals: 18,
+		name: "Hash Token",
+		symbol: "HASH"
 	},
 	{
 		address: "0x9002D4485b7594e3E850F0a206713B305113f69e",
