@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-14T16:32:52.950Z",
+  "timestamp": "2021-07-14T17:26:12.594Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -8733,6 +8733,13 @@
       "decimals": 18,
       "name": "CompliFi",
       "symbol": "COMFI"
+    },
+    {
+      "address": "0x5ab21Ec0bfa0B29545230395e3Adaca7d552C948",
+      "chainId": 1,
+      "decimals": 0,
+      "name": "PUNKS Comic",
+      "symbol": "COMIC"
     },
     {
       "address": "0xc00e94Cb662C3520282E6f5717214004A7f26888",

@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-14T16:32:52.950Z";
+var timestamp = "2021-07-14T17:26:12.594Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -8745,6 +8745,13 @@ var tokens = [
 		decimals: 18,
 		name: "CompliFi",
 		symbol: "COMFI"
+	},
+	{
+		address: "0x5ab21Ec0bfa0B29545230395e3Adaca7d552C948",
+		chainId: 1,
+		decimals: 0,
+		name: "PUNKS Comic",
+		symbol: "COMIC"
 	},
 	{
 		address: "0xc00e94Cb662C3520282E6f5717214004A7f26888",
