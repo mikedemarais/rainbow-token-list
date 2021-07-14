@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-07-14T01:00:01.539Z",
+    "timestamp": "2021-07-14T02:01:47.854Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -8134,6 +8134,13 @@
             "symbol": "CHX"
         },
         {
+            "address": "0x35A23BC27c345b36DeE700a256F69C6334030971",
+            "chainId": 1,
+            "decimals": 9,
+            "name": "Concern Poverty Cha",
+            "symbol": "CHY"
+        },
+        {
             "address": "0x3506424F91fD33084466F402d5D97f05F8e3b4AF",
             "chainId": 1,
             "decimals": 18,
@@ -8628,17 +8635,17 @@
             "symbol": "COIN"
         },
         {
-            "address": "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Coin Artist",
-            "symbol": "COIN"
-        },
-        {
             "address": "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
             "chainId": 1,
             "decimals": 18,
             "name": "Coin",
+            "symbol": "COIN"
+        },
+        {
+            "address": "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Coin Artist",
             "symbol": "COIN"
         },
         {
@@ -27733,17 +27740,17 @@
             "symbol": "OPEN"
         },
         {
-            "address": "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
-            "chainId": 1,
-            "decimals": 8,
-            "name": "Open Platform",
-            "symbol": "OPEN"
-        },
-        {
             "address": "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
             "chainId": 1,
             "decimals": 18,
             "name": "OPEN Governance Tok",
+            "symbol": "OPEN"
+        },
+        {
+            "address": "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
+            "chainId": 1,
+            "decimals": 8,
+            "name": "Open Platform",
             "symbol": "OPEN"
         },
         {
@@ -32613,17 +32620,17 @@
             "symbol": "ROCK2PAY"
         },
         {
-            "address": "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Rocki",
-            "symbol": "ROCKS"
-        },
-        {
             "address": "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
             "chainId": 1,
             "decimals": 18,
             "name": "Social Rocket",
+            "symbol": "ROCKS"
+        },
+        {
+            "address": "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Rocki",
             "symbol": "ROCKS"
         },
         {
@@ -39173,17 +39180,17 @@
             "symbol": "UCOS"
         },
         {
-            "address": "0x6d1DC3928604b00180Bb570BdAe94b9698d33b79",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "UnitedCrowd",
-            "symbol": "UCT"
-        },
-        {
             "address": "0x3c4bEa627039F0B7e7d21E34bB9C9FE962977518",
             "chainId": 1,
             "decimals": 18,
             "name": "Ubique Chain of Thi",
+            "symbol": "UCT"
+        },
+        {
+            "address": "0x6d1DC3928604b00180Bb570BdAe94b9698d33b79",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "UnitedCrowd",
             "symbol": "UCT"
         },
         {
@@ -43268,6 +43275,13 @@
             "decimals": 18,
             "name": "WandX",
             "symbol": "WAND"
+        },
+        {
+            "address": "0x4FaDC7A98f2Dc96510e42dD1A74141eEae0C1543",
+            "chainId": 1,
+            "decimals": 12,
+            "name": "Wrapped AR",
+            "symbol": "WAR"
         },
         {
             "address": "0xf4A81C18816C9B0AB98FAC51B36Dcb63b0E58Fde",
