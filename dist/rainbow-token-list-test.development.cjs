@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-14T06:26:10.672Z";
+var timestamp = "2021-07-14T07:18:56.834Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4278,17 +4278,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x4Efe8665e564bF454cCF5C90Ee16817F7485d5Cf",
-		chainId: 1,
-		decimals: 18,
-		name: "BlackDragon Token",
-		symbol: "BDT"
-	},
-	{
 		address: "0x7BCe667EF12023dc5f8577D015a2F09d99a5ef58",
 		chainId: 1,
 		decimals: 18,
 		name: "Block Duelers",
+		symbol: "BDT"
+	},
+	{
+		address: "0x4Efe8665e564bF454cCF5C90Ee16817F7485d5Cf",
+		chainId: 1,
+		decimals: 18,
+		name: "BlackDragon Token",
 		symbol: "BDT"
 	},
 	{
@@ -5834,17 +5834,17 @@ var tokens = [
 		symbol: "BPP"
 	},
 	{
-		address: "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
-		chainId: 1,
-		decimals: 18,
-		name: "B Protocol",
-		symbol: "BPRO"
-	},
-	{
 		address: "0x197E6bCa6BC2f488ec760a6Ce46B1399cd2954b0",
 		chainId: 1,
 		decimals: 8,
 		name: "BitCloud Pro",
+		symbol: "BPRO"
+	},
+	{
+		address: "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
+		chainId: 1,
+		decimals: 18,
+		name: "B Protocol",
 		symbol: "BPRO"
 	},
 	{
@@ -25075,17 +25075,17 @@ var tokens = [
 		symbol: "MLT"
 	},
 	{
-		address: "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
-		chainId: 1,
-		decimals: 18,
-		name: "Million",
-		symbol: "MM"
-	},
-	{
 		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
 		chainId: 1,
 		decimals: 18,
 		name: "MM Token",
+		symbol: "MM"
+	},
+	{
+		address: "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
+		chainId: 1,
+		decimals: 18,
+		name: "Million",
 		symbol: "MM"
 	},
 	{
@@ -29829,6 +29829,13 @@ var tokens = [
 		symbol: "PRC"
 	},
 	{
+		address: "0xdFC3829b127761a3218bFceE7fc92e1232c9D116",
+		chainId: 1,
+		decimals: 8,
+		name: "PRCY Coin",
+		symbol: "PRCY"
+	},
+	{
 		address: "0x556148562d5DdeB72545D7EC4B3eC8edc8F55Ba7",
 		chainId: 1,
 		decimals: 18,
@@ -32639,17 +32646,17 @@ var tokens = [
 		symbol: "ROCK2PAY"
 	},
 	{
-		address: "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
-		chainId: 1,
-		decimals: 18,
-		name: "Social Rocket",
-		symbol: "ROCKS"
-	},
-	{
 		address: "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
 		chainId: 1,
 		decimals: 18,
 		name: "Rocki",
+		symbol: "ROCKS"
+	},
+	{
+		address: "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
+		chainId: 1,
+		decimals: 18,
+		name: "Social Rocket",
 		symbol: "ROCKS"
 	},
 	{
@@ -43296,17 +43303,17 @@ var tokens = [
 		symbol: "WAND"
 	},
 	{
-		address: "0x4FaDC7A98f2Dc96510e42dD1A74141eEae0C1543",
-		chainId: 1,
-		decimals: 12,
-		name: "Wrapped AR",
-		symbol: "WAR"
-	},
-	{
 		address: "0xf4A81C18816C9B0AB98FAC51B36Dcb63b0E58Fde",
 		chainId: 1,
 		decimals: 18,
 		name: "YieldWars",
+		symbol: "WAR"
+	},
+	{
+		address: "0x4FaDC7A98f2Dc96510e42dD1A74141eEae0C1543",
+		chainId: 1,
+		decimals: 12,
+		name: "Wrapped AR",
 		symbol: "WAR"
 	},
 	{
