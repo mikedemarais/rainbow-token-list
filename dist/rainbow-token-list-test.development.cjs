@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-14T12:34:36.420Z";
+var timestamp = "2021-07-14T13:27:29.305Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -7834,13 +7834,6 @@ var tokens = [
 		decimals: 18,
 		name: "CryptFillCoin",
 		symbol: "CFC"
-	},
-	{
-		address: "0xc221b7E65FfC80DE234bbB6667aBDd46593D34F0",
-		chainId: 1,
-		decimals: 18,
-		name: "Centrifuge",
-		symbol: "CFG"
 	},
 	{
 		address: "0x12FEF5e57bF45873Cd9B62E9DBd7BFb99e32D73e",
@@ -25075,17 +25068,17 @@ var tokens = [
 		symbol: "MLT"
 	},
 	{
-		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
-		chainId: 1,
-		decimals: 18,
-		name: "MM Token",
-		symbol: "MM"
-	},
-	{
 		address: "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
 		chainId: 1,
 		decimals: 18,
 		name: "Million",
+		symbol: "MM"
+	},
+	{
+		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
+		chainId: 1,
+		decimals: 18,
+		name: "MM Token",
 		symbol: "MM"
 	},
 	{
@@ -32646,17 +32639,17 @@ var tokens = [
 		symbol: "ROCK2PAY"
 	},
 	{
-		address: "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
-		chainId: 1,
-		decimals: 18,
-		name: "Rocki",
-		symbol: "ROCKS"
-	},
-	{
 		address: "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
 		chainId: 1,
 		decimals: 18,
 		name: "Social Rocket",
+		symbol: "ROCKS"
+	},
+	{
+		address: "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
+		chainId: 1,
+		decimals: 18,
+		name: "Rocki",
 		symbol: "ROCKS"
 	},
 	{
@@ -34822,6 +34815,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
+		chainId: 1,
+		decimals: 9,
+		name: "ShibaLink",
+		symbol: "SLINK"
+	},
+	{
 		address: "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
 		chainId: 1,
 		decimals: 9,
@@ -34830,13 +34830,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
-		chainId: 1,
-		decimals: 9,
-		name: "ShibaLink",
-		symbol: "SLINK"
 	},
 	{
 		address: "0xCC8Fa225D80b9c7D42F96e9570156c65D6cAAa25",
@@ -43476,6 +43469,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xc221b7E65FfC80DE234bbB6667aBDd46593D34F0",
+		chainId: 1,
+		decimals: 18,
+		name: "Wrapped Centrifuge",
+		symbol: "WCFG"
 	},
 	{
 		address: "0x09fE5f0236F0Ea5D930197DCE254d77B04128075",
