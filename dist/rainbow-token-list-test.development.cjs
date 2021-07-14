@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-14T11:17:26.510Z";
+var timestamp = "2021-07-14T12:34:36.420Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4321,13 +4321,6 @@ var tokens = [
 		decimals: 18,
 		name: "3X Short Shitcoin I",
 		symbol: "BEARSHIT"
-	},
-	{
-		address: "0xdBB2F12CB89Af05516768C2c69A771D92A25D17c",
-		chainId: 1,
-		decimals: 18,
-		name: "Beast DAO",
-		symbol: "BEAST"
 	},
 	{
 		address: "0x2Fb12bccF6f5Dd338b76Be784A93ade072425690",
@@ -38556,6 +38549,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0xaE2FaB175D20B7aFA56f3bb32500b26Dc62BF572",
+		chainId: 1,
+		decimals: 18,
+		name: "Tripedia",
+		symbol: "TRIP"
+	},
+	{
 		address: "0x1350Fbe8Ce27762ec19134bf8FC405a427fe9Bf1",
 		chainId: 1,
 		decimals: 18,
@@ -46608,13 +46608,6 @@ var tokens = [
 		decimals: 0,
 		name: "502 Bad Gateway Tok",
 		symbol: "Z502"
-	},
-	{
-		address: "0x98a90499b62Ae48E151a66B0F647570b5a473B1c",
-		chainId: 1,
-		decimals: 18,
-		name: "ZAC Finance",
-		symbol: "ZAC"
 	},
 	{
 		address: "0x9d1233cc46795E94029fDA81aAaDc1455D510f15",
