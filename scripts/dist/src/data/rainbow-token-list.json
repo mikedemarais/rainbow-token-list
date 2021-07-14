@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-07-14T02:01:47.854Z",
+    "timestamp": "2021-07-14T04:27:02.707Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -1827,7 +1827,7 @@
             "symbol": "ANCT"
         },
         {
-            "address": "0x3fa1216ca613497D038EF0Ef680B4A6B3F7B5f7D",
+            "address": "0xa8C16FbeCF1AE1BC1DCc87e6892F18F777E92C69",
             "chainId": 1,
             "decimals": 9,
             "name": "Androttweiler Token",
@@ -18215,6 +18215,13 @@
             "symbol": "GZE"
         },
         {
+            "address": "0x0A680E503fd9ae14B62444C75ffB4BEf1F105666",
+            "chainId": 1,
+            "decimals": 8,
+            "name": "Arma Coin",
+            "symbol": "GZM"
+        },
+        {
             "address": "0xE638dc39b6aDBEE8526b5C22380b4b45dAf46d8e",
             "chainId": 1,
             "decimals": 6,
@@ -25056,17 +25063,17 @@
             "symbol": "MLT"
         },
         {
-            "address": "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "MM Token",
-            "symbol": "MM"
-        },
-        {
             "address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
             "chainId": 1,
             "decimals": 18,
             "name": "Million",
+            "symbol": "MM"
+        },
+        {
+            "address": "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "MM Token",
             "symbol": "MM"
         },
         {
