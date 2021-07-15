@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-15T08:23:12.478Z";
+var timestamp = "2021-07-15T09:22:33.973Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -2593,7 +2593,7 @@ var tokens = [
 		}
 	},
 	{
-		address: "0xD3D1615A2CdD71e209A3EFb6a91Fb9323bffd71D",
+		address: "0xF9E3a323957B172FDB2dD89c30BBDA980CFAC395",
 		chainId: 1,
 		decimals: 9,
 		name: "AstroLion",
@@ -5834,17 +5834,17 @@ var tokens = [
 		symbol: "BPP"
 	},
 	{
-		address: "0x197E6bCa6BC2f488ec760a6Ce46B1399cd2954b0",
-		chainId: 1,
-		decimals: 8,
-		name: "BitCloud Pro",
-		symbol: "BPRO"
-	},
-	{
 		address: "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
 		chainId: 1,
 		decimals: 18,
 		name: "B Protocol",
+		symbol: "BPRO"
+	},
+	{
+		address: "0x197E6bCa6BC2f488ec760a6Ce46B1399cd2954b0",
+		chainId: 1,
+		decimals: 8,
+		name: "BitCloud Pro",
 		symbol: "BPRO"
 	},
 	{
@@ -8647,17 +8647,17 @@ var tokens = [
 		symbol: "COIN"
 	},
 	{
-		address: "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
-		chainId: 1,
-		decimals: 18,
-		name: "Coin Artist",
-		symbol: "COIN"
-	},
-	{
 		address: "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
 		chainId: 1,
 		decimals: 18,
 		name: "Coin",
+		symbol: "COIN"
+	},
+	{
+		address: "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
+		chainId: 1,
+		decimals: 18,
+		name: "Coin Artist",
 		symbol: "COIN"
 	},
 	{
