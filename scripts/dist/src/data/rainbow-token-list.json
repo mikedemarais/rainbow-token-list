@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-07-15T05:18:20.438Z",
+    "timestamp": "2021-07-15T06:26:39.607Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -2416,6 +2416,13 @@
             "decimals": 18,
             "name": "ARTX",
             "symbol": "ARTX"
+        },
+        {
+            "address": "0x351cAa9045D65107b9d311D922D15887cfd634E4",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Arowana Token",
+            "symbol": "ARW"
         },
         {
             "address": "0x7705FaA34B16EB6d77Dfc7812be2367ba6B0248e",
@@ -6206,17 +6213,17 @@
             "symbol": "BSYS"
         },
         {
-            "address": "0x76c5449F4950f6338A393F53CdA8b53B0cd3Ca3a",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "BT Finance",
-            "symbol": "BT"
-        },
-        {
             "address": "0x997507cc49FBf0CD6ce5e1EE543218556fAFdEBc",
             "chainId": 1,
             "decimals": 18,
             "name": "Bitenium Token",
+            "symbol": "BT"
+        },
+        {
+            "address": "0x76c5449F4950f6338A393F53CdA8b53B0cd3Ca3a",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "BT Finance",
             "symbol": "BT"
         },
         {
