@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-15T09:22:33.973Z",
+  "timestamp": "2021-07-15T10:23:45.639Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -17532,13 +17532,6 @@
       "symbol": "GNBU"
     },
     {
-      "address": "0xF1a355cc5953a5C04130F221b6CCAd13c3f82990",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Gold And Gold",
-      "symbol": "GNG"
-    },
-    {
       "address": "0x6810e776880C02933D47DB1b9fc05908e5386b96",
       "chainId": 1,
       "decimals": 18,
@@ -26685,13 +26678,6 @@
         "isRainbowCurated": true,
         "isVerified": true
       }
-    },
-    {
-      "address": "0xe2A05a52BB1582A8C436e972531CDA45B45D7fF4",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "NMS Token",
-      "symbol": "NMST"
     },
     {
       "address": "0xd9A6803f41A006CBf389f21e55D7A6079Dfe8DF3",
@@ -44654,13 +44640,6 @@
       "decimals": 18,
       "name": "CoinMetro",
       "symbol": "XCM"
-    },
-    {
-      "address": "0xe60B3fcbD8f400a38476aDEB01fCaC861cCd2E42",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Connect Mining Toke",
-      "symbol": "XCMG"
     },
     {
       "address": "0x015df42d36Bc851c7F15f80bd1D4e8dBF02aed0c",
