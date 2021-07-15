@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-15T03:24:06.874Z";
+var timestamp = "2021-07-15T04:26:48.996Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4278,17 +4278,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x7BCe667EF12023dc5f8577D015a2F09d99a5ef58",
-		chainId: 1,
-		decimals: 18,
-		name: "Block Duelers",
-		symbol: "BDT"
-	},
-	{
 		address: "0x4Efe8665e564bF454cCF5C90Ee16817F7485d5Cf",
 		chainId: 1,
 		decimals: 18,
 		name: "BlackDragon Token",
+		symbol: "BDT"
+	},
+	{
+		address: "0x7BCe667EF12023dc5f8577D015a2F09d99a5ef58",
+		chainId: 1,
+		decimals: 18,
+		name: "Block Duelers",
 		symbol: "BDT"
 	},
 	{
@@ -6162,17 +6162,17 @@ var tokens = [
 		symbol: "BST"
 	},
 	{
-		address: "0xDf0041891BdA1f911C4243f328F7Cf61b37F965b",
-		chainId: 1,
-		decimals: 18,
-		name: "BOOSTO",
-		symbol: "BST"
-	},
-	{
 		address: "0x0B4680e848f842b86E4Df38D9FA0d9f9419F37EC",
 		chainId: 1,
 		decimals: 18,
 		name: "Beshare Token",
+		symbol: "BST"
+	},
+	{
+		address: "0xDf0041891BdA1f911C4243f328F7Cf61b37F965b",
+		chainId: 1,
+		decimals: 18,
+		name: "BOOSTO",
 		symbol: "BST"
 	},
 	{
@@ -6905,6 +6905,13 @@ var tokens = [
 		decimals: 8,
 		name: "Bitfxt Coin",
 		symbol: "BXT"
+	},
+	{
+		address: "0x54F9b4B4485543A815c51c412a9E20436A06491d",
+		chainId: 1,
+		decimals: 18,
+		name: "Baanx",
+		symbol: "BXX"
 	},
 	{
 		address: "0x827D53c8170aF52625f414bde00326Fc8A085E86",
@@ -8633,17 +8640,17 @@ var tokens = [
 		symbol: "COIN"
 	},
 	{
-		address: "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
-		chainId: 1,
-		decimals: 18,
-		name: "Coin",
-		symbol: "COIN"
-	},
-	{
 		address: "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
 		chainId: 1,
 		decimals: 18,
 		name: "Coin Artist",
+		symbol: "COIN"
+	},
+	{
+		address: "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
+		chainId: 1,
+		decimals: 18,
+		name: "Coin",
 		symbol: "COIN"
 	},
 	{
@@ -34274,6 +34281,13 @@ var tokens = [
 		symbol: "SHB"
 	},
 	{
+		address: "0x8A8221628361FA25294A83A172dd4f0133207B37",
+		chainId: 1,
+		decimals: 18,
+		name: "Shadetech",
+		symbol: "SHD"
+	},
+	{
 		address: "0x5845Cd0205b5d43AF695412a79Cf7C1Aeddb060F",
 		chainId: 1,
 		decimals: 18,
@@ -34282,13 +34296,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x8A8221628361FA25294A83A172dd4f0133207B37",
-		chainId: 1,
-		decimals: 18,
-		name: "Shadetech",
-		symbol: "SHD"
 	},
 	{
 		address: "0x22Ef3753e3658e81D5A0d0889ce078178Fe66595",
@@ -34822,13 +34829,6 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
-		chainId: 1,
-		decimals: 9,
-		name: "ShibaLink",
-		symbol: "SLINK"
-	},
-	{
 		address: "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
 		chainId: 1,
 		decimals: 9,
@@ -34837,6 +34837,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
+		chainId: 1,
+		decimals: 9,
+		name: "ShibaLink",
+		symbol: "SLINK"
 	},
 	{
 		address: "0xCC8Fa225D80b9c7D42F96e9570156c65D6cAAa25",
@@ -45903,17 +45910,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x4be40bc9681D0A7C24A99b4c92F85B9053Fc2A45",
-		chainId: 1,
-		decimals: 18,
-		name: "Dify Finance",
-		symbol: "YFIII"
-	},
-	{
 		address: "0x649eBF73043Ffcc70A59855ecd8a568FD996415a",
 		chainId: 1,
 		decimals: 18,
 		name: "YFIII",
+		symbol: "YFIII"
+	},
+	{
+		address: "0x4be40bc9681D0A7C24A99b4c92F85B9053Fc2A45",
+		chainId: 1,
+		decimals: 18,
+		name: "Dify Finance",
 		symbol: "YFIII"
 	},
 	{
