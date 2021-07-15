@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-15T14:19:02.778Z";
+var timestamp = "2021-07-15T15:24:16.891Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -6536,6 +6536,13 @@ var tokens = [
 		symbol: "BTR"
 	},
 	{
+		address: "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
+		chainId: 1,
+		decimals: 18,
+		name: "Bitrue Coin",
+		symbol: "BTR"
+	},
+	{
 		address: "0xcce63fD31e9053c110c74CEbc37C8e358A6AA5bD",
 		chainId: 1,
 		decimals: 4,
@@ -6544,13 +6551,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
-		chainId: 1,
-		decimals: 18,
-		name: "Bitrue Coin",
-		symbol: "BTR"
 	},
 	{
 		address: "0x388Fd8A5145D6EF85aAE14D494F93Df9D1c7c00C",
@@ -7600,6 +7600,13 @@ var tokens = [
 		decimals: 8,
 		name: "Christ Coin",
 		symbol: "CCLC"
+	},
+	{
+		address: "0xBc6669E7914a2b327Ae428184086d8Ac88d74EfC",
+		chainId: 1,
+		decimals: 18,
+		name: "Car Coin",
+		symbol: "CCM"
 	},
 	{
 		address: "0x17B26400621695c2D8C2D8869f6259E82D7544c4",
@@ -16920,17 +16927,17 @@ var tokens = [
 		symbol: "GC"
 	},
 	{
-		address: "0x486A72811ae65C4C814Ba929d6da35497d21296f",
-		chainId: 1,
-		decimals: 18,
-		name: "Galaxy Wallet",
-		symbol: "GC"
-	},
-	{
 		address: "0x720c2c93F5f9A6b82226e84095558B10F399b0FA",
 		chainId: 1,
 		decimals: 18,
 		name: "Gric Coin",
+		symbol: "GC"
+	},
+	{
+		address: "0x486A72811ae65C4C814Ba929d6da35497d21296f",
+		chainId: 1,
+		decimals: 18,
+		name: "Galaxy Wallet",
 		symbol: "GC"
 	},
 	{
@@ -17672,17 +17679,17 @@ var tokens = [
 		symbol: "GOLD"
 	},
 	{
-		address: "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
-		chainId: 1,
-		decimals: 8,
-		name: "GOLD",
-		symbol: "GOLD"
-	},
-	{
 		address: "0x670f9D9a26D3D42030794ff035d35a67AA092ead",
 		chainId: 1,
 		decimals: 8,
 		name: "XBullion",
+		symbol: "GOLD"
+	},
+	{
+		address: "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
+		chainId: 1,
+		decimals: 8,
+		name: "GOLD",
 		symbol: "GOLD"
 	},
 	{
@@ -32646,17 +32653,17 @@ var tokens = [
 		symbol: "ROCK2PAY"
 	},
 	{
-		address: "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
-		chainId: 1,
-		decimals: 18,
-		name: "Social Rocket",
-		symbol: "ROCKS"
-	},
-	{
 		address: "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
 		chainId: 1,
 		decimals: 18,
 		name: "Rocki",
+		symbol: "ROCKS"
+	},
+	{
+		address: "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
+		chainId: 1,
+		decimals: 18,
+		name: "Social Rocket",
 		symbol: "ROCKS"
 	},
 	{
@@ -47131,13 +47138,6 @@ var tokens = [
 		symbol: "ZUM"
 	},
 	{
-		address: "0x76417E660DF3E5c90C0361674C192da152A806E4",
-		chainId: 1,
-		decimals: 18,
-		name: "Zerogoki USD",
-		symbol: "ZUSD"
-	},
-	{
 		address: "0xbf0f3cCB8fA385A287106FbA22e6BB722F94d686",
 		chainId: 1,
 		decimals: 6,
@@ -47149,6 +47149,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 6,
 		name: "ZUSD",
+		symbol: "ZUSD"
+	},
+	{
+		address: "0x76417E660DF3E5c90C0361674C192da152A806E4",
+		chainId: 1,
+		decimals: 18,
+		name: "Zerogoki USD",
 		symbol: "ZUSD"
 	},
 	{
