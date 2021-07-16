@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-16T15:24:31.767Z";
+var timestamp = "2021-07-16T16:33:32.073Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -8668,17 +8668,17 @@ var tokens = [
 		symbol: "COIN"
 	},
 	{
-		address: "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
-		chainId: 1,
-		decimals: 18,
-		name: "Coin Artist",
-		symbol: "COIN"
-	},
-	{
 		address: "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
 		chainId: 1,
 		decimals: 18,
 		name: "Coin",
+		symbol: "COIN"
+	},
+	{
+		address: "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
+		chainId: 1,
+		decimals: 18,
+		name: "Coin Artist",
 		symbol: "COIN"
 	},
 	{
@@ -11762,6 +11762,13 @@ var tokens = [
 		symbol: "DLT"
 	},
 	{
+		address: "0x0000000DE40dfa9B17854cBC7869D80f9F98D823",
+		chainId: 1,
+		decimals: 18,
+		name: "delta theta",
+		symbol: "DLTA"
+	},
+	{
 		address: "0x0435316B3aB4B999856085c98c3B1ab21d85CD4D",
 		chainId: 1,
 		decimals: 18,
@@ -12958,18 +12965,18 @@ var tokens = [
 		symbol: "DVC"
 	},
 	{
+		address: "0x77dcE26c03a9B833fc2D7C31C22Da4f42e9d9582",
+		chainId: 1,
+		decimals: 18,
+		name: "DAOventures",
+		symbol: "DVD"
+	},
+	{
 		address: "0xDDdddd4301A082e62E84e43F474f044423921918",
 		chainId: 1,
 		decimals: 18,
 		name: "DVF",
 		symbol: "DVF"
-	},
-	{
-		address: "0x51e00a95748DBd2a3F47bC5c3b3E7B3F0fea666c",
-		chainId: 1,
-		decimals: 18,
-		name: "DAOventures",
-		symbol: "DVG"
 	},
 	{
 		address: "0x10633216E7E8281e33c86F02Bf8e565a635D9770",
