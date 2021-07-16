@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-16T06:26:42.861Z";
+var timestamp = "2021-07-16T07:19:08.874Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -7047,6 +7047,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xAE12C5930881c53715B369ceC7606B70d8EB229f",
+		chainId: 1,
+		decimals: 18,
+		name: "Coin98",
+		symbol: "C98"
 	},
 	{
 		address: "0x2029017f38128bFeFaA6C7B9cDd1b680cE8E5c03",
@@ -17959,6 +17966,13 @@ var tokens = [
 		decimals: 18,
 		name: "Gasify",
 		symbol: "GSFY"
+	},
+	{
+		address: "0xc7Eb46eEFA9E83022D024c8eDC0de31AECbFBDD7",
+		chainId: 1,
+		decimals: 9,
+		name: "Gambler Shiba",
+		symbol: "GSHIBA"
 	},
 	{
 		address: "0x7713bCda5106424FF6B0Ae1e7Fa05C3f4ae3ecB0",
