@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-16T02:31:24.106Z";
+var timestamp = "2021-07-16T04:27:00.666Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -322,17 +322,17 @@ var tokens = [
 		symbol: "A5T"
 	},
 	{
-		address: "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
-		chainId: 1,
-		decimals: 8,
-		name: "Abulaba",
-		symbol: "AAA"
-	},
-	{
 		address: "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
 		chainId: 1,
 		decimals: 10,
 		name: "AAAchain",
+		symbol: "AAA"
+	},
+	{
+		address: "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
+		chainId: 1,
+		decimals: 8,
+		name: "Abulaba",
 		symbol: "AAA"
 	},
 	{
@@ -6169,17 +6169,17 @@ var tokens = [
 		symbol: "BST"
 	},
 	{
-		address: "0x0B4680e848f842b86E4Df38D9FA0d9f9419F37EC",
-		chainId: 1,
-		decimals: 18,
-		name: "Beshare Token",
-		symbol: "BST"
-	},
-	{
 		address: "0xDf0041891BdA1f911C4243f328F7Cf61b37F965b",
 		chainId: 1,
 		decimals: 18,
 		name: "BOOSTO",
+		symbol: "BST"
+	},
+	{
+		address: "0x0B4680e848f842b86E4Df38D9FA0d9f9419F37EC",
+		chainId: 1,
+		decimals: 18,
+		name: "Beshare Token",
 		symbol: "BST"
 	},
 	{
@@ -6225,17 +6225,17 @@ var tokens = [
 		symbol: "BSYS"
 	},
 	{
-		address: "0x997507cc49FBf0CD6ce5e1EE543218556fAFdEBc",
-		chainId: 1,
-		decimals: 18,
-		name: "Bitenium Token",
-		symbol: "BT"
-	},
-	{
 		address: "0x76c5449F4950f6338A393F53CdA8b53B0cd3Ca3a",
 		chainId: 1,
 		decimals: 18,
 		name: "BT Finance",
+		symbol: "BT"
+	},
+	{
+		address: "0x997507cc49FBf0CD6ce5e1EE543218556fAFdEBc",
+		chainId: 1,
+		decimals: 18,
+		name: "Bitenium Token",
 		symbol: "BT"
 	},
 	{
@@ -6536,13 +6536,6 @@ var tokens = [
 		symbol: "BTR"
 	},
 	{
-		address: "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
-		chainId: 1,
-		decimals: 18,
-		name: "Bitrue Coin",
-		symbol: "BTR"
-	},
-	{
 		address: "0xcce63fD31e9053c110c74CEbc37C8e358A6AA5bD",
 		chainId: 1,
 		decimals: 4,
@@ -6551,6 +6544,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
+		chainId: 1,
+		decimals: 18,
+		name: "Bitrue Coin",
+		symbol: "BTR"
 	},
 	{
 		address: "0x388Fd8A5145D6EF85aAE14D494F93Df9D1c7c00C",
@@ -8313,6 +8313,13 @@ var tokens = [
 		symbol: "CLT"
 	},
 	{
+		address: "0x80C62FE4487E1351b47Ba49809EBD60ED085bf52",
+		chainId: 1,
+		decimals: 18,
+		name: "Clover Finance",
+		symbol: "CLV"
+	},
+	{
 		address: "0x22222C03318440305aC3e8a7820563d6A9FD777F",
 		chainId: 1,
 		decimals: 6,
@@ -9932,6 +9939,13 @@ var tokens = [
 		decimals: 18,
 		name: "Crypto Village Acce",
 		symbol: "CVA"
+	},
+	{
+		address: "0x72a66e54B66892aE3BBe54DF7bb7Dd5Ae927a6f9",
+		chainId: 1,
+		decimals: 18,
+		name: "Crypto Village Acce",
+		symbol: "CVAG"
 	},
 	{
 		address: "0x41e5560054824eA6B0732E656E3Ad64E20e94E45",
@@ -34829,6 +34843,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
+		chainId: 1,
+		decimals: 9,
+		name: "ShibaLink",
+		symbol: "SLINK"
+	},
+	{
 		address: "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
 		chainId: 1,
 		decimals: 9,
@@ -34837,13 +34858,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
-		chainId: 1,
-		decimals: 9,
-		name: "ShibaLink",
-		symbol: "SLINK"
 	},
 	{
 		address: "0xCC8Fa225D80b9c7D42F96e9570156c65D6cAAa25",
@@ -39172,13 +39186,6 @@ var tokens = [
 		symbol: "UCBI"
 	},
 	{
-		address: "0x5fb99A3593d7088e44377a1bEb27739Bd928F269",
-		chainId: 1,
-		decimals: 18,
-		name: "Unicly Chris McCann",
-		symbol: "UCM"
-	},
-	{
 		address: "0x722f97A435278B7383a1e3c47F41773bebF3232C",
 		chainId: 1,
 		decimals: 18,
@@ -39187,6 +39194,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x5fb99A3593d7088e44377a1bEb27739Bd928F269",
+		chainId: 1,
+		decimals: 18,
+		name: "Unicly Chris McCann",
+		symbol: "UCM"
 	},
 	{
 		address: "0xAAf37055188Feee4869dE63464937e683d61b2a1",
@@ -39220,17 +39234,17 @@ var tokens = [
 		symbol: "UCOS"
 	},
 	{
-		address: "0x3c4bEa627039F0B7e7d21E34bB9C9FE962977518",
-		chainId: 1,
-		decimals: 18,
-		name: "Ubique Chain of Thi",
-		symbol: "UCT"
-	},
-	{
 		address: "0x6d1DC3928604b00180Bb570BdAe94b9698d33b79",
 		chainId: 1,
 		decimals: 18,
 		name: "UnitedCrowd",
+		symbol: "UCT"
+	},
+	{
+		address: "0x3c4bEa627039F0B7e7d21E34bB9C9FE962977518",
+		chainId: 1,
+		decimals: 18,
+		name: "Ubique Chain of Thi",
 		symbol: "UCT"
 	},
 	{
@@ -45408,17 +45422,17 @@ var tokens = [
 		symbol: "XT"
 	},
 	{
-		address: "0xBFf0E42EEC4223fBd12260F47f3348D29876db42",
-		chainId: 1,
-		decimals: 6,
-		name: "Xtake",
-		symbol: "XTK"
-	},
-	{
 		address: "0x7F3EDcdD180Dbe4819Bd98FeE8929b5cEdB3AdEB",
 		chainId: 1,
 		decimals: 18,
 		name: "xToken",
+		symbol: "XTK"
+	},
+	{
+		address: "0xBFf0E42EEC4223fBd12260F47f3348D29876db42",
+		chainId: 1,
+		decimals: 6,
+		name: "Xtake",
 		symbol: "XTK"
 	},
 	{
