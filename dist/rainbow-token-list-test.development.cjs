@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-16T11:17:30.370Z";
+var timestamp = "2021-07-16T12:32:48.027Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4285,17 +4285,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x4Efe8665e564bF454cCF5C90Ee16817F7485d5Cf",
-		chainId: 1,
-		decimals: 18,
-		name: "BlackDragon Token",
-		symbol: "BDT"
-	},
-	{
 		address: "0x7BCe667EF12023dc5f8577D015a2F09d99a5ef58",
 		chainId: 1,
 		decimals: 18,
 		name: "Block Duelers",
+		symbol: "BDT"
+	},
+	{
+		address: "0x4Efe8665e564bF454cCF5C90Ee16817F7485d5Cf",
+		chainId: 1,
+		decimals: 18,
+		name: "BlackDragon Token",
 		symbol: "BDT"
 	},
 	{
@@ -10657,13 +10657,6 @@ var tokens = [
 		decimals: 18,
 		name: "DCTDAO",
 		symbol: "DCTD"
-	},
-	{
-		address: "0x9CCbd05d4d25c745d49F5e6BF17e09113Eb4c769",
-		chainId: 1,
-		decimals: 18,
-		name: "Decentralized Crypt",
-		symbol: "DCTO"
 	},
 	{
 		address: "0x00000000001876eB1444c986fD502e618c587430",
@@ -24615,17 +24608,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0xDE2F7766C8BF14CA67193128535E5c7454f8387C",
-		chainId: 1,
-		decimals: 18,
-		name: "Metadium",
-		symbol: "META"
-	},
-	{
 		address: "0x2F5C3dD519E8a502c48c9FC104Eee64fDFF05F03",
 		chainId: 1,
 		decimals: 18,
 		name: "META Vault  NFTX",
+		symbol: "META"
+	},
+	{
+		address: "0xDE2F7766C8BF14CA67193128535E5c7454f8387C",
+		chainId: 1,
+		decimals: 18,
+		name: "Metadium",
 		symbol: "META"
 	},
 	{
@@ -44262,13 +44255,6 @@ var tokens = [
 		symbol: "WSS"
 	},
 	{
-		address: "0x2cf2F4E07ecc54740293df6D6fb4150d725A919f",
-		chainId: 1,
-		decimals: 18,
-		name: "Winsor Token",
-		symbol: "WST"
-	},
-	{
 		address: "0xeDEec5691f23E4914cF0183A4196bBEb30d027a0",
 		chainId: 1,
 		decimals: 18,
@@ -45483,13 +45469,6 @@ var tokens = [
 		decimals: 18,
 		name: "XVIX",
 		symbol: "XVIX"
-	},
-	{
-		address: "0x5CC00ccA0692b9b34AF816e5439CDb47D3B63691",
-		chainId: 1,
-		decimals: 18,
-		name: "WooshCoin",
-		symbol: "XWO"
 	},
 	{
 		address: "0x55296f69f40Ea6d20E478533C15A6B08B654E758",
