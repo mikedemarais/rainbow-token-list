@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-16T18:25:47.145Z";
+var timestamp = "2021-07-16T19:16:29.906Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -12170,7 +12170,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "My DeFi Pet",
-		symbol: "DPET"
+		symbol: "DPET",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x875353Da48C4f9627c4D0b8B8c37B162fC43ce67",
@@ -16473,16 +16476,6 @@ var tokens = [
 		decimals: 18,
 		name: "Fantom",
 		symbol: "FTM"
-	},
-	{
-		address: "0x56325d180Ec3878A9028AfC7B0EDCEe7486Cc9df",
-		chainId: 1,
-		decimals: 18,
-		name: "Fountain",
-		symbol: "FTN",
-		extensions: {
-			isVerified: true
-		}
 	},
 	{
 		address: "0x2023DCf7c438c8C8C0B0F28dBaE15520B4f3Ee20",
