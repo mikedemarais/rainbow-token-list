@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-17T11:16:38.913Z",
+  "timestamp": "2021-07-17T12:31:28.805Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -4273,17 +4273,17 @@
       }
     },
     {
-      "address": "0x7BCe667EF12023dc5f8577D015a2F09d99a5ef58",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Block Duelers",
-      "symbol": "BDT"
-    },
-    {
       "address": "0x4Efe8665e564bF454cCF5C90Ee16817F7485d5Cf",
       "chainId": 1,
       "decimals": 18,
       "name": "BlackDragon Token",
+      "symbol": "BDT"
+    },
+    {
+      "address": "0x7BCe667EF12023dc5f8577D015a2F09d99a5ef58",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Block Duelers",
       "symbol": "BDT"
     },
     {
@@ -4580,17 +4580,17 @@
       "symbol": "BGAN"
     },
     {
-      "address": "0xD043F70FF0634167Db1149b15E5668f5Be52D72C",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "BigCash",
-      "symbol": "BGC"
-    },
-    {
       "address": "0xD34c9281585866A9fb2af0931adb1fA35ed44039",
       "chainId": 1,
       "decimals": 8,
       "name": "Be Gaming Coin",
+      "symbol": "BGC"
+    },
+    {
+      "address": "0xD043F70FF0634167Db1149b15E5668f5Be52D72C",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "BigCash",
       "symbol": "BGC"
     },
     {
@@ -5252,13 +5252,6 @@
       "chainId": 1,
       "decimals": 18,
       "name": "BMCHAIN token",
-      "symbol": "BMT"
-    },
-    {
-      "address": "0x86c2752F8fe2C6679A942C8Ee6C785C28F42cd55",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "BitMinutes",
       "symbol": "BMT"
     },
     {
@@ -6157,17 +6150,17 @@
       "symbol": "BST"
     },
     {
-      "address": "0xDf0041891BdA1f911C4243f328F7Cf61b37F965b",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "BOOSTO",
-      "symbol": "BST"
-    },
-    {
       "address": "0x0B4680e848f842b86E4Df38D9FA0d9f9419F37EC",
       "chainId": 1,
       "decimals": 18,
       "name": "Beshare Token",
+      "symbol": "BST"
+    },
+    {
+      "address": "0xDf0041891BdA1f911C4243f328F7Cf61b37F965b",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "BOOSTO",
       "symbol": "BST"
     },
     {
@@ -6524,6 +6517,13 @@
       "symbol": "BTR"
     },
     {
+      "address": "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Bitrue Coin",
+      "symbol": "BTR"
+    },
+    {
       "address": "0xcce63fD31e9053c110c74CEbc37C8e358A6AA5bD",
       "chainId": 1,
       "decimals": 4,
@@ -6532,13 +6532,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Bitrue Coin",
-      "symbol": "BTR"
     },
     {
       "address": "0x388Fd8A5145D6EF85aAE14D494F93Df9D1c7c00C",
@@ -11970,6 +11963,13 @@
       "decimals": 18,
       "name": "3X Long Dogecoin To",
       "symbol": "DOGEBULL"
+    },
+    {
+      "address": "0x73C61dD9E121dE834A4f3ed607263EE33b308c06",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Dogefather Ecosyste",
+      "symbol": "DOGEFATHER"
     },
     {
       "address": "0x9B9087756eCa997C5D595C840263001c9a26646D",
@@ -17681,17 +17681,17 @@
       "symbol": "GOLD"
     },
     {
-      "address": "0x670f9D9a26D3D42030794ff035d35a67AA092ead",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "XBullion",
-      "symbol": "GOLD"
-    },
-    {
       "address": "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
       "chainId": 1,
       "decimals": 8,
       "name": "GOLD",
+      "symbol": "GOLD"
+    },
+    {
+      "address": "0x670f9D9a26D3D42030794ff035d35a67AA092ead",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "XBullion",
       "symbol": "GOLD"
     },
     {
@@ -20949,7 +20949,7 @@
       "address": "0x0aeF06DcCCC531e581f0440059E6FfCC206039EE",
       "chainId": 1,
       "decimals": 8,
-      "name": "Intelligent Trading",
+      "name": "ITT Token",
       "symbol": "ITT"
     },
     {
@@ -21309,13 +21309,6 @@
       "decimals": 18,
       "name": "Jindoge",
       "symbol": "JINDOGE"
-    },
-    {
-      "address": "0x5661C46e366570360064Ae1A50A17a7a1a8f3236",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Jllone",
-      "symbol": "JLL"
     },
     {
       "address": "0x4B6628C5396e0740630e3c597Cc47f2185002e43",
@@ -23850,13 +23843,6 @@
       "symbol": "LVX"
     },
     {
-      "address": "0x6a404a3386655Bd8b63E584f2EFd2E3fb60E70f8",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Latex Chain",
-      "symbol": "LXC"
-    },
-    {
       "address": "0xBC46D9961A3932f7D6b64abfdeC80C1816C4B835",
       "chainId": 1,
       "decimals": 18,
@@ -25402,13 +25388,6 @@
       "decimals": 18,
       "name": "Meliora",
       "symbol": "MORA"
-    },
-    {
-      "address": "0x236ECfb32C2b496f942c86d43B8cA4F6Bd931e30",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Morph",
-      "symbol": "MORC"
     },
     {
       "address": "0x501262281B2Ba043e2fbf14904980689CDDB0C78",
@@ -32662,17 +32641,17 @@
       "symbol": "ROCK2PAY"
     },
     {
-      "address": "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Rocki",
-      "symbol": "ROCKS"
-    },
-    {
       "address": "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
       "chainId": 1,
       "decimals": 18,
       "name": "Social Rocket",
+      "symbol": "ROCKS"
+    },
+    {
+      "address": "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Rocki",
       "symbol": "ROCKS"
     },
     {
@@ -34838,13 +34817,6 @@
       }
     },
     {
-      "address": "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "ShibaLink",
-      "symbol": "SLINK"
-    },
-    {
       "address": "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
       "chainId": 1,
       "decimals": 9,
@@ -34853,6 +34825,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "ShibaLink",
+      "symbol": "SLINK"
     },
     {
       "address": "0xCC8Fa225D80b9c7D42F96e9570156c65D6cAAa25",
@@ -42552,13 +42531,6 @@
       "decimals": 18,
       "name": "vEth2",
       "symbol": "VETH2"
-    },
-    {
-      "address": "0x70A63225BcaDacc4430919F0C1A4f0f5fcffBaac",
-      "chainId": 1,
-      "decimals": 4,
-      "name": "VEY",
-      "symbol": "VEY"
     },
     {
       "address": "0x8e87F1811De0025D2335174dbc7338a43dF6d7cc",
