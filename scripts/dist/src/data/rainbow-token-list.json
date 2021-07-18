@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-07-18T09:21:49.238Z",
+    "timestamp": "2021-07-18T10:22:25.879Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -9979,17 +9979,17 @@
             "symbol": "CVP"
         },
         {
-            "address": "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Polkacover",
-            "symbol": "CVR"
-        },
-        {
             "address": "0x2578A20A07E8761d91D0961D3Ea92e14510885aa",
             "chainId": 1,
             "decimals": 18,
             "name": "COVIR",
+            "symbol": "CVR"
+        },
+        {
+            "address": "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Polkacover",
             "symbol": "CVR"
         },
         {
@@ -20681,13 +20681,6 @@
             "decimals": 8,
             "name": "Carlive Chain",
             "symbol": "IOV"
-        },
-        {
-            "address": "0x555D051538C7a13712F1f590fA6b4C176Ca4529f",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "iOWN Token",
-            "symbol": "IOWN"
         },
         {
             "address": "0x622CD54dEb2bB7A051515192417109bcF3fe098f",
@@ -32641,17 +32634,17 @@
             "symbol": "ROCK2PAY"
         },
         {
-            "address": "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Social Rocket",
-            "symbol": "ROCKS"
-        },
-        {
             "address": "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
             "chainId": 1,
             "decimals": 18,
             "name": "Rocki",
+            "symbol": "ROCKS"
+        },
+        {
+            "address": "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Social Rocket",
             "symbol": "ROCKS"
         },
         {
