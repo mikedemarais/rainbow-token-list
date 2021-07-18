@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-18T18:25:18.000Z";
+var timestamp = "2021-07-18T19:15:53.161Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -34428,6 +34428,16 @@ var tokens = [
 		symbol: "SHOKK"
 	},
 	{
+		address: "0xacE837f596029039E7eDd4789f9978259e1C3035",
+		chainId: 1,
+		decimals: 10,
+		name: "CoinShop",
+		symbol: "SHOP",
+		extensions: {
+			isVerified: true
+		}
+	},
+	{
 		address: "0x7BEF710a5759d197EC0Bf621c3Df802C2D60D848",
 		chainId: 1,
 		decimals: 18,
@@ -34466,11 +34476,8 @@ var tokens = [
 		address: "0xEd0439EACf4c4965AE4613D77a5C2Efe10e5f183",
 		chainId: 1,
 		decimals: 18,
-		name: "Shroom.Finance",
-		symbol: "SHROOM",
-		extensions: {
-			isVerified: true
-		}
+		name: "Niftyx Protocol",
+		symbol: "SHROOM"
 	},
 	{
 		address: "0x3A9FfF453d50D4Ac52A6890647b823379ba36B9E",
