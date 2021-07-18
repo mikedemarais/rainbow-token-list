@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-18T10:22:25.879Z";
+var timestamp = "2021-07-18T11:16:38.042Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -3431,13 +3431,6 @@ var tokens = [
 		symbol: "AZUKI"
 	},
 	{
-		address: "0xd26a9C3437f7D121098c8C05C7413F5Cc70BB070",
-		chainId: 1,
-		decimals: 18,
-		name: "Azuma Coin",
-		symbol: "AZUM"
-	},
-	{
 		address: "0x4B742b5bdb1D252907AE7F399a891d4a178DBC24",
 		chainId: 1,
 		decimals: 18,
@@ -5237,13 +5230,6 @@ var tokens = [
 		decimals: 18,
 		name: "Bridge Mutual",
 		symbol: "BMI"
-	},
-	{
-		address: "0x25ce333B325F02C9720Da526A01b5F5be889b4e3",
-		chainId: 1,
-		decimals: 18,
-		name: "BMJ Coin",
-		symbol: "BMJ"
 	},
 	{
 		address: "0x5913D0F34615923552ee913DBe809F9F348e706E",
@@ -13226,13 +13212,6 @@ var tokens = [
 		decimals: 8,
 		name: "eBCH",
 		symbol: "eBCH"
-	},
-	{
-		address: "0xBDDab785b306BCD9fB056Da189615Cc8eCE1D823",
-		chainId: 1,
-		decimals: 18,
-		name: "Ebakus",
-		symbol: "EBK"
 	},
 	{
 		address: "0x253444bd9ECf11E5516d6D00974e91c9F0857CCB",
@@ -23458,13 +23437,6 @@ var tokens = [
 		decimals: 18,
 		name: "LOK",
 		symbol: "LOK"
-	},
-	{
-		address: "0x5978708d6ccE1CC9640Eed47422D64c91BbD5171",
-		chainId: 1,
-		decimals: 18,
-		name: "LOLTOKEN",
-		symbol: "LOL"
 	},
 	{
 		address: "0x0000000000095413afC295d19EDeb1Ad7B71c952",
