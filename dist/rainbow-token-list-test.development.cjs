@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-19T01:04:49.892Z";
+var timestamp = "2021-07-19T02:30:57.076Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4526,17 +4526,17 @@ var tokens = [
 		symbol: "BFF"
 	},
 	{
-		address: "0x2b2b0559081c41e962777B5049632fdb30f7E652",
-		chainId: 1,
-		decimals: 8,
-		name: "BitDefi",
-		symbol: "BFI"
-	},
-	{
 		address: "0xC980be019F2ac10A1C96F964b971A5F44551D318",
 		chainId: 1,
 		decimals: 18,
 		name: "BitFarmings",
+		symbol: "BFI"
+	},
+	{
+		address: "0x2b2b0559081c41e962777B5049632fdb30f7E652",
+		chainId: 1,
+		decimals: 8,
+		name: "BitDefi",
 		symbol: "BFI"
 	},
 	{
@@ -9977,17 +9977,17 @@ var tokens = [
 		symbol: "CVP"
 	},
 	{
-		address: "0x2578A20A07E8761d91D0961D3Ea92e14510885aa",
-		chainId: 1,
-		decimals: 18,
-		name: "COVIR",
-		symbol: "CVR"
-	},
-	{
 		address: "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6",
 		chainId: 1,
 		decimals: 18,
 		name: "Polkacover",
+		symbol: "CVR"
+	},
+	{
+		address: "0x2578A20A07E8761d91D0961D3Ea92e14510885aa",
+		chainId: 1,
+		decimals: 18,
+		name: "COVIR",
 		symbol: "CVR"
 	},
 	{
@@ -39366,6 +39366,13 @@ var tokens = [
 		symbol: "UGLYPH"
 	},
 	{
+		address: "0xD4f2249dd6c26446F1413f6d97F14fcaa7792545",
+		chainId: 1,
+		decimals: 18,
+		name: "Unicly Genesis Moon",
+		symbol: "UGMC"
+	},
+	{
 		address: "0xC9Df0eD2E9eF4357b51DB171FF08297d10875280",
 		chainId: 1,
 		decimals: 17,
@@ -41534,6 +41541,13 @@ var tokens = [
 		decimals: 18,
 		name: "UnoSwap",
 		symbol: "UNOS"
+	},
+	{
+		address: "0x8d610E20481F4C4f3aCB87bBa9c46BeF7795fdFe",
+		chainId: 1,
+		decimals: 18,
+		name: "Unity Network",
+		symbol: "UNT"
 	},
 	{
 		address: "0x6b576972de33BebDe3A703BfF52a091e79f8c87A",
