@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-19T09:22:24.877Z";
+var timestamp = "2021-07-19T10:23:36.310Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -8661,17 +8661,17 @@ var tokens = [
 		symbol: "COIN"
 	},
 	{
-		address: "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
-		chainId: 1,
-		decimals: 18,
-		name: "Coin",
-		symbol: "COIN"
-	},
-	{
 		address: "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
 		chainId: 1,
 		decimals: 18,
 		name: "Coin Artist",
+		symbol: "COIN"
+	},
+	{
+		address: "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
+		chainId: 1,
+		decimals: 18,
+		name: "Coin",
 		symbol: "COIN"
 	},
 	{
@@ -9991,17 +9991,17 @@ var tokens = [
 		symbol: "CVP"
 	},
 	{
-		address: "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6",
-		chainId: 1,
-		decimals: 18,
-		name: "Polkacover",
-		symbol: "CVR"
-	},
-	{
 		address: "0x2578A20A07E8761d91D0961D3Ea92e14510885aa",
 		chainId: 1,
 		decimals: 18,
 		name: "COVIR",
+		symbol: "CVR"
+	},
+	{
+		address: "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6",
+		chainId: 1,
+		decimals: 18,
+		name: "Polkacover",
 		symbol: "CVR"
 	},
 	{
