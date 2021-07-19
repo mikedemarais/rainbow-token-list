@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-07-19T06:27:00.798Z",
+    "timestamp": "2021-07-19T07:18:48.573Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -31936,6 +31936,13 @@
             "decimals": 18,
             "name": "Reef Finance",
             "symbol": "REEF"
+        },
+        {
+            "address": "0xe804964c296E9FB666fBE67767838c1FF9Ab3209",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Reeth",
+            "symbol": "REETH"
         },
         {
             "address": "0x89303500a7Abfb178B274FD89F2469C264951e1f",
