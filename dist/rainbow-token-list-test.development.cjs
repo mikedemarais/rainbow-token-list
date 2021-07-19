@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-19T11:17:05.193Z";
+var timestamp = "2021-07-19T12:33:12.831Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4449,13 +4449,6 @@ var tokens = [
 		decimals: 18,
 		name: "DAO.Casino",
 		symbol: "BET"
-	},
-	{
-		address: "0x83D6a2171F78e8fFE4dfE7680983efFC49cff7a0",
-		chainId: 1,
-		decimals: 4,
-		name: "Bet Chips",
-		symbol: "BETC"
 	},
 	{
 		address: "0x14C926F2290044B647e1Bf2072e67B495eff1905",
@@ -29677,13 +29670,6 @@ var tokens = [
 		}
 	},
 	{
-		address: "0xDF4dF8eE1bD1c9f01e60ee15E4C2F7643B690699",
-		chainId: 1,
-		decimals: 18,
-		name: "POMA",
-		symbol: "POMAC"
-	},
-	{
 		address: "0x57B946008913B82E4dF85f501cbAeD910e58D26C",
 		chainId: 1,
 		decimals: 18,
@@ -37570,6 +37556,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x9358e3a79D428c7708da22a5bd085159F6818D12",
+		chainId: 1,
+		decimals: 9,
+		name: "Tenshi",
+		symbol: "TENSHI"
 	},
 	{
 		address: "0x515bA0a2E286AF10115284F151cF398688A69170",
@@ -45480,13 +45473,6 @@ var tokens = [
 		decimals: 18,
 		name: "Tap",
 		symbol: "XTP"
-	},
-	{
-		address: "0x36232B1328E49A043434E71C02C0dc2be278E975",
-		chainId: 1,
-		decimals: 18,
-		name: "Xaviera Tech",
-		symbol: "XTS"
 	},
 	{
 		address: "0xbc41d05287498DEc58129560De6bd1b8d4E3aC1d",
