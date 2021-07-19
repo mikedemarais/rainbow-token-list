@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-07-19T08:23:42.868Z",
+    "timestamp": "2021-07-19T09:22:24.877Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -70,6 +70,13 @@
             "decimals": 18,
             "name": "Tenset",
             "symbol": "10SET"
+        },
+        {
+            "address": "0x3402E15b3EA0f1aEC2679c4Be4c6d051ceF93953",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "QAO",
+            "symbol": "127760"
         },
         {
             "address": "0x35872fea6A4843fACBCDbCe99e3B69596A3680b8",
@@ -18334,6 +18341,13 @@
             "symbol": "HAND"
         },
         {
+            "address": "0x72E5390EDb7727E3d4e3436451DADafF675dBCC0",
+            "chainId": 1,
+            "decimals": 12,
+            "name": "Hanu Yokia",
+            "symbol": "HANU"
+        },
+        {
             "address": "0xD9c2D319Cd7e6177336b0a9c93c21cb48d84Fb54",
             "chainId": 1,
             "decimals": 18,
@@ -25744,6 +25758,13 @@
             "extensions": {
                 "isVerified": true
             }
+        },
+        {
+            "address": "0xE66b3AA360bB78468c00Bebe163630269DB3324F",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Merchant Token",
+            "symbol": "MTO"
         },
         {
             "address": "0x7FC408011165760eE31bE2BF20dAf450356692Af",
