@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-19T10:23:36.310Z";
+var timestamp = "2021-07-19T11:17:05.193Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -3511,6 +3511,13 @@ var tokens = [
 		symbol: "BABY"
 	},
 	{
+		address: "0xAC8E13ecC30Da7Ff04b842f21A62a1fb0f10eBd5",
+		chainId: 1,
+		decimals: 9,
+		name: "BabyDoge Coin",
+		symbol: "BABYDOGE"
+	},
+	{
 		address: "0xdfb4a81727aa961b6ee830720843104fAE0FDFf9",
 		chainId: 1,
 		decimals: 9,
@@ -4285,17 +4292,17 @@ var tokens = [
 		symbol: "BDP"
 	},
 	{
-		address: "0x4Efe8665e564bF454cCF5C90Ee16817F7485d5Cf",
-		chainId: 1,
-		decimals: 18,
-		name: "BlackDragon Token",
-		symbol: "BDT"
-	},
-	{
 		address: "0x7BCe667EF12023dc5f8577D015a2F09d99a5ef58",
 		chainId: 1,
 		decimals: 18,
 		name: "Block Duelers",
+		symbol: "BDT"
+	},
+	{
+		address: "0x4Efe8665e564bF454cCF5C90Ee16817F7485d5Cf",
+		chainId: 1,
+		decimals: 18,
+		name: "BlackDragon Token",
 		symbol: "BDT"
 	},
 	{
@@ -9991,17 +9998,17 @@ var tokens = [
 		symbol: "CVP"
 	},
 	{
-		address: "0x2578A20A07E8761d91D0961D3Ea92e14510885aa",
-		chainId: 1,
-		decimals: 18,
-		name: "COVIR",
-		symbol: "CVR"
-	},
-	{
 		address: "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6",
 		chainId: 1,
 		decimals: 18,
 		name: "Polkacover",
+		symbol: "CVR"
+	},
+	{
+		address: "0x2578A20A07E8761d91D0961D3Ea92e14510885aa",
+		chainId: 1,
+		decimals: 18,
+		name: "COVIR",
 		symbol: "CVR"
 	},
 	{
@@ -27287,6 +27294,13 @@ var tokens = [
 		decimals: 18,
 		name: "Odyssey",
 		symbol: "OCN"
+	},
+	{
+		address: "0xB99a4bB525ece962b549e6873229c5e6921BfF16",
+		chainId: 1,
+		decimals: 18,
+		name: "OctaPay",
+		symbol: "OCTA"
 	},
 	{
 		address: "0x7240aC91f01233BaAf8b064248E80feaA5912BA3",
