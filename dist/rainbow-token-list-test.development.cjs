@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-19T03:23:48.116Z";
+var timestamp = "2021-07-19T04:27:54.596Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -8354,6 +8354,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0x1190074795DAD0E61b61270De48e108427f8f817",
+		chainId: 1,
+		decimals: 9,
+		name: "CoinMerge",
+		symbol: "CMERGE"
+	},
+	{
 		address: "0x5fd1fFA1d817e2BC1E594081A9f883A8707e959c",
 		chainId: 1,
 		decimals: 8,
@@ -11433,6 +11440,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0x53109fe9e044F2c324D00AD85bfB0b13CE379480",
+		chainId: 1,
+		decimals: 9,
+		name: "Projekt Diamond",
+		symbol: "DIAMND"
+	},
+	{
 		address: "0x2e071D2966Aa7D8dECB1005885bA1977D6038A65",
 		chainId: 1,
 		decimals: 16,
@@ -11469,6 +11483,13 @@ var tokens = [
 		decimals: 18,
 		name: "Digible",
 		symbol: "DIGI"
+	},
+	{
+		address: "0x7333Cbf5B0b843B4129e234f791b0058347F671a",
+		chainId: 1,
+		decimals: 9,
+		name: "Digies Coin",
+		symbol: "DIGS"
 	},
 	{
 		address: "0x37F74e99794853777a10ea1dc08a64C86958F06a",
@@ -31984,6 +32005,13 @@ var tokens = [
 		symbol: "RELI"
 	},
 	{
+		address: "0xF68df6dF642E8387AfC9D03214B78f3087ef8a99",
+		chainId: 1,
+		decimals: 9,
+		name: "Doge Reloaded",
+		symbol: "RELOADED"
+	},
+	{
 		address: "0x83984d6142934bb535793A82ADB0a46EF0F66B6d",
 		chainId: 1,
 		decimals: 4,
@@ -32621,17 +32649,17 @@ var tokens = [
 		symbol: "ROCK2PAY"
 	},
 	{
-		address: "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
-		chainId: 1,
-		decimals: 18,
-		name: "Rocki",
-		symbol: "ROCKS"
-	},
-	{
 		address: "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
 		chainId: 1,
 		decimals: 18,
 		name: "Social Rocket",
+		symbol: "ROCKS"
+	},
+	{
+		address: "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
+		chainId: 1,
+		decimals: 18,
+		name: "Rocki",
 		symbol: "ROCKS"
 	},
 	{
