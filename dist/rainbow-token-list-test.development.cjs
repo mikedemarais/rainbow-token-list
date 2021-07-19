@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-18T23:20:44.965Z";
+var timestamp = "2021-07-19T01:04:49.892Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -15849,6 +15849,7 @@ var tokens = [
 		name: "FLUX",
 		symbol: "FLUX",
 		extensions: {
+			color: "#2b61d1",
 			isVerified: true
 		}
 	},
@@ -19349,6 +19350,7 @@ var tokens = [
 		name: "HUSD",
 		symbol: "HUSD",
 		extensions: {
+			color: "#005ffa",
 			isVerified: true
 		}
 	},
@@ -27574,6 +27576,7 @@ var tokens = [
 		name: "Menlo One",
 		symbol: "ONE",
 		extensions: {
+			color: "#00aee9",
 			isVerified: true
 		}
 	},
@@ -33253,6 +33256,7 @@ var tokens = [
 		name: "SAND",
 		symbol: "SAND",
 		extensions: {
+			color: "#04adef",
 			isVerified: true
 		}
 	},

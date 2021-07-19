@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-07-18T23:20:44.965Z",
+    "timestamp": "2021-07-19T01:04:49.892Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -15837,6 +15837,7 @@
             "name": "FLUX",
             "symbol": "FLUX",
             "extensions": {
+                "color": "#2b61d1",
                 "isVerified": true
             }
         },
@@ -19337,6 +19338,7 @@
             "name": "HUSD",
             "symbol": "HUSD",
             "extensions": {
+                "color": "#005ffa",
                 "isVerified": true
             }
         },
@@ -27562,6 +27564,7 @@
             "name": "Menlo One",
             "symbol": "ONE",
             "extensions": {
+                "color": "#00aee9",
                 "isVerified": true
             }
         },
@@ -33241,6 +33244,7 @@
             "name": "SAND",
             "symbol": "SAND",
             "extensions": {
+                "color": "#04adef",
                 "isVerified": true
             }
         },
