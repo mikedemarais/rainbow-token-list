@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-20T09:22:32.127Z";
+var timestamp = "2021-07-20T10:24:43.704Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -478,13 +478,6 @@ var tokens = [
 		decimals: 8,
 		name: "ANY Blocknet",
 		symbol: "ABLOCK"
-	},
-	{
-		address: "0x865bfD8232778F00CAe81315bf75ef1Fe6E30CDD",
-		chainId: 1,
-		decimals: 18,
-		name: "ABLE X Token",
-		symbol: "ABLX"
 	},
 	{
 		address: "0xcb03bec536843D338ac138205a6689d4cDc11046",
