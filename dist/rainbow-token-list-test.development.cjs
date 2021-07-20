@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-20T08:23:44.483Z";
+var timestamp = "2021-07-20T09:22:32.127Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -27754,6 +27754,13 @@ var tokens = [
 		decimals: 18,
 		name: "OnX Finance",
 		symbol: "ONX"
+	},
+	{
+		address: "0x7778360F035C589fCE2f4eA5786CbD8B36e5396B",
+		chainId: 1,
+		decimals: 18,
+		name: "OpenOcean",
+		symbol: "OOE"
 	},
 	{
 		address: "0x69D9905B2e5f6F5433212b7F3c954433F23C1572",
