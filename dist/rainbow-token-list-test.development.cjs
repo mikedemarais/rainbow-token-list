@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-20T03:23:33.455Z";
+var timestamp = "2021-07-20T04:27:27.459Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -3438,6 +3438,13 @@ var tokens = [
 		symbol: "AZUKI"
 	},
 	{
+		address: "0xd26a9C3437f7D121098c8C05C7413F5Cc70BB070",
+		chainId: 1,
+		decimals: 18,
+		name: "Azuma Coin",
+		symbol: "AZUM"
+	},
+	{
 		address: "0x4B742b5bdb1D252907AE7F399a891d4a178DBC24",
 		chainId: 1,
 		decimals: 18,
@@ -4292,17 +4299,17 @@ var tokens = [
 		symbol: "BDP"
 	},
 	{
-		address: "0x7BCe667EF12023dc5f8577D015a2F09d99a5ef58",
-		chainId: 1,
-		decimals: 18,
-		name: "Block Duelers",
-		symbol: "BDT"
-	},
-	{
 		address: "0x4Efe8665e564bF454cCF5C90Ee16817F7485d5Cf",
 		chainId: 1,
 		decimals: 18,
 		name: "BlackDragon Token",
+		symbol: "BDT"
+	},
+	{
+		address: "0x7BCe667EF12023dc5f8577D015a2F09d99a5ef58",
+		chainId: 1,
+		decimals: 18,
+		name: "Block Duelers",
 		symbol: "BDT"
 	},
 	{
@@ -4592,17 +4599,17 @@ var tokens = [
 		symbol: "BGAN"
 	},
 	{
-		address: "0xD34c9281585866A9fb2af0931adb1fA35ed44039",
-		chainId: 1,
-		decimals: 8,
-		name: "Be Gaming Coin",
-		symbol: "BGC"
-	},
-	{
 		address: "0xD043F70FF0634167Db1149b15E5668f5Be52D72C",
 		chainId: 1,
 		decimals: 18,
 		name: "BigCash",
+		symbol: "BGC"
+	},
+	{
+		address: "0xD34c9281585866A9fb2af0931adb1fA35ed44039",
+		chainId: 1,
+		decimals: 8,
+		name: "Be Gaming Coin",
 		symbol: "BGC"
 	},
 	{
@@ -11243,6 +11250,13 @@ var tokens = [
 		symbol: "DFT"
 	},
 	{
+		address: "0xf1f5De69C9C8D9BE8a7B01773Cc1166D4Ec6Ede2",
+		chainId: 1,
+		decimals: 18,
+		name: "Definitex",
+		symbol: "DFX"
+	},
+	{
 		address: "0x888888435FDe8e7d4c54cAb67f206e4199454c60",
 		chainId: 1,
 		decimals: 18,
@@ -11251,13 +11265,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0xf1f5De69C9C8D9BE8a7B01773Cc1166D4Ec6Ede2",
-		chainId: 1,
-		decimals: 18,
-		name: "Definitex",
-		symbol: "DFX"
 	},
 	{
 		address: "0x7CCC863EcE2E15bC45ac0565D410da7A3340aD98",
@@ -24596,10 +24603,10 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x2F5C3dD519E8a502c48c9FC104Eee64fDFF05F03",
+		address: "0x8807e69dC04155AF64172Cd6f0B4738F8068D0D4",
 		chainId: 1,
 		decimals: 18,
-		name: "META Vault  NFTX",
+		name: "Meta Network",
 		symbol: "META"
 	},
 	{
@@ -24610,10 +24617,10 @@ var tokens = [
 		symbol: "META"
 	},
 	{
-		address: "0x8807e69dC04155AF64172Cd6f0B4738F8068D0D4",
+		address: "0x2F5C3dD519E8a502c48c9FC104Eee64fDFF05F03",
 		chainId: 1,
 		decimals: 18,
-		name: "Meta Network",
+		name: "META Vault  NFTX",
 		symbol: "META"
 	},
 	{
@@ -33390,17 +33397,17 @@ var tokens = [
 		symbol: "SAT"
 	},
 	{
-		address: "0xc9F1016d336ef77AeE75Fc11Ad64C5Ecf9121332",
-		chainId: 1,
-		decimals: 18,
-		name: "SoMee Advertising T",
-		symbol: "SAT"
-	},
-	{
 		address: "0x1F0F468Ee03A6D99CD8A09dd071494a83Dc1c0e5",
 		chainId: 1,
 		decimals: 4,
 		name: "SmartX",
+		symbol: "SAT"
+	},
+	{
+		address: "0xc9F1016d336ef77AeE75Fc11Ad64C5Ecf9121332",
+		chainId: 1,
+		decimals: 18,
+		name: "SoMee Advertising T",
 		symbol: "SAT"
 	},
 	{
