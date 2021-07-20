@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-20T10:24:43.704Z";
+var timestamp = "2021-07-20T11:17:33.423Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -9991,17 +9991,17 @@ var tokens = [
 		symbol: "CVP"
 	},
 	{
-		address: "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6",
-		chainId: 1,
-		decimals: 18,
-		name: "Polkacover",
-		symbol: "CVR"
-	},
-	{
 		address: "0x2578A20A07E8761d91D0961D3Ea92e14510885aa",
 		chainId: 1,
 		decimals: 18,
 		name: "COVIR",
+		symbol: "CVR"
+	},
+	{
+		address: "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6",
+		chainId: 1,
+		decimals: 18,
+		name: "Polkacover",
 		symbol: "CVR"
 	},
 	{
@@ -39679,13 +39679,6 @@ var tokens = [
 		decimals: 18,
 		name: "Umbria Network",
 		symbol: "UMBR"
-	},
-	{
-		address: "0xd3EC111e4E33C0a1c32e3AD0BE976214d30Dc37E",
-		chainId: 1,
-		decimals: 18,
-		name: "Universal Marketing",
-		symbol: "UMC"
 	},
 	{
 		address: "0x190fB342aa6a15eB82903323ae78066fF8616746",
