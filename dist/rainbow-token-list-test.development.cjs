@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-21T16:32:52.055Z";
+var timestamp = "2021-07-21T17:27:17.311Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -416,11 +416,46 @@ var tokens = [
 		symbol: "AAMMUNILINKWETH"
 	},
 	{
+		address: "0x370adc71f67f581158Dc56f539dF5F399128Ddf9",
+		chainId: 1,
+		decimals: 18,
+		name: "Aave AMM UniMKRWETH",
+		symbol: "AAMMUNIMKRWETH"
+	},
+	{
+		address: "0xA9e201A4e269d6cd5E9F0FcbcB78520cf815878B",
+		chainId: 1,
+		decimals: 18,
+		name: "Aave AMM UniRENWETH",
+		symbol: "AAMMUNIRENWETH"
+	},
+	{
+		address: "0x38E491A71291CD43E8DE63b7253E482622184894",
+		chainId: 1,
+		decimals: 18,
+		name: "Aave AMM UniSNXWETH",
+		symbol: "AAMMUNISNXWETH"
+	},
+	{
+		address: "0x3D26dcd840fCC8e4B2193AcE8A092e4a65832F9f",
+		chainId: 1,
+		decimals: 18,
+		name: "Aave AMM UniUNIWETH",
+		symbol: "AAMMUNIUNIWETH"
+	},
+	{
 		address: "0x391E86e2C002C70dEe155eAceB88F7A3c38f5976",
 		chainId: 1,
 		decimals: 18,
 		name: "Aave AMM UniUSDCWET",
 		symbol: "AAMMUNIUSDCWETH"
+	},
+	{
+		address: "0xd24946147829DEaA935bE2aD85A3291dbf109c80",
+		chainId: 1,
+		decimals: 6,
+		name: "Aave AMM USDC",
+		symbol: "AAMMUSDC"
 	},
 	{
 		address: "0x17a79792Fe6fE5C95dFE95Fe3fCEE3CAf4fE4Cb7",
@@ -11320,6 +11355,13 @@ var tokens = [
 		symbol: "DFT"
 	},
 	{
+		address: "0xf1f5De69C9C8D9BE8a7B01773Cc1166D4Ec6Ede2",
+		chainId: 1,
+		decimals: 18,
+		name: "Definitex",
+		symbol: "DFX"
+	},
+	{
 		address: "0x888888435FDe8e7d4c54cAb67f206e4199454c60",
 		chainId: 1,
 		decimals: 18,
@@ -11328,13 +11370,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0xf1f5De69C9C8D9BE8a7B01773Cc1166D4Ec6Ede2",
-		chainId: 1,
-		decimals: 18,
-		name: "Definitex",
-		symbol: "DFX"
 	},
 	{
 		address: "0x7CCC863EcE2E15bC45ac0565D410da7A3340aD98",
