@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-07-21T04:27:16.216Z",
+    "timestamp": "2021-07-21T06:26:25.616Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -4340,6 +4340,13 @@
             "decimals": 18,
             "name": "Betherchip",
             "symbol": "BEC"
+        },
+        {
+            "address": "0x2aF1dF3AB0ab157e1E2Ad8F88A7D04fbea0c7dc6",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Bankless BED Index",
+            "symbol": "BED"
         },
         {
             "address": "0x4D8fc1453a0F359e99c9675954e656D80d996FbF",
@@ -13391,6 +13398,13 @@
             "decimals": 8,
             "name": "ECPN Token",
             "symbol": "ECPN"
+        },
+        {
+            "address": "0x59d71082d8a5B18ebc6b653Ae422ac4383CD2597",
+            "chainId": 1,
+            "decimals": 9,
+            "name": "Ethereum Chain Toke",
+            "symbol": "ECT"
         },
         {
             "address": "0xe9fa21E671BcfB04E6868784b89C19d5aa2424Ea",
