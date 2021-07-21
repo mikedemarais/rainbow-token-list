@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-21T07:19:39.488Z";
+var timestamp = "2021-07-21T08:23:45.481Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -386,6 +386,13 @@ var tokens = [
 		decimals: 18,
 		name: "Aave AMM DAI",
 		symbol: "AAMMDAI"
+	},
+	{
+		address: "0x17a79792Fe6fE5C95dFE95Fe3fCEE3CAf4fE4Cb7",
+		chainId: 1,
+		decimals: 6,
+		name: "Aave AMM USDT",
+		symbol: "AAMMUSDT"
 	},
 	{
 		address: "0xd059c8a4c7f53C4352d933b059349Ba492294ac9",
@@ -3516,6 +3523,13 @@ var tokens = [
 		decimals: 18,
 		name: "Baby Token",
 		symbol: "BABY"
+	},
+	{
+		address: "0xd21730353086B0D6C34656CA74F4E4295DC9B8E0",
+		chainId: 1,
+		decimals: 18,
+		name: "Baby Cuban",
+		symbol: "BABYCUBAN"
 	},
 	{
 		address: "0xAC8E13ecC30Da7Ff04b842f21A62a1fb0f10eBd5",
@@ -32450,6 +32464,13 @@ var tokens = [
 		symbol: "RI"
 	},
 	{
+		address: "0xBCD515D6C5de70D3A31D999A7FA6a299657De294",
+		chainId: 1,
+		decimals: 18,
+		name: "Rice Wallet",
+		symbol: "RICE"
+	},
+	{
 		address: "0x4cA0654f4fc1025cF1a17B7459c20aC0479522aD",
 		chainId: 1,
 		decimals: 18,
@@ -43923,6 +43944,13 @@ var tokens = [
 		symbol: "WILD"
 	},
 	{
+		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
+		chainId: 1,
+		decimals: 18,
+		name: "Wild Credit",
+		symbol: "WILD"
+	},
+	{
 		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
 		chainId: 1,
 		decimals: 18,
@@ -43994,6 +44022,13 @@ var tokens = [
 		decimals: 8,
 		name: "MyWish",
 		symbol: "WISH"
+	},
+	{
+		address: "0xdc524e3c6910257744C1F93Cf15E9F472b5bD236",
+		chainId: 1,
+		decimals: 18,
+		name: "Witch Token",
+		symbol: "WITCH"
 	},
 	{
 		address: "0x7bA19B7F7d106A9a1e0985397B94F38EEe0b555e",
