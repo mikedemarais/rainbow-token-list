@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-20T22:20:56.785Z";
+var timestamp = "2021-07-21T01:05:31.199Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4292,17 +4292,17 @@ var tokens = [
 		symbol: "BDP"
 	},
 	{
-		address: "0x4Efe8665e564bF454cCF5C90Ee16817F7485d5Cf",
-		chainId: 1,
-		decimals: 18,
-		name: "BlackDragon Token",
-		symbol: "BDT"
-	},
-	{
 		address: "0x7BCe667EF12023dc5f8577D015a2F09d99a5ef58",
 		chainId: 1,
 		decimals: 18,
 		name: "Block Duelers",
+		symbol: "BDT"
+	},
+	{
+		address: "0x4Efe8665e564bF454cCF5C90Ee16817F7485d5Cf",
+		chainId: 1,
+		decimals: 18,
+		name: "BlackDragon Token",
 		symbol: "BDT"
 	},
 	{
@@ -8661,17 +8661,17 @@ var tokens = [
 		symbol: "COIN"
 	},
 	{
-		address: "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
-		chainId: 1,
-		decimals: 18,
-		name: "Coin Artist",
-		symbol: "COIN"
-	},
-	{
 		address: "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
 		chainId: 1,
 		decimals: 18,
 		name: "Coin",
+		symbol: "COIN"
+	},
+	{
+		address: "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
+		chainId: 1,
+		decimals: 18,
+		name: "Coin Artist",
 		symbol: "COIN"
 	},
 	{
@@ -11243,13 +11243,6 @@ var tokens = [
 		symbol: "DFT"
 	},
 	{
-		address: "0xf1f5De69C9C8D9BE8a7B01773Cc1166D4Ec6Ede2",
-		chainId: 1,
-		decimals: 18,
-		name: "Definitex",
-		symbol: "DFX"
-	},
-	{
 		address: "0x888888435FDe8e7d4c54cAb67f206e4199454c60",
 		chainId: 1,
 		decimals: 18,
@@ -11258,6 +11251,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xf1f5De69C9C8D9BE8a7B01773Cc1166D4Ec6Ede2",
+		chainId: 1,
+		decimals: 18,
+		name: "Definitex",
+		symbol: "DFX"
 	},
 	{
 		address: "0x7CCC863EcE2E15bC45ac0565D410da7A3340aD98",
@@ -15404,6 +15404,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "Farmland Protocol",
+		symbol: "FAR"
+	},
+	{
+		address: "0xE8B2a3F60697F3c56fcA44a9616B91Fc9B99f98F",
+		chainId: 1,
+		decimals: 18,
+		name: "FarSwap",
 		symbol: "FAR"
 	},
 	{
@@ -24599,17 +24606,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x8807e69dC04155AF64172Cd6f0B4738F8068D0D4",
-		chainId: 1,
-		decimals: 18,
-		name: "Meta Network",
-		symbol: "META"
-	},
-	{
 		address: "0xDE2F7766C8BF14CA67193128535E5c7454f8387C",
 		chainId: 1,
 		decimals: 18,
 		name: "Metadium",
+		symbol: "META"
+	},
+	{
+		address: "0x8807e69dC04155AF64172Cd6f0B4738F8068D0D4",
+		chainId: 1,
+		decimals: 18,
+		name: "Meta Network",
 		symbol: "META"
 	},
 	{
@@ -32687,17 +32694,17 @@ var tokens = [
 		symbol: "ROCK2PAY"
 	},
 	{
-		address: "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
-		chainId: 1,
-		decimals: 18,
-		name: "Social Rocket",
-		symbol: "ROCKS"
-	},
-	{
 		address: "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
 		chainId: 1,
 		decimals: 18,
 		name: "Rocki",
+		symbol: "ROCKS"
+	},
+	{
+		address: "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
+		chainId: 1,
+		decimals: 18,
+		name: "Social Rocket",
 		symbol: "ROCKS"
 	},
 	{
@@ -33467,6 +33474,13 @@ var tokens = [
 		decimals: 8,
 		name: "SaveToken",
 		symbol: "SAVE"
+	},
+	{
+		address: "0x43acEDd39Ba4B0bfcCd92897fCe617Fb90a971d8",
+		chainId: 1,
+		decimals: 9,
+		name: "SafeBank Token",
+		symbol: "SBANK"
 	},
 	{
 		address: "0x36a2422a863D5B950882190Ff5433E513413343a",
