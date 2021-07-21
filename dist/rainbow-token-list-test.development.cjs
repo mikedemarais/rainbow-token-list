@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-21T06:26:25.616Z";
+var timestamp = "2021-07-21T07:19:39.488Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -379,6 +379,13 @@ var tokens = [
 		decimals: 5,
 		name: "Acute Angle Cloud",
 		symbol: "AAC"
+	},
+	{
+		address: "0x79bE75FFC64DD58e66787E4Eae470c8a1FD08ba4",
+		chainId: 1,
+		decimals: 18,
+		name: "Aave AMM DAI",
+		symbol: "AAMMDAI"
 	},
 	{
 		address: "0xd059c8a4c7f53C4352d933b059349Ba492294ac9",
