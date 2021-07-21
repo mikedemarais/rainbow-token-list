@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-21T15:24:23.105Z";
+var timestamp = "2021-07-21T16:32:52.055Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -388,11 +388,53 @@ var tokens = [
 		symbol: "AAMMDAI"
 	},
 	{
+		address: "0xA1B0edF4460CC4d8bFAA18Ed871bFF15E5b57Eb4",
+		chainId: 1,
+		decimals: 18,
+		name: "Aave AMM UniBATWETH",
+		symbol: "AAMMUNIBATWETH"
+	},
+	{
+		address: "0x0ea20e7fFB006d4Cfe84df2F72d8c7bD89247DB0",
+		chainId: 1,
+		decimals: 18,
+		name: "Aave AMM UniCRVWETH",
+		symbol: "AAMMUNICRVWETH"
+	},
+	{
+		address: "0xE340B25fE32B1011616bb8EC495A4d503e322177",
+		chainId: 1,
+		decimals: 18,
+		name: "Aave AMM UniDAIUSDC",
+		symbol: "AAMMUNIDAIUSDC"
+	},
+	{
+		address: "0xb8db81B84d30E2387de0FF330420A4AAA6688134",
+		chainId: 1,
+		decimals: 18,
+		name: "Aave AMM UniLINKWET",
+		symbol: "AAMMUNILINKWETH"
+	},
+	{
+		address: "0x391E86e2C002C70dEe155eAceB88F7A3c38f5976",
+		chainId: 1,
+		decimals: 18,
+		name: "Aave AMM UniUSDCWET",
+		symbol: "AAMMUNIUSDCWETH"
+	},
+	{
 		address: "0x17a79792Fe6fE5C95dFE95Fe3fCEE3CAf4fE4Cb7",
 		chainId: 1,
 		decimals: 6,
 		name: "Aave AMM USDT",
 		symbol: "AAMMUSDT"
+	},
+	{
+		address: "0x13B2f6928D7204328b0E8E4BCd0379aA06EA21FA",
+		chainId: 1,
+		decimals: 8,
+		name: "Aave AMM WBTC",
+		symbol: "AAMMWBTC"
 	},
 	{
 		address: "0xd059c8a4c7f53C4352d933b059349Ba492294ac9",
@@ -24627,17 +24669,17 @@ var tokens = [
 		symbol: "META"
 	},
 	{
-		address: "0x8807e69dC04155AF64172Cd6f0B4738F8068D0D4",
-		chainId: 1,
-		decimals: 18,
-		name: "Meta Network",
-		symbol: "META"
-	},
-	{
 		address: "0x2F5C3dD519E8a502c48c9FC104Eee64fDFF05F03",
 		chainId: 1,
 		decimals: 18,
 		name: "META Vault  NFTX",
+		symbol: "META"
+	},
+	{
+		address: "0x8807e69dC04155AF64172Cd6f0B4738F8068D0D4",
+		chainId: 1,
+		decimals: 18,
+		name: "Meta Network",
 		symbol: "META"
 	},
 	{
@@ -25122,17 +25164,17 @@ var tokens = [
 		symbol: "MLT"
 	},
 	{
-		address: "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
-		chainId: 1,
-		decimals: 18,
-		name: "Million",
-		symbol: "MM"
-	},
-	{
 		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
 		chainId: 1,
 		decimals: 18,
 		name: "MM Token",
+		symbol: "MM"
+	},
+	{
+		address: "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
+		chainId: 1,
+		decimals: 18,
+		name: "Million",
 		symbol: "MM"
 	},
 	{
@@ -38897,6 +38939,13 @@ var tokens = [
 		symbol: "TSX"
 	},
 	{
+		address: "0xEcacaB6725aC1711d97E55DF35d525b863B8B9f7",
+		chainId: 1,
+		decimals: 17,
+		name: "Trillion",
+		symbol: "TT"
+	},
+	{
 		address: "0xaaB606817809841E8b1168be8779Eeaf6744Ef64",
 		chainId: 1,
 		decimals: 18,
@@ -43923,17 +43972,17 @@ var tokens = [
 		symbol: "WILD"
 	},
 	{
-		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
-		chainId: 1,
-		decimals: 18,
-		name: "Wilder World",
-		symbol: "WILD"
-	},
-	{
 		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
 		chainId: 1,
 		decimals: 18,
 		name: "Wild Credit",
+		symbol: "WILD"
+	},
+	{
+		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
+		chainId: 1,
+		decimals: 18,
+		name: "Wilder World",
 		symbol: "WILD"
 	},
 	{
