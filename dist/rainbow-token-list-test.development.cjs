@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-21T11:17:07.526Z";
+var timestamp = "2021-07-21T12:32:25.922Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -6183,17 +6183,17 @@ var tokens = [
 		symbol: "BST"
 	},
 	{
-		address: "0x0B4680e848f842b86E4Df38D9FA0d9f9419F37EC",
-		chainId: 1,
-		decimals: 18,
-		name: "Beshare Token",
-		symbol: "BST"
-	},
-	{
 		address: "0xD4f6f9Ae14399fD5Eb8DFc7725F0094a1A7F5d80",
 		chainId: 1,
 		decimals: 18,
 		name: "Bitsten Token",
+		symbol: "BST"
+	},
+	{
+		address: "0x0B4680e848f842b86E4Df38D9FA0d9f9419F37EC",
+		chainId: 1,
+		decimals: 18,
+		name: "Beshare Token",
 		symbol: "BST"
 	},
 	{
@@ -8387,6 +8387,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xb2c19bA4D5246D4c587a62F0dfE9f78083568455",
+		chainId: 1,
+		decimals: 18,
+		name: "CMDX",
+		symbol: "CMDX"
 	},
 	{
 		address: "0x1190074795DAD0E61b61270De48e108427f8f817",
@@ -20922,13 +20929,6 @@ var tokens = [
 		symbol: "ISR"
 	},
 	{
-		address: "0x7a4d70528c0B8d376C206b0Fb2c9dB1d26315c2d",
-		chainId: 1,
-		decimals: 18,
-		name: "iShop Token",
-		symbol: "IST"
-	},
-	{
 		address: "0x0cF713b11C9b986EC40D65bD4F7fbd50F6ff2d64",
 		chainId: 1,
 		decimals: 18,
@@ -21523,13 +21523,6 @@ var tokens = [
 		symbol: "JT"
 	},
 	{
-		address: "0xE9ed705842BD7219a963e452c41Be85ce5Cff884",
-		chainId: 1,
-		decimals: 18,
-		name: "JoyTube Token",
-		symbol: "JTT"
-	},
-	{
 		address: "0x2CaE31D2Ca104a951654456f46168Bc9F88FDc65",
 		chainId: 1,
 		decimals: 18,
@@ -21604,13 +21597,6 @@ var tokens = [
 		decimals: 18,
 		name: "Polkally",
 		symbol: "KALLY"
-	},
-	{
-		address: "0xBdBB0Ee6144544eC814d417B0ad41f16fC8B858E",
-		chainId: 1,
-		decimals: 8,
-		name: "BitKAM",
-		symbol: "KAM"
 	},
 	{
 		address: "0xb2C62E0A1F5837356e399359eCc34fcC49A02093",
@@ -23604,13 +23590,6 @@ var tokens = [
 		decimals: 0,
 		name: "Love",
 		symbol: "LOVE"
-	},
-	{
-		address: "0x14D9444F6B9D55CaBa5d73f15BEa947695C11C82",
-		chainId: 1,
-		decimals: 9,
-		name: "LeoPard Coin",
-		symbol: "LP"
 	},
 	{
 		address: "0x99295f1141d58A99e939F7bE6BBe734916a875B8",
@@ -28980,13 +28959,6 @@ var tokens = [
 		decimals: 18,
 		name: "Payfair",
 		symbol: "PFR"
-	},
-	{
-		address: "0x9FadeA1aFF842D407893e21DBD0E2017b4C287b6",
-		chainId: 1,
-		decimals: 18,
-		name: "PGF500",
-		symbol: "PGF7T"
 	},
 	{
 		address: "0xC949fC82A15964FB5B97e5cf8f9ffed139086821",
@@ -39809,6 +39781,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0x2d94408F45b2E6Fa9EFfe1068b75116187c4E388",
+		chainId: 1,
+		decimals: 18,
+		name: "Uncle",
+		symbol: "UNCLE"
+	},
+	{
 		address: "0xaDB2437e6F65682B85F814fBc12FeC0508A7B1D0",
 		chainId: 1,
 		decimals: 18,
@@ -42991,17 +42970,17 @@ var tokens = [
 		symbol: "VNS"
 	},
 	{
-		address: "0xe912b8bA2513D7e29b7b2E5B14398dbf77503Fb4",
-		chainId: 1,
-		decimals: 18,
-		name: "InventoryClub",
-		symbol: "VNT"
-	},
-	{
 		address: "0x69d2779533a4D2c780639713558B2cC98c46A9b7",
 		chainId: 1,
 		decimals: 8,
 		name: "VNT Chain",
+		symbol: "VNT"
+	},
+	{
+		address: "0xe912b8bA2513D7e29b7b2E5B14398dbf77503Fb4",
+		chainId: 1,
+		decimals: 18,
+		name: "InventoryClub",
 		symbol: "VNT"
 	},
 	{
