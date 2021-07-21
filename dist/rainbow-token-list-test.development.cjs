@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-21T02:31:51.594Z";
+var timestamp = "2021-07-21T03:24:25.723Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -26770,6 +26770,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0xDa007777D86AC6d989cC9f79A73261b3fC5e0DA0",
+		chainId: 1,
+		decimals: 18,
+		name: "DAppNode",
+		symbol: "NODE"
+	},
+	{
 		address: "0x0C3eF32f802967DB75B9D49fE1e76620151cCB81",
 		chainId: 1,
 		decimals: 5,
@@ -47064,17 +47071,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x5091aEd52Ad421969254E48d29aa1d1807E1870b",
-		chainId: 1,
-		decimals: 18,
-		name: "ZOM",
-		symbol: "ZOM"
-	},
-	{
 		address: "0x1a231e75538a931c395785EF5D1A5581ec622B0e",
 		chainId: 1,
 		decimals: 18,
 		name: "Zoom Protocol",
+		symbol: "ZOM"
+	},
+	{
+		address: "0x5091aEd52Ad421969254E48d29aa1d1807E1870b",
+		chainId: 1,
+		decimals: 18,
+		name: "ZOM",
 		symbol: "ZOM"
 	},
 	{
