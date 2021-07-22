@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-22T07:19:14.962Z";
+var timestamp = "2021-07-22T10:23:32.315Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -533,6 +533,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0x272F97b7a56a387aE942350bBC7Df5700f8a4576",
+		chainId: 1,
+		decimals: 18,
+		name: "Aave BAL",
+		symbol: "ABAL"
+	},
+	{
 		address: "0x892F0E4118A3BC4eA9305fF7c5Bfa561CA7C9ADF",
 		chainId: 1,
 		decimals: 18,
@@ -732,6 +739,13 @@ var tokens = [
 		decimals: 18,
 		name: "Acreage Coin",
 		symbol: "ACR"
+	},
+	{
+		address: "0x8dAE6Cb04688C62d939ed9B68d32Bc62e49970b1",
+		chainId: 1,
+		decimals: 18,
+		name: "Aave CRV",
+		symbol: "ACRV"
 	},
 	{
 		address: "0x7b2dF125567815ac9b57DA04B620F50bc93B320C",
@@ -1206,7 +1220,7 @@ var tokens = [
 		chainId: 1,
 		decimals: 2,
 		name: "Aave GUSD",
-		symbol: "aGUSD"
+		symbol: "AGUSD"
 	},
 	{
 		address: "0x8b79656FC38a04044E495e22fAD747126ca305C4",
@@ -2248,6 +2262,13 @@ var tokens = [
 		decimals: 18,
 		name: "Ara Token",
 		symbol: "ARA"
+	},
+	{
+		address: "0xc9BC48c72154ef3e5425641a3c747242112a46AF",
+		chainId: 1,
+		decimals: 18,
+		name: "Aave RAI",
+		symbol: "ARAI"
 	},
 	{
 		address: "0x387c291Bc3274389054E82CE81Dd318a0113caf5",
@@ -4224,6 +4245,13 @@ var tokens = [
 		symbol: "BCNT"
 	},
 	{
+		address: "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
+		chainId: 1,
+		decimals: 8,
+		name: "BitcashPay",
+		symbol: "BCP"
+	},
+	{
 		address: "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
 		chainId: 1,
 		decimals: 18,
@@ -4239,13 +4267,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
-		chainId: 1,
-		decimals: 8,
-		name: "BitcashPay",
-		symbol: "BCP"
 	},
 	{
 		address: "0xd26fb114401Ec86887CD09F62eccd95fCf20B571",
@@ -7988,6 +8009,13 @@ var tokens = [
 		decimals: 18,
 		name: "CyberFi",
 		symbol: "CFI"
+	},
+	{
+		address: "0x8994C21d588106ba289e014331A1D74491894cEe",
+		chainId: 1,
+		decimals: 8,
+		name: "Chain Flowers",
+		symbol: "CFLO"
 	},
 	{
 		address: "0x9B683d81B8334325bCC1802D47DE65571993Fe89",
@@ -21823,6 +21851,13 @@ var tokens = [
 		symbol: "KDAG"
 	},
 	{
+		address: "0x7e00b63483C92975A3be0a71432277935326a618",
+		chainId: 1,
+		decimals: 18,
+		name: "DroneFly",
+		symbol: "KDC"
+	},
+	{
 		address: "0x2aEa4Add166EBf38b63d09a75dE1a7b94Aa24163",
 		chainId: 1,
 		decimals: 0,
@@ -22052,6 +22087,13 @@ var tokens = [
 		decimals: 18,
 		name: "Khipu Token",
 		symbol: "KIP"
+	},
+	{
+		address: "0x1FD7E8C718C153FA97A5525c227A098007dcFddA",
+		chainId: 1,
+		decimals: 9,
+		name: "Kirby Inu",
+		symbol: "KIRBY"
 	},
 	{
 		address: "0xB1191F691A355b43542Bea9B8847bc73e7Abb137",
@@ -37288,6 +37330,13 @@ var tokens = [
 		symbol: "TAG"
 	},
 	{
+		address: "0x13dB9034C9CA6cb739887288fcE790544a476f8c",
+		chainId: 1,
+		decimals: 9,
+		name: "Taiyo",
+		symbol: "TAIYO"
+	},
+	{
 		address: "0x1D4cCC31dAB6EA20f461d329a0562C1c58412515",
 		chainId: 1,
 		decimals: 18,
@@ -45567,13 +45616,6 @@ var tokens = [
 		decimals: 6,
 		name: "XSGD",
 		symbol: "XSGD"
-	},
-	{
-		address: "0x1Cf0f3AaBE4D12106B27Ab44df5473974279C524",
-		chainId: 1,
-		decimals: 18,
-		name: "xSNXa",
-		symbol: "XSNXA"
 	},
 	{
 		address: "0x22c421BA4717EDaF6b6BDA424207A7335e8f0e52",
