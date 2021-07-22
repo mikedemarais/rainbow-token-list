@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-22T15:24:45.740Z";
+var timestamp = "2021-07-22T16:34:37.822Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -379,6 +379,20 @@ var tokens = [
 		decimals: 5,
 		name: "Acute Angle Cloud",
 		symbol: "AAC"
+	},
+	{
+		address: "0xd109b2A304587569c84308c55465cd9fF0317bFB",
+		chainId: 1,
+		decimals: 18,
+		name: "Aave AMM BptBALWETH",
+		symbol: "AAMMBPTBALWETH"
+	},
+	{
+		address: "0x358bD0d980E031E23ebA9AA793926857703783BD",
+		chainId: 1,
+		decimals: 18,
+		name: "Aave AMM BptWBTCWET",
+		symbol: "AAMMBPTWBTCWETH"
 	},
 	{
 		address: "0x79bE75FFC64DD58e66787E4Eae470c8a1FD08ba4",
@@ -16411,7 +16425,7 @@ var tokens = [
 		address: "0xc770EEfAd204B5180dF6a14Ee197D99d808ee52d",
 		chainId: 1,
 		decimals: 18,
-		name: "FOX Token",
+		name: "ShapeShift FOX Toke",
 		symbol: "FOX"
 	},
 	{
