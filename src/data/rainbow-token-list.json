@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-22T04:27:10.541Z",
+  "timestamp": "2021-07-22T05:16:33.358Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -376,6 +376,13 @@
       "symbol": "AAMMDAI"
     },
     {
+      "address": "0xe59d2FF6995a926A574390824a657eEd36801E55",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave AMM UniAAVEWET",
+      "symbol": "AAMMUNIAAVEWETH"
+    },
+    {
       "address": "0xA1B0edF4460CC4d8bFAA18Ed871bFF15E5b57Eb4",
       "chainId": 1,
       "decimals": 18,
@@ -395,6 +402,13 @@
       "decimals": 18,
       "name": "Aave AMM UniDAIUSDC",
       "symbol": "AAMMUNIDAIUSDC"
+    },
+    {
+      "address": "0x9303EabC860a743aABcc3A1629014CaBcc3F8D36",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave AMM UniDAIWETH",
+      "symbol": "AAMMUNIDAIWETH"
     },
     {
       "address": "0xb8db81B84d30E2387de0FF330420A4AAA6688134",
@@ -437,6 +451,13 @@
       "decimals": 18,
       "name": "Aave AMM UniUSDCWET",
       "symbol": "AAMMUNIUSDCWETH"
+    },
+    {
+      "address": "0xc58F53A8adff2fB4eb16ED56635772075E2EE123",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave AMM UniWBTCWET",
+      "symbol": "AAMMUNIWBTCWETH"
     },
     {
       "address": "0xd24946147829DEaA935bE2aD85A3291dbf109c80",
@@ -8761,17 +8782,17 @@
       "symbol": "COIN"
     },
     {
-      "address": "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Coin Artist",
-      "symbol": "COIN"
-    },
-    {
       "address": "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
       "chainId": 1,
       "decimals": 18,
       "name": "Coin",
+      "symbol": "COIN"
+    },
+    {
+      "address": "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Coin Artist",
       "symbol": "COIN"
     },
     {
@@ -25187,17 +25208,17 @@
       "symbol": "MLT"
     },
     {
-      "address": "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "MM Token",
-      "symbol": "MM"
-    },
-    {
       "address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
       "chainId": 1,
       "decimals": 18,
       "name": "Million",
+      "symbol": "MM"
+    },
+    {
+      "address": "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "MM Token",
       "symbol": "MM"
     },
     {
@@ -29191,6 +29212,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x37C997B35C619C21323F3518B9357914E8B99525",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Unipilot",
+      "symbol": "PILOT"
     },
     {
       "address": "0xc1f976B91217E240885536aF8b63bc8b5269a9BE",
@@ -45892,6 +45920,13 @@
       "decimals": 18,
       "name": "yfBeta",
       "symbol": "YFBETA"
+    },
+    {
+      "address": "0xff034D12353867fC4228f4Ae3E689CD6dCAad120",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "YFBitcoin",
+      "symbol": "YFBTC"
     },
     {
       "address": "0xE8ed08a581777f112654e28DE507e11613DA0379",
