@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-22T13:25:41.507Z";
+var timestamp = "2021-07-22T14:19:01.030Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -465,25 +465,11 @@ var tokens = [
 		symbol: "AAMMUNIUSDCWETH"
 	},
 	{
-		address: "0x2365a4890eD8965E564B7E2D27C38Ba67Fec4C6F",
-		chainId: 1,
-		decimals: 16,
-		name: "Aave AMM UniWBTCUSD",
-		symbol: "AAMMUNIWBTCUSDC"
-	},
-	{
 		address: "0xc58F53A8adff2fB4eb16ED56635772075E2EE123",
 		chainId: 1,
 		decimals: 18,
 		name: "Aave AMM UniWBTCWET",
 		symbol: "AAMMUNIWBTCWETH"
-	},
-	{
-		address: "0x5394794Be8b6eD5572FCd6b27103F46b5F390E8f",
-		chainId: 1,
-		decimals: 18,
-		name: "Aave AMM UniYFIWETH",
-		symbol: "AAMMUNIYFIWETH"
 	},
 	{
 		address: "0xd24946147829DEaA935bE2aD85A3291dbf109c80",
@@ -505,13 +491,6 @@ var tokens = [
 		decimals: 8,
 		name: "Aave AMM WBTC",
 		symbol: "AAMMWBTC"
-	},
-	{
-		address: "0xf9Fb4AD91812b704Ba883B11d2B576E890a6730A",
-		chainId: 1,
-		decimals: 18,
-		name: "Aave AMM WETH",
-		symbol: "AAMMWETH"
 	},
 	{
 		address: "0xd059c8a4c7f53C4352d933b059349Ba492294ac9",
@@ -3516,13 +3495,6 @@ var tokens = [
 		}
 	},
 	{
-		address: "0xF256CC7847E919FAc9B808cC216cAc87CCF2f47a",
-		chainId: 1,
-		decimals: 18,
-		name: "Aave XSUSHI",
-		symbol: "AXSUSHI"
-	},
-	{
 		address: "0x5165d24277cD063F5ac44Efd447B27025e888f37",
 		chainId: 1,
 		decimals: 18,
@@ -4273,17 +4245,17 @@ var tokens = [
 		symbol: "BCNT"
 	},
 	{
-		address: "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
-		chainId: 1,
-		decimals: 18,
-		name: "BlockchainPoland",
-		symbol: "BCP"
-	},
-	{
 		address: "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
 		chainId: 1,
 		decimals: 8,
 		name: "BitcashPay",
+		symbol: "BCP"
+	},
+	{
+		address: "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
+		chainId: 1,
+		decimals: 18,
+		name: "BlockchainPoland",
 		symbol: "BCP"
 	},
 	{
@@ -4767,17 +4739,17 @@ var tokens = [
 		symbol: "BGAN"
 	},
 	{
-		address: "0xD34c9281585866A9fb2af0931adb1fA35ed44039",
-		chainId: 1,
-		decimals: 8,
-		name: "Be Gaming Coin",
-		symbol: "BGC"
-	},
-	{
 		address: "0xD043F70FF0634167Db1149b15E5668f5Be52D72C",
 		chainId: 1,
 		decimals: 18,
 		name: "BigCash",
+		symbol: "BGC"
+	},
+	{
+		address: "0xD34c9281585866A9fb2af0931adb1fA35ed44039",
+		chainId: 1,
+		decimals: 8,
+		name: "Be Gaming Coin",
 		symbol: "BGC"
 	},
 	{
@@ -8850,17 +8822,17 @@ var tokens = [
 		symbol: "COIN"
 	},
 	{
-		address: "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
-		chainId: 1,
-		decimals: 18,
-		name: "Coin",
-		symbol: "COIN"
-	},
-	{
 		address: "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
 		chainId: 1,
 		decimals: 18,
 		name: "Coin Artist",
+		symbol: "COIN"
+	},
+	{
+		address: "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
+		chainId: 1,
+		decimals: 18,
+		name: "Coin",
 		symbol: "COIN"
 	},
 	{
@@ -32890,17 +32862,17 @@ var tokens = [
 		symbol: "ROCK2PAY"
 	},
 	{
-		address: "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
-		chainId: 1,
-		decimals: 18,
-		name: "Social Rocket",
-		symbol: "ROCKS"
-	},
-	{
 		address: "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
 		chainId: 1,
 		decimals: 18,
 		name: "Rocki",
+		symbol: "ROCKS"
+	},
+	{
+		address: "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
+		chainId: 1,
+		decimals: 18,
+		name: "Social Rocket",
 		symbol: "ROCKS"
 	},
 	{
