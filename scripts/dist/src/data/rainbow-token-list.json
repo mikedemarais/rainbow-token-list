@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-07-23T17:26:12.824Z",
+    "timestamp": "2021-07-23T18:25:39.466Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -8873,17 +8873,17 @@
             "symbol": "COIN"
         },
         {
-            "address": "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Coin",
-            "symbol": "COIN"
-        },
-        {
             "address": "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
             "chainId": 1,
             "decimals": 18,
             "name": "Coin Artist",
+            "symbol": "COIN"
+        },
+        {
+            "address": "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Coin",
             "symbol": "COIN"
         },
         {
