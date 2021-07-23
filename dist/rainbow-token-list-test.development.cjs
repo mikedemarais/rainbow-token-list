@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-23T15:24:20.348Z";
+var timestamp = "2021-07-23T16:33:03.131Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -17793,17 +17793,17 @@ var tokens = [
 		symbol: "GMNG"
 	},
 	{
-		address: "0xb3Bd49E28f8F832b8d1E246106991e546c323502",
-		chainId: 1,
-		decimals: 18,
-		name: "GMT",
-		symbol: "GMT"
-	},
-	{
 		address: "0x7Ddc52c4De30e94Be3A6A0A2b259b2850f421989",
 		chainId: 1,
 		decimals: 18,
 		name: "GoMining Token",
+		symbol: "GMT"
+	},
+	{
+		address: "0xb3Bd49E28f8F832b8d1E246106991e546c323502",
+		chainId: 1,
+		decimals: 18,
+		name: "GMT",
 		symbol: "GMT"
 	},
 	{
