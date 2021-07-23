@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-23T05:18:05.248Z",
+  "timestamp": "2021-07-23T06:26:43.874Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -21639,6 +21639,13 @@
       "decimals": 6,
       "name": "JOYSO",
       "symbol": "JOY"
+    },
+    {
+      "address": "0x2370f9d504c7a6E775bf6E14B3F12846b594cD53",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "JPYC",
+      "symbol": "JPYC"
     },
     {
       "address": "0x558A069a3A1a1e72398607b9E3577fCe1C67EA63",
