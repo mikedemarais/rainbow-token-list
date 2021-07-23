@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-23T12:32:19.487Z";
+var timestamp = "2021-07-23T15:24:20.348Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -1241,6 +1241,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 8,
 		name: "Aegis",
+		symbol: "AGS"
+	},
+	{
+		address: "0x667Fd83E24Ca1D935d36717D305D54fA0CAC991C",
+		chainId: 1,
+		decimals: 18,
+		name: "Collector Coin",
 		symbol: "AGS"
 	},
 	{
@@ -4294,17 +4301,17 @@ var tokens = [
 		symbol: "BCNT"
 	},
 	{
-		address: "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
-		chainId: 1,
-		decimals: 8,
-		name: "BitcashPay",
-		symbol: "BCP"
-	},
-	{
 		address: "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
 		chainId: 1,
 		decimals: 18,
 		name: "BlockchainPoland",
+		symbol: "BCP"
+	},
+	{
+		address: "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
+		chainId: 1,
+		decimals: 8,
+		name: "BitcashPay",
 		symbol: "BCP"
 	},
 	{
@@ -8878,17 +8885,17 @@ var tokens = [
 		symbol: "COIN"
 	},
 	{
-		address: "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
-		chainId: 1,
-		decimals: 18,
-		name: "Coin Artist",
-		symbol: "COIN"
-	},
-	{
 		address: "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
 		chainId: 1,
 		decimals: 18,
 		name: "Coin",
+		symbol: "COIN"
+	},
+	{
+		address: "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
+		chainId: 1,
+		decimals: 18,
+		name: "Coin Artist",
 		symbol: "COIN"
 	},
 	{
