@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-07-23T16:33:03.131Z",
+    "timestamp": "2021-07-23T17:26:12.824Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -4289,17 +4289,17 @@
             "symbol": "BCNT"
         },
         {
-            "address": "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "BlockchainPoland",
-            "symbol": "BCP"
-        },
-        {
             "address": "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
             "chainId": 1,
             "decimals": 8,
             "name": "BitcashPay",
+            "symbol": "BCP"
+        },
+        {
+            "address": "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "BlockchainPoland",
             "symbol": "BCP"
         },
         {
@@ -10210,17 +10210,17 @@
             "symbol": "CVP"
         },
         {
-            "address": "0x2578A20A07E8761d91D0961D3Ea92e14510885aa",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "COVIR",
-            "symbol": "CVR"
-        },
-        {
             "address": "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6",
             "chainId": 1,
             "decimals": 18,
             "name": "Polkacover",
+            "symbol": "CVR"
+        },
+        {
+            "address": "0x2578A20A07E8761d91D0961D3Ea92e14510885aa",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "COVIR",
             "symbol": "CVR"
         },
         {
@@ -25327,17 +25327,17 @@
             "symbol": "MLT"
         },
         {
-            "address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Million",
-            "symbol": "MM"
-        },
-        {
             "address": "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
             "chainId": 1,
             "decimals": 18,
             "name": "MM Token",
+            "symbol": "MM"
+        },
+        {
+            "address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Million",
             "symbol": "MM"
         },
         {
@@ -42307,6 +42307,13 @@
             "symbol": "USDX"
         },
         {
+            "address": "0xd9485499499d66B175Cf5ED54c0a19f1a6Bcb61A",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Usechain",
+            "symbol": "USE"
+        },
+        {
             "address": "0x147E3d644d53ADadD18a28201b91e2B98aEB7f94",
             "chainId": 1,
             "decimals": 18,
@@ -42315,13 +42322,6 @@
             "extensions": {
                 "isVerified": true
             }
-        },
-        {
-            "address": "0xd9485499499d66B175Cf5ED54c0a19f1a6Bcb61A",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Usechain",
-            "symbol": "USE"
         },
         {
             "address": "0x29B9723A3D88fe4a0B78134FD209433443A36b23",
@@ -47462,17 +47462,17 @@
             "symbol": "ZUSD"
         },
         {
-            "address": "0xc56c2b7e71B54d38Aab6d52E94a04Cbfa8F604fA",
-            "chainId": 1,
-            "decimals": 6,
-            "name": "ZUSD",
-            "symbol": "ZUSD"
-        },
-        {
             "address": "0x76417E660DF3E5c90C0361674C192da152A806E4",
             "chainId": 1,
             "decimals": 18,
             "name": "Zerogoki USD",
+            "symbol": "ZUSD"
+        },
+        {
+            "address": "0xc56c2b7e71B54d38Aab6d52E94a04Cbfa8F604fA",
+            "chainId": 1,
+            "decimals": 6,
+            "name": "ZUSD",
             "symbol": "ZUSD"
         },
         {
