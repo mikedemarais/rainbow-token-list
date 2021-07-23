@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-23T02:31:31.410Z";
+var timestamp = "2021-07-23T03:23:58.575Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -1979,6 +1979,13 @@ var tokens = [
 		symbol: "AMTC"
 	},
 	{
+		address: "0x2c9acEb63181cd08a093d052ec041e191f229692",
+		chainId: 1,
+		decimals: 18,
+		name: "Angryb",
+		symbol: "ANB"
+	},
+	{
 		address: "0xbBe319b73744dB9d54F5D29df7D8256B7e43995C",
 		chainId: 1,
 		decimals: 18,
@@ -3696,7 +3703,7 @@ var tokens = [
 		address: "0xAC8E13ecC30Da7Ff04b842f21A62a1fb0f10eBd5",
 		chainId: 1,
 		decimals: 9,
-		name: "BabyDoge Coin",
+		name: "BabyDoge ETH",
 		symbol: "BABYDOGE"
 	},
 	{
@@ -4287,17 +4294,17 @@ var tokens = [
 		symbol: "BCNT"
 	},
 	{
-		address: "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
-		chainId: 1,
-		decimals: 18,
-		name: "BlockchainPoland",
-		symbol: "BCP"
-	},
-	{
 		address: "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
 		chainId: 1,
 		decimals: 8,
 		name: "BitcashPay",
+		symbol: "BCP"
+	},
+	{
+		address: "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
+		chainId: 1,
+		decimals: 18,
+		name: "BlockchainPoland",
 		symbol: "BCP"
 	},
 	{
@@ -6248,6 +6255,13 @@ var tokens = [
 		decimals: 8,
 		name: "Benscoin",
 		symbol: "BSC"
+	},
+	{
+		address: "0x4E9A46EA6A22f3894aBEE2302Ad42fd3b69E21E2",
+		chainId: 1,
+		decimals: 8,
+		name: "Binance Smart Chain",
+		symbol: "BSCGIRL"
 	},
 	{
 		address: "0x003e0af2916e598Fa5eA5Cb2Da4EDfdA9aEd9Fde",
@@ -8864,17 +8878,17 @@ var tokens = [
 		symbol: "COIN"
 	},
 	{
-		address: "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
-		chainId: 1,
-		decimals: 18,
-		name: "Coin",
-		symbol: "COIN"
-	},
-	{
 		address: "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
 		chainId: 1,
 		decimals: 18,
 		name: "Coin Artist",
+		symbol: "COIN"
+	},
+	{
+		address: "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
+		chainId: 1,
+		decimals: 18,
+		name: "Coin",
 		symbol: "COIN"
 	},
 	{
