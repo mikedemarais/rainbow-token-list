@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-23T07:19:12.115Z";
+var timestamp = "2021-07-23T08:23:49.552Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -9639,6 +9639,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x8848812BD31AEEe33313C10A840FfC3169078C5b",
+		chainId: 1,
+		decimals: 18,
+		name: "CrossFi",
+		symbol: "CRFI"
 	},
 	{
 		address: "0xf49CDD50aD408d387d611F88A647179C3de3492b",
