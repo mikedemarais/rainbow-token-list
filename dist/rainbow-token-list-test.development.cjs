@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-24T09:21:50.478Z";
+var timestamp = "2021-07-24T10:22:29.224Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -10222,17 +10222,17 @@ var tokens = [
 		symbol: "CVP"
 	},
 	{
-		address: "0x2578A20A07E8761d91D0961D3Ea92e14510885aa",
-		chainId: 1,
-		decimals: 18,
-		name: "COVIR",
-		symbol: "CVR"
-	},
-	{
 		address: "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6",
 		chainId: 1,
 		decimals: 18,
 		name: "Polkacover",
+		symbol: "CVR"
+	},
+	{
+		address: "0x2578A20A07E8761d91D0961D3Ea92e14510885aa",
+		chainId: 1,
+		decimals: 18,
+		name: "COVIR",
 		symbol: "CVR"
 	},
 	{
@@ -11009,13 +11009,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x9393fdc77090F31c7db989390D43F454B1A6E7F3",
-		chainId: 1,
-		decimals: 3,
-		name: "Dark Energy Crystal",
-		symbol: "DEC"
 	},
 	{
 		address: "0x6CbEDEc4F1ac9D874987D2769596544E0d9161ab",
