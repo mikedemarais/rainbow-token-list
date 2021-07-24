@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-24T07:19:02.875Z";
+var timestamp = "2021-07-24T08:22:46.437Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -17942,17 +17942,17 @@ var tokens = [
 		symbol: "GOLD"
 	},
 	{
-		address: "0x34D6A0F5C2f5D0082141fE73d93B9dd00ca7CE11",
-		chainId: 1,
-		decimals: 18,
-		name: "Golden Token",
-		symbol: "GOLD"
-	},
-	{
 		address: "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
 		chainId: 1,
 		decimals: 8,
 		name: "GOLD",
+		symbol: "GOLD"
+	},
+	{
+		address: "0x34D6A0F5C2f5D0082141fE73d93B9dd00ca7CE11",
+		chainId: 1,
+		decimals: 18,
+		name: "Golden Token",
 		symbol: "GOLD"
 	},
 	{
@@ -24837,17 +24837,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x2F5C3dD519E8a502c48c9FC104Eee64fDFF05F03",
-		chainId: 1,
-		decimals: 18,
-		name: "META Vault  NFTX",
-		symbol: "META"
-	},
-	{
 		address: "0xDE2F7766C8BF14CA67193128535E5c7454f8387C",
 		chainId: 1,
 		decimals: 18,
 		name: "Metadium",
+		symbol: "META"
+	},
+	{
+		address: "0x2F5C3dD519E8a502c48c9FC104Eee64fDFF05F03",
+		chainId: 1,
+		decimals: 18,
+		name: "META Vault  NFTX",
 		symbol: "META"
 	},
 	{
@@ -25339,17 +25339,17 @@ var tokens = [
 		symbol: "MLT"
 	},
 	{
-		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
-		chainId: 1,
-		decimals: 18,
-		name: "MM Token",
-		symbol: "MM"
-	},
-	{
 		address: "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
 		chainId: 1,
 		decimals: 18,
 		name: "Million",
+		symbol: "MM"
+	},
+	{
+		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
+		chainId: 1,
+		decimals: 18,
+		name: "MM Token",
 		symbol: "MM"
 	},
 	{
