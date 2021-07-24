@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-07-24T10:22:29.224Z",
+    "timestamp": "2021-07-24T11:16:57.719Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -3608,13 +3608,6 @@
             "symbol": "AZUKI"
         },
         {
-            "address": "0xd26a9C3437f7D121098c8C05C7413F5Cc70BB070",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Azuma Coin",
-            "symbol": "AZUM"
-        },
-        {
             "address": "0x4B742b5bdb1D252907AE7F399a891d4a178DBC24",
             "chainId": 1,
             "decimals": 18,
@@ -6650,20 +6643,6 @@
             "symbol": "BTM"
         },
         {
-            "address": "0xdBF637f78624F896B92F801E81f6031b7865eD20",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "3X Short BitMax Tok",
-            "symbol": "BTMXBEAR"
-        },
-        {
-            "address": "0x9885cA101DFd8f23D364874F799554C52BFee820",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "3X Long BitMax Toke",
-            "symbol": "BTMXBULL"
-        },
-        {
             "address": "0xD6b107D3E45B959B6d13FAF1bb2a2CF8fC7025e6",
             "chainId": 1,
             "decimals": 18,
@@ -6683,13 +6662,6 @@
             "decimals": 18,
             "name": "Bottos",
             "symbol": "BTO"
-        },
-        {
-            "address": "0xFAA965D80D956de59808974E33AdA054F7696de5",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "BTour Chain",
-            "symbol": "BTOUR"
         },
         {
             "address": "0x20900587e569E3D0B2609BCa6Fb3469765ed0920",
@@ -10210,17 +10182,17 @@
             "symbol": "CVP"
         },
         {
-            "address": "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Polkacover",
-            "symbol": "CVR"
-        },
-        {
             "address": "0x2578A20A07E8761d91D0961D3Ea92e14510885aa",
             "chainId": 1,
             "decimals": 18,
             "name": "COVIR",
+            "symbol": "CVR"
+        },
+        {
+            "address": "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Polkacover",
             "symbol": "CVR"
         },
         {
@@ -10997,6 +10969,13 @@
             "extensions": {
                 "isVerified": true
             }
+        },
+        {
+            "address": "0x9393fdc77090F31c7db989390D43F454B1A6E7F3",
+            "chainId": 1,
+            "decimals": 3,
+            "name": "Dark Energy Crystal",
+            "symbol": "DEC"
         },
         {
             "address": "0x6CbEDEc4F1ac9D874987D2769596544E0d9161ab",
@@ -42176,13 +42155,6 @@
             "decimals": 18,
             "name": "Monerium USD",
             "symbol": "USDe"
-        },
-        {
-            "address": "0x4726e9DE74573255eA41E0D00b49b833c77A671E",
-            "chainId": 1,
-            "decimals": 6,
-            "name": "USDEX",
-            "symbol": "USDEX"
         },
         {
             "address": "0x05462671C05aDc39A6521fA60D5e9443e9E9d2B9",
