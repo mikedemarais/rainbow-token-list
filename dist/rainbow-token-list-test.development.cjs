@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-24T11:16:57.719Z";
+var timestamp = "2021-07-24T22:20:08.101Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -7138,6 +7138,13 @@ var tokens = [
 		symbol: "BYTS"
 	},
 	{
+		address: "0x2aaD9Dbc82611485a52325923e1187734e951B78",
+		chainId: 1,
+		decimals: 8,
+		name: "BYTZ",
+		symbol: "BYTZ"
+	},
+	{
 		address: "0x4375E7aD8A01B8eC3Ed041399f62D9Cd120e0063",
 		chainId: 1,
 		decimals: 18,
@@ -9190,13 +9197,6 @@ var tokens = [
 		decimals: 18,
 		name: "Couchain",
 		symbol: "COU"
-	},
-	{
-		address: "0x0538A9b4f4dcB0CB01A7fA34e17C0AC947c22553",
-		chainId: 1,
-		decimals: 18,
-		name: "OptionRoom Governan",
-		symbol: "COURT"
 	},
 	{
 		address: "0xE2FB6529EF566a080e6d23dE0bd351311087D567",
@@ -18196,9 +18196,9 @@ var tokens = [
 		symbol: "GSFY"
 	},
 	{
-		address: "0xc7Eb46eEFA9E83022D024c8eDC0de31AECbFBDD7",
+		address: "0xb892249939AdBf6D7851864CA9A5c7D2d537af97",
 		chainId: 1,
-		decimals: 9,
+		decimals: 15,
 		name: "Gambler Shiba",
 		symbol: "GSHIBA"
 	},
@@ -19830,6 +19830,13 @@ var tokens = [
 		decimals: 18,
 		name: "Interest Bearing ET",
 		symbol: "IBETH"
+	},
+	{
+		address: "0x96E61422b6A9bA0e068B6c5ADd4fFaBC6a4aae27",
+		chainId: 1,
+		decimals: 18,
+		name: "Iron Bank EURO",
+		symbol: "IBEUR"
 	},
 	{
 		address: "0x09400Ec683F70174E1217d6dcdBf42448E8De5d6",
@@ -24378,6 +24385,13 @@ var tokens = [
 		address: "0x1C9491865a1DE77C5b6e19d2E6a5F1D7a6F2b25F",
 		chainId: 1,
 		decimals: 18,
+		name: "Antimatter",
+		symbol: "MATTER"
+	},
+	{
+		address: "0x9B99CcA871Be05119B2012fd4474731dd653FEBe",
+		chainId: 1,
+		decimals: 18,
 		name: "AntiMatter",
 		symbol: "MATTER"
 	},
@@ -26914,6 +26928,13 @@ var tokens = [
 		decimals: 18,
 		name: "NEWLAND",
 		symbol: "NLD"
+	},
+	{
+		address: "0x1951aB088141e69A3713a351b0d55bA3acDa192C",
+		chainId: 1,
+		decimals: 8,
+		name: "Night Life Crypto",
+		symbol: "NLIFE"
 	},
 	{
 		address: "0xCeE4019Fd41ECDc8bae9EFDd20510f4b6FAA6197",
@@ -32925,17 +32946,17 @@ var tokens = [
 		symbol: "ROCK2PAY"
 	},
 	{
-		address: "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
-		chainId: 1,
-		decimals: 18,
-		name: "Rocki",
-		symbol: "ROCKS"
-	},
-	{
 		address: "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
 		chainId: 1,
 		decimals: 18,
 		name: "Social Rocket",
+		symbol: "ROCKS"
+	},
+	{
+		address: "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
+		chainId: 1,
+		decimals: 18,
+		name: "Rocki",
 		symbol: "ROCKS"
 	},
 	{
@@ -32970,13 +32991,6 @@ var tokens = [
 			isRainbowCurated: true,
 			isVerified: true
 		}
-	},
-	{
-		address: "0xAd4f86a25bbc20FfB751f2FAC312A0B4d8F88c64",
-		chainId: 1,
-		decimals: 18,
-		name: "OptionRoom",
-		symbol: "ROOM"
 	},
 	{
 		address: "0xCb5f72d37685C3D5aD0bB5F982443BC8FcdF570E",
@@ -33710,7 +33724,7 @@ var tokens = [
 		address: "0x43acEDd39Ba4B0bfcCd92897fCe617Fb90a971d8",
 		chainId: 1,
 		decimals: 9,
-		name: "SafeBank Token",
+		name: "SafeBank ETH",
 		symbol: "SBANK"
 	},
 	{
@@ -38910,13 +38924,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x831168E04047d881968d236249689cC001a6Da08",
-		chainId: 1,
-		decimals: 18,
-		name: "Trodl",
-		symbol: "TRO"
 	},
 	{
 		address: "0x2eC75589856562646afE393455986CaD26c4Cc5f",
