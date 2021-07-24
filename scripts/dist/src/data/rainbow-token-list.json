@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-07-24T06:26:18.477Z",
+    "timestamp": "2021-07-24T07:19:02.875Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -4724,17 +4724,17 @@
             "symbol": "BFF"
         },
         {
-            "address": "0xC980be019F2ac10A1C96F964b971A5F44551D318",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "BitFarmings",
-            "symbol": "BFI"
-        },
-        {
             "address": "0x2b2b0559081c41e962777B5049632fdb30f7E652",
             "chainId": 1,
             "decimals": 8,
             "name": "BitDefi",
+            "symbol": "BFI"
+        },
+        {
+            "address": "0xC980be019F2ac10A1C96F964b971A5F44551D318",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "BitFarmings",
             "symbol": "BFI"
         },
         {
@@ -8873,17 +8873,17 @@
             "symbol": "COIN"
         },
         {
-            "address": "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Coin Artist",
-            "symbol": "COIN"
-        },
-        {
             "address": "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
             "chainId": 1,
             "decimals": 18,
             "name": "Coin",
+            "symbol": "COIN"
+        },
+        {
+            "address": "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Coin Artist",
             "symbol": "COIN"
         },
         {
@@ -24825,17 +24825,17 @@
             }
         },
         {
-            "address": "0xDE2F7766C8BF14CA67193128535E5c7454f8387C",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Metadium",
-            "symbol": "META"
-        },
-        {
             "address": "0x2F5C3dD519E8a502c48c9FC104Eee64fDFF05F03",
             "chainId": 1,
             "decimals": 18,
             "name": "META Vault  NFTX",
+            "symbol": "META"
+        },
+        {
+            "address": "0xDE2F7766C8BF14CA67193128535E5c7454f8387C",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Metadium",
             "symbol": "META"
         },
         {
@@ -25353,6 +25353,13 @@
             "decimals": 18,
             "name": "MMAON",
             "symbol": "MMAON"
+        },
+        {
+            "address": "0x5b558564B57E4ff88c6b8D8E7EeEe599bF79B368",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "MultiMillion",
+            "symbol": "MMM"
         },
         {
             "address": "0x41BbEDd7286dAab5910a1f15d12CBda839852BD7",
@@ -28026,17 +28033,17 @@
             "symbol": "OPEN"
         },
         {
-            "address": "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "OPEN Governance Tok",
-            "symbol": "OPEN"
-        },
-        {
             "address": "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
             "chainId": 1,
             "decimals": 8,
             "name": "Open Platform",
+            "symbol": "OPEN"
+        },
+        {
+            "address": "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "OPEN Governance Tok",
             "symbol": "OPEN"
         },
         {
@@ -29586,17 +29593,17 @@
             "symbol": "PLF"
         },
         {
-            "address": "0xBa069Ee53b8B531F3AB117c92ca09A204C9E6285",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Plug",
-            "symbol": "PLG"
-        },
-        {
             "address": "0x85ca6710D0F1D511d130f6935eDDA88ACBD921bD",
             "chainId": 1,
             "decimals": 18,
             "name": "Pledgecamp",
+            "symbol": "PLG"
+        },
+        {
+            "address": "0xBa069Ee53b8B531F3AB117c92ca09A204C9E6285",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Plug",
             "symbol": "PLG"
         },
         {
@@ -32927,17 +32934,17 @@
             "symbol": "ROCK2PAY"
         },
         {
-            "address": "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Social Rocket",
-            "symbol": "ROCKS"
-        },
-        {
             "address": "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
             "chainId": 1,
             "decimals": 18,
             "name": "Rocki",
+            "symbol": "ROCKS"
+        },
+        {
+            "address": "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Social Rocket",
             "symbol": "ROCKS"
         },
         {
