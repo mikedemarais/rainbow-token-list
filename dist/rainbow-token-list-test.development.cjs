@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-25T12:31:32.428Z";
+var timestamp = "2021-07-25T13:23:25.024Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -15873,17 +15873,17 @@ var tokens = [
 		symbol: "FINU"
 	},
 	{
-		address: "0xF921ae2DAC5fa128DC0F6168Bf153ea0943d2D43",
-		chainId: 1,
-		decimals: 8,
-		name: "Fire Protocol",
-		symbol: "FIRE"
-	},
-	{
 		address: "0x3F8A2f7bcD70e7F7Bdd3FbB079c11d073588DEA2",
 		chainId: 1,
 		decimals: 18,
 		name: "FIRE",
+		symbol: "FIRE"
+	},
+	{
+		address: "0xF921ae2DAC5fa128DC0F6168Bf153ea0943d2D43",
+		chainId: 1,
+		decimals: 8,
+		name: "Fire Protocol",
 		symbol: "FIRE"
 	},
 	{
@@ -35081,13 +35081,6 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
-		chainId: 1,
-		decimals: 9,
-		name: "ShibaLink",
-		symbol: "SLINK"
-	},
-	{
 		address: "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
 		chainId: 1,
 		decimals: 9,
@@ -35096,6 +35089,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
+		chainId: 1,
+		decimals: 9,
+		name: "ShibaLink",
+		symbol: "SLINK"
 	},
 	{
 		address: "0xCC8Fa225D80b9c7D42F96e9570156c65D6cAAa25",
