@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-25T18:25:24.681Z";
+var timestamp = "2021-07-25T19:15:54.661Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -227,8 +227,11 @@ var tokens = [
 		address: "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490",
 		chainId: 1,
 		decimals: 18,
-		name: "LP 3pool Curve",
-		symbol: "3CRV"
+		name: "3Curve",
+		symbol: "3Crv",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x4f56221252d117f35E2f6Ab937A3F77CAd38934D",
@@ -2748,7 +2751,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 9,
 		name: "Ape Stax",
-		symbol: "ASTAX"
+		symbol: "ASTAX",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x7B22938ca841aA392C93dBB7f4c42178E3d65E88",
@@ -9459,6 +9465,16 @@ var tokens = [
 		symbol: "CRBT"
 	},
 	{
+		address: "0x1FF8CDB51219a8838b52E9cAc09b71e591BC998e",
+		chainId: 1,
+		decimals: 8,
+		name: "Cream Binance USD",
+		symbol: "crBUSD",
+		extensions: {
+			isVerified: true
+		}
+	},
+	{
 		address: "0xF41e5Fbc2F6Aac200Dd8619E121CE1f05D150077",
 		chainId: 1,
 		decimals: 18,
@@ -9488,6 +9504,16 @@ var tokens = [
 		decimals: 8,
 		name: "Cream Cream",
 		symbol: "crCREAM",
+		extensions: {
+			isVerified: true
+		}
+	},
+	{
+		address: "0xc7Fd8Dcee4697ceef5a2fd4608a7BD6A94C77480",
+		chainId: 1,
+		decimals: 8,
+		name: "Cream CRV",
+		symbol: "crCRV",
 		extensions: {
 			isVerified: true
 		}
@@ -9620,6 +9646,16 @@ var tokens = [
 		symbol: "CRMT"
 	},
 	{
+		address: "0x3623387773010d9214B10C551d6e7fc375D31F58",
+		chainId: 1,
+		decimals: 8,
+		name: "Cream Meta",
+		symbol: "crMTA",
+		extensions: {
+			isVerified: true
+		}
+	},
+	{
 		address: "0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b",
 		chainId: 1,
 		decimals: 8,
@@ -9649,6 +9685,16 @@ var tokens = [
 		decimals: 18,
 		name: "CrypteriumToken",
 		symbol: "CRPT"
+	},
+	{
+		address: "0x17107f40d70f4470d20CB3f138a052cAE8EbD4bE",
+		chainId: 1,
+		decimals: 8,
+		name: "Cream renBTC",
+		symbol: "crRENBTC",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0xEc7D3E835dA3F6118079fA9a236b267D044FD7cA",
@@ -12290,7 +12336,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "DOOR",
-		symbol: "DOOR"
+		symbol: "DOOR",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x6bB61215298F296C55b19Ad842D3Df69021DA2ef",
@@ -15463,7 +15512,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 9,
 		name: "Falcon Nine",
-		symbol: "F9"
+		symbol: "F9",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x0a1D2fF7156a48131553CF381F220bbedB4eFa37",
@@ -16043,7 +16095,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 9,
 		name: "Floki Inu",
-		symbol: "FLOKI"
+		symbol: "FLOKI",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x049399a6B048D52971F7D122aE21A1532722285F",
@@ -18563,7 +18618,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 12,
 		name: "Hanu Yokia",
-		symbol: "HANU"
+		symbol: "HANU",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0xD9c2D319Cd7e6177336b0a9c93c21cb48d84Fb54",
@@ -25294,7 +25352,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "Million",
-		symbol: "MM"
+		symbol: "MM",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
@@ -27108,12 +27169,8 @@ var tokens = [
 		address: "0xA15C7Ebe1f07CaF6bFF097D8a589fb8AC49Ae5B3",
 		chainId: 1,
 		decimals: 18,
-		name: "Pundi X",
-		symbol: "NPXS",
-		extensions: {
-			color: "#f5d100",
-			isVerified: true
-		}
+		name: "Pundi X  OLD",
+		symbol: "NPXS"
 	},
 	{
 		address: "0x69fa8e7F6bf1ca1fB0de61e1366f7412b827CC51",
@@ -27451,7 +27508,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "BoringDAO BTC",
-		symbol: "OBTC"
+		symbol: "OBTC",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x466912bAA9430a4a460b141ee8C580D817441449",
@@ -28949,7 +29009,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 9,
 		name: "PolkaDoge",
-		symbol: "PDOGE"
+		symbol: "PDOGE",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x630d98424eFe0Ea27fB1b3Ab7741907DFFEaAd78",
@@ -34418,8 +34481,11 @@ var tokens = [
 		address: "0xaB456bDb0A373BBaC6C4A76176E9f159cAcD5752",
 		chainId: 1,
 		decimals: 9,
-		name: "Society of Galactic",
-		symbol: "SGE"
+		name: "Society of Galactic Exploration",
+		symbol: "SGE",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0xa1ccc166faf0E998b3E33225A1A0301B1C86119D",
@@ -35095,7 +35161,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 9,
 		name: "ShibaLink",
-		symbol: "SLINK"
+		symbol: "SLINK",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0xCC8Fa225D80b9c7D42F96e9570156c65D6cAAa25",
@@ -35870,8 +35939,11 @@ var tokens = [
 		address: "0x97Aa8e14db0bc073cC7e2d42AC715427717d6042",
 		chainId: 1,
 		decimals: 18,
-		name: "SPUNK Vault  NFTX",
-		symbol: "SPUNK"
+		name: "SPUNK Vault",
+		symbol: "SPUNK",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0xEf7bCE1BE2Ba032131326910a6c11e716daeDBFf",
@@ -39163,7 +39235,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "Turtle",
-		symbol: "TURTLE"
+		symbol: "TURTLE",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x0000000000085d4780B73119b644AE5ecd22b376",
@@ -39588,7 +39663,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "The Truth",
-		symbol: "UFO"
+		symbol: "UFO",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0xEA097A2b1dB00627B2Fa17460Ad260c016016977",
@@ -43793,8 +43871,8 @@ var tokens = [
 		address: "0xad3E3Fc59dff318BecEaAb7D00EB4F68b1EcF195",
 		chainId: 1,
 		decimals: 18,
-		name: "Wrapped Celo Dollars",
-		symbol: "wCUSD",
+		name: "Wrapped Celo USD",
+		symbol: "WCUSD",
 		extensions: {
 			isVerified: true
 		}
@@ -46758,6 +46836,16 @@ var tokens = [
 		decimals: 18,
 		name: "Yearn Compounding v",
 		symbol: "YVBOOST"
+	},
+	{
+		address: "0x27b7b1ad7288079A66d12350c828D3C00A6F07d7",
+		chainId: 1,
+		decimals: 18,
+		name: "Curve Iron Bank Pool yVault",
+		symbol: "yvCurve-IronBank",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x19D3364A399d251E894aC732651be8B0E4e85001",
