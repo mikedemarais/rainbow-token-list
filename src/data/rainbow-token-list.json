@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-26T04:27:36.252Z",
+  "timestamp": "2021-07-26T05:18:21.161Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -602,6 +602,13 @@
       "decimals": 18,
       "name": "allbandex",
       "symbol": "ABDX"
+    },
+    {
+      "address": "0xB4EaF48bD7f72356e1019C157e91b81A1C541073",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "ApeBullInu",
+      "symbol": "ABI"
     },
     {
       "address": "0xf8b358b3397a8ea5464f8cc753645d42e14b79EA",
@@ -2645,7 +2652,7 @@
       "symbol": "ASAC"
     },
     {
-      "address": "0x3B73c1B2ea59835cbfcADade5462b6aB630D9890",
+      "address": "0xcC665390b03c5D324D8fAF81C15eCee29A73bCB4",
       "chainId": 1,
       "decimals": 18,
       "name": "Chainswap",
@@ -2951,6 +2958,13 @@
       "chainId": 1,
       "decimals": 4,
       "name": "Authorship",
+      "symbol": "ATS"
+    },
+    {
+      "address": "0xb9A6644bEf37286fC08e703Ecd15e9DEDf78d3eb",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Attlas Token",
       "symbol": "ATS"
     },
     {
@@ -8486,6 +8500,13 @@
       "chainId": 1,
       "decimals": 8,
       "name": "CoinLoan",
+      "symbol": "CLT"
+    },
+    {
+      "address": "0xe5Db2c3E2CEFf742E5306bCfc12622f5e2d14e98",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "ClienteleCoin",
       "symbol": "CLT"
     },
     {
@@ -20963,6 +20984,13 @@
       "symbol": "IOV"
     },
     {
+      "address": "0x5cf6CdEE291677F9B35439e251231242Ef5A7Ed8",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Infinity Pad",
+      "symbol": "IPAD"
+    },
+    {
       "address": "0x622CD54dEb2bB7A051515192417109bcF3fe098f",
       "chainId": 1,
       "decimals": 8,
@@ -24848,17 +24876,17 @@
       }
     },
     {
-      "address": "0xDE2F7766C8BF14CA67193128535E5c7454f8387C",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Metadium",
-      "symbol": "META"
-    },
-    {
       "address": "0x2F5C3dD519E8a502c48c9FC104Eee64fDFF05F03",
       "chainId": 1,
       "decimals": 18,
       "name": "META Vault  NFTX",
+      "symbol": "META"
+    },
+    {
+      "address": "0xDE2F7766C8BF14CA67193128535E5c7454f8387C",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Metadium",
       "symbol": "META"
     },
     {
@@ -24965,6 +24993,13 @@
       "decimals": 18,
       "name": "Mainstream For The",
       "symbol": "MFTU"
+    },
+    {
+      "address": "0xddAdDD4F73ABC3a6552dE43aBA325f506232fA8A",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Memefund",
+      "symbol": "MFUND"
     },
     {
       "address": "0xa6EB54102F20095679882Db4C84E72E65Ab782A4",
@@ -25350,6 +25385,13 @@
       "symbol": "MLT"
     },
     {
+      "address": "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "MM Token",
+      "symbol": "MM"
+    },
+    {
       "address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
       "chainId": 1,
       "decimals": 18,
@@ -25358,13 +25400,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "MM Token",
-      "symbol": "MM"
     },
     {
       "address": "0xC3c221fE28c33814c28c822b631fd76047eF1a63",
@@ -29475,6 +29510,13 @@
       "symbol": "PIXIE"
     },
     {
+      "address": "0x37A15C92e67686aA268df03d4C881A76340907E8",
+      "chainId": 1,
+      "decimals": 0,
+      "name": "Pixiu Finance",
+      "symbol": "PIXIU"
+    },
+    {
       "address": "0xAd4c6Ad1F02Def1710a2d06C875A31D4868bD70A",
       "chainId": 1,
       "decimals": 9,
@@ -32962,17 +33004,17 @@
       "symbol": "ROCK2PAY"
     },
     {
-      "address": "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Rocki",
-      "symbol": "ROCKS"
-    },
-    {
       "address": "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
       "chainId": 1,
       "decimals": 18,
       "name": "Social Rocket",
+      "symbol": "ROCKS"
+    },
+    {
+      "address": "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Rocki",
       "symbol": "ROCKS"
     },
     {
@@ -33126,6 +33168,13 @@
       "decimals": 18,
       "name": "Rapidz",
       "symbol": "RPZX"
+    },
+    {
+      "address": "0x20D7089110c29498D17137F5D9656055105041D1",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Rug Relief",
+      "symbol": "RR"
     },
     {
       "address": "0x1306C7d95E59CfCDFF7AE3C13Db7F56AcC543815",
@@ -35149,20 +35198,20 @@
       }
     },
     {
-      "address": "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
+      "address": "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
       "chainId": 1,
       "decimals": 9,
-      "name": "Soft Link",
+      "name": "ShibaLink",
       "symbol": "SLINK",
       "extensions": {
         "isVerified": true
       }
     },
     {
-      "address": "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
+      "address": "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
       "chainId": 1,
       "decimals": 9,
-      "name": "ShibaLink",
+      "name": "Soft Link",
       "symbol": "SLINK",
       "extensions": {
         "isVerified": true
@@ -38500,6 +38549,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x3B73c1B2ea59835cbfcADade5462b6aB630D9890",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "ChainSwap.com Governance Token",
+      "symbol": "TOKEN"
     },
     {
       "address": "0xa0F0546Eb5E3eE7e8cfC5DA12e5949F3AE622675",
@@ -43642,17 +43698,17 @@
       "symbol": "WAND"
     },
     {
-      "address": "0xf4A81C18816C9B0AB98FAC51B36Dcb63b0E58Fde",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "YieldWars",
-      "symbol": "WAR"
-    },
-    {
       "address": "0x4d75D9e37667a2d4677Ec3d74bDD9049326Ad8d6",
       "chainId": 1,
       "decimals": 18,
       "name": "NFT Wars",
+      "symbol": "WAR"
+    },
+    {
+      "address": "0xf4A81C18816C9B0AB98FAC51B36Dcb63b0E58Fde",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "YieldWars",
       "symbol": "WAR"
     },
     {
@@ -46970,6 +47026,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x7d7470Bc321A60cb11c7989356ad66a161C56628",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Zap DeFi",
+      "symbol": "ZAP"
     },
     {
       "address": "0xBd0793332e9fB844A52a205A233EF27a5b34B927",
