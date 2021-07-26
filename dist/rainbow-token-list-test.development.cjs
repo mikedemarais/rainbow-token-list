@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-26T13:26:06.729Z";
+var timestamp = "2021-07-26T15:24:31.287Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -332,17 +332,17 @@ var tokens = [
 		symbol: "A5T"
 	},
 	{
-		address: "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
-		chainId: 1,
-		decimals: 10,
-		name: "AAAchain",
-		symbol: "AAA"
-	},
-	{
 		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
 		chainId: 1,
 		decimals: 18,
 		name: "Moon Rabbit",
+		symbol: "AAA"
+	},
+	{
+		address: "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
+		chainId: 1,
+		decimals: 10,
+		name: "AAAchain",
 		symbol: "AAA"
 	},
 	{
@@ -10388,6 +10388,13 @@ var tokens = [
 		symbol: "CYBERD"
 	},
 	{
+		address: "0x8861cfF2366C1128fd699B68304aD99a0764Ef9a",
+		chainId: 1,
+		decimals: 18,
+		name: "Cyclone Protocol",
+		symbol: "CYC"
+	},
+	{
 		address: "0xfE831929098B5FF5d736105bD68BA9460EF07207",
 		chainId: 1,
 		decimals: 18,
@@ -14420,9 +14427,9 @@ var tokens = [
 		symbol: "EPLUS"
 	},
 	{
-		address: "0xBa630d3BA20502BA07975B15c719BEECc8e4EBB0",
+		address: "0x2c687B93CCEF2b0a206b20B383C85488071b88D5",
 		chainId: 1,
-		decimals: 9,
+		decimals: 18,
 		name: "Ethereum Pro",
 		symbol: "EPRO"
 	},
@@ -21010,7 +21017,7 @@ var tokens = [
 		symbol: "IOV"
 	},
 	{
-		address: "0x5cf6CdEE291677F9B35439e251231242Ef5A7Ed8",
+		address: "0x36ed7baaD9a571B5dad55d096C0Ed902188D6d3c",
 		chainId: 1,
 		decimals: 18,
 		name: "Infinity Pad",
@@ -25411,13 +25418,6 @@ var tokens = [
 		symbol: "MLT"
 	},
 	{
-		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
-		chainId: 1,
-		decimals: 18,
-		name: "MM Token",
-		symbol: "MM"
-	},
-	{
 		address: "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
 		chainId: 1,
 		decimals: 18,
@@ -25426,6 +25426,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
+		chainId: 1,
+		decimals: 18,
+		name: "MM Token",
+		symbol: "MM"
 	},
 	{
 		address: "0xC3c221fE28c33814c28c822b631fd76047eF1a63",
