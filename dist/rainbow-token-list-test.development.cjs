@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-26T10:38:38.518Z";
+var timestamp = "2021-07-26T11:18:41.272Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -339,17 +339,17 @@ var tokens = [
 		symbol: "AAA"
 	},
 	{
-		address: "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
-		chainId: 1,
-		decimals: 8,
-		name: "Abulaba",
-		symbol: "AAA"
-	},
-	{
 		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
 		chainId: 1,
 		decimals: 18,
 		name: "Moon Rabbit",
+		symbol: "AAA"
+	},
+	{
+		address: "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
+		chainId: 1,
+		decimals: 8,
+		name: "Abulaba",
 		symbol: "AAA"
 	},
 	{
@@ -17990,20 +17990,6 @@ var tokens = [
 		symbol: "GOLD"
 	},
 	{
-		address: "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
-		chainId: 1,
-		decimals: 8,
-		name: "GOLD",
-		symbol: "GOLD"
-	},
-	{
-		address: "0x34D6A0F5C2f5D0082141fE73d93B9dd00ca7CE11",
-		chainId: 1,
-		decimals: 18,
-		name: "Golden Token",
-		symbol: "GOLD"
-	},
-	{
 		address: "0x40d1F63B5D2048e67E9bEdB1B4c2F1A9fb4b6817",
 		chainId: 1,
 		decimals: 18,
@@ -18013,6 +17999,20 @@ var tokens = [
 			color: "#f1b32b",
 			isVerified: true
 		}
+	},
+	{
+		address: "0x34D6A0F5C2f5D0082141fE73d93B9dd00ca7CE11",
+		chainId: 1,
+		decimals: 18,
+		name: "Golden Token",
+		symbol: "GOLD"
+	},
+	{
+		address: "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
+		chainId: 1,
+		decimals: 8,
+		name: "GOLD",
+		symbol: "GOLD"
 	},
 	{
 		address: "0x670f9D9a26D3D42030794ff035d35a67AA092ead",
@@ -25404,6 +25404,13 @@ var tokens = [
 		symbol: "MLT"
 	},
 	{
+		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
+		chainId: 1,
+		decimals: 18,
+		name: "MM Token",
+		symbol: "MM"
+	},
+	{
 		address: "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
 		chainId: 1,
 		decimals: 18,
@@ -25412,13 +25419,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
-		chainId: 1,
-		decimals: 18,
-		name: "MM Token",
-		symbol: "MM"
 	},
 	{
 		address: "0xC3c221fE28c33814c28c822b631fd76047eF1a63",
@@ -27083,17 +27083,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0xDa007777D86AC6d989cC9f79A73261b3fC5e0DA0",
-		chainId: 1,
-		decimals: 18,
-		name: "DAppNode",
-		symbol: "NODE"
-	},
-	{
 		address: "0x435d664F72D6F194ef67d63B5f3936650187b131",
 		chainId: 1,
 		decimals: 18,
 		name: "Pocket Node",
+		symbol: "NODE"
+	},
+	{
+		address: "0xDa007777D86AC6d989cC9f79A73261b3fC5e0DA0",
+		chainId: 1,
+		decimals: 18,
+		name: "DAppNode",
 		symbol: "NODE"
 	},
 	{
@@ -28119,17 +28119,17 @@ var tokens = [
 		symbol: "OPEN"
 	},
 	{
-		address: "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
-		chainId: 1,
-		decimals: 18,
-		name: "OPEN Governance Tok",
-		symbol: "OPEN"
-	},
-	{
 		address: "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
 		chainId: 1,
 		decimals: 8,
 		name: "Open Platform",
+		symbol: "OPEN"
+	},
+	{
+		address: "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
+		chainId: 1,
+		decimals: 18,
+		name: "OPEN Governance Tok",
 		symbol: "OPEN"
 	},
 	{
@@ -34352,13 +34352,6 @@ var tokens = [
 		chainId: 1,
 		decimals: 0,
 		name: "SET",
-		symbol: "SET"
-	},
-	{
-		address: "0x0a2D9370cF74Da3FD3dF5d764e394Ca8205C50B6",
-		chainId: 1,
-		decimals: 18,
-		name: "Save Environment To",
 		symbol: "SET"
 	},
 	{
