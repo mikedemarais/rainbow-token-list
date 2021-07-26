@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-26T07:19:31.051Z";
+var timestamp = "2021-07-26T08:24:21.069Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -343,6 +343,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 8,
 		name: "Abulaba",
+		symbol: "AAA"
+	},
+	{
+		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
+		chainId: 1,
+		decimals: 18,
+		name: "Moon Rabbit",
 		symbol: "AAA"
 	},
 	{
@@ -4314,17 +4321,17 @@ var tokens = [
 		symbol: "BCNT"
 	},
 	{
-		address: "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
-		chainId: 1,
-		decimals: 8,
-		name: "BitcashPay",
-		symbol: "BCP"
-	},
-	{
 		address: "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
 		chainId: 1,
 		decimals: 18,
 		name: "BlockchainPoland",
+		symbol: "BCP"
+	},
+	{
+		address: "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
+		chainId: 1,
+		decimals: 8,
+		name: "BitcashPay",
 		symbol: "BCP"
 	},
 	{
@@ -4501,17 +4508,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x4Efe8665e564bF454cCF5C90Ee16817F7485d5Cf",
-		chainId: 1,
-		decimals: 18,
-		name: "BlackDragon Token",
-		symbol: "BDT"
-	},
-	{
 		address: "0x7BCe667EF12023dc5f8577D015a2F09d99a5ef58",
 		chainId: 1,
 		decimals: 18,
 		name: "Block Duelers",
+		symbol: "BDT"
+	},
+	{
+		address: "0x4Efe8665e564bF454cCF5C90Ee16817F7485d5Cf",
+		chainId: 1,
+		decimals: 18,
+		name: "BlackDragon Token",
 		symbol: "BDT"
 	},
 	{
@@ -25397,13 +25404,6 @@ var tokens = [
 		symbol: "MLT"
 	},
 	{
-		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
-		chainId: 1,
-		decimals: 18,
-		name: "MM Token",
-		symbol: "MM"
-	},
-	{
 		address: "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
 		chainId: 1,
 		decimals: 18,
@@ -25412,6 +25412,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
+		chainId: 1,
+		decimals: 18,
+		name: "MM Token",
+		symbol: "MM"
 	},
 	{
 		address: "0xC3c221fE28c33814c28c822b631fd76047eF1a63",
@@ -33016,17 +33023,17 @@ var tokens = [
 		symbol: "ROCK2PAY"
 	},
 	{
-		address: "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
-		chainId: 1,
-		decimals: 18,
-		name: "Social Rocket",
-		symbol: "ROCKS"
-	},
-	{
 		address: "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
 		chainId: 1,
 		decimals: 18,
 		name: "Rocki",
+		symbol: "ROCKS"
+	},
+	{
+		address: "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
+		chainId: 1,
+		decimals: 18,
+		name: "Social Rocket",
 		symbol: "ROCKS"
 	},
 	{
@@ -44218,17 +44225,17 @@ var tokens = [
 		symbol: "WILD"
 	},
 	{
-		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
-		chainId: 1,
-		decimals: 18,
-		name: "Wilder World",
-		symbol: "WILD"
-	},
-	{
 		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
 		chainId: 1,
 		decimals: 18,
 		name: "Wild Credit",
+		symbol: "WILD"
+	},
+	{
+		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
+		chainId: 1,
+		decimals: 18,
+		name: "Wilder World",
 		symbol: "WILD"
 	},
 	{
