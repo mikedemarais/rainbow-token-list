@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-26T17:26:21.481Z";
+var timestamp = "2021-07-26T18:26:08.713Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -1677,6 +1677,13 @@ var tokens = [
 		symbol: "ALIS"
 	},
 	{
+		address: "0x9c659CB48c4406Cd2857aEcEfF1609b2dB280d0E",
+		chainId: 1,
+		decimals: 18,
+		name: "Alita Network",
+		symbol: "ALITA"
+	},
+	{
 		address: "0xF4e447C390167E5A17a95AB2475b71d4eA785200",
 		chainId: 1,
 		decimals: 18,
@@ -2861,17 +2868,17 @@ var tokens = [
 		symbol: "ATA"
 	},
 	{
-		address: "0x0eb3032bcAc2BE1fa95E296442F225edb80fc3CD",
-		chainId: 1,
-		decimals: 18,
-		name: "Aster",
-		symbol: "ATC"
-	},
-	{
 		address: "0x72b2b8E42a10d785aBF85f3044223db8C9167bd6",
 		chainId: 1,
 		decimals: 10,
 		name: "Atlantic Coin",
+		symbol: "ATC"
+	},
+	{
+		address: "0x0eb3032bcAc2BE1fa95E296442F225edb80fc3CD",
+		chainId: 1,
+		decimals: 18,
+		name: "Aster",
 		symbol: "ATC"
 	},
 	{
@@ -14434,7 +14441,7 @@ var tokens = [
 		symbol: "EPLUS"
 	},
 	{
-		address: "0x2c687B93CCEF2b0a206b20B383C85488071b88D5",
+		address: "0xAB6E163cBEB3959b68b90beC722F5a9EEf82bA72",
 		chainId: 1,
 		decimals: 18,
 		name: "Ethereum Pro",
@@ -27761,7 +27768,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 9,
 		name: "Olympus",
-		symbol: "OHM"
+		symbol: "OHM",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x6f539a9456A5BCb6334A1A41207c3788f5825207",
@@ -35359,6 +35369,13 @@ var tokens = [
 		decimals: 18,
 		name: "SimbCoin Swap",
 		symbol: "SMBSWAP"
+	},
+	{
+		address: "0xB6eDA82597808c96969C21a88bf6c749B441c44A",
+		chainId: 1,
+		decimals: 18,
+		name: "Smart Medical Coin",
+		symbol: "SMC"
 	},
 	{
 		address: "0x7e8539D1E5cB91d63E46B8e188403b3f262a949B",
