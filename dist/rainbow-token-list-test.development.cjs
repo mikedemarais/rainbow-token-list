@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-26T15:24:31.287Z";
+var timestamp = "2021-07-26T16:33:02.308Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -332,13 +332,6 @@ var tokens = [
 		symbol: "A5T"
 	},
 	{
-		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
-		chainId: 1,
-		decimals: 18,
-		name: "Moon Rabbit",
-		symbol: "AAA"
-	},
-	{
 		address: "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
 		chainId: 1,
 		decimals: 10,
@@ -350,6 +343,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 8,
 		name: "Abulaba",
+		symbol: "AAA"
+	},
+	{
+		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
+		chainId: 1,
+		decimals: 18,
+		name: "Moon Rabbit",
 		symbol: "AAA"
 	},
 	{
@@ -2859,6 +2859,13 @@ var tokens = [
 		decimals: 18,
 		name: "Automata",
 		symbol: "ATA"
+	},
+	{
+		address: "0x0eb3032bcAc2BE1fa95E296442F225edb80fc3CD",
+		chainId: 1,
+		decimals: 18,
+		name: "Aster",
+		symbol: "ATC"
 	},
 	{
 		address: "0x72b2b8E42a10d785aBF85f3044223db8C9167bd6",
@@ -6448,17 +6455,17 @@ var tokens = [
 		symbol: "BT"
 	},
 	{
-		address: "0x76c5449F4950f6338A393F53CdA8b53B0cd3Ca3a",
-		chainId: 1,
-		decimals: 18,
-		name: "BT Finance",
-		symbol: "BT"
-	},
-	{
 		address: "0x6628606c321FaF52b7230A57b26c01B19aA68e82",
 		chainId: 1,
 		decimals: 18,
 		name: "BitHash Token",
+		symbol: "BT"
+	},
+	{
+		address: "0x76c5449F4950f6338A393F53CdA8b53B0cd3Ca3a",
+		chainId: 1,
+		decimals: 18,
+		name: "BT Finance",
 		symbol: "BT"
 	},
 	{
@@ -22963,6 +22970,13 @@ var tokens = [
 		symbol: "LCG"
 	},
 	{
+		address: "0x86911B82BfA596e9377836838AC1f0d9AD4Ecc19",
+		chainId: 1,
+		decimals: 18,
+		name: "LCMS",
+		symbol: "LCMS"
+	},
+	{
 		address: "0xAA19961b6B858D9F18a115f25aa1D98ABc1fdBA8",
 		chainId: 1,
 		decimals: 18,
@@ -33037,17 +33051,17 @@ var tokens = [
 		symbol: "ROCK2PAY"
 	},
 	{
-		address: "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
-		chainId: 1,
-		decimals: 18,
-		name: "Rocki",
-		symbol: "ROCKS"
-	},
-	{
 		address: "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
 		chainId: 1,
 		decimals: 18,
 		name: "Social Rocket",
+		symbol: "ROCKS"
+	},
+	{
+		address: "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
+		chainId: 1,
+		decimals: 18,
+		name: "Rocki",
 		symbol: "ROCKS"
 	},
 	{
