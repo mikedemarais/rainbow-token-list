@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-26T11:18:41.272Z";
+var timestamp = "2021-07-26T13:26:06.729Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -6977,6 +6977,13 @@ var tokens = [
 		symbol: "BURNX20"
 	},
 	{
+		address: "0x33f391F4c4fE802b70B77AE37670037A92114A7c",
+		chainId: 1,
+		decimals: 18,
+		name: "CoinBurp",
+		symbol: "BURP"
+	},
+	{
 		address: "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
 		chainId: 1,
 		decimals: 18,
@@ -12219,6 +12226,13 @@ var tokens = [
 		symbol: "DNX"
 	},
 	{
+		address: "0x20a8CEC5fffea65Be7122BCaB2FFe32ED4Ebf03a",
+		chainId: 1,
+		decimals: 18,
+		name: "DinoX",
+		symbol: "DNXC"
+	},
+	{
 		address: "0xe7aB45162f5979F09B0bDa1CC7DfC97C270EA3d5",
 		chainId: 1,
 		decimals: 18,
@@ -16745,13 +16759,6 @@ var tokens = [
 		decimals: 18,
 		name: "Fabric Token",
 		symbol: "FT"
-	},
-	{
-		address: "0x1E71034C89dD191ACcB27dC35f18a3d8b6f91311",
-		chainId: 1,
-		decimals: 18,
-		name: "Free Tool Box",
-		symbol: "FTB"
 	},
 	{
 		address: "0x26aC29dC25806199373cb4884AA9E077a0587c5b",
@@ -44281,13 +44288,6 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "MyWish",
-		symbol: "WISH"
-	},
-	{
-		address: "0x13de0b0C1507D424fAd4c6212830A0b2e59587c5",
-		chainId: 1,
-		decimals: 18,
-		name: "WishChain",
 		symbol: "WISH"
 	},
 	{
