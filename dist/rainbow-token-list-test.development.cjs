@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-26T22:21:04.013Z";
+var timestamp = "2021-07-27T01:05:48.132Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4335,6 +4335,16 @@ var tokens = [
 		symbol: "BCNT"
 	},
 	{
+		address: "0xd26fb114401Ec86887CD09F62eccd95fCf20B571",
+		chainId: 1,
+		decimals: 8,
+		name: "Bitcoin Platinums",
+		symbol: "BCP",
+		extensions: {
+			isVerified: true
+		}
+	},
+	{
 		address: "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
 		chainId: 1,
 		decimals: 18,
@@ -4353,16 +4363,6 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "PieDAO Balanced Crypto Pie",
-		symbol: "BCP",
-		extensions: {
-			isVerified: true
-		}
-	},
-	{
-		address: "0xd26fb114401Ec86887CD09F62eccd95fCf20B571",
-		chainId: 1,
-		decimals: 8,
-		name: "Bitcoin Platinums",
 		symbol: "BCP",
 		extensions: {
 			isVerified: true
@@ -6399,17 +6399,17 @@ var tokens = [
 		symbol: "BST"
 	},
 	{
-		address: "0xD4f6f9Ae14399fD5Eb8DFc7725F0094a1A7F5d80",
-		chainId: 1,
-		decimals: 18,
-		name: "Bitsten Token",
-		symbol: "BST"
-	},
-	{
 		address: "0x0B4680e848f842b86E4Df38D9FA0d9f9419F37EC",
 		chainId: 1,
 		decimals: 18,
 		name: "Beshare Token",
+		symbol: "BST"
+	},
+	{
+		address: "0xD4f6f9Ae14399fD5Eb8DFc7725F0094a1A7F5d80",
+		chainId: 1,
+		decimals: 18,
+		name: "Bitsten Token",
 		symbol: "BST"
 	},
 	{
@@ -25439,6 +25439,13 @@ var tokens = [
 		symbol: "MLT"
 	},
 	{
+		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
+		chainId: 1,
+		decimals: 18,
+		name: "MM Token",
+		symbol: "MM"
+	},
+	{
 		address: "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
 		chainId: 1,
 		decimals: 18,
@@ -25447,13 +25454,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
-		chainId: 1,
-		decimals: 18,
-		name: "MM Token",
-		symbol: "MM"
 	},
 	{
 		address: "0xC3c221fE28c33814c28c822b631fd76047eF1a63",
@@ -35248,20 +35248,20 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
+		address: "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
 		chainId: 1,
 		decimals: 9,
-		name: "ShibaLink",
+		name: "Soft Link",
 		symbol: "SLINK",
 		extensions: {
 			isVerified: true
 		}
 	},
 	{
-		address: "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
+		address: "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
 		chainId: 1,
 		decimals: 9,
-		name: "Soft Link",
+		name: "ShibaLink",
 		symbol: "SLINK",
 		extensions: {
 			isVerified: true
