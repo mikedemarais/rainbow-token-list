@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-27T02:32:21.563Z";
+var timestamp = "2021-07-27T03:23:49.781Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -339,17 +339,17 @@ var tokens = [
 		symbol: "AAA"
 	},
 	{
-		address: "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
-		chainId: 1,
-		decimals: 8,
-		name: "Abulaba",
-		symbol: "AAA"
-	},
-	{
 		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
 		chainId: 1,
 		decimals: 18,
 		name: "Moon Rabbit",
+		symbol: "AAA"
+	},
+	{
+		address: "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
+		chainId: 1,
+		decimals: 8,
+		name: "Abulaba",
 		symbol: "AAA"
 	},
 	{
@@ -8374,6 +8374,13 @@ var tokens = [
 		decimals: 8,
 		name: "SwissBorg",
 		symbol: "CHSB"
+	},
+	{
+		address: "0x19fAb8f7dfFfF38268644eAEBd3d538F68036000",
+		chainId: 1,
+		decimals: 18,
+		name: "Chronic Token",
+		symbol: "CHT"
 	},
 	{
 		address: "0x3277dd536471a3cBEB0c9486aCad494C95A31E73",
@@ -33701,17 +33708,17 @@ var tokens = [
 		symbol: "SANSHU"
 	},
 	{
-		address: "0xa12a00E73E4E7174AcC50A1c073e36Aa0c9cb305",
-		chainId: 1,
-		decimals: 4,
-		name: "Swaap Stablecoin",
-		symbol: "SAP"
-	},
-	{
 		address: "0x91F529E972D6Cf43d36ABFa91C1118122FF7F16C",
 		chainId: 1,
 		decimals: 18,
 		name: "Sapchain",
+		symbol: "SAP"
+	},
+	{
+		address: "0xa12a00E73E4E7174AcC50A1c073e36Aa0c9cb305",
+		chainId: 1,
+		decimals: 4,
+		name: "Swaap Stablecoin",
 		symbol: "SAP"
 	},
 	{
