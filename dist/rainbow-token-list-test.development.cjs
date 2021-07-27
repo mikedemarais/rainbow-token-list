@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-27T15:25:01.937Z";
+var timestamp = "2021-07-27T16:32:45.865Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -3345,7 +3345,7 @@ var tokens = [
 		symbol: "AUTO"
 	},
 	{
-		address: "0x9aa53Df7263a73B93Ec6a5E2a767EE30DA10c304",
+		address: "0x5A7092cf86A6790113C4D3FA83f48fd6EFa71B0D",
 		chainId: 1,
 		decimals: 9,
 		name: "AUTZ Token",
@@ -8550,17 +8550,17 @@ var tokens = [
 		symbol: "CLT"
 	},
 	{
-		address: "0xe5Db2c3E2CEFf742E5306bCfc12622f5e2d14e98",
-		chainId: 1,
-		decimals: 9,
-		name: "ClienteleCoin",
-		symbol: "CLT"
-	},
-	{
 		address: "0xa69f7a10dF90C4D6710588Bc18ad9bF08081f545",
 		chainId: 1,
 		decimals: 18,
 		name: "Cexlt",
+		symbol: "CLT"
+	},
+	{
+		address: "0xe5Db2c3E2CEFf742E5306bCfc12622f5e2d14e98",
+		chainId: 1,
+		decimals: 9,
+		name: "ClienteleCoin",
 		symbol: "CLT"
 	},
 	{
@@ -40010,20 +40010,20 @@ var tokens = [
 		symbol: "uLREP4x"
 	},
 	{
-		address: "0x09617F6fD6cF8A71278ec86e23bBab29C04353a7",
+		address: "0xE884cc2795b9c45bEeac0607DA9539Fd571cCF85",
 		chainId: 1,
 		decimals: 18,
-		name: "Shardus",
+		name: "Ultiledger",
 		symbol: "ULT",
 		extensions: {
 			isVerified: true
 		}
 	},
 	{
-		address: "0xE884cc2795b9c45bEeac0607DA9539Fd571cCF85",
+		address: "0x09617F6fD6cF8A71278ec86e23bBab29C04353a7",
 		chainId: 1,
 		decimals: 18,
-		name: "Ultiledger",
+		name: "Shardus",
 		symbol: "ULT",
 		extensions: {
 			isVerified: true
@@ -44298,17 +44298,17 @@ var tokens = [
 		symbol: "WILD"
 	},
 	{
-		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
-		chainId: 1,
-		decimals: 18,
-		name: "Wild Credit",
-		symbol: "WILD"
-	},
-	{
 		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
 		chainId: 1,
 		decimals: 18,
 		name: "Wilder World",
+		symbol: "WILD"
+	},
+	{
+		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
+		chainId: 1,
+		decimals: 18,
+		name: "Wild Credit",
 		symbol: "WILD"
 	},
 	{
