@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-07-27T10:23:27.899Z",
+    "timestamp": "2021-07-27T12:33:02.474Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -6045,17 +6045,17 @@
             "symbol": "BPP"
         },
         {
-            "address": "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "B Protocol",
-            "symbol": "BPRO"
-        },
-        {
             "address": "0x197E6bCa6BC2f488ec760a6Ce46B1399cd2954b0",
             "chainId": 1,
             "decimals": 8,
             "name": "BitCloud Pro",
+            "symbol": "BPRO"
+        },
+        {
+            "address": "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "B Protocol",
             "symbol": "BPRO"
         },
         {
@@ -11508,13 +11508,6 @@
             "symbol": "DFNORM"
         },
         {
-            "address": "0x1640BD2898Eee4C36F369836a067deA8725ac0Cc",
-            "chainId": 1,
-            "decimals": 8,
-            "name": "DeFiato",
-            "symbol": "DFO"
-        },
-        {
             "address": "0xcec38306558a31cdbb2a9d6285947C5b44A24f3e",
             "chainId": 1,
             "decimals": 18,
@@ -15064,13 +15057,6 @@
             "decimals": 18,
             "name": "En Tan Mo",
             "symbol": "ETM"
-        },
-        {
-            "address": "0x4526Dc4AC8F692535eD9bf235a3A20A2b9Ff3328",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Essek Tov",
-            "symbol": "ETO"
         },
         {
             "address": "0x32163C2d2d313c73279E87398E7F84BB9F537E9D",
@@ -20915,6 +20901,13 @@
             "symbol": "INVE"
         },
         {
+            "address": "0x356A5160F2B34BC8d88FB084745465eBBbed0174",
+            "chainId": 1,
+            "decimals": 13,
+            "name": "INVI Token",
+            "symbol": "INVI"
+        },
+        {
             "address": "0x018d7D179350f1Bb9853D04982820E37ccE13a92",
             "chainId": 1,
             "decimals": 8,
@@ -22382,13 +22375,6 @@
             "decimals": 16,
             "name": "Kora Network",
             "symbol": "KNT"
-        },
-        {
-            "address": "0x5935Ffc231E93AC04DaA089C0F1B94d0FB2449de",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Kanva",
-            "symbol": "KNV"
         },
         {
             "address": "0xCb4e8CafEDa995da5cEdfda5205BD5664a12b848",
@@ -23902,6 +23888,13 @@
             "decimals": 0,
             "name": "Love",
             "symbol": "LOVE"
+        },
+        {
+            "address": "0x2cc71c048A804Da930e28E93F3211dC03c702995",
+            "chainId": 1,
+            "decimals": 8,
+            "name": "Kripton",
+            "symbol": "LPK"
         },
         {
             "address": "0x99295f1141d58A99e939F7bE6BBe734916a875B8",
