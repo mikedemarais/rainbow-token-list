@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-27T08:23:46.641Z";
+var timestamp = "2021-07-27T09:22:24.323Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -23675,6 +23675,13 @@ var tokens = [
 		symbol: "LLAND"
 	},
 	{
+		address: "0x69Ef45CF64D8360279dAA974AAbAdB42f0683A6c",
+		chainId: 1,
+		decimals: 18,
+		name: "LMAO Finance",
+		symbol: "LMAO"
+	},
+	{
 		address: "0x9205C049C231DdA51bAce0ba569f047E3E1e9979",
 		chainId: 1,
 		decimals: 18,
@@ -25453,13 +25460,6 @@ var tokens = [
 		symbol: "MLT"
 	},
 	{
-		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
-		chainId: 1,
-		decimals: 18,
-		name: "MM Token",
-		symbol: "MM"
-	},
-	{
 		address: "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
 		chainId: 1,
 		decimals: 18,
@@ -25468,6 +25468,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
+		chainId: 1,
+		decimals: 18,
+		name: "MM Token",
+		symbol: "MM"
 	},
 	{
 		address: "0xC3c221fE28c33814c28c822b631fd76047eF1a63",
@@ -29025,6 +29032,13 @@ var tokens = [
 		decimals: 18,
 		name: "PITCH",
 		symbol: "PCH"
+	},
+	{
+		address: "0xa4C6984E817c086Ddc3EBAEedBdcc01469586918",
+		chainId: 1,
+		decimals: 18,
+		name: "Peaches Finance",
+		symbol: "PCHS"
 	},
 	{
 		address: "0x0F02e27745e3b6e9e1310d19469e2b5D7B5eC99A",
