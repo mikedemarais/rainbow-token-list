@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-27T12:33:02.474Z";
+var timestamp = "2021-07-27T13:25:12.272Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -332,17 +332,17 @@ var tokens = [
 		symbol: "A5T"
 	},
 	{
-		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
-		chainId: 1,
-		decimals: 18,
-		name: "Moon Rabbit",
-		symbol: "AAA"
-	},
-	{
 		address: "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
 		chainId: 1,
 		decimals: 10,
 		name: "AAAchain",
+		symbol: "AAA"
+	},
+	{
+		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
+		chainId: 1,
+		decimals: 18,
+		name: "Moon Rabbit",
 		symbol: "AAA"
 	},
 	{
@@ -15995,17 +15995,17 @@ var tokens = [
 		symbol: "FINU"
 	},
 	{
-		address: "0x3F8A2f7bcD70e7F7Bdd3FbB079c11d073588DEA2",
-		chainId: 1,
-		decimals: 18,
-		name: "FIRE",
-		symbol: "FIRE"
-	},
-	{
 		address: "0xF921ae2DAC5fa128DC0F6168Bf153ea0943d2D43",
 		chainId: 1,
 		decimals: 8,
 		name: "Fire Protocol",
+		symbol: "FIRE"
+	},
+	{
+		address: "0x3F8A2f7bcD70e7F7Bdd3FbB079c11d073588DEA2",
+		chainId: 1,
+		decimals: 18,
+		name: "FIRE",
 		symbol: "FIRE"
 	},
 	{
@@ -24944,17 +24944,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x2F5C3dD519E8a502c48c9FC104Eee64fDFF05F03",
-		chainId: 1,
-		decimals: 18,
-		name: "META Vault  NFTX",
-		symbol: "META"
-	},
-	{
 		address: "0xDE2F7766C8BF14CA67193128535E5c7454f8387C",
 		chainId: 1,
 		decimals: 18,
 		name: "Metadium",
+		symbol: "META"
+	},
+	{
+		address: "0x2F5C3dD519E8a502c48c9FC104Eee64fDFF05F03",
+		chainId: 1,
+		decimals: 18,
+		name: "META Vault  NFTX",
 		symbol: "META"
 	},
 	{
@@ -25453,6 +25453,13 @@ var tokens = [
 		symbol: "MLT"
 	},
 	{
+		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
+		chainId: 1,
+		decimals: 18,
+		name: "MM Token",
+		symbol: "MM"
+	},
+	{
 		address: "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
 		chainId: 1,
 		decimals: 18,
@@ -25461,13 +25468,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
-		chainId: 1,
-		decimals: 18,
-		name: "MM Token",
-		symbol: "MM"
 	},
 	{
 		address: "0xC3c221fE28c33814c28c822b631fd76047eF1a63",
@@ -46590,6 +46590,13 @@ var tokens = [
 		decimals: 18,
 		name: "Yearn Global",
 		symbol: "YG"
+	},
+	{
+		address: "0x25f8087EAD173b73D6e8B84329989A8eEA16CF73",
+		chainId: 1,
+		decimals: 18,
+		name: "Yield Guild Games",
+		symbol: "YGG"
 	},
 	{
 		address: "0x11b0a8C0FA626627601eD518c3538a39d92D609E",
