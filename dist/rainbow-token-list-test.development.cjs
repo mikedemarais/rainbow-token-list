@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-27T14:18:42.638Z";
+var timestamp = "2021-07-27T15:25:01.937Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -8376,17 +8376,17 @@ var tokens = [
 		symbol: "CHSB"
 	},
 	{
-		address: "0x19fAb8f7dfFfF38268644eAEBd3d538F68036000",
-		chainId: 1,
-		decimals: 18,
-		name: "Chronic Token",
-		symbol: "CHT"
-	},
-	{
 		address: "0x3277dd536471a3cBEB0c9486aCad494C95A31E73",
 		chainId: 1,
 		decimals: 18,
 		name: "CoinHe Token",
+		symbol: "CHT"
+	},
+	{
+		address: "0x19fAb8f7dfFfF38268644eAEBd3d538F68036000",
+		chainId: 1,
+		decimals: 18,
+		name: "Chronic Token",
 		symbol: "CHT"
 	},
 	{
@@ -22269,17 +22269,17 @@ var tokens = [
 		symbol: "KISHU"
 	},
 	{
-		address: "0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4",
-		chainId: 1,
-		decimals: 18,
-		name: "DexKit",
-		symbol: "KIT"
-	},
-	{
 		address: "0x080eB7238031F97Ff011e273D6CaD5ad0c2dE532",
 		chainId: 1,
 		decimals: 18,
 		name: "Kittoken",
+		symbol: "KIT"
+	},
+	{
+		address: "0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4",
+		chainId: 1,
+		decimals: 18,
+		name: "DexKit",
 		symbol: "KIT"
 	},
 	{
@@ -39802,6 +39802,13 @@ var tokens = [
 		symbol: "UFFYI"
 	},
 	{
+		address: "0xcDa4e840411C00a614aD9205CAEC807c7458a0E3",
+		chainId: 1,
+		decimals: 18,
+		name: "PureFi",
+		symbol: "UFI"
+	},
+	{
 		address: "0x249e38Ea4102D0cf8264d3701f1a0E39C4f2DC3B",
 		chainId: 1,
 		decimals: 18,
@@ -45867,17 +45874,17 @@ var tokens = [
 		symbol: "XT"
 	},
 	{
-		address: "0xBFf0E42EEC4223fBd12260F47f3348D29876db42",
-		chainId: 1,
-		decimals: 6,
-		name: "Xtake",
-		symbol: "XTK"
-	},
-	{
 		address: "0x7F3EDcdD180Dbe4819Bd98FeE8929b5cEdB3AdEB",
 		chainId: 1,
 		decimals: 18,
 		name: "xToken",
+		symbol: "XTK"
+	},
+	{
+		address: "0xBFf0E42EEC4223fBd12260F47f3348D29876db42",
+		chainId: 1,
+		decimals: 6,
+		name: "Xtake",
 		symbol: "XTK"
 	},
 	{
