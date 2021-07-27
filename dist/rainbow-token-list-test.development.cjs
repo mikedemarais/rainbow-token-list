@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-27T06:26:49.947Z";
+var timestamp = "2021-07-27T07:19:15.296Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -332,17 +332,17 @@ var tokens = [
 		symbol: "A5T"
 	},
 	{
-		address: "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
-		chainId: 1,
-		decimals: 10,
-		name: "AAAchain",
-		symbol: "AAA"
-	},
-	{
 		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
 		chainId: 1,
 		decimals: 18,
 		name: "Moon Rabbit",
+		symbol: "AAA"
+	},
+	{
+		address: "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
+		chainId: 1,
+		decimals: 10,
+		name: "AAAchain",
 		symbol: "AAA"
 	},
 	{
@@ -15571,6 +15571,13 @@ var tokens = [
 		symbol: "EZW"
 	},
 	{
+		address: "0x9E8bfE46f9Af27c5Ea5C9C72b86D71bb86953A0c",
+		chainId: 1,
+		decimals: 18,
+		name: "EZDex",
+		symbol: "EZX"
+	},
+	{
 		address: "0xA6D5C720a9af5A405dFB6b9F44Fc44FaB5D4A58D",
 		chainId: 1,
 		decimals: 8,
@@ -22935,17 +22942,17 @@ var tokens = [
 		symbol: "LBET"
 	},
 	{
-		address: "0x9cB1AEaFcc8A9406632C5B084246Ea72f62d37b6",
-		chainId: 1,
-		decimals: 8,
-		name: "LBK",
-		symbol: "LBK"
-	},
-	{
 		address: "0xd9af2d11d788da0097076f4Eb21bd1C5533743D9",
 		chainId: 1,
 		decimals: 18,
 		name: "Legal Block",
+		symbol: "LBK"
+	},
+	{
+		address: "0x9cB1AEaFcc8A9406632C5B084246Ea72f62d37b6",
+		chainId: 1,
+		decimals: 8,
+		name: "LBK",
 		symbol: "LBK"
 	},
 	{
@@ -30400,6 +30407,13 @@ var tokens = [
 		symbol: "PROT"
 	},
 	{
+		address: "0xa3D29c52Bf09EF16F23317029a01c40363131827",
+		chainId: 1,
+		decimals: 18,
+		name: "Pharma Pay Coin",
+		symbol: "PRP"
+	},
+	{
 		address: "0x7641b2Ca9DDD58adDf6e3381c1F994Aac5f1A32f",
 		chainId: 1,
 		decimals: 18,
@@ -33939,7 +33953,7 @@ var tokens = [
 		symbol: "SBX"
 	},
 	{
-		address: "0x4791143576C375919d086C35D989Feff61d2C390",
+		address: "0x1FbD3dF007eB8A7477A1Eab2c63483dCc24EfFD6",
 		chainId: 1,
 		decimals: 18,
 		name: "Scaleswap Token",
