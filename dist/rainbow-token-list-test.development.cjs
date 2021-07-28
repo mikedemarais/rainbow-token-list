@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-28T05:19:01.786Z";
+var timestamp = "2021-07-28T06:27:30.177Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -75,6 +75,13 @@ var tokens = [
 		decimals: 18,
 		name: "0xMonero",
 		symbol: "0XMR"
+	},
+	{
+		address: "0xC86817249634ac209bc73fCa1712bBd75E37407d",
+		chainId: 1,
+		decimals: 18,
+		name: "1 UP",
+		symbol: "1-UP"
 	},
 	{
 		address: "0x7FF4169a6B5122b664c51c95727d87750eC07c84",
@@ -4815,18 +4822,18 @@ var tokens = [
 		symbol: "BFT"
 	},
 	{
-		address: "0x3779D960261f882750B39C622527822C88c98e13",
-		chainId: 1,
-		decimals: 18,
-		name: "Bitget DeFi Token",
-		symbol: "BFT"
-	},
-	{
 		address: "0xc3B5284B2c0cfa1871a6ac63B6d6ee43c08BDC79",
 		chainId: 1,
 		decimals: 18,
 		name: "BGAN Vault  NFTX",
 		symbol: "BGAN"
+	},
+	{
+		address: "0x19de6b897Ed14A376Dda0Fe53a5420D2aC828a28",
+		chainId: 1,
+		decimals: 18,
+		name: "Bitget Token",
+		symbol: "BGB"
 	},
 	{
 		address: "0xD34c9281585866A9fb2af0931adb1fA35ed44039",
@@ -25049,17 +25056,17 @@ var tokens = [
 		symbol: "MFG"
 	},
 	{
-		address: "0xEaDC218Ac4cB7895a5A56e6484646b48f841C45a",
-		chainId: 1,
-		decimals: 18,
-		name: "MetaFinance",
-		symbol: "MFI"
-	},
-	{
 		address: "0xAa4e3edb11AFa93c41db59842b29de64b72E355B",
 		chainId: 1,
 		decimals: 18,
 		name: "Marginswap",
+		symbol: "MFI"
+	},
+	{
+		address: "0xEaDC218Ac4cB7895a5A56e6484646b48f841C45a",
+		chainId: 1,
+		decimals: 18,
+		name: "MetaFinance",
 		symbol: "MFI"
 	},
 	{
@@ -33110,17 +33117,17 @@ var tokens = [
 		symbol: "ROCK2PAY"
 	},
 	{
-		address: "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
-		chainId: 1,
-		decimals: 18,
-		name: "Social Rocket",
-		symbol: "ROCKS"
-	},
-	{
 		address: "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
 		chainId: 1,
 		decimals: 18,
 		name: "Rocki",
+		symbol: "ROCKS"
+	},
+	{
+		address: "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
+		chainId: 1,
+		decimals: 18,
+		name: "Social Rocket",
 		symbol: "ROCKS"
 	},
 	{
@@ -43453,6 +43460,13 @@ var tokens = [
 		symbol: "VOISE"
 	},
 	{
+		address: "0x5166E09628b696285E3A151e84FB977736a83575",
+		chainId: 1,
+		decimals: 18,
+		name: "Volatility Protocol",
+		symbol: "VOL"
+	},
+	{
 		address: "0x14D1C83DF4dECEE9dEB14eE851f109f0101A6631",
 		chainId: 1,
 		decimals: 18,
@@ -44319,17 +44333,17 @@ var tokens = [
 		symbol: "WILD"
 	},
 	{
-		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
-		chainId: 1,
-		decimals: 18,
-		name: "Wilder World",
-		symbol: "WILD"
-	},
-	{
 		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
 		chainId: 1,
 		decimals: 18,
 		name: "Wild Credit",
+		symbol: "WILD"
+	},
+	{
+		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
+		chainId: 1,
+		decimals: 18,
+		name: "Wilder World",
 		symbol: "WILD"
 	},
 	{
@@ -45895,17 +45909,17 @@ var tokens = [
 		symbol: "XT"
 	},
 	{
-		address: "0x7F3EDcdD180Dbe4819Bd98FeE8929b5cEdB3AdEB",
-		chainId: 1,
-		decimals: 18,
-		name: "xToken",
-		symbol: "XTK"
-	},
-	{
 		address: "0xBFf0E42EEC4223fBd12260F47f3348D29876db42",
 		chainId: 1,
 		decimals: 6,
 		name: "Xtake",
+		symbol: "XTK"
+	},
+	{
+		address: "0x7F3EDcdD180Dbe4819Bd98FeE8929b5cEdB3AdEB",
+		chainId: 1,
+		decimals: 18,
+		name: "xToken",
 		symbol: "XTK"
 	},
 	{
