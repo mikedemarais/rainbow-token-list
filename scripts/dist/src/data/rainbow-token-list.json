@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-07-28T14:18:46.952Z",
+    "timestamp": "2021-07-28T15:24:30.560Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -10291,17 +10291,17 @@
             "symbol": "CVP"
         },
         {
-            "address": "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Polkacover",
-            "symbol": "CVR"
-        },
-        {
             "address": "0x2578A20A07E8761d91D0961D3Ea92e14510885aa",
             "chainId": 1,
             "decimals": 18,
             "name": "COVIR",
+            "symbol": "CVR"
+        },
+        {
+            "address": "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Polkacover",
             "symbol": "CVR"
         },
         {
@@ -19901,6 +19901,13 @@
             "extensions": {
                 "isVerified": true
             }
+        },
+        {
+            "address": "0x40EB746DEE876aC1E78697b7Ca85142D178A1Fc8",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Iagon",
+            "symbol": "IAG"
         },
         {
             "address": "0x1EE1c46251b811075Fd480fb64197F4E49c37EE0",
@@ -33105,17 +33112,17 @@
             "symbol": "ROCK2PAY"
         },
         {
-            "address": "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Social Rocket",
-            "symbol": "ROCKS"
-        },
-        {
             "address": "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
             "chainId": 1,
             "decimals": 18,
             "name": "Rocki",
+            "symbol": "ROCKS"
+        },
+        {
+            "address": "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Social Rocket",
             "symbol": "ROCKS"
         },
         {
@@ -35292,20 +35299,20 @@
             }
         },
         {
-            "address": "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
+            "address": "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
             "chainId": 1,
             "decimals": 9,
-            "name": "Soft Link",
+            "name": "ShibaLink",
             "symbol": "SLINK",
             "extensions": {
                 "isVerified": true
             }
         },
         {
-            "address": "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
+            "address": "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
             "chainId": 1,
             "decimals": 9,
-            "name": "ShibaLink",
+            "name": "Soft Link",
             "symbol": "SLINK",
             "extensions": {
                 "isVerified": true
