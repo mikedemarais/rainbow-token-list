@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-28T10:23:43.424Z";
+var timestamp = "2021-07-28T12:34:30.796Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -21975,13 +21975,6 @@ var tokens = [
 		}
 	},
 	{
-		address: "0xA8c2af8c403704a31F32F0aa70a43e63aFcd54d0",
-		chainId: 1,
-		decimals: 18,
-		name: "Klondike Bond",
-		symbol: "KBOND"
-	},
-	{
 		address: "0xE6C3502997f97F9BDe34CB165fBce191065E068f",
 		chainId: 1,
 		decimals: 18,
@@ -22278,6 +22271,13 @@ var tokens = [
 		decimals: 9,
 		name: "Kirby Inu",
 		symbol: "KIRBY"
+	},
+	{
+		address: "0xa6368D7DF5731EAE98cCC7E4e1Bf458BB0855E9d",
+		chainId: 1,
+		decimals: 18,
+		name: "Kirby Reloaded",
+		symbol: "KIRBYRELOADED"
 	},
 	{
 		address: "0xB1191F691A355b43542Bea9B8847bc73e7Abb137",
@@ -25965,13 +25965,6 @@ var tokens = [
 		decimals: 18,
 		name: "Mirrored Invesco QQ",
 		symbol: "MQQQ"
-	},
-	{
-		address: "0x77b1465b0e01ba085e515324e30fEe6555C623EA",
-		chainId: 1,
-		decimals: 18,
-		name: "Set of Sets Trailbl",
-		symbol: "MQSS"
 	},
 	{
 		address: "0xBeD4AB0019ff361d83ddeB74883DAC8a70f5ea1e",
@@ -33124,17 +33117,17 @@ var tokens = [
 		symbol: "ROCK2PAY"
 	},
 	{
-		address: "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
-		chainId: 1,
-		decimals: 18,
-		name: "Rocki",
-		symbol: "ROCKS"
-	},
-	{
 		address: "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
 		chainId: 1,
 		decimals: 18,
 		name: "Social Rocket",
+		symbol: "ROCKS"
+	},
+	{
+		address: "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
+		chainId: 1,
+		decimals: 18,
+		name: "Rocki",
 		symbol: "ROCKS"
 	},
 	{
