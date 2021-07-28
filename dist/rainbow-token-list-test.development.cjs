@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-28T12:34:30.796Z";
+var timestamp = "2021-07-28T13:29:23.992Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -10303,17 +10303,17 @@ var tokens = [
 		symbol: "CVP"
 	},
 	{
-		address: "0x2578A20A07E8761d91D0961D3Ea92e14510885aa",
-		chainId: 1,
-		decimals: 18,
-		name: "COVIR",
-		symbol: "CVR"
-	},
-	{
 		address: "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6",
 		chainId: 1,
 		decimals: 18,
 		name: "Polkacover",
+		symbol: "CVR"
+	},
+	{
+		address: "0x2578A20A07E8761d91D0961D3Ea92e14510885aa",
+		chainId: 1,
+		decimals: 18,
+		name: "COVIR",
 		symbol: "CVR"
 	},
 	{
@@ -27160,17 +27160,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x435d664F72D6F194ef67d63B5f3936650187b131",
-		chainId: 1,
-		decimals: 18,
-		name: "Pocket Node",
-		symbol: "NODE"
-	},
-	{
 		address: "0xDa007777D86AC6d989cC9f79A73261b3fC5e0DA0",
 		chainId: 1,
 		decimals: 18,
 		name: "DAppNode",
+		symbol: "NODE"
+	},
+	{
+		address: "0x435d664F72D6F194ef67d63B5f3936650187b131",
+		chainId: 1,
+		decimals: 18,
+		name: "Pocket Node",
 		symbol: "NODE"
 	},
 	{
