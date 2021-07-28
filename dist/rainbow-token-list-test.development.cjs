@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-28T16:33:45.750Z";
+var timestamp = "2021-07-28T17:26:59.387Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -339,13 +339,6 @@ var tokens = [
 		symbol: "A5T"
 	},
 	{
-		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
-		chainId: 1,
-		decimals: 18,
-		name: "Moon Rabbit",
-		symbol: "AAA"
-	},
-	{
 		address: "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
 		chainId: 1,
 		decimals: 8,
@@ -357,6 +350,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 10,
 		name: "AAAchain",
+		symbol: "AAA"
+	},
+	{
+		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
+		chainId: 1,
+		decimals: 18,
+		name: "Moon Rabbit",
 		symbol: "AAA"
 	},
 	{
@@ -15183,6 +15183,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 6,
 		name: "EUR Tether (erc20)",
+		symbol: "EURT"
+	},
+	{
+		address: "0xC581b735A1688071A1746c968e0798D642EDE491",
+		chainId: 1,
+		decimals: 6,
+		name: "Tether EURt",
 		symbol: "EURT"
 	},
 	{
