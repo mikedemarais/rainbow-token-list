@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-28T18:26:05.852Z";
+var timestamp = "2021-07-28T19:16:35.911Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -10303,17 +10303,17 @@ var tokens = [
 		symbol: "CVP"
 	},
 	{
-		address: "0x2578A20A07E8761d91D0961D3Ea92e14510885aa",
-		chainId: 1,
-		decimals: 18,
-		name: "COVIR",
-		symbol: "CVR"
-	},
-	{
 		address: "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6",
 		chainId: 1,
 		decimals: 18,
 		name: "Polkacover",
+		symbol: "CVR"
+	},
+	{
+		address: "0x2578A20A07E8761d91D0961D3Ea92e14510885aa",
+		chainId: 1,
+		decimals: 18,
+		name: "COVIR",
 		symbol: "CVR"
 	},
 	{
@@ -21969,7 +21969,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "Kambria",
-		symbol: "KAT"
+		symbol: "KAT",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0xe6410569602124506658Ff992F258616Ea2D4A3D",
@@ -43401,17 +43404,17 @@ var tokens = [
 		symbol: "VNS"
 	},
 	{
-		address: "0x69d2779533a4D2c780639713558B2cC98c46A9b7",
-		chainId: 1,
-		decimals: 8,
-		name: "VNT Chain",
-		symbol: "VNT"
-	},
-	{
 		address: "0xe912b8bA2513D7e29b7b2E5B14398dbf77503Fb4",
 		chainId: 1,
 		decimals: 18,
 		name: "InventoryClub",
+		symbol: "VNT"
+	},
+	{
+		address: "0x69d2779533a4D2c780639713558B2cC98c46A9b7",
+		chainId: 1,
+		decimals: 8,
+		name: "VNT Chain",
 		symbol: "VNT"
 	},
 	{
