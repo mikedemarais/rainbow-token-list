@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-28T01:07:44.512Z";
+var timestamp = "2021-07-28T02:32:43.143Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -332,13 +332,6 @@ var tokens = [
 		symbol: "A5T"
 	},
 	{
-		address: "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
-		chainId: 1,
-		decimals: 10,
-		name: "AAAchain",
-		symbol: "AAA"
-	},
-	{
 		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
 		chainId: 1,
 		decimals: 18,
@@ -350,6 +343,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 8,
 		name: "Abulaba",
+		symbol: "AAA"
+	},
+	{
+		address: "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
+		chainId: 1,
+		decimals: 10,
+		name: "AAAchain",
 		symbol: "AAA"
 	},
 	{
@@ -6462,17 +6462,17 @@ var tokens = [
 		symbol: "BT"
 	},
 	{
-		address: "0x6628606c321FaF52b7230A57b26c01B19aA68e82",
-		chainId: 1,
-		decimals: 18,
-		name: "BitHash Token",
-		symbol: "BT"
-	},
-	{
 		address: "0x76c5449F4950f6338A393F53CdA8b53B0cd3Ca3a",
 		chainId: 1,
 		decimals: 18,
 		name: "BT Finance",
+		symbol: "BT"
+	},
+	{
+		address: "0x6628606c321FaF52b7230A57b26c01B19aA68e82",
+		chainId: 1,
+		decimals: 18,
+		name: "BitHash Token",
 		symbol: "BT"
 	},
 	{
@@ -7198,6 +7198,13 @@ var tokens = [
 		decimals: 18,
 		name: "BitZ Token",
 		symbol: "BZ"
+	},
+	{
+		address: "0x6524B87960c2d573AE514fd4181777E7842435d4",
+		chainId: 1,
+		decimals: 18,
+		name: "Benzene",
+		symbol: "BZN"
 	},
 	{
 		address: "0xE1Aee98495365fc179699C1bB3E761FA716beE62",
@@ -8216,6 +8223,13 @@ var tokens = [
 		decimals: 18,
 		name: "Chalice Finance",
 		symbol: "CHAL"
+	},
+	{
+		address: "0xB53dE031602Cd825febe9F2EEDF962cd8CC3805d",
+		chainId: 1,
+		decimals: 18,
+		name: "ZKCHAOS",
+		symbol: "CHAOS"
 	},
 	{
 		address: "0x1d37986F252d0e349522EA6C3B98Cb935495E63E",
@@ -18029,17 +18043,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x34D6A0F5C2f5D0082141fE73d93B9dd00ca7CE11",
-		chainId: 1,
-		decimals: 18,
-		name: "Golden Token",
-		symbol: "GOLD"
-	},
-	{
 		address: "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
 		chainId: 1,
 		decimals: 8,
 		name: "GOLD",
+		symbol: "GOLD"
+	},
+	{
+		address: "0x34D6A0F5C2f5D0082141fE73d93B9dd00ca7CE11",
+		chainId: 1,
+		decimals: 18,
+		name: "Golden Token",
 		symbol: "GOLD"
 	},
 	{
@@ -25033,6 +25047,13 @@ var tokens = [
 		decimals: 18,
 		name: "Smart MFG",
 		symbol: "MFG"
+	},
+	{
+		address: "0xEaDC218Ac4cB7895a5A56e6484646b48f841C45a",
+		chainId: 1,
+		decimals: 18,
+		name: "MetaFinance",
+		symbol: "MFI"
 	},
 	{
 		address: "0xAa4e3edb11AFa93c41db59842b29de64b72E355B",
