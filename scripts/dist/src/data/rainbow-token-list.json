@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-07-29T04:27:35.916Z",
+    "timestamp": "2021-07-29T05:18:01.730Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -1015,7 +1015,7 @@
             }
         },
         {
-            "address": "0x0405BE40241A2f7822c33C5A3eee238Bf2973ba3",
+            "address": "0xd337382da15d12Bb6e56498e91DF64f86c8f1EA8",
             "chainId": 1,
             "decimals": 18,
             "name": "Aelysir",
@@ -3924,6 +3924,13 @@
             "decimals": 18,
             "name": "Float Protocol",
             "symbol": "BANK"
+        },
+        {
+            "address": "0xBE0C826f17680d8Da620855bE89DD6544C034cA1",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "BankEth",
+            "symbol": "BANKETH"
         },
         {
             "address": "0xF87F0D9153fea549c728Ad61cb801595a68b73de",
@@ -22309,17 +22316,17 @@
             "symbol": "KISHU"
         },
         {
-            "address": "0x080eB7238031F97Ff011e273D6CaD5ad0c2dE532",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Kittoken",
-            "symbol": "KIT"
-        },
-        {
             "address": "0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4",
             "chainId": 1,
             "decimals": 18,
             "name": "DexKit",
+            "symbol": "KIT"
+        },
+        {
+            "address": "0x080eB7238031F97Ff011e273D6CaD5ad0c2dE532",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Kittoken",
             "symbol": "KIT"
         },
         {
@@ -24939,6 +24946,13 @@
             }
         },
         {
+            "address": "0x650F44eD6F1FE0E1417cb4b3115d52494B4D9b6D",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Meowshi",
+            "symbol": "MEOW"
+        },
+        {
             "address": "0x8f1135eA4f8946949441716d66e5390C5A990DF0",
             "chainId": 1,
             "decimals": 8,
@@ -27172,17 +27186,17 @@
             }
         },
         {
-            "address": "0x435d664F72D6F194ef67d63B5f3936650187b131",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Pocket Node",
-            "symbol": "NODE"
-        },
-        {
             "address": "0xDa007777D86AC6d989cC9f79A73261b3fC5e0DA0",
             "chainId": 1,
             "decimals": 18,
             "name": "DAppNode",
+            "symbol": "NODE"
+        },
+        {
+            "address": "0x435d664F72D6F194ef67d63B5f3936650187b131",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Pocket Node",
             "symbol": "NODE"
         },
         {
@@ -44345,17 +44359,17 @@
             "symbol": "WILD"
         },
         {
-            "address": "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Wild Credit",
-            "symbol": "WILD"
-        },
-        {
             "address": "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
             "chainId": 1,
             "decimals": 18,
             "name": "Wilder World",
+            "symbol": "WILD"
+        },
+        {
+            "address": "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Wild Credit",
             "symbol": "WILD"
         },
         {
