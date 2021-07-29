@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-29T08:23:33.859Z";
+var timestamp = "2021-07-29T10:23:19.745Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -43870,6 +43870,13 @@ var tokens = [
 		symbol: "WAND"
 	},
 	{
+		address: "0x4d75D9e37667a2d4677Ec3d74bDD9049326Ad8d6",
+		chainId: 1,
+		decimals: 18,
+		name: "NFT Wars",
+		symbol: "WAR"
+	},
+	{
 		address: "0xf4A81C18816C9B0AB98FAC51B36Dcb63b0E58Fde",
 		chainId: 1,
 		decimals: 18,
@@ -43881,13 +43888,6 @@ var tokens = [
 		chainId: 1,
 		decimals: 12,
 		name: "Wrapped AR",
-		symbol: "WAR"
-	},
-	{
-		address: "0x4d75D9e37667a2d4677Ec3d74bDD9049326Ad8d6",
-		chainId: 1,
-		decimals: 18,
-		name: "NFT Wars",
 		symbol: "WAR"
 	},
 	{
