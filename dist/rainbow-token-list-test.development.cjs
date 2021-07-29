@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-29T10:23:19.745Z";
+var timestamp = "2021-07-29T11:17:37.470Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -25526,13 +25526,6 @@ var tokens = [
 		symbol: "MLT"
 	},
 	{
-		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
-		chainId: 1,
-		decimals: 18,
-		name: "MM Token",
-		symbol: "MM"
-	},
-	{
 		address: "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
 		chainId: 1,
 		decimals: 18,
@@ -25541,6 +25534,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
+		chainId: 1,
+		decimals: 18,
+		name: "MM Token",
+		symbol: "MM"
 	},
 	{
 		address: "0xC3c221fE28c33814c28c822b631fd76047eF1a63",
@@ -30853,13 +30853,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x6F0b09BFa87410aB993291Ec5f8CDa81f1D2acd9",
-		chainId: 1,
-		decimals: 18,
-		name: "Pilnette",
-		symbol: "PVG"
 	},
 	{
 		address: "0x7869c4A1a3f6F8684FBCC422a21aD7Abe3167834",
@@ -43870,17 +43863,17 @@ var tokens = [
 		symbol: "WAND"
 	},
 	{
-		address: "0x4d75D9e37667a2d4677Ec3d74bDD9049326Ad8d6",
-		chainId: 1,
-		decimals: 18,
-		name: "NFT Wars",
-		symbol: "WAR"
-	},
-	{
 		address: "0xf4A81C18816C9B0AB98FAC51B36Dcb63b0E58Fde",
 		chainId: 1,
 		decimals: 18,
 		name: "YieldWars",
+		symbol: "WAR"
+	},
+	{
+		address: "0x4d75D9e37667a2d4677Ec3d74bDD9049326Ad8d6",
+		chainId: 1,
+		decimals: 18,
+		name: "NFT Wars",
 		symbol: "WAR"
 	},
 	{
