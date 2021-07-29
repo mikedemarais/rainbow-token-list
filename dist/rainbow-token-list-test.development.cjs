@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-29T02:31:05.588Z";
+var timestamp = "2021-07-29T03:23:54.332Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -339,6 +339,13 @@ var tokens = [
 		symbol: "A5T"
 	},
 	{
+		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
+		chainId: 1,
+		decimals: 18,
+		name: "Moon Rabbit",
+		symbol: "AAA"
+	},
+	{
 		address: "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
 		chainId: 1,
 		decimals: 8,
@@ -350,13 +357,6 @@ var tokens = [
 		chainId: 1,
 		decimals: 10,
 		name: "AAAchain",
-		symbol: "AAA"
-	},
-	{
-		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
-		chainId: 1,
-		decimals: 18,
-		name: "Moon Rabbit",
 		symbol: "AAA"
 	},
 	{
@@ -3666,6 +3666,13 @@ var tokens = [
 		decimals: 18,
 		name: "Azuki",
 		symbol: "AZUKI"
+	},
+	{
+		address: "0xd26a9C3437f7D121098c8C05C7413F5Cc70BB070",
+		chainId: 1,
+		decimals: 18,
+		name: "Azuma Coin",
+		symbol: "AZUM"
 	},
 	{
 		address: "0x4B742b5bdb1D252907AE7F399a891d4a178DBC24",
@@ -12229,17 +12236,17 @@ var tokens = [
 		symbol: "DMTC"
 	},
 	{
-		address: "0x1660F10B4D610cF482194356eCe8eFD65B15bA83",
-		chainId: 1,
-		decimals: 18,
-		name: "Amun DeFi Momentum",
-		symbol: "DMX"
-	},
-	{
 		address: "0xf058501585023d040eA9493134ED72C083553eED",
 		chainId: 1,
 		decimals: 18,
 		name: "Dymmax",
+		symbol: "DMX"
+	},
+	{
+		address: "0x1660F10B4D610cF482194356eCe8eFD65B15bA83",
+		chainId: 1,
+		decimals: 18,
+		name: "Amun DeFi Momentum",
 		symbol: "DMX"
 	},
 	{
@@ -24989,13 +24996,6 @@ var tokens = [
 		}
 	},
 	{
-		address: "0xDE2F7766C8BF14CA67193128535E5c7454f8387C",
-		chainId: 1,
-		decimals: 18,
-		name: "Metadium",
-		symbol: "META"
-	},
-	{
 		address: "0x2F5C3dD519E8a502c48c9FC104Eee64fDFF05F03",
 		chainId: 1,
 		decimals: 18,
@@ -25007,6 +25007,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "Meta Network",
+		symbol: "META"
+	},
+	{
+		address: "0xDE2F7766C8BF14CA67193128535E5c7454f8387C",
+		chainId: 1,
+		decimals: 18,
+		name: "Metadium",
 		symbol: "META"
 	},
 	{
@@ -27177,17 +27184,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0xDa007777D86AC6d989cC9f79A73261b3fC5e0DA0",
-		chainId: 1,
-		decimals: 18,
-		name: "DAppNode",
-		symbol: "NODE"
-	},
-	{
 		address: "0x435d664F72D6F194ef67d63B5f3936650187b131",
 		chainId: 1,
 		decimals: 18,
 		name: "Pocket Node",
+		symbol: "NODE"
+	},
+	{
+		address: "0xDa007777D86AC6d989cC9f79A73261b3fC5e0DA0",
+		chainId: 1,
+		decimals: 18,
+		name: "DAppNode",
 		symbol: "NODE"
 	},
 	{
@@ -29793,17 +29800,17 @@ var tokens = [
 		symbol: "PLF"
 	},
 	{
-		address: "0xBa069Ee53b8B531F3AB117c92ca09A204C9E6285",
-		chainId: 1,
-		decimals: 18,
-		name: "Plug",
-		symbol: "PLG"
-	},
-	{
 		address: "0x85ca6710D0F1D511d130f6935eDDA88ACBD921bD",
 		chainId: 1,
 		decimals: 18,
 		name: "Pledgecamp",
+		symbol: "PLG"
+	},
+	{
+		address: "0xBa069Ee53b8B531F3AB117c92ca09A204C9E6285",
+		chainId: 1,
+		decimals: 18,
+		name: "Plug",
 		symbol: "PLG"
 	},
 	{
@@ -35321,20 +35328,20 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
+		address: "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
 		chainId: 1,
 		decimals: 9,
-		name: "ShibaLink",
+		name: "Soft Link",
 		symbol: "SLINK",
 		extensions: {
 			isVerified: true
 		}
 	},
 	{
-		address: "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
+		address: "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
 		chainId: 1,
 		decimals: 9,
-		name: "Soft Link",
+		name: "ShibaLink",
 		symbol: "SLINK",
 		extensions: {
 			isVerified: true
