@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-29T22:22:12.524Z";
+var timestamp = "2021-07-29T23:20:40.177Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -6483,17 +6483,17 @@ var tokens = [
 		symbol: "BSYS"
 	},
 	{
-		address: "0x997507cc49FBf0CD6ce5e1EE543218556fAFdEBc",
-		chainId: 1,
-		decimals: 18,
-		name: "Bitenium Token",
-		symbol: "BT"
-	},
-	{
 		address: "0x76c5449F4950f6338A393F53CdA8b53B0cd3Ca3a",
 		chainId: 1,
 		decimals: 18,
 		name: "BT Finance",
+		symbol: "BT"
+	},
+	{
+		address: "0x997507cc49FBf0CD6ce5e1EE543218556fAFdEBc",
+		chainId: 1,
+		decimals: 18,
+		name: "Bitenium Token",
 		symbol: "BT"
 	},
 	{
@@ -6516,6 +6516,13 @@ var tokens = [
 		decimals: 18,
 		name: "Bitball",
 		symbol: "BTB"
+	},
+	{
+		address: "0x32E6C34Cd57087aBBD59B5A4AECC4cB495924356",
+		chainId: 1,
+		decimals: 18,
+		name: "BitBase Token",
+		symbol: "BTBS"
 	},
 	{
 		address: "0x0327112423F3A68efdF1fcF402F6c5CB9f7C33fd",
@@ -10324,17 +10331,17 @@ var tokens = [
 		symbol: "CVP"
 	},
 	{
-		address: "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6",
-		chainId: 1,
-		decimals: 18,
-		name: "Polkacover",
-		symbol: "CVR"
-	},
-	{
 		address: "0x2578A20A07E8761d91D0961D3Ea92e14510885aa",
 		chainId: 1,
 		decimals: 18,
 		name: "COVIR",
+		symbol: "CVR"
+	},
+	{
+		address: "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6",
+		chainId: 1,
+		decimals: 18,
+		name: "Polkacover",
 		symbol: "CVR"
 	},
 	{
@@ -28244,17 +28251,17 @@ var tokens = [
 		symbol: "OPEN"
 	},
 	{
-		address: "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
-		chainId: 1,
-		decimals: 18,
-		name: "OPEN Governance Tok",
-		symbol: "OPEN"
-	},
-	{
 		address: "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
 		chainId: 1,
 		decimals: 8,
 		name: "Open Platform",
+		symbol: "OPEN"
+	},
+	{
+		address: "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
+		chainId: 1,
+		decimals: 18,
+		name: "OPEN Governance Tok",
 		symbol: "OPEN"
 	},
 	{
@@ -29821,17 +29828,17 @@ var tokens = [
 		symbol: "PLF"
 	},
 	{
-		address: "0x85ca6710D0F1D511d130f6935eDDA88ACBD921bD",
-		chainId: 1,
-		decimals: 18,
-		name: "Pledgecamp",
-		symbol: "PLG"
-	},
-	{
 		address: "0xBa069Ee53b8B531F3AB117c92ca09A204C9E6285",
 		chainId: 1,
 		decimals: 18,
 		name: "Plug",
+		symbol: "PLG"
+	},
+	{
+		address: "0x85ca6710D0F1D511d130f6935eDDA88ACBD921bD",
+		chainId: 1,
+		decimals: 18,
+		name: "Pledgecamp",
 		symbol: "PLG"
 	},
 	{
@@ -43877,17 +43884,17 @@ var tokens = [
 		symbol: "WAR"
 	},
 	{
-		address: "0x4FaDC7A98f2Dc96510e42dD1A74141eEae0C1543",
-		chainId: 1,
-		decimals: 12,
-		name: "Wrapped AR",
-		symbol: "WAR"
-	},
-	{
 		address: "0x4d75D9e37667a2d4677Ec3d74bDD9049326Ad8d6",
 		chainId: 1,
 		decimals: 18,
 		name: "NFT Wars",
+		symbol: "WAR"
+	},
+	{
+		address: "0x4FaDC7A98f2Dc96510e42dD1A74141eEae0C1543",
+		chainId: 1,
+		decimals: 12,
+		name: "Wrapped AR",
 		symbol: "WAR"
 	},
 	{
@@ -44378,17 +44385,17 @@ var tokens = [
 		symbol: "WILD"
 	},
 	{
-		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
-		chainId: 1,
-		decimals: 18,
-		name: "Wild Credit",
-		symbol: "WILD"
-	},
-	{
 		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
 		chainId: 1,
 		decimals: 18,
 		name: "Wilder World",
+		symbol: "WILD"
+	},
+	{
+		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
+		chainId: 1,
+		decimals: 18,
+		name: "Wild Credit",
 		symbol: "WILD"
 	},
 	{
