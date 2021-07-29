@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-29T16:33:48.496Z";
+var timestamp = "2021-07-29T17:26:18.921Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -5294,6 +5294,13 @@ var tokens = [
 		symbol: "BLACK"
 	},
 	{
+		address: "0x41A3Dba3D677E573636BA691a70ff2D606c29666",
+		chainId: 1,
+		decimals: 18,
+		name: "Blank",
+		symbol: "BLANK"
+	},
+	{
 		address: "0xAec7e1f531Bb09115103C53ba76829910Ec48966",
 		chainId: 1,
 		decimals: 18,
@@ -8585,17 +8592,17 @@ var tokens = [
 		symbol: "CLT"
 	},
 	{
-		address: "0xa69f7a10dF90C4D6710588Bc18ad9bF08081f545",
-		chainId: 1,
-		decimals: 18,
-		name: "Cexlt",
-		symbol: "CLT"
-	},
-	{
 		address: "0xe5Db2c3E2CEFf742E5306bCfc12622f5e2d14e98",
 		chainId: 1,
 		decimals: 9,
 		name: "ClienteleCoin",
+		symbol: "CLT"
+	},
+	{
+		address: "0xa69f7a10dF90C4D6710588Bc18ad9bF08081f545",
+		chainId: 1,
+		decimals: 18,
+		name: "Cexlt",
 		symbol: "CLT"
 	},
 	{
@@ -12243,17 +12250,17 @@ var tokens = [
 		symbol: "DMTC"
 	},
 	{
-		address: "0xf058501585023d040eA9493134ED72C083553eED",
-		chainId: 1,
-		decimals: 18,
-		name: "Dymmax",
-		symbol: "DMX"
-	},
-	{
 		address: "0x1660F10B4D610cF482194356eCe8eFD65B15bA83",
 		chainId: 1,
 		decimals: 18,
 		name: "Amun DeFi Momentum",
+		symbol: "DMX"
+	},
+	{
+		address: "0xf058501585023d040eA9493134ED72C083553eED",
+		chainId: 1,
+		decimals: 18,
+		name: "Dymmax",
 		symbol: "DMX"
 	},
 	{
@@ -22328,17 +22335,17 @@ var tokens = [
 		symbol: "KISHU"
 	},
 	{
-		address: "0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4",
-		chainId: 1,
-		decimals: 18,
-		name: "DexKit",
-		symbol: "KIT"
-	},
-	{
 		address: "0x080eB7238031F97Ff011e273D6CaD5ad0c2dE532",
 		chainId: 1,
 		decimals: 18,
 		name: "Kittoken",
+		symbol: "KIT"
+	},
+	{
+		address: "0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4",
+		chainId: 1,
+		decimals: 18,
+		name: "DexKit",
 		symbol: "KIT"
 	},
 	{
@@ -27198,17 +27205,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0xDa007777D86AC6d989cC9f79A73261b3fC5e0DA0",
-		chainId: 1,
-		decimals: 18,
-		name: "DAppNode",
-		symbol: "NODE"
-	},
-	{
 		address: "0x435d664F72D6F194ef67d63B5f3936650187b131",
 		chainId: 1,
 		decimals: 18,
 		name: "Pocket Node",
+		symbol: "NODE"
+	},
+	{
+		address: "0xDa007777D86AC6d989cC9f79A73261b3fC5e0DA0",
+		chainId: 1,
+		decimals: 18,
+		name: "DAppNode",
 		symbol: "NODE"
 	},
 	{
@@ -40069,20 +40076,20 @@ var tokens = [
 		symbol: "uLREP4x"
 	},
 	{
-		address: "0xE884cc2795b9c45bEeac0607DA9539Fd571cCF85",
+		address: "0x09617F6fD6cF8A71278ec86e23bBab29C04353a7",
 		chainId: 1,
 		decimals: 18,
-		name: "Ultiledger",
+		name: "Shardus",
 		symbol: "ULT",
 		extensions: {
 			isVerified: true
 		}
 	},
 	{
-		address: "0x09617F6fD6cF8A71278ec86e23bBab29C04353a7",
+		address: "0xE884cc2795b9c45bEeac0607DA9539Fd571cCF85",
 		chainId: 1,
 		decimals: 18,
-		name: "Shardus",
+		name: "Ultiledger",
 		symbol: "ULT",
 		extensions: {
 			isVerified: true
@@ -43870,17 +43877,17 @@ var tokens = [
 		symbol: "WAR"
 	},
 	{
-		address: "0x4d75D9e37667a2d4677Ec3d74bDD9049326Ad8d6",
-		chainId: 1,
-		decimals: 18,
-		name: "NFT Wars",
-		symbol: "WAR"
-	},
-	{
 		address: "0x4FaDC7A98f2Dc96510e42dD1A74141eEae0C1543",
 		chainId: 1,
 		decimals: 12,
 		name: "Wrapped AR",
+		symbol: "WAR"
+	},
+	{
+		address: "0x4d75D9e37667a2d4677Ec3d74bDD9049326Ad8d6",
+		chainId: 1,
+		decimals: 18,
+		name: "NFT Wars",
 		symbol: "WAR"
 	},
 	{
@@ -44371,17 +44378,17 @@ var tokens = [
 		symbol: "WILD"
 	},
 	{
-		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
-		chainId: 1,
-		decimals: 18,
-		name: "Wilder World",
-		symbol: "WILD"
-	},
-	{
 		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
 		chainId: 1,
 		decimals: 18,
 		name: "Wild Credit",
+		symbol: "WILD"
+	},
+	{
+		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
+		chainId: 1,
+		decimals: 18,
+		name: "Wilder World",
 		symbol: "WILD"
 	},
 	{
