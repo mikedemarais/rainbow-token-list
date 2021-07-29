@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-29T05:18:01.730Z";
+var timestamp = "2021-07-29T06:26:36.463Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -15203,7 +15203,7 @@ var tokens = [
 		address: "0xC581b735A1688071A1746c968e0798D642EDE491",
 		chainId: 1,
 		decimals: 6,
-		name: "Tether EURt",
+		name: "Euro Tether",
 		symbol: "EURT"
 	},
 	{
@@ -43177,6 +43177,13 @@ var tokens = [
 		decimals: 18,
 		name: "VIBEX Exchange Token",
 		symbol: "VIBEX"
+	},
+	{
+		address: "0xDfD5bb6cE8716822B2c9B255560194Ca3509BebC",
+		chainId: 1,
+		decimals: 9,
+		name: "ViceToken",
+		symbol: "VICEX"
 	},
 	{
 		address: "0x2C9023bBc572ff8dc1228c7858A280046Ea8C9E5",
