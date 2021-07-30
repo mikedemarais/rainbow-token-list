@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-30T04:27:19.477Z";
+var timestamp = "2021-07-30T05:18:41.594Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -28251,17 +28251,17 @@ var tokens = [
 		symbol: "OPEN"
 	},
 	{
-		address: "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
-		chainId: 1,
-		decimals: 8,
-		name: "Open Platform",
-		symbol: "OPEN"
-	},
-	{
 		address: "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
 		chainId: 1,
 		decimals: 18,
 		name: "OPEN Governance Tok",
+		symbol: "OPEN"
+	},
+	{
+		address: "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
+		chainId: 1,
+		decimals: 8,
+		name: "Open Platform",
 		symbol: "OPEN"
 	},
 	{
@@ -36122,6 +36122,13 @@ var tokens = [
 		decimals: 18,
 		name: "Spendcoin",
 		symbol: "SPND"
+	},
+	{
+		address: "0xcbE771323587EA16dACB6016e269D7F08A7ACC4E",
+		chainId: 1,
+		decimals: 18,
+		name: "Spores Network",
+		symbol: "SPO"
 	},
 	{
 		address: "0x4b7aD3a56810032782Afce12d7d27122bDb96efF",
@@ -44749,6 +44756,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "WorkCoin",
+		symbol: "WRK"
+	},
+	{
+		address: "0x0407B4c4eAEd35CE3C5B852bDFA1640B09EeEDF4",
+		chainId: 1,
+		decimals: 4,
+		name: "BlockWRK",
 		symbol: "WRK"
 	},
 	{
