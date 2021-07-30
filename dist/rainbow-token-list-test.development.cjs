@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-30T03:25:41.697Z";
+var timestamp = "2021-07-30T04:27:19.477Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -6483,17 +6483,17 @@ var tokens = [
 		symbol: "BSYS"
 	},
 	{
-		address: "0x76c5449F4950f6338A393F53CdA8b53B0cd3Ca3a",
-		chainId: 1,
-		decimals: 18,
-		name: "BT Finance",
-		symbol: "BT"
-	},
-	{
 		address: "0x997507cc49FBf0CD6ce5e1EE543218556fAFdEBc",
 		chainId: 1,
 		decimals: 18,
 		name: "Bitenium Token",
+		symbol: "BT"
+	},
+	{
+		address: "0x76c5449F4950f6338A393F53CdA8b53B0cd3Ca3a",
+		chainId: 1,
+		decimals: 18,
+		name: "BT Finance",
 		symbol: "BT"
 	},
 	{
@@ -44385,17 +44385,17 @@ var tokens = [
 		symbol: "WILD"
 	},
 	{
-		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
-		chainId: 1,
-		decimals: 18,
-		name: "Wilder World",
-		symbol: "WILD"
-	},
-	{
 		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
 		chainId: 1,
 		decimals: 18,
 		name: "Wild Credit",
+		symbol: "WILD"
+	},
+	{
+		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
+		chainId: 1,
+		decimals: 18,
+		name: "Wilder World",
 		symbol: "WILD"
 	},
 	{
@@ -46203,6 +46203,13 @@ var tokens = [
 		decimals: 18,
 		name: "Yearn Finance Manag",
 		symbol: "YEFIM"
+	},
+	{
+		address: "0x7815bDa662050D84718B988735218CFfd32f75ea",
+		chainId: 1,
+		decimals: 18,
+		name: "Yel Finance",
+		symbol: "YEL"
 	},
 	{
 		address: "0x468ab3b1f63A1C14b361bC367c3cC92277588Da1",
