@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-30T13:26:23.700Z";
+var timestamp = "2021-07-30T14:18:47.935Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4411,17 +4411,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x31274db8b609Df99E5988ee527071643b5160Fc3",
-		chainId: 1,
-		decimals: 18,
-		name: "Business Credit Sub",
-		symbol: "BCS"
-	},
-	{
 		address: "0x03066dA434e5264ef0B32f787923f974A5726fDc",
 		chainId: 1,
 		decimals: 18,
 		name: "Basis Coin Share",
+		symbol: "BCS"
+	},
+	{
+		address: "0x31274db8b609Df99E5988ee527071643b5160Fc3",
+		chainId: 1,
+		decimals: 18,
+		name: "Business Credit Sub",
 		symbol: "BCS"
 	},
 	{
@@ -6427,17 +6427,17 @@ var tokens = [
 		symbol: "BST"
 	},
 	{
-		address: "0x0B4680e848f842b86E4Df38D9FA0d9f9419F37EC",
-		chainId: 1,
-		decimals: 18,
-		name: "Beshare Token",
-		symbol: "BST"
-	},
-	{
 		address: "0xD4f6f9Ae14399fD5Eb8DFc7725F0094a1A7F5d80",
 		chainId: 1,
 		decimals: 18,
 		name: "Bitsten Token",
+		symbol: "BST"
+	},
+	{
+		address: "0x0B4680e848f842b86E4Df38D9FA0d9f9419F37EC",
+		chainId: 1,
+		decimals: 18,
+		name: "Beshare Token",
 		symbol: "BST"
 	},
 	{
@@ -44392,17 +44392,17 @@ var tokens = [
 		symbol: "WILD"
 	},
 	{
-		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
-		chainId: 1,
-		decimals: 18,
-		name: "Wild Credit",
-		symbol: "WILD"
-	},
-	{
 		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
 		chainId: 1,
 		decimals: 18,
 		name: "Wilder World",
+		symbol: "WILD"
+	},
+	{
+		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
+		chainId: 1,
+		decimals: 18,
+		name: "Wild Credit",
 		symbol: "WILD"
 	},
 	{
