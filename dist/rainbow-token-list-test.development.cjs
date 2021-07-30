@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-30T19:16:22.768Z";
+var timestamp = "2021-07-30T20:20:50.384Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -44478,17 +44478,17 @@ var tokens = [
 		symbol: "WILD"
 	},
 	{
-		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
-		chainId: 1,
-		decimals: 18,
-		name: "Wilder World",
-		symbol: "WILD"
-	},
-	{
 		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
 		chainId: 1,
 		decimals: 18,
 		name: "Wild Credit",
+		symbol: "WILD"
+	},
+	{
+		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
+		chainId: 1,
+		decimals: 18,
+		name: "Wilder World",
 		symbol: "WILD"
 	},
 	{
