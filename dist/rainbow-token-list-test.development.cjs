@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-30T16:32:26.896Z";
+var timestamp = "2021-07-30T17:24:56.669Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -24204,6 +24204,13 @@ var tokens = [
 		symbol: "LULU"
 	},
 	{
+		address: "0x89A64014d429509CfFdA1AEBc7eB36B9435794BD",
+		chainId: 1,
+		decimals: 18,
+		name: "LULZ",
+		symbol: "LULZ"
+	},
+	{
 		address: "0xA89b5934863447f6E4Fc53B315a93e873bdA69a3",
 		chainId: 1,
 		decimals: 18,
@@ -28244,17 +28251,17 @@ var tokens = [
 		symbol: "OPEN"
 	},
 	{
-		address: "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
-		chainId: 1,
-		decimals: 18,
-		name: "OPEN Governance Tok",
-		symbol: "OPEN"
-	},
-	{
 		address: "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
 		chainId: 1,
 		decimals: 8,
 		name: "Open Platform",
+		symbol: "OPEN"
+	},
+	{
+		address: "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
+		chainId: 1,
+		decimals: 18,
+		name: "OPEN Governance Tok",
 		symbol: "OPEN"
 	},
 	{
