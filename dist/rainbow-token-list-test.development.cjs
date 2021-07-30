@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-30T08:23:54.197Z";
+var timestamp = "2021-07-30T09:22:14.175Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -7419,13 +7419,6 @@ var tokens = [
 		decimals: 18,
 		name: "Crypto Candy",
 		symbol: "CANDY"
-	},
-	{
-		address: "0x8BB95734f5011088Fd228c8060b3E02CA53e3C0d",
-		chainId: 1,
-		decimals: 18,
-		name: "Candy Box",
-		symbol: "CANDYBOX"
 	},
 	{
 		address: "0xEDA6eFE5556e134Ef52f2F858aa1e81c84CDA84b",
@@ -15431,6 +15424,13 @@ var tokens = [
 		symbol: "EVZ"
 	},
 	{
+		address: "0x56EE175FE37CD461486cE3c3166e0CaFCcd9843f",
+		chainId: 1,
+		decimals: 9,
+		name: "eWIT",
+		symbol: "EWIT"
+	},
+	{
 		address: "0x444997b7e7fC830E20089afea3078cd518fCF2A2",
 		chainId: 1,
 		decimals: 18,
@@ -17210,7 +17210,7 @@ var tokens = [
 		address: "0x687174f8C49ceb7729D925C3A961507ea4Ac7b28",
 		chainId: 1,
 		decimals: 18,
-		name: "Gatcoin",
+		name: "Global Awards Token",
 		symbol: "GAT"
 	},
 	{
@@ -33538,6 +33538,13 @@ var tokens = [
 		symbol: "RVX"
 	},
 	{
+		address: "0xD80F72a6558ec337E0d4CF76b8752B17FA770860",
+		chainId: 1,
+		decimals: 18,
+		name: "Rewards",
+		symbol: "RWD"
+	},
+	{
 		address: "0x08AD83D779BDf2BBE1ad9cc0f78aa0D24AB97802",
 		chainId: 1,
 		decimals: 18,
@@ -36380,13 +36387,6 @@ var tokens = [
 		symbol: "STABIT"
 	},
 	{
-		address: "0xe0955F26515d22E347B17669993FCeFcc73c3a0a",
-		chainId: 1,
-		decimals: 18,
-		name: "Stacker Ventures",
-		symbol: "STACK"
-	},
-	{
 		address: "0x56A86d648c435DC707c8405B78e2Ae8eB4E60Ba4",
 		chainId: 1,
 		decimals: 18,
@@ -36395,6 +36395,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xe0955F26515d22E347B17669993FCeFcc73c3a0a",
+		chainId: 1,
+		decimals: 18,
+		name: "Stacker Ventures",
+		symbol: "STACK"
 	},
 	{
 		address: "0x286708f069225905194673755F12359e6afF6FE1",
@@ -44392,17 +44399,17 @@ var tokens = [
 		symbol: "WILD"
 	},
 	{
-		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
-		chainId: 1,
-		decimals: 18,
-		name: "Wild Credit",
-		symbol: "WILD"
-	},
-	{
 		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
 		chainId: 1,
 		decimals: 18,
 		name: "Wilder World",
+		symbol: "WILD"
+	},
+	{
+		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
+		chainId: 1,
+		decimals: 18,
+		name: "Wild Credit",
 		symbol: "WILD"
 	},
 	{
