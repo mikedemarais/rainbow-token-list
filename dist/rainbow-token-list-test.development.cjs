@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-30T18:25:48.854Z";
+var timestamp = "2021-07-30T19:16:22.768Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -332,6 +332,16 @@ var tokens = [
 		symbol: "A18"
 	},
 	{
+		address: "0xFd2a8fA60Abd58Efe3EeE34dd494cD491dC14900",
+		chainId: 1,
+		decimals: 18,
+		name: "a3Curve",
+		symbol: "a3Crv",
+		extensions: {
+			isVerified: true
+		}
+	},
+	{
 		address: "0xe8272210954eA85DE6D2Ae739806Ab593B5d9c51",
 		chainId: 1,
 		decimals: 18,
@@ -582,7 +592,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "Aave BAL",
-		symbol: "ABAL"
+		symbol: "aBAL",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x892F0E4118A3BC4eA9305fF7c5Bfa561CA7C9ADF",
@@ -9737,6 +9750,16 @@ var tokens = [
 		symbol: "CRFI"
 	},
 	{
+		address: "0x10FDBD1e48eE2fD9336a482D746138AE19e649Db",
+		chainId: 1,
+		decimals: 8,
+		name: "Cream FTX Token",
+		symbol: "crFTT",
+		extensions: {
+			isVerified: true
+		}
+	},
+	{
 		address: "0xf49CDD50aD408d387d611F88A647179C3de3492b",
 		chainId: 1,
 		decimals: 18,
@@ -9807,6 +9830,16 @@ var tokens = [
 		decimals: 18,
 		name: "Crypto Rewards Stud",
 		symbol: "CRS"
+	},
+	{
+		address: "0xef58b2d5A1b8D3cDE67b8aB054dC5C831E9Bc025",
+		chainId: 1,
+		decimals: 8,
+		name: "Cream Serum",
+		symbol: "crSRM",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0xF0da1186a4977226b9135d0613ee72e229EC3F4d",
@@ -9881,6 +9914,16 @@ var tokens = [
 		decimals: 18,
 		name: "Crowny Token",
 		symbol: "CRWNY"
+	},
+	{
+		address: "0x01da76DEa59703578040012357b81ffE62015C2d",
+		chainId: 1,
+		decimals: 8,
+		name: "Cream yETH",
+		symbol: "crYETH",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0xCbaE0A83f4f9926997c8339545fb8eE32eDc6b76",
@@ -10842,7 +10885,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 9,
 		name: "SpaceDawgs",
-		symbol: "DAWGS"
+		symbol: "DAWGS",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x580c8520dEDA0a441522AEAe0f9F7A5f29629aFa",
@@ -17848,8 +17894,11 @@ var tokens = [
 		address: "0xD70240Dd62F4ea9a6A2416e0073D72139489d2AA",
 		chainId: 1,
 		decimals: 18,
-		name: "GLYPH Vault  NFTX",
-		symbol: "GLYPH"
+		name: "GLYPH Vault",
+		symbol: "GLYPH",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0xB13dE094Cc5CEe6C4cC0A3737bf0290166D9Ca5D",
@@ -18351,9 +18400,12 @@ var tokens = [
 	{
 		address: "0xb892249939AdBf6D7851864CA9A5c7D2d537af97",
 		chainId: 1,
-		decimals: 15,
+		decimals: 18,
 		name: "Gambler Shiba",
-		symbol: "GSHIBA"
+		symbol: "GSHIBA",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x7713bCda5106424FF6B0Ae1e7Fa05C3f4ae3ecB0",
@@ -21642,7 +21694,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 9,
 		name: "Jeff in Space",
-		symbol: "JEFF"
+		symbol: "JEFF",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x939A7A577D93ad29B64C1595B1284ce660A479B9",
@@ -22628,8 +22683,11 @@ var tokens = [
 		address: "0xcAAfF72A8CbBfc5Cf343BA4e26f65a257065bFF1",
 		chainId: 1,
 		decimals: 18,
-		name: "Wrapped KRT Token",
-		symbol: "KRT"
+		name: "Wrapped KRT",
+		symbol: "KRT",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0xbD4AB8b9C26c4888e2792cAC6d5793Efea9eBb20",
@@ -27216,7 +27274,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "DAppNode",
-		symbol: "NODE"
+		symbol: "NODE",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x435d664F72D6F194ef67d63B5f3936650187b131",
@@ -27810,7 +27871,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "BoringDAO DOGE",
-		symbol: "ODOGE"
+		symbol: "ODOGE",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0xc0A25a24CcE412E2Fb407c08E3785437FEE9Ad1d",
@@ -30764,8 +30828,11 @@ var tokens = [
 		address: "0x269616D549D7e8Eaa82DFb17028d0B212D11232A",
 		chainId: 1,
 		decimals: 18,
-		name: "Punk Vault  NFTX",
-		symbol: "PUNK"
+		name: "PUNK Vault",
+		symbol: "PUNK",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x49706a576bb823cdE3180C930F9947d59e2deD4D",
@@ -32515,7 +32582,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 9,
 		name: "Doge Reloaded",
-		symbol: "RELOADED"
+		symbol: "RELOADED",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x83984d6142934bb535793A82ADB0a46EF0F66B6d",
@@ -34310,8 +34380,11 @@ var tokens = [
 		address: "0x676Ad1b33ae6423c6618C1AEcf53BAa29cf39EE5",
 		chainId: 1,
 		decimals: 18,
-		name: "Wrapped SDT Token",
-		symbol: "SDT"
+		name: "Wrapped SDT",
+		symbol: "SDT",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x73968b9a57c6E53d41345FD57a6E6ae27d6CDB2F",
@@ -38070,7 +38143,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 9,
 		name: "Tenshi",
-		symbol: "TENSHI"
+		symbol: "TENSHI",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x515bA0a2E286AF10115284F151cF398688A69170",
@@ -42116,8 +42192,11 @@ var tokens = [
 		address: "0x226f7b842E0F0120b7E194D05432b3fd14773a9D",
 		chainId: 1,
 		decimals: 18,
-		name: "UNION Protocol Gove",
-		symbol: "UNN"
+		name: "UNION Protocol Governance Token",
+		symbol: "UNN",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x474021845C4643113458ea4414bdb7fB74A01A77",
@@ -47115,6 +47194,26 @@ var tokens = [
 		decimals: 18,
 		name: "Curve Iron Bank Pool yVault",
 		symbol: "yvCurve-IronBank",
+		extensions: {
+			isVerified: true
+		}
+	},
+	{
+		address: "0x986b4AFF588a109c09B50A03f42E4110E29D353F",
+		chainId: 1,
+		decimals: 18,
+		name: "Curve sETH Pool yVault",
+		symbol: "yvCurve-sETH",
+		extensions: {
+			isVerified: true
+		}
+	},
+	{
+		address: "0xdCD90C7f6324cfa40d7169ef80b12031770B4325",
+		chainId: 1,
+		decimals: 18,
+		name: "Curve stETH Pool yVault",
+		symbol: "yvCurve-stETH",
 		extensions: {
 			isVerified: true
 		}
