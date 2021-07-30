@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-29T23:20:40.177Z";
+var timestamp = "2021-07-30T01:06:17.074Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -33162,17 +33162,17 @@ var tokens = [
 		symbol: "ROCK2PAY"
 	},
 	{
-		address: "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
-		chainId: 1,
-		decimals: 18,
-		name: "Rocki",
-		symbol: "ROCKS"
-	},
-	{
 		address: "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
 		chainId: 1,
 		decimals: 18,
 		name: "Social Rocket",
+		symbol: "ROCKS"
+	},
+	{
+		address: "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
+		chainId: 1,
+		decimals: 18,
+		name: "Rocki",
 		symbol: "ROCKS"
 	},
 	{
@@ -43877,17 +43877,17 @@ var tokens = [
 		symbol: "WAND"
 	},
 	{
-		address: "0xf4A81C18816C9B0AB98FAC51B36Dcb63b0E58Fde",
-		chainId: 1,
-		decimals: 18,
-		name: "YieldWars",
-		symbol: "WAR"
-	},
-	{
 		address: "0x4d75D9e37667a2d4677Ec3d74bDD9049326Ad8d6",
 		chainId: 1,
 		decimals: 18,
 		name: "NFT Wars",
+		symbol: "WAR"
+	},
+	{
+		address: "0xf4A81C18816C9B0AB98FAC51B36Dcb63b0E58Fde",
+		chainId: 1,
+		decimals: 18,
+		name: "YieldWars",
 		symbol: "WAR"
 	},
 	{
@@ -45013,6 +45013,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x41045282901E90BDa7578D628e479E5421D1cDD5",
+		chainId: 1,
+		decimals: 18,
+		name: "X22",
+		symbol: "X22"
 	},
 	{
 		address: "0x910Dfc18D6EA3D6a7124A6F8B5458F281060fa4c",
