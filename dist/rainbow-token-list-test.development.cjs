@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-07-31T11:16:33.704Z";
+var timestamp = "2021-07-31T12:32:25.654Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -6496,17 +6496,17 @@ var tokens = [
 		symbol: "BT"
 	},
 	{
-		address: "0x6628606c321FaF52b7230A57b26c01B19aA68e82",
-		chainId: 1,
-		decimals: 18,
-		name: "BitHash Token",
-		symbol: "BT"
-	},
-	{
 		address: "0x76c5449F4950f6338A393F53CdA8b53B0cd3Ca3a",
 		chainId: 1,
 		decimals: 18,
 		name: "BT Finance",
+		symbol: "BT"
+	},
+	{
+		address: "0x6628606c321FaF52b7230A57b26c01B19aA68e82",
+		chainId: 1,
+		decimals: 18,
+		name: "BitHash Token",
 		symbol: "BT"
 	},
 	{
@@ -40159,20 +40159,20 @@ var tokens = [
 		symbol: "uLREP4x"
 	},
 	{
-		address: "0x09617F6fD6cF8A71278ec86e23bBab29C04353a7",
+		address: "0xE884cc2795b9c45bEeac0607DA9539Fd571cCF85",
 		chainId: 1,
 		decimals: 18,
-		name: "Shardus",
+		name: "Ultiledger",
 		symbol: "ULT",
 		extensions: {
 			isVerified: true
 		}
 	},
 	{
-		address: "0xE884cc2795b9c45bEeac0607DA9539Fd571cCF85",
+		address: "0x09617F6fD6cF8A71278ec86e23bBab29C04353a7",
 		chainId: 1,
 		decimals: 18,
-		name: "Ultiledger",
+		name: "Shardus",
 		symbol: "ULT",
 		extensions: {
 			isVerified: true
