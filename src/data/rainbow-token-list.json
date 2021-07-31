@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-07-31T10:22:14.708Z",
+  "timestamp": "2021-07-31T11:16:33.704Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -337,13 +337,6 @@
       "symbol": "A5T"
     },
     {
-      "address": "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Moon Rabbit",
-      "symbol": "AAA"
-    },
-    {
       "address": "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
       "chainId": 1,
       "decimals": 8,
@@ -355,6 +348,13 @@
       "chainId": 1,
       "decimals": 10,
       "name": "AAAchain",
+      "symbol": "AAA"
+    },
+    {
+      "address": "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Moon Rabbit",
       "symbol": "AAA"
     },
     {
@@ -5389,13 +5389,6 @@
       "symbol": "BLOC"
     },
     {
-      "address": "0xd2727e4259BBa31955FD582986334AEA4fBA8C52",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "BLOOD",
-      "symbol": "BLOOD"
-    },
-    {
       "address": "0x892F5A0B08BB7B1eeCCCC63EF3916fF201c93664",
       "chainId": 1,
       "decimals": 18,
@@ -6435,17 +6428,17 @@
       "symbol": "BST"
     },
     {
-      "address": "0x0B4680e848f842b86E4Df38D9FA0d9f9419F37EC",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Beshare Token",
-      "symbol": "BST"
-    },
-    {
       "address": "0xDf0041891BdA1f911C4243f328F7Cf61b37F965b",
       "chainId": 1,
       "decimals": 18,
       "name": "BOOSTO",
+      "symbol": "BST"
+    },
+    {
+      "address": "0x0B4680e848f842b86E4Df38D9FA0d9f9419F37EC",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Beshare Token",
       "symbol": "BST"
     },
     {
@@ -6491,17 +6484,17 @@
       "symbol": "BT"
     },
     {
-      "address": "0x76c5449F4950f6338A393F53CdA8b53B0cd3Ca3a",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "BT Finance",
-      "symbol": "BT"
-    },
-    {
       "address": "0x6628606c321FaF52b7230A57b26c01B19aA68e82",
       "chainId": 1,
       "decimals": 18,
       "name": "BitHash Token",
+      "symbol": "BT"
+    },
+    {
+      "address": "0x76c5449F4950f6338A393F53CdA8b53B0cd3Ca3a",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "BT Finance",
       "symbol": "BT"
     },
     {
@@ -8419,17 +8412,17 @@
       "symbol": "CHSB"
     },
     {
-      "address": "0x3277dd536471a3cBEB0c9486aCad494C95A31E73",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "CoinHe Token",
-      "symbol": "CHT"
-    },
-    {
       "address": "0x19fAb8f7dfFfF38268644eAEBd3d538F68036000",
       "chainId": 1,
       "decimals": 18,
       "name": "Chronic Token",
+      "symbol": "CHT"
+    },
+    {
+      "address": "0x3277dd536471a3cBEB0c9486aCad494C95A31E73",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "CoinHe Token",
       "symbol": "CHT"
     },
     {
@@ -8593,17 +8586,17 @@
       "symbol": "CLT"
     },
     {
-      "address": "0xe5Db2c3E2CEFf742E5306bCfc12622f5e2d14e98",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "ClienteleCoin",
-      "symbol": "CLT"
-    },
-    {
       "address": "0xa69f7a10dF90C4D6710588Bc18ad9bF08081f545",
       "chainId": 1,
       "decimals": 18,
       "name": "Cexlt",
+      "symbol": "CLT"
+    },
+    {
+      "address": "0xe5Db2c3E2CEFf742E5306bCfc12622f5e2d14e98",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "ClienteleCoin",
       "symbol": "CLT"
     },
     {
@@ -13723,17 +13716,17 @@
       "symbol": "ECN"
     },
     {
-      "address": "0x191557728e4d8CAa4Ac94f86af842148c0FA8F7E",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "Ormeus Ecosystem",
-      "symbol": "ECO"
-    },
-    {
       "address": "0xC242Eb8e4E27EAE6a2A728A41201152F19595C83",
       "chainId": 1,
       "decimals": 18,
       "name": "EcoFi",
+      "symbol": "ECO"
+    },
+    {
+      "address": "0x191557728e4d8CAa4Ac94f86af842148c0FA8F7E",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Ormeus Ecosystem",
       "symbol": "ECO"
     },
     {
@@ -21098,13 +21091,6 @@
       }
     },
     {
-      "address": "0xf6923F7d96fc22c4b8010a865e41cF7edfB6379C",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "IOOX System",
-      "symbol": "IOOX"
-    },
-    {
       "address": "0xFA1a856Cfa3409CFa145Fa4e20Eb270dF3EB21ab",
       "chainId": 1,
       "decimals": 18,
@@ -22378,17 +22364,17 @@
       "symbol": "KISHU"
     },
     {
-      "address": "0x080eB7238031F97Ff011e273D6CaD5ad0c2dE532",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Kittoken",
-      "symbol": "KIT"
-    },
-    {
       "address": "0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4",
       "chainId": 1,
       "decimals": 18,
       "name": "DexKit",
+      "symbol": "KIT"
+    },
+    {
+      "address": "0x080eB7238031F97Ff011e273D6CaD5ad0c2dE532",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Kittoken",
       "symbol": "KIT"
     },
     {
@@ -25422,17 +25408,17 @@
       "symbol": "MIRO"
     },
     {
-      "address": "0xCD1cb16a67937ff8Af5D726e2681010cE1E9891a",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "Themis",
-      "symbol": "MIS"
-    },
-    {
       "address": "0x024B6e7DC26F4d5579bDD936F8d7BC31f2339999",
       "chainId": 1,
       "decimals": 18,
       "name": "Mithril Share",
+      "symbol": "MIS"
+    },
+    {
+      "address": "0xCD1cb16a67937ff8Af5D726e2681010cE1E9891a",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Themis",
       "symbol": "MIS"
     },
     {
@@ -27258,6 +27244,13 @@
       }
     },
     {
+      "address": "0x435d664F72D6F194ef67d63B5f3936650187b131",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Pocket Node",
+      "symbol": "NODE"
+    },
+    {
       "address": "0xDa007777D86AC6d989cC9f79A73261b3fC5e0DA0",
       "chainId": 1,
       "decimals": 18,
@@ -27266,13 +27259,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0x435d664F72D6F194ef67d63B5f3936650187b131",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Pocket Node",
-      "symbol": "NODE"
     },
     {
       "address": "0x0C3eF32f802967DB75B9D49fE1e76620151cCB81",
@@ -33234,6 +33220,13 @@
       "symbol": "ROCKS"
     },
     {
+      "address": "0x45734927Fa2f616FbE19E65f42A0ef3d37d1c80A",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Roge",
+      "symbol": "ROGE"
+    },
+    {
       "address": "0xc9De4B7F0C3d991e967158E4D4bFA4b51Ec0b114",
       "chainId": 1,
       "decimals": 18,
@@ -33886,13 +33879,6 @@
       "decimals": 18,
       "name": "SwapAll",
       "symbol": "SAP"
-    },
-    {
-      "address": "0x4dF76A9DaB9bb8310e4Ad3dc4336a8e26ed24EBB",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "SAPPCHAIN",
-      "symbol": "SAPP"
     },
     {
       "address": "0xBD4a858139B155219E2c8D10135003fdEf720b6B",
