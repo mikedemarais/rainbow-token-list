@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-01T09:21:37.061Z";
+var timestamp = "2021-08-01T11:16:39.482Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -349,13 +349,6 @@ var tokens = [
 		symbol: "A5T"
 	},
 	{
-		address: "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
-		chainId: 1,
-		decimals: 8,
-		name: "Abulaba",
-		symbol: "AAA"
-	},
-	{
 		address: "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
 		chainId: 1,
 		decimals: 10,
@@ -367,6 +360,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "Moon Rabbit",
+		symbol: "AAA"
+	},
+	{
+		address: "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
+		chainId: 1,
+		decimals: 8,
+		name: "Abulaba",
 		symbol: "AAA"
 	},
 	{
@@ -4369,27 +4369,10 @@ var tokens = [
 		symbol: "BCNT"
 	},
 	{
-		address: "0xd26fb114401Ec86887CD09F62eccd95fCf20B571",
-		chainId: 1,
-		decimals: 8,
-		name: "Bitcoin Platinums",
-		symbol: "BCP",
-		extensions: {
-			isVerified: true
-		}
-	},
-	{
 		address: "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
 		chainId: 1,
 		decimals: 18,
 		name: "BlockchainPoland",
-		symbol: "BCP"
-	},
-	{
-		address: "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
-		chainId: 1,
-		decimals: 8,
-		name: "BitcashPay",
 		symbol: "BCP"
 	},
 	{
@@ -4401,6 +4384,23 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xd26fb114401Ec86887CD09F62eccd95fCf20B571",
+		chainId: 1,
+		decimals: 8,
+		name: "Bitcoin Platinums",
+		symbol: "BCP",
+		extensions: {
+			isVerified: true
+		}
+	},
+	{
+		address: "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
+		chainId: 1,
+		decimals: 8,
+		name: "BitcashPay",
+		symbol: "BCP"
 	},
 	{
 		address: "0x1c4481750daa5Ff521A2a7490d9981eD46465Dbd",
@@ -6440,17 +6440,17 @@ var tokens = [
 		symbol: "BST"
 	},
 	{
-		address: "0xDf0041891BdA1f911C4243f328F7Cf61b37F965b",
-		chainId: 1,
-		decimals: 18,
-		name: "BOOSTO",
-		symbol: "BST"
-	},
-	{
 		address: "0x0B4680e848f842b86E4Df38D9FA0d9f9419F37EC",
 		chainId: 1,
 		decimals: 18,
 		name: "Beshare Token",
+		symbol: "BST"
+	},
+	{
+		address: "0xDf0041891BdA1f911C4243f328F7Cf61b37F965b",
+		chainId: 1,
+		decimals: 18,
+		name: "BOOSTO",
 		symbol: "BST"
 	},
 	{
@@ -6489,17 +6489,17 @@ var tokens = [
 		symbol: "BSYS"
 	},
 	{
-		address: "0x997507cc49FBf0CD6ce5e1EE543218556fAFdEBc",
-		chainId: 1,
-		decimals: 18,
-		name: "Bitenium Token",
-		symbol: "BT"
-	},
-	{
 		address: "0x76c5449F4950f6338A393F53CdA8b53B0cd3Ca3a",
 		chainId: 1,
 		decimals: 18,
 		name: "BT Finance",
+		symbol: "BT"
+	},
+	{
+		address: "0x997507cc49FBf0CD6ce5e1EE543218556fAFdEBc",
+		chainId: 1,
+		decimals: 18,
+		name: "Bitenium Token",
 		symbol: "BT"
 	},
 	{
@@ -6786,13 +6786,6 @@ var tokens = [
 		symbol: "BTR"
 	},
 	{
-		address: "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
-		chainId: 1,
-		decimals: 18,
-		name: "Bitrue Coin",
-		symbol: "BTR"
-	},
-	{
 		address: "0xcce63fD31e9053c110c74CEbc37C8e358A6AA5bD",
 		chainId: 1,
 		decimals: 4,
@@ -6801,6 +6794,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
+		chainId: 1,
+		decimals: 18,
+		name: "Bitrue Coin",
+		symbol: "BTR"
 	},
 	{
 		address: "0x388Fd8A5145D6EF85aAE14D494F93Df9D1c7c00C",
@@ -8598,17 +8598,17 @@ var tokens = [
 		symbol: "CLT"
 	},
 	{
-		address: "0xa69f7a10dF90C4D6710588Bc18ad9bF08081f545",
-		chainId: 1,
-		decimals: 18,
-		name: "Cexlt",
-		symbol: "CLT"
-	},
-	{
 		address: "0xe5Db2c3E2CEFf742E5306bCfc12622f5e2d14e98",
 		chainId: 1,
 		decimals: 9,
 		name: "ClienteleCoin",
+		symbol: "CLT"
+	},
+	{
+		address: "0xa69f7a10dF90C4D6710588Bc18ad9bF08081f545",
+		chainId: 1,
+		decimals: 18,
+		name: "Cexlt",
 		symbol: "CLT"
 	},
 	{
@@ -9336,17 +9336,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0xC3d6dda603FC15Fd4Bf9303150fe11c7cd6059dc",
-		chainId: 1,
-		decimals: 18,
-		name: "Coweye",
-		symbol: "COW"
-	},
-	{
 		address: "0xf0be50ED0620E0Ba60CA7FC968eD14762e0A5Dd3",
 		chainId: 1,
 		decimals: 9,
 		name: "Cowboy Finance",
+		symbol: "COW"
+	},
+	{
+		address: "0xC3d6dda603FC15Fd4Bf9303150fe11c7cd6059dc",
+		chainId: 1,
+		decimals: 18,
+		name: "Coweye",
 		symbol: "COW"
 	},
 	{
@@ -13728,17 +13728,17 @@ var tokens = [
 		symbol: "ECN"
 	},
 	{
-		address: "0xC242Eb8e4E27EAE6a2A728A41201152F19595C83",
-		chainId: 1,
-		decimals: 18,
-		name: "EcoFi",
-		symbol: "ECO"
-	},
-	{
 		address: "0x191557728e4d8CAa4Ac94f86af842148c0FA8F7E",
 		chainId: 1,
 		decimals: 8,
 		name: "Ormeus Ecosystem",
+		symbol: "ECO"
+	},
+	{
+		address: "0xC242Eb8e4E27EAE6a2A728A41201152F19595C83",
+		chainId: 1,
+		decimals: 18,
+		name: "EcoFi",
 		symbol: "ECO"
 	},
 	{
@@ -15100,17 +15100,17 @@ var tokens = [
 		symbol: "ETHUSDADL4"
 	},
 	{
-		address: "0x058349297672B6cC7cCb6E59A679c5ADd74a6898",
-		chainId: 1,
-		decimals: 18,
-		name: "Ethereum Vault",
-		symbol: "ETHV"
-	},
-	{
 		address: "0xC53342fd7575f572b0fF4569e31941A5B821aC76",
 		chainId: 1,
 		decimals: 18,
 		name: "Ethereum Volatility",
+		symbol: "ETHV"
+	},
+	{
+		address: "0x058349297672B6cC7cCb6E59A679c5ADd74a6898",
+		chainId: 1,
+		decimals: 18,
+		name: "Ethereum Vault",
 		symbol: "ETHV"
 	},
 	{
@@ -15173,17 +15173,17 @@ var tokens = [
 		symbol: "ETR"
 	},
 	{
-		address: "0x952B65D976E8669c4cE92a17CcE5B2586912Adb5",
-		chainId: 1,
-		decimals: 18,
-		name: "Etrade",
-		symbol: "ETT"
-	},
-	{
 		address: "0x1212b68d8555Cf0B08f3371b926b3E1148B520F1",
 		chainId: 1,
 		decimals: 18,
 		name: "Efficient Transacti",
+		symbol: "ETT"
+	},
+	{
+		address: "0x952B65D976E8669c4cE92a17CcE5B2586912Adb5",
+		chainId: 1,
+		decimals: 18,
+		name: "Etrade",
 		symbol: "ETT"
 	},
 	{
@@ -16157,13 +16157,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x7bE5901F679BDE8202a123c84C19BBCE2CF3449B",
-		chainId: 1,
-		decimals: 18,
-		name: "Fiola",
-		symbol: "FLA"
 	},
 	{
 		address: "0xCfb72ED3647cC8E7FA52E4F121eCdAbEfC305e7f",
@@ -18116,6 +18109,13 @@ var tokens = [
 		symbol: "GOLD"
 	},
 	{
+		address: "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
+		chainId: 1,
+		decimals: 8,
+		name: "GOLD",
+		symbol: "GOLD"
+	},
+	{
 		address: "0x40d1F63B5D2048e67E9bEdB1B4c2F1A9fb4b6817",
 		chainId: 1,
 		decimals: 18,
@@ -18125,13 +18125,6 @@ var tokens = [
 			color: "#f1b32b",
 			isVerified: true
 		}
-	},
-	{
-		address: "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
-		chainId: 1,
-		decimals: 8,
-		name: "GOLD",
-		symbol: "GOLD"
 	},
 	{
 		address: "0x34D6A0F5C2f5D0082141fE73d93B9dd00ca7CE11",
@@ -23792,13 +23785,6 @@ var tokens = [
 		symbol: "LML"
 	},
 	{
-		address: "0x034455C8a9882BF44C9704c780A55198E05BA559",
-		chainId: 1,
-		decimals: 18,
-		name: "Lumos",
-		symbol: "LMS"
-	},
-	{
 		address: "0x66fD97a78d8854fEc445cd1C80a07896B0b4851f",
 		chainId: 1,
 		decimals: 18,
@@ -25420,17 +25406,17 @@ var tokens = [
 		symbol: "MIRO"
 	},
 	{
-		address: "0x024B6e7DC26F4d5579bDD936F8d7BC31f2339999",
-		chainId: 1,
-		decimals: 18,
-		name: "Mithril Share",
-		symbol: "MIS"
-	},
-	{
 		address: "0xCD1cb16a67937ff8Af5D726e2681010cE1E9891a",
 		chainId: 1,
 		decimals: 8,
 		name: "Themis",
+		symbol: "MIS"
+	},
+	{
+		address: "0x024B6e7DC26F4d5579bDD936F8d7BC31f2339999",
+		chainId: 1,
+		decimals: 18,
+		name: "Mithril Share",
 		symbol: "MIS"
 	},
 	{
@@ -29878,17 +29864,17 @@ var tokens = [
 		symbol: "PLF"
 	},
 	{
-		address: "0xBa069Ee53b8B531F3AB117c92ca09A204C9E6285",
-		chainId: 1,
-		decimals: 18,
-		name: "Plug",
-		symbol: "PLG"
-	},
-	{
 		address: "0x85ca6710D0F1D511d130f6935eDDA88ACBD921bD",
 		chainId: 1,
 		decimals: 18,
 		name: "Pledgecamp",
+		symbol: "PLG"
+	},
+	{
+		address: "0xBa069Ee53b8B531F3AB117c92ca09A204C9E6285",
+		chainId: 1,
+		decimals: 18,
+		name: "Plug",
 		symbol: "PLG"
 	},
 	{
@@ -33218,17 +33204,17 @@ var tokens = [
 		symbol: "ROCK2PAY"
 	},
 	{
-		address: "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
-		chainId: 1,
-		decimals: 18,
-		name: "Social Rocket",
-		symbol: "ROCKS"
-	},
-	{
 		address: "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
 		chainId: 1,
 		decimals: 18,
 		name: "Rocki",
+		symbol: "ROCKS"
+	},
+	{
+		address: "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
+		chainId: 1,
+		decimals: 18,
+		name: "Social Rocket",
 		symbol: "ROCKS"
 	},
 	{
@@ -34117,17 +34103,17 @@ var tokens = [
 		symbol: "SCAT"
 	},
 	{
-		address: "0x74FD51a98a4A1ECBeF8Cc43be801cce630E260Bd",
-		chainId: 1,
-		decimals: 18,
-		name: "SiaCashCoin",
-		symbol: "SCC"
-	},
-	{
 		address: "0x86696431D6ACA9bae5CE6536ECF5D437F2e6Dba2",
 		chainId: 1,
 		decimals: 18,
 		name: "SoftChain",
+		symbol: "SCC"
+	},
+	{
+		address: "0x74FD51a98a4A1ECBeF8Cc43be801cce630E260Bd",
+		chainId: 1,
+		decimals: 18,
+		name: "SiaCashCoin",
 		symbol: "SCC"
 	},
 	{
@@ -38907,17 +38893,17 @@ var tokens = [
 		symbol: "TOPDOG"
 	},
 	{
-		address: "0x4f5f2EEA4ED3485E5e23a39704d5fD9d0A423886",
-		chainId: 1,
-		decimals: 18,
-		name: "Torchain",
-		symbol: "TOR"
-	},
-	{
 		address: "0x9ea20fBFAA44efBc60C6728fCdBA17f01b7E04FE",
 		chainId: 1,
 		decimals: 8,
 		name: "Torex",
+		symbol: "TOR"
+	},
+	{
+		address: "0x4f5f2EEA4ED3485E5e23a39704d5fD9d0A423886",
+		chainId: 1,
+		decimals: 18,
+		name: "Torchain",
 		symbol: "TOR"
 	},
 	{
@@ -39846,17 +39832,17 @@ var tokens = [
 		symbol: "UCOS"
 	},
 	{
-		address: "0x3c4bEa627039F0B7e7d21E34bB9C9FE962977518",
-		chainId: 1,
-		decimals: 18,
-		name: "Ubique Chain of Thi",
-		symbol: "UCT"
-	},
-	{
 		address: "0x6d1DC3928604b00180Bb570BdAe94b9698d33b79",
 		chainId: 1,
 		decimals: 18,
 		name: "UnitedCrowd",
+		symbol: "UCT"
+	},
+	{
+		address: "0x3c4bEa627039F0B7e7d21E34bB9C9FE962977518",
+		chainId: 1,
+		decimals: 18,
+		name: "Ubique Chain of Thi",
 		symbol: "UCT"
 	},
 	{
