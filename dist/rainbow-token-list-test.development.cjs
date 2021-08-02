@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-02T08:24:07.159Z";
+var timestamp = "2021-08-02T09:21:58.092Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -22376,17 +22376,17 @@ var tokens = [
 		symbol: "KISHU"
 	},
 	{
-		address: "0x080eB7238031F97Ff011e273D6CaD5ad0c2dE532",
-		chainId: 1,
-		decimals: 18,
-		name: "Kittoken",
-		symbol: "KIT"
-	},
-	{
 		address: "0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4",
 		chainId: 1,
 		decimals: 18,
 		name: "DexKit",
+		symbol: "KIT"
+	},
+	{
+		address: "0x080eB7238031F97Ff011e273D6CaD5ad0c2dE532",
+		chainId: 1,
+		decimals: 18,
+		name: "Kittoken",
 		symbol: "KIT"
 	},
 	{
@@ -35763,6 +35763,13 @@ var tokens = [
 		symbol: "SNOGE"
 	},
 	{
+		address: "0xD45740aB9ec920bEdBD9BAb2E863519E59731941",
+		chainId: 1,
+		decimals: 18,
+		name: "Schnoodle Finance",
+		symbol: "SNOOD"
+	},
+	{
 		address: "0xBDC5bAC39Dbe132B1E030e898aE3830017D7d969",
 		chainId: 1,
 		decimals: 18,
@@ -38147,6 +38154,13 @@ var tokens = [
 		decimals: 8,
 		name: "Tepleton",
 		symbol: "TEP"
+	},
+	{
+		address: "0xfF69e48af1174Da7F15D0c771861c33d3f19eD8a",
+		chainId: 1,
+		decimals: 9,
+		name: "Tesla Inu",
+		symbol: "TESINU"
 	},
 	{
 		address: "0x2d5Bed63B0fE325Ed3B865Ae2cdAa3649eB25461",
@@ -44464,17 +44478,17 @@ var tokens = [
 		symbol: "WILD"
 	},
 	{
-		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
-		chainId: 1,
-		decimals: 18,
-		name: "Wild Credit",
-		symbol: "WILD"
-	},
-	{
 		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
 		chainId: 1,
 		decimals: 18,
 		name: "Wilder World",
+		symbol: "WILD"
+	},
+	{
+		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
+		chainId: 1,
+		decimals: 18,
+		name: "Wild Credit",
 		symbol: "WILD"
 	},
 	{
