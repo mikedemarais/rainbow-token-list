@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-02T04:27:01.211Z";
+var timestamp = "2021-08-02T05:18:00.478Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -15302,6 +15302,13 @@ var tokens = [
 		symbol: "EVAN"
 	},
 	{
+		address: "0x69d1ff85004a445A892dFbD88DF00D48fb0aF638",
+		chainId: 1,
+		decimals: 9,
+		name: "EveryApe",
+		symbol: "EVAPE"
+	},
+	{
 		address: "0xb62d18DeA74045E822352CE4B3EE77319DC5ff2F",
 		chainId: 1,
 		decimals: 18,
@@ -22148,7 +22155,7 @@ var tokens = [
 		address: "0x3fa400483487A489EC9b1dB29C4129063EEC4654",
 		chainId: 1,
 		decimals: 18,
-		name: "CryptoKek",
+		name: "Cryptokek",
 		symbol: "KEK"
 	},
 	{
@@ -22928,7 +22935,7 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x0bfFc5692960Bb043D3216839bDD6e5E64ff1b4e",
+		address: "0xCB58418Aa51Ba525aEF0FE474109C0354d844b7c",
 		chainId: 1,
 		decimals: 9,
 		name: "Laika Protocol",
@@ -35408,20 +35415,20 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
+		address: "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
 		chainId: 1,
 		decimals: 9,
-		name: "Soft Link",
+		name: "ShibaLink",
 		symbol: "SLINK",
 		extensions: {
 			isVerified: true
 		}
 	},
 	{
-		address: "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
+		address: "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
 		chainId: 1,
 		decimals: 9,
-		name: "ShibaLink",
+		name: "Soft Link",
 		symbol: "SLINK",
 		extensions: {
 			isVerified: true
@@ -43949,13 +43956,6 @@ var tokens = [
 		symbol: "WAND"
 	},
 	{
-		address: "0x4d75D9e37667a2d4677Ec3d74bDD9049326Ad8d6",
-		chainId: 1,
-		decimals: 18,
-		name: "NFT Wars",
-		symbol: "WAR"
-	},
-	{
 		address: "0xf4A81C18816C9B0AB98FAC51B36Dcb63b0E58Fde",
 		chainId: 1,
 		decimals: 18,
@@ -43967,6 +43967,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 12,
 		name: "Wrapped AR",
+		symbol: "WAR"
+	},
+	{
+		address: "0x4d75D9e37667a2d4677Ec3d74bDD9049326Ad8d6",
+		chainId: 1,
+		decimals: 18,
+		name: "NFT Wars",
 		symbol: "WAR"
 	},
 	{
