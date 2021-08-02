@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-02T18:25:12.274Z";
+var timestamp = "2021-08-02T19:14:28.382Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -33765,8 +33765,11 @@ var tokens = [
 		address: "0x8B3192f5eEBD8579568A2Ed41E6FEB402f93f73F",
 		chainId: 1,
 		decimals: 9,
-		name: "Saitama Inu",
-		symbol: "SAITAMA"
+		name: "SAITAMA INU",
+		symbol: "SAITAMA",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0xFa14Fa6958401314851A17d6C5360cA29f74B57B",
