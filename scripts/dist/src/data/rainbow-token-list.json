@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-08-02T09:21:58.092Z",
+    "timestamp": "2021-08-02T10:23:03.985Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -6212,13 +6212,6 @@
             "symbol": "BREZ"
         },
         {
-            "address": "0x4893A1938dF49f4178c37E4E965CC8A1B3882173",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Baroin",
-            "symbol": "BRI"
-        },
-        {
             "address": "0x679fA6dC913aCAB6dEF33Ec469FC6E421bC794F5",
             "chainId": 1,
             "decimals": 18,
@@ -8744,13 +8737,6 @@
             "extensions": {
                 "isVerified": true
             }
-        },
-        {
-            "address": "0x8e2B4badaC15a4ec8c56020f4Ce60faa7558c052",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Communifty",
-            "symbol": "CNFT"
         },
         {
             "address": "0x883a158c9b28f8d626ACFCFbE1028f49E70c9D75",
@@ -13829,6 +13815,13 @@
             "decimals": 18,
             "name": "EDDASwap",
             "symbol": "EDDA"
+        },
+        {
+            "address": "0x1559FA1b8F28238FD5D76D9f434ad86FD20D1559",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "EDEN",
+            "symbol": "EDEN"
         },
         {
             "address": "0x08711D3B02C8758F2FB3ab4e80228418a7F8e39c",
@@ -25912,13 +25905,6 @@
             "symbol": "MORPH"
         },
         {
-            "address": "0x970b596EA3cb9864397f799902f0a579cDc3377B",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Morph Tracker",
-            "symbol": "MORT"
-        },
-        {
             "address": "0x784561B89A160990F46DE6dB19571Ca1B5F14bCE",
             "chainId": 1,
             "decimals": 9,
@@ -28232,6 +28218,13 @@
             "decimals": 18,
             "name": "One Share",
             "symbol": "ONS"
+        },
+        {
+            "address": "0xcF78C7dD70d6F30F6E3609e905e78305Da98c863",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Ownix",
+            "symbol": "ONX"
         },
         {
             "address": "0xE0aD1806Fd3E7edF6FF52Fdb822432e847411033",
@@ -33323,13 +33316,6 @@
             "decimals": 18,
             "name": "Royale",
             "symbol": "ROYA"
-        },
-        {
-            "address": "0xE55CC44C0Cf9CEDE2d68f9432cBeeAfA6357ed92",
-            "chainId": 1,
-            "decimals": 8,
-            "name": "Rozeus",
-            "symbol": "ROZ"
         },
         {
             "address": "0xf18aF466F8885f9Ea93D2b85c47a427cB01bAD52",
@@ -47374,13 +47360,6 @@
             "chainId": 1,
             "decimals": 18,
             "name": "ZuCoinChain",
-            "symbol": "ZCC"
-        },
-        {
-            "address": "0x6737fE98389Ffb356F64ebB726aA1a92390D94Fb",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Zero Carbon Project",
             "symbol": "ZCC"
         },
         {
