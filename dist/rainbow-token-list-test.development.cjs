@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-02T10:23:03.985Z";
+var timestamp = "2021-08-02T11:16:57.495Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -6224,6 +6224,13 @@ var tokens = [
 		symbol: "BREZ"
 	},
 	{
+		address: "0x4893A1938dF49f4178c37E4E965CC8A1B3882173",
+		chainId: 1,
+		decimals: 18,
+		name: "Baroin",
+		symbol: "BRI"
+	},
+	{
 		address: "0x679fA6dC913aCAB6dEF33Ec469FC6E421bC794F5",
 		chainId: 1,
 		decimals: 18,
@@ -8749,6 +8756,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x8e2B4badaC15a4ec8c56020f4Ce60faa7558c052",
+		chainId: 1,
+		decimals: 18,
+		name: "Communifty",
+		symbol: "CNFT"
 	},
 	{
 		address: "0x883a158c9b28f8d626ACFCFbE1028f49E70c9D75",
@@ -25917,6 +25931,13 @@ var tokens = [
 		symbol: "MORPH"
 	},
 	{
+		address: "0x970b596EA3cb9864397f799902f0a579cDc3377B",
+		chainId: 1,
+		decimals: 18,
+		name: "Morph Tracker",
+		symbol: "MORT"
+	},
+	{
 		address: "0x784561B89A160990F46DE6dB19571Ca1B5F14bCE",
 		chainId: 1,
 		decimals: 9,
@@ -33328,6 +33349,13 @@ var tokens = [
 		decimals: 18,
 		name: "Royale",
 		symbol: "ROYA"
+	},
+	{
+		address: "0xE55CC44C0Cf9CEDE2d68f9432cBeeAfA6357ed92",
+		chainId: 1,
+		decimals: 8,
+		name: "Rozeus",
+		symbol: "ROZ"
 	},
 	{
 		address: "0xf18aF466F8885f9Ea93D2b85c47a427cB01bAD52",
@@ -47372,6 +47400,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "ZuCoinChain",
+		symbol: "ZCC"
+	},
+	{
+		address: "0x6737fE98389Ffb356F64ebB726aA1a92390D94Fb",
+		chainId: 1,
+		decimals: 18,
+		name: "Zero Carbon Project",
 		symbol: "ZCC"
 	},
 	{
