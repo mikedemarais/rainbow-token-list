@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-08-02T03:23:00.083Z",
+  "timestamp": "2021-08-02T04:27:01.211Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -8746,6 +8746,13 @@
       }
     },
     {
+      "address": "0x8e2B4badaC15a4ec8c56020f4Ce60faa7558c052",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Communifty",
+      "symbol": "CNFT"
+    },
+    {
       "address": "0x883a158c9b28f8d626ACFCFbE1028f49E70c9D75",
       "chainId": 1,
       "decimals": 18,
@@ -10773,13 +10780,6 @@
       "decimals": 18,
       "name": "DAO1",
       "symbol": "DAO1"
-    },
-    {
-      "address": "0xD82BB924a1707950903e2C0a619824024e254cD1",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "DAOfi",
-      "symbol": "DAOFI"
     },
     {
       "address": "0x96184d9C811Ea0624fC30C80233B1d749B9E485B",
@@ -25394,17 +25394,17 @@
       "symbol": "MIRO"
     },
     {
-      "address": "0x024B6e7DC26F4d5579bDD936F8d7BC31f2339999",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Mithril Share",
-      "symbol": "MIS"
-    },
-    {
       "address": "0xCD1cb16a67937ff8Af5D726e2681010cE1E9891a",
       "chainId": 1,
       "decimals": 8,
       "name": "Themis",
+      "symbol": "MIS"
+    },
+    {
+      "address": "0x024B6e7DC26F4d5579bDD936F8d7BC31f2339999",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Mithril Share",
       "symbol": "MIS"
     },
     {
@@ -40140,20 +40140,20 @@
       "symbol": "uLREP4x"
     },
     {
-      "address": "0xE884cc2795b9c45bEeac0607DA9539Fd571cCF85",
+      "address": "0x09617F6fD6cF8A71278ec86e23bBab29C04353a7",
       "chainId": 1,
       "decimals": 18,
-      "name": "Ultiledger",
+      "name": "Shardus",
       "symbol": "ULT",
       "extensions": {
         "isVerified": true
       }
     },
     {
-      "address": "0x09617F6fD6cF8A71278ec86e23bBab29C04353a7",
+      "address": "0xE884cc2795b9c45bEeac0607DA9539Fd571cCF85",
       "chainId": 1,
       "decimals": 18,
-      "name": "Shardus",
+      "name": "Ultiledger",
       "symbol": "ULT",
       "extensions": {
         "isVerified": true
@@ -46099,6 +46099,13 @@
       "decimals": 18,
       "name": "Universe XYZ",
       "symbol": "XYZ"
+    },
+    {
+      "address": "0x48f07301E9E29c3C38a80ae8d9ae771F224f1054",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "South African Tethe",
+      "symbol": "XZAR"
     },
     {
       "address": "0x4eE438be38F8682ABB089F2BFeA48851C5E71EAF",
