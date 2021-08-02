@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-02T02:30:45.520Z";
+var timestamp = "2021-08-02T03:23:00.083Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -349,17 +349,17 @@ var tokens = [
 		symbol: "A5T"
 	},
 	{
-		address: "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
-		chainId: 1,
-		decimals: 10,
-		name: "AAAchain",
-		symbol: "AAA"
-	},
-	{
 		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
 		chainId: 1,
 		decimals: 18,
 		name: "Moon Rabbit",
+		symbol: "AAA"
+	},
+	{
+		address: "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
+		chainId: 1,
+		decimals: 10,
+		name: "AAAchain",
 		symbol: "AAA"
 	},
 	{
@@ -4539,13 +4539,6 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x593114f03A0A575aece9ED675e52Ed68D2172B8c",
-		chainId: 1,
-		decimals: 18,
-		name: "BidiPass",
-		symbol: "BDP"
-	},
-	{
 		address: "0xf3dcbc6D72a4E1892f7917b7C43b74131Df8480e",
 		chainId: 1,
 		decimals: 18,
@@ -4554,6 +4547,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x593114f03A0A575aece9ED675e52Ed68D2172B8c",
+		chainId: 1,
+		decimals: 18,
+		name: "BidiPass",
+		symbol: "BDP"
 	},
 	{
 		address: "0x7BCe667EF12023dc5f8577D015a2F09d99a5ef58",
@@ -6489,17 +6489,17 @@ var tokens = [
 		symbol: "BSYS"
 	},
 	{
-		address: "0x76c5449F4950f6338A393F53CdA8b53B0cd3Ca3a",
-		chainId: 1,
-		decimals: 18,
-		name: "BT Finance",
-		symbol: "BT"
-	},
-	{
 		address: "0x997507cc49FBf0CD6ce5e1EE543218556fAFdEBc",
 		chainId: 1,
 		decimals: 18,
 		name: "Bitenium Token",
+		symbol: "BT"
+	},
+	{
+		address: "0x76c5449F4950f6338A393F53CdA8b53B0cd3Ca3a",
+		chainId: 1,
+		decimals: 18,
+		name: "BT Finance",
 		symbol: "BT"
 	},
 	{
@@ -7810,17 +7810,17 @@ var tokens = [
 		symbol: "CBUCKS"
 	},
 	{
-		address: "0xb7fbFf4Ce5200215c690cc95855e5d6C5236Ee9f",
-		chainId: 1,
-		decimals: 18,
-		name: "CCSwap",
-		symbol: "CC"
-	},
-	{
 		address: "0x15c9DD08Fb16331B9749a8d7d16BCd71c985f190",
 		chainId: 1,
 		decimals: 18,
 		name: "CC",
+		symbol: "CC"
+	},
+	{
+		address: "0xb7fbFf4Ce5200215c690cc95855e5d6C5236Ee9f",
+		chainId: 1,
+		decimals: 18,
+		name: "CCSwap",
 		symbol: "CC"
 	},
 	{
@@ -22369,17 +22369,17 @@ var tokens = [
 		symbol: "KISHU"
 	},
 	{
-		address: "0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4",
-		chainId: 1,
-		decimals: 18,
-		name: "DexKit",
-		symbol: "KIT"
-	},
-	{
 		address: "0x080eB7238031F97Ff011e273D6CaD5ad0c2dE532",
 		chainId: 1,
 		decimals: 18,
 		name: "Kittoken",
+		symbol: "KIT"
+	},
+	{
+		address: "0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4",
+		chainId: 1,
+		decimals: 18,
+		name: "DexKit",
 		symbol: "KIT"
 	},
 	{
@@ -25406,17 +25406,17 @@ var tokens = [
 		symbol: "MIRO"
 	},
 	{
-		address: "0xCD1cb16a67937ff8Af5D726e2681010cE1E9891a",
-		chainId: 1,
-		decimals: 8,
-		name: "Themis",
-		symbol: "MIS"
-	},
-	{
 		address: "0x024B6e7DC26F4d5579bDD936F8d7BC31f2339999",
 		chainId: 1,
 		decimals: 18,
 		name: "Mithril Share",
+		symbol: "MIS"
+	},
+	{
+		address: "0xCD1cb16a67937ff8Af5D726e2681010cE1E9891a",
+		chainId: 1,
+		decimals: 8,
+		name: "Themis",
 		symbol: "MIS"
 	},
 	{
@@ -29531,13 +29531,6 @@ var tokens = [
 		symbol: "PHUNK"
 	},
 	{
-		address: "0x1864cE27E9F7517047933CaAE530674e8C70b8A7",
-		chainId: 1,
-		decimals: 18,
-		name: "Pibble",
-		symbol: "PIB"
-	},
-	{
 		address: "0x1BaFfbc23f2246040cCE12F7a140C38c5DC73e46",
 		chainId: 1,
 		decimals: 18,
@@ -29546,6 +29539,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x1864cE27E9F7517047933CaAE530674e8C70b8A7",
+		chainId: 1,
+		decimals: 18,
+		name: "Pibble",
+		symbol: "PIB"
 	},
 	{
 		address: "0x1eCe1739DAE08253aE582C404511B37355B42C84",
@@ -30625,6 +30625,13 @@ var tokens = [
 		decimals: 18,
 		name: "Previse",
 		symbol: "PRVS"
+	},
+	{
+		address: "0x22ACaEe85dDB83a3A33B7f0928a0e2c3bFDb6a4F",
+		chainId: 1,
+		decimals: 18,
+		name: "Proxy",
+		symbol: "PRXY"
 	},
 	{
 		address: "0x3C81D482172cC273c3b91dD9D8eb212023D00521",
