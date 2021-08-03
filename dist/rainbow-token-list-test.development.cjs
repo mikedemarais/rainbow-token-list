@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-03T12:34:01.923Z";
+var timestamp = "2021-08-03T13:27:09.527Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -14749,6 +14749,13 @@ var tokens = [
 		symbol: "ESPRO"
 	},
 	{
+		address: "0x24aE124c4CC33D6791F8E8B63520ed7107ac8b3e",
+		chainId: 1,
+		decimals: 18,
+		name: "Empty Set Share",
+		symbol: "ESS"
+	},
+	{
 		address: "0xfc05987bd2be489ACCF0f509E44B0145d68240f7",
 		chainId: 1,
 		decimals: 18,
@@ -14757,13 +14764,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x24aE124c4CC33D6791F8E8B63520ed7107ac8b3e",
-		chainId: 1,
-		decimals: 18,
-		name: "Empty Set Share",
-		symbol: "ESS"
 	},
 	{
 		address: "0xF3924dF14812B3D3dB29124AA9DA4353Ed5e04A3",
@@ -35439,20 +35439,20 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
+		address: "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
 		chainId: 1,
 		decimals: 9,
-		name: "ShibaLink",
+		name: "Soft Link",
 		symbol: "SLINK",
 		extensions: {
 			isVerified: true
 		}
 	},
 	{
-		address: "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
+		address: "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
 		chainId: 1,
 		decimals: 9,
-		name: "Soft Link",
+		name: "ShibaLink",
 		symbol: "SLINK",
 		extensions: {
 			isVerified: true
@@ -35797,7 +35797,7 @@ var tokens = [
 		address: "0xD45740aB9ec920bEdBD9BAb2E863519E59731941",
 		chainId: 1,
 		decimals: 18,
-		name: "Schnoodle Finance",
+		name: "Schnoodle",
 		symbol: "SNOOD"
 	},
 	{
@@ -38310,6 +38310,13 @@ var tokens = [
 		decimals: 0,
 		name: "Thore Exchange Toke",
 		symbol: "THEX"
+	},
+	{
+		address: "0xb526FD41360c98929006f3bDcBd16d55dE4b0069",
+		chainId: 1,
+		decimals: 18,
+		name: "Thirm Protocol",
+		symbol: "THIRM"
 	},
 	{
 		address: "0x0000852600CEB001E08e00bC008be620d60031F2",
