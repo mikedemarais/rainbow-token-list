@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-03T01:08:27.289Z";
+var timestamp = "2021-08-03T02:34:24.854Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4539,6 +4539,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0x593114f03A0A575aece9ED675e52Ed68D2172B8c",
+		chainId: 1,
+		decimals: 18,
+		name: "BidiPass",
+		symbol: "BDP"
+	},
+	{
 		address: "0xf3dcbc6D72a4E1892f7917b7C43b74131Df8480e",
 		chainId: 1,
 		decimals: 18,
@@ -4547,13 +4554,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x593114f03A0A575aece9ED675e52Ed68D2172B8c",
-		chainId: 1,
-		decimals: 18,
-		name: "BidiPass",
-		symbol: "BDP"
 	},
 	{
 		address: "0x7BCe667EF12023dc5f8577D015a2F09d99a5ef58",
@@ -8417,17 +8417,17 @@ var tokens = [
 		symbol: "CHSB"
 	},
 	{
-		address: "0x19fAb8f7dfFfF38268644eAEBd3d538F68036000",
-		chainId: 1,
-		decimals: 18,
-		name: "Chronic Token",
-		symbol: "CHT"
-	},
-	{
 		address: "0x3277dd536471a3cBEB0c9486aCad494C95A31E73",
 		chainId: 1,
 		decimals: 18,
 		name: "CoinHe Token",
+		symbol: "CHT"
+	},
+	{
+		address: "0x19fAb8f7dfFfF38268644eAEBd3d538F68036000",
+		chainId: 1,
+		decimals: 18,
+		name: "Chronic Token",
 		symbol: "CHT"
 	},
 	{
@@ -10167,6 +10167,13 @@ var tokens = [
 		symbol: "CUBE"
 	},
 	{
+		address: "0xeCD20F0EBC3dA5E514b4454E3dc396E7dA18cA6A",
+		chainId: 1,
+		decimals: 18,
+		name: "Cudl Finance",
+		symbol: "CUDL"
+	},
+	{
 		address: "0x817bbDbC3e8A1204f3691d14bB44992841e3dB35",
 		chainId: 1,
 		decimals: 18,
@@ -11608,13 +11615,6 @@ var tokens = [
 		symbol: "DFT"
 	},
 	{
-		address: "0xf1f5De69C9C8D9BE8a7B01773Cc1166D4Ec6Ede2",
-		chainId: 1,
-		decimals: 18,
-		name: "Definitex",
-		symbol: "DFX"
-	},
-	{
 		address: "0x888888435FDe8e7d4c54cAb67f206e4199454c60",
 		chainId: 1,
 		decimals: 18,
@@ -11623,6 +11623,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xf1f5De69C9C8D9BE8a7B01773Cc1166D4Ec6Ede2",
+		chainId: 1,
+		decimals: 18,
+		name: "Definitex",
+		symbol: "DFX"
 	},
 	{
 		address: "0x7CCC863EcE2E15bC45ac0565D410da7A3340aD98",
@@ -22369,17 +22376,17 @@ var tokens = [
 		symbol: "KISHU"
 	},
 	{
-		address: "0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4",
-		chainId: 1,
-		decimals: 18,
-		name: "DexKit",
-		symbol: "KIT"
-	},
-	{
 		address: "0x080eB7238031F97Ff011e273D6CaD5ad0c2dE532",
 		chainId: 1,
 		decimals: 18,
 		name: "Kittoken",
+		symbol: "KIT"
+	},
+	{
+		address: "0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4",
+		chainId: 1,
+		decimals: 18,
+		name: "DexKit",
 		symbol: "KIT"
 	},
 	{
@@ -23437,17 +23444,17 @@ var tokens = [
 		symbol: "LHCOIN"
 	},
 	{
-		address: "0x3FD2E747CEA0E8A78f1827ea2FfD3334628A600b",
-		chainId: 1,
-		decimals: 18,
-		name: "Banklife",
-		symbol: "LIB"
-	},
-	{
 		address: "0x0bf6261297198D91D4FA460242C69232146A5703",
 		chainId: 1,
 		decimals: 18,
 		name: "Libera",
+		symbol: "LIB"
+	},
+	{
+		address: "0x3FD2E747CEA0E8A78f1827ea2FfD3334628A600b",
+		chainId: 1,
+		decimals: 18,
+		name: "Banklife",
 		symbol: "LIB"
 	},
 	{
@@ -25054,6 +25061,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0xDE2F7766C8BF14CA67193128535E5c7454f8387C",
+		chainId: 1,
+		decimals: 18,
+		name: "Metadium",
+		symbol: "META"
+	},
+	{
 		address: "0x2F5C3dD519E8a502c48c9FC104Eee64fDFF05F03",
 		chainId: 1,
 		decimals: 18,
@@ -25065,13 +25079,6 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "Meta Network",
-		symbol: "META"
-	},
-	{
-		address: "0xDE2F7766C8BF14CA67193128535E5c7454f8387C",
-		chainId: 1,
-		decimals: 18,
-		name: "Metadium",
 		symbol: "META"
 	},
 	{
@@ -44467,17 +44474,17 @@ var tokens = [
 		symbol: "WILD"
 	},
 	{
-		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
-		chainId: 1,
-		decimals: 18,
-		name: "Wilder World",
-		symbol: "WILD"
-	},
-	{
 		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
 		chainId: 1,
 		decimals: 18,
 		name: "Wild Credit",
+		symbol: "WILD"
+	},
+	{
+		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
+		chainId: 1,
+		decimals: 18,
+		name: "Wilder World",
 		symbol: "WILD"
 	},
 	{
