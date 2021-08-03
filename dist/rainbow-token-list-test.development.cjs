@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-03T17:31:54.243Z";
+var timestamp = "2021-08-03T18:25:54.431Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -12467,11 +12467,8 @@ var tokens = [
 		address: "0x217ddEad61a42369A266F1Fb754EB5d3EBadc88a",
 		chainId: 1,
 		decimals: 18,
-		name: "Don-key",
-		symbol: "DON",
-		extensions: {
-			isVerified: true
-		}
+		name: "Don key",
+		symbol: "DON"
 	},
 	{
 		address: "0xE4F6D46C244Bb7Cf3e218CDFB5C35cf9a4d9c920",
@@ -25201,11 +25198,7 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "Hifi Finance",
-		symbol: "MFT",
-		extensions: {
-			color: "#da1157",
-			isVerified: true
-		}
+		symbol: "MFT"
 	},
 	{
 		address: "0x05D412CE18F24040bB3Fa45CF2C69e506586D8e8",
