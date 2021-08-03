@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-03T05:17:56.853Z";
+var timestamp = "2021-08-03T06:25:59.030Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -6091,17 +6091,17 @@ var tokens = [
 		symbol: "BPP"
 	},
 	{
-		address: "0x197E6bCa6BC2f488ec760a6Ce46B1399cd2954b0",
-		chainId: 1,
-		decimals: 8,
-		name: "BitCloud Pro",
-		symbol: "BPRO"
-	},
-	{
 		address: "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
 		chainId: 1,
 		decimals: 18,
 		name: "B Protocol",
+		symbol: "BPRO"
+	},
+	{
+		address: "0x197E6bCa6BC2f488ec760a6Ce46B1399cd2954b0",
+		chainId: 1,
+		decimals: 8,
+		name: "BitCloud Pro",
 		symbol: "BPRO"
 	},
 	{
@@ -13116,6 +13116,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0x605D26FBd5be761089281d5cec2Ce86eeA667109",
+		chainId: 1,
+		decimals: 18,
+		name: "Digital Standard Un",
+		symbol: "DSU"
+	},
+	{
 		address: "0x3f344C88d823F180Fb8b44A3C7Cfc4edc92dFa35",
 		chainId: 1,
 		decimals: 6,
@@ -14750,6 +14757,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x24aE124c4CC33D6791F8E8B63520ed7107ac8b3e",
+		chainId: 1,
+		decimals: 18,
+		name: "Empty Set Share",
+		symbol: "ESS"
 	},
 	{
 		address: "0xF3924dF14812B3D3dB29124AA9DA4353Ed5e04A3",
@@ -35418,20 +35432,20 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
+		address: "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
 		chainId: 1,
 		decimals: 9,
-		name: "Soft Link",
+		name: "ShibaLink",
 		symbol: "SLINK",
 		extensions: {
 			isVerified: true
 		}
 	},
 	{
-		address: "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
+		address: "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
 		chainId: 1,
 		decimals: 9,
-		name: "ShibaLink",
+		name: "Soft Link",
 		symbol: "SLINK",
 		extensions: {
 			isVerified: true
@@ -35642,6 +35656,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "SmartMesh",
+		symbol: "SMT"
+	},
+	{
+		address: "0xB17548c7B510427baAc4e267BEa62e800b247173",
+		chainId: 1,
+		decimals: 18,
+		name: "Swarm Markets",
 		symbol: "SMT"
 	},
 	{
