@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-08-03T18:25:54.431Z",
+  "timestamp": "2021-08-03T19:20:32.788Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -12455,8 +12455,11 @@
       "address": "0x217ddEad61a42369A266F1Fb754EB5d3EBadc88a",
       "chainId": 1,
       "decimals": 18,
-      "name": "Don key",
-      "symbol": "DON"
+      "name": "Don-key",
+      "symbol": "DON",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xE4F6D46C244Bb7Cf3e218CDFB5C35cf9a4d9c920",
@@ -25186,7 +25189,11 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Hifi Finance",
-      "symbol": "MFT"
+      "symbol": "MFT",
+      "extensions": {
+        "color": "#da1157",
+        "isVerified": true
+      }
     },
     {
       "address": "0x05D412CE18F24040bB3Fa45CF2C69e506586D8e8",
