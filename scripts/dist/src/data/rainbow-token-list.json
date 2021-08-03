@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-08-03T03:22:58.743Z",
+    "timestamp": "2021-08-03T04:26:56.613Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -8737,6 +8737,13 @@
             "extensions": {
                 "isVerified": true
             }
+        },
+        {
+            "address": "0x8e2B4badaC15a4ec8c56020f4Ce60faa7558c052",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Communifty",
+            "symbol": "CNFT"
         },
         {
             "address": "0x883a158c9b28f8d626ACFCFbE1028f49E70c9D75",
@@ -35399,20 +35406,20 @@
             }
         },
         {
-            "address": "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
+            "address": "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
             "chainId": 1,
             "decimals": 9,
-            "name": "ShibaLink",
+            "name": "Soft Link",
             "symbol": "SLINK",
             "extensions": {
                 "isVerified": true
             }
         },
         {
-            "address": "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
+            "address": "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
             "chainId": 1,
             "decimals": 9,
-            "name": "Soft Link",
+            "name": "ShibaLink",
             "symbol": "SLINK",
             "extensions": {
                 "isVerified": true
@@ -38905,17 +38912,17 @@
             "symbol": "TOPDOG"
         },
         {
-            "address": "0x9ea20fBFAA44efBc60C6728fCdBA17f01b7E04FE",
-            "chainId": 1,
-            "decimals": 8,
-            "name": "Torex",
-            "symbol": "TOR"
-        },
-        {
             "address": "0x4f5f2EEA4ED3485E5e23a39704d5fD9d0A423886",
             "chainId": 1,
             "decimals": 18,
             "name": "Torchain",
+            "symbol": "TOR"
+        },
+        {
+            "address": "0x9ea20fBFAA44efBc60C6728fCdBA17f01b7E04FE",
+            "chainId": 1,
+            "decimals": 8,
+            "name": "Torex",
             "symbol": "TOR"
         },
         {
