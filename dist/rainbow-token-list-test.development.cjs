@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-03T14:18:52.852Z";
+var timestamp = "2021-08-03T15:23:56.821Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -11354,6 +11354,13 @@ var tokens = [
 		decimals: 18,
 		name: "DEPO (Depository Network)",
 		symbol: "DEPO (Depository Network)"
+	},
+	{
+		address: "0x9fa69536d1cda4A04cFB50688294de75B505a9aE",
+		chainId: 1,
+		decimals: 18,
+		name: "DeRace",
+		symbol: "DERC"
 	},
 	{
 		address: "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",

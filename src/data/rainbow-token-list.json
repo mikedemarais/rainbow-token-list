@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-08-03T14:18:52.852Z",
+  "timestamp": "2021-08-03T15:23:56.821Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -11342,6 +11342,13 @@
       "decimals": 18,
       "name": "DEPO (Depository Network)",
       "symbol": "DEPO (Depository Network)"
+    },
+    {
+      "address": "0x9fa69536d1cda4A04cFB50688294de75B505a9aE",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "DeRace",
+      "symbol": "DERC"
     },
     {
       "address": "0xA487bF43cF3b10dffc97A9A744cbB7036965d3b9",
