@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-03T07:18:56.418Z";
+var timestamp = "2021-08-03T11:16:25.022Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -31593,6 +31593,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "Rubic",
+		symbol: "RBC"
+	},
+	{
+		address: "0x5590e22f78441da30463B55c3db0b5eA80cAbccA",
+		chainId: 1,
+		decimals: 18,
+		name: "Ruby Currency",
 		symbol: "RBC"
 	},
 	{
