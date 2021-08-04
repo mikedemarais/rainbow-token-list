@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-04T08:24:01.362Z";
+var timestamp = "2021-08-04T09:21:57.993Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -1897,13 +1897,6 @@ var tokens = [
 		decimals: 18,
 		name: "Arena Match Gold",
 		symbol: "AMGO"
-	},
-	{
-		address: "0x72c14bC8e28f18e91a2E9551802d3fB2CB80E712",
-		chainId: 1,
-		decimals: 18,
-		name: "AMMYI Coin",
-		symbol: "AMI"
 	},
 	{
 		address: "0x949bEd886c739f1A3273629b3320db0C5024c719",
@@ -15504,7 +15497,7 @@ var tokens = [
 		address: "0x56EE175FE37CD461486cE3c3166e0CaFCcd9843f",
 		chainId: 1,
 		decimals: 9,
-		name: "eWIT",
+		name: "Wrapped Wit",
 		symbol: "EWIT"
 	},
 	{
