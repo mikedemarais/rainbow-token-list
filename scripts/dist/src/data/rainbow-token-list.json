@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-08-04T10:23:26.138Z",
+    "timestamp": "2021-08-04T11:16:47.955Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -5035,6 +5035,13 @@
             }
         },
         {
+            "address": "0x026e62dDEd1a6aD07D93D39f96b9eabd59665e0d",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Birdchain",
+            "symbol": "BIRD"
+        },
+        {
             "address": "0x99043bB680Ab9262c7b2aC524E00b215Efb7db9b",
             "chainId": 1,
             "decimals": 9,
@@ -6072,17 +6079,17 @@
             "symbol": "BPP"
         },
         {
-            "address": "0x197E6bCa6BC2f488ec760a6Ce46B1399cd2954b0",
-            "chainId": 1,
-            "decimals": 8,
-            "name": "BitCloud Pro",
-            "symbol": "BPRO"
-        },
-        {
             "address": "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
             "chainId": 1,
             "decimals": 18,
             "name": "B Protocol",
+            "symbol": "BPRO"
+        },
+        {
+            "address": "0x197E6bCa6BC2f488ec760a6Ce46B1399cd2954b0",
+            "chainId": 1,
+            "decimals": 8,
+            "name": "BitCloud Pro",
             "symbol": "BPRO"
         },
         {
@@ -12199,13 +12206,6 @@
             "symbol": "dLZRX4x"
         },
         {
-            "address": "0x6673B317C45f490cD8342120A7C02E2ace7CBdd9",
-            "chainId": 1,
-            "decimals": 8,
-            "name": "Dream21",
-            "symbol": "DMC"
-        },
-        {
             "address": "0xEd91879919B71bB6905f23af0A68d231EcF87b14",
             "chainId": 1,
             "decimals": 18,
@@ -17643,13 +17643,6 @@
             "decimals": 18,
             "name": "GeroWallet",
             "symbol": "GERO"
-        },
-        {
-            "address": "0xd667D5a228Cb09F190C4308Cf89D39CAB18A413C",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "GES",
-            "symbol": "GES"
         },
         {
             "address": "0x8a854288a5976036A725879164Ca3e91d30c6A1B",
@@ -24957,6 +24950,13 @@
             "decimals": 18,
             "name": "All me",
             "symbol": "ME"
+        },
+        {
+            "address": "0xdb726152680eCe3c9291f1016f1d36f3995f6941",
+            "chainId": 1,
+            "decimals": 6,
+            "name": "Media Network",
+            "symbol": "MEDIA"
         },
         {
             "address": "0x737fA0372c8D001904Ae6aCAf0552d4015F9c947",
@@ -33248,7 +33248,7 @@
             "symbol": "ROCK2PAY"
         },
         {
-            "address": "0x92ecE48522E1aCbcda4Aaa8C2fBF2Aa9FB15D624",
+            "address": "0xFf44b937788215ecA197BAaf9AF69dbdC214aa04",
             "chainId": 1,
             "decimals": 18,
             "name": "Rocki",
@@ -33828,13 +33828,6 @@
             "decimals": 18,
             "name": "SakeToken",
             "symbol": "SAKE"
-        },
-        {
-            "address": "0xC28a4162E3Cc1838bAd6dFAEc83D57A0D62c80F3",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "AnySale",
-            "symbol": "SALE"
         },
         {
             "address": "0xF063fE1aB7a291c5d06a86e14730b00BF24cB589",
@@ -35661,17 +35654,17 @@
             "symbol": "SMT"
         },
         {
-            "address": "0xB17548c7B510427baAc4e267BEa62e800b247173",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Swarm Markets",
-            "symbol": "SMT"
-        },
-        {
             "address": "0x21f15966E07a10554C364b988e91DaB01D32794A",
             "chainId": 1,
             "decimals": 18,
             "name": "SmartMesh",
+            "symbol": "SMT"
+        },
+        {
+            "address": "0xB17548c7B510427baAc4e267BEa62e800b247173",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Swarm Markets",
             "symbol": "SMT"
         },
         {
@@ -44338,13 +44331,6 @@
             "symbol": "WENB"
         },
         {
-            "address": "0x36D10c6800D569bb8C4fE284a05fFE3B752F972c",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "WeShow Token",
-            "symbol": "WET"
-        },
-        {
             "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
             "chainId": 1,
             "decimals": 18,
@@ -46064,13 +46050,6 @@
             "decimals": 6,
             "name": "XSGD",
             "symbol": "XSGD"
-        },
-        {
-            "address": "0x1Cf0f3AaBE4D12106B27Ab44df5473974279C524",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "xSNXa",
-            "symbol": "XSNXA"
         },
         {
             "address": "0x22c421BA4717EDaF6b6BDA424207A7335e8f0e52",
