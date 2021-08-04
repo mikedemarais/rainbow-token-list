@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-04T14:18:50.944Z";
+var timestamp = "2021-08-04T15:25:23.826Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -6091,17 +6091,17 @@ var tokens = [
 		symbol: "BPP"
 	},
 	{
-		address: "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
-		chainId: 1,
-		decimals: 18,
-		name: "B Protocol",
-		symbol: "BPRO"
-	},
-	{
 		address: "0x197E6bCa6BC2f488ec760a6Ce46B1399cd2954b0",
 		chainId: 1,
 		decimals: 8,
 		name: "BitCloud Pro",
+		symbol: "BPRO"
+	},
+	{
+		address: "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
+		chainId: 1,
+		decimals: 18,
+		name: "B Protocol",
 		symbol: "BPRO"
 	},
 	{
@@ -14759,13 +14759,6 @@ var tokens = [
 		symbol: "ESPRO"
 	},
 	{
-		address: "0x24aE124c4CC33D6791F8E8B63520ed7107ac8b3e",
-		chainId: 1,
-		decimals: 18,
-		name: "Empty Set Share",
-		symbol: "ESS"
-	},
-	{
 		address: "0xfc05987bd2be489ACCF0f509E44B0145d68240f7",
 		chainId: 1,
 		decimals: 18,
@@ -14774,6 +14767,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x24aE124c4CC33D6791F8E8B63520ed7107ac8b3e",
+		chainId: 1,
+		decimals: 18,
+		name: "Empty Set Share",
+		symbol: "ESS"
 	},
 	{
 		address: "0xF3924dF14812B3D3dB29124AA9DA4353Ed5e04A3",
@@ -27277,13 +27277,6 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x435d664F72D6F194ef67d63B5f3936650187b131",
-		chainId: 1,
-		decimals: 18,
-		name: "Pocket Node",
-		symbol: "NODE"
-	},
-	{
 		address: "0xDa007777D86AC6d989cC9f79A73261b3fC5e0DA0",
 		chainId: 1,
 		decimals: 18,
@@ -27292,6 +27285,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x435d664F72D6F194ef67d63B5f3936650187b131",
+		chainId: 1,
+		decimals: 18,
+		name: "Pocket Node",
+		symbol: "NODE"
 	},
 	{
 		address: "0x0C3eF32f802967DB75B9D49fE1e76620151cCB81",
@@ -38849,6 +38849,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x2e9d63788249371f1DFC918a52f8d799F4a38C94",
+		chainId: 1,
+		decimals: 18,
+		name: "Tokemak",
+		symbol: "TOKE"
 	},
 	{
 		address: "0x3B73c1B2ea59835cbfcADade5462b6aB630D9890",
