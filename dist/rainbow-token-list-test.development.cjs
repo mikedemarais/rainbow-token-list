@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-04T06:26:47.850Z";
+var timestamp = "2021-08-04T07:19:25.955Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -6299,6 +6299,13 @@ var tokens = [
 		decimals: 18,
 		name: "Breezecoin",
 		symbol: "BRZE"
+	},
+	{
+		address: "0xa44F5ae99b5400360a37dDFa69aEEB5F91Dc8679",
+		chainId: 1,
+		decimals: 18,
+		name: "BabySatoshi",
+		symbol: "BSATOSHI"
 	},
 	{
 		address: "0xDe8607CCad60814C8d9cD6f5CE8E9031e4675c8F",
@@ -43016,6 +43023,13 @@ var tokens = [
 		decimals: 8,
 		name: "UZURAS",
 		symbol: "UZZ"
+	},
+	{
+		address: "0xe7aE6D0C56CACaf007b7e4d312f9af686a9E9a04",
+		chainId: 1,
+		decimals: 18,
+		name: "Vabble",
+		symbol: "VAB"
 	},
 	{
 		address: "0x9F801c1F02AF03cC240546DadEf8e56Cd46EA2E9",
