@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-04T12:34:31.479Z";
+var timestamp = "2021-08-04T13:26:22.857Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -15073,6 +15073,13 @@ var tokens = [
 		decimals: 18,
 		name: "ETH Price Action Ca",
 		symbol: "ETHPA"
+	},
+	{
+		address: "0x8dB1D28Ee0d822367aF8d220C0dc7cB6fe9DC442",
+		chainId: 1,
+		decimals: 18,
+		name: "ETHPad",
+		symbol: "ETHPAD"
 	},
 	{
 		address: "0xE52e75e8a97546f40991b489E92c68eBb386dc97",
