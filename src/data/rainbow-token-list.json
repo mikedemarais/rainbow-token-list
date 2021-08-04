@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-08-04T02:31:45.842Z",
+  "timestamp": "2021-08-04T03:23:23.226Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -6079,17 +6079,17 @@
       "symbol": "BPP"
     },
     {
-      "address": "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "B Protocol",
-      "symbol": "BPRO"
-    },
-    {
       "address": "0x197E6bCa6BC2f488ec760a6Ce46B1399cd2954b0",
       "chainId": 1,
       "decimals": 8,
       "name": "BitCloud Pro",
+      "symbol": "BPRO"
+    },
+    {
+      "address": "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "B Protocol",
       "symbol": "BPRO"
     },
     {
@@ -6470,10 +6470,10 @@
       "symbol": "BSYS"
     },
     {
-      "address": "0x997507cc49FBf0CD6ce5e1EE543218556fAFdEBc",
+      "address": "0x6628606c321FaF52b7230A57b26c01B19aA68e82",
       "chainId": 1,
       "decimals": 18,
-      "name": "Bitenium Token",
+      "name": "BitHash Token",
       "symbol": "BT"
     },
     {
@@ -6484,10 +6484,10 @@
       "symbol": "BT"
     },
     {
-      "address": "0x6628606c321FaF52b7230A57b26c01B19aA68e82",
+      "address": "0x997507cc49FBf0CD6ce5e1EE543218556fAFdEBc",
       "chainId": 1,
       "decimals": 18,
-      "name": "BitHash Token",
+      "name": "Bitenium Token",
       "symbol": "BT"
     },
     {
@@ -8579,17 +8579,17 @@
       "symbol": "CLT"
     },
     {
-      "address": "0xe5Db2c3E2CEFf742E5306bCfc12622f5e2d14e98",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "ClienteleCoin",
-      "symbol": "CLT"
-    },
-    {
       "address": "0xa69f7a10dF90C4D6710588Bc18ad9bF08081f545",
       "chainId": 1,
       "decimals": 18,
       "name": "Cexlt",
+      "symbol": "CLT"
+    },
+    {
+      "address": "0xe5Db2c3E2CEFf742E5306bCfc12622f5e2d14e98",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "ClienteleCoin",
       "symbol": "CLT"
     },
     {
@@ -10348,17 +10348,17 @@
       "symbol": "CVP"
     },
     {
-      "address": "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Polkacover",
-      "symbol": "CVR"
-    },
-    {
       "address": "0x2578A20A07E8761d91D0961D3Ea92e14510885aa",
       "chainId": 1,
       "decimals": 18,
       "name": "COVIR",
+      "symbol": "CVR"
+    },
+    {
+      "address": "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Polkacover",
       "symbol": "CVR"
     },
     {
@@ -18135,13 +18135,6 @@
       "symbol": "GOLD"
     },
     {
-      "address": "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "GOLD",
-      "symbol": "GOLD"
-    },
-    {
       "address": "0x40d1F63B5D2048e67E9bEdB1B4c2F1A9fb4b6817",
       "chainId": 1,
       "decimals": 18,
@@ -18151,6 +18144,13 @@
         "color": "#f1b32b",
         "isVerified": true
       }
+    },
+    {
+      "address": "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "GOLD",
+      "symbol": "GOLD"
     },
     {
       "address": "0x34D6A0F5C2f5D0082141fE73d93B9dd00ca7CE11",
@@ -24441,13 +24441,6 @@
       "symbol": "MAI"
     },
     {
-      "address": "0xA3E7833775A9Cc022DB2c72EB900378F90cE89B4",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "Malamute Finance",
-      "symbol": "MALLY"
-    },
-    {
       "address": "0x0cae9e4d663793c2a2A0b211c1Cf4bBca2B9cAa7",
       "chainId": 1,
       "decimals": 18,
@@ -29894,17 +29887,17 @@
       "symbol": "PLF"
     },
     {
-      "address": "0x85ca6710D0F1D511d130f6935eDDA88ACBD921bD",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Pledgecamp",
-      "symbol": "PLG"
-    },
-    {
       "address": "0xBa069Ee53b8B531F3AB117c92ca09A204C9E6285",
       "chainId": 1,
       "decimals": 18,
       "name": "Plug",
+      "symbol": "PLG"
+    },
+    {
+      "address": "0x85ca6710D0F1D511d130f6935eDDA88ACBD921bD",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Pledgecamp",
       "symbol": "PLG"
     },
     {
@@ -35661,17 +35654,17 @@
       "symbol": "SMT"
     },
     {
-      "address": "0x21f15966E07a10554C364b988e91DaB01D32794A",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "SmartMesh",
-      "symbol": "SMT"
-    },
-    {
       "address": "0xB17548c7B510427baAc4e267BEa62e800b247173",
       "chainId": 1,
       "decimals": 18,
       "name": "Swarm Markets",
+      "symbol": "SMT"
+    },
+    {
+      "address": "0x21f15966E07a10554C364b988e91DaB01D32794A",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "SmartMesh",
       "symbol": "SMT"
     },
     {
@@ -44518,17 +44511,17 @@
       "symbol": "WILD"
     },
     {
-      "address": "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Wild Credit",
-      "symbol": "WILD"
-    },
-    {
       "address": "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
       "chainId": 1,
       "decimals": 18,
       "name": "Wilder World",
+      "symbol": "WILD"
+    },
+    {
+      "address": "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Wild Credit",
       "symbol": "WILD"
     },
     {
