@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-04T04:27:37.629Z";
+var timestamp = "2021-08-04T05:18:16.002Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -32492,6 +32492,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0x7feA8ddA7462ac9f2ce62Cf52cE9840E0E6A8C3b",
+		chainId: 1,
+		decimals: 18,
+		name: "Reborn Dollar",
+		symbol: "REBD"
+	},
+	{
 		address: "0x5F53f7A8075614b699Baad0bC2c899f4bAd8FBBF",
 		chainId: 1,
 		decimals: 18,
@@ -46062,6 +46069,13 @@ var tokens = [
 		decimals: 6,
 		name: "XSGD",
 		symbol: "XSGD"
+	},
+	{
+		address: "0x1Cf0f3AaBE4D12106B27Ab44df5473974279C524",
+		chainId: 1,
+		decimals: 18,
+		name: "xSNXa",
+		symbol: "XSNXA"
 	},
 	{
 		address: "0x22c421BA4717EDaF6b6BDA424207A7335e8f0e52",
