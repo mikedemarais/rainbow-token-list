@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-05T15:29:54.438Z";
+var timestamp = "2021-08-05T16:32:54.658Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -6098,17 +6098,17 @@ var tokens = [
 		symbol: "BPP"
 	},
 	{
-		address: "0x197E6bCa6BC2f488ec760a6Ce46B1399cd2954b0",
-		chainId: 1,
-		decimals: 8,
-		name: "BitCloud Pro",
-		symbol: "BPRO"
-	},
-	{
 		address: "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
 		chainId: 1,
 		decimals: 18,
 		name: "B Protocol",
+		symbol: "BPRO"
+	},
+	{
+		address: "0x197E6bCa6BC2f488ec760a6Ce46B1399cd2954b0",
+		chainId: 1,
+		decimals: 8,
+		name: "BitCloud Pro",
 		symbol: "BPRO"
 	},
 	{
