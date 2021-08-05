@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-04T23:21:18.732Z";
+var timestamp = "2021-08-05T01:04:36.655Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -11643,6 +11643,13 @@ var tokens = [
 		symbol: "DFT"
 	},
 	{
+		address: "0xf1f5De69C9C8D9BE8a7B01773Cc1166D4Ec6Ede2",
+		chainId: 1,
+		decimals: 18,
+		name: "Definitex",
+		symbol: "DFX"
+	},
+	{
 		address: "0x888888435FDe8e7d4c54cAb67f206e4199454c60",
 		chainId: 1,
 		decimals: 18,
@@ -11651,13 +11658,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0xf1f5De69C9C8D9BE8a7B01773Cc1166D4Ec6Ede2",
-		chainId: 1,
-		decimals: 18,
-		name: "Definitex",
-		symbol: "DFX"
 	},
 	{
 		address: "0x7CCC863EcE2E15bC45ac0565D410da7A3340aD98",
@@ -14795,6 +14795,13 @@ var tokens = [
 		decimals: 9,
 		name: "Ethereum Supreme",
 		symbol: "ESUPREME"
+	},
+	{
+		address: "0x5a75A093747b72a0e14056352751eDF03518031d",
+		chainId: 1,
+		decimals: 18,
+		name: "EmiSwap",
+		symbol: "ESW"
 	},
 	{
 		address: "0xA0471cdd5c0dc2614535fD7505b17A651a8F0DAB",
@@ -35680,17 +35687,17 @@ var tokens = [
 		symbol: "SMT"
 	},
 	{
-		address: "0x21f15966E07a10554C364b988e91DaB01D32794A",
-		chainId: 1,
-		decimals: 18,
-		name: "SmartMesh",
-		symbol: "SMT"
-	},
-	{
 		address: "0xB17548c7B510427baAc4e267BEa62e800b247173",
 		chainId: 1,
 		decimals: 18,
 		name: "Swarm Markets",
+		symbol: "SMT"
+	},
+	{
+		address: "0x21f15966E07a10554C364b988e91DaB01D32794A",
+		chainId: 1,
+		decimals: 18,
+		name: "SmartMesh",
 		symbol: "SMT"
 	},
 	{
@@ -37189,17 +37196,17 @@ var tokens = [
 		symbol: "SURE"
 	},
 	{
-		address: "0x46d473a0B3eEEc9F55FADE641bC576d5bc0b2246",
-		chainId: 1,
-		decimals: 8,
-		name: "SurfExUtilityToken",
-		symbol: "SURF"
-	},
-	{
 		address: "0xEa319e87Cf06203DAe107Dd8E5672175e3Ee976c",
 		chainId: 1,
 		decimals: 18,
 		name: "Surf Finance",
+		symbol: "SURF"
+	},
+	{
+		address: "0x46d473a0B3eEEc9F55FADE641bC576d5bc0b2246",
+		chainId: 1,
+		decimals: 8,
+		name: "SurfExUtilityToken",
 		symbol: "SURF"
 	},
 	{
@@ -45066,6 +45073,13 @@ var tokens = [
 		decimals: 18,
 		name: "Werewolf Coin",
 		symbol: "WWC"
+	},
+	{
+		address: "0x54a3017754BFba73F71F37d893A368814CbFf457",
+		chainId: 1,
+		decimals: 8,
+		name: "Wrapped Widecoin",
+		symbol: "WWCN"
 	},
 	{
 		address: "0x8A91eEcd3F6b6B7833fD6961E7f654C3d016a068",
