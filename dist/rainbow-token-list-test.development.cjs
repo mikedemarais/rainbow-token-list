@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-05T11:16:42.053Z";
+var timestamp = "2021-08-05T12:33:31.201Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -8352,13 +8352,6 @@ var tokens = [
 		symbol: "CHI"
 	},
 	{
-		address: "0xFFC16ab7d366273466C705f03CfeACA8dD964F89",
-		chainId: 1,
-		decimals: 15,
-		name: "Kansas City Chiefs",
-		symbol: "CHIEFS"
-	},
-	{
 		address: "0x26fF6D16549A00BA8b36ce3159b5277E6e798d18",
 		chainId: 1,
 		decimals: 18,
@@ -9557,13 +9550,6 @@ var tokens = [
 		decimals: 18,
 		name: "CryptoAds Marketpla",
 		symbol: "CRAD"
-	},
-	{
-		address: "0xA09ff006C652496E72d648cef2f4Ee6777efdF6F",
-		chainId: 1,
-		decimals: 18,
-		name: "deCraft Finance",
-		symbol: "CRAFT"
 	},
 	{
 		address: "0xAef38fBFBF932D1AeF3B808Bc8fBd8Cd8E1f8BC5",
@@ -11261,13 +11247,6 @@ var tokens = [
 		decimals: 18,
 		name: "Digital Fitness",
 		symbol: "DEFIT"
-	},
-	{
-		address: "0xbC6819294c554F46BEE6F5eb5260089a03e270A2",
-		chainId: 1,
-		decimals: 9,
-		name: "Defla",
-		symbol: "DEFLA"
 	},
 	{
 		address: "0x3Aa5f749d4a6BCf67daC1091Ceb69d1F5D86fA53",
@@ -14184,13 +14163,6 @@ var tokens = [
 		decimals: 18,
 		name: "Elixir Token",
 		symbol: "ELIX"
-	},
-	{
-		address: "0xC19216eea17b2f4DD677f1024CdA59C7D142F189",
-		chainId: 1,
-		decimals: 18,
-		name: "ETH Long Only Alpha",
-		symbol: "ELOAP"
 	},
 	{
 		address: "0x761D38e5ddf6ccf6Cf7c55759d5210750B5D60F3",
@@ -25916,6 +25888,13 @@ var tokens = [
 		decimals: 18,
 		name: "Moma Protocol",
 		symbol: "MOMAT"
+	},
+	{
+		address: "0xcaCc19C5Ca77E06D6578dEcaC80408Cc036e0499",
+		chainId: 1,
+		decimals: 18,
+		name: "Monfter",
+		symbol: "MON"
 	},
 	{
 		address: "0x275f5Ad03be0Fa221B4C6649B8AeE09a42D9412A",
@@ -37671,7 +37650,7 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "Staked yAxis",
-		symbol: "SYAX"
+		symbol: "sYAX"
 	},
 	{
 		address: "0x69428BB4272e3181dE9E3caB461e19b0131855c8",
@@ -39401,17 +39380,17 @@ var tokens = [
 		symbol: "TRT"
 	},
 	{
-		address: "0xf65B5C5104c4faFD4b709d9D60a185eAE063276c",
-		chainId: 1,
-		decimals: 18,
-		name: "Truebit Protocol",
-		symbol: "TRU"
-	},
-	{
 		address: "0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784",
 		chainId: 1,
 		decimals: 8,
 		name: "TrustToken",
+		symbol: "TRU"
+	},
+	{
+		address: "0xf65B5C5104c4faFD4b709d9D60a185eAE063276c",
+		chainId: 1,
+		decimals: 18,
+		name: "Truebit Protocol",
 		symbol: "TRU"
 	},
 	{
