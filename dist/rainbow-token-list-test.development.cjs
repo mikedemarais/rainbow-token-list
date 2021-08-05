@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-05T05:18:26.075Z";
+var timestamp = "2021-08-05T06:26:16.258Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -8995,17 +8995,17 @@ var tokens = [
 		symbol: "COIN"
 	},
 	{
-		address: "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
-		chainId: 1,
-		decimals: 18,
-		name: "Coin",
-		symbol: "COIN"
-	},
-	{
 		address: "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
 		chainId: 1,
 		decimals: 18,
 		name: "Coin Artist",
+		symbol: "COIN"
+	},
+	{
+		address: "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
+		chainId: 1,
+		decimals: 18,
+		name: "Coin",
 		symbol: "COIN"
 	},
 	{
@@ -15387,6 +15387,13 @@ var tokens = [
 		decimals: 9,
 		name: "EveryApe",
 		symbol: "EVAPE"
+	},
+	{
+		address: "0x1D15a70f1c8C2A9938ba8036f5a46021146D8C15",
+		chainId: 1,
+		decimals: 18,
+		name: "EthereumVault",
+		symbol: "EVAULT"
 	},
 	{
 		address: "0xb62d18DeA74045E822352CE4B3EE77319DC5ff2F",
