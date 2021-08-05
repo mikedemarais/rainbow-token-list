@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-05T03:23:28.074Z";
+var timestamp = "2021-08-05T04:27:51.252Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -36611,6 +36611,13 @@ var tokens = [
 		decimals: 18,
 		name: "StarLink",
 		symbol: "STARL"
+	},
+	{
+		address: "0x7CCFeEF4F0Ff48B0E0abD19bBBebae90939f180D",
+		chainId: 1,
+		decimals: 18,
+		name: "StarShip Token",
+		symbol: "STARS"
 	},
 	{
 		address: "0xc55c2175E90A46602fD42e931f62B3Acc1A013Ca",

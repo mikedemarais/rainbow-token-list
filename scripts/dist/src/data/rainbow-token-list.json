@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-08-05T03:23:28.074Z",
+    "timestamp": "2021-08-05T04:27:51.252Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -36599,6 +36599,13 @@
             "decimals": 18,
             "name": "StarLink",
             "symbol": "STARL"
+        },
+        {
+            "address": "0x7CCFeEF4F0Ff48B0E0abD19bBBebae90939f180D",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "StarShip Token",
+            "symbol": "STARS"
         },
         {
             "address": "0xc55c2175E90A46602fD42e931f62B3Acc1A013Ca",
