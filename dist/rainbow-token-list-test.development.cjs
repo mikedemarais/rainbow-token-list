@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-05T02:29:29.924Z";
+var timestamp = "2021-08-05T03:23:28.074Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -349,13 +349,6 @@ var tokens = [
 		symbol: "A5T"
 	},
 	{
-		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
-		chainId: 1,
-		decimals: 18,
-		name: "Moon Rabbit",
-		symbol: "AAA"
-	},
-	{
 		address: "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
 		chainId: 1,
 		decimals: 10,
@@ -367,6 +360,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 8,
 		name: "Abulaba",
+		symbol: "AAA"
+	},
+	{
+		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
+		chainId: 1,
+		decimals: 18,
+		name: "Moon Rabbit",
 		symbol: "AAA"
 	},
 	{
@@ -7334,6 +7334,13 @@ var tokens = [
 		symbol: "C98"
 	},
 	{
+		address: "0xe65cdB6479BaC1e22340E4E755fAE7E509EcD06c",
+		chainId: 1,
+		decimals: 8,
+		name: "cAAVE",
+		symbol: "CAAVE"
+	},
+	{
 		address: "0x2029017f38128bFeFaA6C7B9cDd1b680cE8E5c03",
 		chainId: 1,
 		decimals: 18,
@@ -8702,6 +8709,13 @@ var tokens = [
 		symbol: "CMK"
 	},
 	{
+		address: "0x95b4eF2869eBD94BEb4eEE400a99824BF5DC325b",
+		chainId: 1,
+		decimals: 8,
+		name: "cMKR",
+		symbol: "CMKR"
+	},
+	{
 		address: "0x9f20Ed5f919DC1C1695042542C13aDCFc100dcab",
 		chainId: 1,
 		decimals: 18,
@@ -10027,6 +10041,13 @@ var tokens = [
 		symbol: "CSTO"
 	},
 	{
+		address: "0x4B0181102A0112A2ef11AbEE5563bb4a3176c9d7",
+		chainId: 1,
+		decimals: 8,
+		name: "cSUSHI",
+		symbol: "CSUSHI"
+	},
+	{
 		address: "0x3aadc3BCe49724ce299fD9F3850211211c399C8c",
 		chainId: 1,
 		decimals: 18,
@@ -10527,6 +10548,13 @@ var tokens = [
 		decimals: 18,
 		name: "CY Finance",
 		symbol: "CYF"
+	},
+	{
+		address: "0x80a2AE356fc9ef4305676f7a3E2Ed04e12C33946",
+		chainId: 1,
+		decimals: 8,
+		name: "cYFI",
+		symbol: "CYFI"
 	},
 	{
 		address: "0x3f06B5D78406cD97bdf10f5C420B241D32759c80",
