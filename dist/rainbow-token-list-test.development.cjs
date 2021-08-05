@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-05T16:32:54.658Z";
+var timestamp = "2021-08-05T17:26:06.049Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -23758,6 +23758,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x188E817B02e635D482AE4D81e25DdA98A97C4a42",
+		chainId: 1,
+		decimals: 18,
+		name: "Lithium Finance",
+		symbol: "LITH"
 	},
 	{
 		address: "0xf8A4A419c2d7140e49eF952a7e7Ae1Bd4A8b6B9C",
