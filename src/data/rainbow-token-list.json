@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-08-05T08:23:01.628Z",
+  "timestamp": "2021-08-05T09:21:34.403Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -33308,7 +33308,7 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Rocki",
-      "symbol": "ROCKS"
+      "symbol": "ROCKI"
     },
     {
       "address": "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
@@ -34933,6 +34933,13 @@
       "decimals": 18,
       "name": "StakeHouse Batch",
       "symbol": "SHB"
+    },
+    {
+      "address": "0xd0f57B427971EA60909a28648987141A81f8DC03",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Super Heavy Booster",
+      "symbol": "SHB4"
     },
     {
       "address": "0x5845Cd0205b5d43AF695412a79Cf7C1Aeddb060F",
