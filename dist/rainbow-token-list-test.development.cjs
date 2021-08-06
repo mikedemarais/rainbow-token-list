@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-06T14:18:40.776Z";
+var timestamp = "2021-08-06T15:29:36.086Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4362,17 +4362,17 @@ var tokens = [
 		symbol: "BCNT"
 	},
 	{
-		address: "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
-		chainId: 1,
-		decimals: 18,
-		name: "Block Commerce Prot",
-		symbol: "BCP"
-	},
-	{
 		address: "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
 		chainId: 1,
 		decimals: 18,
 		name: "BlockchainPoland",
+		symbol: "BCP"
+	},
+	{
+		address: "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
+		chainId: 1,
+		decimals: 18,
+		name: "Block Commerce Prot",
 		symbol: "BCP"
 	},
 	{
@@ -6503,17 +6503,17 @@ var tokens = [
 		symbol: "BSYS"
 	},
 	{
-		address: "0x76c5449F4950f6338A393F53CdA8b53B0cd3Ca3a",
-		chainId: 1,
-		decimals: 18,
-		name: "BT Finance",
-		symbol: "BT"
-	},
-	{
 		address: "0x6628606c321FaF52b7230A57b26c01B19aA68e82",
 		chainId: 1,
 		decimals: 18,
 		name: "BitHash Token",
+		symbol: "BT"
+	},
+	{
+		address: "0x76c5449F4950f6338A393F53CdA8b53B0cd3Ca3a",
+		chainId: 1,
+		decimals: 18,
+		name: "BT Finance",
 		symbol: "BT"
 	},
 	{
@@ -29941,7 +29941,7 @@ var tokens = [
 		}
 	},
 	{
-		address: "0xaeEAA9C0EcD8D50AB7FCD159bDdaD0f52Ce360c2",
+		address: "0x3873965e73d9A21F88e645ce40B7db187FDE4931",
 		chainId: 1,
 		decimals: 18,
 		name: "Plethori",
