@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-08-06T12:34:14.600Z",
+  "timestamp": "2021-08-06T14:18:40.776Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -4350,17 +4350,17 @@
       "symbol": "BCNT"
     },
     {
-      "address": "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "BlockchainPoland",
-      "symbol": "BCP"
-    },
-    {
       "address": "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
       "chainId": 1,
       "decimals": 18,
       "name": "Block Commerce Prot",
+      "symbol": "BCP"
+    },
+    {
+      "address": "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "BlockchainPoland",
       "symbol": "BCP"
     },
     {
@@ -6491,17 +6491,17 @@
       "symbol": "BSYS"
     },
     {
-      "address": "0x6628606c321FaF52b7230A57b26c01B19aA68e82",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "BitHash Token",
-      "symbol": "BT"
-    },
-    {
       "address": "0x76c5449F4950f6338A393F53CdA8b53B0cd3Ca3a",
       "chainId": 1,
       "decimals": 18,
       "name": "BT Finance",
+      "symbol": "BT"
+    },
+    {
+      "address": "0x6628606c321FaF52b7230A57b26c01B19aA68e82",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "BitHash Token",
       "symbol": "BT"
     },
     {
@@ -35717,17 +35717,17 @@
       "symbol": "SMT"
     },
     {
-      "address": "0x21f15966E07a10554C364b988e91DaB01D32794A",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "SmartMesh",
-      "symbol": "SMT"
-    },
-    {
       "address": "0xB17548c7B510427baAc4e267BEa62e800b247173",
       "chainId": 1,
       "decimals": 18,
       "name": "Swarm Markets",
+      "symbol": "SMT"
+    },
+    {
+      "address": "0x21f15966E07a10554C364b988e91DaB01D32794A",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "SmartMesh",
       "symbol": "SMT"
     },
     {
