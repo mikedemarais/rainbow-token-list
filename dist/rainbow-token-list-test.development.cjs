@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-06T19:16:13.375Z";
+var timestamp = "2021-08-06T20:20:56.596Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -36568,7 +36568,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "Stacker Ventures",
-		symbol: "STACK"
+		symbol: "STACK",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x286708f069225905194673755F12359e6afF6FE1",
