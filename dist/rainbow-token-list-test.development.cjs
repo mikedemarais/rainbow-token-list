@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-06T10:23:27.976Z";
+var timestamp = "2021-08-06T11:17:27.778Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -1300,13 +1300,6 @@ var tokens = [
 		decimals: 18,
 		name: "AgaveCoin",
 		symbol: "AGVC"
-	},
-	{
-		address: "0xD6d3608F2D770d0A8D0dA62D7AfE21EA1da86d9c",
-		chainId: 1,
-		decimals: 18,
-		name: "AmericanHorror Fina",
-		symbol: "AHF"
 	},
 	{
 		address: "0xB125CcEb9C6e349217d09B069a8d88DBEAcF06E5",
@@ -25756,13 +25749,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x66AF49eBAeEfed6F0F43df48142341391F3F25c1",
-		chainId: 1,
-		decimals: 18,
-		name: "Mangu",
-		symbol: "MNGUZ"
 	},
 	{
 		address: "0x0d62dc6Cd8C81dCA8cAADcCF01FfE7C1F31D9402",
