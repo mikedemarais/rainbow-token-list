@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-06T08:23:15.161Z";
+var timestamp = "2021-08-06T09:21:32.290Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4373,6 +4373,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "BlockchainPoland",
+		symbol: "BCP"
+	},
+	{
+		address: "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
+		chainId: 1,
+		decimals: 18,
+		name: "Block Commerce Prot",
 		symbol: "BCP"
 	},
 	{
@@ -18370,6 +18377,13 @@ var tokens = [
 			isRainbowCurated: true,
 			isVerified: true
 		}
+	},
+	{
+		address: "0xf3DeA48690F3e8f7F676cfb2798254D3225B9386",
+		chainId: 1,
+		decimals: 9,
+		name: "Grind Token",
+		symbol: "GRIND"
 	},
 	{
 		address: "0xb444208cB0516C150178fCf9a52604BC04A1aCEa",
