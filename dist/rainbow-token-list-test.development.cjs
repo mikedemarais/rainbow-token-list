@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-06T03:23:09.970Z";
+var timestamp = "2021-08-06T04:27:38.810Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -6098,17 +6098,17 @@ var tokens = [
 		symbol: "BPP"
 	},
 	{
-		address: "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
-		chainId: 1,
-		decimals: 18,
-		name: "B Protocol",
-		symbol: "BPRO"
-	},
-	{
 		address: "0x197E6bCa6BC2f488ec760a6Ce46B1399cd2954b0",
 		chainId: 1,
 		decimals: 8,
 		name: "BitCloud Pro",
+		symbol: "BPRO"
+	},
+	{
+		address: "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
+		chainId: 1,
+		decimals: 18,
+		name: "B Protocol",
 		symbol: "BPRO"
 	},
 	{
@@ -25476,17 +25476,17 @@ var tokens = [
 		symbol: "MIRO"
 	},
 	{
-		address: "0xCD1cb16a67937ff8Af5D726e2681010cE1E9891a",
-		chainId: 1,
-		decimals: 8,
-		name: "Themis",
-		symbol: "MIS"
-	},
-	{
 		address: "0x024B6e7DC26F4d5579bDD936F8d7BC31f2339999",
 		chainId: 1,
 		decimals: 18,
 		name: "Mithril Share",
+		symbol: "MIS"
+	},
+	{
+		address: "0xCD1cb16a67937ff8Af5D726e2681010cE1E9891a",
+		chainId: 1,
+		decimals: 8,
+		name: "Themis",
 		symbol: "MIS"
 	},
 	{
@@ -27312,16 +27312,6 @@ var tokens = [
 		}
 	},
 	{
-		address: "0xDa007777D86AC6d989cC9f79A73261b3fC5e0DA0",
-		chainId: 1,
-		decimals: 18,
-		name: "DAppNode",
-		symbol: "NODE",
-		extensions: {
-			isVerified: true
-		}
-	},
-	{
 		address: "0x435d664F72D6F194ef67d63B5f3936650187b131",
 		chainId: 1,
 		decimals: 18,
@@ -27334,6 +27324,16 @@ var tokens = [
 		decimals: 5,
 		name: "Whole Network",
 		symbol: "NODE"
+	},
+	{
+		address: "0xDa007777D86AC6d989cC9f79A73261b3fC5e0DA0",
+		chainId: 1,
+		decimals: 18,
+		name: "DAppNode",
+		symbol: "NODE",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0xa8c8CfB141A3bB59FEA1E2ea6B79b5ECBCD7b6ca",
@@ -28845,17 +28845,17 @@ var tokens = [
 		symbol: "PACT"
 	},
 	{
-		address: "0x992a8a9F4Bde0FB2EE1F5BBB3Cb7B1E64748E13d",
-		chainId: 1,
-		decimals: 18,
-		name: "Padcoin",
-		symbol: "PAD"
-	},
-	{
 		address: "0x5067006F830224960Fb419D7f25a3a53e9919BB0",
 		chainId: 1,
 		decimals: 18,
 		name: "SmartPad",
+		symbol: "PAD"
+	},
+	{
+		address: "0x992a8a9F4Bde0FB2EE1F5BBB3Cb7B1E64748E13d",
+		chainId: 1,
+		decimals: 18,
+		name: "Padcoin",
 		symbol: "PAD"
 	},
 	{
