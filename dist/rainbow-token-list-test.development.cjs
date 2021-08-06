@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-06T06:26:16.566Z";
+var timestamp = "2021-08-06T07:18:55.337Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -6236,6 +6236,13 @@ var tokens = [
 		decimals: 18,
 		name: "Bribe Protocol",
 		symbol: "BRIBE"
+	},
+	{
+		address: "0xBEaB712832112bd7664226db7CD025B153D3af55",
+		chainId: 1,
+		decimals: 18,
+		name: "Bright Union",
+		symbol: "BRIGHT"
 	},
 	{
 		address: "0x1de6cB5b085ac84bd247b8176c781E913166Aa6b",
@@ -18186,17 +18193,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
-		chainId: 1,
-		decimals: 8,
-		name: "GOLD",
-		symbol: "GOLD"
-	},
-	{
 		address: "0x34D6A0F5C2f5D0082141fE73d93B9dd00ca7CE11",
 		chainId: 1,
 		decimals: 18,
 		name: "Golden Token",
+		symbol: "GOLD"
+	},
+	{
+		address: "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
+		chainId: 1,
+		decimals: 8,
+		name: "GOLD",
 		symbol: "GOLD"
 	},
 	{
@@ -35495,20 +35502,20 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
+		address: "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
 		chainId: 1,
 		decimals: 9,
-		name: "Soft Link",
+		name: "ShibaLink",
 		symbol: "SLINK",
 		extensions: {
 			isVerified: true
 		}
 	},
 	{
-		address: "0x3DE7148c41e3B3233f3310E794F68d8E70Ca69AF",
+		address: "0x10Bae51262490B4f4AF41e12eD52A0E744c1137A",
 		chainId: 1,
 		decimals: 9,
-		name: "ShibaLink",
+		name: "Soft Link",
 		symbol: "SLINK",
 		extensions: {
 			isVerified: true
