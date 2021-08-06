@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-06T07:18:55.337Z";
+var timestamp = "2021-08-06T08:23:15.161Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -11155,6 +11155,13 @@ var tokens = [
 		decimals: 18,
 		name: "DEA",
 		symbol: "DEA"
+	},
+	{
+		address: "0x0C7060BF06a78AAAAB3fac76941318A52a3F4613",
+		chainId: 1,
+		decimals: 18,
+		name: "Party Of The Living",
+		symbol: "DEAD"
 	},
 	{
 		address: "0x151202C9c18e495656f372281F493EB7698961D5",
