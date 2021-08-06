@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-06T04:27:38.810Z";
+var timestamp = "2021-08-06T05:18:06.697Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -8154,6 +8154,13 @@ var tokens = [
 		decimals: 18,
 		name: "CyberFi",
 		symbol: "CFI"
+	},
+	{
+		address: "0xCD6Adc6b8Bd396E2D53cCD7D7257B4De55bE4fbe",
+		chainId: 1,
+		decimals: 18,
+		name: "CFL365 Finance",
+		symbol: "CFL365"
 	},
 	{
 		address: "0x8994C21d588106ba289e014331A1D74491894cEe",
@@ -22915,13 +22922,6 @@ var tokens = [
 		symbol: "KYL"
 	},
 	{
-		address: "0xa053c1b7013e77Fe0a873Ce0cA2bd5d0B7414C41",
-		chainId: 1,
-		decimals: 18,
-		name: "Kambria Yield Tunin",
-		symbol: "KYTE"
-	},
-	{
 		address: "0x9541FD8B9b5FA97381783783CeBF2F5fA793C262",
 		chainId: 1,
 		decimals: 8,
@@ -35715,17 +35715,17 @@ var tokens = [
 		symbol: "SMT"
 	},
 	{
-		address: "0xB17548c7B510427baAc4e267BEa62e800b247173",
-		chainId: 1,
-		decimals: 18,
-		name: "Swarm Markets",
-		symbol: "SMT"
-	},
-	{
 		address: "0x21f15966E07a10554C364b988e91DaB01D32794A",
 		chainId: 1,
 		decimals: 18,
 		name: "SmartMesh",
+		symbol: "SMT"
+	},
+	{
+		address: "0xB17548c7B510427baAc4e267BEa62e800b247173",
+		chainId: 1,
+		decimals: 18,
+		name: "Swarm Markets",
 		symbol: "SMT"
 	},
 	{
