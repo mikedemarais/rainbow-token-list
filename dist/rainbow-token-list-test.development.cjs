@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-07T05:17:34.088Z";
+var timestamp = "2021-08-07T06:25:41.546Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4362,17 +4362,17 @@ var tokens = [
 		symbol: "BCNT"
 	},
 	{
-		address: "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
-		chainId: 1,
-		decimals: 18,
-		name: "BlockchainPoland",
-		symbol: "BCP"
-	},
-	{
 		address: "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
 		chainId: 1,
 		decimals: 18,
 		name: "Block Commerce Prot",
+		symbol: "BCP"
+	},
+	{
+		address: "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
+		chainId: 1,
+		decimals: 18,
+		name: "BlockchainPoland",
 		symbol: "BCP"
 	},
 	{
@@ -15246,17 +15246,17 @@ var tokens = [
 		symbol: "ETR"
 	},
 	{
-		address: "0x1212b68d8555Cf0B08f3371b926b3E1148B520F1",
-		chainId: 1,
-		decimals: 18,
-		name: "Efficient Transacti",
-		symbol: "ETT"
-	},
-	{
 		address: "0x952B65D976E8669c4cE92a17CcE5B2586912Adb5",
 		chainId: 1,
 		decimals: 18,
 		name: "Etrade",
+		symbol: "ETT"
+	},
+	{
+		address: "0x1212b68d8555Cf0B08f3371b926b3E1148B520F1",
+		chainId: 1,
+		decimals: 18,
+		name: "Efficient Transacti",
 		symbol: "ETT"
 	},
 	{
@@ -25497,17 +25497,17 @@ var tokens = [
 		symbol: "MIRO"
 	},
 	{
-		address: "0x024B6e7DC26F4d5579bDD936F8d7BC31f2339999",
-		chainId: 1,
-		decimals: 18,
-		name: "Mithril Share",
-		symbol: "MIS"
-	},
-	{
 		address: "0xCD1cb16a67937ff8Af5D726e2681010cE1E9891a",
 		chainId: 1,
 		decimals: 8,
 		name: "Themis",
+		symbol: "MIS"
+	},
+	{
+		address: "0x024B6e7DC26F4d5579bDD936F8d7BC31f2339999",
+		chainId: 1,
+		decimals: 18,
+		name: "Mithril Share",
 		symbol: "MIS"
 	},
 	{
@@ -29622,6 +29622,13 @@ var tokens = [
 		symbol: "PHUNK"
 	},
 	{
+		address: "0x1864cE27E9F7517047933CaAE530674e8C70b8A7",
+		chainId: 1,
+		decimals: 18,
+		name: "Pibble",
+		symbol: "PIB"
+	},
+	{
 		address: "0x1BaFfbc23f2246040cCE12F7a140C38c5DC73e46",
 		chainId: 1,
 		decimals: 18,
@@ -29630,13 +29637,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x1864cE27E9F7517047933CaAE530674e8C70b8A7",
-		chainId: 1,
-		decimals: 18,
-		name: "Pibble",
-		symbol: "PIB"
 	},
 	{
 		address: "0x1eCe1739DAE08253aE582C404511B37355B42C84",
@@ -44603,17 +44603,17 @@ var tokens = [
 		symbol: "WILD"
 	},
 	{
-		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
-		chainId: 1,
-		decimals: 18,
-		name: "Wilder World",
-		symbol: "WILD"
-	},
-	{
 		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
 		chainId: 1,
 		decimals: 18,
 		name: "Wild Credit",
+		symbol: "WILD"
+	},
+	{
+		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
+		chainId: 1,
+		decimals: 18,
+		name: "Wilder World",
 		symbol: "WILD"
 	},
 	{
