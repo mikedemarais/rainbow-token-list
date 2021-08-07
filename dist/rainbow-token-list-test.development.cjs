@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-07T15:22:41.110Z";
+var timestamp = "2021-08-07T16:30:54.299Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -21402,6 +21402,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0x7fE4Fbad1fee10D6Cf8e08198608209A9275944C",
+		chainId: 1,
+		decimals: 9,
+		name: "Infinity",
+		symbol: "IT"
+	},
+	{
 		address: "0x5E6b6d9aBAd9093fdc861Ea1600eBa1b355Cd940",
 		chainId: 1,
 		decimals: 18,
@@ -25640,6 +25647,13 @@ var tokens = [
 		symbol: "MLT"
 	},
 	{
+		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
+		chainId: 1,
+		decimals: 18,
+		name: "MM Token",
+		symbol: "MM"
+	},
+	{
 		address: "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
 		chainId: 1,
 		decimals: 18,
@@ -25648,13 +25662,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
-		chainId: 1,
-		decimals: 18,
-		name: "MM Token",
-		symbol: "MM"
 	},
 	{
 		address: "0xC3c221fE28c33814c28c822b631fd76047eF1a63",
@@ -39743,17 +39750,17 @@ var tokens = [
 		symbol: "U8D"
 	},
 	{
-		address: "0x822808104E173cB4B21549d8E921Cae9E4F655E9",
-		chainId: 1,
-		decimals: 9,
-		name: "Uni Ape",
-		symbol: "UAPE"
-	},
-	{
 		address: "0x17e347aad89B30b96557BCBfBff8a14e75CC88a1",
 		chainId: 1,
 		decimals: 18,
 		name: "Unicly Bored Ape Ya",
+		symbol: "UAPE"
+	},
+	{
+		address: "0x822808104E173cB4B21549d8E921Cae9E4F655E9",
+		chainId: 1,
+		decimals: 9,
+		name: "Uni Ape",
 		symbol: "UAPE"
 	},
 	{
