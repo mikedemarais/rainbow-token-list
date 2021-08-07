@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-07T06:25:41.546Z";
+var timestamp = "2021-08-07T07:18:28.840Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4539,13 +4539,6 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x593114f03A0A575aece9ED675e52Ed68D2172B8c",
-		chainId: 1,
-		decimals: 18,
-		name: "BidiPass",
-		symbol: "BDP"
-	},
-	{
 		address: "0xf3dcbc6D72a4E1892f7917b7C43b74131Df8480e",
 		chainId: 1,
 		decimals: 18,
@@ -4554,6 +4547,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x593114f03A0A575aece9ED675e52Ed68D2172B8c",
+		chainId: 1,
+		decimals: 18,
+		name: "BidiPass",
+		symbol: "BDP"
 	},
 	{
 		address: "0x7BCe667EF12023dc5f8577D015a2F09d99a5ef58",
@@ -33887,7 +33887,7 @@ var tokens = [
 		address: "0xe9F84dE264E91529aF07Fa2C746e934397810334",
 		chainId: 1,
 		decimals: 18,
-		name: "SAK3",
+		name: "SAKE",
 		symbol: "SAK3"
 	},
 	{
