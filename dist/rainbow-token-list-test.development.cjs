@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-07T12:31:50.658Z";
+var timestamp = "2021-08-07T13:23:05.957Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4369,13 +4369,6 @@ var tokens = [
 		symbol: "BCP"
 	},
 	{
-		address: "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
-		chainId: 1,
-		decimals: 18,
-		name: "Block Commerce Prot",
-		symbol: "BCP"
-	},
-	{
 		address: "0xE4f726Adc8e89C6a6017F01eadA77865dB22dA14",
 		chainId: 1,
 		decimals: 18,
@@ -4394,6 +4387,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
+		chainId: 1,
+		decimals: 18,
+		name: "Block Commerce Prot",
+		symbol: "BCP"
 	},
 	{
 		address: "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
@@ -18182,13 +18182,6 @@ var tokens = [
 		symbol: "GOLD"
 	},
 	{
-		address: "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
-		chainId: 1,
-		decimals: 8,
-		name: "GOLD",
-		symbol: "GOLD"
-	},
-	{
 		address: "0x40d1F63B5D2048e67E9bEdB1B4c2F1A9fb4b6817",
 		chainId: 1,
 		decimals: 18,
@@ -18204,6 +18197,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "Golden Token",
+		symbol: "GOLD"
+	},
+	{
+		address: "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
+		chainId: 1,
+		decimals: 8,
+		name: "GOLD",
 		symbol: "GOLD"
 	},
 	{
@@ -22435,17 +22435,17 @@ var tokens = [
 		symbol: "KISHU"
 	},
 	{
-		address: "0x080eB7238031F97Ff011e273D6CaD5ad0c2dE532",
-		chainId: 1,
-		decimals: 18,
-		name: "Kittoken",
-		symbol: "KIT"
-	},
-	{
 		address: "0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4",
 		chainId: 1,
 		decimals: 18,
 		name: "DexKit",
+		symbol: "KIT"
+	},
+	{
+		address: "0x080eB7238031F97Ff011e273D6CaD5ad0c2dE532",
+		chainId: 1,
+		decimals: 18,
+		name: "Kittoken",
 		symbol: "KIT"
 	},
 	{
@@ -35687,17 +35687,17 @@ var tokens = [
 		symbol: "SMT"
 	},
 	{
-		address: "0xB17548c7B510427baAc4e267BEa62e800b247173",
-		chainId: 1,
-		decimals: 18,
-		name: "Swarm Markets",
-		symbol: "SMT"
-	},
-	{
 		address: "0x21f15966E07a10554C364b988e91DaB01D32794A",
 		chainId: 1,
 		decimals: 18,
 		name: "SmartMesh",
+		symbol: "SMT"
+	},
+	{
+		address: "0xB17548c7B510427baAc4e267BEa62e800b247173",
+		chainId: 1,
+		decimals: 18,
+		name: "Swarm Markets",
 		symbol: "SMT"
 	},
 	{
