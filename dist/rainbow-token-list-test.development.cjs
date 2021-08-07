@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-07T17:23:26.879Z";
+var timestamp = "2021-08-07T18:25:05.535Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -6975,6 +6975,16 @@ var tokens = [
 		decimals: 18,
 		name: "3X Long Bitcoin Tok",
 		symbol: "BULL"
+	},
+	{
+		address: "0xb439B8731ee047799019eF0b745a51d256B116Af",
+		chainId: 1,
+		decimals: 18,
+		name: "BullionFX",
+		symbol: "BULL",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0xd06b25F67A17f12b41F615b34D87ECd716fF55a0",
@@ -38235,8 +38245,11 @@ var tokens = [
 		address: "0xfF69e48af1174Da7F15D0c771861c33d3f19eD8a",
 		chainId: 1,
 		decimals: 9,
-		name: "Tesla Inu",
-		symbol: "TESINU"
+		name: "TESLA INU",
+		symbol: "TESINU",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x2d5Bed63B0fE325Ed3B865Ae2cdAa3649eB25461",
