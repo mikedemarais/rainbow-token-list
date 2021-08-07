@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-08-07T08:22:20.855Z",
+    "timestamp": "2021-08-07T09:20:56.406Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -4350,17 +4350,17 @@
             "symbol": "BCNT"
         },
         {
-            "address": "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Block Commerce Prot",
-            "symbol": "BCP"
-        },
-        {
             "address": "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
             "chainId": 1,
             "decimals": 18,
             "name": "BlockchainPoland",
+            "symbol": "BCP"
+        },
+        {
+            "address": "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Block Commerce Prot",
             "symbol": "BCP"
         },
         {
@@ -16187,6 +16187,13 @@
             "extensions": {
                 "isVerified": true
             }
+        },
+        {
+            "address": "0xE276056f924E15BEac26F7b10B6D2805F9c64Bb5",
+            "chainId": 1,
+            "decimals": 9,
+            "name": "Firulais",
+            "symbol": "FIRU"
         },
         {
             "address": "0x30BCd71b8d21FE830e493b30e90befbA29de9114",
