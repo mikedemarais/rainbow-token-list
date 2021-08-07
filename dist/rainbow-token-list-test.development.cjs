@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-07T13:23:05.957Z";
+var timestamp = "2021-08-07T14:17:52.740Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -35687,17 +35687,17 @@ var tokens = [
 		symbol: "SMT"
 	},
 	{
-		address: "0x21f15966E07a10554C364b988e91DaB01D32794A",
-		chainId: 1,
-		decimals: 18,
-		name: "SmartMesh",
-		symbol: "SMT"
-	},
-	{
 		address: "0xB17548c7B510427baAc4e267BEa62e800b247173",
 		chainId: 1,
 		decimals: 18,
 		name: "Swarm Markets",
+		symbol: "SMT"
+	},
+	{
+		address: "0x21f15966E07a10554C364b988e91DaB01D32794A",
+		chainId: 1,
+		decimals: 18,
+		name: "SmartMesh",
 		symbol: "SMT"
 	},
 	{
@@ -44060,13 +44060,6 @@ var tokens = [
 		symbol: "WAND"
 	},
 	{
-		address: "0xf4A81C18816C9B0AB98FAC51B36Dcb63b0E58Fde",
-		chainId: 1,
-		decimals: 18,
-		name: "YieldWars",
-		symbol: "WAR"
-	},
-	{
 		address: "0x4FaDC7A98f2Dc96510e42dD1A74141eEae0C1543",
 		chainId: 1,
 		decimals: 12,
@@ -44078,6 +44071,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "NFT Wars",
+		symbol: "WAR"
+	},
+	{
+		address: "0xf4A81C18816C9B0AB98FAC51B36Dcb63b0E58Fde",
+		chainId: 1,
+		decimals: 18,
+		name: "YieldWars",
 		symbol: "WAR"
 	},
 	{
@@ -46151,17 +46151,17 @@ var tokens = [
 		symbol: "XT"
 	},
 	{
-		address: "0xBFf0E42EEC4223fBd12260F47f3348D29876db42",
-		chainId: 1,
-		decimals: 6,
-		name: "Xtake",
-		symbol: "XTK"
-	},
-	{
 		address: "0x7F3EDcdD180Dbe4819Bd98FeE8929b5cEdB3AdEB",
 		chainId: 1,
 		decimals: 18,
 		name: "xToken",
+		symbol: "XTK"
+	},
+	{
+		address: "0xBFf0E42EEC4223fBd12260F47f3348D29876db42",
+		chainId: 1,
+		decimals: 6,
+		name: "Xtake",
 		symbol: "XTK"
 	},
 	{
