@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-08T11:16:42.198Z";
+var timestamp = "2021-08-08T12:31:35.787Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -6503,13 +6503,6 @@ var tokens = [
 		symbol: "BSYS"
 	},
 	{
-		address: "0x76c5449F4950f6338A393F53CdA8b53B0cd3Ca3a",
-		chainId: 1,
-		decimals: 18,
-		name: "BT Finance",
-		symbol: "BT"
-	},
-	{
 		address: "0x6628606c321FaF52b7230A57b26c01B19aA68e82",
 		chainId: 1,
 		decimals: 18,
@@ -6521,6 +6514,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "Bitenium Token",
+		symbol: "BT"
+	},
+	{
+		address: "0x76c5449F4950f6338A393F53CdA8b53B0cd3Ca3a",
+		chainId: 1,
+		decimals: 18,
+		name: "BT Finance",
 		symbol: "BT"
 	},
 	{
@@ -46680,17 +46680,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x649eBF73043Ffcc70A59855ecd8a568FD996415a",
-		chainId: 1,
-		decimals: 18,
-		name: "YFIII",
-		symbol: "YFIII"
-	},
-	{
 		address: "0x4be40bc9681D0A7C24A99b4c92F85B9053Fc2A45",
 		chainId: 1,
 		decimals: 18,
 		name: "Dify Finance",
+		symbol: "YFIII"
+	},
+	{
+		address: "0x649eBF73043Ffcc70A59855ecd8a568FD996415a",
+		chainId: 1,
+		decimals: 18,
+		name: "YFIII",
 		symbol: "YFIII"
 	},
 	{
@@ -47952,17 +47952,17 @@ var tokens = [
 		symbol: "ZUM"
 	},
 	{
-		address: "0xbf0f3cCB8fA385A287106FbA22e6BB722F94d686",
-		chainId: 1,
-		decimals: 6,
-		name: "Zytara Dollar",
-		symbol: "ZUSD"
-	},
-	{
 		address: "0x76417E660DF3E5c90C0361674C192da152A806E4",
 		chainId: 1,
 		decimals: 18,
 		name: "Zerogoki USD",
+		symbol: "ZUSD"
+	},
+	{
+		address: "0xbf0f3cCB8fA385A287106FbA22e6BB722F94d686",
+		chainId: 1,
+		decimals: 6,
+		name: "Zytara Dollar",
 		symbol: "ZUSD"
 	},
 	{
