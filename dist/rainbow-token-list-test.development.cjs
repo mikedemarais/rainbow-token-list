@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-08T12:31:35.787Z";
+var timestamp = "2021-08-08T13:23:15.134Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -25500,17 +25500,17 @@ var tokens = [
 		symbol: "MIRO"
 	},
 	{
-		address: "0xCD1cb16a67937ff8Af5D726e2681010cE1E9891a",
-		chainId: 1,
-		decimals: 8,
-		name: "Themis",
-		symbol: "MIS"
-	},
-	{
 		address: "0x024B6e7DC26F4d5579bDD936F8d7BC31f2339999",
 		chainId: 1,
 		decimals: 18,
 		name: "Mithril Share",
+		symbol: "MIS"
+	},
+	{
+		address: "0xCD1cb16a67937ff8Af5D726e2681010cE1E9891a",
+		chainId: 1,
+		decimals: 8,
+		name: "Themis",
 		symbol: "MIS"
 	},
 	{
