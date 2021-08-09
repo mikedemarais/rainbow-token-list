@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-09T15:23:27.838Z";
+var timestamp = "2021-08-09T16:32:36.057Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -23,13 +23,6 @@ var keywords = [
 	"rainbow"
 ];
 var tokens = [
-	{
-		address: "0x4Af698B479D0098229DC715655c667Ceb6cd8433",
-		chainId: 1,
-		decimals: 18,
-		name: "MaidCoin",
-		symbol: ""
-	},
 	{
 		address: "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
 		chainId: 1,
@@ -24498,6 +24491,13 @@ var tokens = [
 		symbol: "MAI"
 	},
 	{
+		address: "0x4Af698B479D0098229DC715655c667Ceb6cd8433",
+		chainId: 1,
+		decimals: 18,
+		name: "MaidCoin",
+		symbol: "MAID"
+	},
+	{
 		address: "0x0cae9e4d663793c2a2A0b211c1Cf4bBca2B9cAa7",
 		chainId: 1,
 		decimals: 18,
@@ -44654,17 +44654,17 @@ var tokens = [
 		symbol: "WIX"
 	},
 	{
-		address: "0x33d20575f20C6A1881F8ab08E69F6fbAFfAEedF2",
-		chainId: 1,
-		decimals: 12,
-		name: "BlueWizard",
-		symbol: "WIZ"
-	},
-	{
 		address: "0x7a82C573B378CEEa29772aFB93891f0d0afA93b7",
 		chainId: 1,
 		decimals: 18,
 		name: "Wizard",
+		symbol: "WIZ"
+	},
+	{
+		address: "0x33d20575f20C6A1881F8ab08E69F6fbAFfAEedF2",
+		chainId: 1,
+		decimals: 12,
+		name: "BlueWizard",
 		symbol: "WIZ"
 	},
 	{
