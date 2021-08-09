@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-09T11:16:30.854Z";
+var timestamp = "2021-08-09T12:33:15.591Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -6098,17 +6098,17 @@ var tokens = [
 		symbol: "BPP"
 	},
 	{
-		address: "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
-		chainId: 1,
-		decimals: 18,
-		name: "B Protocol",
-		symbol: "BPRO"
-	},
-	{
 		address: "0x197E6bCa6BC2f488ec760a6Ce46B1399cd2954b0",
 		chainId: 1,
 		decimals: 8,
 		name: "BitCloud Pro",
+		symbol: "BPRO"
+	},
+	{
+		address: "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
+		chainId: 1,
+		decimals: 18,
+		name: "B Protocol",
 		symbol: "BPRO"
 	},
 	{
@@ -14535,13 +14535,6 @@ var tokens = [
 		symbol: "EPAY"
 	},
 	{
-		address: "0xD0C4Ad14f872BcDf7c3Cc2bae99279ab5cDEaD30",
-		chainId: 1,
-		decimals: 18,
-		name: "EpaCoin",
-		symbol: "EPC"
-	},
-	{
 		address: "0x875089A734213cA39f0d93c2BbB8209827ec5e9f",
 		chainId: 1,
 		decimals: 8,
@@ -20822,6 +20815,13 @@ var tokens = [
 		symbol: "IMC"
 	},
 	{
+		address: "0xE42Ba5558b00d2E6109CC60412d5D4c9473FE998",
+		chainId: 1,
+		decimals: 18,
+		name: "IMM COIN",
+		symbol: "IMC"
+	},
+	{
 		address: "0xD95e7F80766580634B2E0E49d9F66af317994FC7",
 		chainId: 1,
 		decimals: 18,
@@ -22459,17 +22459,17 @@ var tokens = [
 		symbol: "KISHU"
 	},
 	{
-		address: "0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4",
-		chainId: 1,
-		decimals: 18,
-		name: "DexKit",
-		symbol: "KIT"
-	},
-	{
 		address: "0x080eB7238031F97Ff011e273D6CaD5ad0c2dE532",
 		chainId: 1,
 		decimals: 18,
 		name: "Kittoken",
+		symbol: "KIT"
+	},
+	{
+		address: "0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4",
+		chainId: 1,
+		decimals: 18,
+		name: "DexKit",
 		symbol: "KIT"
 	},
 	{
@@ -30424,13 +30424,6 @@ var tokens = [
 		decimals: 18,
 		name: "Polkarare",
 		symbol: "PRARE"
-	},
-	{
-		address: "0xcaa05e82bdcBA9e25CD1A3Bf1AfB790C1758943d",
-		chainId: 1,
-		decimals: 8,
-		name: "Partner",
-		symbol: "PRC"
 	},
 	{
 		address: "0xdFC3829b127761a3218bFceE7fc92e1232c9D116",
@@ -40697,17 +40690,17 @@ var tokens = [
 		symbol: "uniFAME"
 	},
 	{
-		address: "0x0eF3b2024ae079e6dBC2b37435cE30d2731F0101",
-		chainId: 1,
-		decimals: 18,
-		name: "UNIFI DeFi",
-		symbol: "UNIFI"
-	},
-	{
 		address: "0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5",
 		chainId: 1,
 		decimals: 18,
 		name: "Covenants",
+		symbol: "UNIFI"
+	},
+	{
+		address: "0x0eF3b2024ae079e6dBC2b37435cE30d2731F0101",
+		chainId: 1,
+		decimals: 18,
+		name: "UNIFI DeFi",
 		symbol: "UNIFI"
 	},
 	{
@@ -45556,13 +45549,6 @@ var tokens = [
 		symbol: "XEURO"
 	},
 	{
-		address: "0xE4E822C0d5b329E8BB637972467d2E313824eFA0",
-		chainId: 1,
-		decimals: 18,
-		name: "Dfinance",
-		symbol: "XFI"
-	},
-	{
 		address: "0x5BEfBB272290dD5b8521D4a938f6c4757742c430",
 		chainId: 1,
 		decimals: 18,
@@ -45571,6 +45557,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xE4E822C0d5b329E8BB637972467d2E313824eFA0",
+		chainId: 1,
+		decimals: 18,
+		name: "Dfinance",
+		symbol: "XFI"
 	},
 	{
 		address: "0x1fa21b20222076D7465fb901E5f459289c95F66a",
