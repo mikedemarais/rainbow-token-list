@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-09T06:26:30.493Z";
+var timestamp = "2021-08-09T07:18:55.140Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -46687,17 +46687,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x649eBF73043Ffcc70A59855ecd8a568FD996415a",
-		chainId: 1,
-		decimals: 18,
-		name: "YFIII",
-		symbol: "YFIII"
-	},
-	{
 		address: "0x4be40bc9681D0A7C24A99b4c92F85B9053Fc2A45",
 		chainId: 1,
 		decimals: 18,
 		name: "Dify Finance",
+		symbol: "YFIII"
+	},
+	{
+		address: "0x649eBF73043Ffcc70A59855ecd8a568FD996415a",
+		chainId: 1,
+		decimals: 18,
+		name: "YFIII",
 		symbol: "YFIII"
 	},
 	{
