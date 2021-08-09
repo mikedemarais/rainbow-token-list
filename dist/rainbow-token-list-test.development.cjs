@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-09T05:18:06.080Z";
+var timestamp = "2021-08-09T06:26:30.493Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4362,6 +4362,13 @@ var tokens = [
 		symbol: "BCNT"
 	},
 	{
+		address: "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
+		chainId: 1,
+		decimals: 18,
+		name: "Block Commerce Prot",
+		symbol: "BCP"
+	},
+	{
 		address: "0xd26fb114401Ec86887CD09F62eccd95fCf20B571",
 		chainId: 1,
 		decimals: 8,
@@ -4386,13 +4393,6 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "BlockchainPoland",
-		symbol: "BCP"
-	},
-	{
-		address: "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
-		chainId: 1,
-		decimals: 18,
-		name: "Block Commerce Prot",
 		symbol: "BCP"
 	},
 	{
@@ -6098,17 +6098,17 @@ var tokens = [
 		symbol: "BPP"
 	},
 	{
-		address: "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
-		chainId: 1,
-		decimals: 18,
-		name: "B Protocol",
-		symbol: "BPRO"
-	},
-	{
 		address: "0x197E6bCa6BC2f488ec760a6Ce46B1399cd2954b0",
 		chainId: 1,
 		decimals: 8,
 		name: "BitCloud Pro",
+		symbol: "BPRO"
+	},
+	{
+		address: "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
+		chainId: 1,
+		decimals: 18,
+		name: "B Protocol",
 		symbol: "BPRO"
 	},
 	{
@@ -16353,6 +16353,13 @@ var tokens = [
 		symbol: "FLOAT"
 	},
 	{
+		address: "0x43f11c02439e2736800433b4594994Bd43Cd066D",
+		chainId: 1,
+		decimals: 9,
+		name: "Floki Inu",
+		symbol: "FLOKI"
+	},
+	{
 		address: "0x2de72aDa48BDF7Bac276256D3F016fE058490C34",
 		chainId: 1,
 		decimals: 9,
@@ -23142,7 +23149,7 @@ var tokens = [
 		symbol: "LBXC"
 	},
 	{
-		address: "0x8Aa2aF3DF13BB6f0cb922bd34446D65244733ad0",
+		address: "0xc2BE72D5E58FD9f001B91c28D596c2A7E3fB018b",
 		chainId: 1,
 		decimals: 18,
 		name: "Libra",
@@ -29951,17 +29958,17 @@ var tokens = [
 		symbol: "PLF"
 	},
 	{
-		address: "0xBa069Ee53b8B531F3AB117c92ca09A204C9E6285",
-		chainId: 1,
-		decimals: 18,
-		name: "Plug",
-		symbol: "PLG"
-	},
-	{
 		address: "0x85ca6710D0F1D511d130f6935eDDA88ACBD921bD",
 		chainId: 1,
 		decimals: 18,
 		name: "Pledgecamp",
+		symbol: "PLG"
+	},
+	{
+		address: "0xBa069Ee53b8B531F3AB117c92ca09A204C9E6285",
+		chainId: 1,
+		decimals: 18,
+		name: "Plug",
 		symbol: "PLG"
 	},
 	{
@@ -46680,17 +46687,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x4be40bc9681D0A7C24A99b4c92F85B9053Fc2A45",
-		chainId: 1,
-		decimals: 18,
-		name: "Dify Finance",
-		symbol: "YFIII"
-	},
-	{
 		address: "0x649eBF73043Ffcc70A59855ecd8a568FD996415a",
 		chainId: 1,
 		decimals: 18,
 		name: "YFIII",
+		symbol: "YFIII"
+	},
+	{
+		address: "0x4be40bc9681D0A7C24A99b4c92F85B9053Fc2A45",
+		chainId: 1,
+		decimals: 18,
+		name: "Dify Finance",
 		symbol: "YFIII"
 	},
 	{
@@ -47952,17 +47959,17 @@ var tokens = [
 		symbol: "ZUM"
 	},
 	{
-		address: "0x76417E660DF3E5c90C0361674C192da152A806E4",
-		chainId: 1,
-		decimals: 18,
-		name: "Zerogoki USD",
-		symbol: "ZUSD"
-	},
-	{
 		address: "0xbf0f3cCB8fA385A287106FbA22e6BB722F94d686",
 		chainId: 1,
 		decimals: 6,
 		name: "Zytara Dollar",
+		symbol: "ZUSD"
+	},
+	{
+		address: "0x76417E660DF3E5c90C0361674C192da152A806E4",
+		chainId: 1,
+		decimals: 18,
+		name: "Zerogoki USD",
 		symbol: "ZUSD"
 	},
 	{
