@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-09T10:23:23.738Z";
+var timestamp = "2021-08-09T11:16:30.854Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4362,13 +4362,6 @@ var tokens = [
 		symbol: "BCNT"
 	},
 	{
-		address: "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
-		chainId: 1,
-		decimals: 18,
-		name: "Block Commerce Prot",
-		symbol: "BCP"
-	},
-	{
 		address: "0xd26fb114401Ec86887CD09F62eccd95fCf20B571",
 		chainId: 1,
 		decimals: 8,
@@ -4393,6 +4386,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "BlockchainPoland",
+		symbol: "BCP"
+	},
+	{
+		address: "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
+		chainId: 1,
+		decimals: 18,
+		name: "Block Commerce Prot",
 		symbol: "BCP"
 	},
 	{
@@ -6098,17 +6098,17 @@ var tokens = [
 		symbol: "BPP"
 	},
 	{
-		address: "0x197E6bCa6BC2f488ec760a6Ce46B1399cd2954b0",
-		chainId: 1,
-		decimals: 8,
-		name: "BitCloud Pro",
-		symbol: "BPRO"
-	},
-	{
 		address: "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
 		chainId: 1,
 		decimals: 18,
 		name: "B Protocol",
+		symbol: "BPRO"
+	},
+	{
+		address: "0x197E6bCa6BC2f488ec760a6Ce46B1399cd2954b0",
+		chainId: 1,
+		decimals: 8,
+		name: "BitCloud Pro",
 		symbol: "BPRO"
 	},
 	{
@@ -10408,7 +10408,7 @@ var tokens = [
 		address: "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6",
 		chainId: 1,
 		decimals: 18,
-		name: "Polkacover",
+		name: "PolkaCover",
 		symbol: "CVR"
 	},
 	{
@@ -13729,13 +13729,6 @@ var tokens = [
 		decimals: 18,
 		name: "Echoin",
 		symbol: "EC"
-	},
-	{
-		address: "0x3fF426Ca07A9F589a80f18CCCC759E84CF06f0Eb",
-		chainId: 1,
-		decimals: 18,
-		name: "Employment Coin",
-		symbol: "EC2"
 	},
 	{
 		address: "0x5D21eF5f25a985380B65c8e943A0082fEDa0Db84",
@@ -23149,13 +23142,6 @@ var tokens = [
 		symbol: "LBXC"
 	},
 	{
-		address: "0xc2BE72D5E58FD9f001B91c28D596c2A7E3fB018b",
-		chainId: 1,
-		decimals: 18,
-		name: "Libra",
-		symbol: "LC"
-	},
-	{
 		address: "0x2c644C3bBeA053ed95a6bC04A94C9CE928Ff9881",
 		chainId: 1,
 		decimals: 8,
@@ -24453,13 +24439,6 @@ var tokens = [
 		}
 	},
 	{
-		address: "0xFe69bc0920Fb63c5924CfC322dc4a5Cc23d9afED",
-		chainId: 1,
-		decimals: 18,
-		name: "LYZE",
-		symbol: "LZE"
-	},
-	{
 		address: "0x3f4B726668da46f5e0E75aA5D478ACEc9f38210F",
 		chainId: 1,
 		decimals: 18,
@@ -25507,17 +25486,17 @@ var tokens = [
 		symbol: "MIRO"
 	},
 	{
-		address: "0x024B6e7DC26F4d5579bDD936F8d7BC31f2339999",
-		chainId: 1,
-		decimals: 18,
-		name: "Mithril Share",
-		symbol: "MIS"
-	},
-	{
 		address: "0xCD1cb16a67937ff8Af5D726e2681010cE1E9891a",
 		chainId: 1,
 		decimals: 8,
 		name: "Themis",
+		symbol: "MIS"
+	},
+	{
+		address: "0x024B6e7DC26F4d5579bDD936F8d7BC31f2339999",
+		chainId: 1,
+		decimals: 18,
+		name: "Mithril Share",
 		symbol: "MIS"
 	},
 	{
