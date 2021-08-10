@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-08-10T18:25:59.964Z",
+    "timestamp": "2021-08-10T19:16:16.165Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -4364,6 +4364,13 @@
             "symbol": "BCNT"
         },
         {
+            "address": "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "BlockchainPoland",
+            "symbol": "BCP"
+        },
+        {
             "address": "0xd26fb114401Ec86887CD09F62eccd95fCf20B571",
             "chainId": 1,
             "decimals": 8,
@@ -4372,13 +4379,6 @@
             "extensions": {
                 "isVerified": true
             }
-        },
-        {
-            "address": "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "BlockchainPoland",
-            "symbol": "BCP"
         },
         {
             "address": "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
