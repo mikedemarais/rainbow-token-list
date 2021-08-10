@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-10T03:23:24.427Z";
+var timestamp = "2021-08-10T04:26:45.291Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4372,6 +4372,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
+		chainId: 1,
+		decimals: 8,
+		name: "BitcashPay",
+		symbol: "BCP"
+	},
+	{
 		address: "0xE4f726Adc8e89C6a6017F01eadA77865dB22dA14",
 		chainId: 1,
 		decimals: 18,
@@ -4393,13 +4400,6 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "Block Commerce Prot",
-		symbol: "BCP"
-	},
-	{
-		address: "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
-		chainId: 1,
-		decimals: 8,
-		name: "BitcashPay",
 		symbol: "BCP"
 	},
 	{
@@ -4539,6 +4539,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0x593114f03A0A575aece9ED675e52Ed68D2172B8c",
+		chainId: 1,
+		decimals: 18,
+		name: "BidiPass",
+		symbol: "BDP"
+	},
+	{
 		address: "0xf3dcbc6D72a4E1892f7917b7C43b74131Df8480e",
 		chainId: 1,
 		decimals: 18,
@@ -4547,13 +4554,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x593114f03A0A575aece9ED675e52Ed68D2172B8c",
-		chainId: 1,
-		decimals: 18,
-		name: "BidiPass",
-		symbol: "BDP"
 	},
 	{
 		address: "0x7BCe667EF12023dc5f8577D015a2F09d99a5ef58",
@@ -11559,6 +11559,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0x62959c699A52eC647622c91e79CE73344e4099f5",
+		chainId: 1,
+		decimals: 18,
+		name: "DeFine",
+		symbol: "DFA"
+	},
+	{
 		address: "0x1B2a76Da77D03b7FC21189d9838f55Bd849014aF",
 		chainId: 1,
 		decimals: 8,
@@ -13783,17 +13790,17 @@ var tokens = [
 		symbol: "ECN"
 	},
 	{
-		address: "0xC242Eb8e4E27EAE6a2A728A41201152F19595C83",
-		chainId: 1,
-		decimals: 18,
-		name: "EcoFi",
-		symbol: "ECO"
-	},
-	{
 		address: "0x191557728e4d8CAa4Ac94f86af842148c0FA8F7E",
 		chainId: 1,
 		decimals: 8,
 		name: "Ormeus Ecosystem",
+		symbol: "ECO"
+	},
+	{
+		address: "0xC242Eb8e4E27EAE6a2A728A41201152F19595C83",
+		chainId: 1,
+		decimals: 18,
+		name: "EcoFi",
 		symbol: "ECO"
 	},
 	{
@@ -15022,14 +15029,14 @@ var tokens = [
 		symbol: "ETHD"
 	},
 	{
-		address: "0x54e8371C1EC43e58fB53D4ef4eD463C17Ba8a6bE",
+		address: "0x316b13B951Efe25AAd1Cb565385B23869A7D4c48",
 		chainId: 1,
 		decimals: 18,
 		name: "ETH 26 EMA Crossove",
 		symbol: "ETHEMAAPY"
 	},
 	{
-		address: "0x316b13B951Efe25AAd1Cb565385B23869A7D4c48",
+		address: "0x54e8371C1EC43e58fB53D4ef4eD463C17Ba8a6bE",
 		chainId: 1,
 		decimals: 18,
 		name: "ETH 26 EMA Crossove",
@@ -15242,17 +15249,17 @@ var tokens = [
 		symbol: "ETR"
 	},
 	{
-		address: "0x952B65D976E8669c4cE92a17CcE5B2586912Adb5",
-		chainId: 1,
-		decimals: 18,
-		name: "Etrade",
-		symbol: "ETT"
-	},
-	{
 		address: "0x1212b68d8555Cf0B08f3371b926b3E1148B520F1",
 		chainId: 1,
 		decimals: 18,
 		name: "Efficient Transacti",
+		symbol: "ETT"
+	},
+	{
+		address: "0x952B65D976E8669c4cE92a17CcE5B2586912Adb5",
+		chainId: 1,
+		decimals: 18,
+		name: "Etrade",
 		symbol: "ETT"
 	},
 	{
@@ -16173,17 +16180,17 @@ var tokens = [
 		symbol: "FINU"
 	},
 	{
-		address: "0xF921ae2DAC5fa128DC0F6168Bf153ea0943d2D43",
-		chainId: 1,
-		decimals: 8,
-		name: "Fire Protocol",
-		symbol: "FIRE"
-	},
-	{
 		address: "0x3F8A2f7bcD70e7F7Bdd3FbB079c11d073588DEA2",
 		chainId: 1,
 		decimals: 18,
 		name: "FIRE",
+		symbol: "FIRE"
+	},
+	{
+		address: "0xF921ae2DAC5fa128DC0F6168Bf153ea0943d2D43",
+		chainId: 1,
+		decimals: 8,
+		name: "Fire Protocol",
 		symbol: "FIRE"
 	},
 	{
@@ -21076,17 +21083,17 @@ var tokens = [
 		symbol: "INTX"
 	},
 	{
-		address: "0x00F29171D7bCDC464a0758cF3217fE83173772b9",
-		chainId: 1,
-		decimals: 9,
-		name: "INU Token",
-		symbol: "INU"
-	},
-	{
 		address: "0xF32aa187d5Bc16A2C02A6aFb7Df1459d0D107574",
 		chainId: 1,
 		decimals: 18,
 		name: "Hachiko Inu Token",
+		symbol: "INU"
+	},
+	{
+		address: "0x00F29171D7bCDC464a0758cF3217fE83173772b9",
+		chainId: 1,
+		decimals: 9,
+		name: "INU Token",
 		symbol: "INU"
 	},
 	{
@@ -24894,6 +24901,13 @@ var tokens = [
 		symbol: "MCM"
 	},
 	{
+		address: "0xD91E9a0fEf7C0fa4EBdAF4d0aCF55888949A2a9b",
+		chainId: 1,
+		decimals: 18,
+		name: "MCN Ventures",
+		symbol: "MCN"
+	},
+	{
 		address: "0xB63B606Ac810a52cCa15e44bB630fd42D8d1d83d",
 		chainId: 1,
 		decimals: 8,
@@ -25274,17 +25288,17 @@ var tokens = [
 		symbol: "MFUND"
 	},
 	{
-		address: "0xa6EB54102F20095679882Db4C84E72E65Ab782A4",
-		chainId: 1,
-		decimals: 8,
-		name: "Magnachain",
-		symbol: "MGC"
-	},
-	{
 		address: "0x174BfA6600Bf90C885c7c01C7031389ed1461Ab9",
 		chainId: 1,
 		decimals: 18,
 		name: "MGC Token",
+		symbol: "MGC"
+	},
+	{
+		address: "0xa6EB54102F20095679882Db4C84E72E65Ab782A4",
+		chainId: 1,
+		decimals: 8,
+		name: "Magnachain",
 		symbol: "MGC"
 	},
 	{
@@ -25702,17 +25716,17 @@ var tokens = [
 		symbol: "MMSFT"
 	},
 	{
-		address: "0xBac7A1798350cdf2Dbfe0c210C2C9861223f4B31",
-		chainId: 1,
-		decimals: 18,
-		name: "Moneynet",
-		symbol: "MNC"
-	},
-	{
 		address: "0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf",
 		chainId: 1,
 		decimals: 18,
 		name: "MainCoin",
+		symbol: "MNC"
+	},
+	{
+		address: "0xBac7A1798350cdf2Dbfe0c210C2C9861223f4B31",
+		chainId: 1,
+		decimals: 18,
+		name: "Moneynet",
 		symbol: "MNC"
 	},
 	{
@@ -28374,17 +28388,17 @@ var tokens = [
 		symbol: "OPEN"
 	},
 	{
-		address: "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
-		chainId: 1,
-		decimals: 8,
-		name: "Open Platform",
-		symbol: "OPEN"
-	},
-	{
 		address: "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
 		chainId: 1,
 		decimals: 18,
 		name: "OPEN Governance Tok",
+		symbol: "OPEN"
+	},
+	{
+		address: "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
+		chainId: 1,
+		decimals: 8,
+		name: "Open Platform",
 		symbol: "OPEN"
 	},
 	{
@@ -31450,6 +31464,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0xf30547ff2Df1F1CBE5C8DD758B3dd098C856e38f",
+		chainId: 1,
+		decimals: 18,
+		name: "RAI Finance",
+		symbol: "RAI"
+	},
+	{
 		address: "0x4c9BBFc1FbD93dFB509E718400978fbEedf590E9",
 		chainId: 1,
 		decimals: 18,
@@ -31458,13 +31479,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0xf30547ff2Df1F1CBE5C8DD758B3dd098C856e38f",
-		chainId: 1,
-		decimals: 18,
-		name: "RAI Finance",
-		symbol: "RAI"
 	},
 	{
 		address: "0xe76C6c83af64e4C60245D8C7dE953DF673a7A33D",
@@ -33927,17 +33941,17 @@ var tokens = [
 		symbol: "SANSHU"
 	},
 	{
-		address: "0x91F529E972D6Cf43d36ABFa91C1118122FF7F16C",
-		chainId: 1,
-		decimals: 18,
-		name: "Sapchain",
-		symbol: "SAP"
-	},
-	{
 		address: "0xa12a00E73E4E7174AcC50A1c073e36Aa0c9cb305",
 		chainId: 1,
 		decimals: 4,
 		name: "Swaap Stablecoin",
+		symbol: "SAP"
+	},
+	{
+		address: "0x91F529E972D6Cf43d36ABFa91C1118122FF7F16C",
+		chainId: 1,
+		decimals: 18,
+		name: "Sapchain",
 		symbol: "SAP"
 	},
 	{
@@ -36522,20 +36536,20 @@ var tokens = [
 		symbol: "STABIT"
 	},
 	{
-		address: "0x56A86d648c435DC707c8405B78e2Ae8eB4E60Ba4",
+		address: "0xe0955F26515d22E347B17669993FCeFcc73c3a0a",
 		chainId: 1,
 		decimals: 18,
-		name: "StackOS",
+		name: "Stacker Ventures",
 		symbol: "STACK",
 		extensions: {
 			isVerified: true
 		}
 	},
 	{
-		address: "0xe0955F26515d22E347B17669993FCeFcc73c3a0a",
+		address: "0x56A86d648c435DC707c8405B78e2Ae8eB4E60Ba4",
 		chainId: 1,
 		decimals: 18,
-		name: "Stacker Ventures",
+		name: "StackOS",
 		symbol: "STACK",
 		extensions: {
 			isVerified: true
@@ -39756,17 +39770,17 @@ var tokens = [
 		symbol: "U8D"
 	},
 	{
-		address: "0x17e347aad89B30b96557BCBfBff8a14e75CC88a1",
-		chainId: 1,
-		decimals: 18,
-		name: "Unicly Bored Ape Ya",
-		symbol: "UAPE"
-	},
-	{
 		address: "0x822808104E173cB4B21549d8E921Cae9E4F655E9",
 		chainId: 1,
 		decimals: 9,
 		name: "Uni Ape",
+		symbol: "UAPE"
+	},
+	{
+		address: "0x17e347aad89B30b96557BCBfBff8a14e75CC88a1",
+		chainId: 1,
+		decimals: 18,
+		name: "Unicly Bored Ape Ya",
 		symbol: "UAPE"
 	},
 	{
@@ -44073,6 +44087,13 @@ var tokens = [
 		symbol: "WAND"
 	},
 	{
+		address: "0xf4A81C18816C9B0AB98FAC51B36Dcb63b0E58Fde",
+		chainId: 1,
+		decimals: 18,
+		name: "YieldWars",
+		symbol: "WAR"
+	},
+	{
 		address: "0x4FaDC7A98f2Dc96510e42dD1A74141eEae0C1543",
 		chainId: 1,
 		decimals: 12,
@@ -44084,13 +44105,6 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "NFT Wars",
-		symbol: "WAR"
-	},
-	{
-		address: "0xf4A81C18816C9B0AB98FAC51B36Dcb63b0E58Fde",
-		chainId: 1,
-		decimals: 18,
-		name: "YieldWars",
 		symbol: "WAR"
 	},
 	{
@@ -44567,17 +44581,17 @@ var tokens = [
 		symbol: "WILD"
 	},
 	{
-		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
-		chainId: 1,
-		decimals: 18,
-		name: "Wild Credit",
-		symbol: "WILD"
-	},
-	{
 		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
 		chainId: 1,
 		decimals: 18,
 		name: "Wilder World",
+		symbol: "WILD"
+	},
+	{
+		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
+		chainId: 1,
+		decimals: 18,
+		name: "Wild Credit",
 		symbol: "WILD"
 	},
 	{
