@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-10T12:33:08.283Z";
+var timestamp = "2021-08-10T13:25:59.560Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -5799,13 +5799,6 @@ var tokens = [
 		symbol: "BOB"
 	},
 	{
-		address: "0x0602121722642936150f12EA1E07D62A8BB2aa71",
-		chainId: 1,
-		decimals: 18,
-		name: "Boboo Token",
-		symbol: "BOBT"
-	},
-	{
 		address: "0x27C743954bCe1Bfaef8bcbD685527531001D88D7",
 		chainId: 1,
 		decimals: 18,
@@ -11004,13 +10997,6 @@ var tokens = [
 		decimals: 18,
 		name: "DecentBet",
 		symbol: "DBET"
-	},
-	{
-		address: "0xaCbeD9726ffd232b59d3CA86a0F5c856E2abEf29",
-		chainId: 1,
-		decimals: 18,
-		name: "Debunk",
-		symbol: "DBNK"
 	},
 	{
 		address: "0xC28D4341Ad8224E1a424558074eF0B4515f424d5",
@@ -16721,7 +16707,7 @@ var tokens = [
 		address: "0x5bB1632fA0023e1AA76a1AE92B4635C8DBa49Fa2",
 		chainId: 1,
 		decimals: 18,
-		name: "GastroAdvisor",
+		name: "GastroAdvisorToken",
 		symbol: "FORK"
 	},
 	{
@@ -17453,13 +17439,6 @@ var tokens = [
 		decimals: 18,
 		name: "Upper Pound",
 		symbol: "GBPU"
-	},
-	{
-		address: "0xf85EF57fCDB36D628D063Fa663e61e44D35AE661",
-		chainId: 1,
-		decimals: 18,
-		name: "eToro Pound Sterlin",
-		symbol: "GBPX"
 	},
 	{
 		address: "0x7585F835ae2d522722d2684323a0ba83401f32f5",
@@ -29275,7 +29254,7 @@ var tokens = [
 		address: "0xE3F4b4A5d91e5cB9435B947F090A319737036312",
 		chainId: 1,
 		decimals: 18,
-		name: "Popchain",
+		name: "POPCHAIN",
 		symbol: "PCH"
 	},
 	{
@@ -35760,17 +35739,17 @@ var tokens = [
 		symbol: "SMT"
 	},
 	{
-		address: "0x21f15966E07a10554C364b988e91DaB01D32794A",
-		chainId: 1,
-		decimals: 18,
-		name: "SmartMesh",
-		symbol: "SMT"
-	},
-	{
 		address: "0xB17548c7B510427baAc4e267BEa62e800b247173",
 		chainId: 1,
 		decimals: 18,
 		name: "Swarm Markets",
+		symbol: "SMT"
+	},
+	{
+		address: "0x21f15966E07a10554C364b988e91DaB01D32794A",
+		chainId: 1,
+		decimals: 18,
+		name: "SmartMesh",
 		symbol: "SMT"
 	},
 	{
