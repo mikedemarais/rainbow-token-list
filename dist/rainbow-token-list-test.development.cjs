@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-10T14:20:15.960Z";
+var timestamp = "2021-08-10T16:31:25.340Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4376,13 +4376,6 @@ var tokens = [
 		symbol: "BCNT"
 	},
 	{
-		address: "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
-		chainId: 1,
-		decimals: 18,
-		name: "Block Commerce Prot",
-		symbol: "BCP"
-	},
-	{
 		address: "0xd26fb114401Ec86887CD09F62eccd95fCf20B571",
 		chainId: 1,
 		decimals: 8,
@@ -4397,6 +4390,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "BlockchainPoland",
+		symbol: "BCP"
+	},
+	{
+		address: "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
+		chainId: 1,
+		decimals: 18,
+		name: "Block Commerce Prot",
 		symbol: "BCP"
 	},
 	{
@@ -6105,17 +6105,17 @@ var tokens = [
 		symbol: "BPP"
 	},
 	{
-		address: "0x197E6bCa6BC2f488ec760a6Ce46B1399cd2954b0",
-		chainId: 1,
-		decimals: 8,
-		name: "BitCloud Pro",
-		symbol: "BPRO"
-	},
-	{
 		address: "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
 		chainId: 1,
 		decimals: 18,
 		name: "B Protocol",
+		symbol: "BPRO"
+	},
+	{
+		address: "0x197E6bCa6BC2f488ec760a6Ce46B1399cd2954b0",
+		chainId: 1,
+		decimals: 8,
+		name: "BitCloud Pro",
 		symbol: "BPRO"
 	},
 	{
@@ -10433,17 +10433,17 @@ var tokens = [
 		symbol: "CVP"
 	},
 	{
-		address: "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6",
-		chainId: 1,
-		decimals: 18,
-		name: "PolkaCover",
-		symbol: "CVR"
-	},
-	{
 		address: "0x2578A20A07E8761d91D0961D3Ea92e14510885aa",
 		chainId: 1,
 		decimals: 18,
 		name: "COVIR",
+		symbol: "CVR"
+	},
+	{
+		address: "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6",
+		chainId: 1,
+		decimals: 18,
+		name: "PolkaCover",
 		symbol: "CVR"
 	},
 	{
@@ -14825,13 +14825,6 @@ var tokens = [
 		symbol: "ESPRO"
 	},
 	{
-		address: "0x24aE124c4CC33D6791F8E8B63520ed7107ac8b3e",
-		chainId: 1,
-		decimals: 18,
-		name: "Empty Set Share",
-		symbol: "ESS"
-	},
-	{
 		address: "0xfc05987bd2be489ACCF0f509E44B0145d68240f7",
 		chainId: 1,
 		decimals: 18,
@@ -14840,6 +14833,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x24aE124c4CC33D6791F8E8B63520ed7107ac8b3e",
+		chainId: 1,
+		decimals: 18,
+		name: "Empty Set Share",
+		symbol: "ESS"
 	},
 	{
 		address: "0xF3924dF14812B3D3dB29124AA9DA4353Ed5e04A3",
@@ -15277,17 +15277,17 @@ var tokens = [
 		symbol: "ETR"
 	},
 	{
-		address: "0x1212b68d8555Cf0B08f3371b926b3E1148B520F1",
-		chainId: 1,
-		decimals: 18,
-		name: "Efficient Transacti",
-		symbol: "ETT"
-	},
-	{
 		address: "0x952B65D976E8669c4cE92a17CcE5B2586912Adb5",
 		chainId: 1,
 		decimals: 18,
 		name: "Etrade",
+		symbol: "ETT"
+	},
+	{
+		address: "0x1212b68d8555Cf0B08f3371b926b3E1148B520F1",
+		chainId: 1,
+		decimals: 18,
+		name: "Efficient Transacti",
 		symbol: "ETT"
 	},
 	{
@@ -25172,17 +25172,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0xDE2F7766C8BF14CA67193128535E5c7454f8387C",
-		chainId: 1,
-		decimals: 18,
-		name: "Metadium",
-		symbol: "META"
-	},
-	{
 		address: "0x2F5C3dD519E8a502c48c9FC104Eee64fDFF05F03",
 		chainId: 1,
 		decimals: 18,
 		name: "META Vault  NFTX",
+		symbol: "META"
+	},
+	{
+		address: "0xDE2F7766C8BF14CA67193128535E5c7454f8387C",
+		chainId: 1,
+		decimals: 18,
+		name: "Metadium",
 		symbol: "META"
 	},
 	{
@@ -31570,13 +31570,6 @@ var tokens = [
 		symbol: "RAKUC"
 	},
 	{
-		address: "0xac6fE9aA6b996D15f23E2E9a384fE64607bba7d5",
-		chainId: 1,
-		decimals: 9,
-		name: "Ramifi Protocol",
-		symbol: "RAM"
-	},
-	{
 		address: "0x33D0568941C0C64ff7e0FB4fbA0B11BD37deEd9f",
 		chainId: 1,
 		decimals: 18,
@@ -37193,6 +37186,13 @@ var tokens = [
 		symbol: "SUN"
 	},
 	{
+		address: "0x692aCCdD8b86692427E0aa4752AE917Df01CC56F",
+		chainId: 1,
+		decimals: 18,
+		name: "Sunrise",
+		symbol: "SUNC"
+	},
+	{
 		address: "0xbDbf245c690d54b67C6e610A28486A2C6dE08bE6",
 		chainId: 1,
 		decimals: 18,
@@ -38260,6 +38260,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0x52662717e448be36Cb54588499D5A8328BD95292",
+		chainId: 1,
+		decimals: 18,
+		name: "Tenshi v2",
+		symbol: "TENSHI"
+	},
+	{
 		address: "0x9358e3a79D428c7708da22a5bd085159F6818D12",
 		chainId: 1,
 		decimals: 9,
@@ -38918,6 +38925,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x549905519F9E06D55D7dfCD4D54817780F6b93e8",
+		chainId: 1,
+		decimals: 18,
+		name: "TouchCon",
+		symbol: "TOC"
 	},
 	{
 		address: "0x9a49f02e128a8E989b443a8f94843C0918BF45E7",
