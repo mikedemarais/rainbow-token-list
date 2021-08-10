@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-10T04:26:45.291Z";
+var timestamp = "2021-08-10T05:18:24.347Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -3775,6 +3775,13 @@ var tokens = [
 		symbol: "BABYFLOKI"
 	},
 	{
+		address: "0xf79F9020560963422eCC9C0c04D3a21190BBf045",
+		chainId: 1,
+		decimals: 9,
+		name: "Baby Saitama",
+		symbol: "BABYSAITAMA"
+	},
+	{
 		address: "0x062e3Be6a7C56A395b1881A0cD69A4923Ade4fa2",
 		chainId: 1,
 		decimals: 18,
@@ -4372,6 +4379,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
+		chainId: 1,
+		decimals: 18,
+		name: "BlockchainPoland",
+		symbol: "BCP"
+	},
+	{
 		address: "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
 		chainId: 1,
 		decimals: 8,
@@ -4387,13 +4401,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
-		chainId: 1,
-		decimals: 18,
-		name: "BlockchainPoland",
-		symbol: "BCP"
 	},
 	{
 		address: "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
@@ -7581,6 +7588,13 @@ var tokens = [
 		decimals: 18,
 		name: "Carnomaly",
 		symbol: "CARR"
+	},
+	{
+		address: "0x5C8C8D560048F34E5f7f8ad71f2f81a89DBd273e",
+		chainId: 1,
+		decimals: 18,
+		name: "CryptoArt Ai",
+		symbol: "CART"
 	},
 	{
 		address: "0x779492d3644dDF4495Aa2d80C468E1B7be6AF1d2",
