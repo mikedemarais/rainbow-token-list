@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-10T09:21:32.432Z";
+var timestamp = "2021-08-10T10:22:49.176Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -2753,6 +2753,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0x7C52e19E4d350189bcdfB7F7A0868117e9F195E5",
+		chainId: 1,
+		decimals: 18,
+		name: "Assgard",
+		symbol: "ASSG"
+	},
+	{
 		address: "0xFA2562da1Bba7B954f26C74725dF51fb62646313",
 		chainId: 1,
 		decimals: 18,
@@ -4369,6 +4376,13 @@ var tokens = [
 		symbol: "BCNT"
 	},
 	{
+		address: "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
+		chainId: 1,
+		decimals: 18,
+		name: "Block Commerce Prot",
+		symbol: "BCP"
+	},
+	{
 		address: "0xd26fb114401Ec86887CD09F62eccd95fCf20B571",
 		chainId: 1,
 		decimals: 8,
@@ -4386,13 +4400,6 @@ var tokens = [
 		symbol: "BCP"
 	},
 	{
-		address: "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
-		chainId: 1,
-		decimals: 8,
-		name: "BitcashPay",
-		symbol: "BCP"
-	},
-	{
 		address: "0xE4f726Adc8e89C6a6017F01eadA77865dB22dA14",
 		chainId: 1,
 		decimals: 18,
@@ -4403,10 +4410,10 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
+		address: "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
 		chainId: 1,
-		decimals: 18,
-		name: "Block Commerce Prot",
+		decimals: 8,
+		name: "BitcashPay",
 		symbol: "BCP"
 	},
 	{
@@ -7094,6 +7101,13 @@ var tokens = [
 		symbol: "BUY"
 	},
 	{
+		address: "0x396eC402B42066864C406d1ac3bc86B575003ed8",
+		chainId: 1,
+		decimals: 2,
+		name: "Buying com",
+		symbol: "BUY"
+	},
+	{
 		address: "0xaE8488e75493B89A0E1488BF91542208C416f486",
 		chainId: 1,
 		decimals: 18,
@@ -8192,6 +8206,13 @@ var tokens = [
 		decimals: 8,
 		name: "Chain Flowers",
 		symbol: "CFLO"
+	},
+	{
+		address: "0xB8981aCbBF7DA95A8fF6Df79Aab935cE63434fC8",
+		chainId: 1,
+		decimals: 6,
+		name: "Cfoforum Token",
+		symbol: "CFO"
 	},
 	{
 		address: "0x9B683d81B8334325bCC1802D47DE65571993Fe89",
@@ -26678,6 +26699,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0xa12D7e5319f5b43476eF19D1569E10097caCdFE2",
+		chainId: 1,
+		decimals: 18,
+		name: "Myth Token",
+		symbol: "MYTH"
+	},
+	{
 		address: "0x45Af324F53a8D7DA1752DAd74ADc1748126D7978",
 		chainId: 1,
 		decimals: 18,
@@ -39066,6 +39094,13 @@ var tokens = [
 		symbol: "TOR"
 	},
 	{
+		address: "0xCfa0885131F602D11D4DA248D2c65A62063567A9",
+		chainId: 1,
+		decimals: 18,
+		name: "TORG",
+		symbol: "TORG"
+	},
+	{
 		address: "0xc71E20E54ADfC415f79bF0A8F11122917920050E",
 		chainId: 1,
 		decimals: 18,
@@ -44602,17 +44637,17 @@ var tokens = [
 		symbol: "WILD"
 	},
 	{
-		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
-		chainId: 1,
-		decimals: 18,
-		name: "Wilder World",
-		symbol: "WILD"
-	},
-	{
 		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
 		chainId: 1,
 		decimals: 18,
 		name: "Wild Credit",
+		symbol: "WILD"
+	},
+	{
+		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
+		chainId: 1,
+		decimals: 18,
+		name: "Wilder World",
 		symbol: "WILD"
 	},
 	{
