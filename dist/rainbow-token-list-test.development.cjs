@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-10T11:17:28.128Z";
+var timestamp = "2021-08-10T12:33:08.283Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -6814,13 +6814,6 @@ var tokens = [
 		symbol: "BTR"
 	},
 	{
-		address: "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
-		chainId: 1,
-		decimals: 18,
-		name: "Bitrue Coin",
-		symbol: "BTR"
-	},
-	{
 		address: "0xcce63fD31e9053c110c74CEbc37C8e358A6AA5bD",
 		chainId: 1,
 		decimals: 4,
@@ -6829,6 +6822,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
+		chainId: 1,
+		decimals: 18,
+		name: "Bitrue Coin",
+		symbol: "BTR"
 	},
 	{
 		address: "0x388Fd8A5145D6EF85aAE14D494F93Df9D1c7c00C",
@@ -8457,6 +8457,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xD7d6ab522fA41caae78F6edeb46A14954aE0c772",
+		chainId: 1,
+		decimals: 18,
+		name: "Chipz",
+		symbol: "CHPZ"
 	},
 	{
 		address: "0x8A2279d4A90B6fe1C4B30fa660cC9f926797bAA2",
@@ -10433,17 +10440,17 @@ var tokens = [
 		symbol: "CVP"
 	},
 	{
-		address: "0x2578A20A07E8761d91D0961D3Ea92e14510885aa",
-		chainId: 1,
-		decimals: 18,
-		name: "COVIR",
-		symbol: "CVR"
-	},
-	{
 		address: "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6",
 		chainId: 1,
 		decimals: 18,
 		name: "PolkaCover",
+		symbol: "CVR"
+	},
+	{
+		address: "0x2578A20A07E8761d91D0961D3Ea92e14510885aa",
+		chainId: 1,
+		decimals: 18,
+		name: "COVIR",
 		symbol: "CVR"
 	},
 	{
@@ -35753,17 +35760,17 @@ var tokens = [
 		symbol: "SMT"
 	},
 	{
-		address: "0xB17548c7B510427baAc4e267BEa62e800b247173",
-		chainId: 1,
-		decimals: 18,
-		name: "Swarm Markets",
-		symbol: "SMT"
-	},
-	{
 		address: "0x21f15966E07a10554C364b988e91DaB01D32794A",
 		chainId: 1,
 		decimals: 18,
 		name: "SmartMesh",
+		symbol: "SMT"
+	},
+	{
+		address: "0xB17548c7B510427baAc4e267BEa62e800b247173",
+		chainId: 1,
+		decimals: 18,
+		name: "Swarm Markets",
 		symbol: "SMT"
 	},
 	{
