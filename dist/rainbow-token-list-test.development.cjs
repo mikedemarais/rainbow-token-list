@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-11T06:26:30.925Z";
+var timestamp = "2021-08-11T07:18:56.921Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -6807,13 +6807,6 @@ var tokens = [
 		symbol: "BTR"
 	},
 	{
-		address: "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
-		chainId: 1,
-		decimals: 18,
-		name: "Bitrue Coin",
-		symbol: "BTR"
-	},
-	{
 		address: "0xcce63fD31e9053c110c74CEbc37C8e358A6AA5bD",
 		chainId: 1,
 		decimals: 4,
@@ -6822,6 +6815,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
+		chainId: 1,
+		decimals: 18,
+		name: "Bitrue Coin",
+		symbol: "BTR"
 	},
 	{
 		address: "0x388Fd8A5145D6EF85aAE14D494F93Df9D1c7c00C",
@@ -18227,17 +18227,6 @@ var tokens = [
 		symbol: "GOLD"
 	},
 	{
-		address: "0x40d1F63B5D2048e67E9bEdB1B4c2F1A9fb4b6817",
-		chainId: 1,
-		decimals: 18,
-		name: "Golden Goose",
-		symbol: "GOLD",
-		extensions: {
-			color: "#f1b32b",
-			isVerified: true
-		}
-	},
-	{
 		address: "0x34D6A0F5C2f5D0082141fE73d93B9dd00ca7CE11",
 		chainId: 1,
 		decimals: 18,
@@ -18257,6 +18246,17 @@ var tokens = [
 		decimals: 8,
 		name: "XBullion",
 		symbol: "GOLD"
+	},
+	{
+		address: "0x40d1F63B5D2048e67E9bEdB1B4c2F1A9fb4b6817",
+		chainId: 1,
+		decimals: 18,
+		name: "Golden Goose",
+		symbol: "GOLD",
+		extensions: {
+			color: "#f1b32b",
+			isVerified: true
+		}
 	},
 	{
 		address: "0xDFC628A33C18e856Cd1c59583cB5aCe8dB706F14",
@@ -33738,6 +33738,13 @@ var tokens = [
 		decimals: 18,
 		name: "RoyaltyCOIN",
 		symbol: "RYLT"
+	},
+	{
+		address: "0x777E2ae845272a2F540ebf6a3D03734A5a8f618e",
+		chainId: 1,
+		decimals: 18,
+		name: "Ryoshis Vision",
+		symbol: "RYOSHI"
 	},
 	{
 		address: "0x429Ac77F069BFF489e2d78F9479e1E933305c528",
