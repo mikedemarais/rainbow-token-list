@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-11T09:22:11.402Z";
+var timestamp = "2021-08-11T10:24:47.834Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -5799,6 +5799,13 @@ var tokens = [
 		symbol: "BOB"
 	},
 	{
+		address: "0xF53c24f7729C88C110265929c7124E6259eFccAB",
+		chainId: 1,
+		decimals: 9,
+		name: "Bobo Cash",
+		symbol: "BOBO"
+	},
+	{
 		address: "0x27C743954bCe1Bfaef8bcbD685527531001D88D7",
 		chainId: 1,
 		decimals: 18,
@@ -8540,6 +8547,13 @@ var tokens = [
 		decimals: 8,
 		name: "Cipher Core Token",
 		symbol: "CIPHC"
+	},
+	{
+		address: "0x37fE0f067FA808fFBDd12891C0858532CFE7361d",
+		chainId: 1,
+		decimals: 18,
+		name: "Civilization",
+		symbol: "CIV"
 	},
 	{
 		address: "0x6393E822874728f8Afa7e1C9944E417D37CA5878",
@@ -19363,6 +19377,13 @@ var tokens = [
 		symbol: "HGT"
 	},
 	{
+		address: "0xC4f6E93AEDdc11dc22268488465bAbcAF09399aC",
+		chainId: 1,
+		decimals: 18,
+		name: "hi Dollar",
+		symbol: "HI"
+	},
+	{
 		address: "0x9bb1Db1445b83213a56d90d331894b3f26218e4e",
 		chainId: 1,
 		decimals: 18,
@@ -22506,6 +22527,13 @@ var tokens = [
 		decimals: 18,
 		name: "DexKit",
 		symbol: "KIT"
+	},
+	{
+		address: "0x6D645193001e674e62aAa0eaC5d56E4D21BBCCeF",
+		chainId: 1,
+		decimals: 18,
+		name: "Kitsune Inu",
+		symbol: "KITSU"
 	},
 	{
 		address: "0x9b9fB226E98C4e90DB2830C9aefa9cfcBE3b000a",
@@ -25751,17 +25779,17 @@ var tokens = [
 		symbol: "MMSFT"
 	},
 	{
-		address: "0xBac7A1798350cdf2Dbfe0c210C2C9861223f4B31",
-		chainId: 1,
-		decimals: 18,
-		name: "Moneynet",
-		symbol: "MNC"
-	},
-	{
 		address: "0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf",
 		chainId: 1,
 		decimals: 18,
 		name: "MainCoin",
+		symbol: "MNC"
+	},
+	{
+		address: "0xBac7A1798350cdf2Dbfe0c210C2C9861223f4B31",
+		chainId: 1,
+		decimals: 18,
+		name: "Moneynet",
 		symbol: "MNC"
 	},
 	{
@@ -28904,17 +28932,17 @@ var tokens = [
 		symbol: "PACT"
 	},
 	{
-		address: "0x5067006F830224960Fb419D7f25a3a53e9919BB0",
-		chainId: 1,
-		decimals: 18,
-		name: "SmartPad",
-		symbol: "PAD"
-	},
-	{
 		address: "0x992a8a9F4Bde0FB2EE1F5BBB3Cb7B1E64748E13d",
 		chainId: 1,
 		decimals: 18,
 		name: "Padcoin",
+		symbol: "PAD"
+	},
+	{
+		address: "0x5067006F830224960Fb419D7f25a3a53e9919BB0",
+		chainId: 1,
+		decimals: 18,
+		name: "SmartPad",
 		symbol: "PAD"
 	},
 	{
@@ -29728,6 +29756,13 @@ var tokens = [
 		decimals: 18,
 		name: "PIGX",
 		symbol: "PIGX"
+	},
+	{
+		address: "0x60F5672A271C7E39E787427A18353ba59A4A3578",
+		chainId: 1,
+		decimals: 18,
+		name: "Pika",
+		symbol: "PIKA"
 	},
 	{
 		address: "0xA682Ee16b497afcEEDF47e4820Fc2af3845FD2D2",
@@ -33359,13 +33394,6 @@ var tokens = [
 		decimals: 18,
 		name: "Rocketchain",
 		symbol: "ROK"
-	},
-	{
-		address: "0xacACa5b8805636608e14C64b0bFFfC2Deb2C6cEc",
-		chainId: 1,
-		decimals: 18,
-		name: "ROM Token",
-		symbol: "ROM"
 	},
 	{
 		address: "0xA31B1767e09f842ECFd4bc471Fe44F830E3891AA",
@@ -47598,6 +47626,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x4992D8AC40E55350330102aBf2dEBed8864E7Ba0",
+		chainId: 1,
+		decimals: 18,
+		name: "Zcon Protocol",
+		symbol: "ZCON"
 	},
 	{
 		address: "0x83FF572a1757b9E4508CB08f13a79Ed162c756c4",
