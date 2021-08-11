@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-11T02:29:32.974Z";
+var timestamp = "2021-08-11T03:23:43.899Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4376,6 +4376,13 @@ var tokens = [
 		symbol: "BCNT"
 	},
 	{
+		address: "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
+		chainId: 1,
+		decimals: 18,
+		name: "Block Commerce Prot",
+		symbol: "BCP"
+	},
+	{
 		address: "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
 		chainId: 1,
 		decimals: 18,
@@ -4393,10 +4400,10 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
+		address: "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
 		chainId: 1,
-		decimals: 18,
-		name: "Block Commerce Prot",
+		decimals: 8,
+		name: "BitcashPay",
 		symbol: "BCP"
 	},
 	{
@@ -4408,13 +4415,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
-		chainId: 1,
-		decimals: 8,
-		name: "BitcashPay",
-		symbol: "BCP"
 	},
 	{
 		address: "0x1c4481750daa5Ff521A2a7490d9981eD46465Dbd",
@@ -6807,6 +6807,13 @@ var tokens = [
 		symbol: "BTR"
 	},
 	{
+		address: "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
+		chainId: 1,
+		decimals: 18,
+		name: "Bitrue Coin",
+		symbol: "BTR"
+	},
+	{
 		address: "0xcce63fD31e9053c110c74CEbc37C8e358A6AA5bD",
 		chainId: 1,
 		decimals: 4,
@@ -6815,13 +6822,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
-		chainId: 1,
-		decimals: 18,
-		name: "Bitrue Coin",
-		symbol: "BTR"
 	},
 	{
 		address: "0x388Fd8A5145D6EF85aAE14D494F93Df9D1c7c00C",
@@ -17333,6 +17333,13 @@ var tokens = [
 		symbol: "GAME"
 	},
 	{
+		address: "0xD567B5F02b9073aD3a982a099a23Bf019FF11d1c",
+		chainId: 1,
+		decimals: 5,
+		name: "Gamestarter",
+		symbol: "GAME"
+	},
+	{
 		address: "0x6754e21b9EAa053c62d7854dD6561ae451B0cBCf",
 		chainId: 1,
 		decimals: 18,
@@ -21450,7 +21457,7 @@ var tokens = [
 		address: "0x7fE4Fbad1fee10D6Cf8e08198608209A9275944C",
 		chainId: 1,
 		decimals: 9,
-		name: "Infinity",
+		name: "Infinity Token",
 		symbol: "IT"
 	},
 	{
@@ -24894,6 +24901,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0xE33AE4E795114279721047484E5ad5cc7DF24fcB",
+		chainId: 1,
+		decimals: 10,
+		name: "MCFinance",
+		symbol: "MCF"
+	},
+	{
 		address: "0xA4e7414FCba1AF15203030C6daAC630df8F16AEa",
 		chainId: 1,
 		decimals: 18,
@@ -25528,17 +25542,17 @@ var tokens = [
 		symbol: "MIRO"
 	},
 	{
-		address: "0xCD1cb16a67937ff8Af5D726e2681010cE1E9891a",
-		chainId: 1,
-		decimals: 8,
-		name: "Themis",
-		symbol: "MIS"
-	},
-	{
 		address: "0x024B6e7DC26F4d5579bDD936F8d7BC31f2339999",
 		chainId: 1,
 		decimals: 18,
 		name: "Mithril Share",
+		symbol: "MIS"
+	},
+	{
+		address: "0xCD1cb16a67937ff8Af5D726e2681010cE1E9891a",
+		chainId: 1,
+		decimals: 8,
+		name: "Themis",
 		symbol: "MIS"
 	},
 	{
@@ -25737,17 +25751,17 @@ var tokens = [
 		symbol: "MMSFT"
 	},
 	{
-		address: "0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf",
-		chainId: 1,
-		decimals: 18,
-		name: "MainCoin",
-		symbol: "MNC"
-	},
-	{
 		address: "0xBac7A1798350cdf2Dbfe0c210C2C9861223f4B31",
 		chainId: 1,
 		decimals: 18,
 		name: "Moneynet",
+		symbol: "MNC"
+	},
+	{
+		address: "0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf",
+		chainId: 1,
+		decimals: 18,
+		name: "MainCoin",
 		symbol: "MNC"
 	},
 	{
@@ -28416,17 +28430,17 @@ var tokens = [
 		symbol: "OPEN"
 	},
 	{
-		address: "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
-		chainId: 1,
-		decimals: 8,
-		name: "Open Platform",
-		symbol: "OPEN"
-	},
-	{
 		address: "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
 		chainId: 1,
 		decimals: 18,
 		name: "OPEN Governance Tok",
+		symbol: "OPEN"
+	},
+	{
+		address: "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
+		chainId: 1,
+		decimals: 8,
+		name: "Open Platform",
 		symbol: "OPEN"
 	},
 	{
@@ -34014,17 +34028,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0xc56b13ebbCFfa67cFb7979b900b736b3fb480D78",
-		chainId: 1,
-		decimals: 8,
-		name: "Social Activity Tok",
-		symbol: "SAT"
-	},
-	{
 		address: "0x1F0F468Ee03A6D99CD8A09dd071494a83Dc1c0e5",
 		chainId: 1,
 		decimals: 4,
 		name: "SmartX",
+		symbol: "SAT"
+	},
+	{
+		address: "0xc56b13ebbCFfa67cFb7979b900b736b3fb480D78",
+		chainId: 1,
+		decimals: 8,
+		name: "Social Activity Tok",
 		symbol: "SAT"
 	},
 	{
