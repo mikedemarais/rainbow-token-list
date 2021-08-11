@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-11T18:25:46.289Z";
+var timestamp = "2021-08-11T19:16:27.651Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -25221,17 +25221,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x2F5C3dD519E8a502c48c9FC104Eee64fDFF05F03",
-		chainId: 1,
-		decimals: 18,
-		name: "META Vault  NFTX",
-		symbol: "META"
-	},
-	{
 		address: "0xDE2F7766C8BF14CA67193128535E5c7454f8387C",
 		chainId: 1,
 		decimals: 18,
 		name: "Metadium",
+		symbol: "META"
+	},
+	{
+		address: "0x2F5C3dD519E8a502c48c9FC104Eee64fDFF05F03",
+		chainId: 1,
+		decimals: 18,
+		name: "META Vault  NFTX",
 		symbol: "META"
 	},
 	{
