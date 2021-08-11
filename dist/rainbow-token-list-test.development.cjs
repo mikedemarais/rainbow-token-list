@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-11T16:32:05.621Z";
+var timestamp = "2021-08-11T17:27:25.345Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -349,17 +349,17 @@ var tokens = [
 		symbol: "A5T"
 	},
 	{
-		address: "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
-		chainId: 1,
-		decimals: 8,
-		name: "Abulaba",
-		symbol: "AAA"
-	},
-	{
 		address: "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
 		chainId: 1,
 		decimals: 10,
 		name: "AAAchain",
+		symbol: "AAA"
+	},
+	{
+		address: "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
+		chainId: 1,
+		decimals: 8,
+		name: "Abulaba",
 		symbol: "AAA"
 	},
 	{
@@ -6112,17 +6112,17 @@ var tokens = [
 		symbol: "BPP"
 	},
 	{
-		address: "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
-		chainId: 1,
-		decimals: 18,
-		name: "B Protocol",
-		symbol: "BPRO"
-	},
-	{
 		address: "0x197E6bCa6BC2f488ec760a6Ce46B1399cd2954b0",
 		chainId: 1,
 		decimals: 8,
 		name: "BitCloud Pro",
+		symbol: "BPRO"
+	},
+	{
+		address: "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
+		chainId: 1,
+		decimals: 18,
+		name: "B Protocol",
 		symbol: "BPRO"
 	},
 	{
@@ -6814,6 +6814,13 @@ var tokens = [
 		symbol: "BTR"
 	},
 	{
+		address: "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
+		chainId: 1,
+		decimals: 18,
+		name: "Bitrue Coin",
+		symbol: "BTR"
+	},
+	{
 		address: "0xcce63fD31e9053c110c74CEbc37C8e358A6AA5bD",
 		chainId: 1,
 		decimals: 4,
@@ -6822,13 +6829,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
-		chainId: 1,
-		decimals: 18,
-		name: "Bitrue Coin",
-		symbol: "BTR"
 	},
 	{
 		address: "0x388Fd8A5145D6EF85aAE14D494F93Df9D1c7c00C",
@@ -12535,6 +12535,13 @@ var tokens = [
 		decimals: 18,
 		name: "Dogz",
 		symbol: "DOGZ"
+	},
+	{
+		address: "0x180dAe91D6d56235453a892d2e56a3E40Ba81DF8",
+		chainId: 1,
+		decimals: 18,
+		name: "DOJO",
+		symbol: "DOJO"
 	},
 	{
 		address: "0x9cEB84f92A0561fa3Cc4132aB9c0b76A59787544",
@@ -25570,17 +25577,17 @@ var tokens = [
 		symbol: "MIRO"
 	},
 	{
-		address: "0x024B6e7DC26F4d5579bDD936F8d7BC31f2339999",
-		chainId: 1,
-		decimals: 18,
-		name: "Mithril Share",
-		symbol: "MIS"
-	},
-	{
 		address: "0xCD1cb16a67937ff8Af5D726e2681010cE1E9891a",
 		chainId: 1,
 		decimals: 8,
 		name: "Themis",
+		symbol: "MIS"
+	},
+	{
+		address: "0x024B6e7DC26F4d5579bDD936F8d7BC31f2339999",
+		chainId: 1,
+		decimals: 18,
+		name: "Mithril Share",
 		symbol: "MIS"
 	},
 	{
@@ -45675,6 +45682,13 @@ var tokens = [
 		symbol: "XEURO"
 	},
 	{
+		address: "0xE4E822C0d5b329E8BB637972467d2E313824eFA0",
+		chainId: 1,
+		decimals: 18,
+		name: "Dfinance",
+		symbol: "XFI"
+	},
+	{
 		address: "0x5BEfBB272290dD5b8521D4a938f6c4757742c430",
 		chainId: 1,
 		decimals: 18,
@@ -45683,13 +45697,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0xE4E822C0d5b329E8BB637972467d2E313824eFA0",
-		chainId: 1,
-		decimals: 18,
-		name: "Dfinance",
-		symbol: "XFI"
 	},
 	{
 		address: "0x1fa21b20222076D7465fb901E5f459289c95F66a",
@@ -48117,6 +48124,13 @@ var tokens = [
 		decimals: 18,
 		name: "Zynecoin",
 		symbol: "ZYN"
+	},
+	{
+		address: "0xf974b5f9Ac9c6632FeE8b76C61B0242ce69C839D",
+		chainId: 1,
+		decimals: 18,
+		name: "ZYX",
+		symbol: "ZYX"
 	},
 	{
 		address: "0xc75F15AdA581219c95485c578E124df3985e4CE0",
