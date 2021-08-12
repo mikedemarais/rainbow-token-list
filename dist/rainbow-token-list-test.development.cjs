@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-12T08:22:04.294Z";
+var timestamp = "2021-08-12T09:21:13.750Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -6159,6 +6159,13 @@ var tokens = [
 		decimals: 18,
 		name: "Bit Public Talent N",
 		symbol: "BPTN"
+	},
+	{
+		address: "0x095648BC80a7d1Dd16B85E9B84F07463a20f3536",
+		chainId: 1,
+		decimals: 18,
+		name: "BabyPunks",
+		symbol: "BPUNKS"
 	},
 	{
 		address: "0x2AA4a3E8bB72BE68a31c9c3C98CA7BeC723C6222",
@@ -22543,17 +22550,17 @@ var tokens = [
 		symbol: "KISHU"
 	},
 	{
-		address: "0x080eB7238031F97Ff011e273D6CaD5ad0c2dE532",
-		chainId: 1,
-		decimals: 18,
-		name: "Kittoken",
-		symbol: "KIT"
-	},
-	{
 		address: "0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4",
 		chainId: 1,
 		decimals: 18,
 		name: "DexKit",
+		symbol: "KIT"
+	},
+	{
+		address: "0x080eB7238031F97Ff011e273D6CaD5ad0c2dE532",
+		chainId: 1,
+		decimals: 18,
+		name: "Kittoken",
 		symbol: "KIT"
 	},
 	{
@@ -25598,17 +25605,17 @@ var tokens = [
 		symbol: "MIRO"
 	},
 	{
-		address: "0xCD1cb16a67937ff8Af5D726e2681010cE1E9891a",
-		chainId: 1,
-		decimals: 8,
-		name: "Themis",
-		symbol: "MIS"
-	},
-	{
 		address: "0x024B6e7DC26F4d5579bDD936F8d7BC31f2339999",
 		chainId: 1,
 		decimals: 18,
 		name: "Mithril Share",
+		symbol: "MIS"
+	},
+	{
+		address: "0xCD1cb16a67937ff8Af5D726e2681010cE1E9891a",
+		chainId: 1,
+		decimals: 8,
+		name: "Themis",
 		symbol: "MIS"
 	},
 	{
@@ -39320,17 +39327,17 @@ var tokens = [
 		symbol: "TRAT"
 	},
 	{
-		address: "0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0",
-		chainId: 1,
-		decimals: 18,
-		name: "Tellor",
-		symbol: "TRB"
-	},
-	{
 		address: "0x901F8679a6EF435d533732f5eA49bb82d568BE99",
 		chainId: 1,
 		decimals: 18,
 		name: "Trebit Network",
+		symbol: "TRB"
+	},
+	{
+		address: "0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0",
+		chainId: 1,
+		decimals: 18,
+		name: "Tellor",
 		symbol: "TRB"
 	},
 	{
@@ -40851,17 +40858,17 @@ var tokens = [
 		symbol: "uniFAME"
 	},
 	{
-		address: "0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5",
-		chainId: 1,
-		decimals: 18,
-		name: "Covenants",
-		symbol: "UNIFI"
-	},
-	{
 		address: "0x0eF3b2024ae079e6dBC2b37435cE30d2731F0101",
 		chainId: 1,
 		decimals: 18,
 		name: "UNIFI DeFi",
+		symbol: "UNIFI"
+	},
+	{
+		address: "0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5",
+		chainId: 1,
+		decimals: 18,
+		name: "Covenants",
 		symbol: "UNIFI"
 	},
 	{
