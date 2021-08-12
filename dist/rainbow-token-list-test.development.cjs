@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-12T09:21:13.750Z";
+var timestamp = "2021-08-12T10:22:50.823Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4376,13 +4376,6 @@ var tokens = [
 		symbol: "BCNT"
 	},
 	{
-		address: "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
-		chainId: 1,
-		decimals: 18,
-		name: "Block Commerce Prot",
-		symbol: "BCP"
-	},
-	{
 		address: "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
 		chainId: 1,
 		decimals: 18,
@@ -4408,6 +4401,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
+		chainId: 1,
+		decimals: 18,
+		name: "Block Commerce Prot",
+		symbol: "BCP"
 	},
 	{
 		address: "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
@@ -4979,13 +4979,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x56C64e280ef1262DA370d2c5862Bb61C6Dc3Dbb4",
-		chainId: 1,
-		decimals: 8,
-		name: "Big Coin",
-		symbol: "BIG"
 	},
 	{
 		address: "0xa6E7dc135Bdf4b3FEe7183EAB2E87C0BB9684783",
@@ -5957,6 +5950,13 @@ var tokens = [
 		decimals: 9,
 		name: "BoomBaby io",
 		symbol: "BOOMB"
+	},
+	{
+		address: "0x4E0fCa55a6C3A94720ded91153A27F60E26B9AA8",
+		chainId: 1,
+		decimals: 18,
+		name: "Boost",
+		symbol: "BOOST"
 	},
 	{
 		address: "0x3e780920601D61cEdb860fe9c4a90c9EA6A35E78",
@@ -9573,13 +9573,6 @@ var tokens = [
 		symbol: "CPU"
 	},
 	{
-		address: "0x52CEEFC5F5C64a6D3dC6E4FDE5F2D7810Bccde49",
-		chainId: 1,
-		decimals: 18,
-		name: "COINXCLUB",
-		symbol: "CPX"
-	},
-	{
 		address: "0x79ddbbCc9D7FbDc77b02A960DabD2577144FDD6E",
 		chainId: 1,
 		decimals: 18,
@@ -11137,13 +11130,6 @@ var tokens = [
 		decimals: 8,
 		name: "Dharma Dai",
 		symbol: "dDai"
-	},
-	{
-		address: "0xd5dC8921A5c58FB0ebA6db6b40Eab40283Dc3C01",
-		chainId: 1,
-		decimals: 9,
-		name: "Decentralized Data",
-		symbol: "DDAM"
 	},
 	{
 		address: "0x9F5F3CFD7a32700C93F971637407ff17b91c7342",
@@ -19580,6 +19566,13 @@ var tokens = [
 		decimals: 18,
 		name: "Homeros",
 		symbol: "HMR"
+	},
+	{
+		address: "0xd1ba9BAC957322D6e8c07a160a3A8dA11A0d2867",
+		chainId: 1,
+		decimals: 18,
+		name: "HUMAN Protocol",
+		symbol: "HMT"
 	},
 	{
 		address: "0x9c197c4b58527fAAAb67CB35E3145166B23D242e",
@@ -46838,13 +46831,6 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "Dify Finance",
-		symbol: "YFIII"
-	},
-	{
-		address: "0x649eBF73043Ffcc70A59855ecd8a568FD996415a",
-		chainId: 1,
-		decimals: 18,
-		name: "YFIII",
 		symbol: "YFIII"
 	},
 	{
