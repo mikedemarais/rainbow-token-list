@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-12T03:23:00.119Z";
+var timestamp = "2021-08-12T04:26:40.899Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4400,13 +4400,6 @@ var tokens = [
 		}
 	},
 	{
-		address: "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
-		chainId: 1,
-		decimals: 8,
-		name: "BitcashPay",
-		symbol: "BCP"
-	},
-	{
 		address: "0xE4f726Adc8e89C6a6017F01eadA77865dB22dA14",
 		chainId: 1,
 		decimals: 18,
@@ -4415,6 +4408,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xe047705117Eb07e712C3d684f5B18E74577e83aC",
+		chainId: 1,
+		decimals: 8,
+		name: "BitcashPay",
+		symbol: "BCP"
 	},
 	{
 		address: "0x1c4481750daa5Ff521A2a7490d9981eD46465Dbd",
@@ -6814,13 +6814,6 @@ var tokens = [
 		symbol: "BTR"
 	},
 	{
-		address: "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
-		chainId: 1,
-		decimals: 18,
-		name: "Bitrue Coin",
-		symbol: "BTR"
-	},
-	{
 		address: "0xcce63fD31e9053c110c74CEbc37C8e358A6AA5bD",
 		chainId: 1,
 		decimals: 4,
@@ -6829,6 +6822,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
+		chainId: 1,
+		decimals: 18,
+		name: "Bitrue Coin",
+		symbol: "BTR"
 	},
 	{
 		address: "0x388Fd8A5145D6EF85aAE14D494F93Df9D1c7c00C",
@@ -7834,17 +7834,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0xfA93660C3f6a848556Bb8E265f994160A1F2B289",
-		chainId: 1,
-		decimals: 18,
-		name: "Community Business",
-		symbol: "CBT"
-	},
-	{
 		address: "0x3Ca6B185285684E14f925179992387fB4Ef90aC7",
 		chainId: 1,
 		decimals: 18,
 		name: "Cryptocurrency Busi",
+		symbol: "CBT"
+	},
+	{
+		address: "0xfA93660C3f6a848556Bb8E265f994160A1F2B289",
+		chainId: 1,
+		decimals: 18,
+		name: "Community Business",
 		symbol: "CBT"
 	},
 	{
@@ -8685,13 +8685,6 @@ var tokens = [
 		symbol: "CLT"
 	},
 	{
-		address: "0x80C62FE4487E1351b47Ba49809EBD60ED085bf52",
-		chainId: 1,
-		decimals: 18,
-		name: "Clover Finance",
-		symbol: "CLV"
-	},
-	{
 		address: "0x22222C03318440305aC3e8a7820563d6A9FD777F",
 		chainId: 1,
 		decimals: 6,
@@ -8700,6 +8693,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x80C62FE4487E1351b47Ba49809EBD60ED085bf52",
+		chainId: 1,
+		decimals: 18,
+		name: "Clover Finance",
+		symbol: "CLV"
 	},
 	{
 		address: "0xC52e23194476B1dD39408cB0B9D935dA8e6Db3d6",
@@ -12376,17 +12376,17 @@ var tokens = [
 		symbol: "DMTC"
 	},
 	{
-		address: "0xf058501585023d040eA9493134ED72C083553eED",
-		chainId: 1,
-		decimals: 18,
-		name: "Dymmax",
-		symbol: "DMX"
-	},
-	{
 		address: "0x1660F10B4D610cF482194356eCe8eFD65B15bA83",
 		chainId: 1,
 		decimals: 18,
 		name: "Amun DeFi Momentum",
+		symbol: "DMX"
+	},
+	{
+		address: "0xf058501585023d040eA9493134ED72C083553eED",
+		chainId: 1,
+		decimals: 18,
+		name: "Dymmax",
 		symbol: "DMX"
 	},
 	{
@@ -14846,6 +14846,13 @@ var tokens = [
 		symbol: "ESPRO"
 	},
 	{
+		address: "0x24aE124c4CC33D6791F8E8B63520ed7107ac8b3e",
+		chainId: 1,
+		decimals: 18,
+		name: "Empty Set Share",
+		symbol: "ESS"
+	},
+	{
 		address: "0xfc05987bd2be489ACCF0f509E44B0145d68240f7",
 		chainId: 1,
 		decimals: 18,
@@ -14854,13 +14861,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x24aE124c4CC33D6791F8E8B63520ed7107ac8b3e",
-		chainId: 1,
-		decimals: 18,
-		name: "Empty Set Share",
-		symbol: "ESS"
 	},
 	{
 		address: "0xF3924dF14812B3D3dB29124AA9DA4353Ed5e04A3",
@@ -18248,17 +18248,17 @@ var tokens = [
 		symbol: "GOLD"
 	},
 	{
-		address: "0x34D6A0F5C2f5D0082141fE73d93B9dd00ca7CE11",
-		chainId: 1,
-		decimals: 18,
-		name: "Golden Token",
-		symbol: "GOLD"
-	},
-	{
 		address: "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
 		chainId: 1,
 		decimals: 8,
 		name: "GOLD",
+		symbol: "GOLD"
+	},
+	{
+		address: "0x34D6A0F5C2f5D0082141fE73d93B9dd00ca7CE11",
+		chainId: 1,
+		decimals: 18,
+		name: "Golden Token",
 		symbol: "GOLD"
 	},
 	{
@@ -28465,17 +28465,17 @@ var tokens = [
 		symbol: "OPEN"
 	},
 	{
-		address: "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
-		chainId: 1,
-		decimals: 18,
-		name: "OPEN Governance Tok",
-		symbol: "OPEN"
-	},
-	{
 		address: "0x9D86b1B2554ec410ecCFfBf111A6994910111340",
 		chainId: 1,
 		decimals: 8,
 		name: "Open Platform",
+		symbol: "OPEN"
+	},
+	{
+		address: "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
+		chainId: 1,
+		decimals: 18,
+		name: "OPEN Governance Tok",
 		symbol: "OPEN"
 	},
 	{
@@ -30968,13 +30968,6 @@ var tokens = [
 		symbol: "PUNDIX"
 	},
 	{
-		address: "0x9cea2eD9e47059260C97d697f82b8A14EfA61EA5",
-		chainId: 1,
-		decimals: 18,
-		name: "Punk",
-		symbol: "PUNK"
-	},
-	{
 		address: "0x269616D549D7e8Eaa82DFb17028d0B212D11232A",
 		chainId: 1,
 		decimals: 18,
@@ -30983,6 +30976,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x9cea2eD9e47059260C97d697f82b8A14EfA61EA5",
+		chainId: 1,
+		decimals: 18,
+		name: "Punk",
+		symbol: "PUNK"
 	},
 	{
 		address: "0x49706a576bb823cdE3180C930F9947d59e2deD4D",
@@ -35788,17 +35788,17 @@ var tokens = [
 		symbol: "SMT"
 	},
 	{
-		address: "0xB17548c7B510427baAc4e267BEa62e800b247173",
-		chainId: 1,
-		decimals: 18,
-		name: "Swarm Markets",
-		symbol: "SMT"
-	},
-	{
 		address: "0x21f15966E07a10554C364b988e91DaB01D32794A",
 		chainId: 1,
 		decimals: 18,
 		name: "SmartMesh",
+		symbol: "SMT"
+	},
+	{
+		address: "0xB17548c7B510427baAc4e267BEa62e800b247173",
+		chainId: 1,
+		decimals: 18,
+		name: "Swarm Markets",
 		symbol: "SMT"
 	},
 	{
@@ -39292,17 +39292,17 @@ var tokens = [
 		symbol: "TRAT"
 	},
 	{
-		address: "0x901F8679a6EF435d533732f5eA49bb82d568BE99",
-		chainId: 1,
-		decimals: 18,
-		name: "Trebit Network",
-		symbol: "TRB"
-	},
-	{
 		address: "0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0",
 		chainId: 1,
 		decimals: 18,
 		name: "Tellor",
+		symbol: "TRB"
+	},
+	{
+		address: "0x901F8679a6EF435d533732f5eA49bb82d568BE99",
+		chainId: 1,
+		decimals: 18,
+		name: "Trebit Network",
 		symbol: "TRB"
 	},
 	{
@@ -43900,6 +43900,13 @@ var tokens = [
 		symbol: "VRISE"
 	},
 	{
+		address: "0x72377f31e30a405282b522d588AEbbea202b4f23",
+		chainId: 1,
+		decimals: 18,
+		name: "Varen",
+		symbol: "VRN"
+	},
+	{
 		address: "0x10BC518c32fbAE5e38Ecb50A612160571bD81e44",
 		chainId: 1,
 		decimals: 8,
@@ -44693,17 +44700,17 @@ var tokens = [
 		symbol: "WILD"
 	},
 	{
-		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
-		chainId: 1,
-		decimals: 18,
-		name: "Wild Credit",
-		symbol: "WILD"
-	},
-	{
 		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
 		chainId: 1,
 		decimals: 18,
 		name: "Wilder World",
+		symbol: "WILD"
+	},
+	{
+		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
+		chainId: 1,
+		decimals: 18,
+		name: "Wild Credit",
 		symbol: "WILD"
 	},
 	{
