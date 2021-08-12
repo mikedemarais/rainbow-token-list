@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-12T13:26:25.804Z";
+var timestamp = "2021-08-12T14:19:10.518Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -5089,13 +5089,6 @@ var tokens = [
 		symbol: "BIT"
 	},
 	{
-		address: "0x1A4b46696b2bB4794Eb3D4c26f1c55F9170fa4C5",
-		chainId: 1,
-		decimals: 18,
-		name: "BitDAO",
-		symbol: "BIT"
-	},
-	{
 		address: "0x47da42696A866CDC61A4C809A515500a242909C1",
 		chainId: 1,
 		decimals: 18,
@@ -5104,6 +5097,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x1A4b46696b2bB4794Eb3D4c26f1c55F9170fa4C5",
+		chainId: 1,
+		decimals: 18,
+		name: "BitDAO",
+		symbol: "BIT"
 	},
 	{
 		address: "0x0A2a86bb0BeE386a11291d5D01E89cDFB565df5D",
@@ -6538,17 +6538,17 @@ var tokens = [
 		symbol: "BT"
 	},
 	{
-		address: "0x997507cc49FBf0CD6ce5e1EE543218556fAFdEBc",
-		chainId: 1,
-		decimals: 18,
-		name: "Bitenium Token",
-		symbol: "BT"
-	},
-	{
 		address: "0x76c5449F4950f6338A393F53CdA8b53B0cd3Ca3a",
 		chainId: 1,
 		decimals: 18,
 		name: "BT Finance",
+		symbol: "BT"
+	},
+	{
+		address: "0x997507cc49FBf0CD6ce5e1EE543218556fAFdEBc",
+		chainId: 1,
+		decimals: 18,
+		name: "Bitenium Token",
 		symbol: "BT"
 	},
 	{
@@ -6828,6 +6828,13 @@ var tokens = [
 		symbol: "BTR"
 	},
 	{
+		address: "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
+		chainId: 1,
+		decimals: 18,
+		name: "Bitrue Coin",
+		symbol: "BTR"
+	},
+	{
 		address: "0xcce63fD31e9053c110c74CEbc37C8e358A6AA5bD",
 		chainId: 1,
 		decimals: 4,
@@ -6836,13 +6843,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
-		chainId: 1,
-		decimals: 18,
-		name: "Bitrue Coin",
-		symbol: "BTR"
 	},
 	{
 		address: "0x388Fd8A5145D6EF85aAE14D494F93Df9D1c7c00C",
@@ -25242,17 +25242,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0xDE2F7766C8BF14CA67193128535E5c7454f8387C",
-		chainId: 1,
-		decimals: 18,
-		name: "Metadium",
-		symbol: "META"
-	},
-	{
 		address: "0x2F5C3dD519E8a502c48c9FC104Eee64fDFF05F03",
 		chainId: 1,
 		decimals: 18,
 		name: "META Vault  NFTX",
+		symbol: "META"
+	},
+	{
+		address: "0xDE2F7766C8BF14CA67193128535E5c7454f8387C",
+		chainId: 1,
+		decimals: 18,
+		name: "Metadium",
 		symbol: "META"
 	},
 	{
@@ -29723,13 +29723,6 @@ var tokens = [
 		symbol: "PHUNK"
 	},
 	{
-		address: "0x1864cE27E9F7517047933CaAE530674e8C70b8A7",
-		chainId: 1,
-		decimals: 18,
-		name: "Pibble",
-		symbol: "PIB"
-	},
-	{
 		address: "0x1BaFfbc23f2246040cCE12F7a140C38c5DC73e46",
 		chainId: 1,
 		decimals: 18,
@@ -29738,6 +29731,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x1864cE27E9F7517047933CaAE530674e8C70b8A7",
+		chainId: 1,
+		decimals: 18,
+		name: "Pibble",
+		symbol: "PIB"
 	},
 	{
 		address: "0x1eCe1739DAE08253aE582C404511B37355B42C84",
@@ -43789,17 +43789,17 @@ var tokens = [
 		symbol: "VNS"
 	},
 	{
-		address: "0xe912b8bA2513D7e29b7b2E5B14398dbf77503Fb4",
-		chainId: 1,
-		decimals: 18,
-		name: "InventoryClub",
-		symbol: "VNT"
-	},
-	{
 		address: "0x69d2779533a4D2c780639713558B2cC98c46A9b7",
 		chainId: 1,
 		decimals: 8,
 		name: "VNT Chain",
+		symbol: "VNT"
+	},
+	{
+		address: "0xe912b8bA2513D7e29b7b2E5B14398dbf77503Fb4",
+		chainId: 1,
+		decimals: 18,
+		name: "InventoryClub",
 		symbol: "VNT"
 	},
 	{
