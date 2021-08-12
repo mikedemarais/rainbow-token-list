@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-12T15:24:00.684Z";
+var timestamp = "2021-08-12T16:32:32.262Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -349,6 +349,13 @@ var tokens = [
 		symbol: "A5T"
 	},
 	{
+		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
+		chainId: 1,
+		decimals: 18,
+		name: "Moon Rabbit",
+		symbol: "AAA"
+	},
+	{
 		address: "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
 		chainId: 1,
 		decimals: 10,
@@ -360,13 +367,6 @@ var tokens = [
 		chainId: 1,
 		decimals: 8,
 		name: "Abulaba",
-		symbol: "AAA"
-	},
-	{
-		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
-		chainId: 1,
-		decimals: 18,
-		name: "Moon Rabbit",
 		symbol: "AAA"
 	},
 	{
@@ -4376,6 +4376,16 @@ var tokens = [
 		symbol: "BCNT"
 	},
 	{
+		address: "0xE4f726Adc8e89C6a6017F01eadA77865dB22dA14",
+		chainId: 1,
+		decimals: 18,
+		name: "PieDAO Balanced Crypto Pie",
+		symbol: "BCP",
+		extensions: {
+			isVerified: true
+		}
+	},
+	{
 		address: "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
 		chainId: 1,
 		decimals: 18,
@@ -4387,16 +4397,6 @@ var tokens = [
 		chainId: 1,
 		decimals: 8,
 		name: "Bitcoin Platinums",
-		symbol: "BCP",
-		extensions: {
-			isVerified: true
-		}
-	},
-	{
-		address: "0xE4f726Adc8e89C6a6017F01eadA77865dB22dA14",
-		chainId: 1,
-		decimals: 18,
-		name: "PieDAO Balanced Crypto Pie",
 		symbol: "BCP",
 		extensions: {
 			isVerified: true
@@ -8699,6 +8699,13 @@ var tokens = [
 		symbol: "CLT"
 	},
 	{
+		address: "0x80C62FE4487E1351b47Ba49809EBD60ED085bf52",
+		chainId: 1,
+		decimals: 18,
+		name: "Clover Finance",
+		symbol: "CLV"
+	},
+	{
 		address: "0x22222C03318440305aC3e8a7820563d6A9FD777F",
 		chainId: 1,
 		decimals: 6,
@@ -8707,13 +8714,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x80C62FE4487E1351b47Ba49809EBD60ED085bf52",
-		chainId: 1,
-		decimals: 18,
-		name: "Clover Finance",
-		symbol: "CLV"
 	},
 	{
 		address: "0xC52e23194476B1dD39408cB0B9D935dA8e6Db3d6",
@@ -34037,13 +34037,6 @@ var tokens = [
 		decimals: 9,
 		name: "Sanshu Inu",
 		symbol: "SANSHU"
-	},
-	{
-		address: "0xa12a00E73E4E7174AcC50A1c073e36Aa0c9cb305",
-		chainId: 1,
-		decimals: 4,
-		name: "Swaap Stablecoin",
-		symbol: "SAP"
 	},
 	{
 		address: "0x91F529E972D6Cf43d36ABFa91C1118122FF7F16C",
