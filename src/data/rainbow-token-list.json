@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-08-12T07:19:13.429Z",
+  "timestamp": "2021-08-12T08:22:04.294Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -19797,6 +19797,13 @@
       "symbol": "HRD"
     },
     {
+      "address": "0x9077F9e1eFE0eA72867ac89046b2a6264CbcaeF5",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "WhaleStreet  hrimp",
+      "symbol": "HRIMP"
+    },
+    {
       "address": "0x2bBA3CF6DE6058cc1B4457Ce00deb359E2703d7F",
       "chainId": 1,
       "decimals": 18,
@@ -31619,6 +31626,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x714599f7604144a3fE1737c440a70fc0fD6503ea",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Raku Coin",
+      "symbol": "RAKUC"
     },
     {
       "address": "0x33D0568941C0C64ff7e0FB4fbA0B11BD37deEd9f",
@@ -47611,13 +47625,6 @@
       "extensions": {
         "isVerified": true
       }
-    },
-    {
-      "address": "0x26548041e3a78fDc60f3ccE21977E1F5e46561B7",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "ZuCoinChain",
-      "symbol": "ZCC"
     },
     {
       "address": "0xb9EF770B6A5e12E45983C5D80545258aA38F3B78",
