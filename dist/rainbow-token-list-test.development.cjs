@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-12T05:18:15.406Z";
+var timestamp = "2021-08-12T06:26:19.008Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -5093,6 +5093,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 8,
 		name: "BlockEstate Investment Token",
+		symbol: "BIT"
+	},
+	{
+		address: "0x1A4b46696b2bB4794Eb3D4c26f1c55F9170fa4C5",
+		chainId: 1,
+		decimals: 18,
+		name: "BitDAO",
 		symbol: "BIT"
 	},
 	{
@@ -20258,6 +20265,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0xd2F29748F8698606dca9f48b8967241b595ab9E5",
+		chainId: 1,
+		decimals: 18,
+		name: "Icarus Network",
+		symbol: "ICA"
+	},
+	{
 		address: "0x3c20d67b6B1aE0985F913aBb7397babc2fBb1A1F",
 		chainId: 1,
 		decimals: 18,
@@ -31619,13 +31633,6 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x714599f7604144a3fE1737c440a70fc0fD6503ea",
-		chainId: 1,
-		decimals: 18,
-		name: "Raku Coin",
-		symbol: "RAKUC"
-	},
-	{
 		address: "0x33D0568941C0C64ff7e0FB4fbA0B11BD37deEd9f",
 		chainId: 1,
 		decimals: 18,
@@ -36120,6 +36127,13 @@ var tokens = [
 		decimals: 18,
 		name: "SoMee Social",
 		symbol: "SOMEE"
+	},
+	{
+		address: "0xA18A0bE599366C8e2fFfFD83A2418a3cCb825d7f",
+		chainId: 1,
+		decimals: 18,
+		name: "Beatify",
+		symbol: "SONG"
 	},
 	{
 		address: "0x1C62aCa2b7605Db3606eAcdA7Bc67A1857DDb8FF",
