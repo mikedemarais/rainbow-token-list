@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-13T15:23:33.605Z";
+var timestamp = "2021-08-13T16:31:46.083Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -8381,10 +8381,7 @@ var tokens = [
 		chainId: 1,
 		decimals: 4,
 		name: "Cherry",
-		symbol: "CHERRY",
-		extensions: {
-			isVerified: true
-		}
+		symbol: "CHERRY"
 	},
 	{
 		address: "0x5f75112bBB4E1aF516fBE3e21528C63DA2B6a1A5",
@@ -12390,17 +12387,17 @@ var tokens = [
 		symbol: "DMTC"
 	},
 	{
-		address: "0x1660F10B4D610cF482194356eCe8eFD65B15bA83",
-		chainId: 1,
-		decimals: 18,
-		name: "Amun DeFi Momentum",
-		symbol: "DMX"
-	},
-	{
 		address: "0xf058501585023d040eA9493134ED72C083553eED",
 		chainId: 1,
 		decimals: 18,
 		name: "Dymmax",
+		symbol: "DMX"
+	},
+	{
+		address: "0x1660F10B4D610cF482194356eCe8eFD65B15bA83",
+		chainId: 1,
+		decimals: 18,
+		name: "Amun DeFi Momentum",
 		symbol: "DMX"
 	},
 	{
@@ -35851,17 +35848,17 @@ var tokens = [
 		symbol: "SMT"
 	},
 	{
-		address: "0xB17548c7B510427baAc4e267BEa62e800b247173",
-		chainId: 1,
-		decimals: 18,
-		name: "Swarm Markets",
-		symbol: "SMT"
-	},
-	{
 		address: "0x21f15966E07a10554C364b988e91DaB01D32794A",
 		chainId: 1,
 		decimals: 18,
 		name: "SmartMesh",
+		symbol: "SMT"
+	},
+	{
+		address: "0xB17548c7B510427baAc4e267BEa62e800b247173",
+		chainId: 1,
+		decimals: 18,
+		name: "Swarm Markets",
 		symbol: "SMT"
 	},
 	{
