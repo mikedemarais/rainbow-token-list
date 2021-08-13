@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-08-13T06:25:57.440Z",
+    "timestamp": "2021-08-13T07:18:43.706Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -344,17 +344,17 @@
             "symbol": "AAA"
         },
         {
-            "address": "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
-            "chainId": 1,
-            "decimals": 8,
-            "name": "Abulaba",
-            "symbol": "AAA"
-        },
-        {
             "address": "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
             "chainId": 1,
             "decimals": 18,
             "name": "Moon Rabbit",
+            "symbol": "AAA"
+        },
+        {
+            "address": "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
+            "chainId": 1,
+            "decimals": 8,
+            "name": "Abulaba",
             "symbol": "AAA"
         },
         {
@@ -29725,6 +29725,13 @@
             "symbol": "PHUNK"
         },
         {
+            "address": "0xAeC65404DdC3af3C897AD89571d5772C1A695F22",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Phoenix Token",
+            "symbol": "PHX"
+        },
+        {
             "address": "0x1BaFfbc23f2246040cCE12F7a140C38c5DC73e46",
             "chainId": 1,
             "decimals": 18,
@@ -34864,6 +34871,13 @@
             "symbol": "SFR"
         },
         {
+            "address": "0x11A605D7e12B64D713E93C487277d819A1d14B99",
+            "chainId": 1,
+            "decimals": 9,
+            "name": "Safe Shield",
+            "symbol": "SFSHLD"
+        },
+        {
             "address": "0x23348160D7f5aca21195dF2b70f28Fce2B0be9fC",
             "chainId": 1,
             "decimals": 18,
@@ -35527,6 +35541,13 @@
             "extensions": {
                 "isVerified": true
             }
+        },
+        {
+            "address": "0x012E0e6342308b247F36Ee500ECb14dc77a7a8C1",
+            "chainId": 1,
+            "decimals": 8,
+            "name": "Sukhavati Network",
+            "symbol": "SKT"
         },
         {
             "address": "0x82bdfb4C6F488fC47700ceF12C448a2F13F8fF4F",
@@ -36745,6 +36766,13 @@
             "decimals": 18,
             "name": "Star Shib",
             "symbol": "STARSB"
+        },
+        {
+            "address": "0x1d7Ca62F6Af49ec66f6680b8606E634E55Ef22C1",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Starter xyz",
+            "symbol": "START"
         },
         {
             "address": "0xE4F356EcCe6FbDA81eCDea2E38527e59422861C2",
