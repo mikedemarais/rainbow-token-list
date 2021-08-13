@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-13T12:32:11.104Z";
+var timestamp = "2021-08-13T13:24:55.251Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -349,13 +349,6 @@ var tokens = [
 		symbol: "A5T"
 	},
 	{
-		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
-		chainId: 1,
-		decimals: 18,
-		name: "Moon Rabbit",
-		symbol: "AAA"
-	},
-	{
 		address: "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
 		chainId: 1,
 		decimals: 10,
@@ -367,6 +360,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 8,
 		name: "Abulaba",
+		symbol: "AAA"
+	},
+	{
+		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
+		chainId: 1,
+		decimals: 18,
+		name: "Moon Rabbit",
 		symbol: "AAA"
 	},
 	{
@@ -2853,17 +2853,17 @@ var tokens = [
 		symbol: "ASY"
 	},
 	{
-		address: "0xbf8fB919A8bbF28e590852AeF2D284494eBC0657",
-		chainId: 1,
-		decimals: 18,
-		name: "ABCC Token",
-		symbol: "AT"
-	},
-	{
 		address: "0xE54B3458C47E44C37a267E7C633AFEF88287C294",
 		chainId: 1,
 		decimals: 5,
 		name: "Artfinity Token",
+		symbol: "AT"
+	},
+	{
+		address: "0xbf8fB919A8bbF28e590852AeF2D284494eBC0657",
+		chainId: 1,
+		decimals: 18,
+		name: "ABCC Token",
 		symbol: "AT"
 	},
 	{
@@ -9075,17 +9075,17 @@ var tokens = [
 		symbol: "COIN"
 	},
 	{
-		address: "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
-		chainId: 1,
-		decimals: 18,
-		name: "Coin",
-		symbol: "COIN"
-	},
-	{
 		address: "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
 		chainId: 1,
 		decimals: 18,
 		name: "Coin Artist",
+		symbol: "COIN"
+	},
+	{
+		address: "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
+		chainId: 1,
+		decimals: 18,
+		name: "Coin",
 		symbol: "COIN"
 	},
 	{
@@ -21167,17 +21167,17 @@ var tokens = [
 		symbol: "INTX"
 	},
 	{
-		address: "0x00F29171D7bCDC464a0758cF3217fE83173772b9",
-		chainId: 1,
-		decimals: 9,
-		name: "INU Token",
-		symbol: "INU"
-	},
-	{
 		address: "0xF32aa187d5Bc16A2C02A6aFb7Df1459d0D107574",
 		chainId: 1,
 		decimals: 18,
 		name: "Hachiko Inu Token",
+		symbol: "INU"
+	},
+	{
+		address: "0x00F29171D7bCDC464a0758cF3217fE83173772b9",
+		chainId: 1,
+		decimals: 9,
+		name: "INU Token",
 		symbol: "INU"
 	},
 	{
@@ -43821,6 +43821,13 @@ var tokens = [
 		symbol: "VNDC"
 	},
 	{
+		address: "0xbf900809f4C73e5a3476eb183d8b06a27e61F8E5",
+		chainId: 1,
+		decimals: 12,
+		name: "Vanilla",
+		symbol: "VNL"
+	},
+	{
 		address: "0x1017B147b05942EAd495E2ad6d606EF3C94B8FD0",
 		chainId: 1,
 		decimals: 12,
@@ -48148,17 +48155,17 @@ var tokens = [
 		symbol: "ZUM"
 	},
 	{
-		address: "0xbf0f3cCB8fA385A287106FbA22e6BB722F94d686",
-		chainId: 1,
-		decimals: 6,
-		name: "Zytara Dollar",
-		symbol: "ZUSD"
-	},
-	{
 		address: "0x76417E660DF3E5c90C0361674C192da152A806E4",
 		chainId: 1,
 		decimals: 18,
 		name: "Zerogoki USD",
+		symbol: "ZUSD"
+	},
+	{
+		address: "0xbf0f3cCB8fA385A287106FbA22e6BB722F94d686",
+		chainId: 1,
+		decimals: 6,
+		name: "Zytara Dollar",
 		symbol: "ZUSD"
 	},
 	{
