@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-12T23:20:59.151Z";
+var timestamp = "2021-08-13T01:04:26.613Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -349,17 +349,17 @@ var tokens = [
 		symbol: "A5T"
 	},
 	{
-		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
-		chainId: 1,
-		decimals: 18,
-		name: "Moon Rabbit",
-		symbol: "AAA"
-	},
-	{
 		address: "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
 		chainId: 1,
 		decimals: 10,
 		name: "AAAchain",
+		symbol: "AAA"
+	},
+	{
+		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
+		chainId: 1,
+		decimals: 18,
+		name: "Moon Rabbit",
 		symbol: "AAA"
 	},
 	{
@@ -8699,13 +8699,6 @@ var tokens = [
 		symbol: "CLT"
 	},
 	{
-		address: "0x80C62FE4487E1351b47Ba49809EBD60ED085bf52",
-		chainId: 1,
-		decimals: 18,
-		name: "Clover Finance",
-		symbol: "CLV"
-	},
-	{
 		address: "0x22222C03318440305aC3e8a7820563d6A9FD777F",
 		chainId: 1,
 		decimals: 6,
@@ -8714,6 +8707,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x80C62FE4487E1351b47Ba49809EBD60ED085bf52",
+		chainId: 1,
+		decimals: 18,
+		name: "Clover Finance",
+		symbol: "CLV"
 	},
 	{
 		address: "0xC52e23194476B1dD39408cB0B9D935dA8e6Db3d6",
@@ -18248,13 +18248,6 @@ var tokens = [
 		symbol: "GOLD"
 	},
 	{
-		address: "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
-		chainId: 1,
-		decimals: 8,
-		name: "GOLD",
-		symbol: "GOLD"
-	},
-	{
 		address: "0x34D6A0F5C2f5D0082141fE73d93B9dd00ca7CE11",
 		chainId: 1,
 		decimals: 18,
@@ -18266,6 +18259,13 @@ var tokens = [
 		chainId: 1,
 		decimals: 8,
 		name: "XBullion",
+		symbol: "GOLD"
+	},
+	{
+		address: "0xE081b71Ed098FBe1108EA48e235b74F122272E68",
+		chainId: 1,
+		decimals: 8,
+		name: "GOLD",
 		symbol: "GOLD"
 	},
 	{
@@ -21160,17 +21160,17 @@ var tokens = [
 		symbol: "INTX"
 	},
 	{
-		address: "0xF32aa187d5Bc16A2C02A6aFb7Df1459d0D107574",
-		chainId: 1,
-		decimals: 18,
-		name: "Hachiko Inu Token",
-		symbol: "INU"
-	},
-	{
 		address: "0x00F29171D7bCDC464a0758cF3217fE83173772b9",
 		chainId: 1,
 		decimals: 9,
 		name: "INU Token",
+		symbol: "INU"
+	},
+	{
+		address: "0xF32aa187d5Bc16A2C02A6aFb7Df1459d0D107574",
+		chainId: 1,
+		decimals: 18,
+		name: "Hachiko Inu Token",
 		symbol: "INU"
 	},
 	{
@@ -25598,17 +25598,17 @@ var tokens = [
 		symbol: "MIRO"
 	},
 	{
-		address: "0x024B6e7DC26F4d5579bDD936F8d7BC31f2339999",
-		chainId: 1,
-		decimals: 18,
-		name: "Mithril Share",
-		symbol: "MIS"
-	},
-	{
 		address: "0xCD1cb16a67937ff8Af5D726e2681010cE1E9891a",
 		chainId: 1,
 		decimals: 8,
 		name: "Themis",
+		symbol: "MIS"
+	},
+	{
+		address: "0x024B6e7DC26F4d5579bDD936F8d7BC31f2339999",
+		chainId: 1,
+		decimals: 18,
+		name: "Mithril Share",
 		symbol: "MIS"
 	},
 	{
@@ -30512,6 +30512,13 @@ var tokens = [
 		decimals: 18,
 		name: "Pepedex",
 		symbol: "PPDEX"
+	},
+	{
+		address: "0x95f49ae439537e50CED0374c1B52C42AA899741C",
+		chainId: 1,
+		decimals: 9,
+		name: "Puppies Network",
+		symbol: "PPN"
 	},
 	{
 		address: "0xc42209aCcC14029c1012fB5680D95fBd6036E2a0",
@@ -39313,17 +39320,17 @@ var tokens = [
 		symbol: "TRAT"
 	},
 	{
-		address: "0x901F8679a6EF435d533732f5eA49bb82d568BE99",
-		chainId: 1,
-		decimals: 18,
-		name: "Trebit Network",
-		symbol: "TRB"
-	},
-	{
 		address: "0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0",
 		chainId: 1,
 		decimals: 18,
 		name: "Tellor",
+		symbol: "TRB"
+	},
+	{
+		address: "0x901F8679a6EF435d533732f5eA49bb82d568BE99",
+		chainId: 1,
+		decimals: 18,
+		name: "Trebit Network",
 		symbol: "TRB"
 	},
 	{
