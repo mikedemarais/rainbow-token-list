@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-13T08:23:25.990Z";
+var timestamp = "2021-08-13T09:21:10.942Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -349,17 +349,17 @@ var tokens = [
 		symbol: "A5T"
 	},
 	{
-		address: "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
-		chainId: 1,
-		decimals: 10,
-		name: "AAAchain",
-		symbol: "AAA"
-	},
-	{
 		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
 		chainId: 1,
 		decimals: 18,
 		name: "Moon Rabbit",
+		symbol: "AAA"
+	},
+	{
+		address: "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
+		chainId: 1,
+		decimals: 10,
+		name: "AAAchain",
 		symbol: "AAA"
 	},
 	{
@@ -16241,13 +16241,6 @@ var tokens = [
 		decimals: 9,
 		name: "Football Inu",
 		symbol: "FINU"
-	},
-	{
-		address: "0x3F8A2f7bcD70e7F7Bdd3FbB079c11d073588DEA2",
-		chainId: 1,
-		decimals: 18,
-		name: "FIRE",
-		symbol: "FIRE"
 	},
 	{
 		address: "0xF921ae2DAC5fa128DC0F6168Bf153ea0943d2D43",
