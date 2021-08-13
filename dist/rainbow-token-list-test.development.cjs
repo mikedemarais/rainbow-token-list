@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-13T18:25:17.902Z";
+var timestamp = "2021-08-13T19:16:19.478Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -3512,17 +3512,17 @@ var tokens = [
 		symbol: "AXIAV3"
 	},
 	{
-		address: "0xF0c5831EC3Da15f3696B4DAd8B21c7Ce2f007f28",
-		chainId: 1,
-		decimals: 8,
-		name: "AXIS Token",
-		symbol: "AXIS"
-	},
-	{
 		address: "0xecC0F1F860a82aB3b442382D93853C02d6384389",
 		chainId: 1,
 		decimals: 18,
 		name: "Axis DeFi",
+		symbol: "AXIS"
+	},
+	{
+		address: "0xF0c5831EC3Da15f3696B4DAd8B21c7Ce2f007f28",
+		chainId: 1,
+		decimals: 8,
+		name: "AXIS Token",
 		symbol: "AXIS"
 	},
 	{
@@ -25554,7 +25554,10 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "Minds",
-		symbol: "MINDS"
+		symbol: "MINDS",
+		extensions: {
+			isVerified: true
+		}
 	},
 	{
 		address: "0x4D953cf077c0C95Ba090226E59A18FcF97db44EC",
@@ -33330,7 +33333,7 @@ var tokens = [
 		address: "0xE94B97b6b43639E238c851A7e693F50033EfD75C",
 		chainId: 1,
 		decimals: 18,
-		name: "Rainbow Token",
+		name: "HaloDAO",
 		symbol: "RNBW"
 	},
 	{
@@ -45777,6 +45780,13 @@ var tokens = [
 		symbol: "XEURO"
 	},
 	{
+		address: "0xE4E822C0d5b329E8BB637972467d2E313824eFA0",
+		chainId: 1,
+		decimals: 18,
+		name: "Dfinance",
+		symbol: "XFI"
+	},
+	{
 		address: "0x5BEfBB272290dD5b8521D4a938f6c4757742c430",
 		chainId: 1,
 		decimals: 18,
@@ -45785,13 +45795,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0xE4E822C0d5b329E8BB637972467d2E313824eFA0",
-		chainId: 1,
-		decimals: 18,
-		name: "Dfinance",
-		symbol: "XFI"
 	},
 	{
 		address: "0x1fa21b20222076D7465fb901E5f459289c95F66a",
@@ -46385,17 +46388,17 @@ var tokens = [
 		symbol: "XT"
 	},
 	{
-		address: "0x7F3EDcdD180Dbe4819Bd98FeE8929b5cEdB3AdEB",
-		chainId: 1,
-		decimals: 18,
-		name: "xToken",
-		symbol: "XTK"
-	},
-	{
 		address: "0xBFf0E42EEC4223fBd12260F47f3348D29876db42",
 		chainId: 1,
 		decimals: 6,
 		name: "Xtake",
+		symbol: "XTK"
+	},
+	{
+		address: "0x7F3EDcdD180Dbe4819Bd98FeE8929b5cEdB3AdEB",
+		chainId: 1,
+		decimals: 18,
+		name: "xToken",
 		symbol: "XTK"
 	},
 	{
