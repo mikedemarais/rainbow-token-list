@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-13T10:22:49.869Z";
+var timestamp = "2021-08-13T11:16:48.755Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -2516,13 +2516,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x1cCEEd434A7a64D1D8F9Bb719fE0D29CBba9F120",
-		chainId: 1,
-		decimals: 3,
-		name: "Arix",
-		symbol: "ARIX"
 	},
 	{
 		address: "0xA9248F8e40d4b9c3Ca8ebd8E07E9BCB942C616d8",
@@ -6096,6 +6089,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xBe46985EE59830E18C02Dfa143000Dba7AC967dd",
+		chainId: 1,
+		decimals: 9,
+		name: "BabyPenguin",
+		symbol: "BPENG"
 	},
 	{
 		address: "0x426FC8BE95573230f6e6bc4af91873F0c67b21b4",
@@ -22871,6 +22871,13 @@ var tokens = [
 		symbol: "KRW-G"
 	},
 	{
+		address: "0xf54B304e2e4b28c7E46619D1A340F9b2B72383D7",
+		chainId: 1,
+		decimals: 18,
+		name: "Kranz Token",
+		symbol: "KRZ"
+	},
+	{
 		address: "0x990E081A7B7d3Ccba26a2f49746A68CC4fF73280",
 		chainId: 1,
 		decimals: 18,
@@ -35844,17 +35851,17 @@ var tokens = [
 		symbol: "SMT"
 	},
 	{
-		address: "0x21f15966E07a10554C364b988e91DaB01D32794A",
-		chainId: 1,
-		decimals: 18,
-		name: "SmartMesh",
-		symbol: "SMT"
-	},
-	{
 		address: "0xB17548c7B510427baAc4e267BEa62e800b247173",
 		chainId: 1,
 		decimals: 18,
 		name: "Swarm Markets",
+		symbol: "SMT"
+	},
+	{
+		address: "0x21f15966E07a10554C364b988e91DaB01D32794A",
+		chainId: 1,
+		decimals: 18,
+		name: "SmartMesh",
 		symbol: "SMT"
 	},
 	{
@@ -39369,17 +39376,17 @@ var tokens = [
 		symbol: "TRAT"
 	},
 	{
-		address: "0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0",
-		chainId: 1,
-		decimals: 18,
-		name: "Tellor",
-		symbol: "TRB"
-	},
-	{
 		address: "0x901F8679a6EF435d533732f5eA49bb82d568BE99",
 		chainId: 1,
 		decimals: 18,
 		name: "Trebit Network",
+		symbol: "TRB"
+	},
+	{
+		address: "0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0",
+		chainId: 1,
+		decimals: 18,
+		name: "Tellor",
 		symbol: "TRB"
 	},
 	{
@@ -43838,17 +43845,17 @@ var tokens = [
 		symbol: "VNS"
 	},
 	{
-		address: "0x69d2779533a4D2c780639713558B2cC98c46A9b7",
-		chainId: 1,
-		decimals: 8,
-		name: "VNT Chain",
-		symbol: "VNT"
-	},
-	{
 		address: "0xe912b8bA2513D7e29b7b2E5B14398dbf77503Fb4",
 		chainId: 1,
 		decimals: 18,
 		name: "InventoryClub",
+		symbol: "VNT"
+	},
+	{
+		address: "0x69d2779533a4D2c780639713558B2cC98c46A9b7",
+		chainId: 1,
+		decimals: 8,
+		name: "VNT Chain",
 		symbol: "VNT"
 	},
 	{
