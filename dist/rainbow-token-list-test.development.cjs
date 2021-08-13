@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-13T14:18:27.708Z";
+var timestamp = "2021-08-13T15:23:33.605Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -356,17 +356,17 @@ var tokens = [
 		symbol: "AAA"
 	},
 	{
-		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
-		chainId: 1,
-		decimals: 18,
-		name: "Moon Rabbit",
-		symbol: "AAA"
-	},
-	{
 		address: "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
 		chainId: 1,
 		decimals: 8,
 		name: "Abulaba",
+		symbol: "AAA"
+	},
+	{
+		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
+		chainId: 1,
+		decimals: 18,
+		name: "Moon Rabbit",
 		symbol: "AAA"
 	},
 	{
@@ -2853,17 +2853,17 @@ var tokens = [
 		symbol: "ASY"
 	},
 	{
-		address: "0xbf8fB919A8bbF28e590852AeF2D284494eBC0657",
-		chainId: 1,
-		decimals: 18,
-		name: "ABCC Token",
-		symbol: "AT"
-	},
-	{
 		address: "0xE54B3458C47E44C37a267E7C633AFEF88287C294",
 		chainId: 1,
 		decimals: 5,
 		name: "Artfinity Token",
+		symbol: "AT"
+	},
+	{
+		address: "0xbf8fB919A8bbF28e590852AeF2D284494eBC0657",
+		chainId: 1,
+		decimals: 18,
+		name: "ABCC Token",
 		symbol: "AT"
 	},
 	{
@@ -8706,6 +8706,13 @@ var tokens = [
 		symbol: "CLT"
 	},
 	{
+		address: "0x80C62FE4487E1351b47Ba49809EBD60ED085bf52",
+		chainId: 1,
+		decimals: 18,
+		name: "Clover Finance",
+		symbol: "CLV"
+	},
+	{
 		address: "0x22222C03318440305aC3e8a7820563d6A9FD777F",
 		chainId: 1,
 		decimals: 6,
@@ -8714,13 +8721,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x80C62FE4487E1351b47Ba49809EBD60ED085bf52",
-		chainId: 1,
-		decimals: 18,
-		name: "Clover Finance",
-		symbol: "CLV"
 	},
 	{
 		address: "0xC52e23194476B1dD39408cB0B9D935dA8e6Db3d6",
@@ -9075,17 +9075,17 @@ var tokens = [
 		symbol: "COIN"
 	},
 	{
-		address: "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
-		chainId: 1,
-		decimals: 18,
-		name: "Coin",
-		symbol: "COIN"
-	},
-	{
 		address: "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
 		chainId: 1,
 		decimals: 18,
 		name: "Coin Artist",
+		symbol: "COIN"
+	},
+	{
+		address: "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
+		chainId: 1,
+		decimals: 18,
+		name: "Coin",
 		symbol: "COIN"
 	},
 	{
@@ -35851,17 +35851,17 @@ var tokens = [
 		symbol: "SMT"
 	},
 	{
-		address: "0x21f15966E07a10554C364b988e91DaB01D32794A",
-		chainId: 1,
-		decimals: 18,
-		name: "SmartMesh",
-		symbol: "SMT"
-	},
-	{
 		address: "0xB17548c7B510427baAc4e267BEa62e800b247173",
 		chainId: 1,
 		decimals: 18,
 		name: "Swarm Markets",
+		symbol: "SMT"
+	},
+	{
+		address: "0x21f15966E07a10554C364b988e91DaB01D32794A",
+		chainId: 1,
+		decimals: 18,
+		name: "SmartMesh",
 		symbol: "SMT"
 	},
 	{
