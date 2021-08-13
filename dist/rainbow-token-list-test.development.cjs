@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-13T16:31:46.083Z";
+var timestamp = "2021-08-13T17:24:27.737Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -39373,17 +39373,17 @@ var tokens = [
 		symbol: "TRAT"
 	},
 	{
-		address: "0x901F8679a6EF435d533732f5eA49bb82d568BE99",
-		chainId: 1,
-		decimals: 18,
-		name: "Trebit Network",
-		symbol: "TRB"
-	},
-	{
 		address: "0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0",
 		chainId: 1,
 		decimals: 18,
 		name: "Tellor",
+		symbol: "TRB"
+	},
+	{
+		address: "0x901F8679a6EF435d533732f5eA49bb82d568BE99",
+		chainId: 1,
+		decimals: 18,
+		name: "Trebit Network",
 		symbol: "TRB"
 	},
 	{
@@ -45777,13 +45777,6 @@ var tokens = [
 		symbol: "XEURO"
 	},
 	{
-		address: "0xE4E822C0d5b329E8BB637972467d2E313824eFA0",
-		chainId: 1,
-		decimals: 18,
-		name: "Dfinance",
-		symbol: "XFI"
-	},
-	{
 		address: "0x5BEfBB272290dD5b8521D4a938f6c4757742c430",
 		chainId: 1,
 		decimals: 18,
@@ -45792,6 +45785,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xE4E822C0d5b329E8BB637972467d2E313824eFA0",
+		chainId: 1,
+		decimals: 18,
+		name: "Dfinance",
+		symbol: "XFI"
 	},
 	{
 		address: "0x1fa21b20222076D7465fb901E5f459289c95F66a",
