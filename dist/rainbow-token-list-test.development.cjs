@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-13T02:29:35.251Z";
+var timestamp = "2021-08-13T03:22:25.524Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -356,17 +356,17 @@ var tokens = [
 		symbol: "AAA"
 	},
 	{
-		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
-		chainId: 1,
-		decimals: 18,
-		name: "Moon Rabbit",
-		symbol: "AAA"
-	},
-	{
 		address: "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
 		chainId: 1,
 		decimals: 8,
 		name: "Abulaba",
+		symbol: "AAA"
+	},
+	{
+		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
+		chainId: 1,
+		decimals: 18,
+		name: "Moon Rabbit",
 		symbol: "AAA"
 	},
 	{
@@ -8699,6 +8699,13 @@ var tokens = [
 		symbol: "CLT"
 	},
 	{
+		address: "0x80C62FE4487E1351b47Ba49809EBD60ED085bf52",
+		chainId: 1,
+		decimals: 18,
+		name: "Clover Finance",
+		symbol: "CLV"
+	},
+	{
 		address: "0x22222C03318440305aC3e8a7820563d6A9FD777F",
 		chainId: 1,
 		decimals: 6,
@@ -8707,13 +8714,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x80C62FE4487E1351b47Ba49809EBD60ED085bf52",
-		chainId: 1,
-		decimals: 18,
-		name: "Clover Finance",
-		symbol: "CLV"
 	},
 	{
 		address: "0xC52e23194476B1dD39408cB0B9D935dA8e6Db3d6",
@@ -10283,6 +10283,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0xB00b1e52BDf518FF9d0B16084F4fBE16bA58a0e7",
+		chainId: 1,
+		decimals: 9,
+		name: "Cryptographic Ultra",
+		symbol: "CUM"
 	},
 	{
 		address: "0xd6327ce1fb9D6020E8C2c0E124A1eC23DCAb7536",
@@ -34028,6 +34035,13 @@ var tokens = [
 		symbol: "SAN"
 	},
 	{
+		address: "0x87CDc02f0812f08Cd50F946793706fAD9c265e2d",
+		chainId: 1,
+		decimals: 16,
+		name: "Storage Area Networ",
+		symbol: "SANA"
+	},
+	{
 		address: "0x3845badAde8e6dFF049820680d1F14bD3903a5d0",
 		chainId: 1,
 		decimals: 18,
@@ -37553,6 +37567,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x8287C7b963b405b7B8D467DB9d79eEC40625b13A",
+		chainId: 1,
+		decimals: 18,
+		name: "Swingby",
+		symbol: "SWINGBY"
 	},
 	{
 		address: "0x13D71cfC90A83CD1cC0E59675c3F4b90d4162a8B",
