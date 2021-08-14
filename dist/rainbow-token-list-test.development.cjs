@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-14T11:16:41.399Z";
+var timestamp = "2021-08-14T12:31:58.436Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -21129,17 +21129,17 @@ var tokens = [
 		symbol: "INTX"
 	},
 	{
-		address: "0xF32aa187d5Bc16A2C02A6aFb7Df1459d0D107574",
-		chainId: 1,
-		decimals: 18,
-		name: "Hachiko Inu Token",
-		symbol: "INU"
-	},
-	{
 		address: "0x00F29171D7bCDC464a0758cF3217fE83173772b9",
 		chainId: 1,
 		decimals: 9,
 		name: "INU Token",
+		symbol: "INU"
+	},
+	{
+		address: "0xF32aa187d5Bc16A2C02A6aFb7Df1459d0D107574",
+		chainId: 1,
+		decimals: 18,
+		name: "Hachiko Inu Token",
 		symbol: "INU"
 	},
 	{
@@ -38753,7 +38753,7 @@ var tokens = [
 		symbol: "TKA"
 	},
 	{
-		address: "0xC626d951Eff8E421448074bd2aD7805C6D585793",
+		address: "0x24E89bDf2f65326b94E36978A7EDeAc63623DAFA",
 		chainId: 1,
 		decimals: 18,
 		name: "Tiger King",
