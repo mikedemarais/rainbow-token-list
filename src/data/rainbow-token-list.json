@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-08-14T22:20:01.543Z",
+  "timestamp": "2021-08-14T23:20:01.379Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -344,17 +344,17 @@
       "symbol": "AAA"
     },
     {
-      "address": "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Moon Rabbit",
-      "symbol": "AAA"
-    },
-    {
       "address": "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
       "chainId": 1,
       "decimals": 8,
       "name": "Abulaba",
+      "symbol": "AAA"
+    },
+    {
+      "address": "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Moon Rabbit",
       "symbol": "AAA"
     },
     {
@@ -4360,13 +4360,6 @@
       }
     },
     {
-      "address": "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "BlockchainPoland",
-      "symbol": "BCP"
-    },
-    {
       "address": "0xd26fb114401Ec86887CD09F62eccd95fCf20B571",
       "chainId": 1,
       "decimals": 8,
@@ -4375,6 +4368,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "BlockchainPoland",
+      "symbol": "BCP"
     },
     {
       "address": "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
@@ -4625,6 +4625,13 @@
       "decimals": 18,
       "name": "BEE Coin",
       "symbol": "BEE"
+    },
+    {
+      "address": "0x2E92864240819E2286d440B0c477077Dd660b340",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Beer Inu",
+      "symbol": "BEER"
     },
     {
       "address": "0x74C1E4b8caE59269ec1D85D3D4F324396048F4ac",
@@ -8670,13 +8677,6 @@
       "symbol": "CLT"
     },
     {
-      "address": "0x80C62FE4487E1351b47Ba49809EBD60ED085bf52",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Clover Finance",
-      "symbol": "CLV"
-    },
-    {
       "address": "0x22222C03318440305aC3e8a7820563d6A9FD777F",
       "chainId": 1,
       "decimals": 6,
@@ -8685,6 +8685,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x80C62FE4487E1351b47Ba49809EBD60ED085bf52",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Clover Finance",
+      "symbol": "CLV"
     },
     {
       "address": "0xC52e23194476B1dD39408cB0B9D935dA8e6Db3d6",
@@ -21117,17 +21124,17 @@
       "symbol": "INTX"
     },
     {
-      "address": "0x00F29171D7bCDC464a0758cF3217fE83173772b9",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "INU Token",
-      "symbol": "INU"
-    },
-    {
       "address": "0xF32aa187d5Bc16A2C02A6aFb7Df1459d0D107574",
       "chainId": 1,
       "decimals": 18,
       "name": "Hachiko Inu Token",
+      "symbol": "INU"
+    },
+    {
+      "address": "0x00F29171D7bCDC464a0758cF3217fE83173772b9",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "INU Token",
       "symbol": "INU"
     },
     {
@@ -25565,17 +25572,17 @@
       "symbol": "MIRO"
     },
     {
-      "address": "0x024B6e7DC26F4d5579bDD936F8d7BC31f2339999",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Mithril Share",
-      "symbol": "MIS"
-    },
-    {
       "address": "0xCD1cb16a67937ff8Af5D726e2681010cE1E9891a",
       "chainId": 1,
       "decimals": 8,
       "name": "Themis",
+      "symbol": "MIS"
+    },
+    {
+      "address": "0x024B6e7DC26F4d5579bDD936F8d7BC31f2339999",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Mithril Share",
       "symbol": "MIS"
     },
     {
@@ -28084,17 +28091,17 @@
       "symbol": "OIKOS"
     },
     {
-      "address": "0xaE6eb6F6c0A1694968b9f78a4316319C27B0964b",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "PETROLEUM",
-      "symbol": "OIL"
-    },
-    {
       "address": "0x0275E1001e293C46CFe158B3702AADe0B99f88a5",
       "chainId": 1,
       "decimals": 18,
       "name": "Oiler",
+      "symbol": "OIL"
+    },
+    {
+      "address": "0xaE6eb6F6c0A1694968b9f78a4316319C27B0964b",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "PETROLEUM",
       "symbol": "OIL"
     },
     {
@@ -34072,17 +34079,17 @@
       }
     },
     {
-      "address": "0xc56b13ebbCFfa67cFb7979b900b736b3fb480D78",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "Social Activity Tok",
-      "symbol": "SAT"
-    },
-    {
       "address": "0xc9F1016d336ef77AeE75Fc11Ad64C5Ecf9121332",
       "chainId": 1,
       "decimals": 18,
       "name": "SoMee Advertising T",
+      "symbol": "SAT"
+    },
+    {
+      "address": "0xc56b13ebbCFfa67cFb7979b900b736b3fb480D78",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Social Activity Tok",
       "symbol": "SAT"
     },
     {
@@ -46327,17 +46334,17 @@
       "symbol": "XT"
     },
     {
-      "address": "0xBFf0E42EEC4223fBd12260F47f3348D29876db42",
-      "chainId": 1,
-      "decimals": 6,
-      "name": "Xtake",
-      "symbol": "XTK"
-    },
-    {
       "address": "0x7F3EDcdD180Dbe4819Bd98FeE8929b5cEdB3AdEB",
       "chainId": 1,
       "decimals": 18,
       "name": "xToken",
+      "symbol": "XTK"
+    },
+    {
+      "address": "0xBFf0E42EEC4223fBd12260F47f3348D29876db42",
+      "chainId": 1,
+      "decimals": 6,
+      "name": "Xtake",
       "symbol": "XTK"
     },
     {
