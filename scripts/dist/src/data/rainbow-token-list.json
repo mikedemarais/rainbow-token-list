@@ -1,6 +1,6 @@
 {
     "name": "Rainbow Token List",
-    "timestamp": "2021-08-14T10:22:22.033Z",
+    "timestamp": "2021-08-14T11:16:41.399Z",
     "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
     "version": {
         "major": 1,
@@ -344,17 +344,17 @@
             "symbol": "AAA"
         },
         {
-            "address": "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
-            "chainId": 1,
-            "decimals": 8,
-            "name": "Abulaba",
-            "symbol": "AAA"
-        },
-        {
             "address": "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
             "chainId": 1,
             "decimals": 18,
             "name": "Moon Rabbit",
+            "symbol": "AAA"
+        },
+        {
+            "address": "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
+            "chainId": 1,
+            "decimals": 8,
+            "name": "Abulaba",
             "symbol": "AAA"
         },
         {
@@ -1378,13 +1378,6 @@
             "decimals": 18,
             "name": "AIOZ Network",
             "symbol": "AIOZ"
-        },
-        {
-            "address": "0x44E4963f9012e7a7aEEe05b7f2caAe3419557AEA",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "AI Prediction Ecosy",
-            "symbol": "AIPE"
         },
         {
             "address": "0x27Dce1eC4d3f72C3E457Cc50354f1F975dDEf488",
@@ -2862,17 +2855,17 @@
             "symbol": "ATA"
         },
         {
-            "address": "0x72b2b8E42a10d785aBF85f3044223db8C9167bd6",
-            "chainId": 1,
-            "decimals": 10,
-            "name": "Atlantic Coin",
-            "symbol": "ATC"
-        },
-        {
             "address": "0x0eb3032bcAc2BE1fa95E296442F225edb80fc3CD",
             "chainId": 1,
             "decimals": 18,
             "name": "Aster",
+            "symbol": "ATC"
+        },
+        {
+            "address": "0x72b2b8E42a10d785aBF85f3044223db8C9167bd6",
+            "chainId": 1,
+            "decimals": 10,
+            "name": "Atlantic Coin",
             "symbol": "ATC"
         },
         {
@@ -5087,13 +5080,6 @@
             "symbol": "BIT"
         },
         {
-            "address": "0x0A2a86bb0BeE386a11291d5D01E89cDFB565df5D",
-            "chainId": 1,
-            "decimals": 0,
-            "name": "Bitcoin Bull",
-            "symbol": "BITB"
-        },
-        {
             "address": "0x08b4c866aE9D1bE56a06e0C302054B4FFe067b43",
             "chainId": 1,
             "decimals": 8,
@@ -6816,13 +6802,6 @@
             "symbol": "BTR"
         },
         {
-            "address": "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Bitrue Coin",
-            "symbol": "BTR"
-        },
-        {
             "address": "0xcce63fD31e9053c110c74CEbc37C8e358A6AA5bD",
             "chainId": 1,
             "decimals": 4,
@@ -6831,6 +6810,13 @@
             "extensions": {
                 "isVerified": true
             }
+        },
+        {
+            "address": "0xd433138d12beB9929FF6fd583DC83663eea6Aaa5",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Bitrue Coin",
+            "symbol": "BTR"
         },
         {
             "address": "0x388Fd8A5145D6EF85aAE14D494F93Df9D1c7c00C",
@@ -6918,13 +6904,6 @@
             "decimals": 18,
             "name": "BTZ by Bunz",
             "symbol": "BTZ"
-        },
-        {
-            "address": "0xCCbf21ba6EF00802AB06637896B799f7101F54A2",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Budbo",
-            "symbol": "BUBO"
         },
         {
             "address": "0xCa3c18a65b802eC267f8f4802545e7F53D24C75e",
@@ -9060,17 +9039,17 @@
             "symbol": "COIN"
         },
         {
-            "address": "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Coin Artist",
-            "symbol": "COIN"
-        },
-        {
             "address": "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
             "chainId": 1,
             "decimals": 18,
             "name": "Coin",
+            "symbol": "COIN"
+        },
+        {
+            "address": "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Coin Artist",
             "symbol": "COIN"
         },
         {
@@ -14174,17 +14153,17 @@
             }
         },
         {
-            "address": "0xf0C6521b1F8ad9C33a99Aaf056F6C6247A3862BA",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "ETH limiteD",
-            "symbol": "ELD"
-        },
-        {
             "address": "0x796E47B85A0d759F300f1de96A3583004235D4D8",
             "chainId": 1,
             "decimals": 18,
             "name": "Electrum Dark",
+            "symbol": "ELD"
+        },
+        {
+            "address": "0xf0C6521b1F8ad9C33a99Aaf056F6C6247A3862BA",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "ETH limiteD",
             "symbol": "ELD"
         },
         {
@@ -15783,13 +15762,6 @@
             "symbol": "EZT"
         },
         {
-            "address": "0x78a2a1029E3168b49d3A276C787050fF5106dCF2",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "EZOOW",
-            "symbol": "EZW"
-        },
-        {
             "address": "0x9E8bfE46f9Af27c5Ea5C9C72b86D71bb86953A0c",
             "chainId": 1,
             "decimals": 18,
@@ -16804,13 +16776,6 @@
             "chainId": 1,
             "decimals": 18,
             "name": "FINPLE",
-            "symbol": "FPT"
-        },
-        {
-            "address": "0x084Da5a9C0e3f086532b98d8568432349b89d9DF",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "FUUPAY",
             "symbol": "FPT"
         },
         {
@@ -25248,17 +25213,17 @@
             "symbol": "META"
         },
         {
-            "address": "0xDE2F7766C8BF14CA67193128535E5c7454f8387C",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Metadium",
-            "symbol": "META"
-        },
-        {
             "address": "0x8807e69dC04155AF64172Cd6f0B4738F8068D0D4",
             "chainId": 1,
             "decimals": 18,
             "name": "Meta Network",
+            "symbol": "META"
+        },
+        {
+            "address": "0xDE2F7766C8BF14CA67193128535E5c7454f8387C",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Metadium",
             "symbol": "META"
         },
         {
@@ -25600,17 +25565,17 @@
             "symbol": "MIRO"
         },
         {
-            "address": "0xCD1cb16a67937ff8Af5D726e2681010cE1E9891a",
-            "chainId": 1,
-            "decimals": 8,
-            "name": "Themis",
-            "symbol": "MIS"
-        },
-        {
             "address": "0x024B6e7DC26F4d5579bDD936F8d7BC31f2339999",
             "chainId": 1,
             "decimals": 18,
             "name": "Mithril Share",
+            "symbol": "MIS"
+        },
+        {
+            "address": "0xCD1cb16a67937ff8Af5D726e2681010cE1E9891a",
+            "chainId": 1,
+            "decimals": 8,
+            "name": "Themis",
             "symbol": "MIS"
         },
         {
@@ -28126,17 +28091,17 @@
             "symbol": "OIL"
         },
         {
-            "address": "0xA29a8e360C0CbA25A3719763fde43A1eE570271d",
-            "chainId": 1,
-            "decimals": 8,
-            "name": "OILage",
-            "symbol": "OIL"
-        },
-        {
             "address": "0x0275E1001e293C46CFe158B3702AADe0B99f88a5",
             "chainId": 1,
             "decimals": 18,
             "name": "Oiler",
+            "symbol": "OIL"
+        },
+        {
+            "address": "0xA29a8e360C0CbA25A3719763fde43A1eE570271d",
+            "chainId": 1,
+            "decimals": 8,
+            "name": "OILage",
             "symbol": "OIL"
         },
         {
@@ -34107,13 +34072,6 @@
             }
         },
         {
-            "address": "0x1F0F468Ee03A6D99CD8A09dd071494a83Dc1c0e5",
-            "chainId": 1,
-            "decimals": 4,
-            "name": "SmartX",
-            "symbol": "SAT"
-        },
-        {
             "address": "0xc56b13ebbCFfa67cFb7979b900b736b3fb480D78",
             "chainId": 1,
             "decimals": 8,
@@ -34125,6 +34083,13 @@
             "chainId": 1,
             "decimals": 18,
             "name": "SoMee Advertising T",
+            "symbol": "SAT"
+        },
+        {
+            "address": "0x1F0F468Ee03A6D99CD8A09dd071494a83Dc1c0e5",
+            "chainId": 1,
+            "decimals": 4,
+            "name": "SmartX",
             "symbol": "SAT"
         },
         {
@@ -35225,6 +35190,13 @@
             "symbol": "SHO"
         },
         {
+            "address": "0x322080Dae6752ee02F2fb8850bD4A75B9F3C1371",
+            "chainId": 1,
+            "decimals": 9,
+            "name": "Shiba Chocolate",
+            "symbol": "SHOCO"
+        },
+        {
             "address": "0xec0bF0e934D092D31E769e8C9722FFbaA582Db3B",
             "chainId": 1,
             "decimals": 9,
@@ -35570,7 +35542,7 @@
             "address": "0x7297862B9670fF015192799cc849726c88bf1d77",
             "chainId": 1,
             "decimals": 18,
-            "name": "SkyMap",
+            "name": "Skymap Token",
             "symbol": "SKYM"
         },
         {
@@ -36747,17 +36719,17 @@
             "symbol": "STARL"
         },
         {
-            "address": "0x7CCFeEF4F0Ff48B0E0abD19bBBebae90939f180D",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "StarShip Token",
-            "symbol": "STARS"
-        },
-        {
             "address": "0xc55c2175E90A46602fD42e931f62B3Acc1A013Ca",
             "chainId": 1,
             "decimals": 18,
             "name": "Mogul Productions",
+            "symbol": "STARS"
+        },
+        {
+            "address": "0x7CCFeEF4F0Ff48B0E0abD19bBBebae90939f180D",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "StarShip Token",
             "symbol": "STARS"
         },
         {
@@ -36921,13 +36893,6 @@
             "decimals": 18,
             "name": "Stablecoinswap",
             "symbol": "STL"
-        },
-        {
-            "address": "0x3D1BE3fEf769399CcE7e504E85324d622F23Cf85",
-            "chainId": 1,
-            "decimals": 9,
-            "name": "Tulip Seed",
-            "symbol": "STLP"
         },
         {
             "address": "0x302ce6674A16b54bA1B8A49FED64C471EdE6C174",
@@ -37556,13 +37521,6 @@
             "decimals": 18,
             "name": "Scanetchain",
             "symbol": "SWC"
-        },
-        {
-            "address": "0x4d07FDd4BAe81cE2c8b1B76F4db2064c35d7851E",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "SWE Token",
-            "symbol": "SWET"
         },
         {
             "address": "0xBa21Ef4c9f433Ede00badEFcC2754B8E74bd538A",
@@ -43639,13 +43597,6 @@
             "symbol": "VIEW"
         },
         {
-            "address": "0x0D5BB28972e0b2d63732F558b4Af265AA5407467",
-            "chainId": 1,
-            "decimals": 4,
-            "name": "7Chain",
-            "symbol": "VII"
-        },
-        {
             "address": "0xd2946be786F35c3Cc402C29b323647aBda799071",
             "chainId": 1,
             "decimals": 8,
@@ -44779,17 +44730,17 @@
             "symbol": "WILD"
         },
         {
-            "address": "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "Wilder World",
-            "symbol": "WILD"
-        },
-        {
             "address": "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
             "chainId": 1,
             "decimals": 18,
             "name": "Wild Credit",
+            "symbol": "WILD"
+        },
+        {
+            "address": "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Wilder World",
             "symbol": "WILD"
         },
         {
