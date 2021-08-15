@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-15T15:22:48.361Z";
+var timestamp = "2021-08-15T16:30:50.034Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -4355,6 +4355,13 @@ var tokens = [
 		symbol: "BCNT"
 	},
 	{
+		address: "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
+		chainId: 1,
+		decimals: 18,
+		name: "BlockchainPoland",
+		symbol: "BCP"
+	},
+	{
 		address: "0xE4f726Adc8e89C6a6017F01eadA77865dB22dA14",
 		chainId: 1,
 		decimals: 18,
@@ -4363,13 +4370,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
-		chainId: 1,
-		decimals: 18,
-		name: "BlockchainPoland",
-		symbol: "BCP"
 	},
 	{
 		address: "0xd26fb114401Ec86887CD09F62eccd95fCf20B571",
@@ -14165,17 +14165,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x796E47B85A0d759F300f1de96A3583004235D4D8",
-		chainId: 1,
-		decimals: 18,
-		name: "Electrum Dark",
-		symbol: "ELD"
-	},
-	{
 		address: "0xf0C6521b1F8ad9C33a99Aaf056F6C6247A3862BA",
 		chainId: 1,
 		decimals: 18,
 		name: "ETH limiteD",
+		symbol: "ELD"
+	},
+	{
+		address: "0x796E47B85A0d759F300f1de96A3583004235D4D8",
+		chainId: 1,
+		decimals: 18,
+		name: "Electrum Dark",
 		symbol: "ELD"
 	},
 	{
@@ -21122,17 +21122,17 @@ var tokens = [
 		symbol: "INTX"
 	},
 	{
-		address: "0xF32aa187d5Bc16A2C02A6aFb7Df1459d0D107574",
-		chainId: 1,
-		decimals: 18,
-		name: "Hachiko Inu Token",
-		symbol: "INU"
-	},
-	{
 		address: "0x00F29171D7bCDC464a0758cF3217fE83173772b9",
 		chainId: 1,
 		decimals: 9,
 		name: "INU Token",
+		symbol: "INU"
+	},
+	{
+		address: "0xF32aa187d5Bc16A2C02A6aFb7Df1459d0D107574",
+		chainId: 1,
+		decimals: 18,
+		name: "Hachiko Inu Token",
 		symbol: "INU"
 	},
 	{
@@ -33803,6 +33803,13 @@ var tokens = [
 		symbol: "RZN"
 	},
 	{
+		address: "0x23b8b512175590a76FFf32C6F06a7Ef1ce4724C7",
+		chainId: 1,
+		decimals: 9,
+		name: "Rezerve",
+		symbol: "RZRV"
+	},
+	{
 		address: "0x96B0bF939D9460095C15251F71Fda11e41DcBddB",
 		chainId: 1,
 		decimals: 18,
@@ -46332,17 +46339,17 @@ var tokens = [
 		symbol: "XT"
 	},
 	{
-		address: "0x7F3EDcdD180Dbe4819Bd98FeE8929b5cEdB3AdEB",
-		chainId: 1,
-		decimals: 18,
-		name: "xToken",
-		symbol: "XTK"
-	},
-	{
 		address: "0xBFf0E42EEC4223fBd12260F47f3348D29876db42",
 		chainId: 1,
 		decimals: 6,
 		name: "Xtake",
+		symbol: "XTK"
+	},
+	{
+		address: "0x7F3EDcdD180Dbe4819Bd98FeE8929b5cEdB3AdEB",
+		chainId: 1,
+		decimals: 18,
+		name: "xToken",
 		symbol: "XTK"
 	},
 	{
