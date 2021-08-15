@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-15T10:22:08.775Z";
+var timestamp = "2021-08-15T11:16:33.153Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -995,13 +995,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0xf8D1254FC324d2E75A5A37F5bD4CA34A20Ef460d",
-		chainId: 1,
-		decimals: 8,
-		name: "Advertisingcoin",
-		symbol: "ADVC"
 	},
 	{
 		address: "0xADE00C28244d5CE17D72E40330B1c318cD12B7c3",
@@ -4372,6 +4365,13 @@ var tokens = [
 		}
 	},
 	{
+		address: "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
+		chainId: 1,
+		decimals: 18,
+		name: "BlockchainPoland",
+		symbol: "BCP"
+	},
+	{
 		address: "0xd26fb114401Ec86887CD09F62eccd95fCf20B571",
 		chainId: 1,
 		decimals: 8,
@@ -4380,13 +4380,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
-		chainId: 1,
-		decimals: 18,
-		name: "BlockchainPoland",
-		symbol: "BCP"
 	},
 	{
 		address: "0x4612021C75809160Be60DB21fBc9D6adD0B32deF",
@@ -9058,17 +9051,17 @@ var tokens = [
 		symbol: "COIN"
 	},
 	{
-		address: "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
-		chainId: 1,
-		decimals: 18,
-		name: "Coin",
-		symbol: "COIN"
-	},
-	{
 		address: "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
 		chainId: 1,
 		decimals: 18,
 		name: "Coin Artist",
+		symbol: "COIN"
+	},
+	{
+		address: "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
+		chainId: 1,
+		decimals: 18,
+		name: "Coin",
 		symbol: "COIN"
 	},
 	{
@@ -14843,13 +14836,6 @@ var tokens = [
 		symbol: "ESPRO"
 	},
 	{
-		address: "0x24aE124c4CC33D6791F8E8B63520ed7107ac8b3e",
-		chainId: 1,
-		decimals: 18,
-		name: "Empty Set Share",
-		symbol: "ESS"
-	},
-	{
 		address: "0xfc05987bd2be489ACCF0f509E44B0145d68240f7",
 		chainId: 1,
 		decimals: 18,
@@ -14858,6 +14844,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x24aE124c4CC33D6791F8E8B63520ed7107ac8b3e",
+		chainId: 1,
+		decimals: 18,
+		name: "Empty Set Share",
+		symbol: "ESS"
 	},
 	{
 		address: "0xF3924dF14812B3D3dB29124AA9DA4353Ed5e04A3",
@@ -17449,13 +17442,6 @@ var tokens = [
 		chainId: 1,
 		decimals: 18,
 		name: "GBT",
-		symbol: "GBT"
-	},
-	{
-		address: "0x30634241d3A7FbCea55f0Ba7dF42dFD8CDd8B2Cd",
-		chainId: 1,
-		decimals: 18,
-		name: "Grabity",
 		symbol: "GBT"
 	},
 	{
@@ -24881,17 +24867,17 @@ var tokens = [
 		symbol: "MBS"
 	},
 	{
-		address: "0x7e8C149f70437eba6785f9059190A5b08aBf03dE",
-		chainId: 1,
-		decimals: 8,
-		name: "MiniBitcoin",
-		symbol: "MBTC"
-	},
-	{
 		address: "0x945Facb997494CC2570096c74b5F66A3507330a1",
 		chainId: 1,
 		decimals: 18,
 		name: "mStable BTC",
+		symbol: "MBTC"
+	},
+	{
+		address: "0x7e8C149f70437eba6785f9059190A5b08aBf03dE",
+		chainId: 1,
+		decimals: 8,
+		name: "MiniBitcoin",
 		symbol: "MBTC"
 	},
 	{
@@ -28103,17 +28089,17 @@ var tokens = [
 		symbol: "OIKOS"
 	},
 	{
-		address: "0x0275E1001e293C46CFe158B3702AADe0B99f88a5",
-		chainId: 1,
-		decimals: 18,
-		name: "Oiler",
-		symbol: "OIL"
-	},
-	{
 		address: "0xaE6eb6F6c0A1694968b9f78a4316319C27B0964b",
 		chainId: 1,
 		decimals: 18,
 		name: "PETROLEUM",
+		symbol: "OIL"
+	},
+	{
+		address: "0x0275E1001e293C46CFe158B3702AADe0B99f88a5",
+		chainId: 1,
+		decimals: 18,
+		name: "Oiler",
 		symbol: "OIL"
 	},
 	{
@@ -34091,17 +34077,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0xc9F1016d336ef77AeE75Fc11Ad64C5Ecf9121332",
-		chainId: 1,
-		decimals: 18,
-		name: "SoMee Advertising T",
-		symbol: "SAT"
-	},
-	{
 		address: "0xc56b13ebbCFfa67cFb7979b900b736b3fb480D78",
 		chainId: 1,
 		decimals: 8,
 		name: "Social Activity Tok",
+		symbol: "SAT"
+	},
+	{
+		address: "0xc9F1016d336ef77AeE75Fc11Ad64C5Ecf9121332",
+		chainId: 1,
+		decimals: 18,
+		name: "SoMee Advertising T",
 		symbol: "SAT"
 	},
 	{
@@ -35534,17 +35520,17 @@ var tokens = [
 		}
 	},
 	{
-		address: "0x012E0e6342308b247F36Ee500ECb14dc77a7a8C1",
-		chainId: 1,
-		decimals: 8,
-		name: "Sukhavati Network",
-		symbol: "SKT"
-	},
-	{
 		address: "0x82bdfb4C6F488fC47700ceF12C448a2F13F8fF4F",
 		chainId: 1,
 		decimals: 18,
 		name: "SealBlock Token",
+		symbol: "SKT"
+	},
+	{
+		address: "0x012E0e6342308b247F36Ee500ECb14dc77a7a8C1",
+		chainId: 1,
+		decimals: 8,
+		name: "Sukhavati Network",
 		symbol: "SKT"
 	},
 	{
@@ -36948,17 +36934,17 @@ var tokens = [
 		symbol: "STN"
 	},
 	{
-		address: "0xe63d6B308BCe0F6193AeC6b7E6eBa005f41e36AB",
-		chainId: 1,
-		decimals: 18,
-		name: "Stone Token",
-		symbol: "STN"
-	},
-	{
 		address: "0x592481A5F6b4F078cc303C2cDE4337dFA2d76fA0",
 		chainId: 1,
 		decimals: 18,
 		name: "Sting",
+		symbol: "STN"
+	},
+	{
+		address: "0xe63d6B308BCe0F6193AeC6b7E6eBa005f41e36AB",
+		chainId: 1,
+		decimals: 18,
+		name: "Stone Token",
 		symbol: "STN"
 	},
 	{
@@ -39341,17 +39327,17 @@ var tokens = [
 		symbol: "TRAT"
 	},
 	{
-		address: "0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0",
-		chainId: 1,
-		decimals: 18,
-		name: "Tellor",
-		symbol: "TRB"
-	},
-	{
 		address: "0x901F8679a6EF435d533732f5eA49bb82d568BE99",
 		chainId: 1,
 		decimals: 18,
 		name: "Trebit Network",
+		symbol: "TRB"
+	},
+	{
+		address: "0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0",
+		chainId: 1,
+		decimals: 18,
+		name: "Tellor",
 		symbol: "TRB"
 	},
 	{
@@ -46396,13 +46382,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x5Cc737A37A02a1B34ba8edf899aa6441765232A0",
-		chainId: 1,
-		decimals: 8,
-		name: "Burn Yield Burn",
-		symbol: "XYX"
 	},
 	{
 		address: "0x618679dF9EfCd19694BB1daa8D00718Eacfa2883",
