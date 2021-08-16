@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-16T08:23:34.346Z";
+var timestamp = "2021-08-16T09:21:31.985Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -349,6 +349,13 @@ var tokens = [
 		symbol: "A5T"
 	},
 	{
+		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
+		chainId: 1,
+		decimals: 18,
+		name: "Moon Rabbit",
+		symbol: "AAA"
+	},
+	{
 		address: "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
 		chainId: 1,
 		decimals: 10,
@@ -360,13 +367,6 @@ var tokens = [
 		chainId: 1,
 		decimals: 8,
 		name: "Abulaba",
-		symbol: "AAA"
-	},
-	{
-		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
-		chainId: 1,
-		decimals: 18,
-		name: "Moon Rabbit",
 		symbol: "AAA"
 	},
 	{
@@ -5089,6 +5089,13 @@ var tokens = [
 		symbol: "BIT"
 	},
 	{
+		address: "0x1A4b46696b2bB4794Eb3D4c26f1c55F9170fa4C5",
+		chainId: 1,
+		decimals: 18,
+		name: "BitDAO",
+		symbol: "BIT"
+	},
+	{
 		address: "0x47da42696A866CDC61A4C809A515500a242909C1",
 		chainId: 1,
 		decimals: 18,
@@ -5097,13 +5104,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x1A4b46696b2bB4794Eb3D4c26f1c55F9170fa4C5",
-		chainId: 1,
-		decimals: 18,
-		name: "BitDAO",
-		symbol: "BIT"
 	},
 	{
 		address: "0x08b4c866aE9D1bE56a06e0C302054B4FFe067b43",
@@ -23349,6 +23349,13 @@ var tokens = [
 		decimals: 18,
 		name: "Doge Killer",
 		symbol: "LEASH"
+	},
+	{
+		address: "0xFa30e62EEDcf80D47d42947fBCc034beeD5C09FE",
+		chainId: 1,
+		decimals: 18,
+		name: "Love Earth Coin",
+		symbol: "LEC"
 	},
 	{
 		address: "0x72De803b67B6AB05B61EFab2Efdcd414D16eBF6D",
@@ -44798,17 +44805,17 @@ var tokens = [
 		symbol: "WILD"
 	},
 	{
-		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
-		chainId: 1,
-		decimals: 18,
-		name: "Wild Credit",
-		symbol: "WILD"
-	},
-	{
 		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
 		chainId: 1,
 		decimals: 18,
 		name: "Wilder World",
+		symbol: "WILD"
+	},
+	{
+		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
+		chainId: 1,
+		decimals: 18,
+		name: "Wild Credit",
 		symbol: "WILD"
 	},
 	{
@@ -46271,6 +46278,13 @@ var tokens = [
 		decimals: 18,
 		name: "RougeCoin",
 		symbol: "XRGE"
+	},
+	{
+		address: "0x9287AEFe51047Ef43F68612f80BAC17745b23AeC",
+		chainId: 1,
+		decimals: 8,
+		name: "XRoad",
+		symbol: "XRI"
 	},
 	{
 		address: "0xB24754bE79281553dc1adC160ddF5Cd9b74361a4",
