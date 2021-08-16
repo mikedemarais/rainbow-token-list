@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-08-16T07:19:12.864Z",
+  "timestamp": "2021-08-16T08:23:34.346Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -10169,7 +10169,7 @@
       "symbol": "CTL"
     },
     {
-      "address": "0xaa55AC677AbfFA4aF9b798b6c138d830820D49E6",
+      "address": "0xF7e40AF830a2EcbFe72C5210C1Ca272e3Aa7cA1B",
       "chainId": 1,
       "decimals": 18,
       "name": "Cultiplan",
@@ -39378,17 +39378,17 @@
       "symbol": "TRAT"
     },
     {
-      "address": "0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Tellor",
-      "symbol": "TRB"
-    },
-    {
       "address": "0x901F8679a6EF435d533732f5eA49bb82d568BE99",
       "chainId": 1,
       "decimals": 18,
       "name": "Trebit Network",
+      "symbol": "TRB"
+    },
+    {
+      "address": "0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Tellor",
       "symbol": "TRB"
     },
     {
@@ -44107,13 +44107,6 @@
       "symbol": "VTD"
     },
     {
-      "address": "0xceb286C9604c542d3cc08b41AA6C9675B078A832",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Vortex DeFi",
-      "symbol": "VTX"
-    },
-    {
       "address": "0xd957E08ac5421E2C28510586B57d095E5094836a",
       "chainId": 1,
       "decimals": 18,
@@ -44122,6 +44115,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0xceb286C9604c542d3cc08b41AA6C9675B078A832",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Vortex DeFi",
+      "symbol": "VTX"
     },
     {
       "address": "0x677ddbd918637E5F2c79e164D402454dE7dA8619",
