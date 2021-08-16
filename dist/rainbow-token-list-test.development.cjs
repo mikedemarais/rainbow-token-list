@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-16T04:27:04.378Z";
+var timestamp = "2021-08-16T05:18:40.535Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -2320,6 +2320,13 @@ var tokens = [
 		decimals: 9,
 		name: "Aqua",
 		symbol: "AQUA"
+	},
+	{
+		address: "0x9Ac5C63dDcb93612E316ab31dFc8192bC8961988",
+		chainId: 1,
+		decimals: 18,
+		name: "Adora Token",
+		symbol: "ARA"
 	},
 	{
 		address: "0xa92E7c82B11d10716aB534051B271D2f6aEf7Df5",
@@ -11657,6 +11664,13 @@ var tokens = [
 		symbol: "DFK"
 	},
 	{
+		address: "0x09ce2B746C32528B7d864A1e3979Bd97d2f095AB",
+		chainId: 1,
+		decimals: 18,
+		name: "DeFIL",
+		symbol: "DFL"
+	},
+	{
 		address: "0x70A6D0D1561Ba98711e935a76B1C167C612978a2",
 		chainId: 1,
 		decimals: 9,
@@ -14986,6 +15000,13 @@ var tokens = [
 		symbol: "ETH26EMACO"
 	},
 	{
+		address: "0xd80776BBF68CDE466900a7214C772A7D179C420F",
+		chainId: 1,
+		decimals: 18,
+		name: "Etherean Socks",
+		symbol: "ETH2SOCKS"
+	},
+	{
 		address: "0xAa6E8127831c9DE45ae56bB1b0d4D4Da6e5665BD",
 		chainId: 1,
 		decimals: 18,
@@ -15985,6 +16006,13 @@ var tokens = [
 		decimals: 18,
 		name: "Fatcoin",
 		symbol: "FAT"
+	},
+	{
+		address: "0xFB19075D77a0F111796FB259819830F4780f1429",
+		chainId: 1,
+		decimals: 6,
+		name: "Fenerbah e Token",
+		symbol: "FB"
 	},
 	{
 		address: "0x7a9716685F852ee268Feb86Dffa562D214cC13dB",
@@ -18372,6 +18400,13 @@ var tokens = [
 		decimals: 18,
 		name: "Fear   Greed Sentim",
 		symbol: "GREED"
+	},
+	{
+		address: "0xE0A16435Df493Bd17A58CB2eE58675f5ea069517",
+		chainId: 1,
+		decimals: 18,
+		name: "Greeneum Network",
+		symbol: "GREEN"
 	},
 	{
 		address: "0x9b2D81A1AE36E8e66A0875053429816f0B6b829E",
@@ -24063,6 +24098,13 @@ var tokens = [
 		symbol: "LOK"
 	},
 	{
+		address: "0x5978708d6ccE1CC9640Eed47422D64c91BbD5171",
+		chainId: 1,
+		decimals: 18,
+		name: "LOLTOKEN",
+		symbol: "LOL"
+	},
+	{
 		address: "0x0000000000095413afC295d19EDeb1Ad7B71c952",
 		chainId: 1,
 		decimals: 18,
@@ -25577,17 +25619,17 @@ var tokens = [
 		symbol: "MIRO"
 	},
 	{
-		address: "0xCD1cb16a67937ff8Af5D726e2681010cE1E9891a",
-		chainId: 1,
-		decimals: 8,
-		name: "Themis",
-		symbol: "MIS"
-	},
-	{
 		address: "0x024B6e7DC26F4d5579bDD936F8d7BC31f2339999",
 		chainId: 1,
 		decimals: 18,
 		name: "Mithril Share",
+		symbol: "MIS"
+	},
+	{
+		address: "0xCD1cb16a67937ff8Af5D726e2681010cE1E9891a",
+		chainId: 1,
+		decimals: 8,
+		name: "Themis",
 		symbol: "MIS"
 	},
 	{
@@ -31215,6 +31257,13 @@ var tokens = [
 		symbol: "PYRO"
 	},
 	{
+		address: "0x86690e2613be52EE927d395dB87f69EBCdf88f27",
+		chainId: 1,
+		decimals: 18,
+		name: "Payzus",
+		symbol: "PZS"
+	},
+	{
 		address: "0xa31f7a32Db329F270A0E6b59558823e64D8eF0A6",
 		chainId: 1,
 		decimals: 8,
@@ -35830,17 +35879,17 @@ var tokens = [
 		symbol: "SMT"
 	},
 	{
-		address: "0x21f15966E07a10554C364b988e91DaB01D32794A",
-		chainId: 1,
-		decimals: 18,
-		name: "SmartMesh",
-		symbol: "SMT"
-	},
-	{
 		address: "0xB17548c7B510427baAc4e267BEa62e800b247173",
 		chainId: 1,
 		decimals: 18,
 		name: "Swarm Markets",
+		symbol: "SMT"
+	},
+	{
+		address: "0x21f15966E07a10554C364b988e91DaB01D32794A",
+		chainId: 1,
+		decimals: 18,
+		name: "SmartMesh",
 		symbol: "SMT"
 	},
 	{
@@ -40872,17 +40921,17 @@ var tokens = [
 		symbol: "uniFAME"
 	},
 	{
-		address: "0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5",
-		chainId: 1,
-		decimals: 18,
-		name: "Covenants",
-		symbol: "UNIFI"
-	},
-	{
 		address: "0x0eF3b2024ae079e6dBC2b37435cE30d2731F0101",
 		chainId: 1,
 		decimals: 18,
 		name: "UNIFI DeFi",
+		symbol: "UNIFI"
+	},
+	{
+		address: "0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5",
+		chainId: 1,
+		decimals: 18,
+		name: "Covenants",
 		symbol: "UNIFI"
 	},
 	{
@@ -44749,17 +44798,17 @@ var tokens = [
 		symbol: "WILD"
 	},
 	{
-		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
-		chainId: 1,
-		decimals: 18,
-		name: "Wilder World",
-		symbol: "WILD"
-	},
-	{
 		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
 		chainId: 1,
 		decimals: 18,
 		name: "Wild Credit",
+		symbol: "WILD"
+	},
+	{
+		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
+		chainId: 1,
+		decimals: 18,
+		name: "Wilder World",
 		symbol: "WILD"
 	},
 	{
