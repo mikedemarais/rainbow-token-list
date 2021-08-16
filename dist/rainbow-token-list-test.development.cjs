@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-16T02:29:03.858Z";
+var timestamp = "2021-08-16T03:22:44.219Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -2684,6 +2684,13 @@ var tokens = [
 		symbol: "ASEC"
 	},
 	{
+		address: "0x0DC5189Ec8CDe5732a01F0F592e927B304370551",
+		chainId: 1,
+		decimals: 9,
+		name: "Asgard",
+		symbol: "ASG"
+	},
+	{
 		address: "0x64D91f12Ece7362F91A6f8E7940Cd55F05060b92",
 		chainId: 1,
 		decimals: 18,
@@ -4355,13 +4362,6 @@ var tokens = [
 		symbol: "BCNT"
 	},
 	{
-		address: "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
-		chainId: 1,
-		decimals: 18,
-		name: "BlockchainPoland",
-		symbol: "BCP"
-	},
-	{
 		address: "0xE4f726Adc8e89C6a6017F01eadA77865dB22dA14",
 		chainId: 1,
 		decimals: 18,
@@ -4370,6 +4370,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x72e203a17adD19A3099137c9d7015fD3e2b7DBa9",
+		chainId: 1,
+		decimals: 18,
+		name: "BlockchainPoland",
+		symbol: "BCP"
 	},
 	{
 		address: "0xd26fb114401Ec86887CD09F62eccd95fCf20B571",
@@ -8682,6 +8689,13 @@ var tokens = [
 		symbol: "CLT"
 	},
 	{
+		address: "0x80C62FE4487E1351b47Ba49809EBD60ED085bf52",
+		chainId: 1,
+		decimals: 18,
+		name: "Clover Finance",
+		symbol: "CLV"
+	},
+	{
 		address: "0x22222C03318440305aC3e8a7820563d6A9FD777F",
 		chainId: 1,
 		decimals: 6,
@@ -8690,13 +8704,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x80C62FE4487E1351b47Ba49809EBD60ED085bf52",
-		chainId: 1,
-		decimals: 18,
-		name: "Clover Finance",
-		symbol: "CLV"
 	},
 	{
 		address: "0xC52e23194476B1dD39408cB0B9D935dA8e6Db3d6",
@@ -39334,17 +39341,17 @@ var tokens = [
 		symbol: "TRAT"
 	},
 	{
-		address: "0x901F8679a6EF435d533732f5eA49bb82d568BE99",
-		chainId: 1,
-		decimals: 18,
-		name: "Trebit Network",
-		symbol: "TRB"
-	},
-	{
 		address: "0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0",
 		chainId: 1,
 		decimals: 18,
 		name: "Tellor",
+		symbol: "TRB"
+	},
+	{
+		address: "0x901F8679a6EF435d533732f5eA49bb82d568BE99",
+		chainId: 1,
+		decimals: 18,
+		name: "Trebit Network",
 		symbol: "TRB"
 	},
 	{
@@ -40865,17 +40872,17 @@ var tokens = [
 		symbol: "uniFAME"
 	},
 	{
-		address: "0x0eF3b2024ae079e6dBC2b37435cE30d2731F0101",
-		chainId: 1,
-		decimals: 18,
-		name: "UNIFI DeFi",
-		symbol: "UNIFI"
-	},
-	{
 		address: "0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5",
 		chainId: 1,
 		decimals: 18,
 		name: "Covenants",
+		symbol: "UNIFI"
+	},
+	{
+		address: "0x0eF3b2024ae079e6dBC2b37435cE30d2731F0101",
+		chainId: 1,
+		decimals: 18,
+		name: "UNIFI DeFi",
 		symbol: "UNIFI"
 	},
 	{
@@ -44063,6 +44070,13 @@ var tokens = [
 		symbol: "VTD"
 	},
 	{
+		address: "0xceb286C9604c542d3cc08b41AA6C9675B078A832",
+		chainId: 1,
+		decimals: 18,
+		name: "Vortex DeFi",
+		symbol: "VTX"
+	},
+	{
 		address: "0xd957E08ac5421E2C28510586B57d095E5094836a",
 		chainId: 1,
 		decimals: 18,
@@ -44071,13 +44085,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0xceb286C9604c542d3cc08b41AA6C9675B078A832",
-		chainId: 1,
-		decimals: 18,
-		name: "Vortex DeFi",
-		symbol: "VTX"
 	},
 	{
 		address: "0x677ddbd918637E5F2c79e164D402454dE7dA8619",
@@ -44742,17 +44749,17 @@ var tokens = [
 		symbol: "WILD"
 	},
 	{
-		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
-		chainId: 1,
-		decimals: 18,
-		name: "Wild Credit",
-		symbol: "WILD"
-	},
-	{
 		address: "0x2a3bFF78B79A009976EeA096a51A948a3dC00e34",
 		chainId: 1,
 		decimals: 18,
 		name: "Wilder World",
+		symbol: "WILD"
+	},
+	{
+		address: "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a",
+		chainId: 1,
+		decimals: 18,
+		name: "Wild Credit",
 		symbol: "WILD"
 	},
 	{
