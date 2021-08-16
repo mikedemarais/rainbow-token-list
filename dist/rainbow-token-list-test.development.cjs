@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-16T11:23:00.325Z";
+var timestamp = "2021-08-16T12:43:27.125Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -349,17 +349,17 @@ var tokens = [
 		symbol: "A5T"
 	},
 	{
-		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
-		chainId: 1,
-		decimals: 18,
-		name: "Moon Rabbit",
-		symbol: "AAA"
-	},
-	{
 		address: "0x6AbA1623ea906D1164Cbb007E764eBde2514A2Ba",
 		chainId: 1,
 		decimals: 10,
 		name: "AAAchain",
+		symbol: "AAA"
+	},
+	{
+		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
+		chainId: 1,
+		decimals: 18,
+		name: "Moon Rabbit",
 		symbol: "AAA"
 	},
 	{
@@ -5089,6 +5089,13 @@ var tokens = [
 		symbol: "BIT"
 	},
 	{
+		address: "0x1A4b46696b2bB4794Eb3D4c26f1c55F9170fa4C5",
+		chainId: 1,
+		decimals: 18,
+		name: "BitDAO",
+		symbol: "BIT"
+	},
+	{
 		address: "0x47da42696A866CDC61A4C809A515500a242909C1",
 		chainId: 1,
 		decimals: 18,
@@ -5097,13 +5104,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x1A4b46696b2bB4794Eb3D4c26f1c55F9170fa4C5",
-		chainId: 1,
-		decimals: 18,
-		name: "BitDAO",
-		symbol: "BIT"
 	},
 	{
 		address: "0x08b4c866aE9D1bE56a06e0C302054B4FFe067b43",
@@ -8696,6 +8696,13 @@ var tokens = [
 		symbol: "CLT"
 	},
 	{
+		address: "0x80C62FE4487E1351b47Ba49809EBD60ED085bf52",
+		chainId: 1,
+		decimals: 18,
+		name: "Clover Finance",
+		symbol: "CLV"
+	},
+	{
 		address: "0x22222C03318440305aC3e8a7820563d6A9FD777F",
 		chainId: 1,
 		decimals: 6,
@@ -8704,13 +8711,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0x80C62FE4487E1351b47Ba49809EBD60ED085bf52",
-		chainId: 1,
-		decimals: 18,
-		name: "Clover Finance",
-		symbol: "CLV"
 	},
 	{
 		address: "0xC52e23194476B1dD39408cB0B9D935dA8e6Db3d6",
@@ -9065,17 +9065,17 @@ var tokens = [
 		symbol: "COIN"
 	},
 	{
-		address: "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
-		chainId: 1,
-		decimals: 18,
-		name: "Coin Artist",
-		symbol: "COIN"
-	},
-	{
 		address: "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
 		chainId: 1,
 		decimals: 18,
 		name: "Coin",
+		symbol: "COIN"
+	},
+	{
+		address: "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
+		chainId: 1,
+		decimals: 18,
+		name: "Coin Artist",
 		symbol: "COIN"
 	},
 	{
@@ -13702,13 +13702,6 @@ var tokens = [
 		decimals: 18,
 		name: "EagleCoin",
 		symbol: "EAGLE"
-	},
-	{
-		address: "0xB4742e2013f96850a5CeF850A3bB74cF63B9a5D5",
-		chainId: 1,
-		decimals: 18,
-		name: "EANTO",
-		symbol: "EAN"
 	},
 	{
 		address: "0x1cAa202Df9240D7b464D9486A6F1542768EF0D30",
@@ -26752,13 +26745,6 @@ var tokens = [
 		symbol: "MYID"
 	},
 	{
-		address: "0xc8645f0D6a622E2a9a66c1dB9d33b1a46b4462DC",
-		chainId: 1,
-		decimals: 18,
-		name: "Mykonos Coin",
-		symbol: "MYK"
-	},
-	{
 		address: "0x50987e6BE405ebac691f8988304562E5efc3B2ea",
 		chainId: 1,
 		decimals: 18,
@@ -28609,13 +28595,6 @@ var tokens = [
 		decimals: 18,
 		name: "ORAO Network",
 		symbol: "ORAO"
-	},
-	{
-		address: "0x1b7c4d4F226cCf3211B0F99c4fdfb84A2606bF8e",
-		chainId: 1,
-		decimals: 18,
-		name: "Orb V2",
-		symbol: "ORB"
 	},
 	{
 		address: "0x2De27D3432d3188b53B02137E07B47896D347D45",
@@ -33115,13 +33094,6 @@ var tokens = [
 		decimals: 8,
 		name: "Reflex",
 		symbol: "RFX"
-	},
-	{
-		address: "0x3f5Be50e4651eE184109A0b1B71D344d12e8B603",
-		chainId: 1,
-		decimals: 9,
-		name: "RFYield Finance",
-		symbol: "RFY"
 	},
 	{
 		address: "0x4AF5ff1A60a6eF6C7c8f9C4E304cD9051fCa3Ec0",
@@ -40928,17 +40900,17 @@ var tokens = [
 		symbol: "uniFAME"
 	},
 	{
-		address: "0x0eF3b2024ae079e6dBC2b37435cE30d2731F0101",
-		chainId: 1,
-		decimals: 18,
-		name: "UNIFI DeFi",
-		symbol: "UNIFI"
-	},
-	{
 		address: "0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5",
 		chainId: 1,
 		decimals: 18,
 		name: "Covenants",
+		symbol: "UNIFI"
+	},
+	{
+		address: "0x0eF3b2024ae079e6dBC2b37435cE30d2731F0101",
+		chainId: 1,
+		decimals: 18,
+		name: "UNIFI DeFi",
 		symbol: "UNIFI"
 	},
 	{
