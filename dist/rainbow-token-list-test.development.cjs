@@ -12,7 +12,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 
 var name = "Rainbow Token List";
-var timestamp = "2021-08-16T14:33:02.781Z";
+var timestamp = "2021-08-16T15:25:01.231Z";
 var logoURI = "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4";
 var version = {
 	major: 1,
@@ -356,17 +356,17 @@ var tokens = [
 		symbol: "AAA"
 	},
 	{
-		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
-		chainId: 1,
-		decimals: 18,
-		name: "Moon Rabbit",
-		symbol: "AAA"
-	},
-	{
 		address: "0xD938137E6d96c72E4a6085412aDa2daD78ff89c4",
 		chainId: 1,
 		decimals: 8,
 		name: "Abulaba",
+		symbol: "AAA"
+	},
+	{
+		address: "0x8C6bf16C273636523C29Db7DB04396143770F6A0",
+		chainId: 1,
+		decimals: 18,
+		name: "Moon Rabbit",
 		symbol: "AAA"
 	},
 	{
@@ -5089,13 +5089,6 @@ var tokens = [
 		symbol: "BIT"
 	},
 	{
-		address: "0x1A4b46696b2bB4794Eb3D4c26f1c55F9170fa4C5",
-		chainId: 1,
-		decimals: 18,
-		name: "BitDAO",
-		symbol: "BIT"
-	},
-	{
 		address: "0x47da42696A866CDC61A4C809A515500a242909C1",
 		chainId: 1,
 		decimals: 18,
@@ -5104,6 +5097,13 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
+	},
+	{
+		address: "0x1A4b46696b2bB4794Eb3D4c26f1c55F9170fa4C5",
+		chainId: 1,
+		decimals: 18,
+		name: "BitDAO",
+		symbol: "BIT"
 	},
 	{
 		address: "0x08b4c866aE9D1bE56a06e0C302054B4FFe067b43",
@@ -21157,17 +21157,17 @@ var tokens = [
 		symbol: "INTX"
 	},
 	{
-		address: "0x00F29171D7bCDC464a0758cF3217fE83173772b9",
-		chainId: 1,
-		decimals: 9,
-		name: "INU Token",
-		symbol: "INU"
-	},
-	{
 		address: "0xF32aa187d5Bc16A2C02A6aFb7Df1459d0D107574",
 		chainId: 1,
 		decimals: 18,
 		name: "Hachiko Inu Token",
+		symbol: "INU"
+	},
+	{
+		address: "0x00F29171D7bCDC464a0758cF3217fE83173772b9",
+		chainId: 1,
+		decimals: 9,
+		name: "INU Token",
 		symbol: "INU"
 	},
 	{
@@ -24419,6 +24419,13 @@ var tokens = [
 		symbol: "LUD"
 	},
 	{
+		address: "0xC1bfcCd4c29813eDe019D00D2179Eea838a67703",
+		chainId: 1,
+		decimals: 9,
+		name: "Luffy Inu",
+		symbol: "LUFFY"
+	},
+	{
 		address: "0x01cd3D9dF5869ca7954745663bd6201C571E05Cf",
 		chainId: 1,
 		decimals: 18,
@@ -26743,6 +26750,13 @@ var tokens = [
 		decimals: 18,
 		name: "My Identity Coin",
 		symbol: "MYID"
+	},
+	{
+		address: "0xC110E8D4d7F4A319A1a8f16Ca94B3AfDE7665595",
+		chainId: 1,
+		decimals: 18,
+		name: "My Lotto Coin",
+		symbol: "MYL"
 	},
 	{
 		address: "0x50987e6BE405ebac691f8988304562E5efc3B2ea",
@@ -34741,6 +34755,13 @@ var tokens = [
 		symbol: "SEPA"
 	},
 	{
+		address: "0xE71612d0A06d1fa03F581d601fEA59710b467E51",
+		chainId: 1,
+		decimals: 9,
+		name: "Serbian Cave Hermit",
+		symbol: "SERBIANCAVEHERMIT"
+	},
+	{
 		address: "0x79BA92DDA26FcE15e1e9af47D5cFdFD2A093E000",
 		chainId: 1,
 		decimals: 18,
@@ -35084,6 +35105,13 @@ var tokens = [
 		decimals: 18,
 		name: "Shadetech",
 		symbol: "SHD"
+	},
+	{
+		address: "0x9BeDCD470351CBadFFf3bD340085655bB260fDb2",
+		chainId: 1,
+		decimals: 9,
+		name: "Shed Coin",
+		symbol: "SHED"
 	},
 	{
 		address: "0x22Ef3753e3658e81D5A0d0889ce078178Fe66595",
@@ -35858,17 +35886,17 @@ var tokens = [
 		symbol: "SMT"
 	},
 	{
-		address: "0xB17548c7B510427baAc4e267BEa62e800b247173",
-		chainId: 1,
-		decimals: 18,
-		name: "Swarm Markets",
-		symbol: "SMT"
-	},
-	{
 		address: "0x21f15966E07a10554C364b988e91DaB01D32794A",
 		chainId: 1,
 		decimals: 18,
 		name: "SmartMesh",
+		symbol: "SMT"
+	},
+	{
+		address: "0xB17548c7B510427baAc4e267BEa62e800b247173",
+		chainId: 1,
+		decimals: 18,
+		name: "Swarm Markets",
 		symbol: "SMT"
 	},
 	{
@@ -44098,6 +44126,13 @@ var tokens = [
 		symbol: "VTD"
 	},
 	{
+		address: "0xceb286C9604c542d3cc08b41AA6C9675B078A832",
+		chainId: 1,
+		decimals: 18,
+		name: "Vortex DeFi",
+		symbol: "VTX"
+	},
+	{
 		address: "0xd957E08ac5421E2C28510586B57d095E5094836a",
 		chainId: 1,
 		decimals: 18,
@@ -44106,13 +44141,6 @@ var tokens = [
 		extensions: {
 			isVerified: true
 		}
-	},
-	{
-		address: "0xceb286C9604c542d3cc08b41AA6C9675B078A832",
-		chainId: 1,
-		decimals: 18,
-		name: "Vortex DeFi",
-		symbol: "VTX"
 	},
 	{
 		address: "0x677ddbd918637E5F2c79e164D402454dE7dA8619",
